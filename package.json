@@ -1,20 +1,8 @@
 {
-  "name": "antd",
-  "version": "6.3.3",
+  "name": "@guwave/ui-react",
+  "version": "0.0.1",
   "description": "An enterprise-class UI design language and React components implementation",
   "license": "MIT",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/ant-design"
-  },
-  "homepage": "https://ant.design",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
-  },
-  "bugs": {
-    "url": "https://github.com/ant-design/ant-design/issues"
-  },
   "keywords": [
     "ant",
     "component",

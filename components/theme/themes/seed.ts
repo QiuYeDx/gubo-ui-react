@@ -24,11 +24,11 @@ const seedToken: SeedToken = {
   ...defaultPresetColors,
 
   // Color
-  colorPrimary: '#1677ff',
+  colorPrimary: '#5D2DCD',
   colorSuccess: '#52c41a',
   colorWarning: '#faad14',
   colorError: '#ff4d4f',
-  colorInfo: '#1677ff',
+  colorInfo: '#5D2DCD',
   colorLink: '',
   colorTextBase: '',
 

@@ -56,7 +56,7 @@ export default defineConfig({
   extraRehypePlugins: [rehypeAntd, rehypeChangelog],
   extraRemarkPlugins: [remarkAntd, remarkAnchor],
   metas: [
-    { name: 'theme-color', content: '#1677ff' },
+    { name: 'theme-color', content: '#5D2DCD' },
     { name: 'build-time', content: Date.now().toString() },
     // https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables
     { name: 'build-hash', content: process.env.GITHUB_SHA ?? 'unknown' },
