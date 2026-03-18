@@ -46,15 +46,15 @@ describe('message', () => {
 
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(2);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(2);
 
     hide1();
     await triggerMotionEnd();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
 
     hide2();
     await triggerMotionEnd();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
   });
 
   it('should be able to remove manually with a unique key', async () => {
@@ -66,15 +66,15 @@ describe('message', () => {
 
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(2);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(2);
 
     message.destroy(key1);
     await triggerMotionEnd();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
 
     message.destroy(key2);
     await triggerMotionEnd();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
   });
 
   it('should be able to destroy globally', async () => {
@@ -83,14 +83,14 @@ describe('message', () => {
 
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message')).toHaveLength(1);
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(2);
+    expect(document.querySelectorAll('.g-message')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(2);
 
     message.destroy();
     await triggerMotionEnd();
 
-    expect(document.querySelectorAll('.ant-message')).toHaveLength(0);
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
   });
 
   it('should not need to use duration argument when using the onClose arguments', async () => {
@@ -115,12 +115,12 @@ describe('message', () => {
       jest.advanceTimersByTime(2500);
     });
 
-    expect(document.querySelector('.ant-message-move-up-leave')).toBeFalsy();
+    expect(document.querySelector('.g-message-move-up-leave')).toBeFalsy();
 
     act(() => {
       jest.advanceTimersByTime(1000);
     });
-    expect(document.querySelector('.ant-message-move-up-leave')).toBeTruthy();
+    expect(document.querySelector('.g-message-move-up-leave')).toBeTruthy();
   });
 
   it('trigger onClick method', async () => {
@@ -133,8 +133,8 @@ describe('message', () => {
 
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
-    fireEvent.click(document.querySelector('.ant-message-notice')!);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
+    fireEvent.click(document.querySelector('.g-message-notice')!);
 
     expect(onClick).toHaveBeenCalled();
   });
@@ -161,32 +161,32 @@ describe('message', () => {
     const hide = message.loading('Action in progress..', 0);
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
 
     hide!();
     await triggerMotionEnd();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
   });
 
   it('should allow custom icon', async () => {
     message.open({ content: 'Message', icon: <SmileOutlined /> });
 
     await awaitPromise();
-    expect(document.querySelector('.anticon-smile')).toBeTruthy();
+    expect(document.querySelector('.gicon-smile')).toBeTruthy();
   });
 
   it('should have no icon', async () => {
     message.open({ content: 'Message', icon: <span /> });
 
     await awaitPromise();
-    expect(document.querySelector('.ant-message-notice .anticon')).toBeFalsy();
+    expect(document.querySelector('.g-message-notice .gicon')).toBeFalsy();
   });
 
   it('should have no icon when not pass icon props', async () => {
     message.open({ content: 'Message' });
 
     await awaitPromise();
-    expect(document.querySelector('.ant-message-notice .anticon')).toBeFalsy();
+    expect(document.querySelector('.g-message-notice .gicon')).toBeFalsy();
   });
 
   // https://github.com/ant-design/ant-design/issues/8201
@@ -196,10 +196,10 @@ describe('message', () => {
     setTimeout(() => message.destroy(), 1000);
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(2);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(2);
 
     await triggerMotionEnd();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
   });
 
   it('should support update message content with a unique key', async () => {
@@ -211,16 +211,16 @@ describe('message', () => {
     setTimeout(() => message.destroy(), 3000);
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
     act(() => {
       jest.advanceTimersByTime(1500);
     });
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
-    expect(document.querySelector('.ant-message-move-up-leave')).toBeFalsy();
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
+    expect(document.querySelector('.g-message-move-up-leave')).toBeFalsy();
 
     await triggerMotionEnd();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
   });
 
   it('update message content with a unique key and cancel manually', async () => {
@@ -235,12 +235,12 @@ describe('message', () => {
       });
     }, 1000);
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
 
     act(() => {
       jest.advanceTimersByTime(1500);
     });
-    expect(document.querySelectorAll('.ant-message-move-up-leave')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-message-move-up-leave')).toHaveLength(1);
   });
 
   it('should not throw error when pass null', async () => {

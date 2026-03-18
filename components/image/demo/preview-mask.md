@@ -11,7 +11,7 @@ Custom preview mask.
   font-size: 20px;
   opacity: 1;
 }
-.customize-mask .anticon {
+.customize-mask .gicon {
   font-size: 32px;
 }
 ```

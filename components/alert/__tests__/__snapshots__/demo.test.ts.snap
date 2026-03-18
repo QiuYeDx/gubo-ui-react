@@ -3,16 +3,16 @@
 exports[`renders components/alert/demo/action.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-alert ant-alert-success css-var-test-id"
+    class="g-alert g-alert-success css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="check-circle"
-        class="anticon anticon-check-circle"
+        class="gicon gicon-check-circle"
         role="img"
       >
         <svg
@@ -31,19 +31,19 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Success Tips
       </div>
     </div>
     <div
-      class="ant-alert-actions"
+      class="g-alert-actions"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"
+        class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm"
         type="button"
       >
         <span>
@@ -52,13 +52,13 @@ Array [
       </button>
     </div>
     <button
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -80,16 +80,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-error g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -109,24 +109,24 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error Text
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Error Description Error Description Error Description Error Description
       </div>
     </div>
     <div
-      class="ant-alert-actions"
+      class="g-alert-actions"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-sm"
+        class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined g-btn-sm"
         type="button"
       >
         <span>
@@ -137,30 +137,30 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-warning g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning Text
       </div>
     </div>
     <div
-      class="ant-alert-actions"
+      class="g-alert-actions"
     >
       <div
-        class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+        class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       >
         <div
-          class="ant-space-item"
+          class="g-space-item"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm"
             type="button"
           >
             <span>
@@ -171,13 +171,13 @@ Array [
       </div>
     </div>
     <button
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -199,35 +199,35 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-info g-alert-with-description g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Info Text
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Info Description Info Description Info Description Info Description
       </div>
     </div>
     <div
-      class="ant-alert-actions"
+      class="g-alert-actions"
     >
       <div
-        class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+        class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       >
         <div
-          class="ant-space-item"
+          class="g-space-item"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+            class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
             type="button"
           >
             <span>
@@ -236,10 +236,10 @@ Array [
           </button>
         </div>
         <div
-          class="ant-space-item"
+          class="g-space-item"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-sm ant-btn-background-ghost"
+            class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined g-btn-sm g-btn-background-ghost"
             type="button"
           >
             <span>
@@ -250,13 +250,13 @@ Array [
       </div>
     </div>
     <button
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -282,16 +282,16 @@ Array [
 exports[`renders components/alert/demo/banner.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-alert ant-alert-warning ant-alert-banner css-var-test-id"
+    class="g-alert g-alert-warning g-alert-banner css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="exclamation-circle"
-        class="anticon anticon-exclamation-circle"
+        class="gicon gicon-exclamation-circle"
         role="img"
       >
         <svg
@@ -310,10 +310,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning text
       </div>
@@ -321,16 +321,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning ant-alert-banner css-var-test-id"
+    class="g-alert g-alert-warning g-alert-banner css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="exclamation-circle"
-        class="anticon anticon-exclamation-circle"
+        class="gicon gicon-exclamation-circle"
         role="img"
       >
         <svg
@@ -349,22 +349,22 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Very long warning text warning text text text text text text text
       </div>
     </div>
     <button
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -386,15 +386,15 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning ant-alert-no-icon ant-alert-banner css-var-test-id"
+    class="g-alert g-alert-warning g-alert-no-icon g-alert-banner css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning text without icon
       </div>
@@ -402,16 +402,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error ant-alert-banner css-var-test-id"
+    class="g-alert g-alert-error g-alert-banner css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -431,10 +431,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error text
       </div>
@@ -445,15 +445,15 @@ Array [
 
 exports[`renders components/alert/demo/basic.tsx correctly 1`] = `
 <div
-  class="ant-alert ant-alert-success ant-alert-no-icon css-var-test-id"
+  class="g-alert g-alert-success g-alert-no-icon css-var-test-id"
   data-show="true"
   role="alert"
 >
   <div
-    class="ant-alert-section"
+    class="g-alert-section"
   >
     <div
-      class="ant-alert-title"
+      class="g-alert-title"
     >
       Success Text
     </div>
@@ -464,28 +464,28 @@ exports[`renders components/alert/demo/basic.tsx correctly 1`] = `
 exports[`renders components/alert/demo/closable.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-alert ant-alert-warning ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-warning g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning Title
       </div>
     </div>
     <button
       aria-label="close"
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -507,28 +507,28 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-success ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-success g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Success Title
       </div>
     </div>
     <button
       aria-label="close"
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -550,28 +550,28 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-info ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-info g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Info Title
       </div>
     </div>
     <button
       aria-label="close"
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -593,28 +593,28 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-error g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error Title
       </div>
     </div>
     <button
       aria-label="close"
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -640,15 +640,15 @@ Array [
 exports[`renders components/alert/demo/custom-icon.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-alert ant-alert-success ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-success g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         showIcon = false
       </div>
@@ -656,16 +656,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-success css-var-test-id"
+    class="g-alert g-alert-success css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -684,10 +684,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Success Tips
       </div>
@@ -695,16 +695,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-info css-var-test-id"
+    class="g-alert g-alert-info css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -723,10 +723,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Informational Notes
       </div>
@@ -734,16 +734,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning css-var-test-id"
+    class="g-alert g-alert-warning css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -762,10 +762,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning
       </div>
@@ -773,16 +773,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error css-var-test-id"
+    class="g-alert g-alert-error css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -801,10 +801,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error
       </div>
@@ -812,16 +812,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-success ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-success g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -840,15 +840,15 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Success Tips
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Detailed description and advice about successful copywriting.
       </div>
@@ -856,16 +856,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-info ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-info g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -884,15 +884,15 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Informational Notes
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Additional description and information about copywriting.
       </div>
@@ -900,16 +900,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-warning g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -928,15 +928,15 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         This is a warning notice about copywriting.
       </div>
@@ -944,16 +944,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-error g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -972,15 +972,15 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         This is an error message about copywriting.
       </div>
@@ -992,20 +992,20 @@ Array [
 exports[`renders components/alert/demo/description.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-alert ant-alert-success ant-alert-with-description ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-success g-alert-with-description g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Success Text
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Success Description Success Description Success Description
       </div>
@@ -1013,20 +1013,20 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-info g-alert-with-description g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Info Text
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Info Description Info Description Info Description Info Description
       </div>
@@ -1034,20 +1034,20 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning ant-alert-with-description ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-warning g-alert-with-description g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning Text
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Warning Description Warning Description Warning Description Warning Description
       </div>
@@ -1055,20 +1055,20 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error ant-alert-with-description ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-error g-alert-with-description g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error Text
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Error Description Error Description Error Description Error Description
       </div>
@@ -1079,7 +1079,7 @@ Array [
 
 exports[`renders components/alert/demo/error-boundary.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -1091,16 +1091,16 @@ exports[`renders components/alert/demo/error-boundary.tsx correctly 1`] = `
 exports[`renders components/alert/demo/icon.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-alert ant-alert-success css-var-test-id"
+    class="g-alert g-alert-success css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="check-circle"
-        class="anticon anticon-check-circle"
+        class="gicon gicon-check-circle"
         role="img"
       >
         <svg
@@ -1119,10 +1119,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Success Tips
       </div>
@@ -1130,16 +1130,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-info css-var-test-id"
+    class="g-alert g-alert-info css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="info-circle"
-        class="anticon anticon-info-circle"
+        class="gicon gicon-info-circle"
         role="img"
       >
         <svg
@@ -1158,10 +1158,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Informational Notes
       </div>
@@ -1169,16 +1169,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning css-var-test-id"
+    class="g-alert g-alert-warning css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="exclamation-circle"
-        class="anticon anticon-exclamation-circle"
+        class="gicon gicon-exclamation-circle"
         role="img"
       >
         <svg
@@ -1197,22 +1197,22 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning
       </div>
     </div>
     <button
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -1234,16 +1234,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error css-var-test-id"
+    class="g-alert g-alert-error css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -1263,10 +1263,10 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error
       </div>
@@ -1274,16 +1274,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-success ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-success g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="check-circle"
-        class="anticon anticon-check-circle"
+        class="gicon gicon-check-circle"
         role="img"
       >
         <svg
@@ -1302,15 +1302,15 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Success Tips
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Detailed description and advice about successful copywriting.
       </div>
@@ -1318,16 +1318,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-info ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-info g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="info-circle"
-        class="anticon anticon-info-circle"
+        class="gicon gicon-info-circle"
         role="img"
       >
         <svg
@@ -1346,15 +1346,15 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Informational Notes
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         Additional description and information about copywriting.
       </div>
@@ -1362,16 +1362,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-warning g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="exclamation-circle"
-        class="anticon anticon-exclamation-circle"
+        class="gicon gicon-exclamation-circle"
         role="img"
       >
         <svg
@@ -1390,27 +1390,27 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         This is a warning notice about copywriting.
       </div>
     </div>
     <button
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -1432,16 +1432,16 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error ant-alert-with-description css-var-test-id"
+    class="g-alert g-alert-error g-alert-with-description css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -1461,15 +1461,15 @@ Array [
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error
       </div>
       <div
-        class="ant-alert-description"
+        class="g-alert-description"
       >
         This is an error message about copywriting.
       </div>
@@ -1481,27 +1481,27 @@ Array [
 exports[`renders components/alert/demo/smooth-closed.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-alert ant-alert-success ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-success g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Alert Message Text
       </div>
     </div>
     <button
-      class="ant-alert-close-icon"
+      class="g-alert-close-icon"
       tabindex="0"
       type="button"
     >
       <span
         aria-label="close"
-        class="anticon anticon-close"
+        class="gicon gicon-close"
         role="img"
       >
         <svg
@@ -1526,22 +1526,22 @@ Array [
   </p>,
   <button
     aria-checked="true"
-    class="ant-switch css-var-test-id ant-switch-checked ant-switch-disabled"
+    class="g-switch css-var-test-id g-switch-checked g-switch-disabled"
     disabled=""
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       />
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       />
     </span>
   </button>,
@@ -1551,15 +1551,15 @@ Array [
 exports[`renders components/alert/demo/style.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-alert ant-alert-success ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-success g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Success Text
       </div>
@@ -1567,15 +1567,15 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-info ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-info g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Info Text
       </div>
@@ -1583,15 +1583,15 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-warning ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-warning g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Warning Text
       </div>
@@ -1599,15 +1599,15 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-alert ant-alert-error ant-alert-no-icon css-var-test-id"
+    class="g-alert g-alert-error g-alert-no-icon css-var-test-id"
     data-show="true"
     role="alert"
   >
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Error Text
       </div>
@@ -1618,20 +1618,20 @@ Array [
 
 exports[`renders components/alert/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-alert ant-alert-info acss-hrwuh css-var-test-id"
+    class="g-alert g-alert-info acss-hrwuh css-var-test-id"
     data-show="true"
     role="alert"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
       style="font-size:18px"
     >
       <span
         aria-label="info-circle"
-        class="anticon anticon-info-circle"
+        class="gicon gicon-info-circle"
         role="img"
       >
         <svg
@@ -1650,20 +1650,20 @@ exports[`renders components/alert/demo/style-class.tsx correctly 1`] = `
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
       style="font-weight:500"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Object styles
       </div>
     </div>
     <div
-      class="ant-alert-actions"
+      class="g-alert-actions"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
         type="button"
       >
         <span>
@@ -1673,18 +1673,18 @@ exports[`renders components/alert/demo/style-class.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-alert ant-alert-success acss-hrwuh css-var-test-id"
+    class="g-alert g-alert-success acss-hrwuh css-var-test-id"
     data-show="true"
     role="alert"
     style="background-color:rgba(82, 196, 26, 0.1);border-color:#b7eb8f"
   >
     <span
-      class="ant-alert-icon"
+      class="g-alert-icon"
       style="color:#52c41a"
     >
       <span
         aria-label="check-circle"
-        class="anticon anticon-check-circle"
+        class="gicon gicon-check-circle"
         role="img"
       >
         <svg
@@ -1703,10 +1703,10 @@ exports[`renders components/alert/demo/style-class.tsx correctly 1`] = `
       </span>
     </span>
     <div
-      class="ant-alert-section"
+      class="g-alert-section"
     >
       <div
-        class="ant-alert-title"
+        class="g-alert-title"
       >
         Function styles
       </div>

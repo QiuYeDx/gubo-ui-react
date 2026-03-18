@@ -33,8 +33,8 @@ describe('ConfigProvider.Theme', () => {
 
     await waitFakeTimer();
 
-    expect(document.querySelector('.ant-modal-css-var')).toHaveStyle({
-      '--ant-color-primary': '#00b96b',
+    expect(document.querySelector('.g-modal-css-var')).toHaveStyle({
+      '--g-color-primary': '#00b96b',
     });
   });
 
@@ -108,7 +108,7 @@ describe('ConfigProvider.Theme', () => {
     ).map((item) => item?.innerHTML ?? '');
     expect(
       dynamicStyles.some(
-        (style) => style.includes('.ant-input-number') && style.includes('width:50.1234px'),
+        (style) => style.includes('.g-input-number') && style.includes('width:50.1234px'),
       ),
     ).toBeTruthy();
   });
@@ -210,9 +210,9 @@ describe('ConfigProvider.Theme', () => {
 
       expect(button).toHaveClass('foo');
       expect(button).toHaveStyle({
-        '--ant-color-text': 'rgba(0,0,0,0.88)',
-        '--ant-btn-shadow': 'var(--ant-button-default-shadow)',
-        'border-radius': 'var(--ant-border-radius)',
+        '--g-color-text': 'rgba(0,0,0,0.88)',
+        '--g-btn-shadow': 'var(--g-button-default-shadow)',
+        'border-radius': 'var(--g-border-radius)',
       });
     });
 
@@ -233,15 +233,15 @@ describe('ConfigProvider.Theme', () => {
 
       expect(fooBtn).toHaveClass('foo');
       expect(fooBtn).toHaveStyle({
-        '--ant-color-text': 'rgba(0,0,0,0.88)',
-        '--ant-btn-shadow': 'var(--ant-button-default-shadow)',
-        'border-radius': 'var(--ant-border-radius)',
+        '--g-color-text': 'rgba(0,0,0,0.88)',
+        '--g-btn-shadow': 'var(--g-button-default-shadow)',
+        'border-radius': 'var(--g-border-radius)',
       });
 
       expect(barBtn).toHaveClass('bar');
       expect(barBtn).toHaveStyle({
         '--bar-color-text': 'rgba(0,0,0,0.88)',
-        '--ant-btn-shadow': 'var(--bar-button-default-shadow)',
+        '--g-btn-shadow': 'var(--bar-button-default-shadow)',
         'border-radius': 'var(--bar-border-radius)',
       });
     });
@@ -319,10 +319,10 @@ describe('ConfigProvider.Theme', () => {
 
       const select = container.querySelector('.select-foo')!;
       expect(select).toHaveStyle({
-        '--ant-color-primary': '#1890ff',
-        '--ant-select-option-selected-color': '#000',
-        '--ant-select-option-selected-font-weight': '600',
-        '--ant-select-z-index-popup': '1050',
+        '--g-color-primary': '#1890ff',
+        '--g-select-option-selected-color': '#000',
+        '--g-select-option-selected-font-weight': '600',
+        '--g-select-z-index-popup': '1050',
       });
     });
   });

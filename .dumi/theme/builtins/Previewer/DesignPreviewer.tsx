@@ -61,7 +61,7 @@ const styles = createStaticStyles(({ cssVar, css }) => ({
     cursor: pointer;
   `,
   copiedTip: css`
-    .anticon {
+    .gicon {
       color: ${cssVar.colorSuccess};
     }
   `,

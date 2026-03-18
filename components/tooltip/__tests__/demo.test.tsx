@@ -15,6 +15,6 @@ rootPropsTest(
     </Tooltip>
   ),
   {
-    findRootElements: () => document.querySelector('.ant-tooltip')!,
+    findRootElements: () => document.querySelector('.g-tooltip')!,
   },
 );

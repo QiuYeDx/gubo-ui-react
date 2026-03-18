@@ -7,11 +7,11 @@
 A simple playground for column count and gutter.
 
 ```css
-#grid-demo-playground [class~='ant-col'] {
+#grid-demo-playground [class~='g-col'] {
   background: transparent;
   border: 0;
 }
-#grid-demo-playground [class~='ant-col'] > div {
+#grid-demo-playground [class~='g-col'] > div {
   height: 120px;
   font-size: 14px;
   line-height: 120px;
@@ -27,7 +27,7 @@ A simple playground for column count and gutter.
 #grid-demo-playground pre.demo-code {
   direction: ltr;
 }
-#grid-demo-playground .ant-col {
+#grid-demo-playground .g-col {
   padding: 0;
 }
 ```

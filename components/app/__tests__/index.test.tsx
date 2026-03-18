@@ -75,8 +75,8 @@ describe('App', () => {
     expect(consumedConfig?.message).toStrictEqual({ maxCount: 1 });
     expect(consumedConfig?.notification).toStrictEqual({ maxCount: 2 });
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(2);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(2);
   });
 
   it('should be a merged config configured in nested app', async () => {
@@ -159,8 +159,8 @@ describe('App', () => {
     await waitFakeTimer();
 
     expect(consumedConfig?.notification).toStrictEqual(config);
-    expect(document.querySelector('.ant-notification-topRight')).not.toBeInTheDocument();
-    expect(document.querySelector('.ant-notification-bottomLeft')).toHaveStyle({
+    expect(document.querySelector('.g-notification-topRight')).not.toBeInTheDocument();
+    expect(document.querySelector('.g-notification-bottomLeft')).toHaveStyle({
       top: 'auto',
       left: '0px',
       bottom: '50px',
@@ -173,7 +173,7 @@ describe('App', () => {
         <div>test</div>
       </App>,
     );
-    expect(container.querySelector<HTMLDivElement>('.ant-app')).toHaveClass('test-class');
+    expect(container.querySelector<HTMLDivElement>('.g-app')).toHaveClass('test-class');
   });
 
   it('support style', () => {
@@ -182,9 +182,7 @@ describe('App', () => {
         <div>test</div>
       </App>,
     );
-    expect(container.querySelector<HTMLDivElement>('.ant-app')).toHaveStyle(
-      'color: rgb(0, 0, 255);',
-    );
+    expect(container.querySelector<HTMLDivElement>('.g-app')).toHaveStyle('color: rgb(0, 0, 255);');
   });
 
   // https://github.com/ant-design/ant-design/issues/41197#issuecomment-1465803061
@@ -202,10 +200,10 @@ describe('App', () => {
         </App>,
       );
 
-      expect(container.querySelector('.anticon')).toBeTruthy();
+      expect(container.querySelector('.gicon')).toBeTruthy();
       const dynamicStyles = Array.from(document.querySelectorAll('style[data-css-hash]'));
-      // Self-contained .anticon style
-      const regex = /(?:^|\})\s*\.anticon\s*{[^}]*}/;
+      // Self-contained .gicon style
+      const regex = /(?:^|\})\s*\.gicon\s*{[^}]*}/;
       expect(
         dynamicStyles.some((style) => {
           const { innerHTML } = style;
@@ -233,7 +231,7 @@ describe('App', () => {
         </App>,
       );
 
-      expect(container.querySelector('section.ant-app')).toBeTruthy();
+      expect(container.querySelector('section.g-app')).toBeTruthy();
     });
 
     it('should warn if component is false and cssVarCls is not empty', () => {

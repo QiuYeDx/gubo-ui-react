@@ -10,7 +10,7 @@ rootPropsTest(
   'auto-complete',
   (AutoComplete, props) => <AutoComplete {...props} options={[{ value: 'ddd' }]} />,
   {
-    findRootElements: () => document.querySelectorAll('.ant-select, .ant-select-dropdown'),
+    findRootElements: () => document.querySelectorAll('.g-select, .g-select-dropdown'),
     expectCount: 2,
   },
 );

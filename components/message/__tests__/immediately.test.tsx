@@ -46,18 +46,18 @@ describe('call close immediately', () => {
 
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
 
     // Created close
     const closeFn2 = message.open({
       content: 'showed',
     });
     await awaitPromise();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(1);
 
     closeFn2();
     await triggerMotionEnd();
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
   });
 
   it('info', async () => {
@@ -66,6 +66,6 @@ describe('call close immediately', () => {
 
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message-notice')).toHaveLength(0);
   });
 });

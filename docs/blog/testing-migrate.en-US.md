@@ -64,8 +64,8 @@ In order to be close to the real scene of the browser, `antd@4.x` uses `mount` f
 ```diff
 ++  import { fireEvent } from '@testing-library/react';
 
---  wrapper.find('.ant-handle').simulate('click');
-++  fireEvent.click(container.querySelector('.ant-handle'));
+--  wrapper.find('.g-handle').simulate('click');
+++  fireEvent.click(container.querySelector('.g-handle'));
 ```
 
 ### 3. DOM element
@@ -90,9 +90,9 @@ In `testing-library`, these APIs are not provided (as mentioned above - `testing
 --  popover.find('span').simulate('click');
 --  expect(popover.find('Trigger PopupInner').props().visible).toBeTruthy();
 
-++  expect(container.querySelector('.ant-popover-inner-content')).toBeFalsy();
+++  expect(container.querySelector('.g-popover-inner-content')).toBeFalsy();
 ++  fireEvent.click(popover.container.querySelector('span'));
-++  expect(container.querySelector('.ant-popover-inner-content')).toBeTruthy();
+++  expect(container.querySelector('.g-popover-inner-content')).toBeTruthy();
 ```
 
 ### 4. compatibility test

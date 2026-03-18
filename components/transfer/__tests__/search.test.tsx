@@ -43,11 +43,11 @@ describe('Transfer.Search', () => {
         showSearch
       />,
     );
-    fireEvent.change(container.querySelectorAll('.ant-input').item(0), { target: { value: 'a' } });
+    fireEvent.change(container.querySelectorAll('.g-input').item(0), { target: { value: 'a' } });
 
     expect(onSearch).toHaveBeenCalledWith('left', 'a');
     onSearch.mockReset();
-    fireEvent.click(container.querySelectorAll('.ant-input-clear-icon').item(0));
+    fireEvent.click(container.querySelectorAll('.g-input-clear-icon').item(0));
     expect(onSearch).toHaveBeenCalledWith('left', '');
     jest.useRealTimers();
   });
@@ -56,7 +56,7 @@ describe('Transfer.Search', () => {
     const onSearchChange = jest.fn();
     const props = { onSearchChange };
     const { container } = render(<Transfer render={(item) => item.title!} {...props} showSearch />);
-    fireEvent.change(container.querySelector('.ant-input')!, { target: { value: 'a' } });
+    fireEvent.change(container.querySelector('.g-input')!, { target: { value: 'a' } });
     expect(errorSpy).not.toHaveBeenCalled();
     expect(onSearchChange).not.toHaveBeenCalled();
   });
@@ -70,7 +70,7 @@ describe('Transfer.Search', () => {
       <Transfer filterOption={filterOption} dataSource={dataSource} showSearch />,
     );
 
-    fireEvent.change(container.querySelector('.ant-input')!, { target: { value: ' ' } });
+    fireEvent.change(container.querySelector('.g-input')!, { target: { value: ' ' } });
 
     expect(filterOption).toHaveBeenCalledTimes(dataSource.length);
   });
@@ -89,7 +89,7 @@ describe('Transfer.Search', () => {
 
     fireEvent.change(
       container
-        ?.querySelectorAll('.ant-transfer-section')
+        ?.querySelectorAll('.g-transfer-section')
         ?.item(0)
         ?.querySelector('input[type="text"]')!,
       { target: { value: 'a' } },
@@ -108,7 +108,7 @@ describe('Transfer.Search', () => {
     filterOption.mockReset();
     fireEvent.change(
       container
-        ?.querySelectorAll('.ant-transfer-section')
+        ?.querySelectorAll('.g-transfer-section')
         ?.item(1)
         ?.querySelector('input[type="text"]')!,
       { target: { value: 'b' } },

@@ -29,11 +29,11 @@ describe('Collapse.Semantic', () => {
       />,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-collapse');
-    const headerElement = container.querySelector<HTMLElement>('.ant-collapse-header');
-    const titleElement = container.querySelector<HTMLElement>('.ant-collapse-title');
-    const bodyElement = container.querySelector<HTMLElement>('.ant-collapse-body');
-    const iconElement = container.querySelector<HTMLElement>('.ant-collapse-expand-icon');
+    const rootElement = container.querySelector<HTMLElement>('.g-collapse');
+    const headerElement = container.querySelector<HTMLElement>('.g-collapse-header');
+    const titleElement = container.querySelector<HTMLElement>('.g-collapse-title');
+    const bodyElement = container.querySelector<HTMLElement>('.g-collapse-body');
+    const iconElement = container.querySelector<HTMLElement>('.g-collapse-expand-icon');
 
     // check classNames
     expect(rootElement).toHaveClass(customClassNames.root);
@@ -79,11 +79,11 @@ describe('Collapse.Semantic', () => {
       />,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-collapse');
-    const headerElement = container.querySelector<HTMLElement>('.ant-collapse-header');
-    const titleElement = container.querySelector<HTMLElement>('.ant-collapse-title');
-    const bodyElement = container.querySelector<HTMLElement>('.ant-collapse-body');
-    const iconElement = container.querySelector<HTMLElement>('.ant-collapse-expand-icon');
+    const rootElement = container.querySelector<HTMLElement>('.g-collapse');
+    const headerElement = container.querySelector<HTMLElement>('.g-collapse-header');
+    const titleElement = container.querySelector<HTMLElement>('.g-collapse-title');
+    const bodyElement = container.querySelector<HTMLElement>('.g-collapse-body');
+    const iconElement = container.querySelector<HTMLElement>('.g-collapse-expand-icon');
 
     // check function-based classNames
     expect(rootElement).toHaveClass('size-large');

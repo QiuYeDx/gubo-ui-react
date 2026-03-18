@@ -2,30 +2,30 @@
 
 exports[`Descriptions Descriptions support colon 1`] = `
 <div
-  class="ant-descriptions css-var-root"
+  class="g-descriptions css-var-root"
 >
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label ant-descriptions-item-no-colon"
+                class="g-descriptions-item-label g-descriptions-item-no-colon"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -40,26 +40,26 @@ exports[`Descriptions Descriptions support colon 1`] = `
 
 exports[`Descriptions Descriptions support style 1`] = `
 <div
-  class="ant-descriptions css-var-root"
+  class="g-descriptions css-var-root"
   style="background-color: rgb(232, 232, 232);"
 >
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -74,30 +74,30 @@ exports[`Descriptions Descriptions support style 1`] = `
 
 exports[`Descriptions Descriptions.Item support className 1`] = `
 <div
-  class="ant-descriptions css-var-root"
+  class="g-descriptions css-var-root"
 >
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item my-class"
+            class="g-descriptions-item my-class"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -112,68 +112,68 @@ exports[`Descriptions Descriptions.Item support className 1`] = `
 
 exports[`Descriptions column is number 1`] = `
 <div
-  class="ant-descriptions css-var-root"
+  class="g-descriptions css-var-root"
 >
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Cloud Database
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Billing
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Prepaid
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 time
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 18:00:00
               </span>
@@ -181,22 +181,22 @@ exports[`Descriptions column is number 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="3"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Amount
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 $80.00
               </span>
@@ -211,31 +211,31 @@ exports[`Descriptions column is number 1`] = `
 
 exports[`Descriptions number 0 should render correct 1`] = `
 <div
-  class="ant-descriptions css-var-root"
+  class="g-descriptions css-var-root"
 >
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
                 style="color: red;"
               >
                 0
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
                 style="color: red;"
               >
                 0
@@ -252,30 +252,30 @@ exports[`Descriptions number 0 should render correct 1`] = `
 exports[`Descriptions should items work 1`] = `
 <div>
   <div
-    class="ant-descriptions css-var-root"
+    class="g-descriptions css-var-root"
   >
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   UserName
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   Zhou Maomao
                 </span>
@@ -283,22 +283,22 @@ exports[`Descriptions should items work 1`] = `
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Telephone
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   1810000000
                 </span>
@@ -306,22 +306,22 @@ exports[`Descriptions should items work 1`] = `
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Live
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   Hangzhou, Zhejiang
                 </span>
@@ -337,30 +337,30 @@ exports[`Descriptions should items work 1`] = `
 
 exports[`Descriptions should work with React Fragment 1`] = `
 <div
-  class="ant-descriptions css-var-root"
+  class="g-descriptions css-var-root"
 >
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 bamboo
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 bamboo
               </span>
@@ -368,22 +368,22 @@ exports[`Descriptions should work with React Fragment 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 bamboo
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 bamboo
               </span>
@@ -391,22 +391,22 @@ exports[`Descriptions should work with React Fragment 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 bamboo
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 bamboo
               </span>
@@ -421,25 +421,25 @@ exports[`Descriptions should work with React Fragment 1`] = `
 
 exports[`Descriptions vertical layout 1`] = `
 <div
-  class="ant-descriptions css-var-root"
+  class="g-descriptions css-var-root"
 >
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Product
               </span>
@@ -447,17 +447,17 @@ exports[`Descriptions vertical layout 1`] = `
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -465,17 +465,17 @@ exports[`Descriptions vertical layout 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Billing
               </span>
@@ -483,17 +483,17 @@ exports[`Descriptions vertical layout 1`] = `
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Prepaid
               </span>
@@ -501,17 +501,17 @@ exports[`Descriptions vertical layout 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 time
               </span>
@@ -519,17 +519,17 @@ exports[`Descriptions vertical layout 1`] = `
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 18:00:00
               </span>
@@ -537,17 +537,17 @@ exports[`Descriptions vertical layout 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Amount
               </span>
@@ -555,17 +555,17 @@ exports[`Descriptions vertical layout 1`] = `
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 $80.00
               </span>
@@ -580,30 +580,30 @@ exports[`Descriptions vertical layout 1`] = `
 
 exports[`Descriptions when item is rendered conditionally 1`] = `
 <div
-  class="ant-descriptions css-var-root"
+  class="g-descriptions css-var-root"
 >
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Cloud Database
               </span>
@@ -611,22 +611,22 @@ exports[`Descriptions when item is rendered conditionally 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Billing
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Prepaid
               </span>
@@ -634,22 +634,22 @@ exports[`Descriptions when item is rendered conditionally 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 time
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 18:00:00
               </span>
@@ -657,22 +657,22 @@ exports[`Descriptions when item is rendered conditionally 1`] = `
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Amount
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 $80.00
               </span>

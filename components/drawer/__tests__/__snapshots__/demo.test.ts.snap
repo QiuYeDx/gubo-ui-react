@@ -2,7 +2,7 @@
 
 exports[`renders components/drawer/demo/basic-right.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -13,7 +13,7 @@ exports[`renders components/drawer/demo/basic-right.tsx correctly 1`] = `
 
 exports[`renders components/drawer/demo/closable-placement.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -27,23 +27,23 @@ exports[`renders components/drawer/demo/component-token.tsx correctly 1`] = `
   style="padding:32px;background:#e6e6e6"
 >
   <div
-    class="ant-drawer ant-drawer-pure ant-drawer-right css-var-test-id"
+    class="g-drawer g-drawer-pure g-drawer-right css-var-test-id"
     style="height:300px"
   >
     <div
-      class="ant-drawer-header"
+      class="g-drawer-header"
     >
       <div
-        class="ant-drawer-header-title"
+        class="g-drawer-header-title"
       >
         <button
           aria-label="Close"
-          class="ant-drawer-close"
+          class="g-drawer-close"
           type="button"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close"
+            class="gicon gicon-close"
             role="img"
           >
             <svg
@@ -63,19 +63,19 @@ exports[`renders components/drawer/demo/component-token.tsx correctly 1`] = `
           </span>
         </button>
         <div
-          class="ant-drawer-title"
+          class="g-drawer-title"
         >
           Hello Title
         </div>
       </div>
     </div>
     <div
-      class="ant-drawer-body"
+      class="g-drawer-body"
     >
       Hello Content
     </div>
     <div
-      class="ant-drawer-footer"
+      class="g-drawer-footer"
     >
       Footer!
     </div>
@@ -88,7 +88,7 @@ exports[`renders components/drawer/demo/config-provider.tsx correctly 1`] = `
   class="site-drawer-render-in-current-wrapper"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -100,88 +100,88 @@ exports[`renders components/drawer/demo/config-provider.tsx correctly 1`] = `
 
 exports[`renders components/drawer/demo/extra.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+      class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
       role="radiogroup"
     >
       <label
-        class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target"
+          class="g-radio g-wave-target"
         >
           <input
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="top"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           top
         </span>
       </label>
       <label
-        class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target ant-radio-checked"
+          class="g-radio g-wave-target g-radio-checked"
         >
           <input
             checked=""
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="right"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           right
         </span>
       </label>
       <label
-        class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target"
+          class="g-radio g-wave-target"
         >
           <input
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="bottom"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           bottom
         </span>
       </label>
       <label
-        class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target"
+          class="g-radio g-wave-target"
         >
           <input
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="left"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           left
         </span>
@@ -189,10 +189,10 @@ exports[`renders components/drawer/demo/extra.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -205,15 +205,15 @@ exports[`renders components/drawer/demo/extra.tsx correctly 1`] = `
 
 exports[`renders components/drawer/demo/form-in-drawer.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span
-    class="ant-btn-icon"
+    class="g-btn-icon"
   >
     <span
       aria-label="plus"
-      class="anticon anticon-plus"
+      class="gicon gicon-plus"
       role="img"
     >
       <svg
@@ -242,7 +242,7 @@ exports[`renders components/drawer/demo/form-in-drawer.tsx correctly 1`] = `
 
 exports[`renders components/drawer/demo/loading.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -253,14 +253,14 @@ exports[`renders components/drawer/demo/loading.tsx correctly 1`] = `
 
 exports[`renders components/drawer/demo/mask.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="flex-wrap:wrap"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -269,13 +269,13 @@ exports[`renders components/drawer/demo/mask.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   />
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -284,13 +284,13 @@ exports[`renders components/drawer/demo/mask.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   />
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -299,14 +299,14 @@ exports[`renders components/drawer/demo/mask.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   />
 </div>
 `;
 
 exports[`renders components/drawer/demo/multi-level-drawer.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -317,7 +317,7 @@ exports[`renders components/drawer/demo/multi-level-drawer.tsx correctly 1`] = `
 
 exports[`renders components/drawer/demo/no-mask.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -328,88 +328,88 @@ exports[`renders components/drawer/demo/no-mask.tsx correctly 1`] = `
 
 exports[`renders components/drawer/demo/placement.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+      class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
       role="radiogroup"
     >
       <label
-        class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target"
+          class="g-radio g-wave-target"
         >
           <input
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="top"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           top
         </span>
       </label>
       <label
-        class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target"
+          class="g-radio g-wave-target"
         >
           <input
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="right"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           right
         </span>
       </label>
       <label
-        class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target"
+          class="g-radio g-wave-target"
         >
           <input
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="bottom"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           bottom
         </span>
       </label>
       <label
-        class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target ant-radio-checked"
+          class="g-radio g-wave-target g-radio-checked"
         >
           <input
             checked=""
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="left"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           left
         </span>
@@ -417,10 +417,10 @@ exports[`renders components/drawer/demo/placement.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -440,7 +440,7 @@ exports[`renders components/drawer/demo/render-in-current.tsx correctly 1`] = `
     style="margin-top:16px"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -456,23 +456,23 @@ exports[`renders components/drawer/demo/render-panel.tsx correctly 1`] = `
   style="padding:32px;background:#e6e6e6"
 >
   <div
-    class="ant-drawer ant-drawer-pure ant-drawer-right css-var-test-id"
+    class="g-drawer g-drawer-pure g-drawer-right css-var-test-id"
     style="height:300px"
   >
     <div
-      class="ant-drawer-header"
+      class="g-drawer-header"
     >
       <div
-        class="ant-drawer-header-title"
+        class="g-drawer-header-title"
       >
         <button
           aria-label="Close"
-          class="ant-drawer-close"
+          class="g-drawer-close"
           type="button"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close"
+            class="gicon gicon-close"
             role="img"
           >
             <svg
@@ -492,19 +492,19 @@ exports[`renders components/drawer/demo/render-panel.tsx correctly 1`] = `
           </span>
         </button>
         <div
-          class="ant-drawer-title"
+          class="g-drawer-title"
         >
           Hello Title
         </div>
       </div>
     </div>
     <div
-      class="ant-drawer-body"
+      class="g-drawer-body"
     >
       Hello Content
     </div>
     <div
-      class="ant-drawer-footer"
+      class="g-drawer-footer"
     >
       Footer!
     </div>
@@ -515,89 +515,89 @@ exports[`renders components/drawer/demo/render-panel.tsx correctly 1`] = `
 exports[`renders components/drawer/demo/resizable.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="margin-bottom:16px"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+        class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
         role="radiogroup"
       >
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="top"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             top
           </span>
         </label>
         <label
-          class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target ant-radio-checked"
+            class="g-radio g-wave-target g-radio-checked"
           >
             <input
               checked=""
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="right"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             right
           </span>
         </label>
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="bottom"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             bottom
           </span>
         </label>
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="left"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             left
           </span>
@@ -605,10 +605,10 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span>
@@ -632,30 +632,30 @@ exports[`renders components/drawer/demo/scroll-debug.tsx correctly 1`] = `
   style="position:relative;z-index:999999"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-checked="false"
-        class="ant-switch css-var-test-id"
+        class="g-switch css-var-test-id"
         role="switch"
         type="button"
       >
         <div
-          class="ant-switch-handle"
+          class="g-switch-handle"
         />
         <span
-          class="ant-switch-inner"
+          class="g-switch-inner"
         >
           <span
-            class="ant-switch-inner-checked"
+            class="g-switch-inner-checked"
           >
             Drawer
           </span>
           <span
-            class="ant-switch-inner-unchecked"
+            class="g-switch-inner-unchecked"
           >
             Drawer
           </span>
@@ -663,27 +663,27 @@ exports[`renders components/drawer/demo/scroll-debug.tsx correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-checked="false"
-        class="ant-switch css-var-test-id"
+        class="g-switch css-var-test-id"
         role="switch"
         type="button"
       >
         <div
-          class="ant-switch-handle"
+          class="g-switch-handle"
         />
         <span
-          class="ant-switch-inner"
+          class="g-switch-inner"
         >
           <span
-            class="ant-switch-inner-checked"
+            class="g-switch-inner-checked"
           >
             Drawer2
           </span>
           <span
-            class="ant-switch-inner-unchecked"
+            class="g-switch-inner-unchecked"
           >
             Drawer2
           </span>
@@ -691,27 +691,27 @@ exports[`renders components/drawer/demo/scroll-debug.tsx correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-checked="false"
-        class="ant-switch css-var-test-id"
+        class="g-switch css-var-test-id"
         role="switch"
         type="button"
       >
         <div
-          class="ant-switch-handle"
+          class="g-switch-handle"
         />
         <span
-          class="ant-switch-inner"
+          class="g-switch-inner"
         >
           <span
-            class="ant-switch-inner-checked"
+            class="g-switch-inner-checked"
           >
             Modal
           </span>
           <span
-            class="ant-switch-inner-unchecked"
+            class="g-switch-inner-unchecked"
           >
             Modal
           </span>
@@ -719,27 +719,27 @@ exports[`renders components/drawer/demo/scroll-debug.tsx correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-checked="false"
-        class="ant-switch css-var-test-id"
+        class="g-switch css-var-test-id"
         role="switch"
         type="button"
       >
         <div
-          class="ant-switch-handle"
+          class="g-switch-handle"
         />
         <span
-          class="ant-switch-inner"
+          class="g-switch-inner"
         >
           <span
-            class="ant-switch-inner-checked"
+            class="g-switch-inner-checked"
           >
             Modal2
           </span>
           <span
-            class="ant-switch-inner-unchecked"
+            class="g-switch-inner-unchecked"
           >
             Modal2
           </span>
@@ -753,126 +753,126 @@ exports[`renders components/drawer/demo/scroll-debug.tsx correctly 1`] = `
 exports[`renders components/drawer/demo/size.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="margin-bottom:16px"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+        class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
         role="radiogroup"
       >
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="large"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             Large Size (736px)
           </span>
         </label>
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="default"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             Default Size (378px)
           </span>
         </label>
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="256"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             256
           </span>
         </label>
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="500px"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             500px
           </span>
         </label>
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="50%"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             50%
           </span>
         </label>
         <label
-          class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               name="test-id"
               type="radio"
               value="20vw"
             />
           </span>
           <span
-            class="ant-radio-label"
+            class="g-radio-label"
           >
             20vw
           </span>
@@ -881,7 +881,7 @@ Array [
     </div>
   </div>,
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -893,10 +893,10 @@ Array [
 
 exports[`renders components/drawer/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-gap-medium"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -904,7 +904,7 @@ exports[`renders components/drawer/demo/style-class.tsx correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -916,30 +916,30 @@ exports[`renders components/drawer/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/drawer/demo/user-profile.tsx correctly 1`] = `
 <div
-  class="ant-list ant-list-split ant-list-bordered css-var-test-id"
+  class="g-list g-list-split g-list-bordered css-var-test-id"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-test-id"
+    class="g-spin css-var-test-id"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <ul
-        class="ant-list-items ant-list-container css-var-test-id"
+        class="g-list-items g-list-container css-var-test-id"
       >
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           <div
-            class="ant-list-item-meta"
+            class="g-list-item-meta"
           >
             <div
-              class="ant-list-item-meta-avatar"
+              class="g-list-item-meta-avatar"
             >
               <span
-                class="ant-avatar ant-avatar-circle ant-avatar-image css-var-test-id ant-avatar-css-var"
+                class="g-avatar g-avatar-circle g-avatar-image css-var-test-id g-avatar-css-var"
               >
                 <img
                   src="https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png"
@@ -947,10 +947,10 @@ exports[`renders components/drawer/demo/user-profile.tsx correctly 1`] = `
               </span>
             </div>
             <div
-              class="ant-list-item-meta-content"
+              class="g-list-item-meta-content"
             >
               <h4
-                class="ant-list-item-meta-title"
+                class="g-list-item-meta-title"
               >
                 <a
                   href="https://ant.design/index-cn"
@@ -959,14 +959,14 @@ exports[`renders components/drawer/demo/user-profile.tsx correctly 1`] = `
                 </a>
               </h4>
               <div
-                class="ant-list-item-meta-description"
+                class="g-list-item-meta-description"
               >
                 Progresser XTech
               </div>
             </div>
           </div>
           <ul
-            class="ant-list-item-action"
+            class="g-list-item-action"
           >
             <li>
               <a>
@@ -976,16 +976,16 @@ exports[`renders components/drawer/demo/user-profile.tsx correctly 1`] = `
           </ul>
         </li>
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           <div
-            class="ant-list-item-meta"
+            class="g-list-item-meta"
           >
             <div
-              class="ant-list-item-meta-avatar"
+              class="g-list-item-meta-avatar"
             >
               <span
-                class="ant-avatar ant-avatar-circle ant-avatar-image css-var-test-id ant-avatar-css-var"
+                class="g-avatar g-avatar-circle g-avatar-image css-var-test-id g-avatar-css-var"
               >
                 <img
                   src="https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png"
@@ -993,10 +993,10 @@ exports[`renders components/drawer/demo/user-profile.tsx correctly 1`] = `
               </span>
             </div>
             <div
-              class="ant-list-item-meta-content"
+              class="g-list-item-meta-content"
             >
               <h4
-                class="ant-list-item-meta-title"
+                class="g-list-item-meta-title"
               >
                 <a
                   href="https://ant.design/index-cn"
@@ -1005,14 +1005,14 @@ exports[`renders components/drawer/demo/user-profile.tsx correctly 1`] = `
                 </a>
               </h4>
               <div
-                class="ant-list-item-meta-description"
+                class="g-list-item-meta-description"
               >
                 Progresser XTech
               </div>
             </div>
           </div>
           <ul
-            class="ant-list-item-action"
+            class="g-list-item-action"
           >
             <li>
               <a>

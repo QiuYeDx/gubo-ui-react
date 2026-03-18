@@ -24,7 +24,7 @@ describe('Anchor.Semantic', () => {
     const { container, rerender } = render(
       <Anchor items={items} classNames={classNames} styles={styles} />,
     );
-    const root = container.querySelector<HTMLElement>('.ant-anchor-wrapper');
+    const root = container.querySelector<HTMLElement>('.g-anchor-wrapper');
     expect(root).toHaveClass('anchor-vertical');
     expect(root).toHaveStyle({ padding: '8px' });
     rerender(
@@ -59,10 +59,10 @@ describe('Anchor.Semantic', () => {
       />,
     );
 
-    const root = container.querySelector<HTMLElement>('.ant-anchor-wrapper');
-    const items = container.querySelector<HTMLElement>('.ant-anchor-link');
-    const title = container.querySelector<HTMLElement>('.ant-anchor-link-title');
-    const indicator = container.querySelector<HTMLElement>('.ant-anchor-ink');
+    const root = container.querySelector<HTMLElement>('.g-anchor-wrapper');
+    const items = container.querySelector<HTMLElement>('.g-anchor-link');
+    const title = container.querySelector<HTMLElement>('.g-anchor-link-title');
+    const indicator = container.querySelector<HTMLElement>('.g-anchor-ink');
 
     expect(root).toHaveClass('custom-root');
     expect(items).toHaveClass('custom-item');

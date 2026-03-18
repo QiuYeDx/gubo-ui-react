@@ -73,7 +73,7 @@ describe('Table.order', () => {
 
     expect(container.querySelectorAll('tr')[1].querySelectorAll('td')).toHaveLength(3);
     expect(
-      container.querySelectorAll('tr')[1].querySelectorAll('td.ant-table-cell-fix-start'),
+      container.querySelectorAll('tr')[1].querySelectorAll('td.g-table-cell-fix-start'),
     ).toHaveLength(2);
   });
 });

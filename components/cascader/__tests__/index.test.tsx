@@ -17,15 +17,15 @@ import Space from '../../space';
 const { SHOW_CHILD, SHOW_PARENT } = Cascader;
 
 function toggleOpen(container: ReturnType<typeof render>['container']) {
-  fireEvent.mouseDown(container.querySelector('.ant-select')!);
+  fireEvent.mouseDown(container.querySelector('.g-select')!);
 }
 
 function isOpen(container: ReturnType<typeof render>['container']) {
-  return container.querySelector('.ant-cascader')?.className.includes('ant-select-open');
+  return container.querySelector('.g-cascader')?.className.includes('g-select-open');
 }
 
 function getDropdown(container: ReturnType<typeof render>['container']) {
-  return container.querySelector('.ant-select-dropdown');
+  return container.querySelector('.g-select-dropdown');
 }
 
 function clickOption(
@@ -34,8 +34,8 @@ function clickOption(
   itemIndex: number,
   type = 'click',
 ) {
-  const menu = container.querySelectorAll('ul.ant-cascader-menu')[menuIndex];
-  const itemList = menu.querySelectorAll('li.ant-cascader-menu-item');
+  const menu = container.querySelectorAll('ul.g-cascader-menu')[menuIndex];
+  const itemList = menu.querySelectorAll('li.g-cascader-menu-item');
   fireEvent?.[type as keyof typeof fireEvent]?.(itemList[itemIndex]);
 }
 
@@ -224,7 +224,7 @@ describe('Cascader', () => {
     });
     const dropdown = getDropdown(container);
     expect(dropdown).toBeTruthy();
-    const notFoundElement = dropdown?.querySelector('.ant-cascader-menu-item-content');
+    const notFoundElement = dropdown?.querySelector('.g-cascader-menu-item-content');
     expect(notFoundElement?.textContent).toBe('no data');
     expect(dropdown).toMatchSnapshot();
   });
@@ -233,9 +233,9 @@ describe('Cascader', () => {
     const { container } = render(
       <Cascader options={options} defaultValue={['zhejiang', 'hangzhou']} />,
     );
-    expect(container.querySelector('.ant-select-content')).toHaveTextContent('Zhejiang / Hangzhou');
-    fireEvent.mouseDown(container.querySelector('.ant-select-clear')!);
-    expect(container.querySelector('.ant-select-content')).toHaveTextContent('');
+    expect(container.querySelector('.g-select-content')).toHaveTextContent('Zhejiang / Hangzhou');
+    fireEvent.mouseDown(container.querySelector('.g-select-clear')!);
+    expect(container.querySelector('.g-select-content')).toHaveTextContent('');
   });
 
   it('should clear search input when clear selection', () => {
@@ -243,27 +243,27 @@ describe('Cascader', () => {
       <Cascader options={options} defaultValue={['zhejiang', 'hangzhou']} showSearch />,
     );
     fireEvent.change(container.querySelector('input')!, { target: { value: 'xxx' } });
-    fireEvent.mouseDown(container.querySelector('.ant-select-clear')!);
+    fireEvent.mouseDown(container.querySelector('.g-select-clear')!);
     expect(container.querySelector('input')?.value).toEqual('');
   });
 
   it('should change filtered item when options are changed', () => {
     const { container, rerender } = render(<Cascader options={options} showSearch={{ filter }} />);
     fireEvent.change(container.querySelector('input')!, { target: { value: 'a' } });
-    expect(container.querySelectorAll('.ant-cascader-menu-item').length).toBe(2);
+    expect(container.querySelectorAll('.g-cascader-menu-item').length).toBe(2);
 
     rerender(<Cascader options={[options[0]]} showSearch={{ filter }} />);
-    expect(container.querySelectorAll('.ant-cascader-menu-item').length).toBe(1);
+    expect(container.querySelectorAll('.g-cascader-menu-item').length).toBe(1);
   });
 
   it('should select item immediately when searching and pressing down arrow key', () => {
     const { container } = render(<Cascader options={options} showSearch={{ filter }} />);
     fireEvent.change(container.querySelector('input')!, { target: { value: 'a' } });
 
-    expect(container.querySelectorAll('.ant-cascader-menu-item').length).toBe(2);
-    expect(container.querySelectorAll('.ant-cascader-menu-item-active').length).toBe(0);
+    expect(container.querySelectorAll('.g-cascader-menu-item').length).toBe(2);
+    expect(container.querySelectorAll('.g-cascader-menu-item-active').length).toBe(0);
     fireEvent.keyDown(container.querySelector('input')!, { key: 'Down', keyCode: 40 });
-    expect(container.querySelectorAll('.ant-cascader-menu-item-active').length).toBe(1);
+    expect(container.querySelectorAll('.g-cascader-menu-item-active').length).toBe(1);
   });
 
   it('can use fieldNames', () => {
@@ -320,7 +320,7 @@ describe('Cascader', () => {
     clickOption(container, 0, 0);
     clickOption(container, 1, 0);
     clickOption(container, 2, 0);
-    expect(container.querySelector('.ant-select-content')).toHaveTextContent(
+    expect(container.querySelector('.g-select-content')).toHaveTextContent(
       'Zhejiang / Hangzhou / West Lake',
     );
     expect(onChange).toHaveBeenCalledWith(['zhejiang', 'hangzhou', 'xihu'], expect.anything());
@@ -334,7 +334,7 @@ describe('Cascader', () => {
 
   it('not found content should be disabled', () => {
     const { container } = render(<Cascader options={[]} open />);
-    expect(container.querySelectorAll('.ant-cascader-menu-item-disabled').length).toBe(1);
+    expect(container.querySelectorAll('.g-cascader-menu-item-disabled').length).toBe(1);
   });
 
   describe('limit filtered item count', () => {
@@ -349,7 +349,7 @@ describe('Cascader', () => {
         <Cascader options={options} showSearch={{ filter, limit: 1 }} />,
       );
       fireEvent.change(container.querySelector('input')!, { target: { value: 'a' } });
-      expect(container.querySelectorAll('.ant-cascader-menu-item')).toHaveLength(1);
+      expect(container.querySelectorAll('.g-cascader-menu-item')).toHaveLength(1);
     });
 
     it('not limit', () => {
@@ -357,7 +357,7 @@ describe('Cascader', () => {
         <Cascader options={options} showSearch={{ filter, limit: false }} />,
       );
       fireEvent.change(container.querySelector('input')!, { target: { value: 'a' } });
-      expect(container.querySelectorAll('.ant-cascader-menu-item')).toHaveLength(2);
+      expect(container.querySelectorAll('.g-cascader-menu-item')).toHaveLength(2);
     });
 
     it('negative limit', () => {
@@ -366,7 +366,7 @@ describe('Cascader', () => {
       );
       fireEvent.click(container.querySelector('input')!);
       fireEvent.change(container.querySelector('input')!, { target: { value: 'a' } });
-      expect(container.querySelectorAll('.ant-cascader-menu-item')).toHaveLength(2);
+      expect(container.querySelectorAll('.g-cascader-menu-item')).toHaveLength(2);
     });
   });
 
@@ -403,11 +403,11 @@ describe('Cascader', () => {
 
   it('placeholder works correctly', () => {
     const { container, rerender } = render(<Cascader options={[]} />);
-    expect(container.querySelector('.ant-select-placeholder')?.textContent).toEqual('');
+    expect(container.querySelector('.g-select-placeholder')?.textContent).toEqual('');
 
     const customPlaceholder = 'Custom placeholder';
     rerender(<Cascader options={[]} placeholder={customPlaceholder} />);
-    expect(container.querySelector('.ant-select-placeholder')?.textContent).toEqual(
+    expect(container.querySelector('.g-select-placeholder')?.textContent).toEqual(
       customPlaceholder,
     );
   });
@@ -506,7 +506,7 @@ describe('Cascader', () => {
     const { container } = render(
       <Cascader options={options} defaultValue={['options1', 'options2']} />,
     );
-    expect(container.querySelector('.ant-select-content')).toHaveTextContent('options1 / options2');
+    expect(container.querySelector('.g-select-content')).toHaveTextContent('options1 / options2');
   });
 
   it('can be selected when showSearch', () => {
@@ -514,7 +514,7 @@ describe('Cascader', () => {
     const { container } = render(<Cascader options={options} onChange={onChange} showSearch />);
     fireEvent.change(container.querySelector('input')!, { target: { value: 'Zh' } });
 
-    expect(container.querySelectorAll('.ant-cascader-menu').length).toBe(1);
+    expect(container.querySelectorAll('.g-cascader-menu').length).toBe(1);
     clickOption(container, 0, 0);
     expect(onChange).toHaveBeenCalledWith(['zhejiang', 'hangzhou', 'xihu'], expect.anything());
   });
@@ -572,7 +572,7 @@ describe('Cascader', () => {
       expect(errSpy).toHaveBeenCalledWith(
         'Warning: [antd: Cascader] `dropdownStyle` is deprecated. Please use `styles.popup.root` instead.',
       );
-      expect(container.querySelector<HTMLElement>('.ant-select-dropdown')).toHaveStyle({
+      expect(container.querySelector<HTMLElement>('.g-select-dropdown')).toHaveStyle({
         padding: '10px',
       });
 
@@ -791,14 +791,14 @@ describe('Cascader', () => {
         ]}
       />,
     );
-    fireEvent.mouseDown(container.querySelector('.ant-select')!);
+    fireEvent.mouseDown(container.querySelector('.g-select')!);
     // disabled className
-    fireEvent.click(container.querySelector('.ant-cascader-menu-item')!);
-    expect(container.querySelectorAll('.ant-cascader-checkbox-disabled')).toHaveLength(1);
+    fireEvent.click(container.querySelector('.g-cascader-menu-item')!);
+    expect(container.querySelectorAll('.g-cascader-checkbox-disabled')).toHaveLength(1);
     // Check all children except disableCheckbox When the parent checkbox is checked
-    expect(container.querySelectorAll('.ant-cascader-checkbox')).toHaveLength(4);
-    fireEvent.click(container.querySelector('.ant-cascader-checkbox')!);
-    expect(container.querySelectorAll('.ant-cascader-checkbox-checked')).toHaveLength(3);
+    expect(container.querySelectorAll('.g-cascader-checkbox')).toHaveLength(4);
+    fireEvent.click(container.querySelector('.g-cascader-checkbox')!);
+    expect(container.querySelectorAll('.g-cascader-checkbox-checked')).toHaveLength(3);
   });
 
   it('deprecate showArrow', () => {
@@ -809,7 +809,7 @@ describe('Cascader', () => {
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: Cascader] `showArrow` is deprecated which will be removed in next major version. It will be a default behavior, you can hide it by setting `suffixIcon` to null.',
     );
-    expect(container.querySelector('.ant-select-show-arrow')).toBeTruthy();
+    expect(container.querySelector('.g-select-show-arrow')).toBeTruthy();
 
     errSpy.mockRestore();
   });
@@ -817,7 +817,7 @@ describe('Cascader', () => {
     const { container } = render(
       <Cascader options={options} open defaultValue={['zhejiang', 'hangzhou']} />,
     );
-    const menuItems = container.querySelectorAll('.ant-cascader-menu-item');
+    const menuItems = container.querySelectorAll('.g-cascader-menu-item');
     expect(menuItems[0].getAttribute('aria-label')).toBe('Zhejiang');
     expect(menuItems[0].getAttribute('data-title')).toBe('Zhejiang');
     expect(menuItems[2].getAttribute('aria-label')).toBe('Hangzhou');
@@ -848,7 +848,7 @@ describe('Cascader', () => {
     );
 
     const compactButton = container.querySelector('.test-button');
-    const popupElement = document.querySelector('.ant-select-dropdown');
+    const popupElement = document.querySelector('.g-select-dropdown');
     // selector should have compact
     expect(compactButton).toBeInTheDocument();
     expect(compactButton!.className.includes('compact')).toBeTruthy();

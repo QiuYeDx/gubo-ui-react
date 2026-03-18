@@ -2,13 +2,13 @@
 
 exports[`Select Deprecated should ignore mode="combobox" 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-root ant-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-select-outlined css-var-root g-select-css-var g-select-single g-select-show-arrow"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility: visible;"
     />
     <input
@@ -16,7 +16,7 @@ exports[`Select Deprecated should ignore mode="combobox" 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -25,11 +25,11 @@ exports[`Select Deprecated should ignore mode="combobox" 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -52,13 +52,13 @@ exports[`Select Deprecated should ignore mode="combobox" 1`] = `
 
 exports[`Select Select Custom Icons should support customized icons 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-root ant-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-select-outlined css-var-root g-select-css-var g-select-single g-select-show-arrow"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility: visible;"
     />
     <input
@@ -66,7 +66,7 @@ exports[`Select Select Custom Icons should support customized icons 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -75,11 +75,11 @@ exports[`Select Select Custom Icons should support customized icons 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -102,13 +102,13 @@ exports[`Select Select Custom Icons should support customized icons 1`] = `
 
 exports[`Select rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-select ant-select-rtl ant-select-outlined css-var-root ant-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-select-rtl g-select-outlined css-var-root g-select-css-var g-select-single g-select-show-arrow"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility: visible;"
     />
     <input
@@ -116,7 +116,7 @@ exports[`Select rtl render component should be rendered correctly in RTL directi
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -125,11 +125,11 @@ exports[`Select rtl render component should be rendered correctly in RTL directi
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg

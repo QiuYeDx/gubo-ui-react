@@ -41,7 +41,7 @@ describe('Input', () => {
 
   it('should support size', () => {
     const { asFragment, container } = render(<Input size="large" />);
-    expect(container.querySelector('input')).toHaveClass('ant-input-lg');
+    expect(container.querySelector('input')).toHaveClass('g-input-lg');
     expect(asFragment().firstChild).toMatchSnapshot();
   });
 
@@ -53,7 +53,7 @@ describe('Input', () => {
         </Form.Item>
       </Form>,
     );
-    expect(container.querySelector('input')).toHaveClass('ant-input-lg');
+    expect(container.querySelector('input')).toHaveClass('g-input-lg');
     expect(asFragment().firstChild).toMatchSnapshot();
   });
 
@@ -168,7 +168,7 @@ describe('prefix and suffix', () => {
 
     await waitFor(() => {
       const computed = getComputedStyle(input).color;
-      expect(computed).toBe('var(--ant-color-text)');
+      expect(computed).toBe('var(--g-color-text)');
     });
   });
 });
@@ -270,13 +270,13 @@ describe('should support showCount', () => {
   it('maxLength', () => {
     const { container } = render(<Input maxLength={5} showCount value="12345" />);
     expect(container.querySelector('input')?.getAttribute('value')).toBe('12345');
-    expect(container.querySelector('.ant-input-show-count-suffix')?.innerHTML).toBe('5 / 5');
+    expect(container.querySelector('.g-input-show-count-suffix')?.innerHTML).toBe('5 / 5');
   });
 
   it('control exceed maxLength', () => {
     const { container } = render(<Input maxLength={5} showCount value="12345678" />);
     expect(container.querySelector('input')?.getAttribute('value')).toBe('12345678');
-    expect(container.querySelector('.ant-input-show-count-suffix')?.innerHTML).toBe('8 / 5');
+    expect(container.querySelector('.g-input-show-count-suffix')?.innerHTML).toBe('8 / 5');
   });
 
   it('count formatter', () => {
@@ -290,7 +290,7 @@ describe('should support showCount', () => {
       />,
     );
     expect(container.querySelector('input')?.getAttribute('value')).toBe('12345');
-    expect(container.querySelector('.ant-input-show-count-suffix')?.innerHTML).toBe('12345, 5, 5');
+    expect(container.querySelector('.g-input-show-count-suffix')?.innerHTML).toBe('12345, 5, 5');
   });
 
   it('count', () => {
@@ -304,7 +304,7 @@ describe('should support showCount', () => {
       />,
     );
     expect(container.querySelector('input')?.getAttribute('value')).toBe('12345');
-    expect(container.querySelector('.ant-input-show-count-suffix')?.innerHTML).toBe('12345, 5, 5');
+    expect(container.querySelector('.g-input-show-count-suffix')?.innerHTML).toBe('12345, 5, 5');
   });
 });
 
@@ -314,7 +314,7 @@ describe('Input allowClear', () => {
     fireEvent.change(container.querySelector('input')!, { target: { value: '111' } });
     expect(container.querySelector('input')?.value).toEqual('111');
     expect(asFragment().firstChild).toMatchSnapshot();
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(asFragment().firstChild).toMatchSnapshot();
     expect(container.querySelector('input')?.value).toEqual('');
   });
@@ -324,7 +324,7 @@ describe('Input allowClear', () => {
     const wrappers = [null, undefined, ''].map((val) => render(<Input allowClear value={val} />));
     wrappers.forEach(({ asFragment, container }) => {
       expect(container.querySelector('input')?.value).toEqual('');
-      expect(container.querySelector('.ant-input-clear-icon-hidden')).toBeTruthy();
+      expect(container.querySelector('.g-input-clear-icon-hidden')).toBeTruthy();
       expect(asFragment().firstChild).toMatchSnapshot();
     });
   });
@@ -336,7 +336,7 @@ describe('Input allowClear', () => {
     );
     wrappers.forEach(({ asFragment, container }) => {
       expect(container.querySelector('input')?.value).toEqual('');
-      expect(container.querySelector('.ant-input-clear-icon-hidden')).toBeTruthy();
+      expect(container.querySelector('.g-input-clear-icon-hidden')).toBeTruthy();
       expect(asFragment().firstChild).toMatchSnapshot();
     });
   });
@@ -349,7 +349,7 @@ describe('Input allowClear', () => {
       argumentEventObjectValue = e.target.value;
     };
     const { container } = render(<Input allowClear defaultValue="111" onChange={onChange} />);
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(argumentEventObjectType).toBe('click');
     expect(argumentEventObjectValue).toBe('');
     expect(container.querySelector('input')?.value).toBe('');
@@ -363,7 +363,7 @@ describe('Input allowClear', () => {
       argumentEventObjectValue = e.target.value;
     };
     const { container } = render(<Input allowClear value="111" onChange={onChange} />);
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(argumentEventObjectType).toBe('click');
     expect(argumentEventObjectValue).toBe('');
     expect(container.querySelector('input')?.value).toBe('111');
@@ -373,7 +373,7 @@ describe('Input allowClear', () => {
     const { container, unmount } = render(<Input allowClear defaultValue="111" />, {
       container: document.body,
     });
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(document.activeElement).toBe(container.querySelector('input'));
     unmount();
   });
@@ -381,7 +381,7 @@ describe('Input allowClear', () => {
   ['disabled', 'readOnly'].forEach((prop) => {
     it(`should not support allowClear when it is ${prop}`, () => {
       const { container } = render(<Input allowClear defaultValue="111" {...{ [prop]: true }} />);
-      expect(container.querySelector('.ant-input-clear-icon-hidden')).toBeTruthy();
+      expect(container.querySelector('.g-input-clear-icon-hidden')).toBeTruthy();
     });
   });
 
@@ -402,11 +402,11 @@ describe('Input allowClear', () => {
       },
     );
     container.querySelector('input')?.focus();
-    fireEvent.mouseDown(container.querySelector('.ant-input-clear-icon')!);
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
-    fireEvent.mouseUp(container.querySelector('.ant-input-clear-icon')!);
-    fireEvent.focus(container.querySelector('.ant-input-clear-icon')!);
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.mouseDown(container.querySelector('.g-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
+    fireEvent.mouseUp(container.querySelector('.g-input-clear-icon')!);
+    fireEvent.focus(container.querySelector('.g-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(onBlur).not.toHaveBeenCalled();
     unmount();
   });
@@ -432,7 +432,7 @@ describe('Input allowClear', () => {
     fireEvent.change(container.querySelector('input')!, { target: { value: '111' } });
     expect(container.querySelector('input')?.value).toEqual('111');
 
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(container.querySelector('input')?.value).toEqual('');
 
     unmount();
@@ -454,7 +454,7 @@ describe('Input allowClear', () => {
 
   it('should support custom clearIcon', () => {
     const { container } = render(<Input allowClear={{ clearIcon: 'clear' }} />);
-    expect(container.querySelector('.ant-input-clear-icon')?.textContent).toBe('clear');
+    expect(container.querySelector('.g-input-clear-icon')?.textContent).toBe('clear');
   });
 
   it('semantic dom snapshot', () => {
@@ -545,7 +545,7 @@ describe('Input allowClear', () => {
   it('legacy bordered should work', () => {
     const errSpy = jest.spyOn(console, 'error');
     const { container } = render(<Input bordered={false} />);
-    expect(container.querySelector('input')).toHaveClass('ant-input-borderless');
+    expect(container.querySelector('input')).toHaveClass('g-input-borderless');
     expect(errSpy).toHaveBeenCalledWith(expect.stringContaining('`bordered` is deprecated'));
     errSpy.mockRestore();
   });

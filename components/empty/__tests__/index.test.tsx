@@ -13,14 +13,14 @@ describe('Empty', () => {
 
   it('image size should change', () => {
     const { container } = render(<Empty styles={{ image: { height: 20 } }} />);
-    expect(container.querySelector<HTMLDivElement>('.ant-empty-image')).toHaveStyle({
+    expect(container.querySelector<HTMLDivElement>('.g-empty-image')).toHaveStyle({
       height: '20px',
     });
   });
 
   it('description can be false', () => {
     const { container } = render(<Empty description={false} />);
-    expect(container.querySelector('.ant-empty-description')).toBeFalsy();
+    expect(container.querySelector('.g-empty-description')).toBeFalsy();
   });
 
   it('should render in RTL direction', () => {
@@ -74,10 +74,10 @@ describe('Empty', () => {
       </Empty>,
     );
 
-    const emptyElement = container.querySelector<HTMLElement>('.ant-empty');
-    const emptyFooterElement = container.querySelector<HTMLElement>('.ant-empty-footer');
-    const emptyDescriptionElement = container.querySelector<HTMLElement>('.ant-empty-description');
-    const emptyImageElement = container.querySelector<HTMLElement>('.ant-empty-image');
+    const emptyElement = container.querySelector<HTMLElement>('.g-empty');
+    const emptyFooterElement = container.querySelector<HTMLElement>('.g-empty-footer');
+    const emptyDescriptionElement = container.querySelector<HTMLElement>('.g-empty-description');
+    const emptyImageElement = container.querySelector<HTMLElement>('.g-empty-image');
 
     // check classNames
     expect(emptyElement).toHaveClass('custom-root');

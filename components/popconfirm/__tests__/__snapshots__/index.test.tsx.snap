@@ -4,37 +4,37 @@ exports[`Popconfirm rtl render component should be rendered correctly in RTL dir
 
 exports[`Popconfirm should show overlay when trigger is clicked 1`] = `
 <div
-  class="ant-popover ant-popover-css-var css-var-root css-var-root ant-popconfirm ant-popover-placement-top"
+  class="g-popover g-popover-css-var css-var-root css-var-root g-popconfirm g-popover-placement-top"
   style="--arrow-x: 0px; --arrow-y: 6px; left: 0px; top: auto; right: auto; bottom: 12px; box-sizing: border-box;"
 >
   <div
-    class="ant-popover-arrow"
+    class="g-popover-arrow"
     style="position: absolute; bottom: 0px; left: 0px;"
   >
     <span
-      class="ant-popover-arrow-content"
+      class="g-popover-arrow-content"
     />
   </div>
   <div
-    class="ant-popover-container"
+    class="g-popover-container"
     id="test-id"
     role="tooltip"
   >
     <div
-      class="ant-popover-content"
+      class="g-popover-content"
     >
       <div
-        class="ant-popconfirm-inner-content"
+        class="g-popconfirm-inner-content"
       >
         <div
-          class="ant-popconfirm-message"
+          class="g-popconfirm-message"
         >
           <span
-            class="ant-popconfirm-message-icon"
+            class="g-popconfirm-message-icon"
           >
             <span
               aria-label="exclamation-circle"
-              class="anticon anticon-exclamation-circle"
+              class="gicon gicon-exclamation-circle"
               role="img"
             >
               <svg
@@ -53,20 +53,20 @@ exports[`Popconfirm should show overlay when trigger is clicked 1`] = `
             </span>
           </span>
           <div
-            class="ant-popconfirm-message-text"
+            class="g-popconfirm-message-text"
           >
             <div
-              class="ant-popconfirm-title"
+              class="g-popconfirm-title"
             >
               code
             </div>
           </div>
         </div>
         <div
-          class="ant-popconfirm-buttons"
+          class="g-popconfirm-buttons"
         >
           <button
-            class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+            class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
             type="button"
           >
             <span>
@@ -74,7 +74,7 @@ exports[`Popconfirm should show overlay when trigger is clicked 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+            class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
             type="button"
           >
             <span>
@@ -90,37 +90,37 @@ exports[`Popconfirm should show overlay when trigger is clicked 1`] = `
 
 exports[`Popconfirm shows content for render functions 1`] = `
 <div
-  class="ant-popover ant-popover-css-var css-var-root css-var-root ant-popconfirm ant-popover-placement-bottom"
+  class="g-popover g-popover-css-var css-var-root css-var-root g-popconfirm g-popover-placement-bottom"
   style="--arrow-x: 0px; --arrow-y: -6px; left: 0px; top: 12px; right: auto; bottom: auto; box-sizing: border-box;"
 >
   <div
-    class="ant-popover-arrow"
+    class="g-popover-arrow"
     style="position: absolute; left: 0px; top: 0px;"
   >
     <span
-      class="ant-popover-arrow-content"
+      class="g-popover-arrow-content"
     />
   </div>
   <div
-    class="ant-popover-container"
+    class="g-popover-container"
     id="test-id"
     role="tooltip"
   >
     <div
-      class="ant-popover-content"
+      class="g-popover-content"
     >
       <div
-        class="ant-popconfirm-inner-content"
+        class="g-popconfirm-inner-content"
       >
         <div
-          class="ant-popconfirm-message"
+          class="g-popconfirm-message"
         >
           <span
-            class="ant-popconfirm-message-icon"
+            class="g-popconfirm-message-icon"
           >
             <span
               aria-label="exclamation-circle"
-              class="anticon anticon-exclamation-circle"
+              class="gicon gicon-exclamation-circle"
               role="img"
             >
               <svg
@@ -139,20 +139,20 @@ exports[`Popconfirm shows content for render functions 1`] = `
             </span>
           </span>
           <div
-            class="ant-popconfirm-message-text"
+            class="g-popconfirm-message-text"
           >
             <div
-              class="ant-popconfirm-title"
+              class="g-popconfirm-title"
             >
               some-title
             </div>
           </div>
         </div>
         <div
-          class="ant-popconfirm-buttons"
+          class="g-popconfirm-buttons"
         >
           <button
-            class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+            class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
             type="button"
           >
             <span>
@@ -160,7 +160,7 @@ exports[`Popconfirm shows content for render functions 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+            class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
             type="button"
           >
             <span>

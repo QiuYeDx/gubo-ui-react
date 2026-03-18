@@ -27,7 +27,7 @@ export function isEleEllipsis(ele: HTMLElement): boolean {
 
   // For test case
   if (process.env.NODE_ENV !== 'production') {
-    childDiv.className = 'ant-typography-css-ellipsis-content-measure';
+    childDiv.className = 'g-typography-css-ellipsis-content-measure';
   }
 
   const rect = ele.getBoundingClientRect();

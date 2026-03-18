@@ -80,13 +80,13 @@ describe('Affix Render', () => {
     await waitFakeTimer();
 
     await movePlaceholder(0);
-    expect(container.querySelector('.ant-affix')).toBeFalsy();
+    expect(container.querySelector('.g-affix')).toBeFalsy();
 
     await movePlaceholder(-100);
-    expect(container.querySelector('.ant-affix')).toBeTruthy();
+    expect(container.querySelector('.g-affix')).toBeTruthy();
 
     await movePlaceholder(0);
-    expect(container.querySelector('.ant-affix')).toBeFalsy();
+    expect(container.querySelector('.g-affix')).toBeFalsy();
   });
 
   it('Anchor correct render when target is null', async () => {
@@ -100,13 +100,13 @@ describe('Affix Render', () => {
     await waitFakeTimer();
 
     await movePlaceholder(300);
-    expect(container.querySelector('.ant-affix')).toBeTruthy();
+    expect(container.querySelector('.g-affix')).toBeTruthy();
 
     await movePlaceholder(0);
-    expect(container.querySelector('.ant-affix')).toBeFalsy();
+    expect(container.querySelector('.g-affix')).toBeFalsy();
 
     await movePlaceholder(300);
-    expect(container.querySelector('.ant-affix')).toBeTruthy();
+    expect(container.querySelector('.g-affix')).toBeTruthy();
   });
 
   it('updatePosition when offsetTop changed', async () => {
@@ -117,7 +117,7 @@ describe('Affix Render', () => {
 
     await movePlaceholder(-100);
     expect(onChange).toHaveBeenLastCalledWith(true);
-    expect(container.querySelector('.ant-affix')).toHaveStyle({ top: 0 });
+    expect(container.querySelector('.g-affix')).toHaveStyle({ top: 0 });
 
     await movePlaceholder(100);
     expect(onChange).toHaveBeenLastCalledWith(false);
@@ -127,7 +127,7 @@ describe('Affix Render', () => {
 
     rerender(<AffixMounter offsetTop={10} onChange={onChange} />);
     await waitFakeTimer();
-    expect(container.querySelector('.ant-affix')).toHaveStyle({ top: `10px` });
+    expect(container.querySelector('.g-affix')).toHaveStyle({ top: `10px` });
   });
 
   describe('updatePosition when target changed', () => {
@@ -138,7 +138,7 @@ describe('Affix Render', () => {
       const { container, rerender } = render(<Affix target={getTarget}>{null}</Affix>);
       rerender(<Affix target={() => null}>{null}</Affix>);
       expect(container.querySelector(`div[aria-hidden="true"]`)).toBeNull();
-      expect(container.querySelector('.ant-affix')?.getAttribute('style')).toBeUndefined();
+      expect(container.querySelector('.g-affix')?.getAttribute('style')).toBeUndefined();
     });
 
     it('check position change before measure', async () => {
@@ -154,13 +154,13 @@ describe('Affix Render', () => {
       );
       await waitFakeTimer();
       await movePlaceholder(1000);
-      expect(container.querySelector<HTMLDivElement>('.ant-affix')).toBeTruthy();
+      expect(container.querySelector<HTMLDivElement>('.g-affix')).toBeTruthy();
     });
 
     it('do not measure when hidden', async () => {
       const { container, rerender } = render(<AffixMounter offsetBottom={0} />);
       await waitFakeTimer();
-      const affixStyleEle = container.querySelector('.ant-affix');
+      const affixStyleEle = container.querySelector('.g-affix');
       const firstAffixStyle = affixStyleEle ? affixStyleEle.getAttribute('style') : null;
 
       rerender(<AffixMounter offsetBottom={0} style={{ display: 'none' }} />);
@@ -182,11 +182,11 @@ describe('Affix Render', () => {
       await waitFakeTimer();
       await movePlaceholder(300);
       expect(container.querySelector(`div[aria-hidden="true"]`)).toBeTruthy();
-      expect(container.querySelector('.ant-affix')?.getAttribute('style')).toBeTruthy();
+      expect(container.querySelector('.g-affix')?.getAttribute('style')).toBeTruthy();
     });
 
     // Trigger inner and outer element for the two <ResizeObserver>s.
-    ['.ant-btn', '.placeholder'].forEach((selector) => {
+    ['.g-btn', '.placeholder'].forEach((selector) => {
       it(`trigger listener when size change: ${selector}`, async () => {
         const updateCalled = jest.fn();
         const { container } = render(

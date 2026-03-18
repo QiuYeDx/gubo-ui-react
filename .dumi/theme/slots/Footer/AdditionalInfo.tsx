@@ -4,7 +4,7 @@ import { createStaticStyles } from 'antd-style';
 
 import useLocale from '../../../hooks/useLocale';
 
-const whereCls = 'ant-where-checker';
+const whereCls = 'g-where-checker';
 
 const locales = {
   cn: {

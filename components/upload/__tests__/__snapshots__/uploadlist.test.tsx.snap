@@ -2,13 +2,13 @@
 
 exports[`Upload List handle error 1`] = `
 <span
-  class="ant-upload-wrapper css-var-root"
+  class="g-upload-wrapper css-var-root"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -24,21 +24,21 @@ exports[`Upload List handle error 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
       style=""
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -57,25 +57,25 @@ exports[`Upload List handle error 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="foo.png"
         >
           foo.png
         </span>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -104,10 +104,10 @@ exports[`Upload List handle error 1`] = `
 
 exports[`Upload List itemRender 1`] = `
 <div
-  class="ant-upload-list ant-upload-list-text"
+  class="g-upload-list g-upload-list-text"
 >
   <div
-    class="ant-upload-list-item-container"
+    class="g-upload-list-item-container"
   >
     <div
       class="custom-item-render"
@@ -133,7 +133,7 @@ exports[`Upload List itemRender 1`] = `
     </div>
   </div>
   <div
-    class="ant-upload-list-item-container"
+    class="g-upload-list-item-container"
   >
     <div
       class="custom-item-render"
@@ -163,13 +163,13 @@ exports[`Upload List itemRender 1`] = `
 
 exports[`Upload List should be uploading when upload a file 1`] = `
 <span
-  class="ant-upload-wrapper css-var-root"
+  class="g-upload-wrapper css-var-root"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -185,21 +185,21 @@ exports[`Upload List should be uploading when upload a file 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   >
     <div
-      class="ant-upload-list-item-container ant-upload-animate-appear ant-upload-animate-appear-start ant-upload-animate"
+      class="g-upload-list-item-container g-upload-animate-appear g-upload-animate-appear-start g-upload-animate"
       style="height: 0px; opacity: 0;"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -218,25 +218,25 @@ exports[`Upload List should be uploading when upload a file 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="foo.png"
         >
           foo.png
         </span>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -265,13 +265,13 @@ exports[`Upload List should be uploading when upload a file 1`] = `
 
 exports[`Upload List should non-image format file preview 1`] = `
 <span
-  class="ant-upload-wrapper css-var-root"
+  class="g-upload-wrapper css-var-root"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -287,23 +287,23 @@ exports[`Upload List should non-image format file preview 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="g-upload-list g-upload-list-picture"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
           href="https://cdn.xxx.com/aaa.zip"
           rel="noopener noreferrer"
           target="_blank"
         >
           <span
             aria-label="file"
-            class="anticon anticon-file"
+            class="gicon gicon-file"
             role="img"
           >
             <svg
@@ -327,7 +327,7 @@ exports[`Upload List should non-image format file preview 1`] = `
           </span>
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa.zip"
           rel="noopener noreferrer"
           target="_blank"
@@ -336,19 +336,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           not-image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -372,25 +372,25 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://cdn.xxx.com/aaa"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -399,19 +399,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -435,20 +435,20 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
           href="https://cdn.xxx.com/aaa.xx"
           rel="noopener noreferrer"
           target="_blank"
         >
           <span
             aria-label="file"
-            class="anticon anticon-file"
+            class="gicon gicon-file"
             role="img"
           >
             <svg
@@ -472,7 +472,7 @@ exports[`Upload List should non-image format file preview 1`] = `
           </span>
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa.xx"
           rel="noopener noreferrer"
           target="_blank"
@@ -481,19 +481,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           not-image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -517,20 +517,20 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
           href="https://cdn.xxx.com/aaa.png/xx.xx"
           rel="noopener noreferrer"
           target="_blank"
         >
           <span
             aria-label="file"
-            class="anticon anticon-file"
+            class="gicon gicon-file"
             role="img"
           >
             <svg
@@ -554,7 +554,7 @@ exports[`Upload List should non-image format file preview 1`] = `
           </span>
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa.png/xx.xx"
           rel="noopener noreferrer"
           target="_blank"
@@ -563,19 +563,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           not-image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -599,25 +599,25 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/xx.xx/aaa.png"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://cdn.xxx.com/xx.xx/aaa.png"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/xx.xx/aaa.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -626,19 +626,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -662,25 +662,25 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/xx.xx/aaa.png"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="data:image/png;base64,UEsDBAoAAAAAADYZYkwAAAAAAAAAAAAAAAAdAAk"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/xx.xx/aaa.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -689,19 +689,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -725,25 +725,25 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/xx.xx/aaa.png?query=123"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://cdn.xxx.com/xx.xx/aaa.png?query=123"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/xx.xx/aaa.png?query=123"
           rel="noopener noreferrer"
           target="_blank"
@@ -752,19 +752,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -788,25 +788,25 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/xx.xx/aaa.png#anchor"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://cdn.xxx.com/xx.xx/aaa.png#anchor"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/xx.xx/aaa.png#anchor"
           rel="noopener noreferrer"
           target="_blank"
@@ -815,19 +815,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -851,25 +851,25 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/xx.xx/aaa.png?query=some.query.with.dot"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://cdn.xxx.com/xx.xx/aaa.png?query=some.query.with.dot"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/xx.xx/aaa.png?query=some.query.with.dot"
           rel="noopener noreferrer"
           target="_blank"
@@ -878,19 +878,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -914,25 +914,25 @@ exports[`Upload List should non-image format file preview 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://publish-pic-cpu.baidu.com/1296beb3-50d9-4276-885f-52645cbb378e.jpeg@w_228%2ch_152"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://publish-pic-cpu.baidu.com/1296beb3-50d9-4276-885f-52645cbb378e.jpeg@w_228%2ch_152"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://publish-pic-cpu.baidu.com/1296beb3-50d9-4276-885f-52645cbb378e.jpeg@w_228%2ch_152"
           rel="noopener noreferrer"
           target="_blank"
@@ -941,19 +941,19 @@ exports[`Upload List should non-image format file preview 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -982,13 +982,13 @@ exports[`Upload List should non-image format file preview 1`] = `
 
 exports[`Upload List should support removeIcon and downloadIcon 1`] = `
 <span
-  class="ant-upload-wrapper css-var-root"
+  class="g-upload-wrapper css-var-root"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -1004,20 +1004,20 @@ exports[`Upload List should support removeIcon and downloadIcon 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="g-upload-list g-upload-list-picture"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -1036,7 +1036,7 @@ exports[`Upload List should support removeIcon and downloadIcon 1`] = `
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1045,15 +1045,15 @@ exports[`Upload List should support removeIcon and downloadIcon 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 RM
@@ -1064,25 +1064,25 @@ exports[`Upload List should support removeIcon and downloadIcon 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://cdn.xxx.com/aaa"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1091,15 +1091,15 @@ exports[`Upload List should support removeIcon and downloadIcon 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Download file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 DL
@@ -1107,12 +1107,12 @@ exports[`Upload List should support removeIcon and downloadIcon 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 RM
@@ -1128,13 +1128,13 @@ exports[`Upload List should support removeIcon and downloadIcon 1`] = `
 
 exports[`Upload List should support removeIcon and downloadIcon 2`] = `
 <span
-  class="ant-upload-wrapper css-var-root"
+  class="g-upload-wrapper css-var-root"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -1150,20 +1150,20 @@ exports[`Upload List should support removeIcon and downloadIcon 2`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="g-upload-list g-upload-list-picture"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -1182,7 +1182,7 @@ exports[`Upload List should support removeIcon and downloadIcon 2`] = `
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1191,15 +1191,15 @@ exports[`Upload List should support removeIcon and downloadIcon 2`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 RM
@@ -1210,25 +1210,25 @@ exports[`Upload List should support removeIcon and downloadIcon 2`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://cdn.xxx.com/aaa"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1237,15 +1237,15 @@ exports[`Upload List should support removeIcon and downloadIcon 2`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Download file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 DL
@@ -1253,12 +1253,12 @@ exports[`Upload List should support removeIcon and downloadIcon 2`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 RM
@@ -1274,13 +1274,13 @@ exports[`Upload List should support removeIcon and downloadIcon 2`] = `
 
 exports[`Upload List should support showRemoveIcon and showPreviewIcon 1`] = `
 <span
-  class="ant-upload-wrapper css-var-root"
+  class="g-upload-wrapper css-var-root"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -1296,20 +1296,20 @@ exports[`Upload List should support showRemoveIcon and showPreviewIcon 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="g-upload-list g-upload-list-picture"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -1328,7 +1328,7 @@ exports[`Upload List should support showRemoveIcon and showPreviewIcon 1`] = `
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1337,30 +1337,30 @@ exports[`Upload List should support showRemoveIcon and showPreviewIcon 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         />
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://cdn.xxx.com/aaa"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1369,7 +1369,7 @@ exports[`Upload List should support showRemoveIcon and showPreviewIcon 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         />
       </div>
     </div>
@@ -1379,13 +1379,13 @@ exports[`Upload List should support showRemoveIcon and showPreviewIcon 1`] = `
 
 exports[`Upload List should support showXxxIcon functions 1`] = `
 <span
-  class="ant-upload-wrapper css-var-root"
+  class="g-upload-wrapper css-var-root"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -1401,20 +1401,20 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -1433,7 +1433,7 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1442,15 +1442,15 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 RM
@@ -1461,17 +1461,17 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -1490,7 +1490,7 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1499,22 +1499,22 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         />
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -1533,7 +1533,7 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://cdn.xxx.com/aaa"
           rel="noopener noreferrer"
           target="_blank"
@@ -1542,15 +1542,15 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
           image
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Download file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 DL
@@ -1558,12 +1558,12 @@ exports[`Upload List should support showXxxIcon functions 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <i>
                 RM

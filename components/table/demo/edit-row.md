@@ -9,7 +9,7 @@
 Table with editable rows.
 
 ```css
-.editable-row .ant-form-item-explain {
+.editable-row .g-form-item-explain {
   position: absolute;
   top: 100%;
   font-size: 12px;

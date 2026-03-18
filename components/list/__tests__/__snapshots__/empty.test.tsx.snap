@@ -2,24 +2,24 @@
 
 exports[`List renders empty list 1`] = `
 <div
-  class="ant-list ant-list-split css-var-root"
+  class="g-list g-list-split css-var-root"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-list-empty-text"
+        class="g-list-empty-text"
       >
         <div
-          class="css-var-root ant-empty ant-empty-normal"
+          class="css-var-root g-empty g-empty-normal"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -58,7 +58,7 @@ exports[`List renders empty list 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>

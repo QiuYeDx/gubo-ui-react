@@ -4,25 +4,25 @@ exports[`renders components/spin/demo/basic.tsx correctly 1`] = `
 <div
   aria-busy="true"
   aria-live="polite"
-  class="ant-spin ant-spin-spinning ant-spin-section css-var-test-id"
+  class="g-spin g-spin-spinning g-spin-section css-var-test-id"
 >
   <span
-    class="ant-spin-dot-holder"
+    class="g-spin-dot-holder"
   >
     <span
-      class="ant-spin-dot ant-spin-dot-spin"
+      class="g-spin-dot g-spin-dot-spin"
     >
       <i
-        class="ant-spin-dot-item"
+        class="g-spin-dot-item"
       />
       <i
-        class="ant-spin-dot-item"
+        class="g-spin-dot-item"
       />
       <i
-        class="ant-spin-dot-item"
+        class="g-spin-dot-item"
       />
       <i
-        class="ant-spin-dot-item"
+        class="g-spin-dot-item"
       />
     </span>
   </span>
@@ -31,16 +31,16 @@ exports[`renders components/spin/demo/basic.tsx correctly 1`] = `
 
 exports[`renders components/spin/demo/custom-indicator.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-align-center g-flex-gap-medium"
 >
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-sm ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-sm g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
       aria-label="loading"
-      class="anticon anticon-loading anticon-spin ant-spin-dot"
+      class="gicon gicon-loading gicon-spin g-spin-dot"
       role="img"
     >
       <svg
@@ -61,11 +61,11 @@ exports[`renders components/spin/demo/custom-indicator.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
       aria-label="loading"
-      class="anticon anticon-loading anticon-spin ant-spin-dot"
+      class="gicon gicon-loading gicon-spin g-spin-dot"
       role="img"
     >
       <svg
@@ -86,11 +86,11 @@ exports[`renders components/spin/demo/custom-indicator.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-lg ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-lg g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
       aria-label="loading"
-      class="anticon anticon-loading anticon-spin ant-spin-dot"
+      class="gicon gicon-loading gicon-spin g-spin-dot"
       role="img"
     >
       <svg
@@ -111,11 +111,11 @@ exports[`renders components/spin/demo/custom-indicator.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
       aria-label="loading"
-      class="anticon anticon-loading anticon-spin ant-spin-dot"
+      class="gicon gicon-loading gicon-spin g-spin-dot"
       role="img"
       style="font-size:48px"
     >
@@ -139,31 +139,31 @@ exports[`renders components/spin/demo/custom-indicator.tsx correctly 1`] = `
 
 exports[`renders components/spin/demo/delayAndDebounce.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-test-id"
+    class="g-spin css-var-test-id"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon css-var-test-id"
+        class="g-alert g-alert-info g-alert-with-description g-alert-no-icon css-var-test-id"
         data-show="true"
         role="alert"
       >
         <div
-          class="ant-alert-section"
+          class="g-alert-section"
         >
           <div
-            class="ant-alert-title"
+            class="g-alert-title"
           >
             Alert message title
           </div>
           <div
-            class="ant-alert-description"
+            class="g-alert-description"
           >
             Further details about the context of this alert.
           </div>
@@ -175,21 +175,21 @@ exports[`renders components/spin/demo/delayAndDebounce.tsx correctly 1`] = `
     Loading state：
     <button
       aria-checked="false"
-      class="ant-switch css-var-test-id"
+      class="g-switch css-var-test-id"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         />
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         />
       </span>
     </button>
@@ -200,7 +200,7 @@ exports[`renders components/spin/demo/delayAndDebounce.tsx correctly 1`] = `
 exports[`renders components/spin/demo/fullscreen.tsx correctly 1`] = `
 Array [
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -210,38 +210,38 @@ Array [
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin ant-spin-fullscreen css-var-test-id"
+    class="g-spin g-spin-fullscreen css-var-test-id"
   />,
 ]
 `;
 
 exports[`renders components/spin/demo/nested.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-test-id"
+    class="g-spin css-var-test-id"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon css-var-test-id"
+        class="g-alert g-alert-info g-alert-with-description g-alert-no-icon css-var-test-id"
         data-show="true"
         role="alert"
       >
         <div
-          class="ant-alert-section"
+          class="g-alert-section"
         >
           <div
-            class="ant-alert-title"
+            class="g-alert-title"
           >
             Alert message title
           </div>
           <div
-            class="ant-alert-description"
+            class="g-alert-description"
           >
             Further details about the context of this alert.
           </div>
@@ -253,21 +253,21 @@ exports[`renders components/spin/demo/nested.tsx correctly 1`] = `
     Loading state：
     <button
       aria-checked="false"
-      class="ant-switch css-var-test-id"
+      class="g-switch css-var-test-id"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         />
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         />
       </span>
     </button>
@@ -277,27 +277,27 @@ exports[`renders components/spin/demo/nested.tsx correctly 1`] = `
 
 exports[`renders components/spin/demo/percent.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-align-center g-flex-gap-medium"
 >
   <button
     aria-checked="false"
-    class="ant-switch css-var-test-id"
+    class="g-switch css-var-test-id"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       >
         Auto
       </span>
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       >
         Auto
       </span>
@@ -306,25 +306,25 @@ exports[`renders components/spin/demo/percent.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-sm ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-sm g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
-      class="ant-spin-dot-holder"
+      class="g-spin-dot-holder"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="g-spin-dot g-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
       </span>
     </span>
@@ -332,25 +332,25 @@ exports[`renders components/spin/demo/percent.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
-      class="ant-spin-dot-holder"
+      class="g-spin-dot-holder"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="g-spin-dot g-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
       </span>
     </span>
@@ -358,25 +358,25 @@ exports[`renders components/spin/demo/percent.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-lg ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-lg g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
-      class="ant-spin-dot-holder"
+      class="g-spin-dot-holder"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="g-spin-dot g-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
       </span>
     </span>
@@ -386,30 +386,30 @@ exports[`renders components/spin/demo/percent.tsx correctly 1`] = `
 
 exports[`renders components/spin/demo/size.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-align-center g-flex-gap-medium"
 >
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-sm ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-sm g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
-      class="ant-spin-dot-holder"
+      class="g-spin-dot-holder"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="g-spin-dot g-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
       </span>
     </span>
@@ -417,25 +417,25 @@ exports[`renders components/spin/demo/size.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
-      class="ant-spin-dot-holder"
+      class="g-spin-dot-holder"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="g-spin-dot g-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
       </span>
     </span>
@@ -443,25 +443,25 @@ exports[`renders components/spin/demo/size.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-lg ant-spin-spinning ant-spin-section css-var-test-id"
+    class="g-spin g-spin-lg g-spin-spinning g-spin-section css-var-test-id"
   >
     <span
-      class="ant-spin-dot-holder"
+      class="g-spin-dot-holder"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="g-spin-dot g-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
       </span>
     </span>
@@ -471,31 +471,31 @@ exports[`renders components/spin/demo/size.tsx correctly 1`] = `
 
 exports[`renders components/spin/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-align-center g-flex-gap-medium"
 >
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-spinning acss-11z55jn ant-spin-section css-var-test-id"
+    class="g-spin g-spin-spinning acss-11z55jn g-spin-section css-var-test-id"
   >
     <span
-      class="ant-spin-dot-holder"
+      class="g-spin-dot-holder"
       style="color:#00d4ff"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="g-spin-dot g-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
       </span>
     </span>
@@ -503,26 +503,26 @@ exports[`renders components/spin/demo/style-class.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-sm ant-spin-spinning acss-11z55jn ant-spin-section css-var-test-id"
+    class="g-spin g-spin-sm g-spin-spinning acss-11z55jn g-spin-section css-var-test-id"
   >
     <span
-      class="ant-spin-dot-holder"
+      class="g-spin-dot-holder"
       style="color:#722ed1"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="g-spin-dot g-spin-dot-spin"
       >
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
         <i
-          class="ant-spin-dot-item"
+          class="g-spin-dot-item"
         />
       </span>
     </span>
@@ -532,47 +532,47 @@ exports[`renders components/spin/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/spin/demo/tip.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-medium"
+    class="g-flex css-var-test-id g-flex-gap-medium"
   >
     <div
       aria-busy="true"
       aria-live="polite"
-      class="ant-spin ant-spin-sm ant-spin-spinning css-var-test-id"
+      class="g-spin g-spin-sm g-spin-spinning css-var-test-id"
     >
       <div
-        class="ant-spin-section"
+        class="g-spin-section"
       >
         <span
-          class="ant-spin-dot-holder"
+          class="g-spin-dot-holder"
         >
           <span
-            class="ant-spin-dot ant-spin-dot-spin"
+            class="g-spin-dot g-spin-dot-spin"
           >
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
           </span>
         </span>
         <div
-          class="ant-spin-description"
+          class="g-spin-description"
         >
           Loading
         </div>
       </div>
       <div
-        class="ant-spin-container"
+        class="g-spin-container"
       >
         <div
           style="padding:50px;background:rgba(0, 0, 0, 0.05);border-radius:4px"
@@ -582,39 +582,39 @@ exports[`renders components/spin/demo/tip.tsx correctly 1`] = `
     <div
       aria-busy="true"
       aria-live="polite"
-      class="ant-spin ant-spin-spinning css-var-test-id"
+      class="g-spin g-spin-spinning css-var-test-id"
     >
       <div
-        class="ant-spin-section"
+        class="g-spin-section"
       >
         <span
-          class="ant-spin-dot-holder"
+          class="g-spin-dot-holder"
         >
           <span
-            class="ant-spin-dot ant-spin-dot-spin"
+            class="g-spin-dot g-spin-dot-spin"
           >
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
           </span>
         </span>
         <div
-          class="ant-spin-description"
+          class="g-spin-description"
         >
           Loading
         </div>
       </div>
       <div
-        class="ant-spin-container"
+        class="g-spin-container"
       >
         <div
           style="padding:50px;background:rgba(0, 0, 0, 0.05);border-radius:4px"
@@ -624,39 +624,39 @@ exports[`renders components/spin/demo/tip.tsx correctly 1`] = `
     <div
       aria-busy="true"
       aria-live="polite"
-      class="ant-spin ant-spin-lg ant-spin-spinning css-var-test-id"
+      class="g-spin g-spin-lg g-spin-spinning css-var-test-id"
     >
       <div
-        class="ant-spin-section"
+        class="g-spin-section"
       >
         <span
-          class="ant-spin-dot-holder"
+          class="g-spin-dot-holder"
         >
           <span
-            class="ant-spin-dot ant-spin-dot-spin"
+            class="g-spin-dot g-spin-dot-spin"
           >
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
             <i
-              class="ant-spin-dot-item"
+              class="g-spin-dot-item"
             />
           </span>
         </span>
         <div
-          class="ant-spin-description"
+          class="g-spin-description"
         >
           Loading
         </div>
       </div>
       <div
-        class="ant-spin-container"
+        class="g-spin-container"
       >
         <div
           style="padding:50px;background:rgba(0, 0, 0, 0.05);border-radius:4px"
@@ -667,55 +667,55 @@ exports[`renders components/spin/demo/tip.tsx correctly 1`] = `
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-spinning css-var-test-id"
+    class="g-spin g-spin-spinning css-var-test-id"
   >
     <div
-      class="ant-spin-section"
+      class="g-spin-section"
     >
       <span
-        class="ant-spin-dot-holder"
+        class="g-spin-dot-holder"
       >
         <span
-          class="ant-spin-dot ant-spin-dot-spin"
+          class="g-spin-dot g-spin-dot-spin"
         >
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
         </span>
       </span>
       <div
-        class="ant-spin-description"
+        class="g-spin-description"
       >
         Loading...
       </div>
     </div>
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon css-var-test-id"
+        class="g-alert g-alert-info g-alert-with-description g-alert-no-icon css-var-test-id"
         data-show="true"
         role="alert"
       >
         <div
-          class="ant-alert-section"
+          class="g-alert-section"
         >
           <div
-            class="ant-alert-title"
+            class="g-alert-title"
           >
             Alert message title
           </div>
           <div
-            class="ant-alert-description"
+            class="g-alert-description"
           >
             Further details about the context of this alert.
           </div>

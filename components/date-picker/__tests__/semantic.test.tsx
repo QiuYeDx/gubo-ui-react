@@ -25,13 +25,11 @@ describe('DatePicker.Semantic', () => {
 
         render(renderFn({ classNames, styles, prefix: 'bamboo', open: true }));
 
-        expect(document.body.querySelector(`.ant-picker`)).toHaveClass(classNames.root);
-        expect(document.body.querySelector(`.ant-picker-prefix`)).toHaveClass(classNames.prefix);
-        expect(document.body.querySelector(`.ant-picker-input input`)).toHaveClass(
-          classNames.input,
-        );
-        expect(document.body.querySelector(`.ant-picker-suffix`)).toHaveClass(classNames.suffix);
-        expect(document.body.querySelector(`.ant-picker-dropdown`)).toHaveClass(
+        expect(document.body.querySelector(`.g-picker`)).toHaveClass(classNames.root);
+        expect(document.body.querySelector(`.g-picker-prefix`)).toHaveClass(classNames.prefix);
+        expect(document.body.querySelector(`.g-picker-input input`)).toHaveClass(classNames.input);
+        expect(document.body.querySelector(`.g-picker-suffix`)).toHaveClass(classNames.suffix);
+        expect(document.body.querySelector(`.g-picker-dropdown`)).toHaveClass(
           classNames.popup as string,
         );
 
@@ -79,20 +77,18 @@ describe('DatePicker.Semantic', () => {
         render(renderFn({ classNames, styles, prefix: 'bamboo', open: true, needConfirm: true }));
 
         if (!ignoreTimePickerMissing) {
-          expect(document.body.querySelector(`.ant-picker-header`)).toHaveClass(
+          expect(document.body.querySelector(`.g-picker-header`)).toHaveClass(
             classNames.popup.header,
           );
-          expect(document.body.querySelector(`.ant-picker-body`)).toHaveClass(
-            classNames.popup.body,
-          );
+          expect(document.body.querySelector(`.g-picker-body`)).toHaveClass(classNames.popup.body);
         }
-        expect(document.body.querySelector(`.ant-picker-content`)).toHaveClass(
+        expect(document.body.querySelector(`.g-picker-content`)).toHaveClass(
           classNames.popup.content,
         );
         expect(
-          document.body.querySelector(`.ant-picker-cell, .ant-picker-time-panel-cell`),
+          document.body.querySelector(`.g-picker-cell, .g-picker-time-panel-cell`),
         ).toHaveClass(classNames.popup.item);
-        expect(document.body.querySelector(`.ant-picker-footer`)).toHaveClass(
+        expect(document.body.querySelector(`.g-picker-footer`)).toHaveClass(
           classNames.popup.footer,
         );
 
@@ -134,9 +130,9 @@ describe('DatePicker.Semantic', () => {
       suffix: { fontSize: '20px' },
     };
     const { container } = render(<DatePicker styles={styles} />);
-    const rootElement = container.querySelector('.ant-picker');
-    const inputElement = container.querySelector('.ant-picker-input input');
-    const suffixElement = container.querySelector('.ant-picker-suffix');
+    const rootElement = container.querySelector('.g-picker');
+    const inputElement = container.querySelector('.g-picker-input input');
+    const suffixElement = container.querySelector('.g-picker-suffix');
 
     expect(rootElement).toHaveStyle('background-color: rgb(255, 0, 0)');
     expect(inputElement).toHaveStyle('color: rgb(0, 0, 255)');
@@ -167,11 +163,11 @@ describe('DatePicker.Semantic', () => {
     };
 
     const { container, rerender } = render(<DatePicker styles={stylesFn} />);
-    const rootElement = container.querySelector('.ant-picker');
+    const rootElement = container.querySelector('.g-picker');
     expect(rootElement).toHaveStyle('font-size: 14px');
 
     rerender(<DatePicker size="large" styles={stylesFn} />);
-    const largeRootElement = container.querySelector('.ant-picker');
+    const largeRootElement = container.querySelector('.g-picker');
     expect(largeRootElement).toHaveStyle('font-size: 18px');
   });
 });

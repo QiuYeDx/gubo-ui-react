@@ -3,14 +3,14 @@
 exports[`renders components/tree-select/demo/async.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -20,7 +20,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -29,11 +29,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -53,60 +53,60 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; max-height: 400px; overflow: auto;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close"
                     draggable="false"
                     id="test-id-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -125,11 +125,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Expand to load"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Expand to load
                       </span>
@@ -139,21 +139,21 @@ Array [
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close"
                     draggable="false"
                     id="test-id-2"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -172,11 +172,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Expand to load"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Expand to load
                       </span>
@@ -185,24 +185,24 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-3"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="Tree Node"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Tree Node
                       </span>
@@ -224,14 +224,14 @@ exports[`renders components/tree-select/demo/async.tsx extend context correctly 
 exports[`renders components/tree-select/demo/basic.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -241,7 +241,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -249,11 +249,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -273,60 +273,60 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; max-height: 400px; overflow: auto;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -345,11 +345,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1
                       </span>
@@ -359,25 +359,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open"
                     draggable="false"
                     id="test-id-parent-1-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -396,11 +396,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-0"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-0
                       </span>
@@ -409,31 +409,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="leaf1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         leaf1
                       </span>
@@ -442,31 +442,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf2"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="leaf2"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         leaf2
                       </span>
@@ -475,31 +475,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf3"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="leaf3"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         leaf3
                       </span>
@@ -508,31 +508,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf4"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="leaf4"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         leaf4
                       </span>
@@ -541,31 +541,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf5"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="leaf5"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         leaf5
                       </span>
@@ -574,31 +574,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf6"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="leaf6"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         leaf6
                       </span>
@@ -608,25 +608,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -645,11 +645,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-1
                       </span>
@@ -658,31 +658,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf11"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title=""
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         <b
                           style="color: rgb(0, 136, 204);"
@@ -708,34 +708,34 @@ exports[`renders components/tree-select/demo/basic.tsx extend context correctly 
 exports[`renders components/tree-select/demo/checkable.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-content-item"
+        class="g-select-content-item"
         style="opacity: 1;"
       >
         <span
-          class="ant-select-selection-item"
+          class="g-select-selection-item"
           title="Node1"
         >
           <span
-            class="ant-select-selection-item-content"
+            class="g-select-selection-item-content"
           >
             Node1
           </span>
           <span
             aria-hidden="true"
-            class="ant-select-selection-item-remove"
+            class="g-select-selection-item-remove"
             style="user-select: none;"
             unselectable="on"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -757,7 +757,7 @@ Array [
         </span>
       </div>
       <div
-        class="ant-select-content-item ant-select-content-item-suffix"
+        class="g-select-content-item g-select-content-item-suffix"
         style="opacity: 1;"
       >
         <input
@@ -765,7 +765,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -776,11 +776,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -800,39 +800,39 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
@@ -840,21 +840,21 @@ Array [
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-checkbox-checked"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-checkbox-checked"
                     draggable="false"
                     id="test-id-0-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -875,19 +875,19 @@ Array [
                     <span
                       aria-checked="true"
                       aria-labelledby="test-id-0-0"
-                      class="ant-select-tree-checkbox ant-select-tree-checkbox-checked"
+                      class="g-select-tree-checkbox g-select-tree-checkbox-checked"
                       role="checkbox"
                     >
                       <span
-                        class="ant-select-tree-checkbox-inner"
+                        class="g-select-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Node1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Node1
                       </span>
@@ -898,21 +898,21 @@ Array [
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-0-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -933,19 +933,19 @@ Array [
                     <span
                       aria-checked="false"
                       aria-labelledby="test-id-0-1"
-                      class="ant-select-tree-checkbox"
+                      class="g-select-tree-checkbox"
                       role="checkbox"
                     >
                       <span
-                        class="ant-select-tree-checkbox-inner"
+                        class="g-select-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Node2"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Node2
                       </span>
@@ -967,34 +967,34 @@ exports[`renders components/tree-select/demo/checkable.tsx extend context correc
 exports[`renders components/tree-select/demo/maxCount.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-content-item"
+        class="g-select-content-item"
         style="opacity: 1;"
       >
         <span
-          class="ant-select-selection-item"
+          class="g-select-selection-item"
           title="Child 1-1"
         >
           <span
-            class="ant-select-selection-item-content"
+            class="g-select-selection-item-content"
           >
             Child 1-1
           </span>
           <span
             aria-hidden="true"
-            class="ant-select-selection-item-remove"
+            class="g-select-selection-item-remove"
             style="user-select: none;"
             unselectable="on"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -1016,7 +1016,7 @@ Array [
         </span>
       </div>
       <div
-        class="ant-select-content-item ant-select-content-item-suffix"
+        class="g-select-content-item g-select-content-item-suffix"
         style="opacity: 1;"
       >
         <input
@@ -1024,7 +1024,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1035,14 +1035,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span>
         1 / 3
       </span>
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1062,39 +1062,39 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
@@ -1102,21 +1102,21 @@ Array [
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-checkbox-indeterminate"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-checkbox-indeterminate"
                     draggable="false"
                     id="test-id-parent1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -1137,19 +1137,19 @@ Array [
                     <span
                       aria-checked="mixed"
                       aria-labelledby="test-id-parent1"
-                      class="ant-select-tree-checkbox ant-select-tree-checkbox-indeterminate"
+                      class="g-select-tree-checkbox g-select-tree-checkbox-indeterminate"
                       role="checkbox"
                     >
                       <span
-                        class="ant-select-tree-checkbox-inner"
+                        class="g-select-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Parent 1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Parent 1
                       </span>
@@ -1160,21 +1160,21 @@ Array [
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent2"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -1195,19 +1195,19 @@ Array [
                     <span
                       aria-checked="false"
                       aria-labelledby="test-id-parent2"
-                      class="ant-select-tree-checkbox"
+                      class="g-select-tree-checkbox"
                       role="checkbox"
                     >
                       <span
-                        class="ant-select-tree-checkbox-inner"
+                        class="g-select-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Parent 2"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Parent 2
                       </span>
@@ -1229,25 +1229,25 @@ exports[`renders components/tree-select/demo/maxCount.tsx extend context correct
 exports[`renders components/tree-select/demo/maxCountNoEffect.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-content-item ant-select-content-item-prefix"
+        class="g-select-content-item g-select-content-item-prefix"
         style="opacity: 1;"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         >
           please select
         </div>
       </div>
       <div
-        class="ant-select-content-item ant-select-content-item-suffix"
+        class="g-select-content-item g-select-content-item-suffix"
         style="opacity: 1;"
       >
         <input
@@ -1255,7 +1255,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1266,14 +1266,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span>
         0 / 2
       </span>
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1293,39 +1293,39 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
@@ -1333,21 +1333,21 @@ Array [
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close"
                     draggable="false"
                     id="test-id-0-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -1368,19 +1368,19 @@ Array [
                     <span
                       aria-checked="false"
                       aria-labelledby="test-id-0-0"
-                      class="ant-select-tree-checkbox"
+                      class="g-select-tree-checkbox"
                       role="checkbox"
                     >
                       <span
-                        class="ant-select-tree-checkbox-inner"
+                        class="g-select-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Node1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Node1
                       </span>
@@ -1391,21 +1391,21 @@ Array [
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-0-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -1426,19 +1426,19 @@ Array [
                     <span
                       aria-checked="false"
                       aria-labelledby="test-id-0-1"
-                      class="ant-select-tree-checkbox"
+                      class="g-select-tree-checkbox"
                       role="checkbox"
                     >
                       <span
-                        class="ant-select-tree-checkbox-inner"
+                        class="g-select-tree-checkbox-inner"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Node2"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Node2
                       </span>
@@ -1460,25 +1460,25 @@ exports[`renders components/tree-select/demo/maxCountNoEffect.tsx extend context
 exports[`renders components/tree-select/demo/multiple.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-content-item ant-select-content-item-prefix"
+        class="g-select-content-item g-select-content-item-prefix"
         style="opacity: 1;"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         >
           Please select
         </div>
       </div>
       <div
-        class="ant-select-content-item ant-select-content-item-suffix"
+        class="g-select-content-item g-select-content-item-suffix"
         style="opacity: 1;"
       >
         <input
@@ -1486,7 +1486,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           style="--select-input-width: 0;"
@@ -1496,11 +1496,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1520,60 +1520,60 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; max-height: 400px; overflow: auto;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -1592,11 +1592,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1
                       </span>
@@ -1606,25 +1606,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open"
                     draggable="false"
                     id="test-id-parent-1-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -1643,11 +1643,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-0"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-0
                       </span>
@@ -1656,31 +1656,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="my leaf"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         my leaf
                       </span>
@@ -1689,31 +1689,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf2"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="your leaf"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         your leaf
                       </span>
@@ -1723,25 +1723,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -1760,11 +1760,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-1
                       </span>
@@ -1773,31 +1773,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-sss"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title=""
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         <b
                           style="color: rgb(0, 136, 204);"
@@ -1823,82 +1823,82 @@ exports[`renders components/tree-select/demo/multiple.tsx extend context correct
 exports[`renders components/tree-select/demo/placement.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topRight
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomRight
       </span>
@@ -1907,13 +1907,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -1923,7 +1923,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -1931,11 +1931,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1955,60 +1955,60 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-topLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-topLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; max-height: 400px; overflow: auto; min-width: 300px;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -2027,11 +2027,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1
                       </span>
@@ -2041,25 +2041,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open"
                     draggable="false"
                     id="test-id-parent-1-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -2078,11 +2078,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-0"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-0
                       </span>
@@ -2091,31 +2091,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="leaf1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         leaf1
                       </span>
@@ -2124,31 +2124,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf2"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="leaf2"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         leaf2
                       </span>
@@ -2158,25 +2158,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -2195,11 +2195,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-1
                       </span>
@@ -2208,31 +2208,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf3"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title=""
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         <b
                           style="color: rgb(0, 136, 204);"
@@ -2260,11 +2260,11 @@ exports[`renders components/tree-select/demo/render-panel.tsx extend context cor
   style="padding-bottom: 0px; position: relative; min-width: 0;"
 >
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-open"
     style="width: 100%; margin: 0px;"
   >
     <div
-      class="ant-select-content ant-select-content-has-value"
+      class="g-select-content g-select-content-has-value"
       title="lucy"
     >
       lucy
@@ -2275,7 +2275,7 @@ exports[`renders components/tree-select/demo/render-panel.tsx extend context cor
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -2284,11 +2284,11 @@ exports[`renders components/tree-select/demo/render-panel.tsx extend context cor
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -2308,60 +2308,60 @@ exports[`renders components/tree-select/demo/render-panel.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close"
                     draggable="false"
                     id="test-id-0-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -2380,11 +2380,11 @@ exports[`renders components/tree-select/demo/render-panel.tsx extend context cor
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="Node1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Node1
                       </span>
@@ -2393,24 +2393,24 @@ exports[`renders components/tree-select/demo/render-panel.tsx extend context cor
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-0-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="Node2"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Node2
                       </span>
@@ -2431,21 +2431,21 @@ exports[`renders components/tree-select/demo/render-panel.tsx extend context cor
 
 exports[`renders components/tree-select/demo/status.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width: 100%;"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-tree-select ant-select-outlined ant-select-status-error css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-tree-select g-select-outlined g-select-status-error css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
       style="width: 100%;"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         >
           Error
@@ -2455,7 +2455,7 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -2464,11 +2464,11 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -2488,19 +2488,19 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-empty"
+          class="g-select-empty"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -2539,7 +2539,7 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -2549,28 +2549,28 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-tree-select ant-select-outlined ant-select-status-warning css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow"
+      class="g-select g-tree-select g-select-outlined g-select-status-warning css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow"
       style="width: 100%;"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item ant-select-content-item-prefix"
+          class="g-select-content-item g-select-content-item-prefix"
           style="opacity: 1;"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility: visible;"
           >
             Warning multiple
           </div>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity: 1;"
         >
           <input
@@ -2578,7 +2578,7 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -2589,11 +2589,11 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -2613,19 +2613,19 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-empty"
+          class="g-select-empty"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -2664,7 +2664,7 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -2680,16 +2680,16 @@ exports[`renders components/tree-select/demo/status.tsx extend context correctly
 
 exports[`renders components/tree-select/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-large ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-large g-flex-vertical"
 >
   <div
-    class="ant-select ant-tree-select ant-select-outlined acss-aylixc css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined acss-aylixc css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Object
@@ -2699,7 +2699,7 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -2709,12 +2709,12 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
       style="color: rgb(24, 144, 255);"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -2734,60 +2734,60 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown acss-aylixc css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown acss-aylixc css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; border: 1px solid rgb(24, 144, 255);"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -2806,11 +2806,11 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="parent 1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1
                       </span>
@@ -2825,13 +2825,13 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-outlined acss-aylixc css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined acss-aylixc css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Function
@@ -2841,7 +2841,7 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -2850,12 +2850,12 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
       style="color: rgb(114, 46, 209);"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -2875,46 +2875,46 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown acss-aylixc css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown acss-aylixc css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1"
                     role="treeitem"
@@ -2922,14 +2922,14 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                      class="g-select-tree-switcher g-select-tree-switcher_close"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -2948,11 +2948,11 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                       title="parent 1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1
                       </span>
@@ -2974,14 +2974,14 @@ exports[`renders components/tree-select/demo/style-class.tsx extend context corr
 exports[`renders components/tree-select/demo/suffix.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -2991,7 +2991,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -2999,11 +2999,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -3023,60 +3023,60 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; max-height: 400px; overflow: auto;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -3095,11 +3095,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1
                       </span>
@@ -3109,25 +3109,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open"
                     draggable="false"
                     id="test-id-parent-1-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -3146,11 +3146,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-0"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-0
                       </span>
@@ -3159,31 +3159,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="my leaf"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         my leaf
                       </span>
@@ -3192,31 +3192,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf2"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="your leaf"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         your leaf
                       </span>
@@ -3226,25 +3226,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -3263,11 +3263,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-1
                       </span>
@@ -3276,31 +3276,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-sss"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title=""
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         <b
                           style="color: rgb(0, 136, 204);"
@@ -3321,19 +3321,19 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     style="width: 100%;"
   >
     <div
-      class="ant-select-prefix"
+      class="g-select-prefix"
     >
       Prefix
     </div>
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -3343,7 +3343,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -3351,11 +3351,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3375,60 +3375,60 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; max-height: 400px; overflow: auto;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -3447,11 +3447,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1
                       </span>
@@ -3461,25 +3461,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open"
                     draggable="false"
                     id="test-id-parent-1-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -3498,11 +3498,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-0"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-0
                       </span>
@@ -3511,31 +3511,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="my leaf"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         my leaf
                       </span>
@@ -3544,31 +3544,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-leaf2"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="your leaf"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         your leaf
                       </span>
@@ -3578,25 +3578,25 @@ Array [
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open g-select-tree-treenode-leaf-last"
                     draggable="false"
                     id="test-id-parent-1-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -3615,11 +3615,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="parent 1-1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         parent 1-1
                       </span>
@@ -3628,31 +3628,31 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-sss"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start g-select-tree-indent-unit-end"
                       />
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-end"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-end"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title=""
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         <b
                           style="color: rgb(0, 136, 204);"
@@ -3678,14 +3678,14 @@ exports[`renders components/tree-select/demo/suffix.tsx extend context correctly
 exports[`renders components/tree-select/demo/treeData.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -3695,7 +3695,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3704,11 +3704,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3728,60 +3728,60 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; max-height: 400px; overflow: auto;"
   >
     <div>
       <div>
         <div
-          class="ant-select-tree"
+          class="g-select-tree"
         >
           <div
             aria-hidden="true"
-            class="ant-select-tree-treenode"
+            class="g-select-tree-treenode"
             style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
           >
             <div
-              class="ant-select-tree-indent"
+              class="g-select-tree-indent"
             >
               <div
-                class="ant-select-tree-indent-unit"
+                class="g-select-tree-indent-unit"
               />
             </div>
           </div>
           <div
-            class="ant-select-tree-list"
+            class="g-select-tree-list"
             role="tree"
             style="position: relative;"
           >
             <div
-              class="ant-select-tree-list-holder"
+              class="g-select-tree-list-holder"
               style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
             >
               <div>
                 <div
-                  class="ant-select-tree-list-holder-inner"
+                  class="g-select-tree-list-holder-inner"
                   style="display: flex; flex-direction: column;"
                 >
                   <div
                     aria-disabled="false"
                     aria-expanded="true"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-open"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-open"
                     draggable="false"
                     id="test-id-0-0"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher_open"
+                      class="g-select-tree-switcher g-select-tree-switcher_open"
                     >
                       <span
                         aria-label="caret-down"
-                        class="anticon anticon-caret-down ant-select-tree-switcher-icon"
+                        class="gicon gicon-caret-down g-select-tree-switcher-icon"
                         role="img"
                       >
                         <svg
@@ -3800,11 +3800,11 @@ Array [
                       </span>
                     </span>
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-open"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-open"
                       title="Node1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Node1
                       </span>
@@ -3813,28 +3813,28 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-0-0-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="Child Node1"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Child Node1
                       </span>
@@ -3843,28 +3843,28 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-0-0-2"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     >
                       <span
-                        class="ant-select-tree-indent-unit ant-select-tree-indent-unit-start"
+                        class="g-select-tree-indent-unit g-select-tree-indent-unit-start"
                       />
                     </span>
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="Child Node2"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Child Node2
                       </span>
@@ -3873,24 +3873,24 @@ Array [
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last ant-select-tree-treenode-leaf"
+                    class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last g-select-tree-treenode-leaf"
                     draggable="false"
                     id="test-id-0-1"
                     role="treeitem"
                   >
                     <span
                       aria-hidden="true"
-                      class="ant-select-tree-indent"
+                      class="g-select-tree-indent"
                     />
                     <span
-                      class="ant-select-tree-switcher ant-select-tree-switcher-noop"
+                      class="g-select-tree-switcher g-select-tree-switcher-noop"
                     />
                     <span
-                      class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal"
+                      class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-normal"
                       title="Node2"
                     >
                       <span
-                        class="ant-select-tree-title"
+                        class="g-select-tree-title"
                       >
                         Node2
                       </span>
@@ -3911,30 +3911,30 @@ exports[`renders components/tree-select/demo/treeData.tsx extend context correct
 
 exports[`renders components/tree-select/demo/treeLine.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-checked="false"
-      class="ant-switch css-var-test-id"
+      class="g-switch css-var-test-id"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         >
           showIcon
         </span>
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         >
           showIcon
         </span>
@@ -3942,27 +3942,27 @@ exports[`renders components/tree-select/demo/treeLine.tsx extend context correct
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-checked="true"
-      class="ant-switch css-var-test-id ant-switch-checked"
+      class="g-switch css-var-test-id g-switch-checked"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         >
           treeLine
         </span>
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         >
           treeLine
         </span>
@@ -3970,27 +3970,27 @@ exports[`renders components/tree-select/demo/treeLine.tsx extend context correct
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-checked="false"
-      class="ant-switch css-var-test-id"
+      class="g-switch css-var-test-id"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         >
           showLeafIcon
         </span>
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         >
           showLeafIcon
         </span>
@@ -3998,17 +3998,17 @@ exports[`renders components/tree-select/demo/treeLine.tsx extend context correct
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
       style="width: 300px;"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         />
         <input
@@ -4016,7 +4016,7 @@ exports[`renders components/tree-select/demo/treeLine.tsx extend context correct
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -4025,11 +4025,11 @@ exports[`renders components/tree-select/demo/treeLine.tsx extend context correct
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4049,60 +4049,60 @@ exports[`renders components/tree-select/demo/treeLine.tsx extend context correct
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div>
           <div
-            class="ant-select-tree ant-select-tree-show-line"
+            class="g-select-tree g-select-tree-show-line"
           >
             <div
               aria-hidden="true"
-              class="ant-select-tree-treenode"
+              class="g-select-tree-treenode"
               style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
             >
               <div
-                class="ant-select-tree-indent"
+                class="g-select-tree-indent"
               >
                 <div
-                  class="ant-select-tree-indent-unit"
+                  class="g-select-tree-indent-unit"
                 />
               </div>
             </div>
             <div
-              class="ant-select-tree-list"
+              class="g-select-tree-list"
               role="tree"
               style="position: relative;"
             >
               <div
-                class="ant-select-tree-list-holder"
+                class="g-select-tree-list-holder"
                 style="max-height: 256px; overflow-y: auto; overflow-anchor: none;"
               >
                 <div>
                   <div
-                    class="ant-select-tree-list-holder-inner"
+                    class="g-select-tree-list-holder-inner"
                     style="display: flex; flex-direction: column;"
                   >
                     <div
                       aria-disabled="false"
                       aria-expanded="false"
                       aria-selected="false"
-                      class="ant-select-tree-treenode ant-select-tree-treenode-switcher-close ant-select-tree-treenode-leaf-last"
+                      class="g-select-tree-treenode g-select-tree-treenode-switcher-close g-select-tree-treenode-leaf-last"
                       draggable="false"
                       id="test-id-parent-1"
                       role="treeitem"
                     >
                       <span
                         aria-hidden="true"
-                        class="ant-select-tree-indent"
+                        class="g-select-tree-indent"
                       />
                       <span
-                        class="ant-select-tree-switcher ant-select-tree-switcher_close"
+                        class="g-select-tree-switcher g-select-tree-switcher_close"
                       >
                         <span
                           aria-label="plus-square"
-                          class="anticon anticon-plus-square ant-select-tree-switcher-line-icon"
+                          class="gicon gicon-plus-square g-select-tree-switcher-line-icon"
                           role="img"
                         >
                           <svg
@@ -4124,11 +4124,11 @@ exports[`renders components/tree-select/demo/treeLine.tsx extend context correct
                         </span>
                       </span>
                       <span
-                        class="ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-close"
+                        class="g-select-tree-node-content-wrapper g-select-tree-node-content-wrapper-close"
                         title="parent 1"
                       >
                         <span
-                          class="ant-select-tree-title"
+                          class="g-select-tree-title"
                         >
                           parent 1
                         </span>
@@ -4150,17 +4150,17 @@ exports[`renders components/tree-select/demo/treeLine.tsx extend context correct
 
 exports[`renders components/tree-select/demo/variant.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-select ant-tree-select ant-select-borderless css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-borderless css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width: 100%; max-width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4170,7 +4170,7 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4179,11 +4179,11 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4203,19 +4203,19 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-empty"
+        class="g-select-empty"
         role="listbox"
       >
         <div
-          class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+          class="css-var-test-id g-empty g-empty-normal g-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -4254,7 +4254,7 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>
@@ -4263,14 +4263,14 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-filled css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-filled css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width: 100%; max-width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4280,7 +4280,7 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4289,11 +4289,11 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4313,19 +4313,19 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-empty"
+        class="g-select-empty"
         role="listbox"
       >
         <div
-          class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+          class="css-var-test-id g-empty g-empty-normal g-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -4364,7 +4364,7 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>
@@ -4373,14 +4373,14 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width: 100%; max-width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4390,7 +4390,7 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4399,11 +4399,11 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4423,19 +4423,19 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-empty"
+        class="g-select-empty"
         role="listbox"
       >
         <div
-          class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+          class="css-var-test-id g-empty g-empty-normal g-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -4474,7 +4474,7 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>
@@ -4483,14 +4483,14 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-underlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-underlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width: 100%; max-width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4500,7 +4500,7 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4509,11 +4509,11 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4533,19 +4533,19 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-empty"
+        class="g-select-empty"
         role="listbox"
       >
         <div
-          class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+          class="css-var-test-id g-empty g-empty-normal g-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -4584,7 +4584,7 @@ exports[`renders components/tree-select/demo/variant.tsx extend context correctl
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>

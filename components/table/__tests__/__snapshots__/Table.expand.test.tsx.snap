@@ -2,34 +2,34 @@
 
 exports[`Table.expand click to expand 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table css-var-root ant-table-css-var"
+        class="g-table css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Name
@@ -37,42 +37,42 @@ exports[`Table.expand click to expand 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell ant-table-cell-with-append"
+                    class="g-table-cell g-table-cell-with-append"
                   >
                     <span
-                      class="ant-table-row-indent indent-level-0"
+                      class="g-table-row-indent indent-level-0"
                       style="padding-left: 0px;"
                     />
                     <button
                       aria-expanded="true"
                       aria-label="Collapse row"
-                      class="ant-table-row-expand-icon ant-table-row-expand-icon-expanded"
+                      class="g-table-row-expand-icon g-table-row-expand-icon-expanded"
                       type="button"
                     />
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-1"
+                  class="g-table-row g-table-row-level-1"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell ant-table-cell-with-append"
+                    class="g-table-cell g-table-cell-with-append"
                   >
                     <span
-                      class="ant-table-row-indent indent-level-1"
+                      class="g-table-row-indent indent-level-1"
                       style="padding-left: 15px;"
                     />
                     <button
                       aria-expanded="false"
                       aria-label="Expand row"
-                      class="ant-table-row-expand-icon ant-table-row-expand-icon-spaced"
+                      class="g-table-row-expand-icon g-table-row-expand-icon-spaced"
                       type="button"
                     />
                   </td>
@@ -83,22 +83,22 @@ exports[`Table.expand click to expand 1`] = `
         </div>
       </div>
       <ul
-        class="ant-pagination ant-table-pagination ant-table-pagination-end css-var-root"
+        class="g-pagination g-table-pagination g-table-pagination-end css-var-root"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-prev ant-pagination-disabled"
+          class="g-pagination-prev g-pagination-disabled"
           title="Previous Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="g-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -118,7 +118,7 @@ exports[`Table.expand click to expand 1`] = `
           </button>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -130,18 +130,18 @@ exports[`Table.expand click to expand 1`] = `
         </li>
         <li
           aria-disabled="true"
-          class="ant-pagination-next ant-pagination-disabled"
+          class="g-pagination-next g-pagination-disabled"
           title="Next Page"
         >
           <button
-            class="ant-pagination-item-link"
+            class="g-pagination-item-link"
             disabled=""
             tabindex="-1"
             type="button"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg

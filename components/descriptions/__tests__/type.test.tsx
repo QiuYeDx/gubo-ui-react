@@ -28,7 +28,7 @@ describe('Descriptions.Item span property types', () => {
       </Descriptions>,
     );
 
-    const items = container.querySelectorAll('.ant-descriptions-item');
+    const items = container.querySelectorAll('.g-descriptions-item');
     expect(items[0]).toHaveAttribute('colSpan', '1');
     expect(items[1]).toHaveAttribute('colSpan', '2');
     expect(items[2]).toHaveAttribute('colSpan', '1');
@@ -46,7 +46,7 @@ describe('Descriptions.Item span property types', () => {
       </Descriptions>,
     );
 
-    const items = container.querySelectorAll('.ant-descriptions-item');
+    const items = container.querySelectorAll('.g-descriptions-item');
     expect(items[0]).toHaveAttribute('colSpan', '1');
     expect(items[1]).toHaveAttribute('colSpan', '2'); // 应该填充剩余的列
     expect(items[2]).toHaveAttribute('colSpan', '3'); // 下一行应该占满整行
@@ -65,7 +65,7 @@ describe('Descriptions.Item span property types', () => {
 
     // 由于测试环境中无法真实模拟响应式断点，这里只能测试是否正确渲染
     // 实际的响应式行为需要在浏览器环境中测试
-    expect(container.querySelectorAll('.ant-descriptions-item')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-descriptions-item')).toHaveLength(2);
   });
 
   // 测试 items 模式下的所有 span 类型
@@ -101,7 +101,7 @@ describe('Descriptions.Item span property types', () => {
       />,
     );
 
-    const items = container.querySelectorAll('.ant-descriptions-item');
+    const items = container.querySelectorAll('.g-descriptions-item');
     expect(items).toHaveLength(4);
     expect(items[0]).toHaveAttribute('colSpan', '2');
     // 其他项的 colSpan 会根据实际渲染情况而定
@@ -124,7 +124,7 @@ describe('Descriptions.Item span property types', () => {
       />,
     );
 
-    expect(container.querySelectorAll('.ant-descriptions-item')).toHaveLength(5);
+    expect(container.querySelectorAll('.g-descriptions-item')).toHaveLength(5);
   });
 
   // 测试 span 超出列数的警告
@@ -159,7 +159,7 @@ describe('Descriptions.Item span property types', () => {
       />,
     );
 
-    const items = container.querySelectorAll('.ant-descriptions-item');
+    const items = container.querySelectorAll('.g-descriptions-item');
     expect(items[0]).toHaveAttribute('colSpan', '1');
     expect(items[1]).toHaveAttribute('colSpan', '3'); // 填充第一行剩余的列
     expect(items[2]).toHaveAttribute('colSpan', '1');
@@ -188,6 +188,6 @@ describe('Descriptions.Item span property types', () => {
       />,
     );
 
-    expect(container.querySelectorAll('.ant-descriptions-item')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-descriptions-item')).toHaveLength(2);
   });
 });

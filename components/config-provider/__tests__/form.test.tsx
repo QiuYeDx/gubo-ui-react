@@ -67,7 +67,7 @@ describe('ConfigProvider.Form', () => {
         jest.runAllTimers();
       });
 
-      expect(container.querySelector('.ant-form-item-explain')).toHaveTextContent('请输入姓名');
+      expect(container.querySelector('.g-form-item-explain')).toHaveTextContent('请输入姓名');
     });
 
     it('set locale zhCN and set form validateMessages one item, other use default message', async () => {
@@ -90,7 +90,7 @@ describe('ConfigProvider.Form', () => {
         jest.runAllTimers();
       });
 
-      const explains = Array.from(container.querySelectorAll('.ant-form-item-explain'));
+      const explains = Array.from(container.querySelectorAll('.g-form-item-explain'));
 
       expect(explains[0]).toHaveTextContent('必须');
       expect(explains[explains.length - 1]).toHaveTextContent('年龄必须等于17');
@@ -140,11 +140,11 @@ describe('ConfigProvider.Form', () => {
         jest.runAllTimers();
       });
 
-      expect(container.querySelectorAll('.ant-form-item-explain')).toHaveLength(2);
-      expect(container.querySelectorAll('.ant-form-item-explain')[0]).toHaveTextContent(
+      expect(container.querySelectorAll('.g-form-item-explain')).toHaveLength(2);
+      expect(container.querySelectorAll('.g-form-item-explain')[0]).toHaveTextContent(
         'rate 最大值为 5',
       );
-      expect(container.querySelectorAll('.ant-form-item-explain')[1]).toHaveTextContent(
+      expect(container.querySelectorAll('.g-form-item-explain')[1]).toHaveTextContent(
         'age must be between 18-99',
       );
     });
@@ -180,7 +180,7 @@ describe('ConfigProvider.Form', () => {
 
       await waitFakeTimer();
 
-      expect(container.querySelectorAll('.ant-form-item-explain-error')).toHaveLength(3);
+      expect(container.querySelectorAll('.g-form-item-explain-error')).toHaveLength(3);
       expect(getAllByText('Please enter Name')).toHaveLength(1);
       expect(getAllByText('Required')).toHaveLength(2);
     });
@@ -212,7 +212,7 @@ describe('ConfigProvider.Form', () => {
           </Form>
         </ConfigProvider>,
       );
-      expect(container.querySelector('.ant-form-item-no-colon')).toBeTruthy();
+      expect(container.querySelector('.g-form-item-no-colon')).toBeTruthy();
     });
 
     it('set colon default', () => {
@@ -225,7 +225,7 @@ describe('ConfigProvider.Form', () => {
           </Form>
         </ConfigProvider>,
       );
-      expect(container.querySelector('.ant-form-item-no-colon')).toBeFalsy();
+      expect(container.querySelector('.g-form-item-no-colon')).toBeFalsy();
     });
   });
 

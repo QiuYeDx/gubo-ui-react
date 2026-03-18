@@ -46,7 +46,7 @@ describe('ConfigProvider', () => {
         <Table />
       </ConfigProvider>,
     );
-    expect(container.querySelector('.ant-table-placeholder')?.querySelector('div')?.innerHTML).toBe(
+    expect(container.querySelector('.g-table-placeholder')?.querySelector('div')?.innerHTML).toBe(
       text,
     );
   });
@@ -113,7 +113,7 @@ describe('ConfigProvider', () => {
         <Select />
       </ConfigProvider>,
     );
-    expect(container.querySelectorAll('.ant-select-show-search').length).toBe(1);
+    expect(container.querySelectorAll('.g-select-show-search').length).toBe(1);
   });
 
   it('render empty', () => {
@@ -154,36 +154,36 @@ describe('ConfigProvider', () => {
     const { container } = render(
       <>
         <ConfigProvider variant="filled">
-          <Input id="variant-input-1" />
+          <Input id="varig-input-1" />
         </ConfigProvider>
         <ConfigProvider variant="filled">
-          <Input id="variant-input-2" variant="outlined" />
+          <Input id="varig-input-2" variant="outlined" />
         </ConfigProvider>
         <ConfigProvider variant="filled">
           <Form variant="borderless">
-            <Input id="variant-input-3" />
+            <Input id="varig-input-3" />
           </Form>
         </ConfigProvider>
         <ConfigProvider input={{ variant: 'filled' }}>
-          <Input id="variant-input-4" />
+          <Input id="varig-input-4" />
         </ConfigProvider>
         <ConfigProvider variant="borderless" input={{ variant: 'filled' }}>
-          <Input id="variant-input-5" />
+          <Input id="varig-input-5" />
         </ConfigProvider>
         <ConfigProvider variant="borderless" input={{ variant: 'filled' }}>
           <Form variant="outlined">
-            <Input id="variant-input-6" />
+            <Input id="varig-input-6" />
           </Form>
         </ConfigProvider>
       </>,
     );
 
-    expect(container.querySelector('#variant-input-1')).toHaveClass('ant-input-filled');
-    expect(container.querySelector('#variant-input-2')).toHaveClass('ant-input-outlined');
-    expect(container.querySelector('#variant-input-3')).toHaveClass('ant-input-borderless');
-    expect(container.querySelector('#variant-input-4')).toHaveClass('ant-input-filled');
-    expect(container.querySelector('#variant-input-5')).toHaveClass('ant-input-filled');
-    expect(container.querySelector('#variant-input-6')).toHaveClass('ant-input-outlined');
+    expect(container.querySelector('#varig-input-1')).toHaveClass('g-input-filled');
+    expect(container.querySelector('#varig-input-2')).toHaveClass('g-input-outlined');
+    expect(container.querySelector('#varig-input-3')).toHaveClass('g-input-borderless');
+    expect(container.querySelector('#varig-input-4')).toHaveClass('g-input-filled');
+    expect(container.querySelector('#varig-input-5')).toHaveClass('g-input-filled');
+    expect(container.querySelector('#varig-input-6')).toHaveClass('g-input-outlined');
   });
 
   it('motion config should not trigger re-mount', () => {

@@ -2,35 +2,35 @@
 
 exports[`Drawer Drawer loading have a spinner 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 378px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -52,16 +52,16 @@ exports[`Drawer Drawer loading have a spinner 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         <div
-          class="ant-skeleton ant-skeleton-active ant-drawer-body-skeleton css-var-root"
+          class="g-skeleton g-skeleton-active g-drawer-body-skeleton css-var-root"
         >
           <div
-            class="ant-skeleton-section"
+            class="g-skeleton-section"
           >
             <ul
-              class="ant-skeleton-paragraph"
+              class="g-skeleton-paragraph"
             >
               <li />
               <li />
@@ -81,35 +81,35 @@ exports[`Drawer Drawer loading have a spinner 1`] = `
 
 exports[`Drawer Drawer mask blur className should support closable placement with end 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 378px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         />
         <button
           aria-label="Close"
-          class="ant-drawer-close ant-drawer-close-end"
+          class="g-drawer-close g-drawer-close-end"
           type="button"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close"
+            class="gicon gicon-close"
             role="img"
           >
             <svg
@@ -130,7 +130,7 @@ exports[`Drawer Drawer mask blur className should support closable placement wit
         </button>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Test
       </div>
@@ -141,35 +141,35 @@ exports[`Drawer Drawer mask blur className should support closable placement wit
 
 exports[`Drawer Drawer mask blur className should support closable placement with start 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 378px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -191,7 +191,7 @@ exports[`Drawer Drawer mask blur className should support closable placement wit
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Test
       </div>
@@ -202,35 +202,35 @@ exports[`Drawer Drawer mask blur className should support closable placement wit
 
 exports[`Drawer className is test_drawer 1`] = `
 <div
-  class="ant-drawer ant-drawer-right test_drawer css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right test_drawer css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 378px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -252,7 +252,7 @@ exports[`Drawer className is test_drawer 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Here is content of Drawer
       </div>
@@ -263,23 +263,23 @@ exports[`Drawer className is test_drawer 1`] = `
 
 exports[`Drawer closable is false 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 378px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Here is content of Drawer
       </div>
@@ -295,35 +295,35 @@ exports[`Drawer getContainer return undefined 1`] = `<div />`;
 exports[`Drawer getContainer return undefined 2`] = `
 <div>
   <div
-    class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+    class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
     tabindex="-1"
   >
     <div
-      class="ant-drawer-mask"
+      class="g-drawer-mask"
     />
     <div
-      class="ant-drawer-content-wrapper"
+      class="g-drawer-content-wrapper"
       style="width: 400px;"
     >
       <div
         aria-modal="true"
-        class="ant-drawer-section"
+        class="g-drawer-section"
         role="dialog"
       >
         <div
-          class="ant-drawer-header ant-drawer-header-close-only"
+          class="g-drawer-header g-drawer-header-close-only"
         >
           <div
-            class="ant-drawer-header-title"
+            class="g-drawer-header-title"
           >
             <button
               aria-label="Close"
-              class="ant-drawer-close"
+              class="g-drawer-close"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -345,7 +345,7 @@ exports[`Drawer getContainer return undefined 2`] = `
           </div>
         </div>
         <div
-          class="ant-drawer-body"
+          class="g-drawer-body"
         >
           Here is content of Drawer
         </div>
@@ -357,35 +357,35 @@ exports[`Drawer getContainer return undefined 2`] = `
 
 exports[`Drawer have a footer 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 378px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -407,12 +407,12 @@ exports[`Drawer have a footer 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Here is content of Drawer
       </div>
       <div
-        class="ant-drawer-footer"
+        class="g-drawer-footer"
       >
         Test Footer
       </div>
@@ -423,36 +423,36 @@ exports[`Drawer have a footer 1`] = `
 
 exports[`Drawer have a title 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 378px;"
   >
     <div
       aria-labelledby="test-id"
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header"
+        class="g-drawer-header"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -472,7 +472,7 @@ exports[`Drawer have a title 1`] = `
             </span>
           </button>
           <div
-            class="ant-drawer-title"
+            class="g-drawer-title"
             id="test-id"
           >
             Test Title
@@ -480,7 +480,7 @@ exports[`Drawer have a title 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Here is content of Drawer
       </div>
@@ -491,35 +491,35 @@ exports[`Drawer have a title 1`] = `
 
 exports[`Drawer render correctly 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 400px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -541,7 +541,7 @@ exports[`Drawer render correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Here is content of Drawer
       </div>
@@ -552,35 +552,35 @@ exports[`Drawer render correctly 1`] = `
 
 exports[`Drawer render top drawer 1`] = `
 <div
-  class="ant-drawer ant-drawer-top css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-top css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="height: 400px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -602,7 +602,7 @@ exports[`Drawer render top drawer 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Here is content of Drawer
       </div>
@@ -616,38 +616,38 @@ exports[`Drawer rtl render component should be rendered correctly in RTL directi
 exports[`Drawer style migrate match between styles and deprecated style prop 1`] = `
 <div>
   <div
-    class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+    class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
     tabindex="-1"
   >
     <div
-      class="ant-drawer-mask ant-drawer-mask-motion-enter ant-drawer-mask-motion-enter-start ant-drawer-mask-motion"
+      class="g-drawer-mask g-drawer-mask-motion-enter g-drawer-mask-motion-enter-start g-drawer-mask-motion"
       style="font-size: 15px;"
     />
     <div
-      class="ant-drawer-content-wrapper ant-drawer-panel-motion-right-enter ant-drawer-panel-motion-right-enter-start ant-drawer-panel-motion-right"
+      class="g-drawer-content-wrapper g-drawer-panel-motion-right-enter g-drawer-panel-motion-right-enter-start g-drawer-panel-motion-right"
       style="width: 378px; font-size: 14px;"
     >
       <div
         aria-modal="true"
-        class="ant-drawer-section"
+        class="g-drawer-section"
         role="dialog"
         style="font-size: 13px;"
       >
         <div
-          class="ant-drawer-header ant-drawer-header-close-only"
+          class="g-drawer-header g-drawer-header-close-only"
           style="font-size: 10px;"
         >
           <div
-            class="ant-drawer-header-title"
+            class="g-drawer-header-title"
           >
             <button
               aria-label="Close"
-              class="ant-drawer-close"
+              class="g-drawer-close"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -669,7 +669,7 @@ exports[`Drawer style migrate match between styles and deprecated style prop 1`]
           </div>
         </div>
         <div
-          class="ant-drawer-body"
+          class="g-drawer-body"
           style="font-size: 11px;"
         >
           <p>
@@ -677,7 +677,7 @@ exports[`Drawer style migrate match between styles and deprecated style prop 1`]
           </p>
         </div>
         <div
-          class="ant-drawer-footer"
+          class="g-drawer-footer"
           style="font-size: 12px;"
         >
           footer
@@ -691,38 +691,38 @@ exports[`Drawer style migrate match between styles and deprecated style prop 1`]
 exports[`Drawer style migrate match between styles and deprecated style prop 2`] = `
 <div>
   <div
-    class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+    class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
     tabindex="-1"
   >
     <div
-      class="ant-drawer-mask ant-drawer-mask-motion-enter ant-drawer-mask-motion-enter-start ant-drawer-mask-motion"
+      class="g-drawer-mask g-drawer-mask-motion-enter g-drawer-mask-motion-enter-start g-drawer-mask-motion"
       style="font-size: 15px;"
     />
     <div
-      class="ant-drawer-content-wrapper ant-drawer-panel-motion-right-enter ant-drawer-panel-motion-right-enter-start ant-drawer-panel-motion-right"
+      class="g-drawer-content-wrapper g-drawer-panel-motion-right-enter g-drawer-panel-motion-right-enter-start g-drawer-panel-motion-right"
       style="width: 378px; font-size: 14px;"
     >
       <div
         aria-modal="true"
-        class="ant-drawer-section"
+        class="g-drawer-section"
         role="dialog"
         style="font-size: 13px;"
       >
         <div
-          class="ant-drawer-header ant-drawer-header-close-only"
+          class="g-drawer-header g-drawer-header-close-only"
           style="font-size: 10px;"
         >
           <div
-            class="ant-drawer-header-title"
+            class="g-drawer-header-title"
           >
             <button
               aria-label="Close"
-              class="ant-drawer-close"
+              class="g-drawer-close"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -744,7 +744,7 @@ exports[`Drawer style migrate match between styles and deprecated style prop 2`]
           </div>
         </div>
         <div
-          class="ant-drawer-body"
+          class="g-drawer-body"
           style="font-size: 11px;"
         >
           <p>
@@ -752,7 +752,7 @@ exports[`Drawer style migrate match between styles and deprecated style prop 2`]
           </p>
         </div>
         <div
-          class="ant-drawer-footer"
+          class="g-drawer-footer"
           style="font-size: 12px;"
         >
           footer
@@ -765,38 +765,38 @@ exports[`Drawer style migrate match between styles and deprecated style prop 2`]
 
 exports[`Drawer style/drawerStyle/headerStyle/bodyStyle should work 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   style="background-color: rgb(0, 136, 204);"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 378px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
       style="background-color: rgb(0, 136, 204);"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
         style="background-color: rgb(0, 136, 204);"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -818,7 +818,7 @@ exports[`Drawer style/drawerStyle/headerStyle/bodyStyle should work 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
         style="background-color: rgb(0, 136, 204);"
       >
         Here is content of Drawer
@@ -830,30 +830,30 @@ exports[`Drawer style/drawerStyle/headerStyle/bodyStyle should work 1`] = `
 
 exports[`Drawer support closeIcon 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-open ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-open g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
+    class="g-drawer-mask"
   />
   <div
-    class="ant-drawer-content-wrapper"
+    class="g-drawer-content-wrapper"
     style="width: 400px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span>
@@ -863,7 +863,7 @@ exports[`Drawer support closeIcon 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Here is content of Drawer
       </div>

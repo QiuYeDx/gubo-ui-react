@@ -5,31 +5,31 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
   class="acss-1ucck97"
 >
   <div
-    class="ant-row css-var-test-id"
+    class="g-row css-var-test-id"
   >
     <div
-      class="ant-col ant-col-16 acss-my3sst css-var-test-id"
+      class="g-col g-col-16 acss-my3sst css-var-test-id"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-large ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-large g-flex-vertical"
         style="width: 100%;"
       >
         <div
-          class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-filled css-var-test-id semantic-mark-root"
-          style="--ant-cmp-steps-items-offset: 0; width: 100%;"
+          class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-filled css-var-test-id semantic-mark-root"
+          style="--g-cmp-steps-items-offset: 0; width: 100%;"
         >
           <div
-            class="ant-steps-item ant-steps-item-finish semantic-mark-item"
+            class="g-steps-item g-steps-item-finish semantic-mark-item"
           >
             <div
-              class="ant-steps-item-wrapper semantic-mark-itemWrapper"
+              class="g-steps-item-wrapper semantic-mark-itemWrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target semantic-mark-itemIcon"
+                class="g-steps-item-icon g-wave-target semantic-mark-itemIcon"
               >
                 <span
                   aria-label="check"
-                  class="anticon anticon-check ant-steps-item-icon-finish"
+                  class="gicon gicon-check g-steps-item-icon-finish"
                   role="img"
                 >
                   <svg
@@ -48,28 +48,28 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </span>
               </div>
               <div
-                class="ant-steps-item-section semantic-mark-itemSection"
+                class="g-steps-item-section semantic-mark-itemSection"
               >
                 <div
-                  class="ant-steps-item-header semantic-mark-itemHeader"
+                  class="g-steps-item-header semantic-mark-itemHeader"
                 >
                   <div
-                    class="ant-steps-item-title semantic-mark-itemTitle"
+                    class="g-steps-item-title semantic-mark-itemTitle"
                   >
                     Step 1
                   </div>
                   <div
-                    class="ant-steps-item-subtitle semantic-mark-itemSubtitle"
+                    class="g-steps-item-subtitle semantic-mark-itemSubtitle"
                     title="00:00"
                   >
                     00:00
                   </div>
                   <div
-                    class="ant-steps-item-rail ant-steps-item-rail-process semantic-mark-itemRail"
+                    class="g-steps-item-rail g-steps-item-rail-process semantic-mark-itemRail"
                   />
                 </div>
                 <div
-                  class="ant-steps-item-content semantic-mark-itemContent"
+                  class="g-steps-item-content semantic-mark-itemContent"
                 >
                   This is a content.
                 </div>
@@ -77,43 +77,43 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-steps-item ant-steps-item-process ant-steps-item-active semantic-mark-item"
+            class="g-steps-item g-steps-item-process g-steps-item-active semantic-mark-item"
           >
             <div
-              class="ant-steps-item-wrapper semantic-mark-itemWrapper"
+              class="g-steps-item-wrapper semantic-mark-itemWrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target semantic-mark-itemIcon"
+                class="g-steps-item-icon g-wave-target semantic-mark-itemIcon"
               >
                 <span
-                  class="ant-steps-item-icon-number"
+                  class="g-steps-item-icon-number"
                 >
                   2
                 </span>
               </div>
               <div
-                class="ant-steps-item-section semantic-mark-itemSection"
+                class="g-steps-item-section semantic-mark-itemSection"
               >
                 <div
-                  class="ant-steps-item-header semantic-mark-itemHeader"
+                  class="g-steps-item-header semantic-mark-itemHeader"
                 >
                   <div
-                    class="ant-steps-item-title semantic-mark-itemTitle"
+                    class="g-steps-item-title semantic-mark-itemTitle"
                   >
                     Step 2
                   </div>
                   <div
-                    class="ant-steps-item-subtitle semantic-mark-itemSubtitle"
+                    class="g-steps-item-subtitle semantic-mark-itemSubtitle"
                     title="00:01"
                   >
                     00:01
                   </div>
                   <div
-                    class="ant-steps-item-rail ant-steps-item-rail-wait semantic-mark-itemRail"
+                    class="g-steps-item-rail g-steps-item-rail-wait semantic-mark-itemRail"
                   />
                 </div>
                 <div
-                  class="ant-steps-item-content semantic-mark-itemContent"
+                  class="g-steps-item-content semantic-mark-itemContent"
                 >
                   This is a content.
                 </div>
@@ -121,40 +121,40 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-steps-item ant-steps-item-wait semantic-mark-item"
+            class="g-steps-item g-steps-item-wait semantic-mark-item"
           >
             <div
-              class="ant-steps-item-wrapper semantic-mark-itemWrapper"
+              class="g-steps-item-wrapper semantic-mark-itemWrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target semantic-mark-itemIcon"
+                class="g-steps-item-icon g-wave-target semantic-mark-itemIcon"
               >
                 <span
-                  class="ant-steps-item-icon-number"
+                  class="g-steps-item-icon-number"
                 >
                   3
                 </span>
               </div>
               <div
-                class="ant-steps-item-section semantic-mark-itemSection"
+                class="g-steps-item-section semantic-mark-itemSection"
               >
                 <div
-                  class="ant-steps-item-header semantic-mark-itemHeader"
+                  class="g-steps-item-header semantic-mark-itemHeader"
                 >
                   <div
-                    class="ant-steps-item-title semantic-mark-itemTitle"
+                    class="g-steps-item-title semantic-mark-itemTitle"
                   >
                     Step 3
                   </div>
                   <div
-                    class="ant-steps-item-subtitle semantic-mark-itemSubtitle"
+                    class="g-steps-item-subtitle semantic-mark-itemSubtitle"
                     title="00:02"
                   >
                     00:02
                   </div>
                 </div>
                 <div
-                  class="ant-steps-item-content semantic-mark-itemContent"
+                  class="g-steps-item-content semantic-mark-itemContent"
                 >
                   This is a content.
                 </div>
@@ -163,21 +163,21 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-steps ant-steps-horizontal ant-steps-title-horizontal ant-steps-filled ant-steps-panel ant-steps-small css-var-test-id semantic-mark-root"
-          style="--ant-cmp-steps-items-offset: 0; width: 100%;"
+          class="g-steps g-steps-horizontal g-steps-title-horizontal g-steps-filled g-steps-panel g-steps-small css-var-test-id semantic-mark-root"
+          style="--g-cmp-steps-items-offset: 0; width: 100%;"
         >
           <div
-            class="ant-steps-item ant-steps-item-finish semantic-mark-item"
+            class="g-steps-item g-steps-item-finish semantic-mark-item"
           >
             <div
-              class="ant-steps-item-wrapper semantic-mark-itemWrapper"
+              class="g-steps-item-wrapper semantic-mark-itemWrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target semantic-mark-itemIcon"
+                class="g-steps-item-icon g-wave-target semantic-mark-itemIcon"
               >
                 <span
                   aria-label="check"
-                  class="anticon anticon-check ant-steps-item-icon-finish"
+                  class="gicon gicon-check g-steps-item-icon-finish"
                   role="img"
                 >
                   <svg
@@ -196,35 +196,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </span>
               </div>
               <div
-                class="ant-steps-item-section semantic-mark-itemSection"
+                class="g-steps-item-section semantic-mark-itemSection"
               >
                 <div
-                  class="ant-steps-item-header semantic-mark-itemHeader"
+                  class="g-steps-item-header semantic-mark-itemHeader"
                 >
                   <div
-                    class="ant-steps-item-title semantic-mark-itemTitle"
+                    class="g-steps-item-title semantic-mark-itemTitle"
                   >
                     Step 1
                   </div>
                   <div
-                    class="ant-steps-item-subtitle semantic-mark-itemSubtitle"
+                    class="g-steps-item-subtitle semantic-mark-itemSubtitle"
                     title="00:00"
                   >
                     00:00
                   </div>
                   <div
-                    class="ant-steps-item-rail ant-steps-item-rail-process semantic-mark-itemRail"
+                    class="g-steps-item-rail g-steps-item-rail-process semantic-mark-itemRail"
                   />
                 </div>
                 <div
-                  class="ant-steps-item-content semantic-mark-itemContent"
+                  class="g-steps-item-content semantic-mark-itemContent"
                 >
                   This is a content.
                 </div>
               </div>
             </div>
             <svg
-              class="ant-steps-panel-arrow"
+              class="g-steps-panel-arrow"
               preserveAspectRatio="none"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
@@ -238,50 +238,50 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-steps-item ant-steps-item-process ant-steps-item-active semantic-mark-item"
+            class="g-steps-item g-steps-item-process g-steps-item-active semantic-mark-item"
           >
             <div
-              class="ant-steps-item-wrapper semantic-mark-itemWrapper"
+              class="g-steps-item-wrapper semantic-mark-itemWrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target semantic-mark-itemIcon"
+                class="g-steps-item-icon g-wave-target semantic-mark-itemIcon"
               >
                 <span
-                  class="ant-steps-item-icon-number"
+                  class="g-steps-item-icon-number"
                 >
                   2
                 </span>
               </div>
               <div
-                class="ant-steps-item-section semantic-mark-itemSection"
+                class="g-steps-item-section semantic-mark-itemSection"
               >
                 <div
-                  class="ant-steps-item-header semantic-mark-itemHeader"
+                  class="g-steps-item-header semantic-mark-itemHeader"
                 >
                   <div
-                    class="ant-steps-item-title semantic-mark-itemTitle"
+                    class="g-steps-item-title semantic-mark-itemTitle"
                   >
                     Step 2
                   </div>
                   <div
-                    class="ant-steps-item-subtitle semantic-mark-itemSubtitle"
+                    class="g-steps-item-subtitle semantic-mark-itemSubtitle"
                     title="00:01"
                   >
                     00:01
                   </div>
                   <div
-                    class="ant-steps-item-rail ant-steps-item-rail-wait semantic-mark-itemRail"
+                    class="g-steps-item-rail g-steps-item-rail-wait semantic-mark-itemRail"
                   />
                 </div>
                 <div
-                  class="ant-steps-item-content semantic-mark-itemContent"
+                  class="g-steps-item-content semantic-mark-itemContent"
                 >
                   This is a content.
                 </div>
               </div>
             </div>
             <svg
-              class="ant-steps-panel-arrow"
+              class="g-steps-panel-arrow"
               preserveAspectRatio="none"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
@@ -295,47 +295,47 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-steps-item ant-steps-item-wait semantic-mark-item"
+            class="g-steps-item g-steps-item-wait semantic-mark-item"
           >
             <div
-              class="ant-steps-item-wrapper semantic-mark-itemWrapper"
+              class="g-steps-item-wrapper semantic-mark-itemWrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target semantic-mark-itemIcon"
+                class="g-steps-item-icon g-wave-target semantic-mark-itemIcon"
               >
                 <span
-                  class="ant-steps-item-icon-number"
+                  class="g-steps-item-icon-number"
                 >
                   3
                 </span>
               </div>
               <div
-                class="ant-steps-item-section semantic-mark-itemSection"
+                class="g-steps-item-section semantic-mark-itemSection"
               >
                 <div
-                  class="ant-steps-item-header semantic-mark-itemHeader"
+                  class="g-steps-item-header semantic-mark-itemHeader"
                 >
                   <div
-                    class="ant-steps-item-title semantic-mark-itemTitle"
+                    class="g-steps-item-title semantic-mark-itemTitle"
                   >
                     Step 3
                   </div>
                   <div
-                    class="ant-steps-item-subtitle semantic-mark-itemSubtitle"
+                    class="g-steps-item-subtitle semantic-mark-itemSubtitle"
                     title="00:02"
                   >
                     00:02
                   </div>
                 </div>
                 <div
-                  class="ant-steps-item-content semantic-mark-itemContent"
+                  class="g-steps-item-content semantic-mark-itemContent"
                 >
                   This is a content.
                 </div>
               </div>
             </div>
             <svg
-              class="ant-steps-panel-arrow"
+              class="g-steps-panel-arrow"
               preserveAspectRatio="none"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
@@ -352,7 +352,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-col ant-col-8 css-var-test-id"
+      class="g-col g-col-8 css-var-test-id"
     >
       <ul
         class="acss-1ry21g5"
@@ -361,35 +361,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   root
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -410,15 +410,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -443,7 +443,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素，包含 flex 布局、禁止换行、对齐方式、CSS 变量等步骤条容器的基础样式
@@ -454,35 +454,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   item
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -503,15 +503,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -536,7 +536,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项元素，包含 flex 布局、相对定位等单个步骤项的基础容器样式
@@ -547,35 +547,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemWrapper
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -596,15 +596,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -629,7 +629,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项内裹元素，包含 flex 布局、禁止换行、顶部内边距等步骤项内容的包装样式
@@ -640,35 +640,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemIcon
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -689,15 +689,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -722,7 +722,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项图标元素，包含图标的尺寸、定位、字体大小等图标显示相关样式
@@ -733,35 +733,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemHeader
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -782,15 +782,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -815,7 +815,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项头部元素，包含 flex 布局、禁止换行、对齐方式等头部区域的布局样式
@@ -826,35 +826,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemTitle
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -875,15 +875,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -908,7 +908,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项标题元素，包含颜色、字体大小、行高、文字换行、过渡动画等标题文字样式
@@ -919,35 +919,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemSubtitle
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -968,15 +968,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1001,7 +1001,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项副标题元素，包含颜色、字体权重、字体大小、行高、外边距、文字换行等副标题样式
@@ -1012,35 +1012,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemSection
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1061,15 +1061,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1094,7 +1094,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项区域元素，包含步骤项内容区域的布局和样式
@@ -1105,35 +1105,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemContent
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1154,15 +1154,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1187,7 +1187,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项内容元素，包含颜色、字体大小、行高、文字换行、过渡动画等内容文字样式
@@ -1198,35 +1198,35 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemRail
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1247,15 +1247,15 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1280,7 +1280,7 @@ exports[`renders components/steps/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项连接线元素，包含边框样式、边框宽度、过渡动画等连接线的样式
@@ -1298,31 +1298,31 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
   class="acss-1ucck97"
 >
   <div
-    class="ant-row css-var-test-id"
+    class="g-row css-var-test-id"
   >
     <div
-      class="ant-col ant-col-16 acss-my3sst css-var-test-id"
+      class="g-col g-col-16 acss-my3sst css-var-test-id"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-large ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-large g-flex-vertical"
         style="width: 100%;"
       >
         <div
-          class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-filled css-var-test-id"
-          style="--ant-cmp-steps-items-offset: 0; width: 100%;"
+          class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-filled css-var-test-id"
+          style="--g-cmp-steps-items-offset: 0; width: 100%;"
         >
           <div
-            class="ant-steps-item ant-steps-item-finish semantic-mark-root"
+            class="g-steps-item g-steps-item-finish semantic-mark-root"
           >
             <div
-              class="ant-steps-item-wrapper semantic-mark-wrapper"
+              class="g-steps-item-wrapper semantic-mark-wrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target semantic-mark-icon"
+                class="g-steps-item-icon g-wave-target semantic-mark-icon"
               >
                 <span
                   aria-label="check"
-                  class="anticon anticon-check ant-steps-item-icon-finish"
+                  class="gicon gicon-check g-steps-item-icon-finish"
                   role="img"
                 >
                   <svg
@@ -1341,28 +1341,28 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </span>
               </div>
               <div
-                class="ant-steps-item-section semantic-mark-section"
+                class="g-steps-item-section semantic-mark-section"
               >
                 <div
-                  class="ant-steps-item-header semantic-mark-header"
+                  class="g-steps-item-header semantic-mark-header"
                 >
                   <div
-                    class="ant-steps-item-title semantic-mark-title"
+                    class="g-steps-item-title semantic-mark-title"
                   >
                     Step 1
                   </div>
                   <div
-                    class="ant-steps-item-subtitle semantic-mark-subtitle"
+                    class="g-steps-item-subtitle semantic-mark-subtitle"
                     title="00:00"
                   >
                     00:00
                   </div>
                   <div
-                    class="ant-steps-item-rail ant-steps-item-rail-process semantic-mark-rail"
+                    class="g-steps-item-rail g-steps-item-rail-process semantic-mark-rail"
                   />
                 </div>
                 <div
-                  class="ant-steps-item-content semantic-mark-content"
+                  class="g-steps-item-content semantic-mark-content"
                 >
                   This is a content.
                 </div>
@@ -1370,43 +1370,43 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+            class="g-steps-item g-steps-item-process g-steps-item-active"
           >
             <div
-              class="ant-steps-item-wrapper"
+              class="g-steps-item-wrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target"
+                class="g-steps-item-icon g-wave-target"
               >
                 <span
-                  class="ant-steps-item-icon-number"
+                  class="g-steps-item-icon-number"
                 >
                   2
                 </span>
               </div>
               <div
-                class="ant-steps-item-section"
+                class="g-steps-item-section"
               >
                 <div
-                  class="ant-steps-item-header"
+                  class="g-steps-item-header"
                 >
                   <div
-                    class="ant-steps-item-title"
+                    class="g-steps-item-title"
                   >
                     Step 2
                   </div>
                   <div
-                    class="ant-steps-item-subtitle"
+                    class="g-steps-item-subtitle"
                     title="00:01"
                   >
                     00:01
                   </div>
                   <div
-                    class="ant-steps-item-rail ant-steps-item-rail-wait"
+                    class="g-steps-item-rail g-steps-item-rail-wait"
                   />
                 </div>
                 <div
-                  class="ant-steps-item-content"
+                  class="g-steps-item-content"
                 >
                   This is a content.
                 </div>
@@ -1414,40 +1414,40 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-steps-item ant-steps-item-wait"
+            class="g-steps-item g-steps-item-wait"
           >
             <div
-              class="ant-steps-item-wrapper"
+              class="g-steps-item-wrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target"
+                class="g-steps-item-icon g-wave-target"
               >
                 <span
-                  class="ant-steps-item-icon-number"
+                  class="g-steps-item-icon-number"
                 >
                   3
                 </span>
               </div>
               <div
-                class="ant-steps-item-section"
+                class="g-steps-item-section"
               >
                 <div
-                  class="ant-steps-item-header"
+                  class="g-steps-item-header"
                 >
                   <div
-                    class="ant-steps-item-title"
+                    class="g-steps-item-title"
                   >
                     Step 3
                   </div>
                   <div
-                    class="ant-steps-item-subtitle"
+                    class="g-steps-item-subtitle"
                     title="00:02"
                   >
                     00:02
                   </div>
                 </div>
                 <div
-                  class="ant-steps-item-content"
+                  class="g-steps-item-content"
                 >
                   This is a content.
                 </div>
@@ -1456,21 +1456,21 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-steps ant-steps-horizontal ant-steps-title-horizontal ant-steps-filled ant-steps-panel ant-steps-small css-var-test-id"
-          style="--ant-cmp-steps-items-offset: 0; width: 100%;"
+          class="g-steps g-steps-horizontal g-steps-title-horizontal g-steps-filled g-steps-panel g-steps-small css-var-test-id"
+          style="--g-cmp-steps-items-offset: 0; width: 100%;"
         >
           <div
-            class="ant-steps-item ant-steps-item-finish semantic-mark-root"
+            class="g-steps-item g-steps-item-finish semantic-mark-root"
           >
             <div
-              class="ant-steps-item-wrapper semantic-mark-wrapper"
+              class="g-steps-item-wrapper semantic-mark-wrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target semantic-mark-icon"
+                class="g-steps-item-icon g-wave-target semantic-mark-icon"
               >
                 <span
                   aria-label="check"
-                  class="anticon anticon-check ant-steps-item-icon-finish"
+                  class="gicon gicon-check g-steps-item-icon-finish"
                   role="img"
                 >
                   <svg
@@ -1489,35 +1489,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </span>
               </div>
               <div
-                class="ant-steps-item-section semantic-mark-section"
+                class="g-steps-item-section semantic-mark-section"
               >
                 <div
-                  class="ant-steps-item-header semantic-mark-header"
+                  class="g-steps-item-header semantic-mark-header"
                 >
                   <div
-                    class="ant-steps-item-title semantic-mark-title"
+                    class="g-steps-item-title semantic-mark-title"
                   >
                     Step 1
                   </div>
                   <div
-                    class="ant-steps-item-subtitle semantic-mark-subtitle"
+                    class="g-steps-item-subtitle semantic-mark-subtitle"
                     title="00:00"
                   >
                     00:00
                   </div>
                   <div
-                    class="ant-steps-item-rail ant-steps-item-rail-process semantic-mark-rail"
+                    class="g-steps-item-rail g-steps-item-rail-process semantic-mark-rail"
                   />
                 </div>
                 <div
-                  class="ant-steps-item-content semantic-mark-content"
+                  class="g-steps-item-content semantic-mark-content"
                 >
                   This is a content.
                 </div>
               </div>
             </div>
             <svg
-              class="ant-steps-panel-arrow"
+              class="g-steps-panel-arrow"
               preserveAspectRatio="none"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
@@ -1531,50 +1531,50 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-steps-item ant-steps-item-process ant-steps-item-active"
+            class="g-steps-item g-steps-item-process g-steps-item-active"
           >
             <div
-              class="ant-steps-item-wrapper"
+              class="g-steps-item-wrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target"
+                class="g-steps-item-icon g-wave-target"
               >
                 <span
-                  class="ant-steps-item-icon-number"
+                  class="g-steps-item-icon-number"
                 >
                   2
                 </span>
               </div>
               <div
-                class="ant-steps-item-section"
+                class="g-steps-item-section"
               >
                 <div
-                  class="ant-steps-item-header"
+                  class="g-steps-item-header"
                 >
                   <div
-                    class="ant-steps-item-title"
+                    class="g-steps-item-title"
                   >
                     Step 2
                   </div>
                   <div
-                    class="ant-steps-item-subtitle"
+                    class="g-steps-item-subtitle"
                     title="00:01"
                   >
                     00:01
                   </div>
                   <div
-                    class="ant-steps-item-rail ant-steps-item-rail-wait"
+                    class="g-steps-item-rail g-steps-item-rail-wait"
                   />
                 </div>
                 <div
-                  class="ant-steps-item-content"
+                  class="g-steps-item-content"
                 >
                   This is a content.
                 </div>
               </div>
             </div>
             <svg
-              class="ant-steps-panel-arrow"
+              class="g-steps-panel-arrow"
               preserveAspectRatio="none"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
@@ -1588,47 +1588,47 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
             </svg>
           </div>
           <div
-            class="ant-steps-item ant-steps-item-wait"
+            class="g-steps-item g-steps-item-wait"
           >
             <div
-              class="ant-steps-item-wrapper"
+              class="g-steps-item-wrapper"
             >
               <div
-                class="ant-steps-item-icon ant-wave-target"
+                class="g-steps-item-icon g-wave-target"
               >
                 <span
-                  class="ant-steps-item-icon-number"
+                  class="g-steps-item-icon-number"
                 >
                   3
                 </span>
               </div>
               <div
-                class="ant-steps-item-section"
+                class="g-steps-item-section"
               >
                 <div
-                  class="ant-steps-item-header"
+                  class="g-steps-item-header"
                 >
                   <div
-                    class="ant-steps-item-title"
+                    class="g-steps-item-title"
                   >
                     Step 3
                   </div>
                   <div
-                    class="ant-steps-item-subtitle"
+                    class="g-steps-item-subtitle"
                     title="00:02"
                   >
                     00:02
                   </div>
                 </div>
                 <div
-                  class="ant-steps-item-content"
+                  class="g-steps-item-content"
                 >
                   This is a content.
                 </div>
               </div>
             </div>
             <svg
-              class="ant-steps-panel-arrow"
+              class="g-steps-panel-arrow"
               preserveAspectRatio="none"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
@@ -1645,7 +1645,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-col ant-col-8 css-var-test-id"
+      class="g-col g-col-8 css-var-test-id"
     >
       <ul
         class="acss-1ry21g5"
@@ -1654,35 +1654,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   root
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1703,15 +1703,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1736,7 +1736,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素
@@ -1747,35 +1747,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   wrapper
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1796,15 +1796,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1829,7 +1829,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项内裹元素
@@ -1840,35 +1840,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   icon
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1889,15 +1889,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1922,7 +1922,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项图标元素
@@ -1933,35 +1933,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   header
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1982,15 +1982,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -2015,7 +2015,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项头部元素
@@ -2026,35 +2026,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   title
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -2075,15 +2075,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -2108,7 +2108,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项标题元素
@@ -2119,35 +2119,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   subtitle
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -2168,15 +2168,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -2201,7 +2201,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项副标题元素
@@ -2212,35 +2212,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   section
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -2261,15 +2261,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -2294,7 +2294,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项区域元素
@@ -2305,35 +2305,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   content
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -2354,15 +2354,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -2387,7 +2387,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项内容元素
@@ -2398,35 +2398,35 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   rail
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -2447,15 +2447,15 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -2480,7 +2480,7 @@ exports[`renders components/steps/demo/_semantic_items.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               步骤项连接线元素

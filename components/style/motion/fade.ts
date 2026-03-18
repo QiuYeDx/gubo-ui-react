@@ -4,7 +4,7 @@ import { Keyframes } from '@ant-design/cssinjs';
 import type { AliasToken, TokenWithCommonCls } from '../../theme/internal';
 import { initMotion } from './motion';
 
-export const fadeIn = new Keyframes('antFadeIn', {
+export const fadeIn = new Keyframes('gFadeIn', {
   '0%': {
     opacity: 0,
   },
@@ -13,7 +13,7 @@ export const fadeIn = new Keyframes('antFadeIn', {
   },
 });
 
-export const fadeOut = new Keyframes('antFadeOut', {
+export const fadeOut = new Keyframes('gFadeOut', {
   '0%': {
     opacity: 1,
   },
@@ -30,8 +30,8 @@ export const fadeOut = new Keyframes('antFadeOut', {
  *
  * @param token - Object containing design tokens and CSS class prefix
  * @param sameLevel - Controls CSS selector nesting behavior:
- *   - `false` (default): Generates descendant selectors like `.ant-fade-enter`, `.ant-fade-appear`
- *   - `true`: Generates same-level selectors with `&` prefix like `&.ant-fade-enter`, `&.ant-fade-appear`
+ *   - `false` (default): Generates descendant selectors like `.g-fade-enter`, `.g-fade-appear`
+ *   - `true`: Generates same-level selectors with `&` prefix like `&.g-fade-enter`, `&.g-fade-appear`
  *   Use `true` when the motion classes are applied to the same element as the parent selector,
  *   Use `false` when the motion classes are applied to child elements
  * @returns CSS interpolation object containing fade motion styles
@@ -40,11 +40,11 @@ export const fadeOut = new Keyframes('antFadeOut', {
  * ```ts
  * // For child elements (default behavior)
  * const fadeStyles = initFadeMotion(token);
- * // Generates: .parent .ant-fade-enter { ... }
+ * // Generates: .parent .g-fade-enter { ... }
  *
  * // For same element
  * const sameLevelFadeStyles = initFadeMotion(token, true);
- * // Generates: .parent.ant-fade-enter { ... }
+ * // Generates: .parent.g-fade-enter { ... }
  * ```
  */
 export const initFadeMotion = (

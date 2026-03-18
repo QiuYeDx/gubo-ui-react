@@ -2,30 +2,30 @@
 
 exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
 <ol
-  class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-layout-alternate css-var-test-id"
-  style="--ant-cmp-steps-items-offset:0"
+  class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-layout-alternate css-var-test-id"
+  style="--g-cmp-steps-items-offset:0"
 >
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Create a services site 2015-09-01
         </div>
@@ -33,26 +33,26 @@ exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-color-green ant-timeline-item-placement-end ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-color-green g-timeline-item-placement-end g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Solve initial network problems 2015-09-01
         </div>
@@ -60,17 +60,17 @@ exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-custom ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-custom g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
           style="font-size:16px"
         >
@@ -93,17 +93,17 @@ exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
         </div>
@@ -111,26 +111,26 @@ exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-color-red ant-timeline-item-placement-end ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-color-red g-timeline-item-placement-end g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Network problems being solved 2015-09-01
         </div>
@@ -138,26 +138,26 @@ exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Create a services site 2015-09-01
         </div>
@@ -165,17 +165,17 @@ exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-custom ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-custom g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
           style="font-size:16px"
         >
@@ -198,13 +198,13 @@ exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         />
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Technical testing 2015-09-01
         </div>
@@ -216,30 +216,30 @@ exports[`renders components/timeline/demo/alternate.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/basic.tsx correctly 1`] = `
 <ol
-  class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-  style="--ant-cmp-steps-items-offset:0"
+  class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id css-var-test-id"
+  style="--g-cmp-steps-items-offset:0"
 >
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Create a services site 2015-09-01
         </div>
@@ -247,26 +247,26 @@ exports[`renders components/timeline/demo/basic.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Solve initial network problems 2015-09-01
         </div>
@@ -274,26 +274,26 @@ exports[`renders components/timeline/demo/basic.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Technical testing 2015-09-01
         </div>
@@ -301,22 +301,22 @@ exports[`renders components/timeline/demo/basic.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         />
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Network problems being solved 2015-09-01
         </div>
@@ -328,30 +328,30 @@ exports[`renders components/timeline/demo/basic.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/component-token.tsx correctly 1`] = `
 <ol
-  class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-  style="--ant-cmp-steps-items-offset:0"
+  class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id css-var-test-id"
+  style="--g-cmp-steps-items-offset:0"
 >
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Create a services site 2015-09-01
         </div>
@@ -359,26 +359,26 @@ exports[`renders components/timeline/demo/component-token.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Solve initial network problems 2015-09-01
         </div>
@@ -386,26 +386,26 @@ exports[`renders components/timeline/demo/component-token.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Technical testing 2015-09-01
         </div>
@@ -413,22 +413,22 @@ exports[`renders components/timeline/demo/component-token.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         />
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Network problems being solved 2015-09-01
         </div>
@@ -440,30 +440,30 @@ exports[`renders components/timeline/demo/component-token.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/custom.tsx correctly 1`] = `
 <ol
-  class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-  style="--ant-cmp-steps-items-offset:0"
+  class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id css-var-test-id"
+  style="--g-cmp-steps-items-offset:0"
 >
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Create a services site 2015-09-01
         </div>
@@ -471,26 +471,26 @@ exports[`renders components/timeline/demo/custom.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Solve initial network problems 2015-09-01
         </div>
@@ -498,17 +498,17 @@ exports[`renders components/timeline/demo/custom.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-custom ant-steps-item-empty-header ant-timeline-item-color-red ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-custom g-steps-item-empty-header g-timeline-item-color-red g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
           style="font-size:20px;background:#ffffff"
         >
@@ -531,17 +531,17 @@ exports[`renders components/timeline/demo/custom.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Technical testing 2015-09-01
         </div>
@@ -549,22 +549,22 @@ exports[`renders components/timeline/demo/custom.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         />
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Network problems being solved 2015-09-01
         </div>
@@ -576,30 +576,30 @@ exports[`renders components/timeline/demo/custom.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/end.tsx correctly 1`] = `
 <ol
-  class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-  style="--ant-cmp-steps-items-offset:0"
+  class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id css-var-test-id"
+  style="--g-cmp-steps-items-offset:0"
 >
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Create a services site 2015-09-01
         </div>
@@ -607,26 +607,26 @@ exports[`renders components/timeline/demo/end.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Solve initial network problems 2015-09-01
         </div>
@@ -634,17 +634,17 @@ exports[`renders components/timeline/demo/end.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-custom ant-steps-item-empty-header ant-timeline-item-color-red ant-timeline-item-placement-end ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-custom g-steps-item-empty-header g-timeline-item-color-red g-timeline-item-placement-end g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -666,17 +666,17 @@ exports[`renders components/timeline/demo/end.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Technical testing 2015-09-01
         </div>
@@ -684,22 +684,22 @@ exports[`renders components/timeline/demo/end.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         />
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Network problems being solved 2015-09-01
         </div>
@@ -711,33 +711,33 @@ exports[`renders components/timeline/demo/end.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
 >
   <ol
-    class="ant-steps ant-steps-horizontal ant-steps-title-vertical ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-horizontal css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-horizontal g-steps-title-vertical g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-horizontal css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Init
           </div>
@@ -745,26 +745,26 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Start
           </div>
@@ -772,26 +772,26 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Pending
           </div>
@@ -799,22 +799,22 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           />
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Complete
           </div>
@@ -823,34 +823,34 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
     </li>
   </ol>
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />
   <ol
-    class="ant-steps ant-steps-horizontal ant-steps-title-vertical ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-horizontal css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-horizontal g-steps-title-vertical g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-horizontal css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Init
           </div>
@@ -858,26 +858,26 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Start
           </div>
@@ -885,26 +885,26 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Pending
           </div>
@@ -912,22 +912,22 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           />
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Complete
           </div>
@@ -936,34 +936,34 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
     </li>
   </ol>
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />
   <ol
-    class="ant-steps ant-steps-horizontal ant-steps-title-vertical ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-horizontal ant-timeline-layout-alternate css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-horizontal g-steps-title-vertical g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-horizontal g-timeline-layout-alternate css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Init
           </div>
@@ -971,26 +971,26 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Start
           </div>
@@ -998,26 +998,26 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Pending
           </div>
@@ -1025,22 +1025,22 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           />
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Complete
           </div>
@@ -1053,39 +1053,39 @@ exports[`renders components/timeline/demo/horizontal.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
 >
   <ol
-    class="ant-steps ant-steps-horizontal ant-steps-title-vertical ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-horizontal css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-horizontal g-steps-title-vertical g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-horizontal css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               Long Text Long Text Long Text Long Text Long Text 
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1093,27 +1093,27 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1121,27 +1121,27 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1149,29 +1149,29 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-timeline-item-placement-start g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               Long Text Long Text Long Text Long Text Long Text 
             </div>
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1180,40 +1180,40 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
     </li>
   </ol>
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />
   <ol
-    class="ant-steps ant-steps-horizontal ant-steps-title-vertical ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-horizontal css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-horizontal g-steps-title-vertical g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-horizontal css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-end g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               Long Text Long Text Long Text Long Text Long Text 
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1221,27 +1221,27 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1249,27 +1249,27 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1277,29 +1277,29 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-timeline-item-placement-end g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               Long Text Long Text Long Text Long Text Long Text 
             </div>
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1308,40 +1308,40 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
     </li>
   </ol>
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />
   <ol
-    class="ant-steps ant-steps-horizontal ant-steps-title-vertical ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-horizontal ant-timeline-layout-alternate css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-horizontal g-steps-title-vertical g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-horizontal g-timeline-layout-alternate css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               Long Text Long Text Long Text Long Text Long Text 
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1349,27 +1349,27 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1377,27 +1377,27 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1405,29 +1405,29 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-timeline-item-placement-end g-timeline-item"
       style="box-shadow:0 0 1px rgba(255,0,0,0.6)"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               Long Text Long Text Long Text Long Text Long Text 
             </div>
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Long Text Long Text Long Text Long Text Long Text 
           </div>
@@ -1440,33 +1440,33 @@ exports[`renders components/timeline/demo/horizontal-debug.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/pending.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-medium g-flex-vertical"
 >
   <ol
-    class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services site 2015-09-01
           </div>
@@ -1474,26 +1474,26 @@ exports[`renders components/timeline/demo/pending.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Solve initial network problems 2015-09-01
           </div>
@@ -1501,26 +1501,26 @@ exports[`renders components/timeline/demo/pending.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-process ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-process g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Technical testing 2015-09-01
           </div>
@@ -1528,17 +1528,17 @@ exports[`renders components/timeline/demo/pending.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-process ant-steps-item-custom ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-process g-steps-item-custom g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -1557,13 +1557,13 @@ exports[`renders components/timeline/demo/pending.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           />
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Recording...
           </div>
@@ -1572,7 +1572,7 @@ exports[`renders components/timeline/demo/pending.tsx correctly 1`] = `
     </li>
   </ol>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -1584,33 +1584,33 @@ exports[`renders components/timeline/demo/pending.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/pending-legacy.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-medium g-flex-vertical"
 >
   <ol
-    class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-process ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-process g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services site 2015-09-01
           </div>
@@ -1618,17 +1618,17 @@ exports[`renders components/timeline/demo/pending-legacy.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-process ant-steps-item-custom ant-steps-item-active ant-steps-item-empty-header ant-timeline-item"
+      class="g-steps-item g-steps-item-process g-steps-item-custom g-steps-item-active g-steps-item-empty-header g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -1647,13 +1647,13 @@ exports[`renders components/timeline/demo/pending-legacy.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           />
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Recording...
           </div>
@@ -1662,30 +1662,30 @@ exports[`renders components/timeline/demo/pending-legacy.tsx correctly 1`] = `
     </li>
   </ol>
   <ol
-    class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-process ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-process g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services site 2015-09-01
           </div>
@@ -1693,24 +1693,24 @@ exports[`renders components/timeline/demo/pending-legacy.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-process ant-steps-item-custom ant-steps-item-active ant-steps-item-empty-header ant-timeline-item"
+      class="g-steps-item g-steps-item-process g-steps-item-custom g-steps-item-active g-steps-item-empty-header g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         >
           🔴
         </div>
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           />
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Recording...
           </div>
@@ -1723,30 +1723,30 @@ exports[`renders components/timeline/demo/pending-legacy.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/semantic.tsx correctly 1`] = `
 <ol
-  class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-  style="--ant-cmp-steps-items-offset:0"
+  class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id css-var-test-id"
+  style="--g-cmp-steps-items-offset:0"
 >
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Create a services site 2015-09-01
         </div>
@@ -1754,28 +1754,28 @@ exports[`renders components/timeline/demo/semantic.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     style="height:100px"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             style="border-style:dashed"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Solve initial network problems 2015-09-01
         </div>
@@ -1783,28 +1783,28 @@ exports[`renders components/timeline/demo/semantic.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     style="height:100px"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             style="border-style:dashed"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
           style="opacity:0.45"
         >
           ...for a long time...
@@ -1813,26 +1813,26 @@ exports[`renders components/timeline/demo/semantic.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Technical testing 2015-09-01
         </div>
@@ -1840,22 +1840,22 @@ exports[`renders components/timeline/demo/semantic.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         />
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Network problems being solved 2015-09-01
         </div>
@@ -1867,39 +1867,39 @@ exports[`renders components/timeline/demo/semantic.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <ol
-    class="ant-steps ant-steps-horizontal ant-steps-title-vertical ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-horizontal css-var-test-id acss-14g82y5"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-horizontal g-steps-title-vertical g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-horizontal css-var-test-id acss-14g82y5"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
           style="border-color:#1890ff"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               2015-09-01
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services site
           </div>
@@ -1907,32 +1907,32 @@ exports[`renders components/timeline/demo/style-class.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
           style="border-color:#1890ff"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               2015-09-01 09:12:11
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Solve initial network problems
           </div>
@@ -1940,23 +1940,23 @@ exports[`renders components/timeline/demo/style-class.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
           style="border-color:#1890ff"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           />
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Technical testing
           </div>
@@ -1965,36 +1965,36 @@ exports[`renders components/timeline/demo/style-class.tsx correctly 1`] = `
     </li>
   </ol>
   <ol
-    class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-layout-alternate css-var-test-id acss-14g82y5"
-    style="--ant-cmp-steps-items-offset:0;padding:10px 6px;border:1px solid #A294F9"
+    class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-layout-alternate css-var-test-id acss-14g82y5"
+    style="--g-cmp-steps-items-offset:0;padding:10px 6px;border:1px solid #A294F9"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
           style="border-color:#A294F9"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               2015-09-01
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services site
           </div>
@@ -2002,32 +2002,32 @@ exports[`renders components/timeline/demo/style-class.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
           style="border-color:#A294F9"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               2015-09-01 09:12:11
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Solve initial network problems
           </div>
@@ -2035,23 +2035,23 @@ exports[`renders components/timeline/demo/style-class.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
           style="border-color:#A294F9"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           />
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Technical testing
           </div>
@@ -2065,99 +2065,99 @@ exports[`renders components/timeline/demo/style-class.tsx correctly 1`] = `
 exports[`renders components/timeline/demo/title.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
     style="margin-bottom:20px"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="start"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Start
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="end"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         End
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="alternate"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Alternate
       </span>
     </label>
   </div>,
   <ol
-    class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-layout-alternate css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0"
+    class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-layout-alternate css-var-test-id"
+    style="--g-cmp-steps-items-offset:0"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               2015-09-01
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services
           </div>
@@ -2165,31 +2165,31 @@ Array [
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               2015-09-01 09:12:11
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Solve initial network problems
           </div>
@@ -2197,26 +2197,26 @@ Array [
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Technical testing
           </div>
@@ -2224,28 +2224,28 @@ Array [
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               2015-09-01 09:12:11
             </div>
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Network problems being solved
           </div>
@@ -2258,44 +2258,44 @@ Array [
 
 exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
     style="margin:0"
   >
     titleSpan = 100px
   </h5>
   <ol
-    class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-layout-alternate css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0;--ant-timeline-head-span-ptg:100px"
+    class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-layout-alternate css-var-test-id"
+    style="--g-cmp-steps-items-offset:0;--g-timeline-head-span-ptg:100px"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               05:10
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services
           </div>
@@ -2303,31 +2303,31 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               09:03
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Solve initial network problems
           </div>
@@ -2335,26 +2335,26 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Technical testing
           </div>
@@ -2362,28 +2362,28 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               11:28
             </div>
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Network problems being solved
           </div>
@@ -2392,41 +2392,41 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
     </li>
   </ol>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
     style="margin:0"
   >
     titleSpan = 25%
   </h5>
   <ol
-    class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-layout-alternate css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0;--ant-timeline-head-span-ptg:25%"
+    class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-layout-alternate css-var-test-id"
+    style="--g-cmp-steps-items-offset:0;--g-timeline-head-span-ptg:25%"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               05:10
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services
           </div>
@@ -2434,31 +2434,31 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               09:03
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Solve initial network problems
           </div>
@@ -2466,26 +2466,26 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Technical testing
           </div>
@@ -2493,28 +2493,28 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-timeline-item-placement-start ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-timeline-item-placement-start g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               11:28
             </div>
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Network problems being solved
           </div>
@@ -2523,41 +2523,41 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
     </li>
   </ol>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
     style="margin:0"
   >
     titleSpan = 18, mode = end
   </h5>
   <ol
-    class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-timeline css-var-test-id ant-timeline-layout-alternate css-var-test-id"
-    style="--ant-cmp-steps-items-offset:0;--ant-timeline-head-span:18"
+    class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-timeline css-var-test-id g-timeline-layout-alternate css-var-test-id"
+    style="--g-cmp-steps-items-offset:0;--g-timeline-head-span:18"
   >
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               05:10
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Create a services
           </div>
@@ -2565,31 +2565,31 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               09:03
             </div>
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Solve initial network problems
           </div>
@@ -2597,26 +2597,26 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+              class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
             />
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Technical testing
           </div>
@@ -2624,28 +2624,28 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-timeline-item-placement-end ant-timeline-item"
+      class="g-steps-item g-steps-item-finish g-steps-item-active g-timeline-item-placement-end g-timeline-item"
     >
       <div
-        class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+        class="g-steps-item-wrapper g-timeline-item-wrapper"
       >
         <div
-          class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+          class="g-steps-item-icon g-wave-target g-timeline-item-icon"
         />
         <div
-          class="ant-steps-item-section ant-timeline-item-section"
+          class="g-steps-item-section g-timeline-item-section"
         >
           <div
-            class="ant-steps-item-header ant-timeline-item-header"
+            class="g-steps-item-header g-timeline-item-header"
           >
             <div
-              class="ant-steps-item-title ant-timeline-item-title"
+              class="g-steps-item-title g-timeline-item-title"
             >
               11:28
             </div>
           </div>
           <div
-            class="ant-steps-item-content ant-timeline-item-content"
+            class="g-steps-item-content g-timeline-item-content"
           >
             Network problems being solved
           </div>
@@ -2658,30 +2658,30 @@ exports[`renders components/timeline/demo/title-span.tsx correctly 1`] = `
 
 exports[`renders components/timeline/demo/variant.tsx correctly 1`] = `
 <ol
-  class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-filled ant-steps-dot ant-timeline css-var-test-id css-var-test-id"
-  style="--ant-cmp-steps-items-offset:0"
+  class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-filled g-steps-dot g-timeline css-var-test-id css-var-test-id"
+  style="--g-cmp-steps-items-offset:0"
 >
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Create a services site 2015-09-01
         </div>
@@ -2689,26 +2689,26 @@ exports[`renders components/timeline/demo/variant.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Solve initial network problems 2015-09-01
         </div>
@@ -2716,26 +2716,26 @@ exports[`renders components/timeline/demo/variant.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         >
           <div
-            class="ant-steps-item-rail ant-steps-item-rail-finish ant-timeline-item-rail"
+            class="g-steps-item-rail g-steps-item-rail-finish g-timeline-item-rail"
           />
         </div>
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Technical testing 2015-09-01
         </div>
@@ -2743,22 +2743,22 @@ exports[`renders components/timeline/demo/variant.tsx correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-active ant-steps-item-empty-header ant-timeline-item-placement-start ant-timeline-item"
+    class="g-steps-item g-steps-item-finish g-steps-item-active g-steps-item-empty-header g-timeline-item-placement-start g-timeline-item"
   >
     <div
-      class="ant-steps-item-wrapper ant-timeline-item-wrapper"
+      class="g-steps-item-wrapper g-timeline-item-wrapper"
     >
       <div
-        class="ant-steps-item-icon ant-wave-target ant-timeline-item-icon"
+        class="g-steps-item-icon g-wave-target g-timeline-item-icon"
       />
       <div
-        class="ant-steps-item-section ant-timeline-item-section"
+        class="g-steps-item-section g-timeline-item-section"
       >
         <div
-          class="ant-steps-item-header ant-timeline-item-header"
+          class="g-steps-item-header g-timeline-item-header"
         />
         <div
-          class="ant-steps-item-content ant-timeline-item-content"
+          class="g-steps-item-content g-timeline-item-content"
         >
           Network problems being solved 2015-09-01
         </div>

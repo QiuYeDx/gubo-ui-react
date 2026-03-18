@@ -31,11 +31,11 @@ describe('semantic', () => {
       />,
     );
     const root = container.querySelector('.my-class-name')!;
-    const input = container.querySelector('.ant-input-number-input')!;
-    const prefix = container.querySelector('.ant-input-number-prefix')!;
-    const suffix = container.querySelector('.ant-input-number-suffix')!;
-    const actions = container.querySelector('.ant-input-number-actions')!;
-    const action = container.querySelector('.ant-input-number-action')!;
+    const input = container.querySelector('.g-input-number-input')!;
+    const prefix = container.querySelector('.g-input-number-prefix')!;
+    const suffix = container.querySelector('.g-input-number-suffix')!;
+    const actions = container.querySelector('.g-input-number-actions')!;
+    const action = container.querySelector('.g-input-number-action')!;
     expect(root.className).toContain(testClassNames.root);
     expect(input.className).toContain(testClassNames.input);
     expect(prefix.className).toContain(testClassNames.prefix);

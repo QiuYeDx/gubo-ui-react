@@ -20,7 +20,7 @@ describe('Avatar Render', () => {
     originOffsetWidth = Object.getOwnPropertyDescriptor(HTMLElement.prototype, 'offsetWidth')?.get;
     Object.defineProperty(HTMLElement.prototype, 'offsetWidth', {
       get() {
-        if (this.className === 'ant-avatar-string') {
+        if (this.className === 'g-avatar-string') {
           return 100;
         }
         return 80;
@@ -37,7 +37,7 @@ describe('Avatar Render', () => {
 
   it('Render long string correctly', () => {
     const { container } = render(<Avatar>TestString</Avatar>);
-    expect(container.querySelectorAll('.ant-avatar-string').length).toBe(1);
+    expect(container.querySelectorAll('.g-avatar-string').length).toBe(1);
   });
 
   it('should render fallback string correctly', () => {
@@ -45,7 +45,7 @@ describe('Avatar Render', () => {
     global.document.body.appendChild(div);
     const { container } = render(<Avatar src="http://error.url">Fallback</Avatar>);
     fireEvent.error(container.querySelector('img')!);
-    const children = container.querySelectorAll('.ant-avatar-string');
+    const children = container.querySelectorAll('.g-avatar-string');
     expect(children.length).toBe(1);
     expect(children[0].innerHTML).toBe('Fallback');
     global.document.body.removeChild(div);
@@ -86,9 +86,9 @@ describe('Avatar Render', () => {
     fireEvent.error(container.querySelector('img')!);
 
     expect(container.firstChild).toMatchSnapshot();
-    expect(container.querySelectorAll('.ant-avatar-string').length).toBe(1);
+    expect(container.querySelectorAll('.g-avatar-string').length).toBe(1);
     // children should show, when image load error without onError return false
-    expect(container.querySelector<HTMLDivElement>('.ant-avatar-string')?.style).not.toHaveProperty(
+    expect(container.querySelector<HTMLDivElement>('.g-avatar-string')?.style).not.toHaveProperty(
       'opacity',
       0,
     );
@@ -97,28 +97,28 @@ describe('Avatar Render', () => {
     rerender(<Avatar src={LOAD_SUCCESS_SRC}>Fallback</Avatar>);
 
     expect(container.firstChild).toMatchSnapshot();
-    expect(container.querySelectorAll('.ant-avatar-image').length).toBe(1);
+    expect(container.querySelectorAll('.g-avatar-image').length).toBe(1);
 
     global.document.body.removeChild(div);
   });
 
   it('should calculate scale of avatar children correctly', () => {
     const { container, rerender } = render(<Avatar>Avatar</Avatar>);
-    expect(container.querySelector('.ant-avatar-string')).toMatchSnapshot();
+    expect(container.querySelector('.g-avatar-string')).toMatchSnapshot();
 
     Object.defineProperty(HTMLElement.prototype, 'offsetWidth', {
       get() {
-        return this.className === 'ant-avatar-string' ? 100 : 40;
+        return this.className === 'g-avatar-string' ? 100 : 40;
       },
     });
 
     rerender(<Avatar>xx</Avatar>);
-    expect(container.querySelector('.ant-avatar-string')).toMatchSnapshot();
+    expect(container.querySelector('.g-avatar-string')).toMatchSnapshot();
   });
 
   it('should calculate scale of avatar children correctly with gap', () => {
     const { container } = render(<Avatar gap={2}>Avatar</Avatar>);
-    expect(container.querySelector('.ant-avatar-string')).toMatchSnapshot();
+    expect(container.querySelector('.g-avatar-string')).toMatchSnapshot();
   });
 
   it('should warning when pass a string as icon props', () => {
@@ -188,7 +188,7 @@ describe('Avatar Render', () => {
   it('clickable', () => {
     const onClick = jest.fn();
     const { container } = render(<Avatar onClick={onClick}>TestString</Avatar>);
-    fireEvent.click(container.querySelector('.ant-avatar-string')!);
+    fireEvent.click(container.querySelector('.g-avatar-string')!);
     expect(onClick).toHaveBeenCalled();
   });
 
@@ -201,11 +201,11 @@ describe('Avatar Render', () => {
         <Avatar shape="circle">D</Avatar>
       </Avatar.Group>,
     );
-    const avatars = container?.querySelectorAll<HTMLSpanElement>('.ant-avatar-group .ant-avatar');
-    expect(avatars?.[0]).toHaveClass('ant-avatar-square');
-    expect(avatars?.[1]).toHaveClass('ant-avatar-circle');
-    expect(avatars?.[2]).toHaveClass('ant-avatar-square');
-    expect(avatars?.[3]).toHaveClass('ant-avatar-circle');
+    const avatars = container?.querySelectorAll<HTMLSpanElement>('.g-avatar-group .g-avatar');
+    expect(avatars?.[0]).toHaveClass('g-avatar-square');
+    expect(avatars?.[1]).toHaveClass('g-avatar-circle');
+    expect(avatars?.[2]).toHaveClass('g-avatar-square');
+    expect(avatars?.[3]).toHaveClass('g-avatar-circle');
   });
 
   it('should apply the componentSize of CP', () => {
@@ -219,8 +219,8 @@ describe('Avatar Render', () => {
         </ConfigProvider>
       </>,
     );
-    expect(container.querySelector('.ant-avatar-sm')).toBeTruthy();
-    expect(container.querySelector('.ant-avatar-lg')).toBeTruthy();
+    expect(container.querySelector('.g-avatar-sm')).toBeTruthy();
+    expect(container.querySelector('.g-avatar-lg')).toBeTruthy();
   });
 
   it('Avatar.Group support max series props and prompt to deprecated', async () => {
@@ -235,21 +235,21 @@ describe('Avatar Render', () => {
       </Avatar.Group>,
     );
 
-    const avatars = container?.querySelectorAll<HTMLSpanElement>('.ant-avatar-group .ant-avatar');
+    const avatars = container?.querySelectorAll<HTMLSpanElement>('.g-avatar-group .g-avatar');
     fireEvent.mouseEnter(avatars?.[2]);
     await waitFakeTimer();
 
     /* check style */
-    expect(container.querySelector('.ant-popover-open')).toBeTruthy();
-    expect(container.querySelector('.ant-popover-open')).toHaveStyle('color: rgb(0, 0, 255)');
+    expect(container.querySelector('.g-popover-open')).toBeTruthy();
+    expect(container.querySelector('.g-popover-open')).toHaveStyle('color: rgb(0, 0, 255)');
 
     /* check count */
     expect(avatars.length).toBe(3);
 
     /* check popover */
-    const popover = container.querySelector('.ant-avatar-group-popover');
+    const popover = container.querySelector('.g-avatar-group-popover');
     expect(popover).toBeTruthy();
-    expect(popover).toHaveClass('ant-popover-placement-bottom');
+    expect(popover).toHaveClass('g-popover-placement-bottom');
 
     expect(errSpy).toHaveBeenNthCalledWith(
       1,
@@ -289,16 +289,16 @@ describe('Avatar Render', () => {
     );
 
     /* check count */
-    expect(container.querySelectorAll('.ant-avatar-group .ant-avatar')).toHaveLength(3);
+    expect(container.querySelectorAll('.g-avatar-group .g-avatar')).toHaveLength(3);
 
     /* check popover */
-    const popover = container.querySelector('.ant-avatar-group-popover');
+    const popover = container.querySelector('.g-avatar-group-popover');
     expect(popover).toBeTruthy();
     expect(popover).toHaveStyle('background: red');
-    expect(popover).toHaveClass('wanpan-111 ant-popover-placement-bottomRight');
-    expect(container.querySelector('.ant-popover-container')).toHaveTextContent('Avatar.Group');
+    expect(popover).toHaveClass('wanpan-111 g-popover-placement-bottomRight');
+    expect(container.querySelector('.g-popover-container')).toHaveTextContent('Avatar.Group');
 
     /* check style */
-    expect(container.querySelector('.ant-popover-open')).toHaveStyle('color: rgb(0, 0, 255)');
+    expect(container.querySelector('.g-popover-open')).toHaveStyle('color: rgb(0, 0, 255)');
   });
 });

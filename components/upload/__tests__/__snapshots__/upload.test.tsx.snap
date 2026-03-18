@@ -2,13 +2,13 @@
 
 exports[`Upload rtl render component should be rendered correctly in RTL direction 1`] = `
 <span
-  class="ant-upload-wrapper css-var-root ant-upload-rtl"
+  class="g-upload-wrapper css-var-root g-upload-rtl"
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-hidden"
+    class="g-upload g-upload-select g-upload-hidden"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -19,7 +19,7 @@ exports[`Upload rtl render component should be rendered correctly in RTL directi
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   />
 </span>
 `;

@@ -4,10 +4,10 @@ exports[`Space.Compact rtl render component should be rendered correctly in RTL 
 
 exports[`Space.Compact rtl render component should be rendered correctly in RTL direction 2`] = `
 <div
-  class="ant-space-compact ant-space-compact-rtl"
+  class="g-space-compact g-space-compact-rtl"
 >
   <button
-    class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-rtl ant-btn-compact-item ant-btn-compact-first-item ant-btn-compact-last-item ant-btn-compact-item-rtl"
+    class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-rtl g-btn-compact-item g-btn-compact-first-item g-btn-compact-last-item g-btn-compact-item-rtl"
     type="button"
   >
     <span>

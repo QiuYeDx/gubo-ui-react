@@ -4,7 +4,7 @@ import { Keyframes } from '@ant-design/cssinjs';
 import type { AliasToken, TokenWithCommonCls } from '../../theme/internal';
 import { initMotion } from './motion';
 
-export const slideUpIn = new Keyframes('antSlideUpIn', {
+export const slideUpIn = new Keyframes('gSlideUpIn', {
   '0%': {
     transform: 'scaleY(0.8)',
     transformOrigin: '0% 0%',
@@ -18,7 +18,7 @@ export const slideUpIn = new Keyframes('antSlideUpIn', {
   },
 });
 
-export const slideUpOut = new Keyframes('antSlideUpOut', {
+export const slideUpOut = new Keyframes('gSlideUpOut', {
   '0%': {
     transform: 'scaleY(1)',
     transformOrigin: '0% 0%',
@@ -32,7 +32,7 @@ export const slideUpOut = new Keyframes('antSlideUpOut', {
   },
 });
 
-export const slideDownIn = new Keyframes('antSlideDownIn', {
+export const slideDownIn = new Keyframes('gSlideDownIn', {
   '0%': {
     transform: 'scaleY(0.8)',
     transformOrigin: '100% 100%',
@@ -46,7 +46,7 @@ export const slideDownIn = new Keyframes('antSlideDownIn', {
   },
 });
 
-export const slideDownOut = new Keyframes('antSlideDownOut', {
+export const slideDownOut = new Keyframes('gSlideDownOut', {
   '0%': {
     transform: 'scaleY(1)',
     transformOrigin: '100% 100%',
@@ -60,7 +60,7 @@ export const slideDownOut = new Keyframes('antSlideDownOut', {
   },
 });
 
-export const slideLeftIn = new Keyframes('antSlideLeftIn', {
+export const slideLeftIn = new Keyframes('gSlideLeftIn', {
   '0%': {
     transform: 'scaleX(0.8)',
     transformOrigin: '0% 0%',
@@ -74,7 +74,7 @@ export const slideLeftIn = new Keyframes('antSlideLeftIn', {
   },
 });
 
-export const slideLeftOut = new Keyframes('antSlideLeftOut', {
+export const slideLeftOut = new Keyframes('gSlideLeftOut', {
   '0%': {
     transform: 'scaleX(1)',
     transformOrigin: '0% 0%',
@@ -88,7 +88,7 @@ export const slideLeftOut = new Keyframes('antSlideLeftOut', {
   },
 });
 
-export const slideRightIn = new Keyframes('antSlideRightIn', {
+export const slideRightIn = new Keyframes('gSlideRightIn', {
   '0%': {
     transform: 'scaleX(0.8)',
     transformOrigin: '100% 0%',
@@ -102,7 +102,7 @@ export const slideRightIn = new Keyframes('antSlideRightIn', {
   },
 });
 
-export const slideRightOut = new Keyframes('antSlideRightOut', {
+export const slideRightOut = new Keyframes('gSlideRightOut', {
   '0%': {
     transform: 'scaleX(1)',
     transformOrigin: '100% 0%',

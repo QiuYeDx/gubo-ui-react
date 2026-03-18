@@ -48,7 +48,7 @@ describe('Space', () => {
       </ConfigProvider>,
     );
 
-    const item = container.querySelector('.ant-space-gap-row-small.ant-space-gap-col-small');
+    const item = container.querySelector('.g-space-gap-row-small.g-space-gap-col-small');
     expect(item).toBe(null);
   });
 
@@ -81,7 +81,7 @@ describe('Space', () => {
       </Space>,
     );
 
-    const items = container.querySelectorAll<HTMLDivElement>('div.ant-space-item');
+    const items = container.querySelectorAll<HTMLDivElement>('div.g-space-item');
     expect(items[0]).toHaveStyle({ marginRight: '' });
     expect(items[1]).toHaveStyle({ marginRight: '' });
   });
@@ -98,7 +98,7 @@ describe('Space', () => {
       'Warning: [antd: Space] `direction` is deprecated. Please use `orientation` instead.',
     );
     warnSpy.mockRestore();
-    const items = container.querySelectorAll<HTMLDivElement>('div.ant-space-item');
+    const items = container.querySelectorAll<HTMLDivElement>('div.g-space-item');
     expect(items[0]).toHaveStyle({ marginBottom: '' });
     expect(items[1]).toHaveStyle({ marginBottom: '' });
   });
@@ -122,7 +122,7 @@ describe('Space', () => {
       </Space>,
     );
 
-    expect(container.querySelectorAll('div.ant-space-item').length).toBe(3);
+    expect(container.querySelectorAll('div.g-space-item').length).toBe(3);
   });
 
   it('should be keep store', () => {
@@ -219,7 +219,7 @@ describe('Space', () => {
         <Null />
       </Space>,
     );
-    const element = container.querySelector<HTMLDivElement>('div.ant-space-item')!;
+    const element = container.querySelector<HTMLDivElement>('div.g-space-item')!;
     expect(element).toBeEmptyDOMElement();
     expect(element).toHaveStyle({ display: 'none' });
   });
@@ -256,9 +256,9 @@ describe('Space', () => {
       </Space>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-space');
-    const itemElement = container.querySelector<HTMLElement>('.ant-space-item');
-    const separatorElement = container.querySelector<HTMLElement>('.ant-space-item-separator');
+    const rootElement = container.querySelector<HTMLElement>('.g-space');
+    const itemElement = container.querySelector<HTMLElement>('.g-space-item');
+    const separatorElement = container.querySelector<HTMLElement>('.g-space-item-separator');
 
     // Check classNames
     expect(rootElement).toHaveClass('custom-root');
@@ -288,7 +288,7 @@ describe('Space', () => {
         </Space>,
       );
 
-      expect(container.querySelector<HTMLDivElement>(`.ant-space-${expected}`)).toBeTruthy();
+      expect(container.querySelector<HTMLDivElement>(`.g-space-${expected}`)).toBeTruthy();
     });
     it.each(testCases)('with args %j should have %s node', (params, expected) => {
       const { container } = render(
@@ -299,13 +299,11 @@ describe('Space', () => {
       );
       if (expected === 'vertical') {
         expect(
-          container.querySelector<HTMLDivElement>(`.ant-space-compact-${expected}`),
+          container.querySelector<HTMLDivElement>(`.g-space-compact-${expected}`),
         ).toBeTruthy();
       } else {
-        expect(container.querySelector<HTMLDivElement>(`.ant-space-compact-vertical`)).toBeFalsy();
-        expect(
-          container.querySelector<HTMLDivElement>(`.ant-space-compact-horizontal`),
-        ).toBeFalsy();
+        expect(container.querySelector<HTMLDivElement>(`.g-space-compact-vertical`)).toBeFalsy();
+        expect(container.querySelector<HTMLDivElement>(`.g-space-compact-horizontal`)).toBeFalsy();
       }
     });
   });

@@ -8,20 +8,20 @@ exports[`Anchor Render render items and ignore jsx children 1`] = `
     class=""
   >
     <div
-      class="css-var-root ant-anchor-css-var ant-anchor-wrapper"
+      class="css-var-root g-anchor-css-var g-anchor-wrapper"
       style="max-height: 100vh;"
     >
       <div
-        class="ant-anchor"
+        class="g-anchor"
       >
         <span
-          class="ant-anchor-ink"
+          class="g-anchor-ink"
         />
         <div
-          class="ant-anchor-link"
+          class="g-anchor-link"
         >
           <a
-            class="ant-anchor-link-title"
+            class="g-anchor-link-title"
             href="#anchor-demo-basic"
             title="Item Basic Demo"
           >
@@ -42,20 +42,20 @@ exports[`Anchor Render renders items correctly 1`] = `
     class=""
   >
     <div
-      class="css-var-root ant-anchor-css-var ant-anchor-wrapper"
+      class="css-var-root g-anchor-css-var g-anchor-wrapper"
       style="max-height: 100vh;"
     >
       <div
-        class="ant-anchor"
+        class="g-anchor"
       >
         <span
-          class="ant-anchor-ink"
+          class="g-anchor-ink"
         />
         <div
-          class="ant-anchor-link"
+          class="g-anchor-link"
         >
           <a
-            class="ant-anchor-link-title"
+            class="g-anchor-link-title"
             href="#anchor-demo-basic"
             title="Item Basic Demo"
           >
@@ -63,10 +63,10 @@ exports[`Anchor Render renders items correctly 1`] = `
           </a>
         </div>
         <div
-          class="ant-anchor-link"
+          class="g-anchor-link"
         >
           <a
-            class="ant-anchor-link-title"
+            class="g-anchor-link-title"
             href="#anchor-demo-static"
             title="Static demo"
           >
@@ -74,30 +74,30 @@ exports[`Anchor Render renders items correctly 1`] = `
           </a>
         </div>
         <div
-          class="ant-anchor-link"
+          class="g-anchor-link"
         >
           <a
-            class="ant-anchor-link-title"
+            class="g-anchor-link-title"
             href="#api"
             title="API"
           >
             API
           </a>
           <div
-            class="ant-anchor-link"
+            class="g-anchor-link"
           >
             <a
-              class="ant-anchor-link-title"
+              class="g-anchor-link-title"
               href="#anchor-props"
               title="Anchor Props"
             >
               Anchor Props
             </a>
             <div
-              class="ant-anchor-link"
+              class="g-anchor-link"
             >
               <a
-                class="ant-anchor-link-title"
+                class="g-anchor-link-title"
                 href="#link-props"
                 title="Link Props"
               >
@@ -120,20 +120,20 @@ exports[`Anchor Render renders items correctly#horizontal 1`] = `
     class=""
   >
     <div
-      class="css-var-root ant-anchor-css-var ant-anchor-wrapper"
+      class="css-var-root g-anchor-css-var g-anchor-wrapper"
       style="max-height: 100vh;"
     >
       <div
-        class="ant-anchor"
+        class="g-anchor"
       >
         <span
-          class="ant-anchor-ink"
+          class="g-anchor-ink"
         />
         <div
-          class="ant-anchor-link"
+          class="g-anchor-link"
         >
           <a
-            class="ant-anchor-link-title"
+            class="g-anchor-link-title"
             href="#anchor-demo-basic"
             title="Item Basic Demo"
           >
@@ -141,10 +141,10 @@ exports[`Anchor Render renders items correctly#horizontal 1`] = `
           </a>
         </div>
         <div
-          class="ant-anchor-link"
+          class="g-anchor-link"
         >
           <a
-            class="ant-anchor-link-title"
+            class="g-anchor-link-title"
             href="#anchor-demo-static"
             title="Static demo"
           >
@@ -152,10 +152,10 @@ exports[`Anchor Render renders items correctly#horizontal 1`] = `
           </a>
         </div>
         <div
-          class="ant-anchor-link"
+          class="g-anchor-link"
         >
           <a
-            class="ant-anchor-link-title"
+            class="g-anchor-link-title"
             href="#api"
             title="API"
           >
@@ -176,14 +176,14 @@ exports[`Anchor Render rtl render component should be rendered correctly in RTL 
     class=""
   >
     <div
-      class="css-var-root ant-anchor-css-var ant-anchor-wrapper ant-anchor-rtl"
+      class="css-var-root g-anchor-css-var g-anchor-wrapper g-anchor-rtl"
       style="max-height: 100vh;"
     >
       <div
-        class="ant-anchor"
+        class="g-anchor"
       >
         <span
-          class="ant-anchor-ink"
+          class="g-anchor-ink"
         />
       </div>
     </div>

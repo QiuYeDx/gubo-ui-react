@@ -2,11 +2,11 @@
 
 exports[`Rate rtl render component should be rendered correctly in RTL direction 1`] = `
 <ul
-  class="ant-rate css-var-root ant-rate-rtl"
+  class="g-rate css-var-root g-rate-rtl"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -16,11 +16,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -39,11 +39,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -64,7 +64,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -74,11 +74,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -97,11 +97,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -122,7 +122,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -132,11 +132,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -155,11 +155,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -180,7 +180,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -190,11 +190,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -213,11 +213,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -238,7 +238,7 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -248,11 +248,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -271,11 +271,11 @@ exports[`Rate rtl render component should be rendered correctly in RTL direction
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg

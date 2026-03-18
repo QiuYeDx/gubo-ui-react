@@ -2,29 +2,29 @@
 
 exports[`renders components/input/demo/addon.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           http://
         </span>
         <input
-          class="ant-input ant-input-outlined"
+          class="g-input g-input-outlined"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           .com
         </span>
@@ -32,22 +32,22 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           <div
-            class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+            class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
           >
             <div
-              class="ant-select-content ant-select-content-has-value"
+              class="g-select-content g-select-content-has-value"
               title="http://"
             >
               http://
@@ -56,7 +56,7 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="listbox"
                 autocomplete="off"
-                class="ant-select-input"
+                class="g-select-input"
                 id="test-id"
                 readonly=""
                 role="combobox"
@@ -65,11 +65,11 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
               />
             </div>
             <div
-              class="ant-select-suffix"
+              class="g-select-suffix"
             >
               <span
                 aria-label="down"
-                class="anticon anticon-down"
+                class="gicon gicon-down"
                 role="img"
               >
                 <svg
@@ -90,18 +90,18 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
           </div>
         </span>
         <input
-          class="ant-input ant-input-outlined"
+          class="g-input g-input-outlined"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           <div
-            class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+            class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
           >
             <div
-              class="ant-select-content ant-select-content-has-value"
+              class="g-select-content g-select-content-has-value"
               title=".com"
             >
               .com
@@ -110,7 +110,7 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="listbox"
                 autocomplete="off"
-                class="ant-select-input"
+                class="g-select-input"
                 id="test-id"
                 readonly=""
                 role="combobox"
@@ -119,11 +119,11 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
               />
             </div>
             <div
-              class="ant-select-suffix"
+              class="g-select-suffix"
             >
               <span
                 aria-label="down"
-                class="anticon anticon-down"
+                class="gicon gicon-down"
                 role="img"
               >
                 <svg
@@ -147,25 +147,25 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <input
-          class="ant-input ant-input-outlined"
+          class="g-input g-input-outlined"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           <span
             aria-label="setting"
-            class="anticon anticon-setting"
+            class="gicon gicon-setting"
             role="img"
           >
             <svg
@@ -187,29 +187,29 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           http://
         </span>
         <span
-          class="ant-input-affix-wrapper ant-input-outlined"
+          class="g-input-affix-wrapper g-input-outlined"
         >
           <input
-            class="ant-input"
+            class="g-input"
             type="text"
             value="mysite"
           />
           <span
-            class="ant-input-suffix"
+            class="g-input-suffix"
           >
             .com
           </span>
@@ -218,26 +218,26 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           <div
-            class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+            class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
             style="width:150px"
           >
             <div
-              class="ant-select-content"
+              class="g-select-content"
             >
               <div
-                class="ant-select-placeholder"
+                class="g-select-placeholder"
                 style="visibility:visible"
               >
                 cascader
@@ -247,7 +247,7 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="listbox"
                 autocomplete="off"
-                class="ant-select-input"
+                class="g-select-input"
                 id="test-id"
                 readonly=""
                 role="combobox"
@@ -256,11 +256,11 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
               />
             </div>
             <div
-              class="ant-select-suffix"
+              class="g-select-suffix"
             >
               <span
                 aria-label="down"
-                class="anticon anticon-down"
+                class="gicon gicon-down"
                 role="img"
               >
                 <svg
@@ -281,7 +281,7 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
           </div>
         </span>
         <input
-          class="ant-input ant-input-outlined"
+          class="g-input g-input-outlined"
           type="text"
           value="mysite"
         />
@@ -293,28 +293,28 @@ exports[`renders components/input/demo/addon.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/advance-count.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap:16px"
 >
   <div>
     <h5
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       Exceed Max
     </h5>
     <span
-      class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var ant-input-out-of-range"
+      class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var g-input-out-of-range"
     >
       <input
-        class="ant-input"
+        class="g-input"
         type="text"
         value="Hello, antd!"
       />
       <span
-        class="ant-input-suffix"
+        class="g-input-suffix"
       >
         <span
-          class="ant-input-show-count-suffix"
+          class="g-input-show-count-suffix"
         >
           12 / 10
         </span>
@@ -323,23 +323,23 @@ exports[`renders components/input/demo/advance-count.tsx correctly 1`] = `
   </div>
   <div>
     <h5
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       Emoji count as length 1
     </h5>
     <span
-      class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
     >
       <input
-        class="ant-input"
+        class="g-input"
         type="text"
         value="🔥🔥🔥"
       />
       <span
-        class="ant-input-suffix"
+        class="g-input-suffix"
       >
         <span
-          class="ant-input-show-count-suffix"
+          class="g-input-show-count-suffix"
         >
           3
         </span>
@@ -348,23 +348,23 @@ exports[`renders components/input/demo/advance-count.tsx correctly 1`] = `
   </div>
   <div>
     <h5
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       Not exceed max
     </h5>
     <span
-      class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
     >
       <input
-        class="ant-input"
+        class="g-input"
         type="text"
         value="🔥 antd"
       />
       <span
-        class="ant-input-suffix"
+        class="g-input-suffix"
       >
         <span
-          class="ant-input-show-count-suffix"
+          class="g-input-show-count-suffix"
         >
           6 / 6
         </span>
@@ -377,7 +377,7 @@ exports[`renders components/input/demo/advance-count.tsx correctly 1`] = `
 exports[`renders components/input/demo/align.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-mentions ant-mentions-outlined ant-mentions css-var-test-id ant-mentions-css-var"
+    class="g-mentions g-mentions-outlined g-mentions css-var-test-id g-mentions-css-var"
     style="width:100px"
   >
     <textarea
@@ -386,12 +386,12 @@ Array [
     />
   </div>,
   <textarea
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     rows="1"
     style="width:100px"
   />,
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -399,26 +399,26 @@ Array [
     </span>
   </button>,
   <input
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     style="width:100px"
     type="text"
     value=""
   />,
   <span
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     Ant Design
     <span
-      class="ant-typography-actions"
+      class="g-typography-actions"
     >
       <button
         aria-label="Copy"
-        class="ant-typography-copy"
+        class="g-typography-copy"
         type="button"
       >
         <span
           aria-label="copy"
-          class="anticon anticon-copy"
+          class="gicon gicon-copy"
           role="img"
         >
           <svg
@@ -439,73 +439,73 @@ Array [
     </span>
   </span>,
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
     style="width:100px"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       1
     </span>
     <input
-      class="ant-input"
+      class="g-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       2
     </span>
   </span>,
   <span
-    class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+    class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     style="width:100px"
   >
     <span
-      class="ant-input-wrapper ant-input-group"
+      class="g-input-wrapper g-input-group"
     >
       <span
-        class="ant-input-group-addon"
+        class="g-input-group-addon"
       >
         1
       </span>
       <input
-        class="ant-input ant-input-outlined"
+        class="g-input g-input-outlined"
         type="text"
         value=""
       />
       <span
-        class="ant-input-group-addon"
+        class="g-input-group-addon"
       >
         2
       </span>
     </span>
   </span>,
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     style="width:100px"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -526,13 +526,13 @@ Array [
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -553,11 +553,11 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     style="width:100px"
   >
     <div
-      class="ant-picker-input"
+      class="g-picker-input"
     >
       <input
         aria-invalid="false"
@@ -567,11 +567,11 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -592,11 +592,11 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     style="width:100px"
   >
     <div
-      class="ant-picker-input"
+      class="g-picker-input"
     >
       <input
         aria-invalid="false"
@@ -606,11 +606,11 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -634,11 +634,11 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:100px"
   >
     <div
-      class="ant-select-content ant-select-content-has-value"
+      class="g-select-content g-select-content-has-value"
       title="Jack"
     >
       Jack
@@ -647,7 +647,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -656,11 +656,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -680,11 +680,11 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:100px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
       title=""
     >
       <input
@@ -692,7 +692,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -701,11 +701,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -725,14 +725,14 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:100px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       />
       <input
@@ -740,7 +740,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -749,11 +749,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -773,14 +773,14 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width:100px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       />
       <input
@@ -788,7 +788,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -797,11 +797,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -821,10 +821,10 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-allow-clear ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-allow-clear g-select-show-arrow"
   >
     <div
-      class="ant-select-content ant-select-content-has-value"
+      class="g-select-content g-select-content-has-value"
       title="Zhejiang / Hangzhou / West Lake"
     >
       Zhejiang / Hangzhou / West Lake
@@ -833,7 +833,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -842,11 +842,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -865,11 +865,11 @@ Array [
       </span>
     </div>
     <div
-      class="ant-select-clear"
+      class="g-select-clear"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -890,10 +890,10 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-input ant-picker-input-start"
+      class="g-picker-input g-picker-input-start"
     >
       <input
         aria-invalid="false"
@@ -905,15 +905,15 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-range-separator"
+      class="g-picker-range-separator"
     >
       <span
         aria-label="to"
-        class="ant-picker-separator"
+        class="g-picker-separator"
       >
         <span
           aria-label="swap-right"
-          class="anticon anticon-swap-right"
+          class="gicon gicon-swap-right"
           role="img"
         >
           <svg
@@ -933,7 +933,7 @@ Array [
       </span>
     </div>
     <div
-      class="ant-picker-input ant-picker-input-end"
+      class="g-picker-input g-picker-input-end"
     >
       <input
         aria-invalid="false"
@@ -945,15 +945,15 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-active-bar"
+      class="g-picker-active-bar"
       style="position:absolute;width:0"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -973,10 +973,10 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-input"
+      class="g-picker-input"
     >
       <input
         aria-invalid="false"
@@ -986,11 +986,11 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -1011,58 +1011,58 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="b"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
   </div>,
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width:100px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         input here
@@ -1072,7 +1072,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -1082,69 +1082,69 @@ Array [
   </div>,
   <br />,
   <span
-    class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+    class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-wrapper ant-input-group"
+      class="g-input-wrapper g-input-group"
     >
       <span
-        class="ant-input-group-addon"
+        class="g-input-group-addon"
       >
         Http://
       </span>
       <span
-        class="ant-input-affix-wrapper ant-input-outlined"
+        class="g-input-affix-wrapper g-input-outlined"
       >
         <span
-          class="ant-input-prefix"
+          class="g-input-prefix"
         >
           $
         </span>
         <input
-          class="ant-input"
+          class="g-input"
           type="text"
           value="mysite"
         />
       </span>
       <span
-        class="ant-input-group-addon"
+        class="g-input-group-addon"
       >
         .com
       </span>
     </span>
   </span>,
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
     style="width:50px"
   >
     <input
-      class="ant-input"
+      class="g-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       Y
     </span>
   </span>,
   <input
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     style="width:50px"
     type="text"
     value=""
   />,
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
     style="width:50px"
   >
     <input
-      class="ant-input"
+      class="g-input"
       type="text"
       value="1"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       Y
     </span>
@@ -1155,25 +1155,25 @@ Array [
 exports[`renders components/input/demo/allowClear.tsx correctly 1`] = `
 Array [
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
   >
     <input
-      class="ant-input"
+      class="g-input"
       placeholder="input with clear icon"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <button
-        class="ant-input-clear-icon ant-input-clear-icon-hidden"
+        class="g-input-clear-icon g-input-clear-icon-hidden"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1197,23 +1197,23 @@ Array [
   <br />,
   <br />,
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-test-id g-input-css-var"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       placeholder="textarea with clear icon"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <button
-        class="ant-input-clear-icon ant-input-clear-icon-hidden"
+        class="g-input-clear-icon g-input-clear-icon-hidden"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1240,21 +1240,21 @@ Array [
 exports[`renders components/input/demo/autosize-textarea.tsx correctly 1`] = `
 Array [
   <textarea
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     placeholder="Autosize height based on content lines"
   />,
   <div
     style="margin:24px 0"
   />,
   <textarea
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     placeholder="Autosize height with minimum and maximum number of lines"
   />,
   <div
     style="margin:24px 0"
   />,
   <textarea
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     placeholder="Controlled autosize"
   />,
 ]
@@ -1262,7 +1262,7 @@ Array [
 
 exports[`renders components/input/demo/basic.tsx correctly 1`] = `
 <input
-  class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+  class="g-input g-input-outlined css-var-test-id g-input-css-var"
   placeholder="Basic usage"
   type="text"
   value=""
@@ -1274,39 +1274,39 @@ exports[`renders components/input/demo/borderless-debug.tsx correctly 1`] = `
   style="background-color:rgba(0, 0, 128, .2)"
 >
   <input
-    class="ant-input ant-input-borderless css-var-test-id ant-input-css-var"
+    class="g-input g-input-borderless css-var-test-id g-input-css-var"
     placeholder="Unbordered"
     type="text"
     value=""
   />
   <input
-    class="ant-input ant-input-lg ant-input-borderless css-var-test-id ant-input-css-var"
+    class="g-input g-input-lg g-input-borderless css-var-test-id g-input-css-var"
     placeholder="Unbordered"
     type="text"
     value=""
   />
   <textarea
-    class="ant-input ant-input-borderless css-var-test-id ant-input-css-var"
+    class="g-input g-input-borderless css-var-test-id g-input-css-var"
     placeholder="Unbordered"
   />
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-borderless css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-borderless css-var-test-id g-input-css-var"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       placeholder="Unbordered"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <button
-        class="ant-input-clear-icon ant-input-clear-icon-hidden"
+        class="g-input-clear-icon g-input-clear-icon-hidden"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1328,25 +1328,25 @@ exports[`renders components/input/demo/borderless-debug.tsx correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-borderless css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-borderless css-var-test-id g-input-css-var"
   >
     <input
-      class="ant-input"
+      class="g-input"
       placeholder="Unbordered"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <button
-        class="ant-input-clear-icon ant-input-clear-icon-hidden"
+        class="g-input-clear-icon g-input-clear-icon-hidden"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1368,62 +1368,62 @@ exports[`renders components/input/demo/borderless-debug.tsx correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-borderless css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-borderless css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       ￥
     </span>
     <input
-      class="ant-input"
+      class="g-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       RMB
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-disabled ant-input-affix-wrapper-disabled ant-input-borderless css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-disabled g-input-affix-wrapper-disabled g-input-borderless css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       ￥
     </span>
     <input
-      class="ant-input ant-input-disabled"
+      class="g-input g-input-disabled"
       disabled=""
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       RMB
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-test-id g-input-css-var"
     style="border:2px solid #000"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <button
-        class="ant-input-clear-icon ant-input-clear-icon-hidden"
+        class="g-input-clear-icon g-input-clear-icon-hidden"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1445,39 +1445,39 @@ exports[`renders components/input/demo/borderless-debug.tsx correctly 1`] = `
     </span>
   </span>
   <input
-    class="ant-input ant-input-borderless ant-input-status-error css-var-test-id ant-input-css-var"
+    class="g-input g-input-borderless g-input-status-error css-var-test-id g-input-css-var"
     type="text"
     value="error"
   />
   <input
-    class="ant-input ant-input-borderless ant-input-status-warning css-var-test-id ant-input-css-var"
+    class="g-input g-input-borderless g-input-status-warning css-var-test-id g-input-css-var"
     type="text"
     value="warning"
   />
   <span
-    class="ant-input-affix-wrapper ant-input-borderless ant-input-status-error css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-borderless g-input-status-error css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       $
     </span>
     <input
-      class="ant-input"
+      class="g-input"
       type="text"
       value="error"
     />
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-borderless ant-input-status-warning css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-borderless g-input-status-warning css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       $
     </span>
     <input
-      class="ant-input"
+      class="g-input"
       type="text"
       value="warning"
     />
@@ -1487,35 +1487,35 @@ exports[`renders components/input/demo/borderless-debug.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-medium ant-space-gap-col-medium css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-medium g-space-gap-col-medium css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item ant-input-compact-last-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item g-input-compact-last-item"
         type="text"
         value="26888888"
       />
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         style="width:20%"
         type="text"
         value="0571"
       />
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
         style="width:80%"
         type="text"
         value="26888888"
@@ -1523,39 +1523,39 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined"
       >
         https://
       </div>
       <div
-        class="ant-space-compact ant-input-search css-var-test-id"
+        class="g-space-compact g-input-search css-var-test-id"
       >
         <span
-          class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+          class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
         >
           <input
-            class="ant-input"
+            class="g-input"
             placeholder="input search text"
             type="search"
             value=""
           />
           <span
-            class="ant-input-suffix"
+            class="g-input-suffix"
           >
             <button
-              class="ant-input-clear-icon ant-input-clear-icon-hidden"
+              class="g-input-clear-icon g-input-clear-icon-hidden"
               tabindex="-1"
               type="button"
             >
               <span
                 aria-label="close-circle"
-                class="anticon anticon-close-circle"
+                class="gicon gicon-close-circle"
                 role="img"
               >
                 <svg
@@ -1577,15 +1577,15 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
           </span>
         </span>
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -1608,19 +1608,19 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
       style="width:100%"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         type="text"
         value="Combine input and button"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -1630,16 +1630,16 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Zhejiang"
         >
           Zhejiang
@@ -1648,7 +1648,7 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -1657,11 +1657,11 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1681,24 +1681,24 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
         </div>
       </div>
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
         type="text"
         value="Xihu District, Hangzhou"
       />
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined ant-space-addon-large"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined g-space-addon-large"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -1717,13 +1717,13 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
         </span>
       </div>
       <input
-        class="ant-input ant-input-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input g-input-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
         placeholder="large size"
         type="text"
         value=""
       />
       <input
-        class="ant-input ant-input-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input g-input-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
         placeholder="another input"
         type="text"
         value=""
@@ -1735,32 +1735,32 @@ exports[`renders components/input/demo/compact-style.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/debug-addon.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     Input addon Button:
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <input
-          class="ant-input ant-input-outlined"
+          class="g-input g-input-outlined"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
             type="button"
           >
             <span>
@@ -1772,24 +1772,24 @@ exports[`renders components/input/demo/debug-addon.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <input
-          class="ant-input ant-input-outlined"
+          class="g-input g-input-outlined"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span>
@@ -1801,44 +1801,44 @@ exports[`renders components/input/demo/debug-addon.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <br />
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <br />
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     Input addon Button icon:
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <input
-          class="ant-input ant-input-outlined"
+          class="g-input g-input-outlined"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span
               aria-label="setting"
-              class="anticon anticon-setting"
+              class="gicon gicon-setting"
               role="img"
             >
               <svg
@@ -1865,62 +1865,62 @@ exports[`renders components/input/demo/debug-addon.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap:20px"
 >
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:12px"
   >
     <input
-      class="ant-input ant-input-filled css-var-test-id ant-input-css-var"
+      class="g-input g-input-filled css-var-test-id g-input-css-var"
       placeholder="Filled"
       type="text"
       value=""
     />
     <input
-      class="ant-input ant-input-disabled ant-input-filled css-var-test-id ant-input-css-var"
+      class="g-input g-input-disabled g-input-filled css-var-test-id g-input-css-var"
       disabled=""
       placeholder="Filled"
       type="text"
       value=""
     />
     <input
-      class="ant-input ant-input-filled ant-input-status-error css-var-test-id ant-input-css-var"
+      class="g-input g-input-filled g-input-status-error css-var-test-id g-input-css-var"
       placeholder="Filled"
       type="text"
       value="Filled Error"
     />
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:12px"
   >
     <span
-      class="ant-input-affix-wrapper ant-input-filled css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-filled css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-prefix"
+        class="g-input-prefix"
       >
         $
       </span>
       <input
-        class="ant-input"
+        class="g-input"
         placeholder="Filled"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-input-affix-wrapper ant-input-disabled ant-input-affix-wrapper-disabled ant-input-filled css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-disabled g-input-affix-wrapper-disabled g-input-filled css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-prefix"
+        class="g-input-prefix"
       >
         $
       </span>
       <input
-        class="ant-input ant-input-disabled"
+        class="g-input g-input-disabled"
         disabled=""
         placeholder="Filled"
         type="text"
@@ -1928,15 +1928,15 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-input-affix-wrapper ant-input-filled ant-input-status-error css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-filled g-input-status-error css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-prefix"
+        class="g-input-prefix"
       >
         $
       </span>
       <input
-        class="ant-input"
+        class="g-input"
         placeholder="Filled"
         type="text"
         value="Filled Error"
@@ -1944,77 +1944,77 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:12px"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-filled css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-filled css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           http://
         </span>
         <input
-          class="ant-input ant-input-filled"
+          class="g-input g-input-filled"
           placeholder="Filled"
           type="text"
           value=""
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           .com
         </span>
       </span>
     </span>
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-disabled ant-input-group-wrapper-filled css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-disabled g-input-group-wrapper-filled css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           http://
         </span>
         <input
-          class="ant-input ant-input-disabled ant-input-filled"
+          class="g-input g-input-disabled g-input-filled"
           disabled=""
           placeholder="Filled"
           type="text"
           value=""
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           .com
         </span>
       </span>
     </span>
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-filled ant-input-group-wrapper-status-error css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-filled g-input-group-wrapper-status-error css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           http://
         </span>
         <input
-          class="ant-input ant-input-filled ant-input-status-error"
+          class="g-input g-input-filled g-input-status-error"
           placeholder="Filled"
           type="text"
           value="Filled Error"
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           .com
         </span>
@@ -2022,62 +2022,62 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:12px"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-filled css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-filled css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <input
-          class="ant-input ant-input-filled"
+          class="g-input g-input-filled"
           placeholder="Filled"
           type="text"
           value=""
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           .com
         </span>
       </span>
     </span>
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-disabled ant-input-group-wrapper-filled css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-disabled g-input-group-wrapper-filled css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <input
-          class="ant-input ant-input-disabled ant-input-filled"
+          class="g-input g-input-disabled g-input-filled"
           disabled=""
           placeholder="Filled"
           type="text"
           value=""
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           .com
         </span>
       </span>
     </span>
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-filled ant-input-group-wrapper-status-error css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-filled g-input-group-wrapper-status-error css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <input
-          class="ant-input ant-input-filled ant-input-status-error"
+          class="g-input g-input-filled g-input-status-error"
           placeholder="Filled"
           type="text"
           value="Filled Error"
         />
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           .com
         </span>
@@ -2085,22 +2085,22 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:12px"
   >
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-filled css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-filled css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           http://
         </span>
         <input
-          class="ant-input ant-input-filled"
+          class="g-input g-input-filled"
           placeholder="Filled"
           type="text"
           value=""
@@ -2108,18 +2108,18 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-disabled ant-input-group-wrapper-filled css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-disabled g-input-group-wrapper-filled css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           http://
         </span>
         <input
-          class="ant-input ant-input-disabled ant-input-filled"
+          class="g-input g-input-disabled g-input-filled"
           disabled=""
           placeholder="Filled"
           type="text"
@@ -2128,18 +2128,18 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-input-group-wrapper ant-input-group-wrapper-filled ant-input-group-wrapper-status-error css-var-test-id ant-input-css-var"
+      class="g-input-group-wrapper g-input-group-wrapper-filled g-input-group-wrapper-status-error css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="g-input-wrapper g-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="g-input-group-addon"
         >
           http://
         </span>
         <input
-          class="ant-input ant-input-filled ant-input-status-error"
+          class="g-input g-input-filled g-input-status-error"
           placeholder="Filled"
           type="text"
           value="Filled Error"
@@ -2148,33 +2148,33 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
     </span>
   </div>
   <textarea
-    class="ant-input ant-input-filled css-var-test-id ant-input-css-var"
+    class="g-input g-input-filled css-var-test-id g-input-css-var"
     placeholder="Basic"
   />
   <textarea
-    class="ant-input ant-input-filled ant-input-status-error css-var-test-id ant-input-css-var"
+    class="g-input g-input-filled g-input-status-error css-var-test-id g-input-css-var"
     placeholder="Basic"
   >
     Filled Error
   </textarea>
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-filled css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-filled css-var-test-id g-input-css-var"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       placeholder="Allow Clear"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <button
-        class="ant-input-clear-icon ant-input-clear-icon-hidden"
+        class="g-input-clear-icon g-input-clear-icon-hidden"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -2196,38 +2196,38 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-show-count ant-input-show-count ant-input-filled css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-show-count g-input-show-count g-input-filled css-var-test-id g-input-css-var"
     data-count="0"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       placeholder="Show Count"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
-        class="ant-input-data-count"
+        class="g-input-data-count"
       >
         0
       </span>
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-show-count ant-input-show-count ant-input-filled ant-input-status-error css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-show-count g-input-show-count g-input-filled g-input-status-error css-var-test-id g-input-css-var"
     data-count="12"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       placeholder="Show Count"
     >
       Filled Error
     </textarea>
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
-        class="ant-input-data-count"
+        class="g-input-data-count"
       >
         12
       </span>
@@ -2238,21 +2238,21 @@ exports[`renders components/input/demo/filled-debug.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/focus.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       style="flex-wrap:wrap"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -2261,10 +2261,10 @@ exports[`renders components/input/demo/focus.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -2273,10 +2273,10 @@ exports[`renders components/input/demo/focus.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -2285,10 +2285,10 @@ exports[`renders components/input/demo/focus.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -2297,27 +2297,27 @@ exports[`renders components/input/demo/focus.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
           aria-checked="true"
-          class="ant-switch css-var-test-id ant-switch-checked"
+          class="g-switch css-var-test-id g-switch-checked"
           role="switch"
           type="button"
         >
           <div
-            class="ant-switch-handle"
+            class="g-switch-handle"
           />
           <span
-            class="ant-switch-inner"
+            class="g-switch-inner"
           >
             <span
-              class="ant-switch-inner-checked"
+              class="g-switch-inner-checked"
             >
               Input
             </span>
             <span
-              class="ant-switch-inner-unchecked"
+              class="g-switch-inner-unchecked"
             >
               TextArea
             </span>
@@ -2327,15 +2327,15 @@ exports[`renders components/input/demo/focus.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <br />
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var"
       style="width:100%"
       type="text"
       value="Ant Design love you!"
@@ -2349,28 +2349,28 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   class="site-input-group-wrapper"
 >
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-lg"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-lg"
   >
     <div
-      class="ant-row css-var-test-id"
+      class="g-row css-var-test-id"
       style="margin-inline:-4px"
     >
       <div
-        class="ant-col ant-col-5 css-var-test-id"
+        class="g-col g-col-5 css-var-test-id"
         style="padding-inline:4px"
       >
         <input
-          class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item ant-input-compact-last-item"
+          class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item g-input-compact-last-item"
           type="text"
           value="0571"
         />
       </div>
       <div
-        class="ant-col ant-col-8 css-var-test-id"
+        class="g-col g-col-8 css-var-test-id"
         style="padding-inline:4px"
       >
         <input
-          class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item ant-input-compact-last-item"
+          class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item g-input-compact-last-item"
           type="text"
           value="26888888"
         />
@@ -2379,16 +2379,16 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       style="width:20%"
       type="text"
       value="0571"
     />
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
       style="width:30%"
       type="text"
       value="26888888"
@@ -2396,16 +2396,16 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       style="width:calc(100% - 200px)"
       type="text"
       value="https://ant.design"
     />
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
       type="button"
     >
       <span>
@@ -2415,24 +2415,24 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       style="width:calc(100% - 200px)"
       type="text"
       value="git@github.com:ant-design/ant-design.git"
     />
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2454,13 +2454,13 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Zhejiang"
       >
         Zhejiang
@@ -2469,7 +2469,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -2478,11 +2478,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -2502,7 +2502,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
       style="width:50%"
       type="text"
       value="Xihu District, Hangzhou"
@@ -2510,31 +2510,31 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <div
-      class="ant-space-compact ant-input-search css-var-test-id"
+      class="g-space-compact g-input-search css-var-test-id"
       style="width:40%"
     >
       <span
-        class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       >
         <input
-          class="ant-input"
+          class="g-input"
           type="search"
           value="0571"
         />
         <span
-          class="ant-input-suffix"
+          class="g-input-suffix"
         >
           <button
-            class="ant-input-clear-icon"
+            class="g-input-clear-icon"
             tabindex="-1"
             type="button"
           >
             <span
               aria-label="close-circle"
-              class="anticon anticon-close-circle"
+              class="gicon gicon-close-circle"
               role="img"
             >
               <svg
@@ -2556,15 +2556,15 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-input-search-btn"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-input-search-btn"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -2585,28 +2585,28 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-compact ant-input-search css-var-test-id"
+      class="g-space-compact g-input-search css-var-test-id"
       style="width:40%"
     >
       <span
-        class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
       >
         <input
-          class="ant-input"
+          class="g-input"
           type="search"
           value="26888888"
         />
         <span
-          class="ant-input-suffix"
+          class="g-input-suffix"
         >
           <button
-            class="ant-input-clear-icon"
+            class="g-input-clear-icon"
             tabindex="-1"
             type="button"
           >
             <span
               aria-label="close-circle"
-              class="anticon anticon-close-circle"
+              class="gicon gicon-close-circle"
               role="img"
             >
               <svg
@@ -2628,15 +2628,15 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -2659,13 +2659,13 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Option1"
       >
         Option1
@@ -2674,7 +2674,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -2683,11 +2683,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -2707,39 +2707,39 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
       style="width:50%"
       type="text"
       value="input content"
     />
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-outlined"
     >
       <div
-        class="ant-input-number-prefix"
+        class="g-input-number-prefix"
       >
         @
       </div>
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -2760,13 +2760,13 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2789,20 +2789,20 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       style="width:50%"
       type="text"
       value="input content"
     />
     <div
-      class="ant-picker ant-picker-outlined ant-picker-compact-item ant-picker-compact-last-item css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined g-picker-compact-item g-picker-compact-last-item css-var-test-id g-picker-css-var"
       style="width:50%"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2812,11 +2812,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2839,20 +2839,20 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       style="width:30%"
       type="text"
       value="input content"
     />
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined ant-picker-compact-item ant-picker-compact-last-item css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined g-picker-compact-item g-picker-compact-last-item css-var-test-id g-picker-css-var"
       style="width:70%"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -2864,15 +2864,15 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -2892,7 +2892,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -2904,15 +2904,15 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -2934,13 +2934,13 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Option1-1"
       >
         Option1-1
@@ -2949,7 +2949,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -2958,11 +2958,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -2982,10 +2982,10 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-last-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-compact-item g-select-compact-last-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Option2-2"
       >
         Option2-2
@@ -2994,7 +2994,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -3003,11 +3003,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3029,13 +3029,13 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Between"
       >
         Between
@@ -3044,7 +3044,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -3053,11 +3053,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3077,14 +3077,14 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
       placeholder="Minimum"
       style="width:100px;text-align:center"
       type="text"
       value=""
     />
     <input
-      class="ant-input ant-input-disabled ant-input-outlined site-input-split css-var-test-id ant-input-css-var ant-input-compact-item"
+      class="g-input g-input-disabled g-input-outlined site-input-split css-var-test-id g-input-css-var g-input-compact-item"
       disabled=""
       placeholder="~"
       style="width:30px;border-inline-start:0;border-inline-end:0;pointer-events:none"
@@ -3092,7 +3092,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
       value=""
     />
     <input
-      class="ant-input ant-input-outlined site-input-right css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+      class="g-input g-input-outlined site-input-right css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
       placeholder="Maximum"
       style="width:100px;text-align:center"
       type="text"
@@ -3101,14 +3101,14 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:30%"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Sign Up"
       >
         Sign Up
@@ -3117,7 +3117,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -3126,11 +3126,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3150,14 +3150,14 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-last-item ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+      class="g-select g-select-outlined g-select-compact-item g-select-compact-last-item g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
       style="width:70%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         >
           Email
@@ -3167,7 +3167,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="text"
@@ -3178,14 +3178,14 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+    class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:30%"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Home"
       >
         Home
@@ -3194,7 +3194,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -3203,11 +3203,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3227,14 +3227,14 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-cascader ant-select-outlined ant-select-compact-item ant-select-compact-last-item ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+      class="g-select g-cascader g-select-outlined g-select-compact-item g-select-compact-last-item g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
       style="width:70%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         >
           Select Address
@@ -3244,7 +3244,7 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -3253,11 +3253,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3282,84 +3282,84 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/otp.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-medium g-flex-vertical"
 >
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     With formatter (Upcase)
   </h5>
   <div
-    class="ant-otp css-var-test-id"
+    class="g-otp css-var-test-id"
     role="group"
   >
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 1"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 2"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 3"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 4"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 5"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 6"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
@@ -3367,21 +3367,21 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
     </span>
   </div>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     With Disabled
   </h5>
   <div
-    class="ant-otp css-var-test-id"
+    class="g-otp css-var-test-id"
     role="group"
   >
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 1"
-        class="ant-input ant-input-disabled ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-disabled g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         disabled=""
         size="1"
         type="text"
@@ -3389,12 +3389,12 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 2"
-        class="ant-input ant-input-disabled ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-disabled g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         disabled=""
         size="1"
         type="text"
@@ -3402,12 +3402,12 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 3"
-        class="ant-input ant-input-disabled ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-disabled g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         disabled=""
         size="1"
         type="text"
@@ -3415,12 +3415,12 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 4"
-        class="ant-input ant-input-disabled ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-disabled g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         disabled=""
         size="1"
         type="text"
@@ -3428,12 +3428,12 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 5"
-        class="ant-input ant-input-disabled ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-disabled g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         disabled=""
         size="1"
         type="text"
@@ -3441,12 +3441,12 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 6"
-        class="ant-input ant-input-disabled ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-disabled g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         disabled=""
         size="1"
         type="text"
@@ -3455,105 +3455,105 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
     </span>
   </div>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     With Length (8)
   </h5>
   <div
-    class="ant-otp css-var-test-id"
+    class="g-otp css-var-test-id"
     role="group"
   >
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 1"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 2"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 3"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 4"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 5"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 6"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 7"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 8"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
@@ -3561,81 +3561,81 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
     </span>
   </div>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     With variant
   </h5>
   <div
-    class="ant-otp css-var-test-id"
+    class="g-otp css-var-test-id"
     role="group"
   >
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 1"
-        class="ant-input ant-input-filled ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-filled g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 2"
-        class="ant-input ant-input-filled ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-filled g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 3"
-        class="ant-input ant-input-filled ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-filled g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 4"
-        class="ant-input ant-input-filled ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-filled g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 5"
-        class="ant-input ant-input-filled ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-filled g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 6"
-        class="ant-input ant-input-filled ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-filled g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
@@ -3643,81 +3643,81 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
     </span>
   </div>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     With custom display character
   </h5>
   <div
-    class="ant-otp css-var-test-id"
+    class="g-otp css-var-test-id"
     role="group"
   >
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 1"
-        class="ant-input ant-input-outlined ant-otp-input ant-otp-mask-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input g-otp-mask-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 2"
-        class="ant-input ant-input-outlined ant-otp-input ant-otp-mask-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input g-otp-mask-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 3"
-        class="ant-input ant-input-outlined ant-otp-input ant-otp-mask-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input g-otp-mask-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 4"
-        class="ant-input ant-input-outlined ant-otp-input ant-otp-mask-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input g-otp-mask-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 5"
-        class="ant-input ant-input-outlined ant-otp-input ant-otp-mask-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input g-otp-mask-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 6"
-        class="ant-input ant-input-outlined ant-otp-input ant-otp-mask-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input g-otp-mask-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
@@ -3725,116 +3725,116 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
     </span>
   </div>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     With custom ReactNode separator
   </h5>
   <div
-    class="ant-otp css-var-test-id"
+    class="g-otp css-var-test-id"
     role="group"
   >
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 1"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span>
         /
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 2"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span>
         /
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 3"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span>
         /
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 4"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span>
         /
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 5"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span>
         /
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 6"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
@@ -3842,28 +3842,28 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
     </span>
   </div>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     With custom function separator
   </h5>
   <div
-    class="ant-otp css-var-test-id"
+    class="g-otp css-var-test-id"
     role="group"
   >
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 1"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span
         style="color:blue"
@@ -3872,19 +3872,19 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 2"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span
         style="color:red"
@@ -3893,19 +3893,19 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 3"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span
         style="color:blue"
@@ -3914,19 +3914,19 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 4"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span
         style="color:red"
@@ -3935,19 +3935,19 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 5"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       <span
         style="color:blue"
@@ -3956,12 +3956,12 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 6"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         type="text"
         value=""
@@ -3973,26 +3973,26 @@ exports[`renders components/input/demo/otp.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/password-input.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-affix-wrapper ant-input-outlined ant-input-password css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-outlined g-input-password css-var-test-id g-input-css-var"
     >
       <input
-        class="ant-input"
+        class="g-input"
         placeholder="input password"
         type="password"
         value=""
       />
       <span
-        class="ant-input-suffix"
+        class="g-input-suffix"
       >
         <span
           aria-label="eye-invisible"
-          class="anticon anticon-eye-invisible ant-input-password-icon"
+          class="gicon gicon-eye-invisible g-input-password-icon"
           role="img"
           tabindex="-1"
         >
@@ -4017,23 +4017,23 @@ exports[`renders components/input/demo/password-input.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-affix-wrapper ant-input-outlined ant-input-password css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-outlined g-input-password css-var-test-id g-input-css-var"
     >
       <input
-        class="ant-input"
+        class="g-input"
         placeholder="input password"
         type="password"
         value=""
       />
       <span
-        class="ant-input-suffix"
+        class="g-input-suffix"
       >
         <span
           aria-label="eye-invisible"
-          class="anticon anticon-eye-invisible ant-input-password-icon"
+          class="gicon gicon-eye-invisible g-input-password-icon"
           role="img"
           tabindex="-1"
         >
@@ -4058,29 +4058,29 @@ exports[`renders components/input/demo/password-input.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span
-          class="ant-input-affix-wrapper ant-input-outlined ant-input-password css-var-test-id ant-input-css-var"
+          class="g-input-affix-wrapper g-input-outlined g-input-password css-var-test-id g-input-css-var"
         >
           <input
-            class="ant-input"
+            class="g-input"
             placeholder="input password"
             type="password"
             value=""
           />
           <span
-            class="ant-input-suffix"
+            class="g-input-suffix"
           >
             <span
               aria-label="eye-invisible"
-              class="anticon anticon-eye-invisible ant-input-password-icon"
+              class="gicon gicon-eye-invisible g-input-password-icon"
               role="img"
               tabindex="-1"
             >
@@ -4105,10 +4105,10 @@ exports[`renders components/input/demo/password-input.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           style="width:80px"
           type="button"
         >
@@ -4120,24 +4120,24 @@ exports[`renders components/input/demo/password-input.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-affix-wrapper ant-input-disabled ant-input-affix-wrapper-disabled ant-input-outlined ant-input-password css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-disabled g-input-affix-wrapper-disabled g-input-outlined g-input-password css-var-test-id g-input-css-var"
     >
       <input
-        class="ant-input ant-input-disabled"
+        class="g-input g-input-disabled"
         disabled=""
         placeholder="disabled input password"
         type="password"
         value=""
       />
       <span
-        class="ant-input-suffix"
+        class="g-input-suffix"
       >
         <span
           aria-label="eye-invisible"
-          class="anticon anticon-eye-invisible ant-input-password-icon"
+          class="gicon gicon-eye-invisible g-input-password-icon"
           role="img"
           tabindex="-1"
         >
@@ -4167,14 +4167,14 @@ exports[`renders components/input/demo/password-input.tsx correctly 1`] = `
 exports[`renders components/input/demo/presuffix.tsx correctly 1`] = `
 Array [
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       <span
         aria-label="user"
-        class="anticon anticon-user"
+        class="gicon gicon-user"
         role="img"
         style="color:rgba(0,0,0,.25)"
       >
@@ -4194,17 +4194,17 @@ Array [
       </span>
     </span>
     <input
-      class="ant-input"
+      class="g-input"
       placeholder="Enter your username"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
         aria-label="info-circle"
-        class="anticon anticon-info-circle"
+        class="gicon gicon-info-circle"
         role="img"
         style="color:rgba(0,0,0,.45)"
       >
@@ -4230,20 +4230,20 @@ Array [
   <br />,
   <br />,
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       ￥
     </span>
     <input
-      class="ant-input"
+      class="g-input"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       RMB
     </span>
@@ -4251,21 +4251,21 @@ Array [
   <br />,
   <br />,
   <span
-    class="ant-input-affix-wrapper ant-input-disabled ant-input-affix-wrapper-disabled ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-disabled g-input-affix-wrapper-disabled g-input-outlined css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       ￥
     </span>
     <input
-      class="ant-input ant-input-disabled"
+      class="g-input g-input-disabled"
       disabled=""
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       RMB
     </span>
@@ -4273,20 +4273,20 @@ Array [
   <br />,
   <br />,
   <span
-    class="ant-input-affix-wrapper ant-input-outlined ant-input-password css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined g-input-password css-var-test-id g-input-css-var"
   >
     <input
-      class="ant-input"
+      class="g-input"
       placeholder="input password support suffix"
       type="password"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
         aria-label="eye-invisible"
-        class="anticon anticon-eye-invisible ant-input-password-icon"
+        class="gicon gicon-eye-invisible g-input-password-icon"
         role="img"
         tabindex="-1"
       >
@@ -4309,7 +4309,7 @@ Array [
       </span>
       <span
         aria-label="lock"
-        class="anticon anticon-lock"
+        class="gicon gicon-lock"
         role="img"
       >
         <svg
@@ -4333,31 +4333,31 @@ Array [
 
 exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-input-search css-var-test-id"
+      class="g-space-compact g-input-search css-var-test-id"
       style="width:200px"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         placeholder="input search text"
         type="search"
         value=""
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -4379,32 +4379,32 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-input-search css-var-test-id"
+      class="g-space-compact g-input-search css-var-test-id"
       style="width:200px"
     >
       <span
-        class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       >
         <input
-          class="ant-input"
+          class="g-input"
           placeholder="input search text"
           type="search"
           value=""
         />
         <span
-          class="ant-input-suffix"
+          class="g-input-suffix"
         >
           <button
-            class="ant-input-clear-icon ant-input-clear-icon-hidden"
+            class="g-input-clear-icon g-input-clear-icon-hidden"
             tabindex="-1"
             type="button"
           >
             <span
               aria-label="close-circle"
-              class="anticon anticon-close-circle"
+              class="gicon gicon-close-circle"
               role="img"
             >
               <svg
@@ -4426,15 +4426,15 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -4456,39 +4456,39 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined"
       >
         https://
       </div>
       <div
-        class="ant-space-compact ant-input-search css-var-test-id"
+        class="g-space-compact g-input-search css-var-test-id"
       >
         <span
-          class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+          class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
         >
           <input
-            class="ant-input"
+            class="g-input"
             placeholder="input search text"
             type="search"
             value=""
           />
           <span
-            class="ant-input-suffix"
+            class="g-input-suffix"
           >
             <button
-              class="ant-input-clear-icon ant-input-clear-icon-hidden"
+              class="g-input-clear-icon g-input-clear-icon-hidden"
               tabindex="-1"
               type="button"
             >
               <span
                 aria-label="close-circle"
-                class="anticon anticon-close-circle"
+                class="gicon gicon-close-circle"
                 role="img"
               >
                 <svg
@@ -4510,15 +4510,15 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
           </span>
         </span>
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -4541,27 +4541,27 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-input-search css-var-test-id ant-input-search-with-button"
+      class="g-space-compact g-input-search css-var-test-id g-input-search-with-button"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         placeholder="input search text"
         type="search"
         value=""
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -4583,31 +4583,31 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-input-search css-var-test-id ant-input-search-large ant-input-search-with-button"
+      class="g-space-compact g-input-search css-var-test-id g-input-search-large g-input-search-with-button"
     >
       <span
-        class="ant-input-affix-wrapper ant-input-affix-wrapper-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input-affix-wrapper g-input-affix-wrapper-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       >
         <input
-          class="ant-input ant-input-lg"
+          class="g-input g-input-lg"
           placeholder="input search text"
           type="search"
           value=""
         />
         <span
-          class="ant-input-suffix"
+          class="g-input-suffix"
         >
           <button
-            class="ant-input-clear-icon ant-input-clear-icon-hidden"
+            class="g-input-clear-icon g-input-clear-icon-hidden"
             tabindex="-1"
             type="button"
           >
             <span
               aria-label="close-circle"
-              class="anticon anticon-close-circle"
+              class="gicon gicon-close-circle"
               role="img"
             >
               <svg
@@ -4629,7 +4629,7 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
         type="button"
       >
         <span>
@@ -4639,26 +4639,26 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-input-search css-var-test-id ant-input-search-large ant-input-search-with-button"
+      class="g-space-compact g-input-search css-var-test-id g-input-search-large g-input-search-with-button"
     >
       <span
-        class="ant-input-affix-wrapper ant-input-affix-wrapper-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input-affix-wrapper g-input-affix-wrapper-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       >
         <input
-          class="ant-input ant-input-lg"
+          class="g-input g-input-lg"
           placeholder="input search text"
           type="search"
           value=""
         />
         <span
-          class="ant-input-suffix"
+          class="g-input-suffix"
         >
           <span
             aria-label="audio"
-            class="anticon anticon-audio"
+            class="gicon gicon-audio"
             role="img"
             style="font-size:16px;color:#1677ff"
           >
@@ -4679,7 +4679,7 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
         type="button"
       >
         <span>
@@ -4694,24 +4694,24 @@ exports[`renders components/input/demo/search-input.tsx correctly 1`] = `
 exports[`renders components/input/demo/search-input-loading.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-space-compact ant-input-search css-var-test-id"
+    class="g-space-compact g-input-search css-var-test-id"
   >
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       placeholder="input search loading default"
       type="search"
       value=""
     />
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-loading ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-loading g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-btn-loading-icon"
+        class="g-btn-icon g-btn-loading-icon"
       >
         <span
           aria-label="loading"
-          class="anticon anticon-loading anticon-spin"
+          class="gicon gicon-loading gicon-spin"
           role="img"
         >
           <svg
@@ -4734,24 +4734,24 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-space-compact ant-input-search css-var-test-id ant-input-search-with-button"
+    class="g-space-compact g-input-search css-var-test-id g-input-search-with-button"
   >
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       placeholder="input search loading with enterButton"
       type="search"
       value=""
     />
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-loading ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-loading g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-btn-loading-icon"
+        class="g-btn-icon g-btn-loading-icon"
       >
         <span
           aria-label="loading"
-          class="anticon anticon-loading anticon-spin"
+          class="gicon gicon-loading gicon-spin"
           role="img"
         >
           <svg
@@ -4774,24 +4774,24 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-space-compact ant-input-search css-var-test-id ant-input-search-large ant-input-search-with-button"
+    class="g-space-compact g-input-search css-var-test-id g-input-search-large g-input-search-with-button"
   >
     <input
-      class="ant-input ant-input-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       placeholder="input search text"
       type="search"
       value=""
     />
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-loading ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-loading g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-btn-loading-icon"
+        class="g-btn-icon g-btn-loading-icon"
       >
         <span
           aria-label="loading"
-          class="anticon anticon-loading anticon-spin"
+          class="gicon gicon-loading gicon-spin"
           role="img"
         >
           <svg
@@ -4819,63 +4819,63 @@ Array [
 
 exports[`renders components/input/demo/show-count.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap:32px"
 >
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
   >
     <input
-      class="ant-input"
+      class="g-input"
       maxlength="20"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
-        class="ant-input-show-count-suffix"
+        class="g-input-show-count-suffix"
       >
         0 / 20
       </span>
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-show-count ant-input-show-count ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-show-count g-input-show-count g-input-outlined css-var-test-id g-input-css-var"
     data-count="0 / 100"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       maxlength="100"
       placeholder="can resize"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
-        class="ant-input-data-count"
+        class="g-input-data-count"
       >
         0 / 100
       </span>
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-show-count ant-input-show-count ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-show-count g-input-show-count g-input-outlined css-var-test-id g-input-css-var"
     data-count="0 / 100"
     style="height:120px;resize:none"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       maxlength="100"
       placeholder="disable resize"
       style="resize:none"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
-        class="ant-input-data-count"
+        class="g-input-data-count"
       >
         0 / 100
       </span>
@@ -4886,17 +4886,17 @@ exports[`renders components/input/demo/show-count.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/size.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <span
-    class="ant-input-affix-wrapper ant-input-affix-wrapper-lg ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-affix-wrapper-lg g-input-outlined css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       <span
         aria-label="user"
-        class="anticon anticon-user"
+        class="gicon gicon-user"
         role="img"
       >
         <svg
@@ -4915,21 +4915,21 @@ exports[`renders components/input/demo/size.tsx correctly 1`] = `
       </span>
     </span>
     <input
-      class="ant-input ant-input-lg"
+      class="g-input g-input-lg"
       placeholder="large size"
       type="text"
       value=""
     />
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       <span
         aria-label="user"
-        class="anticon anticon-user"
+        class="gicon gicon-user"
         role="img"
       >
         <svg
@@ -4948,21 +4948,21 @@ exports[`renders components/input/demo/size.tsx correctly 1`] = `
       </span>
     </span>
     <input
-      class="ant-input"
+      class="g-input"
       placeholder="default size"
       type="text"
       value=""
     />
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-affix-wrapper-sm ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-affix-wrapper-sm g-input-outlined css-var-test-id g-input-css-var"
   >
     <span
-      class="ant-input-prefix"
+      class="g-input-prefix"
     >
       <span
         aria-label="user"
-        class="anticon anticon-user"
+        class="gicon gicon-user"
         role="img"
       >
         <svg
@@ -4981,7 +4981,7 @@ exports[`renders components/input/demo/size.tsx correctly 1`] = `
       </span>
     </span>
     <input
-      class="ant-input ant-input-sm"
+      class="g-input g-input-sm"
       placeholder="small size"
       type="text"
       value=""
@@ -4992,41 +4992,41 @@ exports[`renders components/input/demo/size.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/status.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <input
-      class="ant-input ant-input-outlined ant-input-status-error css-var-test-id ant-input-css-var"
+      class="g-input g-input-outlined g-input-status-error css-var-test-id g-input-css-var"
       placeholder="Error"
       type="text"
       value=""
     />
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <input
-      class="ant-input ant-input-outlined ant-input-status-warning css-var-test-id ant-input-css-var"
+      class="g-input g-input-outlined g-input-status-warning css-var-test-id g-input-css-var"
       placeholder="Warning"
       type="text"
       value=""
     />
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-affix-wrapper ant-input-outlined ant-input-status-error css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-outlined g-input-status-error css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-prefix"
+        class="g-input-prefix"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -5048,7 +5048,7 @@ exports[`renders components/input/demo/status.tsx correctly 1`] = `
         </span>
       </span>
       <input
-        class="ant-input"
+        class="g-input"
         placeholder="Error with prefix"
         type="text"
         value=""
@@ -5056,17 +5056,17 @@ exports[`renders components/input/demo/status.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-input-affix-wrapper ant-input-outlined ant-input-status-warning css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-outlined g-input-status-warning css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-prefix"
+        class="g-input-prefix"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -5088,7 +5088,7 @@ exports[`renders components/input/demo/status.tsx correctly 1`] = `
         </span>
       </span>
       <input
-        class="ant-input"
+        class="g-input"
         placeholder="Warning with prefix"
         type="text"
         value=""
@@ -5100,17 +5100,17 @@ exports[`renders components/input/demo/status.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-large ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-large g-flex-vertical"
 >
   <input
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var acss-c5jr4n"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var acss-c5jr4n"
     name="input-object"
     placeholder="Object"
     type="text"
     value=""
   />
   <input
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     name="input-fn"
     placeholder="Function"
     style="border-color:#696FC7"
@@ -5118,22 +5118,22 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
     value=""
   />
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-show-count ant-input-show-count ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-show-count g-input-show-count g-input-outlined css-var-test-id g-input-css-var"
     data-count="8"
     style="border-color:#BDE3C3"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       name="textarea-fn"
       style="resize:none"
     >
       TextArea
     </textarea>
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
-        class="ant-input-data-count"
+        class="g-input-data-count"
         style="color:#BDE3C3"
       >
         8
@@ -5141,21 +5141,21 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-input-affix-wrapper ant-input-outlined ant-input-password ant-input-password-medium css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined g-input-password g-input-password-medium css-var-test-id g-input-css-var"
     style="border-color:#F5D3C4"
   >
     <input
-      class="ant-input"
+      class="g-input"
       name="password-fn"
       type="password"
       value="Password"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
         aria-label="eye-invisible"
-        class="anticon anticon-eye-invisible ant-input-password-icon"
+        class="gicon gicon-eye-invisible g-input-password-icon"
         role="img"
         tabindex="-1"
       >
@@ -5179,16 +5179,16 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
     </span>
   </span>
   <div
-    class="ant-otp css-var-test-id"
+    class="g-otp css-var-test-id"
     role="group"
   >
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 1"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         style="border-color:#6E8CFB;width:32px"
         type="text"
@@ -5196,17 +5196,17 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       *
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 2"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         style="border-color:#6E8CFB;width:32px"
         type="text"
@@ -5214,17 +5214,17 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       *
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 3"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         style="border-color:#6E8CFB;width:32px"
         type="text"
@@ -5232,17 +5232,17 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       *
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 4"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         style="border-color:#6E8CFB;width:32px"
         type="text"
@@ -5250,17 +5250,17 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       *
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 5"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         style="border-color:#6E8CFB;width:32px"
         type="text"
@@ -5268,17 +5268,17 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
       />
     </span>
     <span
-      class="ant-otp-separator"
+      class="g-otp-separator"
     >
       *
     </span>
     <span
-      class="ant-otp-input-wrapper"
+      class="g-otp-input-wrapper"
       role="presentation"
     >
       <input
         aria-label="OTP Input 6"
-        class="ant-input ant-input-outlined ant-otp-input css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined g-otp-input css-var-test-id g-input-css-var"
         size="1"
         style="border-color:#6E8CFB;width:32px"
         type="text"
@@ -5287,11 +5287,11 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-space-compact ant-input-search css-var-test-id ant-input-search-large"
+    class="g-space-compact g-input-search css-var-test-id g-input-search-large"
     style="color:#4DA8DA"
   >
     <input
-      class="ant-input ant-input-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       name="search-fn"
       placeholder="Search"
       style="color:#4DA8DA;border-color:#4DA8DA"
@@ -5299,17 +5299,17 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
       value=""
     />
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
       style="color:#4DA8DA;border-color:#4DA8DA"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
         style="color:#4DA8DA"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -5335,13 +5335,13 @@ exports[`renders components/input/demo/style-class.tsx correctly 1`] = `
 exports[`renders components/input/demo/textarea.tsx correctly 1`] = `
 Array [
   <textarea
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     rows="4"
   />,
   <br />,
   <br />,
   <textarea
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     maxlength="6"
     placeholder="maxLength is 6"
     rows="4"
@@ -5352,7 +5352,7 @@ Array [
 exports[`renders components/input/demo/textarea-resize.tsx correctly 1`] = `
 Array [
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     style="margin-bottom:16px"
     type="button"
   >
@@ -5361,29 +5361,29 @@ Array [
     </span>
   </button>,
   <textarea
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     rows="4"
   >
     The autoSize property applies to textarea nodes, and only the height changes automatically. In addition, autoSize can be set to an object, specifying the minimum number of rows and the maximum number of rows. The autoSize property applies to textarea nodes, and only the height changes automatically. In addition, autoSize can be set to an object, specifying the minimum number of rows and the maximum number of rows.
   </textarea>,
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-test-id g-input-css-var"
     style="width:93px"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <button
-        class="ant-input-clear-icon ant-input-clear-icon-hidden"
+        class="g-input-clear-icon g-input-clear-icon-hidden"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -5406,19 +5406,19 @@ Array [
   </span>,
   <br />,
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-show-count ant-input-show-count ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-show-count g-input-show-count g-input-outlined css-var-test-id g-input-css-var"
     data-count="0"
     style="resize:both"
   >
     <textarea
-      class="ant-input"
+      class="g-input"
       style="resize:both"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
-        class="ant-input-data-count"
+        class="g-input-data-count"
       >
         0
       </span>
@@ -5426,7 +5426,7 @@ Array [
   </span>,
   <br />,
   <textarea
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     placeholder="TextArea wrapped in Tooltip for debugging"
     style="margin-top:16px"
   />,
@@ -5435,7 +5435,7 @@ Array [
 
 exports[`renders components/input/demo/tooltip.tsx correctly 1`] = `
 <input
-  class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+  class="g-input g-input-outlined css-var-test-id g-input-css-var"
   maxlength="16"
   placeholder="Input a number"
   style="width:120px"
@@ -5446,52 +5446,52 @@ exports[`renders components/input/demo/tooltip.tsx correctly 1`] = `
 
 exports[`renders components/input/demo/variant.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap:12px"
 >
   <input
-    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-outlined css-var-test-id g-input-css-var"
     placeholder="Outlined"
     type="text"
     value=""
   />
   <input
-    class="ant-input ant-input-filled css-var-test-id ant-input-css-var"
+    class="g-input g-input-filled css-var-test-id g-input-css-var"
     placeholder="Filled"
     type="text"
     value=""
   />
   <input
-    class="ant-input ant-input-borderless css-var-test-id ant-input-css-var"
+    class="g-input g-input-borderless css-var-test-id g-input-css-var"
     placeholder="Borderless"
     type="text"
     value=""
   />
   <input
-    class="ant-input ant-input-underlined css-var-test-id ant-input-css-var"
+    class="g-input g-input-underlined css-var-test-id g-input-css-var"
     placeholder="Underlined"
     type="text"
     value=""
   />
   <div
-    class="ant-space-compact ant-input-search css-var-test-id"
+    class="g-space-compact g-input-search css-var-test-id"
   >
     <input
-      class="ant-input ant-input-filled css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+      class="g-input g-input-filled css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       placeholder="Filled"
       type="search"
       value=""
     />
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn ant-input-search-btn-filled"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn g-input-search-btn-filled"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg

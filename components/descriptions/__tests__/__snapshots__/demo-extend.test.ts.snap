@@ -2,39 +2,39 @@
 
 exports[`renders components/descriptions/demo/basic.tsx extend context correctly 1`] = `
 <div
-  class="ant-descriptions css-var-test-id"
+  class="g-descriptions css-var-test-id"
 >
   <div
-    class="ant-descriptions-header"
+    class="g-descriptions-header"
   >
     <div
-      class="ant-descriptions-title"
+      class="g-descriptions-title"
     >
       User Info
     </div>
   </div>
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 UserName
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Zhou Maomao
               </span>
@@ -42,22 +42,22 @@ exports[`renders components/descriptions/demo/basic.tsx extend context correctly
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Telephone
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 1810000000
               </span>
@@ -65,22 +65,22 @@ exports[`renders components/descriptions/demo/basic.tsx extend context correctly
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Live
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Hangzhou, Zhejiang
               </span>
@@ -88,22 +88,22 @@ exports[`renders components/descriptions/demo/basic.tsx extend context correctly
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Remark
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 empty
               </span>
@@ -111,22 +111,22 @@ exports[`renders components/descriptions/demo/basic.tsx extend context correctly
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Address
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 No. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China
               </span>
@@ -143,27 +143,27 @@ exports[`renders components/descriptions/demo/basic.tsx extend context correctly
 
 exports[`renders components/descriptions/demo/block.tsx extend context correctly 1`] = `
 <div
-  class="ant-descriptions ant-descriptions-bordered css-var-test-id"
+  class="g-descriptions g-descriptions-bordered css-var-test-id"
 >
   <div
-    class="ant-descriptions-header"
+    class="g-descriptions-header"
   >
     <div
-      class="ant-descriptions-title"
+      class="g-descriptions-title"
     >
       User Info
     </div>
   </div>
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -171,7 +171,7 @@ exports[`renders components/descriptions/demo/block.tsx extend context correctly
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -180,10 +180,10 @@ exports[`renders components/descriptions/demo/block.tsx extend context correctly
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -191,7 +191,7 @@ exports[`renders components/descriptions/demo/block.tsx extend context correctly
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -200,10 +200,10 @@ exports[`renders components/descriptions/demo/block.tsx extend context correctly
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -211,7 +211,7 @@ exports[`renders components/descriptions/demo/block.tsx extend context correctly
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -220,10 +220,10 @@ exports[`renders components/descriptions/demo/block.tsx extend context correctly
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -231,7 +231,7 @@ exports[`renders components/descriptions/demo/block.tsx extend context correctly
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -249,27 +249,27 @@ exports[`renders components/descriptions/demo/block.tsx extend context correctly
 
 exports[`renders components/descriptions/demo/border.tsx extend context correctly 1`] = `
 <div
-  class="ant-descriptions ant-descriptions-bordered css-var-test-id"
+  class="g-descriptions g-descriptions-bordered css-var-test-id"
 >
   <div
-    class="ant-descriptions-header"
+    class="g-descriptions-header"
   >
     <div
-      class="ant-descriptions-title"
+      class="g-descriptions-title"
     >
       User Info
     </div>
   </div>
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -277,7 +277,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -286,10 +286,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -297,7 +297,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -306,10 +306,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -317,7 +317,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -326,10 +326,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -337,7 +337,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -346,10 +346,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -357,7 +357,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -366,10 +366,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -377,18 +377,18 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
               <span
-                class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-var-test-id"
+                class="g-badge g-badge-status g-badge-not-a-wrapper css-var-test-id"
               >
                 <span
-                  class="ant-badge-status-dot ant-badge-status-processing"
+                  class="g-badge-status-dot g-badge-status-processing"
                 />
                 <span
-                  class="ant-badge-status-text"
+                  class="g-badge-status-text"
                 >
                   Running
                 </span>
@@ -397,10 +397,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -408,7 +408,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -417,10 +417,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -428,7 +428,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -437,10 +437,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -448,7 +448,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -457,10 +457,10 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -468,7 +468,7 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -502,63 +502,63 @@ exports[`renders components/descriptions/demo/border.tsx extend context correctl
 exports[`renders components/descriptions/demo/component-token.tsx extend context correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="large"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         large
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="medium"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         medium
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="small"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         small
       </span>
@@ -567,18 +567,18 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
   <br />
   <br />
   <div
-    class="ant-descriptions ant-descriptions-bordered css-var-test-id"
+    class="g-descriptions g-descriptions-bordered css-var-test-id"
   >
     <div
-      class="ant-descriptions-header"
+      class="g-descriptions-header"
     >
       <div
-        class="ant-descriptions-title"
+        class="g-descriptions-title"
       >
         Custom Size
       </div>
       <div
-        class="ant-descriptions-extra"
+        class="g-descriptions-extra"
       >
         <div>
           extra color: blue
@@ -586,15 +586,15 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
       </div>
     </div>
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -602,7 +602,7 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -611,10 +611,10 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -622,7 +622,7 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -631,10 +631,10 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -642,7 +642,7 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -651,10 +651,10 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -662,7 +662,7 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -671,10 +671,10 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -682,7 +682,7 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -691,10 +691,10 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -702,7 +702,7 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -711,10 +711,10 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -722,7 +722,7 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -748,21 +748,21 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
   <br />
   <br />
   <div
-    class="ant-descriptions css-var-test-id"
+    class="g-descriptions css-var-test-id"
   >
     <div
-      class="ant-descriptions-header"
+      class="g-descriptions-header"
     >
       <div
-        class="ant-descriptions-title"
+        class="g-descriptions-title"
       >
         Custom Size
       </div>
       <div
-        class="ant-descriptions-extra"
+        class="g-descriptions-extra"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -772,27 +772,27 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
       </div>
     </div>
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Product
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   Cloud Database
                 </span>
@@ -800,22 +800,22 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Billing
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   Prepaid
                 </span>
@@ -823,22 +823,22 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Time
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   18:00:00
                 </span>
@@ -846,22 +846,22 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Amount
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   $80.00
                 </span>
@@ -869,22 +869,22 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Discount
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   $20.00
                 </span>
@@ -892,22 +892,22 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Official
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   $60.00
                 </span>
@@ -925,39 +925,39 @@ exports[`renders components/descriptions/demo/component-token.tsx extend context
 
 exports[`renders components/descriptions/demo/jsx.tsx extend context correctly 1`] = `
 <div
-  class="ant-descriptions css-var-test-id"
+  class="g-descriptions css-var-test-id"
 >
   <div
-    class="ant-descriptions-header"
+    class="g-descriptions-header"
   >
     <div
-      class="ant-descriptions-title"
+      class="g-descriptions-title"
     >
       User Info
     </div>
   </div>
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 UserName
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Zhou Maomao
               </span>
@@ -965,22 +965,22 @@ exports[`renders components/descriptions/demo/jsx.tsx extend context correctly 1
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Telephone
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 1810000000
               </span>
@@ -988,22 +988,22 @@ exports[`renders components/descriptions/demo/jsx.tsx extend context correctly 1
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Live
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Hangzhou, Zhejiang
               </span>
@@ -1011,22 +1011,22 @@ exports[`renders components/descriptions/demo/jsx.tsx extend context correctly 1
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Remark
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 empty
               </span>
@@ -1034,22 +1034,22 @@ exports[`renders components/descriptions/demo/jsx.tsx extend context correctly 1
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Address
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 No. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China
               </span>
@@ -1066,65 +1066,65 @@ exports[`renders components/descriptions/demo/jsx.tsx extend context correctly 2
 
 exports[`renders components/descriptions/demo/padding.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap: 8px;"
 >
   <div
     style="width: 600px; border: 1px solid; padding: 20px;"
   >
     <div
-      class="ant-descriptions css-var-test-id"
+      class="g-descriptions css-var-test-id"
     >
       <div
-        class="ant-descriptions-header"
+        class="g-descriptions-header"
       >
         <div
-          class="ant-descriptions-title"
+          class="g-descriptions-title"
         >
           User Info
         </div>
       </div>
       <div
-        class="ant-descriptions-view"
+        class="g-descriptions-view"
       >
         <table>
           <tbody>
             <tr
-              class="ant-descriptions-row"
+              class="g-descriptions-row"
             >
               <td
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="1"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-label"
+                    class="g-descriptions-item-label"
                   >
                     long
                   </span>
                   <span
-                    class="ant-descriptions-item-content"
+                    class="g-descriptions-item-content"
                   >
                     loooooooooooooooooooooooooooooooooooooooooooooooong
                   </span>
                 </div>
               </td>
               <td
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="1"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-label"
+                    class="g-descriptions-item-label"
                   >
                     long
                   </span>
                   <span
-                    class="ant-descriptions-item-content"
+                    class="g-descriptions-item-content"
                   >
                     loooooooooooooooooooooooooooooooooooooooooooooooong
                   </span>
@@ -1132,41 +1132,41 @@ exports[`renders components/descriptions/demo/padding.tsx extend context correct
               </td>
             </tr>
             <tr
-              class="ant-descriptions-row"
+              class="g-descriptions-row"
             >
               <td
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="1"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-label"
+                    class="g-descriptions-item-label"
                   >
                     long
                   </span>
                   <span
-                    class="ant-descriptions-item-content"
+                    class="g-descriptions-item-content"
                   >
                     loooooooooooooooooooooooooooooooooooooooooooooooong
                   </span>
                 </div>
               </td>
               <td
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="1"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-label"
+                    class="g-descriptions-item-label"
                   >
                     long
                   </span>
                   <span
-                    class="ant-descriptions-item-content"
+                    class="g-descriptions-item-content"
                   >
                     loooooooooooooooooooooooooooooooooooooooooooooooong
                   </span>
@@ -1174,22 +1174,22 @@ exports[`renders components/descriptions/demo/padding.tsx extend context correct
               </td>
             </tr>
             <tr
-              class="ant-descriptions-row"
+              class="g-descriptions-row"
             >
               <td
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="2"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-label"
+                    class="g-descriptions-item-label"
                   >
                     long
                   </span>
                   <span
-                    class="ant-descriptions-item-content"
+                    class="g-descriptions-item-content"
                   >
                     loooooooooooooooooooooooooooooooooooooooooooooooong
                   </span>
@@ -1205,112 +1205,48 @@ exports[`renders components/descriptions/demo/padding.tsx extend context correct
     style="width: 600px; border: 1px solid; padding: 20px;"
   >
     <div
-      class="ant-descriptions css-var-test-id"
+      class="g-descriptions css-var-test-id"
     >
       <div
-        class="ant-descriptions-header"
+        class="g-descriptions-header"
       >
         <div
-          class="ant-descriptions-title"
+          class="g-descriptions-title"
         >
           User Info
         </div>
       </div>
       <div
-        class="ant-descriptions-view"
+        class="g-descriptions-view"
       >
         <table>
           <tbody>
             <tr
-              class="ant-descriptions-row"
+              class="g-descriptions-row"
             >
               <th
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="1"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-label"
+                    class="g-descriptions-item-label"
                   >
                     long
                   </span>
                 </div>
               </th>
               <th
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="1"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-label"
-                  >
-                    long
-                  </span>
-                </div>
-              </th>
-            </tr>
-            <tr
-              class="ant-descriptions-row"
-            >
-              <td
-                class="ant-descriptions-item"
-                colspan="1"
-              >
-                <div
-                  class="ant-descriptions-item-container"
-                >
-                  <span
-                    class="ant-descriptions-item-content"
-                  >
-                    loooooooooooooooooooooooooooooooooooooooooooooooong
-                  </span>
-                </div>
-              </td>
-              <td
-                class="ant-descriptions-item"
-                colspan="1"
-              >
-                <div
-                  class="ant-descriptions-item-container"
-                >
-                  <span
-                    class="ant-descriptions-item-content"
-                  >
-                    loooooooooooooooooooooooooooooooooooooooooooooooong
-                  </span>
-                </div>
-              </td>
-            </tr>
-            <tr
-              class="ant-descriptions-row"
-            >
-              <th
-                class="ant-descriptions-item"
-                colspan="1"
-              >
-                <div
-                  class="ant-descriptions-item-container"
-                >
-                  <span
-                    class="ant-descriptions-item-label"
-                  >
-                    long
-                  </span>
-                </div>
-              </th>
-              <th
-                class="ant-descriptions-item"
-                colspan="1"
-              >
-                <div
-                  class="ant-descriptions-item-container"
-                >
-                  <span
-                    class="ant-descriptions-item-label"
+                    class="g-descriptions-item-label"
                   >
                     long
                   </span>
@@ -1318,31 +1254,31 @@ exports[`renders components/descriptions/demo/padding.tsx extend context correct
               </th>
             </tr>
             <tr
-              class="ant-descriptions-row"
+              class="g-descriptions-row"
             >
               <td
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="1"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-content"
+                    class="g-descriptions-item-content"
                   >
                     loooooooooooooooooooooooooooooooooooooooooooooooong
                   </span>
                 </div>
               </td>
               <td
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="1"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-content"
+                    class="g-descriptions-item-content"
                   >
                     loooooooooooooooooooooooooooooooooooooooooooooooong
                   </span>
@@ -1350,17 +1286,81 @@ exports[`renders components/descriptions/demo/padding.tsx extend context correct
               </td>
             </tr>
             <tr
-              class="ant-descriptions-row"
+              class="g-descriptions-row"
             >
               <th
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
+                colspan="1"
+              >
+                <div
+                  class="g-descriptions-item-container"
+                >
+                  <span
+                    class="g-descriptions-item-label"
+                  >
+                    long
+                  </span>
+                </div>
+              </th>
+              <th
+                class="g-descriptions-item"
+                colspan="1"
+              >
+                <div
+                  class="g-descriptions-item-container"
+                >
+                  <span
+                    class="g-descriptions-item-label"
+                  >
+                    long
+                  </span>
+                </div>
+              </th>
+            </tr>
+            <tr
+              class="g-descriptions-row"
+            >
+              <td
+                class="g-descriptions-item"
+                colspan="1"
+              >
+                <div
+                  class="g-descriptions-item-container"
+                >
+                  <span
+                    class="g-descriptions-item-content"
+                  >
+                    loooooooooooooooooooooooooooooooooooooooooooooooong
+                  </span>
+                </div>
+              </td>
+              <td
+                class="g-descriptions-item"
+                colspan="1"
+              >
+                <div
+                  class="g-descriptions-item-container"
+                >
+                  <span
+                    class="g-descriptions-item-content"
+                  >
+                    loooooooooooooooooooooooooooooooooooooooooooooooong
+                  </span>
+                </div>
+              </td>
+            </tr>
+            <tr
+              class="g-descriptions-row"
+            >
+              <th
+                class="g-descriptions-item"
                 colspan="2"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-label"
+                    class="g-descriptions-item-label"
                   >
                     long
                   </span>
@@ -1368,17 +1368,17 @@ exports[`renders components/descriptions/demo/padding.tsx extend context correct
               </th>
             </tr>
             <tr
-              class="ant-descriptions-row"
+              class="g-descriptions-row"
             >
               <td
-                class="ant-descriptions-item"
+                class="g-descriptions-item"
                 colspan="2"
               >
                 <div
-                  class="ant-descriptions-item-container"
+                  class="g-descriptions-item-container"
                 >
                   <span
-                    class="ant-descriptions-item-content"
+                    class="g-descriptions-item-content"
                   >
                     loooooooooooooooooooooooooooooooooooooooooooooooong
                   </span>
@@ -1397,27 +1397,27 @@ exports[`renders components/descriptions/demo/padding.tsx extend context correct
 
 exports[`renders components/descriptions/demo/responsive.tsx extend context correctly 1`] = `
 <div
-  class="ant-descriptions ant-descriptions-bordered css-var-test-id"
+  class="g-descriptions g-descriptions-bordered css-var-test-id"
 >
   <div
-    class="ant-descriptions-header"
+    class="g-descriptions-header"
   >
     <div
-      class="ant-descriptions-title"
+      class="g-descriptions-title"
     >
       Responsive Descriptions
     </div>
   </div>
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -1425,7 +1425,7 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -1434,10 +1434,10 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -1445,7 +1445,7 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -1454,10 +1454,10 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -1465,7 +1465,7 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -1474,10 +1474,10 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -1485,7 +1485,7 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -1494,10 +1494,10 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -1505,7 +1505,7 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -1514,10 +1514,10 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -1525,7 +1525,7 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -1534,10 +1534,10 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -1545,7 +1545,7 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -1558,10 +1558,10 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -1569,7 +1569,7 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
             </span>
           </th>
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -1594,63 +1594,63 @@ exports[`renders components/descriptions/demo/responsive.tsx extend context corr
 exports[`renders components/descriptions/demo/size.tsx extend context correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="large"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         large
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="medium"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         medium
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="small"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         small
       </span>
@@ -1659,21 +1659,21 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
   <br />
   <br />
   <div
-    class="ant-descriptions ant-descriptions-bordered css-var-test-id"
+    class="g-descriptions g-descriptions-bordered css-var-test-id"
   >
     <div
-      class="ant-descriptions-header"
+      class="g-descriptions-header"
     >
       <div
-        class="ant-descriptions-title"
+        class="g-descriptions-title"
       >
         Custom Size
       </div>
       <div
-        class="ant-descriptions-extra"
+        class="g-descriptions-extra"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -1683,15 +1683,15 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
       </div>
     </div>
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -1699,7 +1699,7 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -1708,10 +1708,10 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -1719,7 +1719,7 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -1728,10 +1728,10 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -1739,7 +1739,7 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -1748,10 +1748,10 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -1759,7 +1759,7 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -1768,10 +1768,10 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -1779,7 +1779,7 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -1788,10 +1788,10 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -1799,7 +1799,7 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -1808,10 +1808,10 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -1819,7 +1819,7 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -1845,21 +1845,21 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
   <br />
   <br />
   <div
-    class="ant-descriptions css-var-test-id"
+    class="g-descriptions css-var-test-id"
   >
     <div
-      class="ant-descriptions-header"
+      class="g-descriptions-header"
     >
       <div
-        class="ant-descriptions-title"
+        class="g-descriptions-title"
       >
         Custom Size
       </div>
       <div
-        class="ant-descriptions-extra"
+        class="g-descriptions-extra"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -1869,27 +1869,27 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
       </div>
     </div>
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Product
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   Cloud Database
                 </span>
@@ -1897,22 +1897,22 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Billing
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   Prepaid
                 </span>
@@ -1920,22 +1920,22 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Time
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   18:00:00
                 </span>
@@ -1943,22 +1943,22 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Amount
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   $80.00
                 </span>
@@ -1966,22 +1966,22 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Discount
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   $20.00
                 </span>
@@ -1989,22 +1989,22 @@ exports[`renders components/descriptions/demo/size.tsx extend context correctly 
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <td
-              class="ant-descriptions-item"
+              class="g-descriptions-item"
               colspan="1"
             >
               <div
-                class="ant-descriptions-item-container"
+                class="g-descriptions-item-container"
               >
                 <span
-                  class="ant-descriptions-item-label"
+                  class="g-descriptions-item-label"
                 >
                   Official
                 </span>
                 <span
-                  class="ant-descriptions-item-content"
+                  class="g-descriptions-item-content"
                 >
                   $60.00
                 </span>
@@ -2024,102 +2024,102 @@ exports[`renders components/descriptions/demo/style.tsx extend context correctly
 Array [
   <button
     aria-checked="true"
-    class="ant-switch css-var-test-id ant-switch-checked"
+    class="g-switch css-var-test-id g-switch-checked"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       >
         Border
       </span>
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       >
         No Border
       </span>
     </span>
   </button>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />,
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="horizontal"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         horizontal
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="vertical"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         vertical
       </span>
     </label>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />,
   <div
-    class="ant-descriptions ant-descriptions-bordered css-var-test-id"
+    class="g-descriptions g-descriptions-bordered css-var-test-id"
   >
     <div
-      class="ant-descriptions-header"
+      class="g-descriptions-header"
     >
       <div
-        class="ant-descriptions-title"
+        class="g-descriptions-title"
       >
         User Info
       </div>
     </div>
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="background: red;"
             >
@@ -2128,7 +2128,7 @@ Array [
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
               style="background: green;"
             >
@@ -2138,10 +2138,10 @@ Array [
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -2149,7 +2149,7 @@ Array [
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -2158,10 +2158,10 @@ Array [
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
             >
               <span>
@@ -2169,7 +2169,7 @@ Array [
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -2182,31 +2182,31 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />,
   <div
-    class="ant-descriptions ant-descriptions-bordered css-var-test-id"
+    class="g-descriptions g-descriptions-bordered css-var-test-id"
   >
     <div
-      class="ant-descriptions-header"
+      class="g-descriptions-header"
     >
       <div
-        class="ant-descriptions-title"
+        class="g-descriptions-title"
       >
         Root style
       </div>
     </div>
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="background: red;"
             >
@@ -2217,7 +2217,7 @@ Array [
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
               style="background: green;"
             >
@@ -2229,10 +2229,10 @@ Array [
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="background: red;"
             >
@@ -2243,7 +2243,7 @@ Array [
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
               style="background: green;"
             >
@@ -2255,10 +2255,10 @@ Array [
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="background: red; color: orange;"
             >
@@ -2269,7 +2269,7 @@ Array [
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
               style="background: green; color: blue;"
             >
@@ -2291,30 +2291,30 @@ exports[`renders components/descriptions/demo/style.tsx extend context correctly
 
 exports[`renders components/descriptions/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-descriptions acss-ven0qr ant-descriptions-small ant-descriptions-bordered css-var-test-id"
+    class="g-descriptions acss-ven0qr g-descriptions-small g-descriptions-bordered css-var-test-id"
   >
     <div
-      class="ant-descriptions-header"
+      class="g-descriptions-header"
     >
       <div
-        class="ant-descriptions-title"
+        class="g-descriptions-title"
       >
         User Info
       </div>
     </div>
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="color: rgb(0, 0, 0);"
             >
@@ -2325,7 +2325,7 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -2334,10 +2334,10 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="color: rgb(0, 0, 0);"
             >
@@ -2348,7 +2348,7 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -2357,10 +2357,10 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="color: rgb(0, 0, 0);"
             >
@@ -2371,7 +2371,7 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -2384,28 +2384,28 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-descriptions acss-ven0qr ant-descriptions-bordered css-var-test-id"
+    class="g-descriptions acss-ven0qr g-descriptions-bordered css-var-test-id"
     style="border-radius: 8px; border: 1px solid rgb(205, 193, 255);"
   >
     <div
-      class="ant-descriptions-header"
+      class="g-descriptions-header"
     >
       <div
-        class="ant-descriptions-title"
+        class="g-descriptions-title"
       >
         User Info
       </div>
     </div>
     <div
-      class="ant-descriptions-view"
+      class="g-descriptions-view"
     >
       <table>
         <tbody>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="color: rgb(162, 148, 249);"
             >
@@ -2416,7 +2416,7 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -2425,10 +2425,10 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="color: rgb(162, 148, 249);"
             >
@@ -2439,7 +2439,7 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -2448,10 +2448,10 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
             </td>
           </tr>
           <tr
-            class="ant-descriptions-row"
+            class="g-descriptions-row"
           >
             <th
-              class="ant-descriptions-item-label"
+              class="g-descriptions-item-label"
               colspan="1"
               style="color: rgb(162, 148, 249);"
             >
@@ -2462,7 +2462,7 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
               </span>
             </th>
             <td
-              class="ant-descriptions-item-content"
+              class="g-descriptions-item-content"
               colspan="1"
             >
               <span>
@@ -2481,53 +2481,53 @@ exports[`renders components/descriptions/demo/style-class.tsx extend context cor
 
 exports[`renders components/descriptions/demo/text.tsx extend context correctly 1`] = `
 <div
-  class="ant-descriptions css-var-test-id"
+  class="g-descriptions css-var-test-id"
 >
   <div
-    class="ant-descriptions-header"
+    class="g-descriptions-header"
   >
     <div
-      class="ant-descriptions-title"
+      class="g-descriptions-title"
     >
       User Info
     </div>
   </div>
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Product
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Cloud Database
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 <div
                   style="display: flex;"
@@ -2536,7 +2536,7 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
                 </div>
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Prepaid
               </span>
@@ -2544,41 +2544,41 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Automatic Renewal
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 YES
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Order time
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 2018-04-24 18:00:00
               </span>
@@ -2586,22 +2586,22 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="2"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Usage Time
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 2019-04-24 18:00:00
               </span>
@@ -2609,31 +2609,31 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="2"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Status
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 <span
-                  class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-var-test-id"
+                  class="g-badge g-badge-status g-badge-not-a-wrapper css-var-test-id"
                 >
                   <span
-                    class="ant-badge-status-dot ant-badge-status-processing"
+                    class="g-badge-status-dot g-badge-status-processing"
                   />
                   <span
-                    class="ant-badge-status-text"
+                    class="g-badge-status-text"
                   >
                     Running
                   </span>
@@ -2643,41 +2643,41 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Negotiated Amount
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 $80.00
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Discount
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 $20.00
               </span>
@@ -2685,41 +2685,41 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Official Receipts
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 $60.00
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Config Info
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Data disk type: MongoDB
                 <br />
@@ -2738,83 +2738,83 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Official Receipts
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 $60.00
               </span>
             </div>
           </td>
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Config Info
               </span>
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 <div
-                  class="css-var-test-id ant-table-css-var ant-table-wrapper"
+                  class="css-var-test-id g-table-css-var g-table-wrapper"
                 >
                   <div
                     aria-busy="false"
                     aria-live="polite"
-                    class="ant-spin css-var-test-id"
+                    class="g-spin css-var-test-id"
                   >
                     <div
-                      class="ant-spin-container"
+                      class="g-spin-container"
                     >
                       <div
-                        class="ant-table ant-table-small css-var-test-id ant-table-css-var"
+                        class="g-table g-table-small css-var-test-id g-table-css-var"
                       >
                         <div
-                          class="ant-table-container"
+                          class="g-table-container"
                         >
                           <div
-                            class="ant-table-content"
+                            class="g-table-content"
                           >
                             <table
                               style="table-layout: auto;"
                             >
                               <thead
-                                class="ant-table-thead"
+                                class="g-table-thead"
                               >
                                 <tr>
                                   <th
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                     scope="col"
                                   >
                                     姓名
                                   </th>
                                   <th
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                     scope="col"
                                   >
                                     年龄
                                   </th>
                                   <th
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                     scope="col"
                                   >
                                     住址
@@ -2822,44 +2822,44 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
                                 </tr>
                               </thead>
                               <tbody
-                                class="ant-table-tbody"
+                                class="g-table-tbody"
                               >
                                 <tr
-                                  class="ant-table-row ant-table-row-level-0"
+                                  class="g-table-row g-table-row-level-0"
                                   data-row-key="1"
                                 >
                                   <td
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                   >
                                     胡彦斌
                                   </td>
                                   <td
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                   >
                                     32
                                   </td>
                                   <td
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                   >
                                     西湖区湖底公园1号
                                   </td>
                                 </tr>
                                 <tr
-                                  class="ant-table-row ant-table-row-level-0"
+                                  class="g-table-row g-table-row-level-0"
                                   data-row-key="2"
                                 >
                                   <td
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                   >
                                     胡彦祖
                                   </td>
                                   <td
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                   >
                                     42
                                   </td>
                                   <td
-                                    class="ant-table-cell"
+                                    class="g-table-cell"
                                   >
                                     西湖区湖底公园1号
                                   </td>
@@ -2890,34 +2890,34 @@ exports[`renders components/descriptions/demo/text.tsx extend context correctly 
 
 exports[`renders components/descriptions/demo/vertical.tsx extend context correctly 1`] = `
 <div
-  class="ant-descriptions css-var-test-id"
+  class="g-descriptions css-var-test-id"
 >
   <div
-    class="ant-descriptions-header"
+    class="g-descriptions-header"
   >
     <div
-      class="ant-descriptions-title"
+      class="g-descriptions-title"
     >
       User Info
     </div>
   </div>
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 UserName
               </span>
@@ -2925,17 +2925,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Zhou Maomao
               </span>
@@ -2943,17 +2943,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Telephone
               </span>
@@ -2961,17 +2961,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 1810000000
               </span>
@@ -2979,17 +2979,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Live
               </span>
@@ -2997,17 +2997,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 Hangzhou, Zhejiang
               </span>
@@ -3015,17 +3015,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Address
               </span>
@@ -3033,17 +3033,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 No. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China
               </span>
@@ -3051,17 +3051,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-label"
+                class="g-descriptions-item-label"
               >
                 Remark
               </span>
@@ -3069,17 +3069,17 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item"
+            class="g-descriptions-item"
             colspan="1"
           >
             <div
-              class="ant-descriptions-item-container"
+              class="g-descriptions-item-container"
             >
               <span
-                class="ant-descriptions-item-content"
+                class="g-descriptions-item-content"
               >
                 empty
               </span>
@@ -3100,27 +3100,27 @@ exports[`renders components/descriptions/demo/vertical.tsx extend context correc
 
 exports[`renders components/descriptions/demo/vertical-border.tsx extend context correctly 1`] = `
 <div
-  class="ant-descriptions ant-descriptions-bordered css-var-test-id"
+  class="g-descriptions g-descriptions-bordered css-var-test-id"
 >
   <div
-    class="ant-descriptions-header"
+    class="g-descriptions-header"
   >
     <div
-      class="ant-descriptions-title"
+      class="g-descriptions-title"
     >
       User Info
     </div>
   </div>
   <div
-    class="ant-descriptions-view"
+    class="g-descriptions-view"
   >
     <table>
       <tbody>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3129,10 +3129,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -3141,10 +3141,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3153,10 +3153,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -3165,10 +3165,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3177,10 +3177,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -3189,10 +3189,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3201,10 +3201,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -3213,10 +3213,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3225,10 +3225,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -3237,10 +3237,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3249,21 +3249,21 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
               <span
-                class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-var-test-id"
+                class="g-badge g-badge-status g-badge-not-a-wrapper css-var-test-id"
               >
                 <span
-                  class="ant-badge-status-dot ant-badge-status-processing"
+                  class="g-badge-status-dot g-badge-status-processing"
                 />
                 <span
-                  class="ant-badge-status-text"
+                  class="g-badge-status-text"
                 >
                   Running
                 </span>
@@ -3272,10 +3272,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3284,10 +3284,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -3296,10 +3296,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3308,10 +3308,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -3320,10 +3320,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3332,10 +3332,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>
@@ -3344,10 +3344,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </td>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <th
-            class="ant-descriptions-item-label"
+            class="g-descriptions-item-label"
             colspan="1"
           >
             <span>
@@ -3356,10 +3356,10 @@ exports[`renders components/descriptions/demo/vertical-border.tsx extend context
           </th>
         </tr>
         <tr
-          class="ant-descriptions-row"
+          class="g-descriptions-row"
         >
           <td
-            class="ant-descriptions-item-content"
+            class="g-descriptions-item-content"
             colspan="1"
           >
             <span>

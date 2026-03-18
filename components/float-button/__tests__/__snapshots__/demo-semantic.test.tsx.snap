@@ -5,21 +5,21 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
   class="acss-1ucck97"
 >
   <div
-    class="ant-row css-var-test-id"
+    class="g-row css-var-test-id"
   >
     <div
-      class="ant-col ant-col-16 acss-my3sst css-var-test-id"
+      class="g-col g-col-16 acss-my3sst css-var-test-id"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg css-var-test-id ant-float-btn-css-var ant-float-btn ant-float-btn-pure ant-float-btn-primary ant-float-btn-square ant-float-btn-individual semantic-mark-root"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg css-var-test-id g-float-btn-css-var g-float-btn g-float-btn-pure g-float-btn-primary g-float-btn-square g-float-btn-individual semantic-mark-root"
         type="button"
       >
         <span
-          class="ant-btn-icon ant-float-btn-icon semantic-mark-icon"
+          class="g-btn-icon g-float-btn-icon semantic-mark-icon"
         >
           <span
             aria-label="question-circle"
-            class="anticon anticon-question-circle"
+            class="gicon gicon-question-circle"
             role="img"
           >
             <svg
@@ -41,14 +41,14 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-float-btn-content semantic-mark-content"
+          class="g-float-btn-content semantic-mark-content"
         >
           HELP
         </span>
       </button>
     </div>
     <div
-      class="ant-col ant-col-8 css-var-test-id"
+      class="g-col g-col-8 css-var-test-id"
     >
       <ul
         class="acss-1ry21g5"
@@ -57,35 +57,35 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   root
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -106,15 +106,15 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -139,7 +139,7 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素，设置悬浮按钮的基础样式、形状尺寸、类型主题、固定定位、层级、阴影、间距等容器样式
@@ -150,35 +150,35 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   icon
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -199,15 +199,15 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -232,7 +232,7 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               图标元素，设置按钮内图标的尺寸、颜色、行高、对齐等图标显示样式
@@ -243,35 +243,35 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   content
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -292,15 +292,15 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -325,7 +325,7 @@ exports[`renders components/float-button/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               内容元素，设置按钮内文字内容的字体大小、颜色、对齐、换行等文本显示样式
@@ -343,28 +343,28 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
   class="acss-1ucck97"
 >
   <div
-    class="ant-row css-var-test-id"
+    class="g-row css-var-test-id"
   >
     <div
-      class="ant-col ant-col-16 acss-my3sst css-var-test-id"
+      class="g-col g-col-16 acss-my3sst css-var-test-id"
       style="padding-top: 100px;"
     >
       <div
-        class="ant-float-btn-group css-var-test-id ant-float-btn-css-var semantic-mark-root ant-float-btn-pure ant-float-btn-group-top ant-float-btn-group-menu-mode"
+        class="g-float-btn-group css-var-test-id g-float-btn-css-var semantic-mark-root g-float-btn-pure g-float-btn-group-top g-float-btn-group-menu-mode"
       >
         <div
-          class="ant-space-compact ant-space-compact-vertical ant-float-btn-group-list semantic-mark-list"
+          class="g-space-compact g-space-compact-vertical g-float-btn-group-list semantic-mark-list"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-compact-vertical-item ant-btn-compact-vertical-first-item css-var-test-id ant-float-btn-css-var ant-float-btn ant-float-btn-default ant-float-btn-square semantic-mark-item"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-compact-vertical-item g-btn-compact-vertical-first-item css-var-test-id g-float-btn-css-var g-float-btn g-float-btn-default g-float-btn-square semantic-mark-item"
             type="button"
           >
             <span
-              class="ant-btn-icon ant-float-btn-icon semantic-mark-itemIcon"
+              class="g-btn-icon g-float-btn-icon semantic-mark-itemIcon"
             >
               <span
                 aria-label="alert"
-                class="anticon anticon-alert"
+                class="gicon gicon-alert"
                 role="img"
               >
                 <svg
@@ -383,21 +383,21 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </span>
             </span>
             <span
-              class="ant-float-btn-content semantic-mark-itemContent"
+              class="g-float-btn-content semantic-mark-itemContent"
             >
               warn
             </span>
           </button>
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-compact-vertical-item css-var-test-id ant-float-btn-css-var ant-float-btn ant-float-btn-default ant-float-btn-square semantic-mark-item"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-compact-vertical-item css-var-test-id g-float-btn-css-var g-float-btn g-float-btn-default g-float-btn-square semantic-mark-item"
             type="button"
           >
             <span
-              class="ant-btn-icon ant-float-btn-icon semantic-mark-itemIcon"
+              class="g-btn-icon g-float-btn-icon semantic-mark-itemIcon"
             >
               <span
                 aria-label="bug"
-                class="anticon anticon-bug"
+                class="gicon gicon-bug"
                 role="img"
               >
                 <svg
@@ -419,21 +419,21 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </span>
             </span>
             <span
-              class="ant-float-btn-content semantic-mark-itemContent"
+              class="g-float-btn-content semantic-mark-itemContent"
             >
               bug
             </span>
           </button>
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-compact-vertical-item ant-btn-compact-vertical-last-item css-var-test-id ant-float-btn-css-var ant-float-btn ant-float-btn-default ant-float-btn-square semantic-mark-item"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-compact-vertical-item g-btn-compact-vertical-last-item css-var-test-id g-float-btn-css-var g-float-btn g-float-btn-default g-float-btn-square semantic-mark-item"
             type="button"
           >
             <span
-              class="ant-btn-icon ant-float-btn-icon semantic-mark-itemIcon"
+              class="g-btn-icon g-float-btn-icon semantic-mark-itemIcon"
             >
               <span
                 aria-label="bulb"
-                class="anticon anticon-bulb"
+                class="gicon gicon-bulb"
                 role="img"
               >
                 <svg
@@ -452,22 +452,22 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </span>
             </span>
             <span
-              class="ant-float-btn-content semantic-mark-itemContent"
+              class="g-float-btn-content semantic-mark-itemContent"
             >
               idea
             </span>
           </button>
         </div>
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg css-var-test-id ant-float-btn-css-var ant-float-btn ant-float-btn-group-trigger ant-float-btn-primary ant-float-btn-square ant-float-btn-individual semantic-mark-trigger"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg css-var-test-id g-float-btn-css-var g-float-btn g-float-btn-group-trigger g-float-btn-primary g-float-btn-square g-float-btn-individual semantic-mark-trigger"
           type="button"
         >
           <span
-            class="ant-btn-icon ant-float-btn-icon semantic-mark-triggerIcon"
+            class="g-btn-icon g-float-btn-icon semantic-mark-triggerIcon"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -487,7 +487,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
             </span>
           </span>
           <span
-            class="ant-float-btn-content semantic-mark-triggerContent"
+            class="g-float-btn-content semantic-mark-triggerContent"
           >
             back
           </span>
@@ -495,7 +495,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
       </div>
     </div>
     <div
-      class="ant-col ant-col-8 css-var-test-id"
+      class="g-col g-col-8 css-var-test-id"
     >
       <ul
         class="acss-1ry21g5"
@@ -504,35 +504,35 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   root
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -553,15 +553,15 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -586,7 +586,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素，设置悬浮按钮组的容器样式、固定定位、层级、内边距、间距、方向模式等组合布局样式
@@ -597,35 +597,35 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   list
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -646,15 +646,15 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -679,7 +679,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               列表元素，设置按钮组列表的Flex布局、圆角、阴影、动画过渡、垂直对齐等列表容器样式
@@ -690,35 +690,35 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   item
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -739,15 +739,15 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -772,7 +772,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               列表项元素，设置单个悬浮按钮的样式、尺寸、形状、类型、状态、图标内容等按钮基础样式
@@ -783,35 +783,35 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemIcon
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -832,15 +832,15 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -865,7 +865,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               列表项图标元素，设置悬浮按钮内图标的尺寸、颜色、对齐等图标显示样式
@@ -876,35 +876,35 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemContent
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -925,15 +925,15 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -958,7 +958,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               列表项内容元素，设置悬浮按钮内文字内容、徽标、描述等内容区域样式
@@ -969,35 +969,35 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   trigger
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1018,15 +1018,15 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1051,7 +1051,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               触发元素，设置菜单模式下触发按钮的样式、形状、图标、悬停态、展开收起状态等交互样式
@@ -1062,35 +1062,35 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   triggerIcon
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1111,15 +1111,15 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1144,7 +1144,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               触发图标元素，设置触发按钮内图标的样式、旋转动画、切换状态等图标交互样式
@@ -1155,35 +1155,35 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   triggerContent
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1204,15 +1204,15 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1237,7 +1237,7 @@ exports[`renders components/float-button/demo/_semantic_group.tsx correctly 1`] 
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               触发内容元素，设置触发按钮内容区域的文字、标识、状态指示等内容样式

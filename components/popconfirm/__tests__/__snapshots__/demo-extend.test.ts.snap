@@ -4,7 +4,7 @@ exports[`renders components/popconfirm/demo/async.tsx extend context correctly 1
 Array [
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -12,37 +12,37 @@ Array [
     </span>
   </button>,
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-popover-arrow-content"
+        class="g-popover-arrow-content"
       />
     </div>
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       id="test-id"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -61,25 +61,25 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Title
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Open Popconfirm with async logic
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -87,7 +87,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -108,7 +108,7 @@ exports[`renders components/popconfirm/demo/basic.tsx extend context correctly 1
 Array [
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -116,37 +116,37 @@ Array [
     </span>
   </button>,
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-popover-arrow-content"
+        class="g-popover-arrow-content"
       />
     </div>
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       id="test-id"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -165,25 +165,25 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Delete the task
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Are you sure to delete this task?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -191,7 +191,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -212,7 +212,7 @@ exports[`renders components/popconfirm/demo/dynamic-trigger.tsx extend context c
 <div>
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -220,37 +220,37 @@ exports[`renders components/popconfirm/demo/dynamic-trigger.tsx extend context c
     </span>
   </button>
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-popover-arrow-content"
+        class="g-popover-arrow-content"
       />
     </div>
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       id="test-id"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -269,25 +269,25 @@ exports[`renders components/popconfirm/demo/dynamic-trigger.tsx extend context c
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Delete the task
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Are you sure to delete this task?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -295,7 +295,7 @@ exports[`renders components/popconfirm/demo/dynamic-trigger.tsx extend context c
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -312,21 +312,21 @@ exports[`renders components/popconfirm/demo/dynamic-trigger.tsx extend context c
   Whether directly execute：
   <button
     aria-checked="true"
-    class="ant-switch css-var-test-id ant-switch-checked"
+    class="g-switch css-var-test-id g-switch-checked"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       />
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       />
     </span>
   </button>
@@ -339,7 +339,7 @@ exports[`renders components/popconfirm/demo/icon.tsx extend context correctly 1`
 Array [
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -347,37 +347,37 @@ Array [
     </span>
   </button>,
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-popover-arrow-content"
+        class="g-popover-arrow-content"
       />
     </div>
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       id="test-id"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="question-circle"
-                class="anticon anticon-question-circle"
+                class="gicon gicon-question-circle"
                 role="img"
                 style="color: red;"
               >
@@ -400,25 +400,25 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Delete the task
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Are you sure to delete this task?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -426,7 +426,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -447,7 +447,7 @@ exports[`renders components/popconfirm/demo/locale.tsx extend context correctly 
 Array [
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -455,37 +455,37 @@ Array [
     </span>
   </button>,
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-popover-arrow-content"
+        class="g-popover-arrow-content"
       />
     </div>
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       id="test-id"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -504,25 +504,25 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Delete the task
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Are you sure to delete this task?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -530,7 +530,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -549,15 +549,15 @@ exports[`renders components/popconfirm/demo/locale.tsx extend context correctly 
 
 exports[`renders components/popconfirm/demo/placement.tsx extend context correctly 1`] = `
 <div
-  class="demo ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center ant-flex-vertical"
+  class="demo g-flex css-var-test-id g-flex-align-center g-flex-justify-center g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
     style="white-space: nowrap;"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -566,37 +566,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </span>
     </button>
     <div
-      class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-topLeft"
+      class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-topLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-popover-arrow"
+        class="g-popover-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-popover-arrow-content"
+          class="g-popover-arrow-content"
         />
       </div>
       <div
-        class="ant-popover-container"
+        class="g-popover-container"
         id="test-id"
         role="tooltip"
       >
         <div
-          class="ant-popover-content"
+          class="g-popover-content"
         >
           <div
-            class="ant-popconfirm-inner-content"
+            class="g-popconfirm-inner-content"
           >
             <div
-              class="ant-popconfirm-message"
+              class="g-popconfirm-message"
             >
               <span
-                class="ant-popconfirm-message-icon"
+                class="g-popconfirm-message-icon"
               >
                 <span
                   aria-label="exclamation-circle"
-                  class="anticon anticon-exclamation-circle"
+                  class="gicon gicon-exclamation-circle"
                   role="img"
                 >
                   <svg
@@ -615,25 +615,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </span>
               <div
-                class="ant-popconfirm-message-text"
+                class="g-popconfirm-message-text"
               >
                 <div
-                  class="ant-popconfirm-title"
+                  class="g-popconfirm-title"
                 >
                   Are you sure to delete this task?
                 </div>
                 <div
-                  class="ant-popconfirm-description"
+                  class="g-popconfirm-description"
                 >
                   Delete the task
                 </div>
               </div>
             </div>
             <div
-              class="ant-popconfirm-buttons"
+              class="g-popconfirm-buttons"
             >
               <button
-                class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -642,7 +642,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </button>
               <button
-                class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -657,7 +657,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -666,37 +666,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </span>
     </button>
     <div
-      class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+      class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-popover-arrow"
+        class="g-popover-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-popover-arrow-content"
+          class="g-popover-arrow-content"
         />
       </div>
       <div
-        class="ant-popover-container"
+        class="g-popover-container"
         id="test-id"
         role="tooltip"
       >
         <div
-          class="ant-popover-content"
+          class="g-popover-content"
         >
           <div
-            class="ant-popconfirm-inner-content"
+            class="g-popconfirm-inner-content"
           >
             <div
-              class="ant-popconfirm-message"
+              class="g-popconfirm-message"
             >
               <span
-                class="ant-popconfirm-message-icon"
+                class="g-popconfirm-message-icon"
               >
                 <span
                   aria-label="exclamation-circle"
-                  class="anticon anticon-exclamation-circle"
+                  class="gicon gicon-exclamation-circle"
                   role="img"
                 >
                   <svg
@@ -715,25 +715,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </span>
               <div
-                class="ant-popconfirm-message-text"
+                class="g-popconfirm-message-text"
               >
                 <div
-                  class="ant-popconfirm-title"
+                  class="g-popconfirm-title"
                 >
                   Are you sure to delete this task?
                 </div>
                 <div
-                  class="ant-popconfirm-description"
+                  class="g-popconfirm-description"
                 >
                   Delete the task
                 </div>
               </div>
             </div>
             <div
-              class="ant-popconfirm-buttons"
+              class="g-popconfirm-buttons"
             >
               <button
-                class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -742,7 +742,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </button>
               <button
-                class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -757,7 +757,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -766,37 +766,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </span>
     </button>
     <div
-      class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-topRight"
+      class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-topRight"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-popover-arrow"
+        class="g-popover-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-popover-arrow-content"
+          class="g-popover-arrow-content"
         />
       </div>
       <div
-        class="ant-popover-container"
+        class="g-popover-container"
         id="test-id"
         role="tooltip"
       >
         <div
-          class="ant-popover-content"
+          class="g-popover-content"
         >
           <div
-            class="ant-popconfirm-inner-content"
+            class="g-popconfirm-inner-content"
           >
             <div
-              class="ant-popconfirm-message"
+              class="g-popconfirm-message"
             >
               <span
-                class="ant-popconfirm-message-icon"
+                class="g-popconfirm-message-icon"
               >
                 <span
                   aria-label="exclamation-circle"
-                  class="anticon anticon-exclamation-circle"
+                  class="gicon gicon-exclamation-circle"
                   role="img"
                 >
                   <svg
@@ -815,25 +815,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </span>
               <div
-                class="ant-popconfirm-message-text"
+                class="g-popconfirm-message-text"
               >
                 <div
-                  class="ant-popconfirm-title"
+                  class="g-popconfirm-title"
                 >
                   Are you sure to delete this task?
                 </div>
                 <div
-                  class="ant-popconfirm-description"
+                  class="g-popconfirm-description"
                 >
                   Delete the task
                 </div>
               </div>
             </div>
             <div
-              class="ant-popconfirm-buttons"
+              class="g-popconfirm-buttons"
             >
               <button
-                class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -842,7 +842,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </button>
               <button
-                class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -857,15 +857,15 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
     style="width: 432px;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-vertical"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-vertical"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -874,37 +874,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
         </span>
       </button>
       <div
-        class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-leftTop"
+        class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-leftTop"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-popover-arrow"
+          class="g-popover-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-popover-arrow-content"
+            class="g-popover-arrow-content"
           />
         </div>
         <div
-          class="ant-popover-container"
+          class="g-popover-container"
           id="test-id"
           role="tooltip"
         >
           <div
-            class="ant-popover-content"
+            class="g-popover-content"
           >
             <div
-              class="ant-popconfirm-inner-content"
+              class="g-popconfirm-inner-content"
             >
               <div
-                class="ant-popconfirm-message"
+                class="g-popconfirm-message"
               >
                 <span
-                  class="ant-popconfirm-message-icon"
+                  class="g-popconfirm-message-icon"
                 >
                   <span
                     aria-label="exclamation-circle"
-                    class="anticon anticon-exclamation-circle"
+                    class="gicon gicon-exclamation-circle"
                     role="img"
                   >
                     <svg
@@ -923,25 +923,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </span>
                 <div
-                  class="ant-popconfirm-message-text"
+                  class="g-popconfirm-message-text"
                 >
                   <div
-                    class="ant-popconfirm-title"
+                    class="g-popconfirm-title"
                   >
                     Are you sure to delete this task?
                   </div>
                   <div
-                    class="ant-popconfirm-description"
+                    class="g-popconfirm-description"
                   >
                     Delete the task
                   </div>
                 </div>
               </div>
               <div
-                class="ant-popconfirm-buttons"
+                class="g-popconfirm-buttons"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -950,7 +950,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </button>
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -965,7 +965,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -974,37 +974,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
         </span>
       </button>
       <div
-        class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-left"
+        class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-left"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-popover-arrow"
+          class="g-popover-arrow"
           style="position: absolute; top: 0px; right: 0px;"
         >
           <span
-            class="ant-popover-arrow-content"
+            class="g-popover-arrow-content"
           />
         </div>
         <div
-          class="ant-popover-container"
+          class="g-popover-container"
           id="test-id"
           role="tooltip"
         >
           <div
-            class="ant-popover-content"
+            class="g-popover-content"
           >
             <div
-              class="ant-popconfirm-inner-content"
+              class="g-popconfirm-inner-content"
             >
               <div
-                class="ant-popconfirm-message"
+                class="g-popconfirm-message"
               >
                 <span
-                  class="ant-popconfirm-message-icon"
+                  class="g-popconfirm-message-icon"
                 >
                   <span
                     aria-label="exclamation-circle"
-                    class="anticon anticon-exclamation-circle"
+                    class="gicon gicon-exclamation-circle"
                     role="img"
                   >
                     <svg
@@ -1023,25 +1023,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </span>
                 <div
-                  class="ant-popconfirm-message-text"
+                  class="g-popconfirm-message-text"
                 >
                   <div
-                    class="ant-popconfirm-title"
+                    class="g-popconfirm-title"
                   >
                     Are you sure to delete this task?
                   </div>
                   <div
-                    class="ant-popconfirm-description"
+                    class="g-popconfirm-description"
                   >
                     Delete the task
                   </div>
                 </div>
               </div>
               <div
-                class="ant-popconfirm-buttons"
+                class="g-popconfirm-buttons"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1050,7 +1050,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </button>
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1065,7 +1065,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1074,37 +1074,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
         </span>
       </button>
       <div
-        class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-leftBottom"
+        class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-leftBottom"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-popover-arrow"
+          class="g-popover-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-popover-arrow-content"
+            class="g-popover-arrow-content"
           />
         </div>
         <div
-          class="ant-popover-container"
+          class="g-popover-container"
           id="test-id"
           role="tooltip"
         >
           <div
-            class="ant-popover-content"
+            class="g-popover-content"
           >
             <div
-              class="ant-popconfirm-inner-content"
+              class="g-popconfirm-inner-content"
             >
               <div
-                class="ant-popconfirm-message"
+                class="g-popconfirm-message"
               >
                 <span
-                  class="ant-popconfirm-message-icon"
+                  class="g-popconfirm-message-icon"
                 >
                   <span
                     aria-label="exclamation-circle"
-                    class="anticon anticon-exclamation-circle"
+                    class="gicon gicon-exclamation-circle"
                     role="img"
                   >
                     <svg
@@ -1123,25 +1123,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </span>
                 <div
-                  class="ant-popconfirm-message-text"
+                  class="g-popconfirm-message-text"
                 >
                   <div
-                    class="ant-popconfirm-title"
+                    class="g-popconfirm-title"
                   >
                     Are you sure to delete this task?
                   </div>
                   <div
-                    class="ant-popconfirm-description"
+                    class="g-popconfirm-description"
                   >
                     Delete the task
                   </div>
                 </div>
               </div>
               <div
-                class="ant-popconfirm-buttons"
+                class="g-popconfirm-buttons"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1150,7 +1150,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </button>
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1165,11 +1165,11 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </div>
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-vertical"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-vertical"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1178,37 +1178,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
         </span>
       </button>
       <div
-        class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-rightTop"
+        class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-rightTop"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-popover-arrow"
+          class="g-popover-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-popover-arrow-content"
+            class="g-popover-arrow-content"
           />
         </div>
         <div
-          class="ant-popover-container"
+          class="g-popover-container"
           id="test-id"
           role="tooltip"
         >
           <div
-            class="ant-popover-content"
+            class="g-popover-content"
           >
             <div
-              class="ant-popconfirm-inner-content"
+              class="g-popconfirm-inner-content"
             >
               <div
-                class="ant-popconfirm-message"
+                class="g-popconfirm-message"
               >
                 <span
-                  class="ant-popconfirm-message-icon"
+                  class="g-popconfirm-message-icon"
                 >
                   <span
                     aria-label="exclamation-circle"
-                    class="anticon anticon-exclamation-circle"
+                    class="gicon gicon-exclamation-circle"
                     role="img"
                   >
                     <svg
@@ -1227,25 +1227,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </span>
                 <div
-                  class="ant-popconfirm-message-text"
+                  class="g-popconfirm-message-text"
                 >
                   <div
-                    class="ant-popconfirm-title"
+                    class="g-popconfirm-title"
                   >
                     Are you sure to delete this task?
                   </div>
                   <div
-                    class="ant-popconfirm-description"
+                    class="g-popconfirm-description"
                   >
                     Delete the task
                   </div>
                 </div>
               </div>
               <div
-                class="ant-popconfirm-buttons"
+                class="g-popconfirm-buttons"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1254,7 +1254,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </button>
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1269,7 +1269,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1278,37 +1278,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
         </span>
       </button>
       <div
-        class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-right"
+        class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-right"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-popover-arrow"
+          class="g-popover-arrow"
           style="position: absolute; top: 0px; left: 0px;"
         >
           <span
-            class="ant-popover-arrow-content"
+            class="g-popover-arrow-content"
           />
         </div>
         <div
-          class="ant-popover-container"
+          class="g-popover-container"
           id="test-id"
           role="tooltip"
         >
           <div
-            class="ant-popover-content"
+            class="g-popover-content"
           >
             <div
-              class="ant-popconfirm-inner-content"
+              class="g-popconfirm-inner-content"
             >
               <div
-                class="ant-popconfirm-message"
+                class="g-popconfirm-message"
               >
                 <span
-                  class="ant-popconfirm-message-icon"
+                  class="g-popconfirm-message-icon"
                 >
                   <span
                     aria-label="exclamation-circle"
-                    class="anticon anticon-exclamation-circle"
+                    class="gicon gicon-exclamation-circle"
                     role="img"
                   >
                     <svg
@@ -1327,25 +1327,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </span>
                 <div
-                  class="ant-popconfirm-message-text"
+                  class="g-popconfirm-message-text"
                 >
                   <div
-                    class="ant-popconfirm-title"
+                    class="g-popconfirm-title"
                   >
                     Are you sure to delete this task?
                   </div>
                   <div
-                    class="ant-popconfirm-description"
+                    class="g-popconfirm-description"
                   >
                     Delete the task
                   </div>
                 </div>
               </div>
               <div
-                class="ant-popconfirm-buttons"
+                class="g-popconfirm-buttons"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1354,7 +1354,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </button>
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1369,7 +1369,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1378,37 +1378,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
         </span>
       </button>
       <div
-        class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-rightBottom"
+        class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-rightBottom"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-popover-arrow"
+          class="g-popover-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-popover-arrow-content"
+            class="g-popover-arrow-content"
           />
         </div>
         <div
-          class="ant-popover-container"
+          class="g-popover-container"
           id="test-id"
           role="tooltip"
         >
           <div
-            class="ant-popover-content"
+            class="g-popover-content"
           >
             <div
-              class="ant-popconfirm-inner-content"
+              class="g-popconfirm-inner-content"
             >
               <div
-                class="ant-popconfirm-message"
+                class="g-popconfirm-message"
               >
                 <span
-                  class="ant-popconfirm-message-icon"
+                  class="g-popconfirm-message-icon"
                 >
                   <span
                     aria-label="exclamation-circle"
-                    class="anticon anticon-exclamation-circle"
+                    class="gicon gicon-exclamation-circle"
                     role="img"
                   >
                     <svg
@@ -1427,25 +1427,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </span>
                 <div
-                  class="ant-popconfirm-message-text"
+                  class="g-popconfirm-message-text"
                 >
                   <div
-                    class="ant-popconfirm-title"
+                    class="g-popconfirm-title"
                   >
                     Are you sure to delete this task?
                   </div>
                   <div
-                    class="ant-popconfirm-description"
+                    class="g-popconfirm-description"
                   >
                     Delete the task
                   </div>
                 </div>
               </div>
               <div
-                class="ant-popconfirm-buttons"
+                class="g-popconfirm-buttons"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1454,7 +1454,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                   </span>
                 </button>
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                   style="width: 80px; margin: 4px;"
                   type="button"
                 >
@@ -1470,12 +1470,12 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
     style="white-space: nowrap;"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -1484,37 +1484,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </span>
     </button>
     <div
-      class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-bottomLeft"
+      class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-popover-arrow"
+        class="g-popover-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-popover-arrow-content"
+          class="g-popover-arrow-content"
         />
       </div>
       <div
-        class="ant-popover-container"
+        class="g-popover-container"
         id="test-id"
         role="tooltip"
       >
         <div
-          class="ant-popover-content"
+          class="g-popover-content"
         >
           <div
-            class="ant-popconfirm-inner-content"
+            class="g-popconfirm-inner-content"
           >
             <div
-              class="ant-popconfirm-message"
+              class="g-popconfirm-message"
             >
               <span
-                class="ant-popconfirm-message-icon"
+                class="g-popconfirm-message-icon"
               >
                 <span
                   aria-label="exclamation-circle"
-                  class="anticon anticon-exclamation-circle"
+                  class="gicon gicon-exclamation-circle"
                   role="img"
                 >
                   <svg
@@ -1533,25 +1533,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </span>
               <div
-                class="ant-popconfirm-message-text"
+                class="g-popconfirm-message-text"
               >
                 <div
-                  class="ant-popconfirm-title"
+                  class="g-popconfirm-title"
                 >
                   Are you sure to delete this task?
                 </div>
                 <div
-                  class="ant-popconfirm-description"
+                  class="g-popconfirm-description"
                 >
                   Delete the task
                 </div>
               </div>
             </div>
             <div
-              class="ant-popconfirm-buttons"
+              class="g-popconfirm-buttons"
             >
               <button
-                class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -1560,7 +1560,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </button>
               <button
-                class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -1575,7 +1575,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -1584,37 +1584,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </span>
     </button>
     <div
-      class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-bottom"
+      class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-bottom"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-popover-arrow"
+        class="g-popover-arrow"
         style="position: absolute; top: 0px; left: 0px;"
       >
         <span
-          class="ant-popover-arrow-content"
+          class="g-popover-arrow-content"
         />
       </div>
       <div
-        class="ant-popover-container"
+        class="g-popover-container"
         id="test-id"
         role="tooltip"
       >
         <div
-          class="ant-popover-content"
+          class="g-popover-content"
         >
           <div
-            class="ant-popconfirm-inner-content"
+            class="g-popconfirm-inner-content"
           >
             <div
-              class="ant-popconfirm-message"
+              class="g-popconfirm-message"
             >
               <span
-                class="ant-popconfirm-message-icon"
+                class="g-popconfirm-message-icon"
               >
                 <span
                   aria-label="exclamation-circle"
-                  class="anticon anticon-exclamation-circle"
+                  class="gicon gicon-exclamation-circle"
                   role="img"
                 >
                   <svg
@@ -1633,25 +1633,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </span>
               <div
-                class="ant-popconfirm-message-text"
+                class="g-popconfirm-message-text"
               >
                 <div
-                  class="ant-popconfirm-title"
+                  class="g-popconfirm-title"
                 >
                   Are you sure to delete this task?
                 </div>
                 <div
-                  class="ant-popconfirm-description"
+                  class="g-popconfirm-description"
                 >
                   Delete the task
                 </div>
               </div>
             </div>
             <div
-              class="ant-popconfirm-buttons"
+              class="g-popconfirm-buttons"
             >
               <button
-                class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -1660,7 +1660,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </button>
               <button
-                class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -1675,7 +1675,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -1684,37 +1684,37 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
       </span>
     </button>
     <div
-      class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-bottomRight"
+      class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-bottomRight"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-popover-arrow"
+        class="g-popover-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-popover-arrow-content"
+          class="g-popover-arrow-content"
         />
       </div>
       <div
-        class="ant-popover-container"
+        class="g-popover-container"
         id="test-id"
         role="tooltip"
       >
         <div
-          class="ant-popover-content"
+          class="g-popover-content"
         >
           <div
-            class="ant-popconfirm-inner-content"
+            class="g-popconfirm-inner-content"
           >
             <div
-              class="ant-popconfirm-message"
+              class="g-popconfirm-message"
             >
               <span
-                class="ant-popconfirm-message-icon"
+                class="g-popconfirm-message-icon"
               >
                 <span
                   aria-label="exclamation-circle"
-                  class="anticon anticon-exclamation-circle"
+                  class="gicon gicon-exclamation-circle"
                   role="img"
                 >
                   <svg
@@ -1733,25 +1733,25 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </span>
               <div
-                class="ant-popconfirm-message-text"
+                class="g-popconfirm-message-text"
               >
                 <div
-                  class="ant-popconfirm-title"
+                  class="g-popconfirm-title"
                 >
                   Are you sure to delete this task?
                 </div>
                 <div
-                  class="ant-popconfirm-description"
+                  class="g-popconfirm-description"
                 >
                   Delete the task
                 </div>
               </div>
             </div>
             <div
-              class="ant-popconfirm-buttons"
+              class="g-popconfirm-buttons"
             >
               <button
-                class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -1760,7 +1760,7 @@ exports[`renders components/popconfirm/demo/placement.tsx extend context correct
                 </span>
               </button>
               <button
-                class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+                class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
                 style="width: 80px; margin: 4px;"
                 type="button"
               >
@@ -1783,7 +1783,7 @@ exports[`renders components/popconfirm/demo/promise.tsx extend context correctly
 Array [
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -1791,37 +1791,37 @@ Array [
     </span>
   </button>,
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-popover-arrow-content"
+        class="g-popover-arrow-content"
       />
     </div>
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       id="test-id"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -1840,25 +1840,25 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Title
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Open Popconfirm with Promise
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -1866,7 +1866,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -1886,30 +1886,30 @@ exports[`renders components/popconfirm/demo/promise.tsx extend context correctly
 exports[`renders components/popconfirm/demo/render-panel.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-popover ant-popover-pure ant-popover-placement-top ant-popconfirm css-var-test-id"
+    class="g-popover g-popover-pure g-popover-placement-top g-popconfirm css-var-test-id"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
     />
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -1928,25 +1928,25 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Are you OK?
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Does this look good?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -1954,7 +1954,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -1967,32 +1967,32 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-popover ant-popover-pure ant-popover-placement-bottomRight ant-popconfirm css-var-test-id"
+    class="g-popover g-popover-pure g-popover-placement-bottomRight g-popconfirm css-var-test-id"
     style="width: 250px;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
     />
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       role="tooltip"
       style="width: 250px;"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -2011,25 +2011,25 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Are you OK?
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Does this look good?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -2037,7 +2037,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -2050,39 +2050,39 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-popover ant-popover-pure ant-popover-placement-top ant-popconfirm css-var-test-id"
+    class="g-popover g-popover-pure g-popover-placement-top g-popconfirm css-var-test-id"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
     />
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Are you OK?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -2090,7 +2090,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -2103,44 +2103,44 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-popover ant-popover-pure ant-popover-placement-top ant-popconfirm css-var-test-id"
+    class="g-popover g-popover-pure g-popover-placement-top g-popconfirm css-var-test-id"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
     />
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Are you OK?
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
               >
                 Does this look good?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -2148,7 +2148,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -2170,7 +2170,7 @@ exports[`renders components/popconfirm/demo/shift.tsx extend context correctly 1
   style="width: 300vw; height: 300vh; display: flex; align-items: center; justify-content: center;"
 >
   <button
-    class="ant-btn ant-btn-primary ant-popover-open"
+    class="g-btn g-btn-primary g-popover-open"
     type="button"
   >
     <span>
@@ -2178,35 +2178,35 @@ exports[`renders components/popconfirm/demo/shift.tsx extend context correctly 1
     </span>
   </button>
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     />
     <div
-      class="ant-popover-content"
+      class="g-popover-content"
     >
       <div
-        class="ant-popover-inner"
+        class="g-popover-inner"
         role="tooltip"
       >
         <div
-          class="ant-popover-inner-content"
+          class="g-popover-inner-content"
         >
           <div
-            class="ant-popconfirm-inner-content"
+            class="g-popconfirm-inner-content"
           >
             <div
-              class="ant-popconfirm-message"
+              class="g-popconfirm-message"
             >
               <span
-                class="ant-popconfirm-message-icon"
+                class="g-popconfirm-message-icon"
               >
                 <span
                   aria-label="exclamation-circle"
-                  class="anticon anticon-exclamation-circle"
+                  class="gicon gicon-exclamation-circle"
                   role="img"
                 >
                   <svg
@@ -2225,20 +2225,20 @@ exports[`renders components/popconfirm/demo/shift.tsx extend context correctly 1
                 </span>
               </span>
               <div
-                class="ant-popconfirm-message-text"
+                class="g-popconfirm-message-text"
               >
                 <div
-                  class="ant-popconfirm-title"
+                  class="g-popconfirm-title"
                 >
                   Thanks for using antd. Have a nice day !
                 </div>
               </div>
             </div>
             <div
-              class="ant-popconfirm-buttons"
+              class="g-popconfirm-buttons"
             >
               <button
-                class="ant-btn ant-btn-default ant-btn-sm"
+                class="g-btn g-btn-default g-btn-sm"
                 type="button"
               >
                 <span>
@@ -2246,7 +2246,7 @@ exports[`renders components/popconfirm/demo/shift.tsx extend context correctly 1
                 </span>
               </button>
               <button
-                class="ant-btn ant-btn-primary ant-btn-sm"
+                class="g-btn g-btn-primary g-btn-sm"
                 type="button"
               >
                 <span>
@@ -2266,11 +2266,11 @@ exports[`renders components/popconfirm/demo/shift.tsx extend context correctly 2
 
 exports[`renders components/popconfirm/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-gap-medium"
 >
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -2278,30 +2278,30 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
     </span>
   </button>
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-container acss-ven0qr"
+      class="g-popover-container acss-ven0qr"
       id="test-id"
       role="tooltip"
       style="background-color: rgb(238, 238, 238); box-shadow: inset 5px 5px 3px #fff, inset -5px -5px 3px #ddd, 0 0 3px rgba(0,0,0,0.2);"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -2320,16 +2320,16 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
                 style="color: rgb(38, 38, 38);"
               >
                 Object text
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
                 style="color: rgb(38, 38, 38);"
               >
                 Object description
@@ -2337,10 +2337,10 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -2348,7 +2348,7 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -2362,7 +2362,7 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
   </div>
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -2370,30 +2370,30 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
     </span>
   </button>
   <div
-    class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-popconfirm ant-popover-placement-top"
+    class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-popconfirm g-popover-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-popover-container acss-ven0qr"
+      class="g-popover-container acss-ven0qr"
       id="test-id"
       role="tooltip"
       style="background-color: rgba(53, 71, 125, 0.8); padding: 12px; border-radius: 4px;"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -2412,16 +2412,16 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
                 style="color: rgb(255, 255, 255);"
               >
                 Function text
               </div>
               <div
-                class="ant-popconfirm-description"
+                class="g-popconfirm-description"
                 style="color: rgb(255, 255, 255);"
               >
                 Function description
@@ -2429,10 +2429,10 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               style="border-color: rgba(53, 71, 125, 0.6); background-color: rgb(255, 255, 255); color: rgba(53, 71, 125, 0.8);"
               type="button"
             >
@@ -2441,7 +2441,7 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               style="background-color: rgba(53, 71, 125, 0.6); color: rgb(255, 255, 255);"
               type="button"
             >
@@ -2462,30 +2462,30 @@ exports[`renders components/popconfirm/demo/style-class.tsx extend context corre
 exports[`renders components/popconfirm/demo/wireframe.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-popover ant-popover-pure ant-popover-placement-top ant-popconfirm css-var-test-id"
+    class="g-popover g-popover-pure g-popover-placement-top g-popconfirm css-var-test-id"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
     />
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       role="tooltip"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -2504,20 +2504,20 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Are you OK?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -2525,7 +2525,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>
@@ -2538,32 +2538,32 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-popover ant-popover-pure ant-popover-placement-bottomRight ant-popconfirm css-var-test-id"
+    class="g-popover g-popover-pure g-popover-placement-bottomRight g-popconfirm css-var-test-id"
     style="width: 250px;"
   >
     <div
-      class="ant-popover-arrow"
+      class="g-popover-arrow"
     />
     <div
-      class="ant-popover-container"
+      class="g-popover-container"
       role="tooltip"
       style="width: 250px;"
     >
       <div
-        class="ant-popover-content"
+        class="g-popover-content"
       >
         <div
-          class="ant-popconfirm-inner-content"
+          class="g-popconfirm-inner-content"
         >
           <div
-            class="ant-popconfirm-message"
+            class="g-popconfirm-message"
           >
             <span
-              class="ant-popconfirm-message-icon"
+              class="g-popconfirm-message-icon"
             >
               <span
                 aria-label="exclamation-circle"
-                class="anticon anticon-exclamation-circle"
+                class="gicon gicon-exclamation-circle"
                 role="img"
               >
                 <svg
@@ -2582,20 +2582,20 @@ Array [
               </span>
             </span>
             <div
-              class="ant-popconfirm-message-text"
+              class="g-popconfirm-message-text"
             >
               <div
-                class="ant-popconfirm-title"
+                class="g-popconfirm-title"
               >
                 Are you OK?
               </div>
             </div>
           </div>
           <div
-            class="ant-popconfirm-buttons"
+            class="g-popconfirm-buttons"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
               type="button"
             >
               <span>
@@ -2603,7 +2603,7 @@ Array [
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
               type="button"
             >
               <span>

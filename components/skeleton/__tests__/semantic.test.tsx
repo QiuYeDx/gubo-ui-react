@@ -40,27 +40,27 @@ describe('Skeleton.Semantic', () => {
       avatar: true,
     });
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-skeleton');
+    const rootElement = container.querySelector<HTMLElement>('.g-skeleton');
     expect(rootElement).toHaveStyle(rootStyle);
     expect(rootElement).toHaveClass(customClassNames.root);
 
-    const headerElement = container.querySelector<HTMLElement>('.ant-skeleton-header');
+    const headerElement = container.querySelector<HTMLElement>('.g-skeleton-header');
     expect(headerElement).toHaveStyle(headerStyle);
     expect(headerElement).toHaveClass(customClassNames.header);
 
-    const sectionElement = container.querySelector<HTMLElement>('.ant-skeleton-section');
+    const sectionElement = container.querySelector<HTMLElement>('.g-skeleton-section');
     expect(sectionElement).toHaveStyle(sectionStyle);
     expect(sectionElement).toHaveClass(customClassNames.section);
 
-    const avatarElement = container.querySelector<HTMLElement>('.ant-skeleton-avatar');
+    const avatarElement = container.querySelector<HTMLElement>('.g-skeleton-avatar');
     expect(avatarElement).toHaveStyle(avatarStyle);
     expect(avatarElement).toHaveClass(customClassNames.avatar);
 
-    const titleElement = container.querySelector<HTMLElement>('.ant-skeleton-title');
+    const titleElement = container.querySelector<HTMLElement>('.g-skeleton-title');
     expect(titleElement).toHaveStyle(titleStyle);
     expect(titleElement).toHaveClass(customClassNames.title);
 
-    const paragraphElement = container.querySelector<HTMLElement>('.ant-skeleton-paragraph');
+    const paragraphElement = container.querySelector<HTMLElement>('.g-skeleton-paragraph');
     expect(paragraphElement).toHaveStyle(paragraphStyle);
     expect(paragraphElement).toHaveClass(customClassNames.paragraph);
   });
@@ -110,12 +110,12 @@ describe('Skeleton.Semantic', () => {
       <Skeleton classNames={classNamesFn} styles={stylesFn} avatar />,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-skeleton');
-    const headerElement = container.querySelector<HTMLElement>('.ant-skeleton-header');
-    const sectionElement = container.querySelector<HTMLElement>('.ant-skeleton-section');
-    const avatarElement = container.querySelector<HTMLElement>('.ant-skeleton-avatar');
-    const titleElement = container.querySelector<HTMLElement>('.ant-skeleton-title');
-    const paragraphElement = container.querySelector<HTMLElement>('.ant-skeleton-paragraph');
+    const rootElement = container.querySelector<HTMLElement>('.g-skeleton');
+    const headerElement = container.querySelector<HTMLElement>('.g-skeleton-header');
+    const sectionElement = container.querySelector<HTMLElement>('.g-skeleton-section');
+    const avatarElement = container.querySelector<HTMLElement>('.g-skeleton-avatar');
+    const titleElement = container.querySelector<HTMLElement>('.g-skeleton-title');
+    const paragraphElement = container.querySelector<HTMLElement>('.g-skeleton-paragraph');
 
     expect(rootElement).toHaveStyle({ padding: '11px' });
     expect(rootElement).toHaveClass('demo-skeleton-root-normal');

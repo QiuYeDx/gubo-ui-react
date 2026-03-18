@@ -15,7 +15,7 @@ export const resetComponent = (token: AliasToken, needInheritFontFamily = false)
   padding: 0,
   color: token.colorText,
   fontSize: token.fontSize,
-  // font-variant: @font-variant-base;
+  // font-variant: @font-varig-base;
   lineHeight: token.lineHeight,
   listStyle: 'none',
   // font-feature-settings: @font-feature-settings-base;

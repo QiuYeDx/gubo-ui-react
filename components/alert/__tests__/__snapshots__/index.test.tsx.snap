@@ -2,16 +2,16 @@
 
 exports[`Alert custom action 1`] = `
 <div
-  class="ant-alert ant-alert-success css-var-root"
+  class="g-alert g-alert-success css-var-root"
   data-show="true"
   role="alert"
 >
   <span
-    class="ant-alert-icon"
+    class="g-alert-icon"
   >
     <span
       aria-label="check-circle"
-      class="anticon anticon-check-circle"
+      class="gicon gicon-check-circle"
       role="img"
     >
       <svg
@@ -30,19 +30,19 @@ exports[`Alert custom action 1`] = `
     </span>
   </span>
   <div
-    class="ant-alert-section"
+    class="g-alert-section"
   >
     <div
-      class="ant-alert-title"
+      class="g-alert-title"
     >
       Success Tips
     </div>
   </div>
   <div
-    class="ant-alert-actions"
+    class="g-alert-actions"
   >
     <button
-      class="ant-btn css-var-root ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm"
+      class="g-btn css-var-root g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm"
       type="button"
     >
       <span>
@@ -51,13 +51,13 @@ exports[`Alert custom action 1`] = `
     </button>
   </div>
   <button
-    class="ant-alert-close-icon"
+    class="g-alert-close-icon"
     tabindex="0"
     type="button"
   >
     <span
       aria-label="close"
-      class="anticon anticon-close"
+      class="gicon gicon-close"
       role="img"
     >
       <svg
@@ -81,12 +81,12 @@ exports[`Alert custom action 1`] = `
 
 exports[`Alert rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-alert ant-alert-info ant-alert-no-icon ant-alert-rtl css-var-root"
+  class="g-alert g-alert-info g-alert-no-icon g-alert-rtl css-var-root"
   data-show="true"
   role="alert"
 >
   <div
-    class="ant-alert-section"
+    class="g-alert-section"
   />
 </div>
 `;

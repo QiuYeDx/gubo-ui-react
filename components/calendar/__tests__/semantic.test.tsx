@@ -32,11 +32,11 @@ describe('Calendar.Semantic', () => {
       />,
     );
 
-    const root = container.querySelector('.ant-picker-calendar');
-    const header = container.querySelector('.ant-picker-calendar-header');
-    const body = container.querySelector('.ant-picker-body');
-    const content = container.querySelector('.ant-picker-content');
-    const item = container.querySelector('.ant-picker-cell');
+    const root = container.querySelector('.g-picker-calendar');
+    const header = container.querySelector('.g-picker-calendar-header');
+    const body = container.querySelector('.g-picker-body');
+    const content = container.querySelector('.g-picker-content');
+    const item = container.querySelector('.g-picker-cell');
 
     expect(root).toHaveClass('mini-calendar');
     expect(header).toHaveClass('calendar-header-year');

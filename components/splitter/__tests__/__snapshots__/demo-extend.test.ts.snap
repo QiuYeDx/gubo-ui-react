@@ -2,22 +2,22 @@
 
 exports[`renders components/splitter/demo/collapsible.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); height: 200px;"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           First
@@ -28,23 +28,23 @@ exports[`renders components/splitter/demo/collapsible.tsx extend context correct
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Second
@@ -53,19 +53,19 @@ exports[`renders components/splitter/demo/collapsible.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-splitter ant-splitter-vertical css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-vertical css-var-test-id g-splitter-css-var"
     style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); height: 300px;"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           First
@@ -76,23 +76,23 @@ exports[`renders components/splitter/demo/collapsible.tsx extend context correct
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Second
@@ -107,74 +107,74 @@ exports[`renders components/splitter/demo/collapsible.tsx extend context correct
 
 exports[`renders components/splitter/demo/collapsibleIcon.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap: 20px;"
 >
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap: 5px;"
   >
     <p>
       ShowCollapsibleIcon: 
     </p>
     <div
-      class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+      class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
       role="radiogroup"
     >
       <label
-        class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target"
+          class="g-radio g-wave-target"
         >
           <input
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="auto"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           Auto
         </span>
       </label>
       <label
-        class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target ant-radio-checked"
+          class="g-radio g-wave-target g-radio-checked"
         >
           <input
             checked=""
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="true"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           True
         </span>
       </label>
       <label
-        class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio ant-wave-target"
+          class="g-radio g-wave-target"
         >
           <input
-            class="ant-radio-input"
+            class="g-radio-input"
             name="test-id"
             type="radio"
             value="false"
           />
         </span>
         <span
-          class="ant-radio-label"
+          class="g-radio-label"
         >
           False
         </span>
@@ -182,19 +182,19 @@ exports[`renders components/splitter/demo/collapsibleIcon.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           First
@@ -205,23 +205,23 @@ exports[`renders components/splitter/demo/collapsibleIcon.tsx extend context cor
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="33"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Second
@@ -232,23 +232,23 @@ exports[`renders components/splitter/demo/collapsibleIcon.tsx extend context cor
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="67"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger"
+        class="g-splitter-bar-dragger"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Third
@@ -263,22 +263,22 @@ exports[`renders components/splitter/demo/collapsibleIcon.tsx extend context cor
 
 exports[`renders components/splitter/demo/control.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: 50%; flex-grow: 0;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           First
@@ -289,23 +289,23 @@ exports[`renders components/splitter/demo/control.tsx extend context correctly 1
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger"
+        class="g-splitter-bar-dragger"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: 50%; flex-grow: 0;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Second
@@ -314,34 +314,34 @@ exports[`renders components/splitter/demo/control.tsx extend context correctly 1
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-justify-space-between ant-flex-gap-medium"
+    class="g-flex css-var-test-id g-flex-justify-space-between g-flex-gap-medium"
   >
     <button
       aria-checked="true"
-      class="ant-switch css-var-test-id ant-switch-checked"
+      class="g-switch css-var-test-id g-switch-checked"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         >
           Enabled
         </span>
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         >
           Disabled
         </span>
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -357,19 +357,19 @@ exports[`renders components/splitter/demo/control.tsx extend context correctly 2
 exports[`renders components/splitter/demo/customize.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: 40%; flex-grow: 0;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 1
@@ -380,18 +380,18 @@ Array [
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="40"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled ant-splitter-bar-dragger-customize"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled g-splitter-bar-dragger-customize"
       >
         <div
-          class="ant-splitter-bar-dragger-icon"
+          class="g-splitter-bar-dragger-icon"
         >
           <span
             aria-label="column-width"
-            class="anticon anticon-column-width acss-jp9u09"
+            class="gicon gicon-column-width acss-jp9u09"
             role="img"
           >
             <svg
@@ -412,15 +412,15 @@ Array [
       </div>
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 2
@@ -431,18 +431,18 @@ Array [
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="70"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled ant-splitter-bar-dragger-customize"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled g-splitter-bar-dragger-customize"
       >
         <div
-          class="ant-splitter-bar-dragger-icon"
+          class="g-splitter-bar-dragger-icon"
         >
           <span
             aria-label="column-width"
-            class="anticon anticon-column-width acss-jp9u09"
+            class="gicon gicon-column-width acss-jp9u09"
             role="img"
           >
             <svg
@@ -463,15 +463,15 @@ Array [
       </div>
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 3
@@ -480,23 +480,23 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />,
   <div
-    class="ant-splitter ant-splitter-vertical css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-vertical css-var-test-id g-splitter-css-var"
     style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: 40%; flex-grow: 0;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           First
@@ -507,27 +507,27 @@ Array [
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="40"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled ant-splitter-bar-dragger-customize acss-13lz4mh"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled g-splitter-bar-dragger-customize acss-13lz4mh"
       >
         <div
-          class="ant-splitter-bar-dragger-icon"
+          class="g-splitter-bar-dragger-icon"
         />
       </div>
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Second
@@ -542,27 +542,27 @@ exports[`renders components/splitter/demo/customize.tsx extend context correctly
 
 exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <h3
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     [true, 0, false]
   </h3>
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 1
@@ -573,23 +573,23 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger"
+        class="g-splitter-bar-dragger"
       />
     </div>
     <div
-      class="ant-splitter-panel ant-splitter-panel-hidden"
+      class="g-splitter-panel g-splitter-panel-hidden"
       style="flex-basis: 0px; flex-grow: 0;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 2
@@ -600,23 +600,23 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 3
@@ -625,24 +625,24 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
     </div>
   </div>
   <h3
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     [false, 0, true]
   </h3>
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 1
@@ -653,23 +653,23 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
       />
     </div>
     <div
-      class="ant-splitter-panel ant-splitter-panel-hidden"
+      class="g-splitter-panel g-splitter-panel-hidden"
       style="flex-basis: 0px; flex-grow: 0;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 2
@@ -680,23 +680,23 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger"
+        class="g-splitter-bar-dragger"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 3
@@ -705,24 +705,24 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
     </div>
   </div>
   <h3
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     Start have min & max
   </h3>
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 1
@@ -733,23 +733,23 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger"
+        class="g-splitter-bar-dragger"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 2
@@ -758,24 +758,24 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
     </div>
   </div>
   <h3
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     End have min & max
   </h3>
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 1
@@ -786,23 +786,23 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 1`]
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Panel 2
@@ -817,19 +817,19 @@ exports[`renders components/splitter/demo/debug.tsx extend context correctly 2`]
 
 exports[`renders components/splitter/demo/group.tsx extend context correctly 1`] = `
 <div
-  class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+  class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
   style="height: 300px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
 >
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: auto; flex-grow: 1;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Left
@@ -840,30 +840,30 @@ exports[`renders components/splitter/demo/group.tsx extend context correctly 1`]
     aria-valuemax="0"
     aria-valuemin="0"
     aria-valuenow="50"
-    class="ant-splitter-bar"
+    class="g-splitter-bar"
     role="separator"
   >
     <div
-      class="ant-splitter-bar-dragger"
+      class="g-splitter-bar-dragger"
     />
   </div>
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: auto; flex-grow: 1;"
   >
     <div
-      class="ant-splitter ant-splitter-vertical css-var-test-id ant-splitter-css-var"
+      class="g-splitter g-splitter-vertical css-var-test-id g-splitter-css-var"
     >
       <div
-        class="ant-splitter-panel"
+        class="g-splitter-panel"
         style="flex-basis: auto; flex-grow: 1;"
       >
         <div
-          class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+          class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
           style="height: 100%;"
         >
           <h5
-            class="ant-typography ant-typography-secondary css-var-test-id"
+            class="g-typography g-typography-secondary css-var-test-id"
             style="white-space: nowrap;"
           >
             Top
@@ -874,23 +874,23 @@ exports[`renders components/splitter/demo/group.tsx extend context correctly 1`]
         aria-valuemax="0"
         aria-valuemin="0"
         aria-valuenow="50"
-        class="ant-splitter-bar"
+        class="g-splitter-bar"
         role="separator"
       >
         <div
-          class="ant-splitter-bar-dragger"
+          class="g-splitter-bar-dragger"
         />
       </div>
       <div
-        class="ant-splitter-panel"
+        class="g-splitter-panel"
         style="flex-basis: auto; flex-grow: 1;"
       >
         <div
-          class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+          class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
           style="height: 100%;"
         >
           <h5
-            class="ant-typography ant-typography-secondary css-var-test-id"
+            class="g-typography g-typography-secondary css-var-test-id"
             style="white-space: nowrap;"
           >
             Bottom
@@ -906,26 +906,26 @@ exports[`renders components/splitter/demo/group.tsx extend context correctly 2`]
 
 exports[`renders components/splitter/demo/lazy.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width: 100%;"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+      class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
       style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
     >
       <div
-        class="ant-splitter-panel"
+        class="g-splitter-panel"
         style="flex-basis: 40%; flex-grow: 0;"
       >
         <div
-          class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+          class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
           style="height: 100%;"
         >
           <h5
-            class="ant-typography ant-typography-secondary css-var-test-id"
+            class="g-typography g-typography-secondary css-var-test-id"
             style="white-space: nowrap;"
           >
             First
@@ -936,27 +936,27 @@ exports[`renders components/splitter/demo/lazy.tsx extend context correctly 1`] 
         aria-valuemax="0"
         aria-valuemin="0"
         aria-valuenow="40"
-        class="ant-splitter-bar"
+        class="g-splitter-bar"
         role="separator"
       >
         <div
-          class="ant-splitter-bar-preview"
-          style="--ant-splitter-bar-preview-offset: 0px;"
+          class="g-splitter-bar-preview"
+          style="--g-splitter-bar-preview-offset: 0px;"
         />
         <div
-          class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+          class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
         />
       </div>
       <div
-        class="ant-splitter-panel"
+        class="g-splitter-panel"
         style="flex-basis: auto; flex-grow: 1;"
       >
         <div
-          class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+          class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
           style="height: 100%;"
         >
           <h5
-            class="ant-typography ant-typography-secondary css-var-test-id"
+            class="g-typography g-typography-secondary css-var-test-id"
             style="white-space: nowrap;"
           >
             Second
@@ -966,22 +966,22 @@ exports[`renders components/splitter/demo/lazy.tsx extend context correctly 1`] 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-splitter ant-splitter-vertical css-var-test-id ant-splitter-css-var"
+      class="g-splitter g-splitter-vertical css-var-test-id g-splitter-css-var"
       style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
     >
       <div
-        class="ant-splitter-panel"
+        class="g-splitter-panel"
         style="flex-basis: 40%; flex-grow: 0;"
       >
         <div
-          class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+          class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
           style="height: 100%;"
         >
           <h5
-            class="ant-typography ant-typography-secondary css-var-test-id"
+            class="g-typography g-typography-secondary css-var-test-id"
             style="white-space: nowrap;"
           >
             First
@@ -992,27 +992,27 @@ exports[`renders components/splitter/demo/lazy.tsx extend context correctly 1`] 
         aria-valuemax="0"
         aria-valuemin="0"
         aria-valuenow="40"
-        class="ant-splitter-bar"
+        class="g-splitter-bar"
         role="separator"
       >
         <div
-          class="ant-splitter-bar-preview"
-          style="--ant-splitter-bar-preview-offset: 0px;"
+          class="g-splitter-bar-preview"
+          style="--g-splitter-bar-preview-offset: 0px;"
         />
         <div
-          class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+          class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
         />
       </div>
       <div
-        class="ant-splitter-panel"
+        class="g-splitter-panel"
         style="flex-basis: auto; flex-grow: 1;"
       >
         <div
-          class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+          class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
           style="height: 100%;"
         >
           <h5
-            class="ant-typography ant-typography-secondary css-var-test-id"
+            class="g-typography g-typography-secondary css-var-test-id"
             style="white-space: nowrap;"
           >
             Second
@@ -1028,19 +1028,19 @@ exports[`renders components/splitter/demo/lazy.tsx extend context correctly 2`] 
 
 exports[`renders components/splitter/demo/multiple.tsx extend context correctly 1`] = `
 <div
-  class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+  class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
   style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
 >
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: auto; flex-grow: 1;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Panel 1
@@ -1051,23 +1051,23 @@ exports[`renders components/splitter/demo/multiple.tsx extend context correctly 
     aria-valuemax="0"
     aria-valuemin="0"
     aria-valuenow="33"
-    class="ant-splitter-bar"
+    class="g-splitter-bar"
     role="separator"
   >
     <div
-      class="ant-splitter-bar-dragger"
+      class="g-splitter-bar-dragger"
     />
   </div>
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: auto; flex-grow: 1;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Panel 2
@@ -1078,23 +1078,23 @@ exports[`renders components/splitter/demo/multiple.tsx extend context correctly 
     aria-valuemax="0"
     aria-valuemin="0"
     aria-valuenow="67"
-    class="ant-splitter-bar"
+    class="g-splitter-bar"
     role="separator"
   >
     <div
-      class="ant-splitter-bar-dragger"
+      class="g-splitter-bar-dragger"
     />
   </div>
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: auto; flex-grow: 1;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Panel 3
@@ -1108,28 +1108,28 @@ exports[`renders components/splitter/demo/multiple.tsx extend context correctly 
 
 exports[`renders components/splitter/demo/nested-in-tabs.tsx extend context correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform: translate(0px, 0px);"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="1"
         >
           <div
             aria-controls="rc-tabs-test-panel-1"
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             id="rc-tabs-test-tab-1"
             role="tab"
             tabindex="0"
@@ -1138,13 +1138,13 @@ exports[`renders components/splitter/demo/nested-in-tabs.tsx extend context corr
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="2"
         >
           <div
             aria-controls="rc-tabs-test-panel-2"
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             id="rc-tabs-test-tab-2"
             role="tab"
             tabindex="-1"
@@ -1153,25 +1153,25 @@ exports[`renders components/splitter/demo/nested-in-tabs.tsx extend context corr
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="rc-tabs-test-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="rc-tabs-test-more"
         style="visibility: hidden; order: 1;"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -1190,12 +1190,12 @@ exports[`renders components/splitter/demo/nested-in-tabs.tsx extend context corr
         </span>
       </button>
       <div
-        class="ant-tabs-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-tabs-css-var ant-tabs-dropdown-placement-bottomLeft"
+        class="g-tabs-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-tabs-css-var g-tabs-dropdown-placement-bottomLeft"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <ul
           aria-label="expanded dropdown"
-          class="ant-tabs-dropdown-menu ant-tabs-dropdown-menu-root ant-tabs-dropdown-menu-vertical"
+          class="g-tabs-dropdown-menu g-tabs-dropdown-menu-root g-tabs-dropdown-menu-vertical"
           data-menu-list="true"
           id="rc-tabs-test-more-popup"
           role="listbox"
@@ -1209,15 +1209,15 @@ exports[`renders components/splitter/demo/nested-in-tabs.tsx extend context corr
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-1"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-1"
         role="tabpanel"
         tabindex="0"
@@ -1233,19 +1233,19 @@ exports[`renders components/splitter/demo/nested-in-tabs.tsx extend context corr
 
 exports[`renders components/splitter/demo/reset.tsx extend context correctly 1`] = `
 <div
-  class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+  class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
   style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
 >
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: 30%; flex-grow: 0;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Panel 1
@@ -1256,23 +1256,23 @@ exports[`renders components/splitter/demo/reset.tsx extend context correctly 1`]
     aria-valuemax="0"
     aria-valuemin="0"
     aria-valuenow="30"
-    class="ant-splitter-bar"
+    class="g-splitter-bar"
     role="separator"
   >
     <div
-      class="ant-splitter-bar-dragger"
+      class="g-splitter-bar-dragger"
     />
   </div>
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: 40%; flex-grow: 0;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Panel 2
@@ -1283,23 +1283,23 @@ exports[`renders components/splitter/demo/reset.tsx extend context correctly 1`]
     aria-valuemax="0"
     aria-valuemin="0"
     aria-valuenow="70"
-    class="ant-splitter-bar"
+    class="g-splitter-bar"
     role="separator"
   >
     <div
-      class="ant-splitter-bar-dragger"
+      class="g-splitter-bar-dragger"
     />
   </div>
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: 30%; flex-grow: 0;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Panel 3
@@ -1313,19 +1313,19 @@ exports[`renders components/splitter/demo/reset.tsx extend context correctly 2`]
 
 exports[`renders components/splitter/demo/size.tsx extend context correctly 1`] = `
 <div
-  class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+  class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
   style="height: 200px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
 >
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: 40%; flex-grow: 0;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         First
@@ -1336,23 +1336,23 @@ exports[`renders components/splitter/demo/size.tsx extend context correctly 1`] 
     aria-valuemax="0"
     aria-valuemin="0"
     aria-valuenow="40"
-    class="ant-splitter-bar"
+    class="g-splitter-bar"
     role="separator"
   >
     <div
-      class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+      class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
     />
   </div>
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: auto; flex-grow: 1;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Second
@@ -1367,64 +1367,64 @@ exports[`renders components/splitter/demo/size.tsx extend context correctly 2`] 
 exports[`renders components/splitter/demo/size-mix.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
     style="margin-bottom: 16px;"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="1"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Size Bucket 1
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="2"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Size Bucket 2
       </span>
     </label>
   </div>,
   <div
-    class="ant-splitter ant-splitter-horizontal css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal css-var-test-id g-splitter-css-var"
     style="height: 300px; width: 1000px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: 100px; flex-grow: 0;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           First
@@ -1435,23 +1435,23 @@ Array [
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Second
@@ -1462,23 +1462,23 @@ Array [
       aria-valuemax="9980"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger ant-splitter-bar-dragger-disabled"
+        class="g-splitter-bar-dragger g-splitter-bar-dragger-disabled"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="white-space: nowrap;"
         >
           Third
@@ -1493,22 +1493,22 @@ exports[`renders components/splitter/demo/size-mix.tsx extend context correctly 
 
 exports[`renders components/splitter/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-large ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-large g-flex-vertical"
 >
   <div
-    class="ant-splitter ant-splitter-horizontal acss-3vbbjp css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal acss-3vbbjp css-var-test-id g-splitter-css-var"
     style="background-color: rgb(255, 251, 230); height: 200px;"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="color: rgb(0, 0, 0);"
         >
           First
@@ -1519,24 +1519,24 @@ exports[`renders components/splitter/demo/style-class.tsx extend context correct
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger"
+        class="g-splitter-bar-dragger"
         style="background-color: rgba(194, 223, 252, 0.4);"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
           style="color: rgb(0, 0, 0);"
         >
           Second
@@ -1545,19 +1545,19 @@ exports[`renders components/splitter/demo/style-class.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-splitter ant-splitter-horizontal acss-3vbbjp css-var-test-id ant-splitter-css-var"
+    class="g-splitter g-splitter-horizontal acss-3vbbjp css-var-test-id g-splitter-css-var"
     style="border-width: 2px; border-style: dashed; margin-bottom: 10px; height: 200px;"
   >
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
         >
           First
         </h5>
@@ -1567,23 +1567,23 @@ exports[`renders components/splitter/demo/style-class.tsx extend context correct
       aria-valuemax="0"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-splitter-bar"
+      class="g-splitter-bar"
       role="separator"
     >
       <div
-        class="ant-splitter-bar-dragger"
+        class="g-splitter-bar-dragger"
       />
     </div>
     <div
-      class="ant-splitter-panel"
+      class="g-splitter-panel"
       style="flex-basis: auto; flex-grow: 1;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
         style="height: 100%;"
       >
         <h5
-          class="ant-typography ant-typography-secondary css-var-test-id"
+          class="g-typography g-typography-secondary css-var-test-id"
         >
           Second
         </h5>
@@ -1597,19 +1597,19 @@ exports[`renders components/splitter/demo/style-class.tsx extend context correct
 
 exports[`renders components/splitter/demo/vertical.tsx extend context correctly 1`] = `
 <div
-  class="ant-splitter ant-splitter-vertical css-var-test-id ant-splitter-css-var"
+  class="g-splitter g-splitter-vertical css-var-test-id g-splitter-css-var"
   style="height: 300px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
 >
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: auto; flex-grow: 1;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         First
@@ -1620,23 +1620,23 @@ exports[`renders components/splitter/demo/vertical.tsx extend context correctly 
     aria-valuemax="0"
     aria-valuemin="0"
     aria-valuenow="50"
-    class="ant-splitter-bar"
+    class="g-splitter-bar"
     role="separator"
   >
     <div
-      class="ant-splitter-bar-dragger"
+      class="g-splitter-bar-dragger"
     />
   </div>
   <div
-    class="ant-splitter-panel"
+    class="g-splitter-panel"
     style="flex-basis: auto; flex-grow: 1;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="height: 100%;"
     >
       <h5
-        class="ant-typography ant-typography-secondary css-var-test-id"
+        class="g-typography g-typography-secondary css-var-test-id"
         style="white-space: nowrap;"
       >
         Second

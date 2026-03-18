@@ -2,24 +2,24 @@
 
 exports[`Collapse Collapse.Panel usage 1`] = `
 <div
-  class="ant-collapse ant-collapse-icon-placement-start ant-collapse-borderless css-var-root"
+  class="g-collapse g-collapse-icon-placement-start g-collapse-borderless css-var-root"
 >
   <div
-    class="ant-collapse-item"
+    class="g-collapse-item"
   >
     <div
       aria-disabled="false"
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="g-collapse-header"
       role="button"
       tabindex="0"
     >
       <div
-        class="ant-collapse-expand-icon"
+        class="g-collapse-expand-icon"
       >
         <span
           aria-label="collapsed"
-          class="anticon anticon-right ant-collapse-arrow"
+          class="gicon gicon-right g-collapse-arrow"
           role="img"
         >
           <svg
@@ -38,28 +38,28 @@ exports[`Collapse Collapse.Panel usage 1`] = `
         </span>
       </div>
       <span
-        class="ant-collapse-title"
+        class="g-collapse-title"
       >
         test panel1
       </span>
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="g-collapse-item"
   >
     <div
       aria-disabled="false"
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="g-collapse-header"
       role="button"
       tabindex="0"
     >
       <div
-        class="ant-collapse-expand-icon"
+        class="g-collapse-expand-icon"
       >
         <span
           aria-label="collapsed"
-          class="anticon anticon-right ant-collapse-arrow"
+          class="gicon gicon-right g-collapse-arrow"
           role="img"
         >
           <svg
@@ -78,7 +78,7 @@ exports[`Collapse Collapse.Panel usage 1`] = `
         </span>
       </div>
       <span
-        class="ant-collapse-title"
+        class="g-collapse-title"
       >
         test panel2
       </span>
@@ -89,24 +89,24 @@ exports[`Collapse Collapse.Panel usage 1`] = `
 
 exports[`Collapse could override default openMotion 1`] = `
 <div
-  class="ant-collapse ant-collapse-icon-placement-start css-var-root"
+  class="g-collapse g-collapse-icon-placement-start css-var-root"
 >
   <div
-    class="ant-collapse-item ant-collapse-item-active"
+    class="g-collapse-item g-collapse-item-active"
   >
     <div
       aria-disabled="false"
       aria-expanded="true"
-      class="ant-collapse-header"
+      class="g-collapse-header"
       role="button"
       tabindex="0"
     >
       <div
-        class="ant-collapse-expand-icon"
+        class="g-collapse-expand-icon"
       >
         <span
           aria-label="expanded"
-          class="anticon anticon-right ant-collapse-arrow"
+          class="gicon gicon-right g-collapse-arrow"
           role="img"
         >
           <svg
@@ -126,16 +126,16 @@ exports[`Collapse could override default openMotion 1`] = `
         </span>
       </div>
       <span
-        class="ant-collapse-title"
+        class="g-collapse-title"
       >
         This is panel header 1
       </span>
     </div>
     <div
-      class="ant-collapse-panel ant-collapse-panel-active"
+      class="g-collapse-panel g-collapse-panel-active"
     >
       <div
-        class="ant-collapse-body"
+        class="g-collapse-body"
       >
         content
       </div>
@@ -146,29 +146,29 @@ exports[`Collapse could override default openMotion 1`] = `
 
 exports[`Collapse rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-collapse ant-collapse-icon-placement-start ant-collapse-rtl css-var-root"
+  class="g-collapse g-collapse-icon-placement-start g-collapse-rtl css-var-root"
 />
 `;
 
 exports[`Collapse rtl render component should be rendered correctly in RTL direction 2`] = `
 <div
-  class="ant-collapse-item"
+  class="g-collapse-item"
 >
   <div
     aria-disabled="false"
-    class="ant-collapse-header"
+    class="g-collapse-header"
     role="button"
     tabindex="0"
   >
     <div
-      class="ant-collapse-expand-icon"
+      class="g-collapse-expand-icon"
     >
       <i
         class="arrow"
       />
     </div>
     <span
-      class="ant-collapse-title"
+      class="g-collapse-title"
     />
   </div>
 </div>
@@ -176,24 +176,24 @@ exports[`Collapse rtl render component should be rendered correctly in RTL direc
 
 exports[`Collapse should render extra node of panel 1`] = `
 <div
-  class="ant-collapse ant-collapse-icon-placement-start css-var-root"
+  class="g-collapse g-collapse-icon-placement-start css-var-root"
 >
   <div
-    class="ant-collapse-item"
+    class="g-collapse-item"
   >
     <div
       aria-disabled="false"
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="g-collapse-header"
       role="button"
       tabindex="0"
     >
       <div
-        class="ant-collapse-expand-icon"
+        class="g-collapse-expand-icon"
       >
         <span
           aria-label="collapsed"
-          class="anticon anticon-right ant-collapse-arrow"
+          class="gicon gicon-right g-collapse-arrow"
           role="img"
         >
           <svg
@@ -212,12 +212,12 @@ exports[`Collapse should render extra node of panel 1`] = `
         </span>
       </div>
       <span
-        class="ant-collapse-title"
+        class="g-collapse-title"
       >
         header
       </span>
       <div
-        class="ant-collapse-extra"
+        class="g-collapse-extra"
       >
         <button
           type="button"
@@ -228,21 +228,21 @@ exports[`Collapse should render extra node of panel 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="g-collapse-item"
   >
     <div
       aria-disabled="false"
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="g-collapse-header"
       role="button"
       tabindex="0"
     >
       <div
-        class="ant-collapse-expand-icon"
+        class="g-collapse-expand-icon"
       >
         <span
           aria-label="collapsed"
-          class="anticon anticon-right ant-collapse-arrow"
+          class="gicon gicon-right g-collapse-arrow"
           role="img"
         >
           <svg
@@ -261,12 +261,12 @@ exports[`Collapse should render extra node of panel 1`] = `
         </span>
       </div>
       <span
-        class="ant-collapse-title"
+        class="g-collapse-title"
       >
         header
       </span>
       <div
-        class="ant-collapse-extra"
+        class="g-collapse-extra"
       >
         <button
           type="button"
@@ -281,20 +281,20 @@ exports[`Collapse should render extra node of panel 1`] = `
 
 exports[`Collapse should support remove expandIcon 1`] = `
 <div
-  class="ant-collapse ant-collapse-icon-placement-start css-var-root"
+  class="g-collapse g-collapse-icon-placement-start css-var-root"
 >
   <div
-    class="ant-collapse-item"
+    class="g-collapse-item"
   >
     <div
       aria-disabled="false"
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="g-collapse-header"
       role="button"
       tabindex="0"
     >
       <span
-        class="ant-collapse-title"
+        class="g-collapse-title"
       >
         header
       </span>

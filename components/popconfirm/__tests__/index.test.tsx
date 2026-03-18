@@ -75,18 +75,16 @@ describe('Popconfirm', () => {
       </Popconfirm>,
     );
 
-    expect(popconfirm.container.querySelector('.ant-popover')).toBe(null);
+    expect(popconfirm.container.querySelector('.g-popover')).toBe(null);
 
     const triggerNode = popconfirm.container.querySelectorAll('span')[0];
     fireEvent.click(triggerNode);
 
     await waitFakeTimer(100);
 
-    expect(popconfirm.container.querySelector('.ant-popover')).not.toBeNull();
-    expect(popconfirm.container.querySelector('.ant-popover')).toHaveClass(
-      'ant-popover-placement-top',
-    );
-    expect(popconfirm.container.querySelector('.ant-popover')).toMatchSnapshot();
+    expect(popconfirm.container.querySelector('.g-popover')).not.toBeNull();
+    expect(popconfirm.container.querySelector('.g-popover')).toHaveClass('g-popover-placement-top');
+    expect(popconfirm.container.querySelector('.g-popover')).toMatchSnapshot();
   });
 
   it('shows content for render functions', async () => {
@@ -98,15 +96,15 @@ describe('Popconfirm', () => {
       </Popconfirm>,
     );
 
-    expect(popconfirm.container.querySelector('.ant-popover')).toBe(null);
+    expect(popconfirm.container.querySelector('.g-popover')).toBe(null);
 
     const triggerNode = popconfirm.container.querySelectorAll('span')[0];
     fireEvent.click(triggerNode);
     await waitFakeTimer(100);
 
-    expect(popconfirm.container.querySelector('.ant-popover')).not.toBe(null);
-    expect(popconfirm.container.querySelector('.ant-popover')?.innerHTML).toContain('some-title');
-    expect(popconfirm.container.querySelector('.ant-popover')).toMatchSnapshot();
+    expect(popconfirm.container.querySelector('.g-popover')).not.toBe(null);
+    expect(popconfirm.container.querySelector('.g-popover')?.innerHTML).toContain('some-title');
+    expect(popconfirm.container.querySelector('.g-popover')).toMatchSnapshot();
   });
 
   it('should be controlled by open', () => {
@@ -117,17 +115,15 @@ describe('Popconfirm', () => {
       </Popconfirm>,
     );
 
-    expect(popconfirm.container.querySelector('.ant-popover')).toBe(null);
+    expect(popconfirm.container.querySelector('.g-popover')).toBe(null);
     popconfirm.rerender(
       <Popconfirm title="code" open>
         <span>show me your code</span>
       </Popconfirm>,
     );
 
-    expect(popconfirm.container.querySelector('.ant-popover')).not.toBe(null);
-    expect(popconfirm.container.querySelector('.ant-popover')).not.toHaveClass(
-      'ant-popover-hidden',
-    );
+    expect(popconfirm.container.querySelector('.g-popover')).not.toBe(null);
+    expect(popconfirm.container.querySelector('.g-popover')).not.toHaveClass('g-popover-hidden');
 
     popconfirm.rerender(
       <Popconfirm title="code" open={false}>
@@ -137,7 +133,7 @@ describe('Popconfirm', () => {
     act(() => {
       jest.runAllTimers();
     });
-    expect(popconfirm.container.querySelector('.ant-popover')).not.toBe(null);
+    expect(popconfirm.container.querySelector('.g-popover')).not.toBe(null);
     jest.useRealTimers();
   });
 
@@ -154,14 +150,14 @@ describe('Popconfirm', () => {
     fireEvent.click(triggerNode);
     await waitFakeTimer();
 
-    fireEvent.click(popconfirm.container.querySelector('.ant-btn-primary')!);
+    fireEvent.click(popconfirm.container.querySelector('.g-btn-primary')!);
     expect(confirm).toHaveBeenCalled();
     expect(onOpenChange).toHaveBeenLastCalledWith(false);
 
     fireEvent.click(triggerNode);
     await waitFakeTimer();
 
-    fireEvent.click(popconfirm.container.querySelector('.ant-btn')!);
+    fireEvent.click(popconfirm.container.querySelector('.g-btn')!);
     expect(cancel).toHaveBeenCalled();
     expect(onOpenChange).toHaveBeenLastCalledWith(false);
   });
@@ -182,7 +178,7 @@ describe('Popconfirm', () => {
     fireEvent.click(triggerNode);
     expect(onOpenChange).toHaveBeenCalledTimes(1);
 
-    fireEvent.click(popconfirm.container.querySelectorAll('.ant-btn')[0]);
+    fireEvent.click(popconfirm.container.querySelectorAll('.g-btn')[0]);
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenCalledWith(false);
   });
@@ -223,7 +219,7 @@ describe('Popconfirm', () => {
         <span>show me your code</span>
       </Popconfirm>,
     );
-    expect(wrapper.container.querySelector('.ant-popover')).toBeTruthy();
+    expect(wrapper.container.querySelector('.g-popover')).toBeTruthy();
   });
 
   it('should not open in disabled', () => {
@@ -234,7 +230,7 @@ describe('Popconfirm', () => {
     );
     const triggerNode = wrapper.container.querySelectorAll('span')[0];
     fireEvent.click(triggerNode);
-    expect(wrapper.container.querySelector('.ant-popover')).toBeFalsy();
+    expect(wrapper.container.querySelector('.g-popover')).toBeFalsy();
   });
 
   it('should be closed by pressing ESC', () => {
@@ -293,7 +289,7 @@ describe('Popconfirm', () => {
     expect(container.textContent).toEqual('Test');
 
     fireEvent.click(container.querySelector('.clickTarget')!);
-    fireEvent.click(container.querySelector('.ant-btn-primary')!);
+    fireEvent.click(container.querySelector('.g-btn-primary')!);
 
     await waitFakeTimer(500);
     // expect(container.textContent).toEqual('Unmounted');
@@ -322,8 +318,8 @@ describe('Popconfirm', () => {
       </Popconfirm>,
     );
 
-    expect(document.body.querySelectorAll('.ant-btn')[0].textContent).toBe('Cancel');
-    expect(document.body.querySelectorAll('.ant-btn')[1].textContent).toBe('OK');
+    expect(document.body.querySelectorAll('.g-btn')[0].textContent).toBe('Cancel');
+    expect(document.body.querySelectorAll('.g-btn')[1].textContent).toBe('OK');
   });
 
   it('should apply custom styles to Popconfirm', () => {
@@ -343,8 +339,8 @@ describe('Popconfirm', () => {
       </Popconfirm>,
     );
 
-    const popconfirmElement = container.querySelector('.ant-popconfirm');
-    const popconfirmBodyElement = container.querySelector('.ant-popover-container');
+    const popconfirmElement = container.querySelector('.g-popconfirm');
+    const popconfirmBodyElement = container.querySelector('.g-popover-container');
 
     // 验证 classNames
     expect(popconfirmElement).toHaveClass('custom-root');
@@ -374,7 +370,7 @@ describe('Popconfirm', () => {
       );
     };
     const { container } = render(<TooltipTestComponent />);
-    const getTooltipArrow = () => container.querySelector('.ant-popover-arrow');
+    const getTooltipArrow = () => container.querySelector('.g-popover-arrow');
     const configbtn = container.querySelector('.configArrow');
 
     expect(getTooltipArrow()).not.toBeNull();
@@ -403,7 +399,7 @@ describe('Popconfirm', () => {
 
     const { container } = render(<TooltipTestComponent />);
 
-    const getTooltipArrow = () => container.querySelector('.ant-popover-arrow');
+    const getTooltipArrow = () => container.querySelector('.g-popover-arrow');
     const toggleArrowBtn = container.querySelector('.toggleArrow');
 
     // Initial render, arrow should be visible because Tooltip's arrow prop is true

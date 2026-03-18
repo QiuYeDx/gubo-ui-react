@@ -2,10 +2,10 @@
 
 exports[`renders components/empty/demo/basic.tsx correctly 1`] = `
 <div
-  class="css-var-test-id ant-empty"
+  class="css-var-test-id g-empty"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="152"
@@ -65,7 +65,7 @@ exports[`renders components/empty/demo/basic.tsx correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -76,55 +76,55 @@ exports[`renders components/empty/demo/config-provider.tsx correctly 1`] = `
 Array [
   <button
     aria-checked="true"
-    class="ant-switch css-var-test-id ant-switch-checked"
+    class="g-switch css-var-test-id g-switch-checked"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       >
         customize
       </span>
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       >
         default
       </span>
     </span>
   </button>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />,
   <div
-    class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="width:100%"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         Select
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
         style="width:200px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           />
           <input
@@ -132,7 +132,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -141,11 +141,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -166,24 +166,24 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         TreeSelect
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
         style="width:200px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           />
           <input
@@ -191,7 +191,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -200,11 +200,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -225,24 +225,24 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         Cascader
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow g-select-show-search"
         style="width:200px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           />
           <input
@@ -250,7 +250,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -258,11 +258,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -283,32 +283,32 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         Transfer
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-transfer css-var-test-id"
+        class="g-transfer css-var-test-id"
       >
         <div
-          class="ant-transfer-section"
+          class="g-transfer-section"
         >
           <div
-            class="ant-transfer-list-header"
+            class="g-transfer-list-header"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-test-id ant-checkbox-css-var"
+              class="g-checkbox-wrapper g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-test-id g-checkbox-css-var"
             >
               <span
-                class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+                class="g-checkbox g-wave-target g-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="g-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
@@ -316,7 +316,7 @@ Array [
             </label>
             <span
               aria-label="down"
-              class="anticon anticon-down ant-dropdown-trigger"
+              class="gicon gicon-down g-dropdown-trigger"
               role="img"
             >
               <svg
@@ -334,7 +334,7 @@ Array [
               </svg>
             </span>
             <span
-              class="ant-transfer-list-header-selected"
+              class="g-transfer-list-header-selected"
             >
               0
               <!-- -->
@@ -342,21 +342,21 @@ Array [
               item
             </span>
             <span
-              class="ant-transfer-list-header-title"
+              class="g-transfer-list-header-title"
             />
           </div>
           <div
-            class="ant-transfer-list-body"
+            class="g-transfer-list-body"
           >
             <div
-              class="ant-transfer-list-body-not-found"
+              class="g-transfer-list-body-not-found"
             >
               <div
                 style="text-align:center"
               >
                 <span
                   aria-label="smile"
-                  class="anticon anticon-smile"
+                  class="gicon gicon-smile"
                   role="img"
                   style="font-size:20px"
                 >
@@ -382,19 +382,19 @@ Array [
           </div>
         </div>
         <div
-          class="ant-transfer-actions"
+          class="g-transfer-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+            class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
             disabled=""
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -414,16 +414,16 @@ Array [
             </span>
           </button>
           <button
-            class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+            class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
             disabled=""
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="left"
-                class="anticon anticon-left"
+                class="gicon gicon-left"
                 role="img"
               >
                 <svg
@@ -444,19 +444,19 @@ Array [
           </button>
         </div>
         <div
-          class="ant-transfer-section"
+          class="g-transfer-section"
         >
           <div
-            class="ant-transfer-list-header"
+            class="g-transfer-list-header"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-test-id ant-checkbox-css-var"
+              class="g-checkbox-wrapper g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-test-id g-checkbox-css-var"
             >
               <span
-                class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+                class="g-checkbox g-wave-target g-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="g-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
@@ -464,7 +464,7 @@ Array [
             </label>
             <span
               aria-label="down"
-              class="anticon anticon-down ant-dropdown-trigger"
+              class="gicon gicon-down g-dropdown-trigger"
               role="img"
             >
               <svg
@@ -482,7 +482,7 @@ Array [
               </svg>
             </span>
             <span
-              class="ant-transfer-list-header-selected"
+              class="g-transfer-list-header-selected"
             >
               0
               <!-- -->
@@ -490,21 +490,21 @@ Array [
               item
             </span>
             <span
-              class="ant-transfer-list-header-title"
+              class="g-transfer-list-header-title"
             />
           </div>
           <div
-            class="ant-transfer-list-body"
+            class="g-transfer-list-body"
           >
             <div
-              class="ant-transfer-list-body-not-found"
+              class="g-transfer-list-body-not-found"
             >
               <div
                 style="text-align:center"
               >
                 <span
                   aria-label="smile"
-                  class="anticon anticon-smile"
+                  class="gicon gicon-smile"
                   role="img"
                   style="font-size:20px"
                 >
@@ -532,51 +532,51 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         Table
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="css-var-test-id ant-table-css-var ant-table-wrapper"
+        class="css-var-test-id g-table-css-var g-table-wrapper"
         style="margin-top:8px"
       >
         <div
           aria-busy="false"
           aria-live="polite"
-          class="ant-spin css-var-test-id"
+          class="g-spin css-var-test-id"
         >
           <div
-            class="ant-spin-container"
+            class="g-spin-container"
           >
             <div
-              class="ant-table ant-table-empty css-var-test-id ant-table-css-var"
+              class="g-table g-table-empty css-var-test-id g-table-css-var"
             >
               <div
-                class="ant-table-container"
+                class="g-table-container"
               >
                 <div
-                  class="ant-table-content"
+                  class="g-table-content"
                 >
                   <table
                     style="table-layout:auto"
                   >
                     <thead
-                      class="ant-table-thead"
+                      class="g-table-thead"
                     >
                       <tr>
                         <th
-                          class="ant-table-cell"
+                          class="g-table-cell"
                           scope="col"
                         >
                           Name
                         </th>
                         <th
-                          class="ant-table-cell"
+                          class="g-table-cell"
                           scope="col"
                         >
                           Age
@@ -584,13 +584,13 @@ Array [
                       </tr>
                     </thead>
                     <tbody
-                      class="ant-table-tbody"
+                      class="g-table-tbody"
                     >
                       <tr
-                        class="ant-table-placeholder"
+                        class="g-table-placeholder"
                       >
                         <td
-                          class="ant-table-cell"
+                          class="g-table-cell"
                           colspan="2"
                         >
                           <div
@@ -598,7 +598,7 @@ Array [
                           >
                             <span
                               aria-label="smile"
-                              class="anticon anticon-smile"
+                              class="gicon gicon-smile"
                               role="img"
                               style="font-size:20px"
                             >
@@ -632,35 +632,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         List
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-list ant-list-split css-var-test-id"
+        class="g-list g-list-split css-var-test-id"
       >
         <div
           aria-busy="false"
           aria-live="polite"
-          class="ant-spin css-var-test-id"
+          class="g-spin css-var-test-id"
         >
           <div
-            class="ant-spin-container"
+            class="g-spin-container"
           >
             <div
-              class="ant-list-empty-text"
+              class="g-list-empty-text"
             >
               <div
                 style="text-align:center"
               >
                 <span
                   aria-label="smile"
-                  class="anticon anticon-smile"
+                  class="gicon gicon-smile"
                   role="img"
                   style="font-size:20px"
                 >
@@ -693,10 +693,10 @@ Array [
 
 exports[`renders components/empty/demo/customize.tsx correctly 1`] = `
 <div
-  class="css-var-test-id ant-empty"
+  class="css-var-test-id g-empty"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
     style="height:60px"
   >
     <img
@@ -706,10 +706,10 @@ exports[`renders components/empty/demo/customize.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     <span
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       Customize 
       <a
@@ -720,10 +720,10 @@ exports[`renders components/empty/demo/customize.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-empty-footer"
+    class="g-empty-footer"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -736,10 +736,10 @@ exports[`renders components/empty/demo/customize.tsx correctly 1`] = `
 
 exports[`renders components/empty/demo/description.tsx correctly 1`] = `
 <div
-  class="css-var-test-id ant-empty"
+  class="css-var-test-id g-empty"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="152"
@@ -803,10 +803,10 @@ exports[`renders components/empty/demo/description.tsx correctly 1`] = `
 
 exports[`renders components/empty/demo/simple.tsx correctly 1`] = `
 <div
-  class="css-var-test-id ant-empty ant-empty-normal"
+  class="css-var-test-id g-empty g-empty-normal"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -845,7 +845,7 @@ exports[`renders components/empty/demo/simple.tsx correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -854,14 +854,14 @@ exports[`renders components/empty/demo/simple.tsx correctly 1`] = `
 
 exports[`renders components/empty/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="css-var-test-id ant-empty ant-empty-normal acss-8yzyy9"
+    class="css-var-test-id g-empty g-empty-normal acss-8yzyy9"
     style="background-color:#f5f5f5;border-radius:8px"
   >
     <div
-      class="ant-empty-image"
+      class="g-empty-image"
       style="filter:grayscale(100%)"
     >
       <svg
@@ -901,17 +901,17 @@ exports[`renders components/empty/demo/style-class.tsx correctly 1`] = `
       </svg>
     </div>
     <div
-      class="ant-empty-description"
+      class="g-empty-description"
       style="color:#1890ff;font-weight:bold"
     >
       Object styles
     </div>
     <div
-      class="ant-empty-footer"
+      class="g-empty-footer"
       style="margin-top:16px"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span>
@@ -921,11 +921,11 @@ exports[`renders components/empty/demo/style-class.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="css-var-test-id ant-empty ant-empty-normal acss-8yzyy9"
+    class="css-var-test-id g-empty g-empty-normal acss-8yzyy9"
     style="background-color:#e6f7ff;border:1px solid #91d5ff"
   >
     <div
-      class="ant-empty-image"
+      class="g-empty-image"
       style="filter:hue-rotate(180deg)"
     >
       <svg
@@ -965,16 +965,16 @@ exports[`renders components/empty/demo/style-class.tsx correctly 1`] = `
       </svg>
     </div>
     <div
-      class="ant-empty-description"
+      class="g-empty-description"
       style="color:#1890ff;font-weight:bold"
     >
       Function styles
     </div>
     <div
-      class="ant-empty-footer"
+      class="g-empty-footer"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span>

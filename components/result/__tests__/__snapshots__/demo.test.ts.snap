@@ -2,10 +2,10 @@
 
 exports[`renders components/result/demo/403.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-403 css-var-test-id"
+  class="g-result g-result-403 css-var-test-id"
 >
   <div
-    class="ant-result-icon ant-result-image"
+    class="g-result-icon g-result-image"
   >
     <svg
       height="294"
@@ -278,20 +278,20 @@ exports[`renders components/result/demo/403.tsx correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     403
   </div>
   <div
-    class="ant-result-subtitle"
+    class="g-result-subtitle"
   >
     Sorry, you are not authorized to access this page.
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -304,10 +304,10 @@ exports[`renders components/result/demo/403.tsx correctly 1`] = `
 
 exports[`renders components/result/demo/404.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-404 css-var-test-id"
+  class="g-result g-result-404 css-var-test-id"
 >
   <div
-    class="ant-result-icon ant-result-image"
+    class="g-result-icon g-result-image"
   >
     <svg
       height="294"
@@ -580,20 +580,20 @@ exports[`renders components/result/demo/404.tsx correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     404
   </div>
   <div
-    class="ant-result-subtitle"
+    class="g-result-subtitle"
   >
     Sorry, the page you visited does not exist.
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -606,10 +606,10 @@ exports[`renders components/result/demo/404.tsx correctly 1`] = `
 
 exports[`renders components/result/demo/500.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-500 css-var-test-id"
+  class="g-result g-result-500 css-var-test-id"
 >
   <div
-    class="ant-result-icon ant-result-image"
+    class="g-result-icon g-result-image"
   >
     <svg
       height="294"
@@ -929,20 +929,20 @@ exports[`renders components/result/demo/500.tsx correctly 1`] = `
     </svg>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     500
   </div>
   <div
-    class="ant-result-subtitle"
+    class="g-result-subtitle"
   >
     Sorry, something went wrong.
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -955,14 +955,14 @@ exports[`renders components/result/demo/500.tsx correctly 1`] = `
 
 exports[`renders components/result/demo/component-token.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-success css-var-test-id"
+  class="g-result g-result-success css-var-test-id"
 >
   <div
-    class="ant-result-icon"
+    class="g-result-icon"
   >
     <span
       aria-label="check-circle"
-      class="anticon anticon-check-circle"
+      class="gicon gicon-check-circle"
       role="img"
     >
       <svg
@@ -981,20 +981,20 @@ exports[`renders components/result/demo/component-token.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     Successfully Purchased Cloud Server ECS!
   </div>
   <div
-    class="ant-result-subtitle"
+    class="g-result-subtitle"
   >
     Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait.
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1002,7 +1002,7 @@ exports[`renders components/result/demo/component-token.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -1015,14 +1015,14 @@ exports[`renders components/result/demo/component-token.tsx correctly 1`] = `
 
 exports[`renders components/result/demo/customIcon.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-info css-var-test-id"
+  class="g-result g-result-info css-var-test-id"
 >
   <div
-    class="ant-result-icon"
+    class="g-result-icon"
   >
     <span
       aria-label="smile"
-      class="anticon anticon-smile"
+      class="gicon gicon-smile"
       role="img"
     >
       <svg
@@ -1041,15 +1041,15 @@ exports[`renders components/result/demo/customIcon.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     Great, we have done all the operations!
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1062,14 +1062,14 @@ exports[`renders components/result/demo/customIcon.tsx correctly 1`] = `
 
 exports[`renders components/result/demo/error.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-error css-var-test-id"
+  class="g-result g-result-error css-var-test-id"
 >
   <div
-    class="ant-result-icon"
+    class="g-result-icon"
   >
     <span
       aria-label="close-circle"
-      class="anticon anticon-close-circle"
+      class="gicon gicon-close-circle"
       role="img"
     >
       <svg
@@ -1089,20 +1089,20 @@ exports[`renders components/result/demo/error.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     Submission Failed
   </div>
   <div
-    class="ant-result-subtitle"
+    class="g-result-subtitle"
   >
     Please check and modify the following information before resubmitting.
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1110,7 +1110,7 @@ exports[`renders components/result/demo/error.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -1119,16 +1119,16 @@ exports[`renders components/result/demo/error.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-result-body"
+    class="g-result-body"
   >
     <div
       class="desc"
     >
       <div
-        class="ant-typography css-var-test-id"
+        class="g-typography css-var-test-id"
       >
         <span
-          class="ant-typography css-var-test-id"
+          class="g-typography css-var-test-id"
           style="font-size:16px"
         >
           <strong>
@@ -1137,11 +1137,11 @@ exports[`renders components/result/demo/error.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-typography css-var-test-id"
+        class="g-typography css-var-test-id"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle site-result-demo-error-icon"
+          class="gicon gicon-close-circle site-result-demo-error-icon"
           role="img"
         >
           <svg
@@ -1165,11 +1165,11 @@ exports[`renders components/result/demo/error.tsx correctly 1`] = `
         </a>
       </div>
       <div
-        class="ant-typography css-var-test-id"
+        class="g-typography css-var-test-id"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle site-result-demo-error-icon"
+          class="gicon gicon-close-circle site-result-demo-error-icon"
           role="img"
         >
           <svg
@@ -1199,14 +1199,14 @@ exports[`renders components/result/demo/error.tsx correctly 1`] = `
 
 exports[`renders components/result/demo/info.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-info css-var-test-id"
+  class="g-result g-result-info css-var-test-id"
 >
   <div
-    class="ant-result-icon"
+    class="g-result-icon"
   >
     <span
       aria-label="exclamation-circle"
-      class="anticon anticon-exclamation-circle"
+      class="gicon gicon-exclamation-circle"
       role="img"
     >
       <svg
@@ -1225,15 +1225,15 @@ exports[`renders components/result/demo/info.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     Your operation has been executed
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1247,16 +1247,16 @@ exports[`renders components/result/demo/info.tsx correctly 1`] = `
 exports[`renders components/result/demo/style-class.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-result ant-result-info css-var-test-id demo-result-root"
+    class="g-result g-result-info css-var-test-id demo-result-root"
     style="border-width:2px;border-style:dashed;padding:16px"
   >
     <div
-      class="ant-result-icon demo-result-icon"
+      class="g-result-icon demo-result-icon"
       style="opacity:0.8"
     >
       <span
         aria-label="exclamation-circle"
-        class="anticon anticon-exclamation-circle"
+        class="gicon gicon-exclamation-circle"
         role="img"
       >
         <svg
@@ -1275,23 +1275,23 @@ Array [
       </span>
     </div>
     <div
-      class="ant-result-title demo-result-title"
+      class="g-result-title demo-result-title"
       style="font-style:italic;color:#1890ff"
     >
       classNames Object
     </div>
     <div
-      class="ant-result-subtitle demo-result-subtitle"
+      class="g-result-subtitle demo-result-subtitle"
       style="font-weight:bold"
     >
       This is a subtitle
     </div>
     <div
-      class="ant-result-extra demo-result-extra"
+      class="g-result-extra demo-result-extra"
       style="background-color:#f0f0f0;padding:8px"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span>
@@ -1300,7 +1300,7 @@ Array [
       </button>
     </div>
     <div
-      class="ant-result-body demo-result-body"
+      class="g-result-body demo-result-body"
       style="background-color:#fafafa;padding:12px"
     >
       <div>
@@ -1309,15 +1309,15 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-result ant-result-success css-var-test-id demo-result-root--success"
+    class="g-result g-result-success css-var-test-id demo-result-root--success"
     style="background-color:#f6ffed;border-color:#52c41a"
   >
     <div
-      class="ant-result-icon"
+      class="g-result-icon"
     >
       <span
         aria-label="check-circle"
-        class="anticon anticon-check-circle"
+        class="gicon gicon-check-circle"
         role="img"
       >
         <svg
@@ -1336,21 +1336,21 @@ Array [
       </span>
     </div>
     <div
-      class="ant-result-title"
+      class="g-result-title"
       style="color:#52c41a"
     >
       classNames Function
     </div>
     <div
-      class="ant-result-subtitle"
+      class="g-result-subtitle"
     >
       Dynamic class names
     </div>
     <div
-      class="ant-result-extra"
+      class="g-result-extra"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1364,14 +1364,14 @@ Array [
 
 exports[`renders components/result/demo/success.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-success css-var-test-id"
+  class="g-result g-result-success css-var-test-id"
 >
   <div
-    class="ant-result-icon"
+    class="g-result-icon"
   >
     <span
       aria-label="check-circle"
-      class="anticon anticon-check-circle"
+      class="gicon gicon-check-circle"
       role="img"
     >
       <svg
@@ -1390,20 +1390,20 @@ exports[`renders components/result/demo/success.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     Successfully Purchased Cloud Server ECS!
   </div>
   <div
-    class="ant-result-subtitle"
+    class="g-result-subtitle"
   >
     Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait.
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1411,7 +1411,7 @@ exports[`renders components/result/demo/success.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -1424,14 +1424,14 @@ exports[`renders components/result/demo/success.tsx correctly 1`] = `
 
 exports[`renders components/result/demo/warning.tsx correctly 1`] = `
 <div
-  class="ant-result ant-result-warning css-var-test-id"
+  class="g-result g-result-warning css-var-test-id"
 >
   <div
-    class="ant-result-icon"
+    class="g-result-icon"
   >
     <span
       aria-label="warning"
-      class="anticon anticon-warning"
+      class="gicon gicon-warning"
       role="img"
     >
       <svg
@@ -1450,15 +1450,15 @@ exports[`renders components/result/demo/warning.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   >
     There are some problems with your operation.
   </div>
   <div
-    class="ant-result-extra"
+    class="g-result-extra"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>

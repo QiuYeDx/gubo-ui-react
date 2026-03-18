@@ -2,30 +2,30 @@
 
 exports[`List Item Layout horizontal itemLayout List should accept extra node 1`] = `
 <div
-  class="ant-list ant-list-split css-var-root"
+  class="g-list g-list-split css-var-root"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <ul
-        class="ant-list-items ant-list-container css-var-root"
+        class="g-list-items g-list-container css-var-root"
       >
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           <div
-            class="ant-list-item-meta"
+            class="g-list-item-meta"
           >
             <div
-              class="ant-list-item-meta-content"
+              class="g-list-item-meta-content"
             >
               <h4
-                class="ant-list-item-meta-title"
+                class="g-list-item-meta-title"
               >
                 <a
                   href="https://ant.design"
@@ -34,14 +34,14 @@ exports[`List Item Layout horizontal itemLayout List should accept extra node 1`
                 </a>
               </h4>
               <div
-                class="ant-list-item-meta-description"
+                class="g-list-item-meta-description"
               >
                 Ant Design, a design language for background applications, is refined by Ant UED Team.
               </div>
             </div>
           </div>
           <ul
-            class="ant-list-item-action"
+            class="g-list-item-action"
           >
             <li>
               <a>
@@ -61,31 +61,31 @@ exports[`List Item Layout horizontal itemLayout List should accept extra node 1`
 
 exports[`List Item Layout rowKey could be function 1`] = `
 <div
-  class="ant-list ant-list-split css-var-root"
+  class="g-list g-list-split css-var-root"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <ul
-        class="ant-list-items ant-list-container css-var-root"
+        class="g-list-items g-list-container css-var-root"
       >
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           ant design
         </li>
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           ant design
         </li>
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           ant design
         </li>
@@ -97,31 +97,31 @@ exports[`List Item Layout rowKey could be function 1`] = `
 
 exports[`List Item Layout rowKey could be string 1`] = `
 <div
-  class="ant-list ant-list-split css-var-root"
+  class="g-list g-list-split css-var-root"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <ul
-        class="ant-list-items ant-list-container css-var-root"
+        class="g-list-items g-list-container css-var-root"
       >
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           ant design
         </li>
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           ant design
         </li>
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           ant design
         </li>
@@ -133,30 +133,30 @@ exports[`List Item Layout rowKey could be string 1`] = `
 
 exports[`List Item Layout should render in RTL direction 1`] = `
 <div
-  class="ant-list ant-list-split ant-list-rtl css-var-root"
+  class="g-list g-list-split g-list-rtl css-var-root"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin ant-spin-rtl css-var-root"
+    class="g-spin g-spin-rtl css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <ul
-        class="ant-list-items ant-list-container css-var-root"
+        class="g-list-items g-list-container css-var-root"
       >
         <li
-          class="ant-list-item"
+          class="g-list-item"
         >
           <div
-            class="ant-list-item-meta"
+            class="g-list-item-meta"
           >
             <div
-              class="ant-list-item-meta-content"
+              class="g-list-item-meta-content"
             >
               <h4
-                class="ant-list-item-meta-title"
+                class="g-list-item-meta-title"
               >
                 <a
                   href="https://ant.design"
@@ -165,14 +165,14 @@ exports[`List Item Layout should render in RTL direction 1`] = `
                 </a>
               </h4>
               <div
-                class="ant-list-item-meta-description"
+                class="g-list-item-meta-description"
               >
                 Ant Design, a design language for background applications, is refined by Ant UED Team.
               </div>
             </div>
           </div>
           <ul
-            class="ant-list-item-action"
+            class="g-list-item-action"
           >
             <li>
               <a>

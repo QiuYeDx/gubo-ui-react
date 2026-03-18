@@ -76,10 +76,10 @@ describe('Steps', () => {
       );
     };
     const { container } = render(<ControlSteps />);
-    const ele = container.querySelectorAll<HTMLElement>('.ant-steps-item')[1];
-    expect(ele).not.toHaveClass('ant-steps-item-process');
+    const ele = container.querySelectorAll<HTMLElement>('.g-steps-item')[1];
+    expect(ele).not.toHaveClass('g-steps-item-process');
     fireEvent.click(screen.getByText(/进行中/));
-    expect(ele).toHaveClass('ant-steps-item-process');
+    expect(ele).toHaveClass('g-steps-item-process');
   });
 
   it('deprecated warning', () => {
@@ -99,7 +99,7 @@ describe('Steps', () => {
       />,
     );
 
-    expect(container.querySelectorAll('.ant-steps-item')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-steps-item')).toHaveLength(1);
 
     expect(errorSpy).toHaveBeenCalledWith(
       'Warning: [antd: Steps] `direction` is deprecated. Please use `orientation` instead.',
@@ -122,7 +122,7 @@ describe('Steps', () => {
         <Steps items={[{ title: 'In Progress' }, { title: 'Finished' }]} />
       </ConfigProvider>,
     );
-    expect(container.querySelectorAll('.ant-steps-small')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-steps-small')).toHaveLength(1);
   });
 
   it('no tooltip if inline item not have content', async () => {
@@ -142,14 +142,14 @@ describe('Steps', () => {
     );
 
     // First
-    fireEvent.mouseEnter(container.querySelectorAll('.ant-steps-item')[0]);
+    fireEvent.mouseEnter(container.querySelectorAll('.g-steps-item')[0]);
     await waitFakeTimer();
-    expect(document.querySelector('.ant-tooltip')).toBeFalsy();
+    expect(document.querySelector('.g-tooltip')).toBeFalsy();
 
     // Second
-    fireEvent.mouseEnter(container.querySelectorAll('.ant-steps-item')[1]);
+    fireEvent.mouseEnter(container.querySelectorAll('.g-steps-item')[1]);
     await waitFakeTimer();
-    expect(document.querySelector('.ant-tooltip')).toBeTruthy();
+    expect(document.querySelector('.g-tooltip')).toBeTruthy();
   });
 
   it('iconRender', () => {
@@ -169,7 +169,7 @@ describe('Steps', () => {
     const { container } = render(<Steps iconRender={iconRender} items={[item]} />);
 
     expect(container.querySelector('.bamboo')).toBeTruthy();
-    expect(container.querySelector('.ant-steps-item-icon')).toBeTruthy();
+    expect(container.querySelector('.g-steps-item-icon')).toBeTruthy();
 
     expect(renderInfo!).toEqual({
       index: 0,

@@ -2,10 +2,10 @@
 
 exports[`Empty rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-rtl"
+  class="css-var-root g-empty g-empty-rtl"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="152"
@@ -65,7 +65,7 @@ exports[`Empty rtl render component should be rendered correctly in RTL directio
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -74,10 +74,10 @@ exports[`Empty rtl render component should be rendered correctly in RTL directio
 
 exports[`Empty should render in RTL direction 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-rtl"
+  class="css-var-root g-empty g-empty-rtl"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="152"
@@ -137,7 +137,7 @@ exports[`Empty should render in RTL direction 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>

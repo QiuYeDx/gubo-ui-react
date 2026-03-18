@@ -113,7 +113,7 @@ describe('Sorter.value.test.tsx', () => {
       );
     };
     const { container } = render(<TableSorter />);
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(onChange).toHaveBeenLastCalledWith(
       expect.anything(),
       expect.anything(),
@@ -123,7 +123,7 @@ describe('Sorter.value.test.tsx', () => {
       }),
       expect.anything(),
     );
-    const columnSorters = container.querySelectorAll('.ant-table-column-sorters');
+    const columnSorters = container.querySelectorAll('.g-table-column-sorters');
     const fooSorterIcon = columnSorters[1];
     fireEvent.click(fooSorterIcon);
     expect(onChange).toHaveBeenLastCalledWith(
@@ -145,9 +145,9 @@ describe('Sorter.value.test.tsx', () => {
     fireEvent.click(changeButton!);
     const getNameColumn = () => container.querySelector('th');
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-up')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-up')?.className.includes('active'),
     ).toBeTruthy();
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(onChange).toHaveBeenLastCalledWith(
       expect.anything(),
       expect.anything(),
@@ -164,7 +164,7 @@ describe('Sorter.value.test.tsx', () => {
       expect.anything(),
     );
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-down')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-down')?.className.includes('active'),
     ).toBeTruthy();
   });
 
@@ -219,7 +219,7 @@ describe('Sorter.value.test.tsx', () => {
       );
     };
     const { container } = render(<TableSorter />);
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(onChange).toHaveBeenLastCalledWith(
       expect.anything(),
       expect.anything(),
@@ -231,7 +231,7 @@ describe('Sorter.value.test.tsx', () => {
     );
     const changeButton = container.querySelector('.change-column');
     fireEvent.click(changeButton!);
-    const columnSorters = container.querySelectorAll('.ant-table-column-sorters');
+    const columnSorters = container.querySelectorAll('.g-table-column-sorters');
     const fooSorterIcon = columnSorters[1];
     fireEvent.click(fooSorterIcon);
     expect(onChange).toHaveBeenLastCalledWith(

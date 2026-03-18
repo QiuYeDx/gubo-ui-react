@@ -146,19 +146,19 @@ describe('TimePicker', () => {
       expect(element).toHaveStyle(styleString);
     };
     const testSelectors: { key: keyof typeof testClassNames; selector: string }[] = [
-      { key: 'root', selector: '.ant-picker' },
-      { key: 'prefix', selector: '.ant-picker-prefix' },
-      { key: 'input', selector: '.ant-picker-input input' },
-      { key: 'suffix', selector: '.ant-picker-suffix' },
+      { key: 'root', selector: '.g-picker' },
+      { key: 'prefix', selector: '.g-picker-prefix' },
+      { key: 'input', selector: '.g-picker-input input' },
+      { key: 'suffix', selector: '.g-picker-suffix' },
     ];
 
     const testPopupSelectors: {
       key: keyof typeof testPopupClassNames;
       selector: string;
     }[] = [
-      { key: 'root', selector: '.ant-picker-dropdown' },
-      { key: 'content', selector: '.ant-picker-content' },
-      { key: 'item', selector: '.ant-picker-time-panel-cell' },
+      { key: 'root', selector: '.g-picker-dropdown' },
+      { key: 'content', selector: '.g-picker-content' },
+      { key: 'item', selector: '.g-picker-time-panel-cell' },
     ];
 
     // Test TimePicker
@@ -217,11 +217,11 @@ describe('TimePicker', () => {
       />,
     );
 
-    const rootElement = container.querySelector('.ant-picker');
+    const rootElement = container.querySelector('.g-picker');
     expect(rootElement).toHaveClass('component-root');
     expect(rootElement).toHaveStyle('padding: 8px');
 
-    const prefixElement = container.querySelector('.ant-picker-prefix');
+    const prefixElement = container.querySelector('.g-picker-prefix');
     expect(prefixElement).toHaveClass('component-prefix');
     expect(prefixElement).toHaveStyle('color: rgb(255, 0, 0)');
   });

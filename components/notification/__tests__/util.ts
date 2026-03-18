@@ -18,7 +18,7 @@ export async function triggerMotionEnd(runAllTimers = true) {
     }
   }
 
-  // document.querySelectorAll('.ant-notification-fade-leave').forEach(ele => {
+  // document.querySelectorAll('.g-notification-fade-leave').forEach(ele => {
   //   fireEvent.animationEnd(ele);
   // });
   document.querySelectorAll('[role="alert"]').forEach((ele) => {

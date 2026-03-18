@@ -42,17 +42,17 @@ describe('Tabs', () => {
     });
 
     it('add card', () => {
-      fireEvent.click(wrapper.querySelector('.ant-tabs-nav-add')!);
+      fireEvent.click(wrapper.querySelector('.g-tabs-nav-add')!);
       expect(handleEdit.mock.calls[0][1]).toBe('add');
     });
 
     it('remove card', () => {
-      fireEvent.click(wrapper.querySelector('.anticon-close')!);
+      fireEvent.click(wrapper.querySelector('.gicon-close')!);
       expect(handleEdit).toHaveBeenCalledWith('1', 'remove');
     });
 
     it('validateElement', () => {
-      expect(wrapper.querySelectorAll('.ant-tabs-tab').length).toBe(1);
+      expect(wrapper.querySelectorAll('.g-tabs-tab').length).toBe(1);
     });
   });
 
@@ -121,7 +121,7 @@ describe('Tabs', () => {
         invalidate
       </Tabs>,
     );
-    expect(container.querySelectorAll('.ant-tabs-tab')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-tabs-tab')).toHaveLength(1);
 
     expect(errorSpy).toHaveBeenCalledWith(
       'Warning: [antd: Tabs] `Tabs.TabPane` is deprecated. Please use `items` instead.',
@@ -138,9 +138,9 @@ describe('Tabs', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.Tabs_1 .ant-tabs-ink-bar')).toHaveStyle({ width: 12 });
-    expect(container.querySelector('.Tabs_2 .ant-tabs-ink-bar')).toHaveStyle({ width: 12 });
-    expect(container.querySelector('.Tabs_3 .ant-tabs-ink-bar')).toHaveStyle({ width: 4 });
+    expect(container.querySelector('.Tabs_1 .g-tabs-ink-bar')).toHaveStyle({ width: 12 });
+    expect(container.querySelector('.Tabs_2 .g-tabs-ink-bar')).toHaveStyle({ width: 12 });
+    expect(container.querySelector('.Tabs_3 .g-tabs-ink-bar')).toHaveStyle({ width: 4 });
   });
 
   it('warning for indicatorSize', () => {
@@ -182,11 +182,11 @@ describe('Tabs', () => {
         })}
       />,
     );
-    const root = container.querySelector('.ant-tabs');
-    const item = container.querySelector('.ant-tabs-tab');
-    const indicator = container.querySelector('.ant-tabs-ink-bar');
-    const header = container.querySelector('.ant-tabs-nav');
-    const content = container.querySelector('.ant-tabs-tabpane');
+    const root = container.querySelector('.g-tabs');
+    const item = container.querySelector('.g-tabs-tab');
+    const indicator = container.querySelector('.g-tabs-ink-bar');
+    const header = container.querySelector('.g-tabs-nav');
+    const content = container.querySelector('.g-tabs-tabpane');
     expect(root).toHaveClass(customClassnames.root);
     expect(item).toHaveClass(customClassnames.item);
     expect(indicator).toHaveClass(customClassnames.indicator);
@@ -223,20 +223,20 @@ describe('Tabs', () => {
 
     it.each([
       // [description, props, direction, expectedClass, shouldWarn]
-      ['LTR: start -> left', { tabPlacement: 'start' }, 'ltr', '.ant-tabs-left', false],
-      ['LTR: end -> right', { tabPlacement: 'end' }, 'ltr', '.ant-tabs-right', false],
-      ['RTL: start -> right', { tabPlacement: 'start' }, 'rtl', '.ant-tabs-right', false],
-      ['RTL: end -> left', { tabPlacement: 'end' }, 'rtl', '.ant-tabs-left', false],
-      ['legacy left (with warning)', { tabPosition: 'left' }, 'ltr', '.ant-tabs-left', true],
-      ['legacy right (with warning)', { tabPosition: 'right' }, 'ltr', '.ant-tabs-right', true],
+      ['LTR: start -> left', { tabPlacement: 'start' }, 'ltr', '.g-tabs-left', false],
+      ['LTR: end -> right', { tabPlacement: 'end' }, 'ltr', '.g-tabs-right', false],
+      ['RTL: start -> right', { tabPlacement: 'start' }, 'rtl', '.g-tabs-right', false],
+      ['RTL: end -> left', { tabPlacement: 'end' }, 'rtl', '.g-tabs-left', false],
+      ['legacy left (with warning)', { tabPosition: 'left' }, 'ltr', '.g-tabs-left', true],
+      ['legacy right (with warning)', { tabPosition: 'right' }, 'ltr', '.g-tabs-right', true],
       [
         'placement priority',
         { tabPlacement: 'end', tabPosition: 'left' },
         'rtl',
-        '.ant-tabs-left',
+        '.g-tabs-left',
         true,
       ],
-      ['no placement', {}, 'ltr', '.ant-tabs-top', false],
+      ['no placement', {}, 'ltr', '.g-tabs-top', false],
     ])('%s', (_, props, direction, expectedClass, shouldWarn) => {
       const { container } = renderTabs(props, direction as 'ltr' | 'rtl');
       expect(container.querySelector(expectedClass)).toBeTruthy();

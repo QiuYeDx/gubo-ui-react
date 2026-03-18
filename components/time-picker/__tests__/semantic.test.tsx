@@ -34,19 +34,19 @@ describe('TimePicker.Semantic', () => {
       />,
     );
 
-    const rootElement = container.querySelector('.ant-picker');
+    const rootElement = container.querySelector('.g-picker');
     expect(rootElement).toHaveClass('semantic-root');
     expect(rootElement).toHaveStyle('background-color: rgb(240, 240, 240)');
 
-    const prefixElement = container.querySelector('.ant-picker-prefix');
+    const prefixElement = container.querySelector('.g-picker-prefix');
     expect(prefixElement).toHaveClass('semantic-prefix');
     expect(prefixElement).toHaveStyle('font-size: 16px');
 
-    const inputElement = container.querySelector('.ant-picker-input input');
+    const inputElement = container.querySelector('.g-picker-input input');
     expect(inputElement).toHaveClass('semantic-input');
     expect(inputElement).toHaveStyle('font-weight: bold');
 
-    const popupRoot = container.querySelector('.ant-picker-dropdown');
+    const popupRoot = container.querySelector('.g-picker-dropdown');
     expect(popupRoot).toHaveClass('semantic-popup-root');
     expect(popupRoot).toHaveStyle('border-radius: 8px');
   });

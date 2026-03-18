@@ -2,7 +2,7 @@
 
 exports[`renders components/modal/demo/async.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -13,7 +13,7 @@ exports[`renders components/modal/demo/async.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/basic.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -24,7 +24,7 @@ exports[`renders components/modal/demo/basic.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/button-props.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -39,25 +39,25 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
 >
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel css-var-test-id g-css-var"
     role="dialog"
     style="width:100%"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <button
         aria-label="Close"
-        class="ant-modal-close"
+        class="g-modal-close"
         type="button"
       >
         <span
-          class="ant-modal-close-x"
+          class="g-modal-close-x"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close ant-modal-close-icon"
+            class="gicon gicon-close g-modal-close-icon"
             role="img"
           >
             <svg
@@ -78,24 +78,24 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
         </span>
       </button>
       <div
-        class="ant-modal-header"
+        class="g-modal-header"
       >
         <div
-          class="ant-modal-title"
+          class="g-modal-title"
         >
           Hello World!
         </div>
       </div>
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         Hello World?!
       </div>
       <div
-        class="ant-modal-footer"
+        class="g-modal-footer"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -103,7 +103,7 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -115,25 +115,25 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
   </div>
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel css-var-test-id g-css-var"
     role="dialog"
     style="width:100%"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <button
         aria-label="Close"
-        class="ant-modal-close"
+        class="g-modal-close"
         type="button"
       >
         <span
-          class="ant-modal-close-x"
+          class="g-modal-close-x"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close ant-modal-close-icon"
+            class="gicon gicon-close g-modal-close-icon"
             role="img"
           >
             <svg
@@ -154,24 +154,24 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
         </span>
       </button>
       <div
-        class="ant-modal-header"
+        class="g-modal-header"
       >
         <div
-          class="ant-modal-title"
+          class="g-modal-title"
         >
           Hello World!
         </div>
       </div>
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         Hello World?!
       </div>
       <div
-        class="ant-modal-footer"
+        class="g-modal-footer"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -179,7 +179,7 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -191,26 +191,26 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
   </div>
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel ant-modal-confirm ant-modal-confirm-success css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel g-modal-confirm g-modal-confirm-success css-var-test-id g-css-var"
     role="dialog"
     style="width:200px"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         <div
-          class="ant-modal-confirm-body-wrapper"
+          class="g-modal-confirm-body-wrapper"
         >
           <div
-            class="ant-modal-confirm-body"
+            class="g-modal-confirm-body"
           >
             <span
               aria-label="check-circle"
-              class="anticon anticon-check-circle"
+              class="gicon gicon-check-circle"
               role="img"
             >
               <svg
@@ -228,20 +228,20 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
               </svg>
             </span>
             <div
-              class="ant-modal-confirm-paragraph"
+              class="g-modal-confirm-paragraph"
             >
               <div
-                class="ant-modal-confirm-content"
+                class="g-modal-confirm-content"
               >
                 A good news!
               </div>
             </div>
           </div>
           <div
-            class="ant-modal-confirm-btns"
+            class="g-modal-confirm-btns"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
               type="button"
             >
               <span>
@@ -255,26 +255,26 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
   </div>
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel ant-modal-confirm ant-modal-confirm-confirm css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel g-modal-confirm g-modal-confirm-confirm css-var-test-id g-css-var"
     role="dialog"
     style="width:300px"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         <div
-          class="ant-modal-confirm-body-wrapper"
+          class="g-modal-confirm-body-wrapper"
         >
           <div
-            class="ant-modal-confirm-body ant-modal-confirm-body-has-title"
+            class="g-modal-confirm-body g-modal-confirm-body-has-title"
           >
             <span
               aria-label="exclamation-circle"
-              class="anticon anticon-exclamation-circle"
+              class="gicon gicon-exclamation-circle"
               role="img"
             >
               <svg
@@ -292,25 +292,25 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
               </svg>
             </span>
             <div
-              class="ant-modal-confirm-paragraph"
+              class="g-modal-confirm-paragraph"
             >
               <span
-                class="ant-modal-confirm-title"
+                class="g-modal-confirm-title"
               >
                 Confirm This?
               </span>
               <div
-                class="ant-modal-confirm-content"
+                class="g-modal-confirm-content"
               >
                 Some descriptions.
               </div>
             </div>
           </div>
           <div
-            class="ant-modal-confirm-btns"
+            class="g-modal-confirm-btns"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
               type="button"
             >
               <span>
@@ -318,7 +318,7 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
               type="button"
             >
               <span>
@@ -335,14 +335,14 @@ exports[`renders components/modal/demo/component-token.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/confirm.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="flex-wrap:wrap"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -351,10 +351,10 @@ exports[`renders components/modal/demo/confirm.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -363,10 +363,10 @@ exports[`renders components/modal/demo/confirm.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
       type="button"
     >
       <span>
@@ -375,10 +375,10 @@ exports[`renders components/modal/demo/confirm.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
       type="button"
     >
       <span>
@@ -391,7 +391,7 @@ exports[`renders components/modal/demo/confirm.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/confirm-router.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -402,7 +402,7 @@ exports[`renders components/modal/demo/confirm-router.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/custom-mouse-position.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -413,7 +413,7 @@ exports[`renders components/modal/demo/custom-mouse-position.tsx correctly 1`] =
 
 exports[`renders components/modal/demo/dark.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -424,7 +424,7 @@ exports[`renders components/modal/demo/dark.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/footer.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -435,13 +435,13 @@ exports[`renders components/modal/demo/footer.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/footer-render.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -450,10 +450,10 @@ exports[`renders components/modal/demo/footer-render.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -466,13 +466,13 @@ exports[`renders components/modal/demo/footer-render.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/hooks.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -481,10 +481,10 @@ exports[`renders components/modal/demo/hooks.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -493,10 +493,10 @@ exports[`renders components/modal/demo/hooks.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -505,10 +505,10 @@ exports[`renders components/modal/demo/hooks.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -521,7 +521,7 @@ exports[`renders components/modal/demo/hooks.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/loading.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -532,13 +532,13 @@ exports[`renders components/modal/demo/loading.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/locale.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -547,10 +547,10 @@ exports[`renders components/modal/demo/locale.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -563,7 +563,7 @@ exports[`renders components/modal/demo/locale.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/manual.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -574,13 +574,13 @@ exports[`renders components/modal/demo/manual.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/mask.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -589,10 +589,10 @@ exports[`renders components/modal/demo/mask.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -601,10 +601,10 @@ exports[`renders components/modal/demo/mask.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -617,7 +617,7 @@ exports[`renders components/modal/demo/mask.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/modal-render.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -628,31 +628,31 @@ exports[`renders components/modal/demo/modal-render.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/nested.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-checked="false"
-      class="ant-switch css-var-test-id"
+      class="g-switch css-var-test-id"
       role="switch"
       style="position:relative;z-index:0"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         >
           Open
         </span>
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         >
           Close
         </span>
@@ -660,10 +660,10 @@ exports[`renders components/modal/demo/nested.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -672,13 +672,13 @@ exports[`renders components/modal/demo/nested.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   />
   <div
-    class="ant-space-item"
+    class="g-space-item"
   />
   <div
-    class="ant-space-item"
+    class="g-space-item"
   />
 </div>
 `;
@@ -686,7 +686,7 @@ exports[`renders components/modal/demo/nested.tsx correctly 1`] = `
 exports[`renders components/modal/demo/position.tsx correctly 1`] = `
 Array [
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -696,7 +696,7 @@ Array [
   <br />,
   <br />,
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -712,25 +712,25 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
 >
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel css-var-test-id g-css-var"
     role="dialog"
     style="width:100%;height:200px"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <button
         aria-label="Close"
-        class="ant-modal-close"
+        class="g-modal-close"
         type="button"
       >
         <span
-          class="ant-modal-close-x"
+          class="g-modal-close-x"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close ant-modal-close-icon"
+            class="gicon gicon-close g-modal-close-icon"
             role="img"
           >
             <svg
@@ -751,24 +751,24 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
         </span>
       </button>
       <div
-        class="ant-modal-header"
+        class="g-modal-header"
       >
         <div
-          class="ant-modal-title"
+          class="g-modal-title"
         >
           Hello World!
         </div>
       </div>
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         Hello World?!
       </div>
       <div
-        class="ant-modal-footer"
+        class="g-modal-footer"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -776,7 +776,7 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -788,26 +788,26 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
   </div>
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel ant-modal-confirm ant-modal-confirm-success css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel g-modal-confirm g-modal-confirm-success css-var-test-id g-css-var"
     role="dialog"
     style="width:200px;height:150px"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         <div
-          class="ant-modal-confirm-body-wrapper"
+          class="g-modal-confirm-body-wrapper"
         >
           <div
-            class="ant-modal-confirm-body"
+            class="g-modal-confirm-body"
           >
             <span
               aria-label="check-circle"
-              class="anticon anticon-check-circle"
+              class="gicon gicon-check-circle"
               role="img"
             >
               <svg
@@ -825,20 +825,20 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
               </svg>
             </span>
             <div
-              class="ant-modal-confirm-paragraph"
+              class="g-modal-confirm-paragraph"
             >
               <div
-                class="ant-modal-confirm-content"
+                class="g-modal-confirm-content"
               >
                 A good news!
               </div>
             </div>
           </div>
           <div
-            class="ant-modal-confirm-btns"
+            class="g-modal-confirm-btns"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
               type="button"
             >
               <span>
@@ -852,26 +852,26 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
   </div>
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel ant-modal-confirm ant-modal-confirm-confirm css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel g-modal-confirm g-modal-confirm-confirm css-var-test-id g-css-var"
     role="dialog"
     style="width:300px;height:200px"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         <div
-          class="ant-modal-confirm-body-wrapper"
+          class="g-modal-confirm-body-wrapper"
         >
           <div
-            class="ant-modal-confirm-body ant-modal-confirm-body-has-title"
+            class="g-modal-confirm-body g-modal-confirm-body-has-title"
           >
             <span
               aria-label="exclamation-circle"
-              class="anticon anticon-exclamation-circle"
+              class="gicon gicon-exclamation-circle"
               role="img"
             >
               <svg
@@ -889,25 +889,25 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
               </svg>
             </span>
             <div
-              class="ant-modal-confirm-paragraph"
+              class="g-modal-confirm-paragraph"
             >
               <span
-                class="ant-modal-confirm-title"
+                class="g-modal-confirm-title"
               >
                 Confirm This?
               </span>
               <div
-                class="ant-modal-confirm-content"
+                class="g-modal-confirm-content"
               >
                 Some descriptions.
               </div>
             </div>
           </div>
           <div
-            class="ant-modal-confirm-btns"
+            class="g-modal-confirm-btns"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
               type="button"
             >
               <span>
@@ -915,7 +915,7 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
               type="button"
             >
               <span>
@@ -929,25 +929,25 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
   </div>
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel css-var-test-id g-css-var"
     role="dialog"
     style="width:380px;height:200px"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <button
         aria-label="Close"
-        class="ant-modal-close"
+        class="g-modal-close"
         type="button"
       >
         <span
-          class="ant-modal-close-x"
+          class="g-modal-close-x"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close ant-modal-close-icon"
+            class="gicon gicon-close g-modal-close-icon"
             role="img"
           >
             <svg
@@ -968,22 +968,22 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
         </span>
       </button>
       <div
-        class="ant-modal-header"
+        class="g-modal-header"
       >
         <div
-          class="ant-modal-title"
+          class="g-modal-title"
         >
           Custom Footer Render
         </div>
       </div>
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         <div
-          class="ant-typography css-var-test-id"
+          class="g-typography css-var-test-id"
         >
           <a
-            class="ant-typography ant-typography-link css-var-test-id"
+            class="g-typography g-typography-link css-var-test-id"
             href="https://github.com/ant-design/ant-design/pull/44318"
           >
             Feature #44318
@@ -991,22 +991,22 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-modal-footer"
+        class="g-modal-footer"
       >
         <div
-          class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             <div
-              class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+              class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
             >
               <div
-                class="ant-space-item"
+                class="g-space-item"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
                   type="button"
                 >
                   <span>
@@ -1015,10 +1015,10 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
                 </button>
               </div>
               <div
-                class="ant-space-item"
+                class="g-space-item"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
                   type="button"
                 >
                   <span>
@@ -1029,16 +1029,16 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             <div
-              class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+              class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
             >
               <div
-                class="ant-space-item"
+                class="g-space-item"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
                   type="button"
                 >
                   <span>
@@ -1047,10 +1047,10 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
                 </button>
               </div>
               <div
-                class="ant-space-item"
+                class="g-space-item"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-solid"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-dangerous g-btn-color-dangerous g-btn-varig-solid"
                   type="button"
                 >
                   <span>
@@ -1059,10 +1059,10 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
                 </button>
               </div>
               <div
-                class="ant-space-item"
+                class="g-space-item"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+                  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
                   type="button"
                 >
                   <span>
@@ -1081,14 +1081,14 @@ exports[`renders components/modal/demo/render-panel.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/static-info.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="flex-wrap:wrap"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -1097,10 +1097,10 @@ exports[`renders components/modal/demo/static-info.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -1109,10 +1109,10 @@ exports[`renders components/modal/demo/static-info.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -1121,10 +1121,10 @@ exports[`renders components/modal/demo/static-info.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -1137,10 +1137,10 @@ exports[`renders components/modal/demo/static-info.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-gap-medium"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -1148,7 +1148,7 @@ exports[`renders components/modal/demo/style-class.tsx correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -1160,10 +1160,10 @@ exports[`renders components/modal/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/modal/demo/width.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-medium g-flex-vertical"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -1171,7 +1171,7 @@ exports[`renders components/modal/demo/width.tsx correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -1187,25 +1187,25 @@ exports[`renders components/modal/demo/wireframe.tsx correctly 1`] = `
 >
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel css-var-test-id g-css-var"
     role="dialog"
     style="width:100%"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <button
         aria-label="Close"
-        class="ant-modal-close"
+        class="g-modal-close"
         type="button"
       >
         <span
-          class="ant-modal-close-x"
+          class="g-modal-close-x"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close ant-modal-close-icon"
+            class="gicon gicon-close g-modal-close-icon"
             role="img"
           >
             <svg
@@ -1226,24 +1226,24 @@ exports[`renders components/modal/demo/wireframe.tsx correctly 1`] = `
         </span>
       </button>
       <div
-        class="ant-modal-header"
+        class="g-modal-header"
       >
         <div
-          class="ant-modal-title"
+          class="g-modal-title"
         >
           Hello World!
         </div>
       </div>
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         Hello World?!
       </div>
       <div
-        class="ant-modal-footer"
+        class="g-modal-footer"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -1251,7 +1251,7 @@ exports[`renders components/modal/demo/wireframe.tsx correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -1263,26 +1263,26 @@ exports[`renders components/modal/demo/wireframe.tsx correctly 1`] = `
   </div>
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel ant-modal-confirm ant-modal-confirm-success css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel g-modal-confirm g-modal-confirm-success css-var-test-id g-css-var"
     role="dialog"
     style="width:200px"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         <div
-          class="ant-modal-confirm-body-wrapper"
+          class="g-modal-confirm-body-wrapper"
         >
           <div
-            class="ant-modal-confirm-body"
+            class="g-modal-confirm-body"
           >
             <span
               aria-label="check-circle"
-              class="anticon anticon-check-circle"
+              class="gicon gicon-check-circle"
               role="img"
             >
               <svg
@@ -1300,20 +1300,20 @@ exports[`renders components/modal/demo/wireframe.tsx correctly 1`] = `
               </svg>
             </span>
             <div
-              class="ant-modal-confirm-paragraph"
+              class="g-modal-confirm-paragraph"
             >
               <div
-                class="ant-modal-confirm-content"
+                class="g-modal-confirm-content"
               >
                 A good news!
               </div>
             </div>
           </div>
           <div
-            class="ant-modal-confirm-btns"
+            class="g-modal-confirm-btns"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
               type="button"
             >
               <span>
@@ -1327,26 +1327,26 @@ exports[`renders components/modal/demo/wireframe.tsx correctly 1`] = `
   </div>
   <div
     aria-modal="true"
-    class="ant-modal ant-modal-pure-panel ant-modal-confirm ant-modal-confirm-confirm css-var-test-id ant-css-var"
+    class="g-modal g-modal-pure-panel g-modal-confirm g-modal-confirm-confirm css-var-test-id g-css-var"
     role="dialog"
     style="width:300px"
     tabindex="-1"
   >
     <div
-      class="ant-modal-container"
+      class="g-modal-container"
     >
       <div
-        class="ant-modal-body"
+        class="g-modal-body"
       >
         <div
-          class="ant-modal-confirm-body-wrapper"
+          class="g-modal-confirm-body-wrapper"
         >
           <div
-            class="ant-modal-confirm-body ant-modal-confirm-body-has-title"
+            class="g-modal-confirm-body g-modal-confirm-body-has-title"
           >
             <span
               aria-label="exclamation-circle"
-              class="anticon anticon-exclamation-circle"
+              class="gicon gicon-exclamation-circle"
               role="img"
             >
               <svg
@@ -1364,25 +1364,25 @@ exports[`renders components/modal/demo/wireframe.tsx correctly 1`] = `
               </svg>
             </span>
             <div
-              class="ant-modal-confirm-paragraph"
+              class="g-modal-confirm-paragraph"
             >
               <span
-                class="ant-modal-confirm-title"
+                class="g-modal-confirm-title"
               >
                 Confirm This?
               </span>
               <div
-                class="ant-modal-confirm-content"
+                class="g-modal-confirm-content"
               >
                 Some descriptions.
               </div>
             </div>
           </div>
           <div
-            class="ant-modal-confirm-btns"
+            class="g-modal-confirm-btns"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
               type="button"
             >
               <span>
@@ -1390,7 +1390,7 @@ exports[`renders components/modal/demo/wireframe.tsx correctly 1`] = `
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
               type="button"
             >
               <span>

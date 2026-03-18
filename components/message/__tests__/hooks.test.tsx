@@ -84,7 +84,7 @@ describe('message.hooks', () => {
     const { container } = render(<Demo />);
     fireEvent.click(container.querySelector('button')!);
     expect(document.querySelectorAll('.my-test-message-notice')).toHaveLength(1);
-    expect(document.querySelectorAll('.anticon-check-circle')).toHaveLength(1);
+    expect(document.querySelectorAll('.gicon-check-circle')).toHaveLength(1);
     expect(document.querySelector('.hook-test-result')!.textContent).toEqual('bamboo');
   });
 
@@ -224,7 +224,7 @@ describe('message.hooks', () => {
     fireEvent.click(container.querySelector('button')!);
 
     expect(div.querySelectorAll('.my-test-message-notice')).toHaveLength(1);
-    expect(div.querySelectorAll('.anticon-check-circle')).toHaveLength(1);
+    expect(div.querySelectorAll('.gicon-check-circle')).toHaveLength(1);
     expect(div.querySelector('.hook-content')!.textContent).toEqual('happy');
     expect(document.querySelectorAll(`#${containerId}`)).toHaveLength(1);
   });
@@ -268,7 +268,7 @@ describe('message.hooks', () => {
     render(<Demo />);
 
     const styleText = extractStyle(cache, true);
-    expect(styleText).not.toContain('.ant-message');
+    expect(styleText).not.toContain('.g-message');
   });
 
   it('component fontSize should work', () => {
@@ -291,11 +291,11 @@ describe('message.hooks', () => {
 
     render(<Demo />);
 
-    const msg = document.querySelector('.ant-message-css-var');
+    const msg = document.querySelector('.g-message-css-var');
 
     expect(msg).toBeTruthy();
     expect(msg).toHaveStyle({
-      '--ant-font-size': '20px',
+      '--g-font-size': '20px',
     });
   });
   it('classNames and styles should work', () => {
@@ -368,9 +368,9 @@ describe('message.hooks', () => {
     it('should not pause the timer when pauseOnHover is true', async () => {
       render(<Demo pauseOnHover />);
       fireEvent.click(document.querySelector('button')!);
-      expect(document.querySelector('.ant-message-notice')).toBeInTheDocument();
-      fireEvent.mouseEnter(document.querySelector('.ant-message-notice-content')!);
-      fireEvent.mouseLeave(document.querySelector('.ant-message-notice-content')!);
+      expect(document.querySelector('.g-message-notice')).toBeInTheDocument();
+      fireEvent.mouseEnter(document.querySelector('.g-message-notice-content')!);
+      fireEvent.mouseLeave(document.querySelector('.g-message-notice-content')!);
       await act(() => {
         jest.runAllTimers();
       });
@@ -381,9 +381,9 @@ describe('message.hooks', () => {
     it('should not pause the timer when pauseOnHover is false', async () => {
       render(<Demo pauseOnHover={false} />);
       fireEvent.click(document.querySelector('button')!);
-      expect(document.querySelector('.ant-message-notice')).toBeInTheDocument();
-      fireEvent.mouseEnter(document.querySelector('.ant-message-notice-content')!);
-      fireEvent.mouseLeave(document.querySelector('.ant-message-notice-content')!);
+      expect(document.querySelector('.g-message-notice')).toBeInTheDocument();
+      fireEvent.mouseEnter(document.querySelector('.g-message-notice-content')!);
+      fireEvent.mouseLeave(document.querySelector('.g-message-notice-content')!);
       await act(() => {
         jest.runAllTimers();
       });

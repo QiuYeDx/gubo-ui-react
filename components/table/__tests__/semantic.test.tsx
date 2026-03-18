@@ -113,19 +113,19 @@ describe('Table', () => {
         footer={() => <>table footer</>}
       />,
     );
-    const root = container.querySelector('.ant-table-wrapper');
-    const section = container.querySelector('.ant-table-container');
-    const title = container.querySelector('.ant-table-title');
-    const footer = container.querySelector('.ant-table-footer');
-    const content = container.querySelector('.ant-table-content');
-    const headerWrapper = container.querySelector('.ant-table-thead');
-    const headerCell = container.querySelector('.ant-table-cell');
+    const root = container.querySelector('.g-table-wrapper');
+    const section = container.querySelector('.g-table-container');
+    const title = container.querySelector('.g-table-title');
+    const footer = container.querySelector('.g-table-footer');
+    const content = container.querySelector('.g-table-content');
+    const headerWrapper = container.querySelector('.g-table-thead');
+    const headerCell = container.querySelector('.g-table-cell');
     const headerRow = container.querySelector('tr');
-    const bodyWrapper = container.querySelector('.ant-table-tbody');
-    const bodyCell = container.querySelector('.ant-table-tbody .ant-table-cell');
-    const bodyRow = container.querySelector('.ant-table-row');
-    const paginationRoot = container.querySelector('.ant-pagination');
-    const paginationItem = container.querySelector('.ant-pagination-item');
+    const bodyWrapper = container.querySelector('.g-table-tbody');
+    const bodyCell = container.querySelector('.g-table-tbody .g-table-cell');
+    const bodyRow = container.querySelector('.g-table-row');
+    const paginationRoot = container.querySelector('.g-pagination');
+    const paginationItem = container.querySelector('.g-pagination-item');
 
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);
@@ -262,10 +262,10 @@ describe('Table', () => {
       />,
     );
 
-    const root = container.querySelector('.ant-table-wrapper');
-    const header = container.querySelector('.ant-table-thead');
-    const body = container.querySelector('.ant-table-tbody');
-    const pagination = container.querySelector('.ant-pagination');
+    const root = container.querySelector('.g-table-wrapper');
+    const header = container.querySelector('.g-table-thead');
+    const body = container.querySelector('.g-table-tbody');
+    const pagination = container.querySelector('.g-pagination');
 
     // Check function-based classNames
     expect(root).toHaveClass('test-bordered-root');

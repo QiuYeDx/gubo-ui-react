@@ -40,13 +40,13 @@ describe('Modal.Semantic', () => {
 
     render(<Modal classNames={customClassNames} styles={customStyles} open title="title" />);
 
-    const rootElement = document.querySelector<HTMLElement>('.ant-modal-root');
-    const maskElement = document.querySelector<HTMLElement>('.ant-modal-mask');
-    const wrapperElement = document.querySelector<HTMLElement>('.ant-modal-wrap');
-    const headerElement = document.querySelector<HTMLElement>('.ant-modal-header');
-    const titleElement = document.querySelector<HTMLElement>('.ant-modal-title');
-    const bodyElement = document.querySelector<HTMLElement>('.ant-modal-body');
-    const footerElement = document.querySelector<HTMLElement>('.ant-modal-footer');
+    const rootElement = document.querySelector<HTMLElement>('.g-modal-root');
+    const maskElement = document.querySelector<HTMLElement>('.g-modal-mask');
+    const wrapperElement = document.querySelector<HTMLElement>('.g-modal-wrap');
+    const headerElement = document.querySelector<HTMLElement>('.g-modal-header');
+    const titleElement = document.querySelector<HTMLElement>('.g-modal-title');
+    const bodyElement = document.querySelector<HTMLElement>('.g-modal-body');
+    const footerElement = document.querySelector<HTMLElement>('.g-modal-footer');
 
     // check classNames
     expect(rootElement).toHaveClass('custom-root');
@@ -73,7 +73,7 @@ describe('Modal.Semantic', () => {
         test
       </Modal>,
     );
-    const root = document.querySelector<HTMLDivElement>('.ant-modal-root');
+    const root = document.querySelector<HTMLDivElement>('.g-modal-root');
     expect(root).toHaveClass('modal-props-width-default');
     expect(root).toHaveStyle({ backgroundColor: '#fff' });
     rerender(

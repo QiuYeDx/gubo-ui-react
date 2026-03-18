@@ -51,7 +51,7 @@ describe('Directory Tree', () => {
       const onExpand = jest.fn();
       const { container } = render(createTree({ onExpand }));
 
-      fireEvent.click(container.querySelector('.ant-tree-node-content-wrapper')!);
+      fireEvent.click(container.querySelector('.g-tree-node-content-wrapper')!);
       act(() => {
         jest.runAllTimers();
       });
@@ -61,7 +61,7 @@ describe('Directory Tree', () => {
       act(() => {
         jest.runAllTimers();
       });
-      fireEvent.click(container.querySelector('.ant-tree-node-content-wrapper')!);
+      fireEvent.click(container.querySelector('.g-tree-node-content-wrapper')!);
       act(() => {
         jest.runAllTimers();
       });
@@ -72,7 +72,7 @@ describe('Directory Tree', () => {
       const onExpand = jest.fn();
       const { container } = render(createTree({ expandAction: 'doubleClick', onExpand }));
 
-      fireEvent.doubleClick(container.querySelector('.ant-tree-node-content-wrapper')!);
+      fireEvent.doubleClick(container.querySelector('.g-tree-node-content-wrapper')!);
       act(() => {
         jest.runAllTimers();
       });
@@ -82,7 +82,7 @@ describe('Directory Tree', () => {
       act(() => {
         jest.runAllTimers();
       });
-      fireEvent.doubleClick(container.querySelector('.ant-tree-node-content-wrapper')!);
+      fireEvent.doubleClick(container.querySelector('.g-tree-node-content-wrapper')!);
       act(() => {
         jest.runAllTimers();
       });
@@ -104,14 +104,14 @@ describe('Directory Tree', () => {
       it('click', async () => {
         const { container, asFragment } = render(<StateDirTree expandAction="click" />);
 
-        fireEvent.click(container.querySelector('.ant-tree-node-content-wrapper')!);
+        fireEvent.click(container.querySelector('.g-tree-node-content-wrapper')!);
         await waitFakeTimer();
         expect(asFragment().firstChild).toMatchSnapshot();
       });
       it('doubleClick', async () => {
         const { container, asFragment } = render(<StateDirTree expandAction="doubleClick" />);
 
-        fireEvent.doubleClick(container.querySelector('.ant-tree-node-content-wrapper')!);
+        fireEvent.doubleClick(container.querySelector('.g-tree-node-content-wrapper')!);
         await waitFakeTimer();
         expect(asFragment().firstChild).toMatchSnapshot();
       });
@@ -133,18 +133,18 @@ describe('Directory Tree', () => {
     const { container } = render(
       <DirectoryTree multiple defaultExpandAll={false} treeData={treeData} />,
     );
-    expect(container.querySelectorAll('.ant-tree-node-content-wrapper').length).toBe(4);
-    expect(container.querySelectorAll('.ant-tree-node-selected').length).toBe(0);
-    const leaf0 = container.querySelectorAll('.ant-tree-node-content-wrapper')[0];
-    const leaf1 = container.querySelectorAll('.ant-tree-node-content-wrapper')[1];
-    const leaf2 = container.querySelectorAll('.ant-tree-node-content-wrapper')[2];
-    const leaf3 = container.querySelectorAll('.ant-tree-node-content-wrapper')[3];
+    expect(container.querySelectorAll('.g-tree-node-content-wrapper').length).toBe(4);
+    expect(container.querySelectorAll('.g-tree-node-selected').length).toBe(0);
+    const leaf0 = container.querySelectorAll('.g-tree-node-content-wrapper')[0];
+    const leaf1 = container.querySelectorAll('.g-tree-node-content-wrapper')[1];
+    const leaf2 = container.querySelectorAll('.g-tree-node-content-wrapper')[2];
+    const leaf3 = container.querySelectorAll('.g-tree-node-content-wrapper')[3];
     fireEvent.click(leaf2);
     fireEvent.click(leaf0, { shiftKey: true });
-    expect(leaf0).toHaveClass('ant-tree-node-selected');
-    expect(leaf1).toHaveClass('ant-tree-node-selected');
-    expect(leaf2).toHaveClass('ant-tree-node-selected');
-    expect(leaf3).not.toHaveClass('ant-tree-node-selected');
+    expect(leaf0).toHaveClass('g-tree-node-selected');
+    expect(leaf1).toHaveClass('g-tree-node-selected');
+    expect(leaf2).toHaveClass('g-tree-node-selected');
+    expect(leaf3).not.toHaveClass('g-tree-node-selected');
   });
 
   it('DirectoryTree should expend all when use treeData and defaultExpandAll is true', () => {
@@ -200,17 +200,17 @@ describe('Directory Tree', () => {
       }),
     );
 
-    fireEvent.click(container.querySelectorAll('.ant-tree-node-content-wrapper')[0]);
+    fireEvent.click(container.querySelectorAll('.g-tree-node-content-wrapper')[0]);
     expect(onSelect.mock.calls[0][1].selected).toBeTruthy();
     expect(onSelect.mock.calls[0][1].selectedNodes.length).toBe(1);
 
     // Click twice should keep selected
-    fireEvent.click(container.querySelectorAll('.ant-tree-node-content-wrapper')[0]);
+    fireEvent.click(container.querySelectorAll('.g-tree-node-content-wrapper')[0]);
     expect(onSelect.mock.calls[1][1].selected).toBeTruthy();
     expect(onSelect.mock.calls[0][0]).toEqual(onSelect.mock.calls[1][0]);
     expect(onSelect.mock.calls[1][1].selectedNodes.length).toBe(1);
 
-    fireEvent.click(container.querySelectorAll('.ant-tree-node-content-wrapper')[1], {
+    fireEvent.click(container.querySelectorAll('.g-tree-node-content-wrapper')[1], {
       ctrlKey: true,
     });
     expect(asFragment().firstChild).toMatchSnapshot();
@@ -218,7 +218,7 @@ describe('Directory Tree', () => {
     expect(onSelect.mock.calls[2][1].selected).toBeTruthy();
     expect(onSelect.mock.calls[2][1].selectedNodes.length).toBe(2);
 
-    fireEvent.click(container.querySelectorAll('.ant-tree-node-content-wrapper')[4], {
+    fireEvent.click(container.querySelectorAll('.g-tree-node-content-wrapper')[4], {
       shiftKey: true,
     });
     expect(asFragment().firstChild).toMatchSnapshot();
@@ -230,7 +230,7 @@ describe('Directory Tree', () => {
   it('onDoubleClick', () => {
     const onDoubleClick = jest.fn();
     const { container } = render(createTree({ onDoubleClick }));
-    fireEvent.doubleClick(container.querySelector('.ant-tree-node-content-wrapper')!);
+    fireEvent.doubleClick(container.querySelector('.g-tree-node-content-wrapper')!);
     expect(onDoubleClick).toHaveBeenCalled();
   });
 
@@ -238,7 +238,7 @@ describe('Directory Tree', () => {
     const onExpand = jest.fn();
     const onSelect = jest.fn();
     const { container } = render(createTree({ onExpand, onSelect }));
-    fireEvent.click(container.querySelector('.ant-tree-node-content-wrapper')!, { ctrlKey: true });
+    fireEvent.click(container.querySelector('.g-tree-node-content-wrapper')!, { ctrlKey: true });
     expect(onExpand).not.toHaveBeenCalled();
     expect(onSelect).toHaveBeenCalledWith(
       ['0-0'],
@@ -275,7 +275,7 @@ describe('Directory Tree', () => {
         ],
       }),
     );
-    const nodeList = container.querySelectorAll('.ant-tree-node-content-wrapper');
+    const nodeList = container.querySelectorAll('.g-tree-node-content-wrapper');
     fireEvent.click(nodeList[nodeList.length - 1]);
     expect(onExpand).not.toHaveBeenCalled();
     expect(onSelect).toHaveBeenCalledWith(
@@ -322,9 +322,9 @@ describe('Directory Tree', () => {
     );
 
     // https://github.com/ant-design/ant-design/issues/55418
-    expect(container.querySelectorAll('.ant-tree-node-content-wrapper-open').length).toBe(2);
+    expect(container.querySelectorAll('.g-tree-node-content-wrapper-open').length).toBe(2);
 
-    fireEvent.click(container.querySelectorAll('.ant-tree-node-content-wrapper')[0]);
+    fireEvent.click(container.querySelectorAll('.g-tree-node-content-wrapper')[0]);
     expect(onSelect.mock.calls[0][1].selectedNodes.length).toBe(1);
   });
 });

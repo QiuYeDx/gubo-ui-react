@@ -42,7 +42,7 @@ describe('Table.rowSelection', () => {
   function renderedNames(container: ReturnType<typeof render>['container']) {
     const namesList: Node['textContent'][] = [];
     container
-      ?.querySelector('.ant-table-tbody')
+      ?.querySelector('.g-table-tbody')
       ?.querySelectorAll<HTMLTableRowElement>('tr')
       ?.forEach((tr) => {
         namesList.push(tr?.querySelectorAll<HTMLTableCellElement>('td')?.[1]?.textContent);
@@ -52,7 +52,7 @@ describe('Table.rowSelection', () => {
 
   const getSelections = (container: HTMLElement) => {
     const keys: React.Key[] = [];
-    container.querySelectorAll<HTMLTableRowElement>('.ant-table-tbody tr').forEach((row) => {
+    container.querySelectorAll<HTMLTableRowElement>('.g-table-tbody tr').forEach((row) => {
       const key = row.getAttribute('data-row-key');
       if (key && row.querySelector<HTMLInputElement>('input')?.checked) {
         if (Number.isNaN(Number(key))) {
@@ -68,9 +68,9 @@ describe('Table.rowSelection', () => {
 
   const getIndeterminateSelection = (container: HTMLElement) => {
     const keys: React.Key[] = [];
-    container.querySelectorAll<HTMLTableRowElement>('.ant-table-tbody tr').forEach((row) => {
+    container.querySelectorAll<HTMLTableRowElement>('.g-table-tbody tr').forEach((row) => {
       const key = row.getAttribute('data-row-key');
-      if (key && row.querySelector<HTMLElement>('.ant-checkbox-indeterminate')) {
+      if (key && row.querySelector<HTMLElement>('.g-checkbox-indeterminate')) {
         if (Number.isNaN(Number(key))) {
           // rowKey
           keys.push(key);
@@ -160,7 +160,7 @@ describe('Table.rowSelection', () => {
   it('works with pagination', () => {
     const { container } = render(createTable({ pagination: { pageSize: 2 } }));
 
-    const pagers = container.querySelectorAll('.ant-pagination-item');
+    const pagers = container.querySelectorAll('.g-pagination-item');
     const checkboxAll = container.querySelector<HTMLInputElement>('input[type="checkbox"]');
 
     const objectContaining: { checked?: boolean; indeterminate?: boolean } = {};
@@ -380,11 +380,11 @@ describe('Table.rowSelection', () => {
     expect(onChange).toHaveBeenLastCalledWith([0]);
 
     // Reset last select key when bulk operations
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
     act(() => {
       jest.runAllTimers();
     });
-    fireEvent.click(baseElement.querySelector('li.ant-dropdown-menu-item')!);
+    fireEvent.click(baseElement.querySelector('li.g-dropdown-menu-item')!);
     expect(onChange).toHaveBeenLastCalledWith([]);
     fireEvent.click(first(), {
       shiftKey: true,
@@ -429,12 +429,12 @@ describe('Table.rowSelection', () => {
     const { container } = render(createTable({ rowSelection }));
 
     // Open
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
     act(() => {
       jest.runAllTimers();
     });
 
-    fireEvent.click(container.querySelectorAll('.ant-dropdown-menu-item')[0]);
+    fireEvent.click(container.querySelectorAll('.g-dropdown-menu-item')[0]);
 
     expect(handleChange.mock.calls[0][0]).toEqual([0, 1, 2, 3]);
   });
@@ -445,12 +445,12 @@ describe('Table.rowSelection', () => {
       selections: true,
     };
     const { container } = render(createTable({ rowSelection }));
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
     act(() => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelector('.ant-dropdown')).toMatchSnapshot();
+    expect(container.querySelector('.g-dropdown')).toMatchSnapshot();
   });
 
   it('fires selectInvert event', () => {
@@ -470,15 +470,15 @@ describe('Table.rowSelection', () => {
     };
     const { container } = render(createTable({ rowSelection }));
 
-    fireEvent.click(container.querySelectorAll('.ant-checkbox')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox')[1]);
     // Open
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
 
     act(() => {
       jest.runAllTimers();
     });
 
-    fireEvent.click(container.querySelectorAll('li.ant-dropdown-menu-item')[1]);
+    fireEvent.click(container.querySelectorAll('li.g-dropdown-menu-item')[1]);
 
     expect(handleSelectInvert).toHaveBeenCalledWith([1, 2, 3]);
     expect(order).toEqual(['onChange', 'onSelectInvert', 'onChange']);
@@ -502,13 +502,13 @@ describe('Table.rowSelection', () => {
     };
     const { container } = render(createTable({ rowSelection }));
 
-    fireEvent.click(container.querySelectorAll('.ant-checkbox')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox')[1]);
     // Open
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
     act(() => {
       jest.runAllTimers();
     });
-    const dropdownMenuItems = container.querySelectorAll('.ant-dropdown-menu-item');
+    const dropdownMenuItems = container.querySelectorAll('.g-dropdown-menu-item');
     fireEvent.click(dropdownMenuItems[dropdownMenuItems.length - 1]);
 
     expect(handleSelectNone).toHaveBeenCalled();
@@ -538,12 +538,12 @@ describe('Table.rowSelection', () => {
     const { container } = render(createTable({ rowSelection }));
 
     // Open
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
     act(() => {
       jest.runAllTimers();
     });
 
-    const dropdownMenuItems = container.querySelectorAll('.ant-dropdown-menu-item');
+    const dropdownMenuItems = container.querySelectorAll('.g-dropdown-menu-item');
 
     expect(dropdownMenuItems.length).toBe(4);
 
@@ -578,13 +578,13 @@ describe('Table.rowSelection', () => {
         }),
       );
 
-      fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+      fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
 
       act(() => {
         jest.runAllTimers();
       });
 
-      fireEvent.click(container.querySelector('li.ant-dropdown-menu-item')!);
+      fireEvent.click(container.querySelector('li.g-dropdown-menu-item')!);
       expect(onChange).toHaveBeenCalledWith([0, 2], expect.anything(), { type: 'all' });
     });
 
@@ -603,13 +603,13 @@ describe('Table.rowSelection', () => {
         }),
       );
 
-      fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+      fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
 
       act(() => {
         jest.runAllTimers();
       });
 
-      fireEvent.click(container.querySelector('li.ant-dropdown-menu-item')!);
+      fireEvent.click(container.querySelector('li.g-dropdown-menu-item')!);
 
       expect(onChange).toHaveBeenCalledWith([0], expect.anything(), { type: 'invert' });
     });
@@ -629,13 +629,13 @@ describe('Table.rowSelection', () => {
         }),
       );
 
-      fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+      fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
 
       act(() => {
         jest.runAllTimers();
       });
 
-      fireEvent.click(container.querySelector('li.ant-dropdown-menu-item')!);
+      fireEvent.click(container.querySelector('li.g-dropdown-menu-item')!);
 
       expect(onChange).toHaveBeenCalledWith([1], expect.anything(), { type: 'none' });
     });
@@ -646,7 +646,7 @@ describe('Table.rowSelection', () => {
       hideSelectAll: true,
     };
     const { container } = render(createTable({ rowSelection }));
-    expect(container.querySelector('.ant-selection')).toBeFalsy();
+    expect(container.querySelector('.g-selection')).toBeFalsy();
   });
 
   it('handle custom selection onSelect correctly when hide default selection options', () => {
@@ -670,12 +670,12 @@ describe('Table.rowSelection', () => {
     const { container } = render(createTable({ rowSelection }));
 
     // Open
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
     act(() => {
       jest.runAllTimers();
     });
 
-    const dropdownMenuItems = container.querySelectorAll('li.ant-dropdown-menu-item');
+    const dropdownMenuItems = container.querySelectorAll('li.g-dropdown-menu-item');
     expect(dropdownMenuItems.length).toBe(2);
 
     fireEvent.click(dropdownMenuItems[0]);
@@ -747,8 +747,8 @@ describe('Table.rowSelection', () => {
         dataSource: newData,
       }),
     );
-    fireEvent.click(container.querySelectorAll('.ant-pagination-item')[1]); // switch to second page
-    fireEvent.click(container.querySelector('.ant-checkbox')!);
+    fireEvent.click(container.querySelectorAll('.g-pagination-item')[1]); // switch to second page
+    fireEvent.click(container.querySelector('.g-checkbox')!);
 
     expect(renderedNames(container)).toEqual([
       '10',
@@ -769,7 +769,7 @@ describe('Table.rowSelection', () => {
 
     fireEvent.click(container.querySelectorAll('input')[1]);
     expect(
-      container.querySelectorAll('tbody tr')[0].className.includes('ant-table-row-selected'),
+      container.querySelectorAll('tbody tr')[0].className.includes('g-table-row-selected'),
     ).toBe(true);
   });
 
@@ -781,8 +781,8 @@ describe('Table.rowSelection', () => {
       }),
     );
 
-    expect(container.querySelector('.ant-table-selection-column')).toHaveClass(
-      'ant-table-cell-fix-start',
+    expect(container.querySelector('.g-table-selection-column')).toHaveClass(
+      'g-table-cell-fix-start',
     );
   });
 
@@ -799,8 +799,8 @@ describe('Table.rowSelection', () => {
       }),
     );
 
-    expect(container.querySelector('.ant-table-selection-column')).toHaveClass(
-      'ant-table-cell-fix-start',
+    expect(container.querySelector('.g-table-selection-column')).toHaveClass(
+      'g-table-cell-fix-start',
     );
   });
 
@@ -823,8 +823,8 @@ describe('Table.rowSelection', () => {
       }),
     );
 
-    expect(container.querySelector('.ant-table-selection-column')).toHaveClass(
-      'ant-table-cell-fix-start',
+    expect(container.querySelector('.g-table-selection-column')).toHaveClass(
+      'g-table-cell-fix-start',
     );
   });
 
@@ -856,11 +856,11 @@ describe('Table.rowSelection', () => {
         dataSource={data}
       />,
     );
-    const checkboxes = container.querySelectorAll('.ant-checkbox');
+    const checkboxes = container.querySelectorAll('.g-checkbox');
     expect(checkboxes.length).toBe(5);
     checkboxes.forEach((checkbox) => {
       expect(checkbox.querySelector('input')?.checked).toBe(true);
-      expect(checkbox.className.includes('ant-checkbox-indeterminate')).toBe(false);
+      expect(checkbox.className.includes('g-checkbox-indeterminate')).toBe(false);
     });
 
     rerender(
@@ -873,10 +873,10 @@ describe('Table.rowSelection', () => {
       />,
     );
 
-    expect(container.querySelectorAll('.ant-checkbox').length).toBe(4);
-    container.querySelectorAll('.ant-checkbox').forEach((checkbox) => {
+    expect(container.querySelectorAll('.g-checkbox').length).toBe(4);
+    container.querySelectorAll('.g-checkbox').forEach((checkbox) => {
       expect(checkbox.querySelector('input')?.checked).toBe(true);
-      expect(checkbox.className.includes('ant-checkbox-indeterminate')).toBe(false);
+      expect(checkbox.className.includes('g-checkbox-indeterminate')).toBe(false);
     });
   });
 
@@ -920,9 +920,9 @@ describe('Table.rowSelection', () => {
     );
 
     fireEvent.click(container.querySelector('thead tr th input')!);
-    container.querySelectorAll('.ant-checkbox').forEach((checkbox) => {
+    container.querySelectorAll('.g-checkbox').forEach((checkbox) => {
       expect(checkbox.querySelector('input')?.checked).toBe(true);
-      expect(checkbox.className.includes('ant-checkbox-indeterminate')).toBe(false);
+      expect(checkbox.className.includes('g-checkbox-indeterminate')).toBe(false);
     });
   });
 
@@ -959,20 +959,20 @@ describe('Table.rowSelection', () => {
     function clickFilter(indexList: number[]) {
       indexList.forEach((index) => {
         fireEvent.click(
-          container.querySelectorAll('.ant-dropdown-menu-item .ant-checkbox-wrapper')[index],
+          container.querySelectorAll('.g-dropdown-menu-item .g-checkbox-wrapper')[index],
         );
       });
-      // wrapper.find('.ant-table-filter-dropdown-btns .ant-btn-color-primary.ant-btn-variant-solid').simulate('click');
+      // wrapper.find('.g-table-filter-dropdown-btns .g-btn-color-primary.g-btn-varig-solid').simulate('click');
       fireEvent.click(
         container.querySelector(
-          '.ant-table-filter-dropdown-btns .ant-btn-color-primary.ant-btn-variant-solid',
+          '.g-table-filter-dropdown-btns .g-btn-color-primary.g-btn-varig-solid',
         )!,
       );
     }
 
     function clickItem() {
       fireEvent.click(
-        container.querySelectorAll('tbody .ant-table-selection-column .ant-checkbox-input')[0],
+        container.querySelectorAll('tbody .g-table-selection-column .g-checkbox-input')[0],
       );
     }
 
@@ -1086,7 +1086,7 @@ describe('Table.rowSelection', () => {
     const checkboxes = container.querySelectorAll('input');
     fireEvent.click(checkboxes[1]);
 
-    expect(container.querySelectorAll('tr.ant-table-row-selected').length).toBe(1);
+    expect(container.querySelectorAll('tr.g-table-row-selected').length).toBe(1);
 
     rerender(
       <Table
@@ -1098,13 +1098,13 @@ describe('Table.rowSelection', () => {
       />,
     );
 
-    expect(container.querySelectorAll('tr.ant-table-row-selected').length).toBe(0);
+    expect(container.querySelectorAll('tr.g-table-row-selected').length).toBe(0);
   });
 
   it('select by checkbox to trigger stopPropagation', () => {
     const { container } = render(createTable());
     expect(() => {
-      fireEvent.click(container.querySelectorAll('.ant-checkbox')[4]);
+      fireEvent.click(container.querySelectorAll('.g-checkbox')[4]);
     }).not.toThrow();
   });
 
@@ -1118,10 +1118,10 @@ describe('Table.rowSelection', () => {
     );
 
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.disabled,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.disabled,
     ).toBeTruthy();
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.checked,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.checked,
     ).toBeFalsy();
   });
 
@@ -1138,10 +1138,10 @@ describe('Table.rowSelection', () => {
     );
 
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.disabled,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.disabled,
     ).toBeTruthy();
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.checked,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.checked,
     ).toBeTruthy();
   });
 
@@ -1158,13 +1158,13 @@ describe('Table.rowSelection', () => {
     );
 
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.disabled,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.disabled,
     ).toBeTruthy();
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.checked,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.checked,
     ).toBeFalsy();
     expect(
-      container.querySelector('thead .ant-checkbox-indeterminate.ant-checkbox-disabled'),
+      container.querySelector('thead .g-checkbox-indeterminate.g-checkbox-disabled'),
     ).toBeTruthy();
   });
 
@@ -1181,10 +1181,10 @@ describe('Table.rowSelection', () => {
     );
 
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.disabled,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.disabled,
     ).toBeFalsy();
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.checked,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.checked,
     ).toBeTruthy();
   });
 
@@ -1201,12 +1201,12 @@ describe('Table.rowSelection', () => {
     );
 
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.disabled,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.disabled,
     ).toBeFalsy();
     expect(
-      container.querySelector<HTMLInputElement>('thead .ant-checkbox-input')?.checked,
+      container.querySelector<HTMLInputElement>('thead .g-checkbox-input')?.checked,
     ).toBeFalsy();
-    expect(container.querySelector('thead .ant-checkbox-indeterminate')).toBeTruthy();
+    expect(container.querySelector('thead .g-checkbox-indeterminate')).toBeTruthy();
   });
 
   it('should onRowClick not called when checkbox clicked', () => {
@@ -1237,7 +1237,7 @@ describe('Table.rowSelection', () => {
       }),
     );
     jest.useFakeTimers();
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
     act(() => {
       jest.runAllTimers();
     });
@@ -1255,7 +1255,7 @@ describe('Table.rowSelection', () => {
       </ConfigProvider>,
     );
     jest.useFakeTimers();
-    fireEvent.mouseEnter(container.querySelector('.ant-dropdown-trigger')!);
+    fireEvent.mouseEnter(container.querySelector('.g-dropdown-trigger')!);
     act(() => {
       jest.runAllTimers();
     });
@@ -2065,31 +2065,29 @@ describe('Table.rowSelection', () => {
       />,
     );
 
-    let firstRowCheckbox = container.querySelector('tbody tr:first-child input.ant-checkbox-input');
-    let secondRowCheckbox = container.querySelector(
-      'tbody tr:nth-child(2) input.ant-checkbox-input',
-    );
-    const nextPageBtn = container.querySelector('.ant-pagination-next .ant-pagination-item-link');
-    const prevPageBtn = container.querySelector('.ant-pagination-prev .ant-pagination-item-link');
+    let firstRowCheckbox = container.querySelector('tbody tr:first-child input.g-checkbox-input');
+    let secondRowCheckbox = container.querySelector('tbody tr:nth-child(2) input.g-checkbox-input');
+    const nextPageBtn = container.querySelector('.g-pagination-next .g-pagination-item-link');
+    const prevPageBtn = container.querySelector('.g-pagination-prev .g-pagination-item-link');
     // Check the first row and the second row, then click the next page.
     fireEvent.click(firstRowCheckbox!);
     fireEvent.click(secondRowCheckbox!);
     fireEvent.click(nextPageBtn!);
     // update row checkbox element.
-    firstRowCheckbox = container.querySelector('tbody tr:first-child input.ant-checkbox-input');
-    secondRowCheckbox = container.querySelector('tbody tr:nth-child(2) input.ant-checkbox-input');
+    firstRowCheckbox = container.querySelector('tbody tr:first-child input.g-checkbox-input');
+    secondRowCheckbox = container.querySelector('tbody tr:nth-child(2) input.g-checkbox-input');
     // Check the first row and the second row again, then click the previous page.
     fireEvent.click(firstRowCheckbox!);
     fireEvent.click(secondRowCheckbox!);
     fireEvent.click(prevPageBtn!);
 
     const firstRowExpandBtn = container?.querySelector(
-      'tbody tr:first-child .ant-table-cell-with-append .ant-table-row-expand-icon',
+      'tbody tr:first-child .g-table-cell-with-append .g-table-row-expand-icon',
     );
     fireEvent.click(firstRowExpandBtn!);
     await waitFakeTimer();
     const checkboxOfRowWithKey12 = container.querySelector(
-      'tbody tr[data-row-key="12"] input.ant-checkbox-input',
+      'tbody tr[data-row-key="12"] input.g-checkbox-input',
     ) as HTMLInputElement;
 
     expect(checkboxOfRowWithKey12).toBeTruthy();
@@ -2109,7 +2107,7 @@ describe('Table.rowSelection', () => {
         }}
       />,
     );
-    const checkbox = container.querySelector('.ant-checkbox-input');
+    const checkbox = container.querySelector('.g-checkbox-input');
     expect(checkbox).toBeDisabled();
     expect(checkbox).toHaveAttribute('aria-label', 'Custom label');
   });

@@ -73,7 +73,7 @@ const useStyle = createStyles(({ cssVar, token, css }) => {
         opacity: 1;
       }
     `,
-    anticonCls: css`
+    giconCls: css`
       display: block;
       font-family: 'Lucida Console', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
       white-space: nowrap;
@@ -124,7 +124,7 @@ const CopyableIcon: React.FC<CopyableIconProps> = (props) => {
       style={{ cursor: 'pointer' }}
     >
       {React.createElement(allIcons[name])}
-      <span className={styles.anticonCls}>
+      <span className={styles.giconCls}>
         <Badge dot={isNew}>{name}</Badge>
       </span>
     </li>

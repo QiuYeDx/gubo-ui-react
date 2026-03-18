@@ -36,7 +36,7 @@ describe('ColorPicker.gradient', () => {
   function doMouseDown(
     container: HTMLElement,
     start: number,
-    query: string | HTMLElement = '.ant-slider-handle',
+    query: string | HTMLElement = '.g-slider-handle',
     skipEventCheck = false,
   ) {
     const ele = typeof query === 'object' ? query : container.querySelector(query)!;
@@ -74,7 +74,7 @@ describe('ColorPicker.gradient', () => {
     container: HTMLElement,
     start: number,
     end: number,
-    query: string | HTMLElement = '.ant-slider-handle',
+    query: string | HTMLElement = '.g-slider-handle',
     skipEventCheck = false,
   ) {
     doMouseDown(container, start, query, skipEventCheck);
@@ -94,7 +94,7 @@ describe('ColorPicker.gradient', () => {
     );
 
     // Switch to gradient
-    fireEvent.click(container.querySelectorAll(`.ant-segmented-item-input`)[1]);
+    fireEvent.click(container.querySelectorAll(`.g-segmented-item-input`)[1]);
 
     expect(onChange).toHaveBeenCalledWith(
       expect.anything(),
@@ -158,9 +158,7 @@ describe('ColorPicker.gradient', () => {
       container,
       0,
       80,
-      container.querySelector<HTMLElement>(
-        '.ant-color-picker-slider-container .ant-slider-handle',
-      )!,
+      container.querySelector<HTMLElement>('.g-color-picker-slider-container .g-slider-handle')!,
       true,
     );
 
@@ -192,7 +190,7 @@ describe('ColorPicker.gradient', () => {
     );
 
     // Move
-    doDrag(container, 20, 30, '.ant-slider', true);
+    doDrag(container, 20, 30, '.g-slider', true);
 
     expect(onChange).toHaveBeenCalledWith(
       expect.anything(),
@@ -234,7 +232,7 @@ describe('ColorPicker.gradient', () => {
     );
 
     // Delete remove first
-    fireEvent.keyDown(container.querySelector<HTMLElement>('.ant-slider-handle-1')!, {
+    fireEvent.keyDown(container.querySelector<HTMLElement>('.g-slider-handle-1')!, {
       key: 'Delete',
     });
     expect(onChange).toHaveBeenCalledWith(
@@ -248,7 +246,7 @@ describe('ColorPicker.gradient', () => {
       container,
       0,
       9999999,
-      container.querySelector<HTMLElement>('.ant-slider-handle-3')!,
+      container.querySelector<HTMLElement>('.g-slider-handle-3')!,
       true,
     );
 
@@ -284,7 +282,7 @@ describe('ColorPicker.gradient', () => {
     );
 
     // Switch to gradient
-    fireEvent.click(container.querySelector(`.ant-segmented-item-input`)!);
+    fireEvent.click(container.querySelector(`.g-segmented-item-input`)!);
 
     expect(onChange).toHaveBeenCalledWith(expect.anything(), 'rgb(255,0,0)');
   });
@@ -304,7 +302,7 @@ describe('ColorPicker.gradient', () => {
   it('mode fallback', () => {
     const { container } = render(<ColorPicker mode={['gradient']} defaultValue="#F00" open />);
 
-    expect(container.querySelector('.ant-color-picker-gradient-slider')).toBeTruthy();
+    expect(container.querySelector('.g-color-picker-gradient-slider')).toBeTruthy();
   });
 
   // This test case may easily break by jsdom update
@@ -328,11 +326,11 @@ describe('ColorPicker.gradient', () => {
     );
 
     // Select second one
-    const handle2 = container.querySelector<HTMLElement>('.ant-slider-handle-2')!;
+    const handle2 = container.querySelector<HTMLElement>('.g-slider-handle-2')!;
     doDrag(container, 0, 0, handle2, true);
 
     // Drag in the color panel
-    const panelHandle = container.querySelector('.ant-color-picker-saturation')!;
+    const panelHandle = container.querySelector('.g-color-picker-saturation')!;
     const mouseDown = createEvent.mouseDown(panelHandle);
     fireEvent(panelHandle, mouseDown);
 
@@ -369,16 +367,16 @@ describe('ColorPicker.gradient', () => {
       />,
     );
 
-    expect(document.querySelector('.ant-color-picker-presets-color-checked')).toBeFalsy();
+    expect(document.querySelector('.g-color-picker-presets-color-checked')).toBeFalsy();
 
     // Select preset
     fireEvent.click(
-      document.querySelector('.ant-color-picker-presets .ant-color-picker-color-block-inner')!,
+      document.querySelector('.g-color-picker-presets .g-color-picker-color-block-inner')!,
     );
     const color = onChange.mock.calls[0][0];
     expect(color.toCssString()).toEqual(
       'linear-gradient(90deg, rgb(255,0,0) 0%, rgb(0,0,255) 100%)',
     );
-    expect(document.querySelector('.ant-color-picker-presets-color-checked')).toBeTruthy();
+    expect(document.querySelector('.g-color-picker-presets-color-checked')).toBeTruthy();
   });
 });

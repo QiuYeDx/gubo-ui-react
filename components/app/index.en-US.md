@@ -11,7 +11,7 @@ demo:
 
 ## When To Use
 
-- Provide reset styles based on `.ant-app` element.
+- Provide reset styles based on `.g-app` element.
 - You could use static methods of `message/notification/Modal` from `useApp` without writing `contextHolder` manually.
 
 ## Examples

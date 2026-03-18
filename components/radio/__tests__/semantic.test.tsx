@@ -15,7 +15,7 @@ describe('Radio.Semantic', () => {
       </Radio>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-radio-wrapper');
+    const rootElement = container.querySelector<HTMLElement>('.g-radio-wrapper');
     expect(rootElement).toHaveStyle({ padding: '10px', margin: '5px' });
   });
 
@@ -27,9 +27,9 @@ describe('Radio.Semantic', () => {
 
     const { container } = render(<Radio styles={customStyles} />);
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-radio-wrapper');
-    const iconElement = container.querySelector<HTMLElement>('.ant-radio');
-    const labelElement = container.querySelector<HTMLElement>('.ant-radio-label');
+    const rootElement = container.querySelector<HTMLElement>('.g-radio-wrapper');
+    const iconElement = container.querySelector<HTMLElement>('.g-radio');
+    const labelElement = container.querySelector<HTMLElement>('.g-radio-label');
 
     expect(rootElement).toHaveStyle({ backgroundColor: customStyles.root.backgroundColor });
     expect(iconElement).toHaveStyle({ backgroundColor: customStyles.icon.backgroundColor });
@@ -54,7 +54,7 @@ describe('Radio.Semantic', () => {
       </Radio.Group>,
     );
 
-    const radioElements = container.querySelectorAll<HTMLElement>('.ant-radio-wrapper');
+    const radioElements = container.querySelectorAll<HTMLElement>('.g-radio-wrapper');
     expect(radioElements[0]).toHaveClass('checked-radio');
     expect(radioElements[1]).toHaveClass('unchecked-radio');
   });

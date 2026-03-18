@@ -2,10 +2,10 @@
 
 exports[`RangePicker customize separator 1`] = `
 <div
-  class="ant-picker ant-picker-range ant-picker-outlined css-var-root ant-picker-css-var"
+  class="g-picker g-picker-range g-picker-outlined css-var-root g-picker-css-var"
 >
   <div
-    class="ant-picker-input ant-picker-input-start"
+    class="g-picker-input g-picker-input-start"
   >
     <input
       aria-invalid="false"
@@ -17,17 +17,17 @@ exports[`RangePicker customize separator 1`] = `
     />
   </div>
   <div
-    class="ant-picker-range-separator"
+    class="g-picker-range-separator"
   >
     <span
       aria-label="to"
-      class="ant-picker-separator"
+      class="g-picker-separator"
     >
       test
     </span>
   </div>
   <div
-    class="ant-picker-input ant-picker-input-end"
+    class="g-picker-input g-picker-input-end"
   >
     <input
       aria-invalid="false"
@@ -39,15 +39,15 @@ exports[`RangePicker customize separator 1`] = `
     />
   </div>
   <div
-    class="ant-picker-active-bar"
+    class="g-picker-active-bar"
     style="position: absolute; width: 0px;"
   />
   <span
-    class="ant-picker-suffix"
+    class="g-picker-suffix"
   >
     <span
       aria-label="calendar"
-      class="anticon anticon-calendar"
+      class="gicon gicon-calendar"
       role="img"
     >
       <svg
@@ -71,10 +71,10 @@ exports[`RangePicker customize separator 1`] = `
 exports[`RangePicker ranges RangePicker support preset ranges with Tags 1`] = `
 Array [
   <div
-    class="ant-picker ant-picker-range ant-picker-outlined css-var-root ant-picker-css-var"
+    class="g-picker g-picker-range g-picker-outlined css-var-root g-picker-css-var"
   >
     <div
-      class="ant-picker-input ant-picker-input-active ant-picker-input-start"
+      class="g-picker-input g-picker-input-active g-picker-input-start"
     >
       <input
         aria-invalid="false"
@@ -86,15 +86,15 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-range-separator"
+      class="g-picker-range-separator"
     >
       <span
         aria-label="to"
-        class="ant-picker-separator"
+        class="g-picker-separator"
       >
         <span
           aria-label="swap-right"
-          class="anticon anticon-swap-right"
+          class="gicon gicon-swap-right"
           role="img"
         >
           <svg
@@ -114,7 +114,7 @@ Array [
       </span>
     </div>
     <div
-      class="ant-picker-input ant-picker-input-end"
+      class="g-picker-input g-picker-input-end"
     >
       <input
         aria-invalid="false"
@@ -126,15 +126,15 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-active-bar"
+      class="g-picker-active-bar"
       style="position: absolute; width: 0px; left: 0px;"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -154,26 +154,26 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-picker-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-root ant-picker-css-var ant-picker-dropdown-range ant-picker-dropdown-placement-bottomLeft"
+    class="g-picker-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-root g-picker-css-var g-picker-dropdown-range g-picker-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-picker-range-wrapper ant-picker-date-range-wrapper"
+      class="g-picker-range-wrapper g-picker-date-range-wrapper"
     >
       <div
-        class="ant-picker-range-arrow"
+        class="g-picker-range-arrow"
         style="left: 0px;"
       />
       <div
-        class="ant-picker-panel-container ant-picker-date-panel-container"
+        class="g-picker-panel-container g-picker-date-panel-container"
         style="margin-left: 0px; margin-right: auto;"
         tabindex="-1"
       >
         <div
-          class="ant-picker-panel-layout"
+          class="g-picker-panel-layout"
         >
           <div
-            class="ant-picker-presets"
+            class="g-picker-presets"
           >
             <ul>
               <li>
@@ -186,44 +186,44 @@ Array [
           </div>
           <div>
             <div
-              class="ant-picker-panels"
+              class="g-picker-panels"
             >
               <div
-                class="ant-picker-panel"
+                class="g-picker-panel"
                 tabindex="0"
               >
                 <div
-                  class="ant-picker-date-panel"
+                  class="g-picker-date-panel"
                 >
                   <div
-                    class="ant-picker-header"
+                    class="g-picker-header"
                   >
                     <button
                       aria-label="Last year (Control + left)"
-                      class="ant-picker-header-super-prev-btn"
+                      class="g-picker-header-super-prev-btn"
                       tabindex="-1"
                       type="button"
                     >
                       <span
-                        class="ant-picker-super-prev-icon"
+                        class="g-picker-super-prev-icon"
                       />
                     </button>
                     <button
                       aria-label="Previous month (PageUp)"
-                      class="ant-picker-header-prev-btn"
+                      class="g-picker-header-prev-btn"
                       tabindex="-1"
                       type="button"
                     >
                       <span
-                        class="ant-picker-prev-icon"
+                        class="g-picker-prev-icon"
                       />
                     </button>
                     <div
-                      class="ant-picker-header-view"
+                      class="g-picker-header-view"
                     >
                       <button
                         aria-label="Choose a month"
-                        class="ant-picker-month-btn"
+                        class="g-picker-month-btn"
                         tabindex="-1"
                         type="button"
                       >
@@ -231,7 +231,7 @@ Array [
                       </button>
                       <button
                         aria-label="Choose a year"
-                        class="ant-picker-year-btn"
+                        class="g-picker-year-btn"
                         tabindex="-1"
                         type="button"
                       >
@@ -240,32 +240,32 @@ Array [
                     </div>
                     <button
                       aria-label="Next month (PageDown)"
-                      class="ant-picker-header-next-btn"
+                      class="g-picker-header-next-btn"
                       style="visibility: hidden;"
                       tabindex="-1"
                       type="button"
                     >
                       <span
-                        class="ant-picker-next-icon"
+                        class="g-picker-next-icon"
                       />
                     </button>
                     <button
                       aria-label="Next year (Control + right)"
-                      class="ant-picker-header-super-next-btn"
+                      class="g-picker-header-super-next-btn"
                       style="visibility: hidden;"
                       tabindex="-1"
                       type="button"
                     >
                       <span
-                        class="ant-picker-super-next-icon"
+                        class="g-picker-super-next-icon"
                       />
                     </button>
                   </div>
                   <div
-                    class="ant-picker-body"
+                    class="g-picker-body"
                   >
                     <table
-                      class="ant-picker-content"
+                      class="g-picker-content"
                     >
                       <thead>
                         <tr>
@@ -295,71 +295,71 @@ Array [
                       <tbody>
                         <tr>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-08-27"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               27
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-08-28"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               28
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-08-29"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               29
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-08-30"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               30
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-08-31"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               31
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-01"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               1
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-02"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               2
                             </div>
@@ -367,71 +367,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-03"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               3
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-04"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               4
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-05"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               5
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-06"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               6
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-07"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               7
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-08"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               8
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-09"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               9
                             </div>
@@ -439,71 +439,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-10"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               10
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-11"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               11
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-12"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               12
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-13"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               13
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-14"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               14
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-15"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               15
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-16"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               16
                             </div>
@@ -511,71 +511,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-17"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               17
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view ant-picker-cell-today"
+                            class="g-picker-cell g-picker-cell-in-view g-picker-cell-today"
                             title="2017-09-18"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               18
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-19"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               19
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-20"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               20
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-21"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               21
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-22"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               22
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-23"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               23
                             </div>
@@ -583,71 +583,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-24"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               24
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-25"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               25
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-26"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               26
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-27"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               27
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-28"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               28
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-29"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               29
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-09-30"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               30
                             </div>
@@ -655,71 +655,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-10-01"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               1
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-10-02"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               2
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-10-03"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               3
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-10-04"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               4
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-10-05"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               5
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-10-06"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               6
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-10-07"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               7
                             </div>
@@ -731,43 +731,43 @@ Array [
                 </div>
               </div>
               <div
-                class="ant-picker-panel"
+                class="g-picker-panel"
                 tabindex="0"
               >
                 <div
-                  class="ant-picker-date-panel"
+                  class="g-picker-date-panel"
                 >
                   <div
-                    class="ant-picker-header"
+                    class="g-picker-header"
                   >
                     <button
                       aria-label="Last year (Control + left)"
-                      class="ant-picker-header-super-prev-btn"
+                      class="g-picker-header-super-prev-btn"
                       style="visibility: hidden;"
                       tabindex="-1"
                       type="button"
                     >
                       <span
-                        class="ant-picker-super-prev-icon"
+                        class="g-picker-super-prev-icon"
                       />
                     </button>
                     <button
                       aria-label="Previous month (PageUp)"
-                      class="ant-picker-header-prev-btn"
+                      class="g-picker-header-prev-btn"
                       style="visibility: hidden;"
                       tabindex="-1"
                       type="button"
                     >
                       <span
-                        class="ant-picker-prev-icon"
+                        class="g-picker-prev-icon"
                       />
                     </button>
                     <div
-                      class="ant-picker-header-view"
+                      class="g-picker-header-view"
                     >
                       <button
                         aria-label="Choose a month"
-                        class="ant-picker-month-btn"
+                        class="g-picker-month-btn"
                         tabindex="-1"
                         type="button"
                       >
@@ -775,7 +775,7 @@ Array [
                       </button>
                       <button
                         aria-label="Choose a year"
-                        class="ant-picker-year-btn"
+                        class="g-picker-year-btn"
                         tabindex="-1"
                         type="button"
                       >
@@ -784,30 +784,30 @@ Array [
                     </div>
                     <button
                       aria-label="Next month (PageDown)"
-                      class="ant-picker-header-next-btn"
+                      class="g-picker-header-next-btn"
                       tabindex="-1"
                       type="button"
                     >
                       <span
-                        class="ant-picker-next-icon"
+                        class="g-picker-next-icon"
                       />
                     </button>
                     <button
                       aria-label="Next year (Control + right)"
-                      class="ant-picker-header-super-next-btn"
+                      class="g-picker-header-super-next-btn"
                       tabindex="-1"
                       type="button"
                     >
                       <span
-                        class="ant-picker-super-next-icon"
+                        class="g-picker-super-next-icon"
                       />
                     </button>
                   </div>
                   <div
-                    class="ant-picker-body"
+                    class="g-picker-body"
                   >
                     <table
-                      class="ant-picker-content"
+                      class="g-picker-content"
                     >
                       <thead>
                         <tr>
@@ -837,71 +837,71 @@ Array [
                       <tbody>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-01"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               1
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-02"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               2
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-03"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               3
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-04"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               4
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-05"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               5
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-06"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               6
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-07"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               7
                             </div>
@@ -909,71 +909,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-08"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               8
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-09"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               9
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-10"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               10
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-11"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               11
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-12"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               12
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-13"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               13
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-14"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               14
                             </div>
@@ -981,71 +981,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-15"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               15
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-16"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               16
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-17"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               17
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-18"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               18
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-19"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               19
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-20"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               20
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-21"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               21
                             </div>
@@ -1053,71 +1053,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-22"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               22
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-23"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               23
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-24"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               24
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-25"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               25
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-26"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               26
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-27"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               27
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-28"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               28
                             </div>
@@ -1125,71 +1125,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-29"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               29
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-30"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               30
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell ant-picker-cell-in-view"
+                            class="g-picker-cell g-picker-cell-in-view"
                             title="2017-10-31"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               31
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-01"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               1
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-02"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               2
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-03"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               3
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-04"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               4
                             </div>
@@ -1197,71 +1197,71 @@ Array [
                         </tr>
                         <tr>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-05"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               5
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-06"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               6
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-07"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               7
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-08"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               8
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-09"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               9
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-10"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               10
                             </div>
                           </td>
                           <td
-                            class="ant-picker-cell"
+                            class="g-picker-cell"
                             title="2017-11-11"
                           >
                             <div
-                              class="ant-picker-cell-inner"
+                              class="g-picker-cell-inner"
                             >
                               11
                             </div>

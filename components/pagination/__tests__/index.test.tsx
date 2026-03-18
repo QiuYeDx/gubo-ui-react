@@ -31,7 +31,7 @@ describe('Pagination', () => {
 
   it('should automatically be small when size is not specified', async () => {
     const { container } = render(<Pagination responsive />);
-    expect(container.querySelector('ul')?.className.includes('ant-pagination-mini')).toBe(true);
+    expect(container.querySelector('ul')?.className.includes('g-pagination-mini')).toBe(true);
   });
 
   // https://github.com/ant-design/ant-design/issues/24913
@@ -48,10 +48,10 @@ describe('Pagination', () => {
       />,
     );
 
-    fireEvent.mouseDown(container.querySelector('.ant-select')!);
+    fireEvent.mouseDown(container.querySelector('.g-select')!);
 
-    expect(container.querySelectorAll('.ant-select-item-option').length).toBe(4);
-    fireEvent.click(container.querySelectorAll('.ant-select-item-option')[1]);
+    expect(container.querySelectorAll('.g-select-item-option').length).toBe(4);
+    fireEvent.click(container.querySelectorAll('.g-select-item-option')[1]);
     expect(onChange).toHaveBeenCalledWith(1, 20);
   });
 
@@ -93,22 +93,22 @@ describe('Pagination', () => {
         </ConfigProvider>,
       );
       expect(asFragment().firstChild).toMatchSnapshot();
-      expect(container.querySelectorAll('.ant-select-lg').length).toBe(1);
+      expect(container.querySelectorAll('.g-select-lg').length).toBe(1);
     });
   });
 
   describe('should support align props', () => {
     it('should support align to start', () => {
       const { container } = render(<Pagination align="start" />);
-      expect(container.querySelector('.ant-pagination-start')).toBeTruthy();
+      expect(container.querySelector('.g-pagination-start')).toBeTruthy();
     });
     it('should support align to center', () => {
       const { container } = render(<Pagination align="center" />);
-      expect(container.querySelector('.ant-pagination-center')).toBeTruthy();
+      expect(container.querySelector('.g-pagination-center')).toBeTruthy();
     });
     it('should support align to end', () => {
       const { container } = render(<Pagination align="end" />);
-      expect(container.querySelector('.ant-pagination-end')).toBeTruthy();
+      expect(container.querySelector('.g-pagination-end')).toBeTruthy();
     });
   });
 
@@ -124,6 +124,6 @@ describe('Pagination', () => {
     );
 
     // Expect `input` is `readonly`
-    expect(container.querySelector('.ant-select input')).toHaveAttribute('readonly');
+    expect(container.querySelector('.g-select input')).toHaveAttribute('readonly');
   });
 });

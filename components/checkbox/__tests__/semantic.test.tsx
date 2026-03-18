@@ -24,9 +24,9 @@ describe('Checkbox.Semantic', () => {
       </Checkbox>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-checkbox-wrapper');
-    const iconElement = container.querySelector<HTMLElement>('.ant-checkbox');
-    const labelElement = container.querySelector<HTMLElement>('.ant-checkbox-label');
+    const rootElement = container.querySelector<HTMLElement>('.g-checkbox-wrapper');
+    const iconElement = container.querySelector<HTMLElement>('.g-checkbox');
+    const labelElement = container.querySelector<HTMLElement>('.g-checkbox-label');
 
     expect(rootElement).toHaveClass(customClassNames.root);
     expect(iconElement).toHaveClass(customClassNames.icon);
@@ -66,9 +66,9 @@ describe('Checkbox.Semantic', () => {
       </Checkbox>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-checkbox-wrapper');
-    const iconElement = container.querySelector<HTMLElement>('.ant-checkbox');
-    const labelElement = container.querySelector<HTMLElement>('.ant-checkbox-label');
+    const rootElement = container.querySelector<HTMLElement>('.g-checkbox-wrapper');
+    const iconElement = container.querySelector<HTMLElement>('.g-checkbox');
+    const labelElement = container.querySelector<HTMLElement>('.g-checkbox-label');
 
     expect(rootElement).toHaveClass('enabled-checkbox');
     expect(iconElement).toHaveClass('enabled-icon');
@@ -92,7 +92,7 @@ describe('Checkbox.Semantic', () => {
       </Checkbox>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-checkbox-wrapper');
+    const rootElement = container.querySelector<HTMLElement>('.g-checkbox-wrapper');
     expect(rootElement).toHaveClass('checked-checkbox');
   });
 });

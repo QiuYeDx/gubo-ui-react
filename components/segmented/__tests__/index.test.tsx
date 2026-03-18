@@ -13,7 +13,7 @@ jest.mock('@rc-component/motion/lib/util/motion', () => ({
   supportTransition: false,
 }));
 
-const prefixCls = 'ant-segmented';
+const prefixCls = 'g-segmented';
 
 function expectMatchChecked(container: HTMLElement, checkedList: boolean[]) {
   const inputList = Array.from(
@@ -351,14 +351,14 @@ describe('Segmented', () => {
       const { container } = render(
         <Segmented vertical orientation="horizontal" options={['Daily', 'Weekly', 'Monthly']} />,
       );
-      expect(container.querySelector<HTMLDivElement>('.ant-segmented-vertical')).toBeNull();
+      expect(container.querySelector<HTMLDivElement>('.g-segmented-vertical')).toBeNull();
     });
 
     it('orientation=vertical, result orientation=vertical', () => {
       const { container } = render(
         <Segmented orientation="vertical" options={['Daily', 'Weekly', 'Monthly']} />,
       );
-      expect(container.querySelector<HTMLDivElement>('.ant-segmented-vertical')).not.toBeNull();
+      expect(container.querySelector<HTMLDivElement>('.g-segmented-vertical')).not.toBeNull();
     });
   });
 
@@ -374,14 +374,14 @@ describe('Segmented', () => {
           ]}
         />,
       );
-      const itemList = container.querySelectorAll('.ant-segmented-item');
+      const itemList = container.querySelectorAll('.g-segmented-item');
       fireEvent.mouseEnter(itemList[0]);
       fireEvent.mouseEnter(itemList[1]);
       fireEvent.mouseEnter(itemList[2]);
       await waitFor(() => {
-        const tooltipList = document.querySelectorAll('.ant-tooltip');
+        const tooltipList = document.querySelectorAll('.g-tooltip');
         expect(tooltipList).toHaveLength(2);
-        const tooltipInnerList = document.querySelectorAll('.ant-tooltip-container');
+        const tooltipInnerList = document.querySelectorAll('.g-tooltip-container');
         expect(tooltipInnerList).toHaveLength(2);
         expect(tooltipInnerList[0]?.textContent).toBe('hello Daily');
         expect(tooltipInnerList[1]?.textContent).toBe('hello Monthly');

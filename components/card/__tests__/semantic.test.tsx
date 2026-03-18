@@ -36,12 +36,12 @@ describe('Card.Semantic', () => {
       </Card>,
     );
 
-    const root = container.querySelector('.ant-card');
-    const header = container.querySelector('.ant-card-head');
-    const body = container.querySelector('.ant-card-body');
-    const actions = container.querySelector('.ant-card-actions');
-    const title = container.querySelector('.ant-card-head-title');
-    const extra = container.querySelector('.ant-card-extra');
+    const root = container.querySelector('.g-card');
+    const header = container.querySelector('.g-card-head');
+    const body = container.querySelector('.g-card-body');
+    const actions = container.querySelector('.g-card-actions');
+    const title = container.querySelector('.g-card-head-title');
+    const extra = container.querySelector('.g-card-extra');
 
     // Check semantic class names
     expect(root).toHaveClass(semanticClassNames.root);
@@ -95,12 +95,12 @@ describe('Card.Semantic', () => {
       </Card>,
     );
 
-    const root = container.querySelector('.ant-card');
-    const header = container.querySelector('.ant-card-head');
-    const body = container.querySelector('.ant-card-body');
-    const actions = container.querySelector('.ant-card-actions');
-    const title = container.querySelector('.ant-card-head-title');
-    const extra = container.querySelector('.ant-card-extra');
+    const root = container.querySelector('.g-card');
+    const header = container.querySelector('.g-card-head');
+    const body = container.querySelector('.g-card-body');
+    const actions = container.querySelector('.g-card-actions');
+    const title = container.querySelector('.g-card-head-title');
+    const extra = container.querySelector('.g-card-extra');
 
     expect(root).toHaveClass('dynamic-card-root');
     expect(header).toHaveClass('dynamic-card-header');

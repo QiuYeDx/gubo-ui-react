@@ -25,10 +25,10 @@ describe('Calendar.onSelect', () => {
     const onSelect = jest.fn();
     const { container } = render(<Calendar onSelect={onSelect} />);
 
-    fireEvent.mouseDown(container.querySelector('.ant-select')!);
+    fireEvent.mouseDown(container.querySelector('.g-select')!);
     await waitFakeTimer();
 
-    fireEvent.click(container.querySelector('.ant-select-item-option')!);
+    fireEvent.click(container.querySelector('.g-select-item-option')!);
     await waitFakeTimer();
 
     expect(onSelect).toHaveBeenCalledWith(expect.anything(), { source: 'year' });
@@ -38,10 +38,10 @@ describe('Calendar.onSelect', () => {
     const onSelect = jest.fn();
     const { container } = render(<Calendar onSelect={onSelect} />);
 
-    fireEvent.mouseDown(container.querySelectorAll('.ant-select')[1]!);
+    fireEvent.mouseDown(container.querySelectorAll('.g-select')[1]!);
     await waitFakeTimer();
 
-    fireEvent.click(container.querySelector('.ant-select-item-option')!);
+    fireEvent.click(container.querySelector('.g-select-item-option')!);
     await waitFakeTimer();
 
     expect(onSelect).toHaveBeenCalledWith(expect.anything(), { source: 'month' });
@@ -76,7 +76,7 @@ describe('Calendar.onSelect', () => {
     const onSelect = jest.fn();
     const { container } = render(<Calendar onSelect={onSelect} />);
 
-    fireEvent.click(container.querySelector('.ant-picker-cell')!);
+    fireEvent.click(container.querySelector('.g-picker-cell')!);
     expect(onSelect).toHaveBeenCalledWith(expect.anything(), { source: 'date' });
   });
 
@@ -86,14 +86,14 @@ describe('Calendar.onSelect', () => {
     const { container } = render(<Calendar onSelect={onSelect} onPanelChange={onPanelChange} />);
 
     // Default is month radio
-    fireEvent.click(container.querySelector('.ant-picker-cell')!);
+    fireEvent.click(container.querySelector('.g-picker-cell')!);
     expect(onSelect).toHaveBeenCalledWith(expect.anything(), { source: 'date' });
 
     // Click year radio
-    fireEvent.click(container.querySelectorAll('.ant-radio-button-input')[1]!);
+    fireEvent.click(container.querySelectorAll('.g-radio-button-input')[1]!);
     expect(onPanelChange).toHaveBeenCalledWith(expect.anything(), 'year');
 
-    fireEvent.click(container.querySelector('.ant-picker-cell')!);
+    fireEvent.click(container.querySelector('.g-picker-cell')!);
     expect(onSelect).toHaveBeenCalledWith(expect.anything(), { source: 'month' });
   });
 });

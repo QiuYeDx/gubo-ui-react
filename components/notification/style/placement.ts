@@ -9,7 +9,7 @@ const genNotificationPlacementStyle: GenerateStyle<NotificationToken, CSSObject>
 
   const noticeCls = `${componentCls}-notice`;
 
-  const rightFadeIn = new Keyframes('antNotificationFadeIn', {
+  const rightFadeIn = new Keyframes('gNotificationFadeIn', {
     '0%': {
       transform: `translate3d(100%, 0, 0)`,
       opacity: 0,
@@ -21,7 +21,7 @@ const genNotificationPlacementStyle: GenerateStyle<NotificationToken, CSSObject>
     },
   });
 
-  const topFadeIn = new Keyframes('antNotificationTopFadeIn', {
+  const topFadeIn = new Keyframes('gNotificationTopFadeIn', {
     '0%': {
       top: -animationMaxHeight,
       opacity: 0,
@@ -33,7 +33,7 @@ const genNotificationPlacementStyle: GenerateStyle<NotificationToken, CSSObject>
     },
   });
 
-  const bottomFadeIn = new Keyframes('antNotificationBottomFadeIn', {
+  const bottomFadeIn = new Keyframes('gNotificationBottomFadeIn', {
     '0%': {
       bottom: token.calc(animationMaxHeight).mul(-1).equal(),
       opacity: 0,
@@ -45,7 +45,7 @@ const genNotificationPlacementStyle: GenerateStyle<NotificationToken, CSSObject>
     },
   });
 
-  const leftFadeIn = new Keyframes('antNotificationLeftFadeIn', {
+  const leftFadeIn = new Keyframes('gNotificationLeftFadeIn', {
     '0%': {
       transform: `translate3d(-100%, 0, 0)`,
       opacity: 0,

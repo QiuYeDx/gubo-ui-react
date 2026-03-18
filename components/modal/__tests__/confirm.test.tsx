@@ -146,7 +146,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     });
 
     await waitFakeTimer();
-    expect(document.querySelector('.ant-modal-confirm-title')).toBe(null);
+    expect(document.querySelector('.g-modal-confirm-title')).toBe(null);
   });
 
   it('trigger onCancel once when click on cancel button', async () => {
@@ -157,7 +157,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk,
     });
 
-    $$('.ant-btn')[0].click();
+    $$('.g-btn')[0].click();
     expect(onCancel.mock.calls.length).toBe(1);
     expect(onOk.mock.calls.length).toBe(0);
   });
@@ -170,7 +170,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk,
     });
 
-    $$('.ant-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
     expect(onCancel.mock.calls.length).toBe(0);
     expect(onOk.mock.calls.length).toBe(1);
   });
@@ -179,7 +179,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     await open();
 
     // Third Modal
-    $$('.ant-btn')[0].click();
+    $$('.g-btn')[0].click();
     expect(errorSpy).not.toHaveBeenCalled();
   });
 
@@ -187,7 +187,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     await open();
 
     // Fourth Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
     expect(errorSpy).not.toHaveBeenCalled();
   });
 
@@ -201,12 +201,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
     await waitFakeTimer();
 
-    expect($$(`.ant-modal-confirm-confirm`)).toHaveLength(1);
+    expect($$(`.g-modal-confirm-confirm`)).toHaveLength(1);
     fireEvent.keyDown(window, { key: 'Escape' });
 
     await waitFakeTimer(0);
 
-    expect($$(`.ant-modal-confirm-confirm`)).toHaveLength(0);
+    expect($$(`.g-modal-confirm-confirm`)).toHaveLength(0);
     expect(onCancel).toHaveBeenCalledTimes(1);
   });
 
@@ -226,7 +226,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     await waitFakeTimer();
     for (let i = 0; i < 10; i += 1) {
       act(() => {
-        $$('.ant-btn-primary')[0].click();
+        $$('.g-btn-primary')[0].click();
       });
     }
     expect(onOk).toHaveBeenCalledTimes(1);
@@ -247,8 +247,8 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk: () => Promise.resolve(''),
     });
 
-    $$('.ant-btn-primary')[0].click();
-    expect($$('.ant-modal-confirm')).toHaveLength(1);
+    $$('.g-btn-primary')[0].click();
+    expect($$('.g-modal-confirm')).toHaveLength(1);
   });
 
   it('should emit error when onOk return Promise.reject', async () => {
@@ -259,7 +259,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk: () => Promise.reject(error),
     });
 
-    $$('.ant-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
 
     // wait promise
     await waitFakeTimer();
@@ -270,21 +270,21 @@ describe('Modal.confirm triggers callbacks correctly', () => {
   it('shows animation when close', async () => {
     await open();
 
-    expect($$('.ant-modal-confirm')).toHaveLength(1);
+    expect($$('.g-modal-confirm')).toHaveLength(1);
 
     await waitFakeTimer();
 
-    $$('.ant-btn')[0].click();
+    $$('.g-btn')[0].click();
 
     await waitFakeTimer();
 
-    expect($$('.ant-modal-confirm')).toHaveLength(0);
+    expect($$('.g-modal-confirm')).toHaveLength(0);
   });
 
   it('ok only', async () => {
     await open({ okCancel: false });
-    expect($$('.ant-btn')).toHaveLength(1);
-    expect($$('.ant-btn')[0].innerHTML).toContain('OK');
+    expect($$('.g-btn')).toHaveLength(1);
+    expect($$('.g-btn')[0].innerHTML).toContain('OK');
   });
 
   it('allows extra props on buttons', async () => {
@@ -293,9 +293,9 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       cancelButtonProps: { 'data-test': 'baz' } as ModalFuncProps['cancelButtonProps'],
     });
 
-    expect($$('.ant-btn')).toHaveLength(2);
-    expect(($$('.ant-btn')[0].attributes as any)['data-test'].value).toBe('baz');
-    expect(($$('.ant-btn')[1] as HTMLButtonElement).disabled).toBe(true);
+    expect($$('.g-btn')).toHaveLength(2);
+    expect(($$('.g-btn')[0].attributes as any)['data-test'].value).toBe('baz');
+    expect(($$('.g-btn')[1] as HTMLButtonElement).disabled).toBe(true);
   });
 
   describe('should close modals when click confirm button', () => {
@@ -303,11 +303,11 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       it(type, async () => {
         Modal[type]?.({ title: 'title', content: 'content' });
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
 
-        $$('.ant-btn')[0].click();
+        $$('.g-btn')[0].click();
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(0);
       });
     });
   });
@@ -321,10 +321,10 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onCancel,
     });
     await waitFakeTimer();
-    expect($$(`.ant-modal-confirm-confirm`)).toHaveLength(1);
-    $$('.ant-btn')[0].click();
+    expect($$(`.g-modal-confirm-confirm`)).toHaveLength(1);
+    $$('.g-btn')[0].click();
     await waitFakeTimer();
-    expect($$(`.ant-modal-confirm-confirm`)).toHaveLength(0);
+    expect($$(`.g-modal-confirm-confirm`)).toHaveLength(0);
     expect(onCancel).toHaveBeenCalledTimes(1);
   });
 
@@ -338,10 +338,10 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onCancel,
     });
     await waitFakeTimer();
-    expect($$(`.ant-modal-close`)).toHaveLength(1);
-    $$('.ant-btn')[0].click();
+    expect($$(`.g-modal-close`)).toHaveLength(1);
+    $$('.g-btn')[0].click();
     await waitFakeTimer();
-    expect($$(`.ant-modal-close`)).toHaveLength(0);
+    expect($$(`.g-modal-close`)).toHaveLength(0);
     expect(onCancel).toHaveBeenCalledTimes(1);
   });
 
@@ -354,11 +354,11 @@ describe('Modal.confirm triggers callbacks correctly', () => {
           onOk: (_) => null,
         });
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-        $$('.ant-btn-primary')[0].click();
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
+        $$('.g-btn-primary')[0].click();
 
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
       });
     });
   });
@@ -371,21 +371,21 @@ describe('Modal.confirm triggers callbacks correctly', () => {
           content: 'content',
         });
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-        expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('title');
-        expect($$('.ant-modal-confirm-content')[0].innerHTML).toBe('content');
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
+        expect($$('.g-modal-confirm-title')[0].innerHTML).toBe('title');
+        expect($$('.g-modal-confirm-content')[0].innerHTML).toBe('content');
         instance.update({
           title: 'new title',
           content: 'new content',
         });
 
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-        expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('new title');
-        expect($$('.ant-modal-confirm-content')[0].innerHTML).toBe('new content');
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
+        expect($$('.g-modal-confirm-title')[0].innerHTML).toBe('new title');
+        expect($$('.g-modal-confirm-content')[0].innerHTML).toBe('new content');
         instance.destroy();
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(0);
       });
     });
   });
@@ -398,10 +398,10 @@ describe('Modal.confirm triggers callbacks correctly', () => {
           okButtonProps: { loading: true, style: { padding: 20 } },
         });
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-        expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('title');
-        expect($$('.ant-modal-confirm-btns .ant-btn-primary')[0]).toHaveClass('ant-btn-loading');
-        expect($$('.ant-modal-confirm-btns .ant-btn-primary')[0]).toHaveStyle({ padding: '20px' });
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
+        expect($$('.g-modal-confirm-title')[0].innerHTML).toBe('title');
+        expect($$('.g-modal-confirm-btns .g-btn-primary')[0]).toHaveClass('g-btn-loading');
+        expect($$('.g-modal-confirm-btns .g-btn-primary')[0]).toHaveStyle({ padding: '20px' });
         instance.update((prevConfig) => ({
           ...prevConfig,
           okButtonProps: {
@@ -410,16 +410,14 @@ describe('Modal.confirm triggers callbacks correctly', () => {
           },
         }));
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-        expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('title');
-        expect($$('.ant-modal-confirm-btns .ant-btn-primary')[0]).not.toHaveClass(
-          'ant-btn-loading',
-        );
-        expect($$('.ant-modal-confirm-btns .ant-btn-primary')[0]).toHaveStyle({ padding: '20px' });
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
+        expect($$('.g-modal-confirm-title')[0].innerHTML).toBe('title');
+        expect($$('.g-modal-confirm-btns .g-btn-primary')[0]).not.toHaveClass('g-btn-loading');
+        expect($$('.g-modal-confirm-btns .g-btn-primary')[0]).toHaveStyle({ padding: '20px' });
         instance.destroy();
 
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(0);
       });
     });
   });
@@ -432,11 +430,11 @@ describe('Modal.confirm triggers callbacks correctly', () => {
           content: 'content',
         });
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
 
         instance.destroy();
         await waitFakeTimer();
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(0);
       });
     });
   });
@@ -453,7 +451,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     await waitFakeTimer();
 
     ['info', 'success', 'warning', 'error'].forEach((type) => {
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
     });
 
     // Destroy
@@ -462,7 +460,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     await waitFakeTimer();
 
     ['info', 'success', 'warning', 'error'].forEach((type) => {
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+      expect($$(`.g-modal-confirm-${type}`)).toHaveLength(0);
     });
   });
 
@@ -473,12 +471,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     expect($$('.custom-modal-wrap')).toHaveLength(1);
     expect($$('.custom-modal-confirm')).toHaveLength(1);
     expect($$('.custom-modal-confirm-body-wrapper')).toHaveLength(1);
-    expect($$('.ant-btn')).toHaveLength(2);
+    expect($$('.g-btn')).toHaveLength(2);
   });
 
   it('should be Modal.confirm without mask', async () => {
     await open({ mask: false });
-    expect($$('.ant-modal-mask')).toHaveLength(0);
+    expect($$('.g-modal-mask')).toHaveLength(0);
   });
 
   it('destroyFns should reduce when instance.destroy', async () => {
@@ -544,10 +542,8 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     await waitFakeTimer();
 
     // We check icon is not exist in the body
-    expect(document.querySelector('.ant-modal-confirm-body')!.children).toHaveLength(1);
-    expect(
-      document.querySelector('.ant-modal-confirm-body')!.querySelector('.anticon'),
-    ).toBeFalsy();
+    expect(document.querySelector('.g-modal-confirm-body')!.children).toHaveLength(1);
+    expect(document.querySelector('.g-modal-confirm-body')!.querySelector('.gicon')).toBeFalsy();
 
     jest.useRealTimers();
   });
@@ -556,8 +552,8 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     const onOk = jest.fn();
     await open({ onOk });
 
-    $$('.ant-btn-primary')[0].click();
-    $$('.ant-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
     expect(onOk).toHaveBeenCalledTimes(1);
   });
 
@@ -572,9 +568,9 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       },
     });
 
-    $$('.ant-btn-primary')[0].click();
-    $$('.ant-btn-primary')[0].click();
-    $$('.ant-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
     expect(onOk).toHaveBeenCalledTimes(3);
   });
 
@@ -584,7 +580,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
     await waitFakeTimer();
 
-    expect(document.querySelectorAll('.ant-btn').length).toBe(0);
+    expect(document.querySelectorAll('.g-btn').length).toBe(0);
     expect(document.querySelectorAll('.my-btn').length).toBe(2);
     expect(document.querySelectorAll('.bamboo-smile').length).toBe(1);
     expect(document.querySelectorAll('.my-modal-confirm').length).toBe(1);
@@ -607,7 +603,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
     await waitFakeTimer();
 
-    expect(document.querySelectorAll('.ant-btn').length).toBe(0);
+    expect(document.querySelectorAll('.g-btn').length).toBe(0);
     expect(document.querySelectorAll('.my-btn').length).toBe(2);
     expect(document.querySelectorAll('.my-modal-confirm').length).toBe(1);
     Modal.config({
@@ -619,7 +615,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
     await waitFakeTimer();
 
-    expect(document.querySelectorAll('.ant-btn').length).toBe(0);
+    expect(document.querySelectorAll('.g-btn').length).toBe(0);
     expect(document.querySelectorAll('.my-btn').length).toBe(2);
     expect(document.querySelectorAll('.my-modal-confirm').length).toBe(1);
     expect(document.querySelectorAll('.your-btn').length).toBe(2);
@@ -635,7 +631,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       afterClose,
     });
     // first Modal
-    $$('.ant-btn')[0].click();
+    $$('.g-btn')[0].click();
     expect(afterClose).not.toHaveBeenCalled();
     await waitFakeTimer(500);
     expect(afterClose).toHaveBeenCalled();
@@ -648,7 +644,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     });
 
     // second Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
     expect(afterClose).not.toHaveBeenCalled();
     await waitFakeTimer(500);
     expect(afterClose).toHaveBeenCalled();
@@ -659,7 +655,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     const spy = jest.spyOn(console, 'error').mockImplementation(() => {});
     await open({ bodyStyle: { width: 500 } });
 
-    const { width } = $$('.ant-modal-body')[0].style;
+    const { width } = $$('.g-modal-body')[0].style;
     expect(width).toBe('500px');
     expect(spy).toHaveBeenCalledWith(
       'Warning: [antd: Modal] `bodyStyle` is deprecated. Please use `styles.body` instead.',
@@ -671,7 +667,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     resetWarned();
     await open({ styles: { body: { width: 500 } } });
 
-    const { width } = $$('.ant-modal-body')[0].style;
+    const { width } = $$('.g-modal-body')[0].style;
     expect(width).toBe('500px');
   });
 
@@ -689,12 +685,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
         await waitFakeTimer();
 
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-        fireEvent.click($$('.ant-modal-close')[0]);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
+        fireEvent.click($$('.g-modal-close')[0]);
 
         await waitFakeTimer();
 
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(0);
         expect(mock).toHaveBeenCalledWith(expect.any(Function));
 
         jest.useRealTimers();
@@ -714,12 +710,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
         await waitFakeTimer();
 
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-        fireEvent.keyDown($$(`.ant-modal-confirm-${type}`)[0], { key: 'Escape' });
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
+        fireEvent.keyDown($$(`.g-modal-confirm-${type}`)[0], { key: 'Escape' });
 
         await waitFakeTimer(0);
 
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(0);
         expect(mock).toHaveBeenCalledWith(expect.any(Function));
 
         jest.useRealTimers();
@@ -739,15 +735,15 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
         await waitFakeTimer();
 
-        expect($$('.ant-modal-mask')).toHaveLength(1);
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+        expect($$('.g-modal-mask')).toHaveLength(1);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(1);
 
-        fireEvent.mouseDown($$('.ant-modal-wrap')[0]);
-        fireEvent.click($$('.ant-modal-wrap')[0]);
+        fireEvent.mouseDown($$('.g-modal-wrap')[0]);
+        fireEvent.click($$('.g-modal-wrap')[0]);
 
         await waitFakeTimer();
 
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+        expect($$(`.g-modal-confirm-${type}`)).toHaveLength(0);
         expect(mock).toHaveBeenCalledWith(expect.any(Function));
 
         jest.useRealTimers();
@@ -766,7 +762,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
     await waitFakeTimer();
 
-    fireEvent.click($$('.ant-modal-confirm-btns > .ant-btn')[0]);
+    fireEvent.click($$('.g-modal-confirm-btns > .g-btn')[0]);
     await waitFakeTimer();
 
     expect(mock).toHaveBeenCalledWith(expect.any(Function));
@@ -783,12 +779,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
     await waitFakeTimer();
 
-    expect($$('.ant-modal-confirm-confirm')).toHaveLength(1);
+    expect($$('.g-modal-confirm-confirm')).toHaveLength(1);
 
-    fireEvent.click($$('.ant-modal-confirm-btns > .ant-btn')[0]);
+    fireEvent.click($$('.g-modal-confirm-btns > .g-btn')[0]);
     await waitFakeTimer();
 
-    expect($$('.ant-modal-confirm-confirm')).toHaveLength(0);
+    expect($$('.g-modal-confirm-confirm')).toHaveLength(0);
 
     jest.useRealTimers();
   });
@@ -807,12 +803,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
     await waitFakeTimer();
 
-    expect($$('.ant-modal-confirm-confirm')).toHaveLength(1);
+    expect($$('.g-modal-confirm-confirm')).toHaveLength(1);
 
-    $$('.ant-modal-confirm-btns > .ant-btn')[0].click();
+    $$('.g-modal-confirm-btns > .g-btn')[0].click();
     await waitFakeTimer();
 
-    expect($$('.ant-modal-confirm-confirm')).toHaveLength(0);
+    expect($$('.g-modal-confirm-confirm')).toHaveLength(0);
 
     jest.useRealTimers();
     errSpy.mockRestore();
@@ -825,7 +821,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
     await waitFakeTimer();
 
-    expect($$('.ant-modal-confirm-btns')).toHaveLength(0);
+    expect($$('.g-modal-confirm-btns')).toHaveLength(0);
   });
 
   it('Update Footer', async () => {
@@ -852,7 +848,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
         await waitFakeTimer();
 
-        expect(document.querySelector(`.ant-modal-footer`)).toBeFalsy();
+        expect(document.querySelector(`.g-modal-footer`)).toBeFalsy();
       });
     });
 
@@ -864,7 +860,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
 
       await waitFakeTimer();
 
-      expect(document.querySelector(`.ant-modal-container`)).toMatchSnapshot();
+      expect(document.querySelector(`.g-modal-container`)).toMatchSnapshot();
     });
   });
 
@@ -910,8 +906,8 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     });
     Modal.confirm({ content: 'hai' });
     await waitFakeTimer();
-    expect(document.querySelectorAll('.ant-modal-root')).toHaveLength(0);
-    expect(document.querySelectorAll('.anticon-exclamation-circle')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-modal-root')).toHaveLength(0);
+    expect(document.querySelectorAll('.gicon-exclamation-circle')).toHaveLength(0);
     expect(document.querySelectorAll('.test-modal-root')).toHaveLength(1);
     expect(document.querySelectorAll('.icon-exclamation-circle')).toHaveLength(1);
     configWarp({ holderRender: undefined });
@@ -925,17 +921,17 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     });
     Modal.confirm({ content: 'hai' });
     await waitFakeTimer();
-    expect(document.querySelector('.ant-modal-confirm-rtl')).toBeTruthy();
+    expect(document.querySelector('.g-modal-confirm-rtl')).toBeTruthy();
 
     document.body.innerHTML = '';
     Modal.confirm({ content: 'hai', direction: 'rtl' });
     await waitFakeTimer();
-    expect(document.querySelector('.ant-modal-confirm-rtl')).toBeTruthy();
+    expect(document.querySelector('.g-modal-confirm-rtl')).toBeTruthy();
 
     document.body.innerHTML = '';
     Modal.confirm({ content: 'hai', direction: 'ltr' });
     await waitFakeTimer();
-    expect(document.querySelector('.ant-modal-confirm-rtl')).toBeFalsy();
+    expect(document.querySelector('.g-modal-confirm-rtl')).toBeFalsy();
     configWarp({ holderRender: undefined });
   });
   it('should be able to config holderRender and static config', async () => {
@@ -975,28 +971,28 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     });
     Modal.confirm({ content: 'hai' });
     await waitFakeTimer();
-    expect(document.querySelector('.ant-btn-primary')?.textContent).toBe('test');
+    expect(document.querySelector('.g-btn-primary')?.textContent).toBe('test');
     configWarp({ holderRender: undefined });
   });
 
   it('onCancel and onOk return any results and should be closed', async () => {
     Modal.confirm({ onOk: () => true });
     await waitFakeTimer();
-    $$('.ant-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
     await waitFakeTimer();
-    expect(document.querySelector('.ant-modal-root')).toBeFalsy();
+    expect(document.querySelector('.g-modal-root')).toBeFalsy();
 
     Modal.confirm({ onOk: () => false });
     await waitFakeTimer();
-    $$('.ant-btn-primary')[0].click();
+    $$('.g-btn-primary')[0].click();
     await waitFakeTimer();
-    expect(document.querySelector('.ant-modal-root')).toBeFalsy();
+    expect(document.querySelector('.g-modal-root')).toBeFalsy();
 
     Modal.confirm({ onCancel: () => undefined });
     await waitFakeTimer();
-    $$('.ant-btn')[0].click();
+    $$('.g-btn')[0].click();
     await waitFakeTimer();
-    expect(document.querySelector('.ant-modal-root')).toBeFalsy();
+    expect(document.querySelector('.g-modal-root')).toBeFalsy();
   });
 
   it('focusable.autoFocusButton should working', async () => {
@@ -1009,7 +1005,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     await waitFakeTimer();
 
     expect(document.activeElement).toBe(
-      document.querySelector('.ant-modal-confirm-btns .ant-btn-default'),
+      document.querySelector('.g-modal-confirm-btns .g-btn-default'),
     );
   });
 
@@ -1030,9 +1026,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       </ConfigProvider>,
     );
 
-    expect(
-      document.querySelector('.ant-modal-confirm-btns .ant-btn-default.ant-btn-sm'),
-    ).toBeTruthy();
+    expect(document.querySelector('.g-modal-confirm-btns .g-btn-default.g-btn-sm')).toBeTruthy();
   });
 
   it('should prefer cancelButtonProps prop over cancelButtonProps global config', () => {
@@ -1055,9 +1049,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       </ConfigProvider>,
     );
 
-    expect(
-      document.querySelector('.ant-modal-confirm-btns .ant-btn-default.ant-btn-sm'),
-    ).toBeTruthy();
+    expect(document.querySelector('.g-modal-confirm-btns .g-btn-default.g-btn-sm')).toBeTruthy();
   });
 
   it('should support okButtonProps global config', () => {
@@ -1079,9 +1071,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       </ConfigProvider>,
     );
 
-    expect(
-      document.querySelector('.ant-modal-confirm-btns .ant-btn-primary.ant-btn-sm'),
-    ).toBeTruthy();
+    expect(document.querySelector('.g-modal-confirm-btns .g-btn-primary.g-btn-sm')).toBeTruthy();
   });
 
   it('should prefer okButtonProps prop over okButtonProps global config', () => {
@@ -1104,8 +1094,6 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       </ConfigProvider>,
     );
 
-    expect(
-      document.querySelector('.ant-modal-confirm-btns .ant-btn-primary.ant-btn-sm'),
-    ).toBeTruthy();
+    expect(document.querySelector('.g-modal-confirm-btns .g-btn-primary.g-btn-sm')).toBeTruthy();
   });
 });

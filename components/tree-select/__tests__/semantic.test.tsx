@@ -50,7 +50,7 @@ describe('TreeSelect.Semantic', () => {
       />,
     );
 
-    const treeSelectElement = container.querySelector('.ant-select');
+    const treeSelectElement = container.querySelector('.g-select');
     expect(treeSelectElement).toHaveClass('enabled-tree-select-root');
     expect(treeSelectElement).toHaveAttribute('style');
     const style = treeSelectElement?.getAttribute('style');

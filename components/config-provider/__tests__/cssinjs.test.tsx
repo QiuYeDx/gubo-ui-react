@@ -27,9 +27,9 @@ describe('ConfigProvider.DynamicTheme', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.ant-btn')).toHaveStyle({
-      '--ant-btn-color-base': 'var(--ant-color-primary)',
-      '--ant-color-primary': '#f00000',
+    expect(container.querySelector('.g-btn')).toHaveStyle({
+      '--g-btn-color-base': 'var(--g-color-primary)',
+      '--g-color-primary': '#f00000',
     });
   });
 
@@ -64,8 +64,8 @@ describe('ConfigProvider.DynamicTheme', () => {
       dynamicStyles.some((style) => {
         const { innerHTML } = style;
         return (
-          innerHTML.includes('.ant-divider') &&
-          innerHTML.includes('border-block-start:0 var(--ant-color-split)')
+          innerHTML.includes('.g-divider') &&
+          innerHTML.includes('border-block-start:0 var(--g-color-split)')
         );
       }),
     ).toBeTruthy();
@@ -73,7 +73,7 @@ describe('ConfigProvider.DynamicTheme', () => {
     expect(
       dynamicStyles.some((style) => {
         const { innerHTML } = style;
-        return innerHTML.includes('.css-var') && innerHTML.includes('--ant-color-split:blue');
+        return innerHTML.includes('.css-var') && innerHTML.includes('--g-color-split:blue');
       }),
     ).toBeTruthy();
   });

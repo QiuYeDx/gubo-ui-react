@@ -241,7 +241,7 @@ describe('Breadcrumb', () => {
       </Breadcrumb>,
     );
 
-    const item = container.querySelector<HTMLElement>('.ant-dropdown-menu-item');
+    const item = container.querySelector<HTMLElement>('.g-dropdown-menu-item');
 
     expect(item?.getAttribute('data-menu-id')?.endsWith(key)).toBeTruthy();
   });
@@ -259,8 +259,8 @@ describe('Breadcrumb', () => {
         ]}
       />,
     );
-    expect(container.querySelectorAll('.ant-breadcrumb-link')[0].textContent).toBe('0');
-    expect(container.querySelectorAll('.ant-breadcrumb-link')[1].textContent).toBe('0');
+    expect(container.querySelectorAll('.g-breadcrumb-link')[0].textContent).toBe('0');
+    expect(container.querySelectorAll('.g-breadcrumb-link')[1].textContent).toBe('0');
     expect(container.firstChild).toMatchSnapshot();
   });
 
@@ -308,7 +308,7 @@ describe('Breadcrumb', () => {
         ]}
       />,
     );
-    expect(document.querySelector('.ant-dropdown')).toBeTruthy();
+    expect(document.querySelector('.g-dropdown')).toBeTruthy();
   });
 
   it('should support custom dropdownIcon', () => {
@@ -423,9 +423,9 @@ describe('Breadcrumb', () => {
       />,
     );
 
-    const root = container.querySelector<HTMLElement>('.ant-breadcrumb');
+    const root = container.querySelector<HTMLElement>('.g-breadcrumb');
     const item = container.querySelector<HTMLElement>('.custom-item');
-    const separator = container.querySelector<HTMLElement>('.ant-breadcrumb-separator');
+    const separator = container.querySelector<HTMLElement>('.g-breadcrumb-separator');
 
     expect(root).toHaveClass(customClassNames.root);
     expect(item).toHaveClass(customClassNames.item);

@@ -181,7 +181,7 @@ describe('RangePicker', () => {
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: DatePicker.RangePicker] `popupStyle` is deprecated. Please use `styles.popup.root` instead.',
     );
-    expect(container.querySelector('.ant-picker-dropdown')).toHaveStyle(
+    expect(container.querySelector('.g-picker-dropdown')).toHaveStyle(
       'background-color: rgb(255, 0, 0)',
     );
 
@@ -231,9 +231,7 @@ describe('RangePicker', () => {
       />,
     );
 
-    expect(container.querySelector('.ant-picker-content thead')?.textContent).toBe(
-      '一二三四五六日',
-    );
+    expect(container.querySelector('.g-picker-content thead')?.textContent).toBe('一二三四五六日');
 
     expect(container.querySelector<HTMLInputElement>('input')).toHaveAttribute(
       'placeholder',

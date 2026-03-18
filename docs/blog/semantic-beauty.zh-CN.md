@@ -61,12 +61,12 @@ author: meet-student,thinkasany
 除了这两种方式，你可能还写过更不推荐的 CSS 样式覆盖：
 
 ```css
-.wrapper-class .ant-table {
+.wrapper-class .g-table {
   border-radius: 4px;
   overflow: hidden;
 }
 
-.wrapper-class .ant-table .ant-table-thead {
+.wrapper-class .g-table .g-table-thead {
   background-color: #f9fafc;
   color: #8b97b6;
 }

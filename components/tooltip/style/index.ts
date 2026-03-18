@@ -41,7 +41,7 @@ const FALL_BACK_ORIGIN = '50%';
 const genTooltipStyle: GenerateStyle<TooltipToken> = (token) => {
   const {
     calc,
-    componentCls, // ant-tooltip
+    componentCls, // g-tooltip
     tooltipMaxWidth,
     tooltipColor,
     tooltipBg,

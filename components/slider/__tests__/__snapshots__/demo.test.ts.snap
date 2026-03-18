@@ -3,17 +3,17 @@
 exports[`renders components/slider/demo/basic.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -21,24 +21,24 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:30%;transform:translateX(-50%)"
       tabindex="0"
     />
   </div>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1"
+      class="g-slider-track g-slider-track-1"
       style="left:20%;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -46,7 +46,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="20"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="g-slider-handle g-slider-handle-1"
       role="slider"
       style="left:20%;transform:translateX(-50%)"
       tabindex="0"
@@ -57,7 +57,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="g-slider-handle g-slider-handle-2"
       role="slider"
       style="left:50%;transform:translateX(-50%)"
       tabindex="0"
@@ -66,21 +66,21 @@ Array [
   Disabled: ,
   <button
     aria-checked="false"
-    class="ant-switch ant-switch-small css-var-test-id"
+    class="g-switch g-switch-small css-var-test-id"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       />
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       />
     </span>
   </button>,
@@ -90,17 +90,17 @@ Array [
 exports[`renders components/slider/demo/component-token.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-slider css-var-test-id ant-slider-disabled ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-disabled g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="true"
@@ -108,23 +108,23 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:30%;transform:translateX(-50%)"
     />
   </div>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1 ant-slider-track-draggable"
+      class="g-slider-track g-slider-track-1 g-slider-track-draggable"
       style="left:20%;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -132,7 +132,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="20"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="g-slider-handle g-slider-handle-1"
       role="slider"
       style="left:20%;transform:translateX(-50%)"
       tabindex="0"
@@ -143,7 +143,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="g-slider-handle g-slider-handle-2"
       role="slider"
       style="left:50%;transform:translateX(-50%)"
       tabindex="0"
@@ -153,17 +153,17 @@ Array [
     style="display:inline-block;height:300px;margin-inline-start:70px"
   >
     <div
-      class="ant-slider css-var-test-id ant-slider-vertical"
+      class="g-slider css-var-test-id g-slider-vertical"
     >
       <div
-        class="ant-slider-rail"
+        class="g-slider-rail"
       />
       <div
-        class="ant-slider-track"
+        class="g-slider-track"
         style="bottom:0%;height:30%"
       />
       <div
-        class="ant-slider-step"
+        class="g-slider-step"
       />
       <div
         aria-disabled="false"
@@ -171,7 +171,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="30"
-        class="ant-slider-handle"
+        class="g-slider-handle"
         role="slider"
         style="bottom:30%;transform:translateY(50%)"
         tabindex="0"
@@ -182,17 +182,17 @@ Array [
     style="display:inline-block;height:300px;margin-inline-start:70px"
   >
     <div
-      class="ant-slider css-var-test-id ant-slider-vertical"
+      class="g-slider css-var-test-id g-slider-vertical"
     >
       <div
-        class="ant-slider-rail"
+        class="g-slider-rail"
       />
       <div
-        class="ant-slider-track ant-slider-track-1"
+        class="g-slider-track g-slider-track-1"
         style="bottom:20%;height:30%"
       />
       <div
-        class="ant-slider-step"
+        class="g-slider-step"
       />
       <div
         aria-disabled="false"
@@ -200,7 +200,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="20"
-        class="ant-slider-handle ant-slider-handle-1"
+        class="g-slider-handle g-slider-handle-1"
         role="slider"
         style="bottom:20%;transform:translateY(50%)"
         tabindex="0"
@@ -211,7 +211,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="50"
-        class="ant-slider-handle ant-slider-handle-2"
+        class="g-slider-handle g-slider-handle-2"
         role="slider"
         style="bottom:50%;transform:translateY(50%)"
         tabindex="0"
@@ -222,32 +222,32 @@ Array [
     style="display:inline-block;height:300px;margin-inline-start:70px"
   >
     <div
-      class="ant-slider css-var-test-id ant-slider-vertical ant-slider-with-marks"
+      class="g-slider css-var-test-id g-slider-vertical g-slider-with-marks"
     >
       <div
-        class="ant-slider-rail"
+        class="g-slider-rail"
       />
       <div
-        class="ant-slider-track ant-slider-track-1"
+        class="g-slider-track g-slider-track-1"
         style="bottom:26%;height:11%"
       />
       <div
-        class="ant-slider-step"
+        class="g-slider-step"
       >
         <span
-          class="ant-slider-dot"
+          class="g-slider-dot"
           style="bottom:0%;transform:translateY(50%)"
         />
         <span
-          class="ant-slider-dot ant-slider-dot-active"
+          class="g-slider-dot g-slider-dot-active"
           style="bottom:26%;transform:translateY(50%)"
         />
         <span
-          class="ant-slider-dot ant-slider-dot-active"
+          class="g-slider-dot g-slider-dot-active"
           style="bottom:37%;transform:translateY(50%)"
         />
         <span
-          class="ant-slider-dot"
+          class="g-slider-dot"
           style="bottom:100%;transform:translateY(50%)"
         />
       </div>
@@ -257,7 +257,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="26"
-        class="ant-slider-handle ant-slider-handle-1"
+        class="g-slider-handle g-slider-handle-1"
         role="slider"
         style="bottom:26%;transform:translateY(50%)"
         tabindex="0"
@@ -268,34 +268,34 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="37"
-        class="ant-slider-handle ant-slider-handle-2"
+        class="g-slider-handle g-slider-handle-2"
         role="slider"
         style="bottom:37%;transform:translateY(50%)"
         tabindex="0"
       />
       <div
-        class="ant-slider-mark"
+        class="g-slider-mark"
       >
         <span
-          class="ant-slider-mark-text"
+          class="g-slider-mark-text"
           style="bottom:0%;transform:translateY(50%)"
         >
           0°C
         </span>
         <span
-          class="ant-slider-mark-text ant-slider-mark-text-active"
+          class="g-slider-mark-text g-slider-mark-text-active"
           style="bottom:26%;transform:translateY(50%)"
         >
           26°C
         </span>
         <span
-          class="ant-slider-mark-text ant-slider-mark-text-active"
+          class="g-slider-mark-text g-slider-mark-text-active"
           style="bottom:37%;transform:translateY(50%)"
         >
           37°C
         </span>
         <span
-          class="ant-slider-mark-text"
+          class="g-slider-mark-text"
           style="bottom:100%;transform:translateY(50%);color:#f50"
         >
           <strong>
@@ -310,17 +310,17 @@ Array [
 
 exports[`renders components/slider/demo/draggableTrack.tsx correctly 1`] = `
 <div
-  class="ant-slider css-var-test-id ant-slider-horizontal"
+  class="g-slider css-var-test-id g-slider-horizontal"
 >
   <div
-    class="ant-slider-rail"
+    class="g-slider-rail"
   />
   <div
-    class="ant-slider-track ant-slider-track-1 ant-slider-track-draggable"
+    class="g-slider-track g-slider-track-1 g-slider-track-draggable"
     style="left:20%;width:30%"
   />
   <div
-    class="ant-slider-step"
+    class="g-slider-step"
   />
   <div
     aria-disabled="false"
@@ -328,7 +328,7 @@ exports[`renders components/slider/demo/draggableTrack.tsx correctly 1`] = `
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="20"
-    class="ant-slider-handle ant-slider-handle-1"
+    class="g-slider-handle g-slider-handle-1"
     role="slider"
     style="left:20%;transform:translateX(-50%)"
     tabindex="0"
@@ -339,7 +339,7 @@ exports[`renders components/slider/demo/draggableTrack.tsx correctly 1`] = `
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="50"
-    class="ant-slider-handle ant-slider-handle-2"
+    class="g-slider-handle g-slider-handle-2"
     role="slider"
     style="left:50%;transform:translateX(-50%)"
     tabindex="0"
@@ -349,17 +349,17 @@ exports[`renders components/slider/demo/draggableTrack.tsx correctly 1`] = `
 
 exports[`renders components/slider/demo/editable.tsx correctly 1`] = `
 <div
-  class="ant-slider css-var-test-id ant-slider-horizontal"
+  class="g-slider css-var-test-id g-slider-horizontal"
 >
   <div
-    class="ant-slider-rail"
+    class="g-slider-rail"
   />
   <div
-    class="ant-slider-track ant-slider-track-1"
+    class="g-slider-track g-slider-track-1"
     style="left:20%;width:60%"
   />
   <div
-    class="ant-slider-step"
+    class="g-slider-step"
   />
   <div
     aria-disabled="false"
@@ -367,7 +367,7 @@ exports[`renders components/slider/demo/editable.tsx correctly 1`] = `
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="20"
-    class="ant-slider-handle ant-slider-handle-1"
+    class="g-slider-handle g-slider-handle-1"
     role="slider"
     style="left:20%;transform:translateX(-50%)"
     tabindex="0"
@@ -378,7 +378,7 @@ exports[`renders components/slider/demo/editable.tsx correctly 1`] = `
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="80"
-    class="ant-slider-handle ant-slider-handle-2"
+    class="g-slider-handle g-slider-handle-2"
     role="slider"
     style="left:80%;transform:translateX(-50%)"
     tabindex="0"
@@ -389,17 +389,17 @@ exports[`renders components/slider/demo/editable.tsx correctly 1`] = `
 exports[`renders components/slider/demo/event.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -407,24 +407,24 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:30%;transform:translateX(-50%)"
       tabindex="0"
     />
   </div>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1"
+      class="g-slider-track g-slider-track-1"
       style="left:20%;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -432,7 +432,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="20"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="g-slider-handle g-slider-handle-1"
       role="slider"
       style="left:20%;transform:translateX(-50%)"
       tabindex="0"
@@ -443,7 +443,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="g-slider-handle g-slider-handle-2"
       role="slider"
       style="left:50%;transform:translateX(-50%)"
       tabindex="0"
@@ -458,7 +458,7 @@ exports[`renders components/slider/demo/icon-slider.tsx correctly 1`] = `
 >
   <span
     aria-label="frown"
-    class="anticon anticon-frown icon-wrapper-active"
+    class="gicon gicon-frown icon-wrapper-active"
     role="img"
   >
     <svg
@@ -476,17 +476,17 @@ exports[`renders components/slider/demo/icon-slider.tsx correctly 1`] = `
     </svg>
   </span>
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:0%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -494,7 +494,7 @@ exports[`renders components/slider/demo/icon-slider.tsx correctly 1`] = `
       aria-valuemax="20"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:0%;transform:translateX(-50%)"
       tabindex="0"
@@ -502,7 +502,7 @@ exports[`renders components/slider/demo/icon-slider.tsx correctly 1`] = `
   </div>
   <span
     aria-label="smile"
-    class="anticon anticon-smile"
+    class="gicon gicon-smile"
     role="img"
   >
     <svg
@@ -524,30 +524,30 @@ exports[`renders components/slider/demo/icon-slider.tsx correctly 1`] = `
 
 exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-row css-var-test-id"
+      class="g-row css-var-test-id"
     >
       <div
-        class="ant-col ant-col-12 css-var-test-id"
+        class="g-col g-col-12 css-var-test-id"
       >
         <div
-          class="ant-slider css-var-test-id ant-slider-horizontal"
+          class="g-slider css-var-test-id g-slider-horizontal"
         >
           <div
-            class="ant-slider-rail"
+            class="g-slider-rail"
           />
           <div
-            class="ant-slider-track"
+            class="g-slider-track"
             style="left:0%;width:0%"
           />
           <div
-            class="ant-slider-step"
+            class="g-slider-step"
           />
           <div
             aria-disabled="false"
@@ -555,7 +555,7 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
             aria-valuemax="20"
             aria-valuemin="1"
             aria-valuenow="1"
-            class="ant-slider-handle"
+            class="g-slider-handle"
             role="slider"
             style="left:0%;transform:translateX(-50%)"
             tabindex="0"
@@ -563,10 +563,10 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col ant-col-4 css-var-test-id"
+        class="g-col g-col-4 css-var-test-id"
       >
         <div
-          class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+          class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
           style="margin:0 16px"
         >
           <input
@@ -574,24 +574,24 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
             aria-valuemin="1"
             aria-valuenow="1"
             autocomplete="off"
-            class="ant-input-number-input"
+            class="g-input-number-input"
             role="spinbutton"
             step="1"
             value="1"
           />
           <div
-            class="ant-input-number-actions"
+            class="g-input-number-actions"
           >
             <span
               aria-disabled="false"
               aria-label="Increase Value"
-              class="ant-input-number-action ant-input-number-action-up"
+              class="g-input-number-action g-input-number-action-up"
               role="button"
               unselectable="on"
             >
               <span
                 aria-label="up"
-                class="anticon anticon-up"
+                class="gicon gicon-up"
                 role="img"
               >
                 <svg
@@ -612,13 +612,13 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
             <span
               aria-disabled="true"
               aria-label="Decrease Value"
-              class="ant-input-number-action ant-input-number-action-down ant-input-number-action-down-disabled"
+              class="g-input-number-action g-input-number-action-down g-input-number-action-down-disabled"
               role="button"
               unselectable="on"
             >
               <span
                 aria-label="down"
-                class="anticon anticon-down"
+                class="gicon gicon-down"
                 role="img"
               >
                 <svg
@@ -642,26 +642,26 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-row css-var-test-id"
+      class="g-row css-var-test-id"
     >
       <div
-        class="ant-col ant-col-12 css-var-test-id"
+        class="g-col g-col-12 css-var-test-id"
       >
         <div
-          class="ant-slider css-var-test-id ant-slider-horizontal"
+          class="g-slider css-var-test-id g-slider-horizontal"
         >
           <div
-            class="ant-slider-rail"
+            class="g-slider-rail"
           />
           <div
-            class="ant-slider-track"
+            class="g-slider-track"
             style="left:0%;width:0%"
           />
           <div
-            class="ant-slider-step"
+            class="g-slider-step"
           />
           <div
             aria-disabled="false"
@@ -669,7 +669,7 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
             aria-valuemax="1"
             aria-valuemin="0"
             aria-valuenow="0"
-            class="ant-slider-handle"
+            class="g-slider-handle"
             role="slider"
             style="left:0%;transform:translateX(-50%)"
             tabindex="0"
@@ -677,10 +677,10 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col ant-col-4 css-var-test-id"
+        class="g-col g-col-4 css-var-test-id"
       >
         <div
-          class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+          class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
           style="margin:0 16px"
         >
           <input
@@ -688,24 +688,24 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
             aria-valuemin="0"
             aria-valuenow="0"
             autocomplete="off"
-            class="ant-input-number-input"
+            class="g-input-number-input"
             role="spinbutton"
             step="0.01"
             value="0.00"
           />
           <div
-            class="ant-input-number-actions"
+            class="g-input-number-actions"
           >
             <span
               aria-disabled="false"
               aria-label="Increase Value"
-              class="ant-input-number-action ant-input-number-action-up"
+              class="g-input-number-action g-input-number-action-up"
               role="button"
               unselectable="on"
             >
               <span
                 aria-label="up"
-                class="anticon anticon-up"
+                class="gicon gicon-up"
                 role="img"
               >
                 <svg
@@ -726,13 +726,13 @@ exports[`renders components/slider/demo/input-number.tsx correctly 1`] = `
             <span
               aria-disabled="true"
               aria-label="Decrease Value"
-              class="ant-input-number-action ant-input-number-action-down ant-input-number-action-down-disabled"
+              class="g-input-number-action g-input-number-action-down g-input-number-action-down-disabled"
               role="button"
               unselectable="on"
             >
               <span
                 aria-label="down"
-                class="anticon anticon-down"
+                class="gicon gicon-down"
                 role="img"
               >
                 <svg
@@ -764,32 +764,32 @@ Array [
     included=true
   </h4>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal ant-slider-with-marks"
+    class="g-slider css-var-test-id g-slider-horizontal g-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:37%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     >
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:0%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:26%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:37%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:100%;transform:translateX(-50%)"
       />
     </div>
@@ -799,34 +799,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:37%;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="g-slider-mark"
     >
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:0%;transform:translateX(-50%)"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:26%;transform:translateX(-50%)"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:37%;transform:translateX(-50%)"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:100%;transform:translateX(-50%);color:#f50"
       >
         <strong>
@@ -836,32 +836,32 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal ant-slider-with-marks"
+    class="g-slider css-var-test-id g-slider-horizontal g-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1"
+      class="g-slider-track g-slider-track-1"
       style="left:26%;width:11%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     >
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:0%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:26%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:37%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:100%;transform:translateX(-50%)"
       />
     </div>
@@ -871,7 +871,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="26"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="g-slider-handle g-slider-handle-1"
       role="slider"
       style="left:26%;transform:translateX(-50%)"
       tabindex="0"
@@ -882,34 +882,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="g-slider-handle g-slider-handle-2"
       role="slider"
       style="left:37%;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="g-slider-mark"
     >
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:0%;transform:translateX(-50%)"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:26%;transform:translateX(-50%)"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:37%;transform:translateX(-50%)"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:100%;transform:translateX(-50%);color:#f50"
       >
         <strong>
@@ -922,28 +922,28 @@ Array [
     included=false
   </h4>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal ant-slider-with-marks"
+    class="g-slider css-var-test-id g-slider-horizontal g-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     >
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:0%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:26%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:37%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:100%;transform:translateX(-50%)"
       />
     </div>
@@ -953,34 +953,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:37%;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="g-slider-mark"
     >
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:0%;transform:translateX(-50%)"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:26%;transform:translateX(-50%)"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:37%;transform:translateX(-50%)"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:100%;transform:translateX(-50%);color:#f50"
       >
         <strong>
@@ -993,32 +993,32 @@ Array [
     marks & step
   </h4>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal ant-slider-with-marks"
+    class="g-slider css-var-test-id g-slider-horizontal g-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:37%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     >
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:0%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:26%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:37%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:100%;transform:translateX(-50%)"
       />
     </div>
@@ -1028,34 +1028,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:37%;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="g-slider-mark"
     >
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:0%;transform:translateX(-50%)"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:26%;transform:translateX(-50%)"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:37%;transform:translateX(-50%)"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:100%;transform:translateX(-50%);color:#f50"
       >
         <strong>
@@ -1068,32 +1068,32 @@ Array [
     step=null
   </h4>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal ant-slider-with-marks"
+    class="g-slider css-var-test-id g-slider-horizontal g-slider-with-marks"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:37%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     >
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:0%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:26%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot ant-slider-dot-active"
+        class="g-slider-dot g-slider-dot-active"
         style="left:37%;transform:translateX(-50%)"
       />
       <span
-        class="ant-slider-dot"
+        class="g-slider-dot"
         style="left:100%;transform:translateX(-50%)"
       />
     </div>
@@ -1103,34 +1103,34 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="37"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:37%;transform:translateX(-50%)"
       tabindex="0"
     />
     <div
-      class="ant-slider-mark"
+      class="g-slider-mark"
     >
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:0%;transform:translateX(-50%)"
       >
         0°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:26%;transform:translateX(-50%)"
       >
         26°C
       </span>
       <span
-        class="ant-slider-mark-text ant-slider-mark-text-active"
+        class="g-slider-mark-text g-slider-mark-text-active"
         style="left:37%;transform:translateX(-50%)"
       >
         37°C
       </span>
       <span
-        class="ant-slider-mark-text"
+        class="g-slider-mark-text"
         style="left:100%;transform:translateX(-50%);color:#f50"
       >
         <strong>
@@ -1144,25 +1144,25 @@ Array [
 
 exports[`renders components/slider/demo/multiple.tsx correctly 1`] = `
 <div
-  class="ant-slider css-var-test-id ant-slider-horizontal"
+  class="g-slider css-var-test-id g-slider-horizontal"
 >
   <div
-    class="ant-slider-rail"
+    class="g-slider-rail"
   />
   <div
-    class="ant-slider-tracks"
+    class="g-slider-tracks"
     style="left:0%;width:20%;background:linear-gradient(to right, rgb(135,208,104) 0%, rgb(159,207,123) 100%)"
   />
   <div
-    class="ant-slider-track ant-slider-track-1"
+    class="g-slider-track g-slider-track-1"
     style="left:0%;width:10%;background:transparent"
   />
   <div
-    class="ant-slider-track ant-slider-track-2"
+    class="g-slider-track g-slider-track-2"
     style="left:10%;width:10%;background:transparent"
   />
   <div
-    class="ant-slider-step"
+    class="g-slider-step"
   />
   <div
     aria-disabled="false"
@@ -1170,7 +1170,7 @@ exports[`renders components/slider/demo/multiple.tsx correctly 1`] = `
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="0"
-    class="ant-slider-handle ant-slider-handle-1"
+    class="g-slider-handle g-slider-handle-1"
     role="slider"
     style="left:0%;transform:translateX(-50%)"
     tabindex="0"
@@ -1181,7 +1181,7 @@ exports[`renders components/slider/demo/multiple.tsx correctly 1`] = `
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="10"
-    class="ant-slider-handle ant-slider-handle-2"
+    class="g-slider-handle g-slider-handle-2"
     role="slider"
     style="left:10%;transform:translateX(-50%)"
     tabindex="0"
@@ -1192,7 +1192,7 @@ exports[`renders components/slider/demo/multiple.tsx correctly 1`] = `
     aria-valuemax="100"
     aria-valuemin="0"
     aria-valuenow="20"
-    class="ant-slider-handle ant-slider-handle-3"
+    class="g-slider-handle g-slider-handle-3"
     role="slider"
     style="left:20%;transform:translateX(-50%)"
     tabindex="0"
@@ -1203,17 +1203,17 @@ exports[`renders components/slider/demo/multiple.tsx correctly 1`] = `
 exports[`renders components/slider/demo/reverse.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="right:0%;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -1221,24 +1221,24 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="right:30%;transform:translateX(50%)"
       tabindex="0"
     />
   </div>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track ant-slider-track-1"
+      class="g-slider-track g-slider-track-1"
       style="right:20%;width:30%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -1246,7 +1246,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="20"
-      class="ant-slider-handle ant-slider-handle-1"
+      class="g-slider-handle g-slider-handle-1"
       role="slider"
       style="right:20%;transform:translateX(50%)"
       tabindex="0"
@@ -1257,7 +1257,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="ant-slider-handle ant-slider-handle-2"
+      class="g-slider-handle g-slider-handle-2"
       role="slider"
       style="right:50%;transform:translateX(50%)"
       tabindex="0"
@@ -1266,21 +1266,21 @@ Array [
   Reversed: ,
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-small css-var-test-id ant-switch-checked"
+    class="g-switch g-switch-small css-var-test-id g-switch-checked"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       />
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       />
     </span>
   </button>,
@@ -1289,20 +1289,20 @@ Array [
 
 exports[`renders components/slider/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-slider acss-1pw5qi4 css-var-test-id ant-slider-horizontal"
+    class="g-slider acss-1pw5qi4 css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:30%;background-image:linear-gradient(180deg, #91caff, #1677ff)"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -1310,25 +1310,25 @@ exports[`renders components/slider/demo/style-class.tsx correctly 1`] = `
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:30%;transform:translateX(-50%);border-color:#1677ff;box-shadow:0 2px 8px #1677ff"
       tabindex="0"
     />
   </div>
   <div
-    class="ant-slider acss-14altik css-var-test-id ant-slider-vertical"
+    class="g-slider acss-14altik css-var-test-id g-slider-vertical"
     style="height:300px"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="top:0%;height:30%;background-image:linear-gradient(180deg, #722cc0, #722ed1)"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -1336,7 +1336,7 @@ exports[`renders components/slider/demo/style-class.tsx correctly 1`] = `
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="30"
-      class="ant-slider-handle acss-10vy2hp"
+      class="g-slider-handle acss-10vy2hp"
       role="slider"
       style="top:30%;transform:translateY(-50%);border-color:#722ed1;box-shadow:0 2px 8px #722ed1"
       tabindex="0"
@@ -1348,17 +1348,17 @@ exports[`renders components/slider/demo/style-class.tsx correctly 1`] = `
 exports[`renders components/slider/demo/tip-formatter.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:0%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -1366,24 +1366,24 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:0%;transform:translateX(-50%)"
       tabindex="0"
     />
   </div>,
   <div
-    class="ant-slider css-var-test-id ant-slider-horizontal"
+    class="g-slider css-var-test-id g-slider-horizontal"
   >
     <div
-      class="ant-slider-rail"
+      class="g-slider-rail"
     />
     <div
-      class="ant-slider-track"
+      class="g-slider-track"
       style="left:0%;width:0%"
     />
     <div
-      class="ant-slider-step"
+      class="g-slider-step"
     />
     <div
       aria-disabled="false"
@@ -1391,7 +1391,7 @@ Array [
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="ant-slider-handle"
+      class="g-slider-handle"
       role="slider"
       style="left:0%;transform:translateX(-50%)"
       tabindex="0"
@@ -1406,17 +1406,17 @@ Array [
     style="display:inline-block;height:300px;margin-inline-start:70px"
   >
     <div
-      class="ant-slider css-var-test-id ant-slider-vertical"
+      class="g-slider css-var-test-id g-slider-vertical"
     >
       <div
-        class="ant-slider-rail"
+        class="g-slider-rail"
       />
       <div
-        class="ant-slider-track"
+        class="g-slider-track"
         style="bottom:0%;height:30%"
       />
       <div
-        class="ant-slider-step"
+        class="g-slider-step"
       />
       <div
         aria-disabled="false"
@@ -1424,7 +1424,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="30"
-        class="ant-slider-handle"
+        class="g-slider-handle"
         role="slider"
         style="bottom:30%;transform:translateY(50%)"
         tabindex="0"
@@ -1435,17 +1435,17 @@ Array [
     style="display:inline-block;height:300px;margin-inline-start:70px"
   >
     <div
-      class="ant-slider css-var-test-id ant-slider-vertical"
+      class="g-slider css-var-test-id g-slider-vertical"
     >
       <div
-        class="ant-slider-rail"
+        class="g-slider-rail"
       />
       <div
-        class="ant-slider-track ant-slider-track-1"
+        class="g-slider-track g-slider-track-1"
         style="bottom:20%;height:30%"
       />
       <div
-        class="ant-slider-step"
+        class="g-slider-step"
       />
       <div
         aria-disabled="false"
@@ -1453,7 +1453,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="20"
-        class="ant-slider-handle ant-slider-handle-1"
+        class="g-slider-handle g-slider-handle-1"
         role="slider"
         style="bottom:20%;transform:translateY(50%)"
         tabindex="0"
@@ -1464,7 +1464,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="50"
-        class="ant-slider-handle ant-slider-handle-2"
+        class="g-slider-handle g-slider-handle-2"
         role="slider"
         style="bottom:50%;transform:translateY(50%)"
         tabindex="0"
@@ -1475,32 +1475,32 @@ Array [
     style="display:inline-block;height:300px;margin-inline-start:70px"
   >
     <div
-      class="ant-slider css-var-test-id ant-slider-vertical ant-slider-with-marks"
+      class="g-slider css-var-test-id g-slider-vertical g-slider-with-marks"
     >
       <div
-        class="ant-slider-rail"
+        class="g-slider-rail"
       />
       <div
-        class="ant-slider-track ant-slider-track-1"
+        class="g-slider-track g-slider-track-1"
         style="bottom:26%;height:11%"
       />
       <div
-        class="ant-slider-step"
+        class="g-slider-step"
       >
         <span
-          class="ant-slider-dot"
+          class="g-slider-dot"
           style="bottom:0%;transform:translateY(50%)"
         />
         <span
-          class="ant-slider-dot ant-slider-dot-active"
+          class="g-slider-dot g-slider-dot-active"
           style="bottom:26%;transform:translateY(50%)"
         />
         <span
-          class="ant-slider-dot ant-slider-dot-active"
+          class="g-slider-dot g-slider-dot-active"
           style="bottom:37%;transform:translateY(50%)"
         />
         <span
-          class="ant-slider-dot"
+          class="g-slider-dot"
           style="bottom:100%;transform:translateY(50%)"
         />
       </div>
@@ -1510,7 +1510,7 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="26"
-        class="ant-slider-handle ant-slider-handle-1"
+        class="g-slider-handle g-slider-handle-1"
         role="slider"
         style="bottom:26%;transform:translateY(50%)"
         tabindex="0"
@@ -1521,34 +1521,34 @@ Array [
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="37"
-        class="ant-slider-handle ant-slider-handle-2"
+        class="g-slider-handle g-slider-handle-2"
         role="slider"
         style="bottom:37%;transform:translateY(50%)"
         tabindex="0"
       />
       <div
-        class="ant-slider-mark"
+        class="g-slider-mark"
       >
         <span
-          class="ant-slider-mark-text"
+          class="g-slider-mark-text"
           style="bottom:0%;transform:translateY(50%)"
         >
           0°C
         </span>
         <span
-          class="ant-slider-mark-text ant-slider-mark-text-active"
+          class="g-slider-mark-text g-slider-mark-text-active"
           style="bottom:26%;transform:translateY(50%)"
         >
           26°C
         </span>
         <span
-          class="ant-slider-mark-text ant-slider-mark-text-active"
+          class="g-slider-mark-text g-slider-mark-text-active"
           style="bottom:37%;transform:translateY(50%)"
         >
           37°C
         </span>
         <span
-          class="ant-slider-mark-text"
+          class="g-slider-mark-text"
           style="bottom:100%;transform:translateY(50%);color:#f50"
         >
           <strong>

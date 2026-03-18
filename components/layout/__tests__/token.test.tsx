@@ -41,11 +41,11 @@ describe('Layout.Token', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.ant-layout')).toHaveStyle({
-      '--ant-layout-header-bg': '#FF0000',
+    expect(container.querySelector('.g-layout')).toHaveStyle({
+      '--g-layout-header-bg': '#FF0000',
     });
-    expect(container.querySelector('.ant-menu')).toHaveStyle({
-      '--ant-menu-item-bg': '#00FF00',
+    expect(container.querySelector('.g-menu')).toHaveStyle({
+      '--g-menu-item-bg': '#00FF00',
     });
   });
 
@@ -81,11 +81,11 @@ describe('Layout.Token', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.ant-layout')).toHaveStyle({
-      '--ant-layout-header-bg': '#FF0000',
+    expect(container.querySelector('.g-layout')).toHaveStyle({
+      '--g-layout-header-bg': '#FF0000',
     });
-    expect(container.querySelector('.ant-menu')).toHaveStyle({
-      '--ant-menu-item-bg': '#00FF00',
+    expect(container.querySelector('.g-menu')).toHaveStyle({
+      '--g-menu-item-bg': '#00FF00',
     });
   });
 });

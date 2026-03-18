@@ -8,18 +8,18 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
     class="space-align-block"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         center
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -28,7 +28,7 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span
           class="mock-block"
@@ -42,18 +42,18 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
     class="space-align-block"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-start ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-start g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         start
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -62,7 +62,7 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span
           class="mock-block"
@@ -76,18 +76,18 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
     class="space-align-block"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-end ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-end g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         end
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -96,7 +96,7 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span
           class="mock-block"
@@ -110,18 +110,18 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
     class="space-align-block"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-baseline ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-baseline g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         baseline
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           type="button"
         >
           <span>
@@ -130,7 +130,7 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span
           class="mock-block"
@@ -145,18 +145,18 @@ exports[`renders components/space/demo/align.tsx correctly 1`] = `
 
 exports[`renders components/space/demo/base.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     Space
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -165,16 +165,16 @@ exports[`renders components/space/demo/base.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id"
+      class="g-upload-wrapper css-var-test-id"
     >
       <div
-        class="ant-upload ant-upload-select"
+        class="g-upload g-upload-select"
       >
         <span
-          class="ant-upload"
+          class="g-upload"
         >
           <input
             accept=""
@@ -183,15 +183,15 @@ exports[`renders components/space/demo/base.tsx correctly 1`] = `
             type="file"
           />
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="upload"
-                class="anticon anticon-upload"
+                class="gicon gicon-upload"
                 role="img"
               >
                 <svg
@@ -216,15 +216,15 @@ exports[`renders components/space/demo/base.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-text"
+        class="g-upload-list g-upload-list-text"
       />
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -237,22 +237,22 @@ exports[`renders components/space/demo/base.tsx correctly 1`] = `
 
 exports[`renders components/space/demo/compact.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         style="width:20%"
         type="text"
         value="0571"
       />
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
         style="width:30%"
         type="text"
         value="26888888"
@@ -260,19 +260,19 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <input
-        class="ant-input ant-input-sm ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-sm g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         style="width:calc(100% - 200px)"
         type="text"
         value="https://ant.design"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -282,19 +282,19 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         style="width:calc(100% - 200px)"
         type="text"
         value="https://ant.design"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -304,27 +304,27 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         style="width:calc(100% - 200px)"
         type="text"
         value="git@github.com:ant-design/ant-design.git"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="copy"
-            class="anticon anticon-copy"
+            class="gicon gicon-copy"
             role="img"
           >
             <svg
@@ -346,16 +346,16 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Zhejiang"
         >
           Zhejiang
@@ -364,7 +364,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -373,11 +373,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -396,11 +396,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -421,7 +421,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
         style="width:50%"
         type="text"
         value="Xihu District, Hangzhou"
@@ -429,40 +429,40 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-multiple ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-multiple g-select-allow-clear g-select-show-arrow g-select-show-search"
         style="width:50%"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-content-item"
+            class="g-select-content-item"
             style="opacity:1"
           >
             <span
-              class="ant-select-selection-item"
+              class="g-select-selection-item"
               title="Zhejiang"
             >
               <span
-                class="ant-select-selection-item-content"
+                class="g-select-selection-item-content"
               >
                 Zhejiang
               </span>
               <span
                 aria-hidden="true"
-                class="ant-select-selection-item-remove"
+                class="g-select-selection-item-remove"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -484,7 +484,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-select-content-item ant-select-content-item-suffix"
+            class="g-select-content-item g-select-content-item-suffix"
             style="opacity:1"
           >
             <input
@@ -492,7 +492,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               role="combobox"
               type="search"
@@ -501,11 +501,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -524,11 +524,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -549,7 +549,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
         style="width:50%"
         type="text"
         value="Xihu District, Hangzhou"
@@ -557,30 +557,30 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-space-compact ant-input-search css-var-test-id"
+        class="g-space-compact g-input-search css-var-test-id"
         style="width:30%"
       >
         <input
-          class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+          class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
           type="search"
           value="0571"
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -601,28 +601,28 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-compact ant-input-search css-var-test-id"
+        class="g-space-compact g-input-search css-var-test-id"
         style="width:50%"
       >
         <span
-          class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+          class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
         >
           <input
-            class="ant-input"
+            class="g-input"
             type="search"
             value="26888888"
           />
           <span
-            class="ant-input-suffix"
+            class="g-input-suffix"
           >
             <button
-              class="ant-input-clear-icon"
+              class="g-input-clear-icon"
               tabindex="-1"
               type="button"
             >
               <span
                 aria-label="close-circle"
-                class="anticon anticon-close-circle"
+                class="gicon gicon-close-circle"
                 role="img"
               >
                 <svg
@@ -644,15 +644,15 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           </span>
         </span>
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -673,24 +673,24 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-compact ant-input-search css-var-test-id"
+        class="g-space-compact g-input-search css-var-test-id"
         style="width:20%"
       >
         <input
-          class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+          class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
           type="search"
           value="+1"
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -713,16 +713,16 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Option1"
         >
           Option1
@@ -731,7 +731,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -740,11 +740,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -764,35 +764,35 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
         style="width:50%"
         type="text"
         value="input content"
       />
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-outlined"
       >
         <input
           aria-valuenow="12"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           role="spinbutton"
           step="1"
           value="12"
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -813,13 +813,13 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -842,23 +842,23 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         style="width:50%"
         type="text"
         value="input content"
       />
       <div
-        class="ant-picker ant-picker-outlined ant-picker-compact-item ant-picker-compact-last-item css-var-test-id ant-picker-css-var"
+        class="g-picker g-picker-outlined g-picker-compact-item g-picker-compact-last-item css-var-test-id g-picker-css-var"
         style="width:50%"
       >
         <div
-          class="ant-picker-input"
+          class="g-picker-input"
         >
           <input
             aria-invalid="false"
@@ -868,11 +868,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             value=""
           />
           <span
-            class="ant-picker-suffix"
+            class="g-picker-suffix"
           >
             <span
               aria-label="calendar"
-              class="anticon anticon-calendar"
+              class="gicon gicon-calendar"
               role="img"
             >
               <svg
@@ -895,17 +895,17 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-picker ant-picker-range ant-picker-outlined ant-picker-compact-item ant-picker-compact-first-item css-var-test-id ant-picker-css-var"
+        class="g-picker g-picker-range g-picker-outlined g-picker-compact-item g-picker-compact-first-item css-var-test-id g-picker-css-var"
         style="width:70%"
       >
         <div
-          class="ant-picker-input ant-picker-input-start"
+          class="g-picker-input g-picker-input-start"
         >
           <input
             aria-invalid="false"
@@ -917,15 +917,15 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-picker-range-separator"
+          class="g-picker-range-separator"
         >
           <span
             aria-label="to"
-            class="ant-picker-separator"
+            class="g-picker-separator"
           >
             <span
               aria-label="swap-right"
-              class="anticon anticon-swap-right"
+              class="gicon gicon-swap-right"
               role="img"
             >
               <svg
@@ -945,7 +945,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-picker-input ant-picker-input-end"
+          class="g-picker-input g-picker-input-end"
         >
           <input
             aria-invalid="false"
@@ -957,15 +957,15 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-picker-active-bar"
+          class="g-picker-active-bar"
           style="position:absolute;width:0"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -985,13 +985,13 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </span>
       </div>
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
         style="width:30%"
         type="text"
         value="input content"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -1001,23 +1001,23 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         style="width:30%"
         type="text"
         value="input content"
       />
       <div
-        class="ant-picker ant-picker-range ant-picker-outlined ant-picker-compact-item ant-picker-compact-last-item css-var-test-id ant-picker-css-var"
+        class="g-picker g-picker-range g-picker-outlined g-picker-compact-item g-picker-compact-last-item css-var-test-id g-picker-css-var"
         style="width:70%"
       >
         <div
-          class="ant-picker-input ant-picker-input-start"
+          class="g-picker-input g-picker-input-start"
         >
           <input
             aria-invalid="false"
@@ -1029,15 +1029,15 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-picker-range-separator"
+          class="g-picker-range-separator"
         >
           <span
             aria-label="to"
-            class="ant-picker-separator"
+            class="g-picker-separator"
           >
             <span
               aria-label="swap-right"
-              class="anticon anticon-swap-right"
+              class="gicon gicon-swap-right"
               role="img"
             >
               <svg
@@ -1057,7 +1057,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-picker-input ant-picker-input-end"
+          class="g-picker-input g-picker-input-end"
         >
           <input
             aria-invalid="false"
@@ -1069,15 +1069,15 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-picker-active-bar"
+          class="g-picker-active-bar"
           style="position:absolute;width:0"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1099,16 +1099,16 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Option1-1"
         >
           Option1-1
@@ -1117,7 +1117,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -1126,11 +1126,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1150,10 +1150,10 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-last-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-last-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Option2-2"
         >
           Option2-2
@@ -1162,7 +1162,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -1171,11 +1171,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1197,16 +1197,16 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Between"
         >
           Between
@@ -1215,7 +1215,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -1224,11 +1224,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1248,14 +1248,14 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
         placeholder="Minimum"
         style="width:100px;text-align:center"
         type="text"
         value=""
       />
       <input
-        class="ant-input ant-input-disabled ant-input-outlined site-input-split css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input g-input-disabled g-input-outlined site-input-split css-var-test-id g-input-css-var g-input-compact-item"
         disabled=""
         placeholder="~"
         style="width:30px;border-inline-start:0;border-inline-end:0;pointer-events:none"
@@ -1263,7 +1263,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         value=""
       />
       <input
-        class="ant-input ant-input-outlined site-input-right css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input g-input-outlined site-input-right css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
         placeholder="Maximum"
         style="width:100px;text-align:center"
         type="text"
@@ -1272,17 +1272,17 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
         style="width:30%"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Sign Up"
         >
           Sign Up
@@ -1291,7 +1291,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -1300,11 +1300,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1324,14 +1324,14 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-last-item ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-last-item g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
         style="width:70%"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Email
@@ -1341,7 +1341,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="text"
@@ -1352,17 +1352,17 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-picker ant-picker-outlined ant-picker-compact-item ant-picker-compact-first-item css-var-test-id ant-picker-css-var"
+        class="g-picker g-picker-outlined g-picker-compact-item g-picker-compact-first-item css-var-test-id g-picker-css-var"
         style="width:70%"
       >
         <div
-          class="ant-picker-input"
+          class="g-picker-input"
         >
           <input
             aria-invalid="false"
@@ -1372,11 +1372,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             value=""
           />
           <span
-            class="ant-picker-suffix"
+            class="g-picker-suffix"
           >
             <span
               aria-label="clock-circle"
-              class="anticon anticon-clock-circle"
+              class="gicon gicon-clock-circle"
               role="img"
             >
               <svg
@@ -1400,14 +1400,14 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select ant-cascader ant-select-outlined ant-select-compact-item ant-select-compact-last-item ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+        class="g-select g-cascader g-select-outlined g-select-compact-item g-select-compact-last-item g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
         style="width:70%"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Select Address
@@ -1417,7 +1417,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -1426,11 +1426,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1452,16 +1452,16 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <div
-        class="ant-picker ant-picker-range ant-picker-outlined ant-picker-compact-item ant-picker-compact-first-item css-var-test-id ant-picker-css-var"
+        class="g-picker g-picker-range g-picker-outlined g-picker-compact-item g-picker-compact-first-item css-var-test-id g-picker-css-var"
       >
         <div
-          class="ant-picker-input ant-picker-input-start"
+          class="g-picker-input g-picker-input-start"
         >
           <input
             aria-invalid="false"
@@ -1473,15 +1473,15 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-picker-range-separator"
+          class="g-picker-range-separator"
         >
           <span
             aria-label="to"
-            class="ant-picker-separator"
+            class="g-picker-separator"
           >
             <span
               aria-label="swap-right"
-              class="anticon anticon-swap-right"
+              class="gicon gicon-swap-right"
               role="img"
             >
               <svg
@@ -1501,7 +1501,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-picker-input ant-picker-input-end"
+          class="g-picker-input g-picker-input-end"
         >
           <input
             aria-invalid="false"
@@ -1513,15 +1513,15 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-picker-active-bar"
+          class="g-picker-active-bar"
           style="position:absolute;width:0"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="clock-circle"
-            class="anticon anticon-clock-circle"
+            class="gicon gicon-clock-circle"
             role="img"
           >
             <svg
@@ -1544,11 +1544,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-select ant-tree-select ant-select-outlined ant-select-compact-item css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+        class="g-select g-tree-select g-select-outlined g-select-compact-item css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-allow-clear g-select-show-arrow g-select-show-search"
         style="width:60%"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="leaf1"
         >
           leaf1
@@ -1557,7 +1557,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -1565,11 +1565,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1588,11 +1588,11 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -1613,7 +1613,7 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -1623,47 +1623,47 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         placeholder="input here"
         type="text"
         value=""
       />
       <div
-        class="ant-space-addon ant-space-addon-compact-item css-var-test-id ant-space-addon-variant-outlined"
+        class="g-space-addon g-space-addon-compact-item css-var-test-id g-space-addon-varig-outlined"
       >
         $
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-outlined"
         style="width:100%"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="another input"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -1684,13 +1684,13 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -1711,30 +1711,30 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-outlined"
         style="width:100%"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="another input"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -1755,13 +1755,13 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -1782,41 +1782,41 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-outlined"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-outlined"
       >
         $
       </div>
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         placeholder="input here"
         type="text"
         value=""
       />
       <div
-        class="ant-color-picker-trigger ant-color-picker-compact-item ant-color-picker-compact-last-item css-var-test-id ant-color-picker-css-var"
+        class="g-color-picker-trigger g-color-picker-compact-item g-color-picker-compact-last-item css-var-test-id g-color-picker-css-var"
       >
         <div
-          class="ant-color-picker-clear"
+          class="g-color-picker-clear"
         />
       </div>
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -1824,13 +1824,13 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
         </span>
       </button>
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
         placeholder="input here"
         type="text"
         value=""
       />
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-outlined"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-outlined"
       >
         $
       </div>
@@ -1841,16 +1841,16 @@ exports[`renders components/space/demo/compact.tsx correctly 1`] = `
 
 exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-vertical"
+      class="g-space-compact g-space-compact-vertical"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-vertical-item ant-btn-compact-vertical-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-vertical-item g-btn-compact-vertical-first-item"
         type="button"
       >
         <span>
@@ -1858,7 +1858,7 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-vertical-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-vertical-item"
         type="button"
       >
         <span>
@@ -1866,7 +1866,7 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-vertical-item ant-btn-compact-vertical-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-vertical-item g-btn-compact-vertical-last-item"
         type="button"
       >
         <span>
@@ -1876,13 +1876,13 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-vertical"
+      class="g-space-compact g-space-compact-vertical"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-compact-vertical-item ant-btn-compact-vertical-first-item"
+        class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-compact-vertical-item g-btn-compact-vertical-first-item"
         type="button"
       >
         <span>
@@ -1890,7 +1890,7 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-compact-vertical-item"
+        class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-compact-vertical-item"
         type="button"
       >
         <span>
@@ -1898,7 +1898,7 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-compact-vertical-item ant-btn-compact-vertical-last-item"
+        class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-compact-vertical-item g-btn-compact-vertical-last-item"
         type="button"
       >
         <span>
@@ -1908,13 +1908,13 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-vertical"
+      class="g-space-compact g-space-compact-vertical"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-vertical-item ant-btn-compact-vertical-first-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-vertical-item g-btn-compact-vertical-first-item"
         type="button"
       >
         <span>
@@ -1922,7 +1922,7 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-vertical-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-vertical-item"
         type="button"
       >
         <span>
@@ -1930,7 +1930,7 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-vertical-item ant-btn-compact-vertical-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-vertical-item g-btn-compact-vertical-last-item"
         type="button"
       >
         <span>
@@ -1940,13 +1940,13 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-vertical"
+      class="g-space-compact g-space-compact-vertical"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-vertical-item ant-btn-compact-vertical-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-vertical-item g-btn-compact-vertical-first-item"
         type="button"
       >
         <span>
@@ -1954,7 +1954,7 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-vertical-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-vertical-item"
         type="button"
       >
         <span>
@@ -1962,7 +1962,7 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-vertical-item ant-btn-compact-vertical-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-vertical-item g-btn-compact-vertical-last-item"
         type="button"
       >
         <span>
@@ -1977,18 +1977,18 @@ exports[`renders components/space/demo/compact-button-vertical.tsx correctly 1`]
 exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
 <div>
   <div
-    class="ant-space-compact ant-space-compact-block"
+    class="g-space-compact g-space-compact-block"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-first-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-first-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="like"
-          class="anticon anticon-like"
+          class="gicon gicon-like"
           role="img"
         >
           <svg
@@ -2008,15 +2008,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="comment"
-          class="anticon anticon-comment"
+          class="gicon gicon-comment"
           role="img"
         >
           <svg
@@ -2045,15 +2045,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2073,15 +2073,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="heart"
-          class="anticon anticon-heart"
+          class="gicon gicon-heart"
           role="img"
         >
           <svg
@@ -2101,15 +2101,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="share-alt"
-          class="anticon anticon-share-alt"
+          class="gicon gicon-share-alt"
           role="img"
         >
           <svg
@@ -2129,15 +2129,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -2157,15 +2157,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -2187,10 +2187,10 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-space-compact-block"
+    class="g-space-compact g-space-compact-block"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-first-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-first-item"
       type="button"
     >
       <span>
@@ -2198,7 +2198,7 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -2206,7 +2206,7 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -2214,7 +2214,7 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -2222,16 +2222,16 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only g-btn-compact-item"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -2251,15 +2251,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only g-btn-compact-item g-btn-compact-last-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -2281,10 +2281,10 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-space-compact ant-space-compact-block"
+    class="g-space-compact g-space-compact-block"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
       type="button"
     >
       <span>
@@ -2292,7 +2292,7 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item"
       type="button"
     >
       <span>
@@ -2300,7 +2300,7 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item"
       type="button"
     >
       <span>
@@ -2308,16 +2308,16 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -2337,15 +2337,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -2365,7 +2365,7 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -2373,15 +2373,15 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -2406,16 +2406,16 @@ exports[`renders components/space/demo/compact-buttons.tsx correctly 1`] = `
 
 exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block"
+      class="g-space-compact g-space-compact-block"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -2423,7 +2423,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-compact-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined g-btn-compact-item"
         type="button"
       >
         <span>
@@ -2431,7 +2431,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-compact-item"
+        class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-compact-item"
         type="button"
       >
         <span>
@@ -2439,7 +2439,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-compact-item"
+        class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-compact-item"
         type="button"
       >
         <span>
@@ -2447,7 +2447,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link ant-btn-compact-item"
+        class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link g-btn-compact-item"
         type="button"
       >
         <span>
@@ -2455,16 +2455,16 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item"
         disabled=""
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="download"
-            class="anticon anticon-download"
+            class="gicon gicon-download"
             role="img"
           >
             <svg
@@ -2486,18 +2486,18 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <br />
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -2505,30 +2505,30 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             http://
           </span>
           <input
-            class="ant-input ant-input-outlined"
+            class="g-input g-input-outlined"
             type="text"
             value="mysite"
           />
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             .com
           </span>
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -2538,31 +2538,31 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         placeholder="prefix"
         type="text"
         value=""
       />
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             <div
-              class="ant-select ant-select-outlined select-before css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+              class="g-select g-select-outlined select-before css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
             >
               <div
-                class="ant-select-content ant-select-content-has-value"
+                class="g-select-content g-select-content-has-value"
                 title="http://"
               >
                 http://
@@ -2571,7 +2571,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   autocomplete="off"
-                  class="ant-select-input"
+                  class="g-select-input"
                   id="test-id"
                   readonly=""
                   role="combobox"
@@ -2580,11 +2580,11 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
                 />
               </div>
               <div
-                class="ant-select-suffix"
+                class="g-select-suffix"
               >
                 <span
                   aria-label="down"
-                  class="anticon anticon-down"
+                  class="gicon gicon-down"
                   role="img"
                 >
                   <svg
@@ -2605,18 +2605,18 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
             </div>
           </span>
           <input
-            class="ant-input ant-input-outlined"
+            class="g-input g-input-outlined"
             type="text"
             value="mysite"
           />
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             <div
-              class="ant-select ant-select-outlined select-after css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+              class="g-select g-select-outlined select-after css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
             >
               <div
-                class="ant-select-content ant-select-content-has-value"
+                class="g-select-content g-select-content-has-value"
                 title=".com"
               >
                 .com
@@ -2625,7 +2625,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   autocomplete="off"
-                  class="ant-select-input"
+                  class="g-select-input"
                   id="test-id"
                   readonly=""
                   role="combobox"
@@ -2634,11 +2634,11 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
                 />
               </div>
               <div
-                class="ant-select-suffix"
+                class="g-select-suffix"
               >
                 <span
                   aria-label="down"
-                  class="anticon anticon-down"
+                  class="gicon gicon-down"
                   role="img"
                 >
                   <svg
@@ -2661,15 +2661,15 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="copy"
-            class="anticon anticon-copy"
+            class="gicon gicon-copy"
             role="img"
           >
             <svg
@@ -2691,29 +2691,29 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-compact ant-input-search css-var-test-id"
+        class="g-space-compact g-input-search css-var-test-id"
       >
         <input
-          class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+          class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
           type="search"
           value=""
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -2734,23 +2734,23 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-compact ant-input-search css-var-test-id"
+        class="g-space-compact g-input-search css-var-test-id"
       >
         <input
-          class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+          class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
           type="search"
           value=""
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -2771,15 +2771,15 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </button>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="copy"
-            class="anticon anticon-copy"
+            class="gicon gicon-copy"
             role="img"
           >
             <svg
@@ -2801,28 +2801,28 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <input
-            class="ant-input ant-input-outlined"
+            class="g-input g-input-outlined"
             type="text"
             value="mysite"
           />
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             <span
               aria-label="setting"
-              class="anticon anticon-setting"
+              class="gicon gicon-setting"
               role="img"
             >
               <svg
@@ -2843,7 +2843,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
         type="button"
       >
         <span>
@@ -2851,23 +2851,23 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <input
-            class="ant-input ant-input-outlined"
+            class="g-input g-input-outlined"
             placeholder="suffix"
             type="text"
             value=""
           />
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             <span
               aria-label="setting"
-              class="anticon anticon-setting"
+              class="gicon gicon-setting"
               role="img"
             >
               <svg
@@ -2890,32 +2890,32 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             http://
           </span>
           <span
-            class="ant-input-affix-wrapper ant-input-outlined"
+            class="g-input-affix-wrapper g-input-outlined"
           >
             <input
-              class="ant-input"
+              class="g-input"
               type="text"
               value="mysite"
             />
             <span
-              class="ant-input-suffix"
+              class="g-input-suffix"
             >
               .com
             </span>
@@ -2923,7 +2923,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -2933,13 +2933,13 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -2947,23 +2947,23 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             <div
-              class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+              class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
               style="width:150px"
             >
               <div
-                class="ant-select-content"
+                class="g-select-content"
               >
                 <div
-                  class="ant-select-placeholder"
+                  class="g-select-placeholder"
                   style="visibility:visible"
                 >
                   cascader
@@ -2973,7 +2973,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   autocomplete="off"
-                  class="ant-select-input"
+                  class="g-select-input"
                   id="test-id"
                   readonly=""
                   role="combobox"
@@ -2982,11 +2982,11 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
                 />
               </div>
               <div
-                class="ant-select-suffix"
+                class="g-select-suffix"
               >
                 <span
                   aria-label="down"
-                  class="anticon anticon-down"
+                  class="gicon gicon-down"
                   role="img"
                 >
                   <svg
@@ -3007,14 +3007,14 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
             </div>
           </span>
           <input
-            class="ant-input ant-input-outlined"
+            class="g-input g-input-outlined"
             type="text"
             value="mysite"
           />
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -3024,35 +3024,35 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             Prefix
           </span>
           <span
-            class="ant-input-affix-wrapper ant-input-outlined"
+            class="g-input-affix-wrapper g-input-outlined"
           >
             <input
-              class="ant-input"
+              class="g-input"
               type="text"
               value="mysite"
             />
             <span
-              class="ant-input-suffix"
+              class="g-input-suffix"
             >
               <span
-                class="ant-input-show-count-suffix"
+                class="g-input-show-count-suffix"
               >
                 6
               </span>
@@ -3061,7 +3061,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </span>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
         type="button"
       >
         <span>
@@ -3069,40 +3069,40 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </button>
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             Prefix
           </span>
           <span
-            class="ant-input-affix-wrapper ant-input-outlined"
+            class="g-input-affix-wrapper g-input-outlined"
           >
             <input
-              class="ant-input"
+              class="g-input"
               type="text"
               value="mysite"
             />
             <span
-              class="ant-input-suffix"
+              class="g-input-suffix"
             >
               <span
-                class="ant-input-show-count-suffix"
+                class="g-input-show-count-suffix"
               >
                 6
               </span>
             </span>
           </span>
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             <span
               aria-label="setting"
-              class="anticon anticon-setting"
+              class="gicon gicon-setting"
               role="img"
             >
               <svg
@@ -3123,29 +3123,29 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-input-group-wrapper ant-input-group-wrapper-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+        class="g-input-group-wrapper g-input-group-wrapper-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
       >
         <span
-          class="ant-input-wrapper ant-input-group"
+          class="g-input-wrapper g-input-group"
         >
           <span
-            class="ant-input-group-addon"
+            class="g-input-group-addon"
           >
             Prefix
           </span>
           <span
-            class="ant-input-affix-wrapper ant-input-outlined"
+            class="g-input-affix-wrapper g-input-outlined"
           >
             <input
-              class="ant-input"
+              class="g-input"
               type="text"
               value="mysite"
             />
             <span
-              class="ant-input-suffix"
+              class="g-input-suffix"
             >
               <span
-                class="ant-input-show-count-suffix"
+                class="g-input-show-count-suffix"
               >
                 6
               </span>
@@ -3156,18 +3156,18 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <br />
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -3177,16 +3177,16 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-compact ant-space-compact-block ant-dropdown-button ant-dropdown-compact-item ant-dropdown-compact-first-item ant-dropdown-compact-last-item"
+        class="g-space-compact g-space-compact-block g-dropdown-button g-dropdown-compact-item g-dropdown-compact-first-item g-dropdown-compact-last-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
           type="button"
         >
           <span>
@@ -3194,15 +3194,15 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -3225,13 +3225,13 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -3241,19 +3241,19 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
         placeholder="Debug Popover context"
         type="text"
         value=""
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -3263,43 +3263,43 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-compact"
+        class="g-space-compact"
       >
         <div
-          class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined ant-input-number-addon css-var-test-id"
+          class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined g-input-number-addon css-var-test-id"
         >
           +
         </div>
         <div
-          class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-outlined"
+          class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-outlined"
         >
           <input
             aria-valuenow="100"
             autocomplete="off"
-            class="ant-input-number-input"
+            class="g-input-number-input"
             role="spinbutton"
             step="1"
             value="100"
           />
           <div
-            class="ant-input-number-actions"
+            class="g-input-number-actions"
           >
             <span
               aria-disabled="false"
               aria-label="Increase Value"
-              class="ant-input-number-action ant-input-number-action-up"
+              class="g-input-number-action g-input-number-action-up"
               role="button"
               unselectable="on"
             >
               <span
                 aria-label="up"
-                class="anticon anticon-up"
+                class="gicon gicon-up"
                 role="img"
               >
                 <svg
@@ -3320,13 +3320,13 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
             <span
               aria-disabled="false"
               aria-label="Decrease Value"
-              class="ant-input-number-action ant-input-number-action-down"
+              class="g-input-number-action g-input-number-action-down"
               role="button"
               unselectable="on"
             >
               <span
                 aria-label="down"
-                class="anticon anticon-down"
+                class="gicon gicon-down"
                 role="img"
               >
                 <svg
@@ -3347,7 +3347,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-outlined ant-input-number-addon css-var-test-id"
+          class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-outlined g-input-number-addon css-var-test-id"
         >
           $
         </div>
@@ -3355,16 +3355,16 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item ant-select-compact-last-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item g-select-compact-last-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Sign Up"
         >
           Sign Up
@@ -3373,7 +3373,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -3382,11 +3382,11 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3408,17 +3408,17 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-picker ant-picker-range ant-picker-outlined ant-picker-compact-item ant-picker-compact-first-item ant-picker-compact-last-item css-var-test-id ant-picker-css-var"
+        class="g-picker g-picker-range g-picker-outlined g-picker-compact-item g-picker-compact-first-item g-picker-compact-last-item css-var-test-id g-picker-css-var"
         style="width:70%"
       >
         <div
-          class="ant-picker-input ant-picker-input-start"
+          class="g-picker-input g-picker-input-start"
         >
           <input
             aria-invalid="false"
@@ -3430,15 +3430,15 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-picker-range-separator"
+          class="g-picker-range-separator"
         >
           <span
             aria-label="to"
-            class="ant-picker-separator"
+            class="g-picker-separator"
           >
             <span
               aria-label="swap-right"
-              class="anticon anticon-swap-right"
+              class="gicon gicon-swap-right"
               role="img"
             >
               <svg
@@ -3458,7 +3458,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-picker-input ant-picker-input-end"
+          class="g-picker-input g-picker-input-end"
         >
           <input
             aria-invalid="false"
@@ -3470,15 +3470,15 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-picker-active-bar"
+          class="g-picker-active-bar"
           style="position:absolute;width:0"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -3500,35 +3500,35 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-first-item ant-input-number-compact-last-item ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-first-item g-input-number-compact-last-item g-input-number-outlined"
       >
         <input
           aria-valuenow="12"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           role="spinbutton"
           step="1"
           value="12"
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -3549,13 +3549,13 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -3578,20 +3578,20 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-select ant-cascader ant-select-outlined ant-select-compact-item ant-select-compact-first-item ant-select-compact-last-item ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+        class="g-select g-cascader g-select-outlined g-select-compact-item g-select-compact-first-item g-select-compact-last-item g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
         style="width:70%"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Select Address
@@ -3601,7 +3601,7 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -3610,11 +3610,11 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3636,13 +3636,13 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-vertical"
+      class="g-space-compact g-space-compact-vertical"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-vertical-item ant-btn-compact-vertical-first-item ant-btn-compact-vertical-last-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-vertical-item g-btn-compact-vertical-first-item g-btn-compact-vertical-last-item"
         type="button"
       >
         <span>
@@ -3656,34 +3656,34 @@ exports[`renders components/space/demo/compact-debug.tsx correctly 1`] = `
 
 exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-space-compact ant-space-compact-block"
+    class="g-space-compact g-space-compact-block"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-compact"
+        class="g-space-compact"
       >
         <input
-          class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+          class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
           placeholder="Typing..."
           style="width:90px"
           type="text"
           value=""
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -3704,32 +3704,32 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-compact"
+        class="g-space-compact"
       >
         <div
-          class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-outlined"
+          class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-outlined"
         >
           <input
             aria-valuenow="12"
             autocomplete="off"
-            class="ant-input-number-input"
+            class="g-input-number-input"
             role="spinbutton"
             step="1"
             value="12"
           />
           <div
-            class="ant-input-number-actions"
+            class="g-input-number-actions"
           >
             <span
               aria-disabled="false"
               aria-label="Increase Value"
-              class="ant-input-number-action ant-input-number-action-up"
+              class="g-input-number-action g-input-number-action-up"
               role="button"
               unselectable="on"
             >
               <span
                 aria-label="up"
-                class="anticon anticon-up"
+                class="gicon gicon-up"
                 role="img"
               >
                 <svg
@@ -3750,13 +3750,13 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
             <span
               aria-disabled="false"
               aria-label="Decrease Value"
-              class="ant-input-number-action ant-input-number-action-down"
+              class="g-input-number-action g-input-number-action-down"
               role="button"
               unselectable="on"
             >
               <span
                 aria-label="down"
-                class="anticon anticon-down"
+                class="gicon gicon-down"
                 role="img"
               >
                 <svg
@@ -3777,10 +3777,10 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-select ant-select-outlined ant-select-compact-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+          class="g-select g-select-outlined g-select-compact-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
         >
           <div
-            class="ant-select-content ant-select-content-has-value"
+            class="g-select-content g-select-content-has-value"
             title="Opt1"
           >
             Opt1
@@ -3789,7 +3789,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               readonly=""
               role="combobox"
@@ -3798,11 +3798,11 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
             />
           </div>
           <div
-            class="ant-select-suffix"
+            class="g-select-suffix"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -3824,7 +3824,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
       </div>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -3832,31 +3832,31 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
       </span>
     </button>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-compact"
+        class="g-space-compact"
       >
         <div
-          class="ant-space-compact ant-input-search css-var-test-id"
+          class="g-space-compact g-input-search css-var-test-id"
           style="width:110px"
         >
           <input
-            class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+            class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
             placeholder="Search"
             type="search"
             value=""
           />
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-input-search-btn"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-input-search-btn"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="search"
-                class="anticon anticon-search"
+                class="gicon gicon-search"
                 role="img"
               >
                 <svg
@@ -3877,7 +3877,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
           </button>
         </div>
         <button
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
           type="button"
         >
           <span>
@@ -3886,23 +3886,23 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-compact"
+        class="g-space-compact"
       >
         <input
-          class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+          class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
           type="text"
           value="mysite"
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="copy"
-              class="anticon anticon-copy"
+              class="gicon gicon-copy"
               role="img"
             >
               <svg
@@ -3925,16 +3925,16 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-compact ant-space-compact-block"
+    class="g-space-compact g-space-compact-block"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-picker ant-picker-outlined ant-picker-compact-item ant-picker-compact-first-item css-var-test-id ant-picker-css-var"
+        class="g-picker g-picker-outlined g-picker-compact-item g-picker-compact-first-item css-var-test-id g-picker-css-var"
       >
         <div
-          class="ant-picker-input"
+          class="g-picker-input"
         >
           <input
             aria-invalid="false"
@@ -3944,11 +3944,11 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
             value=""
           />
           <span
-            class="ant-picker-suffix"
+            class="g-picker-suffix"
           >
             <span
               aria-label="clock-circle"
-              class="anticon anticon-clock-circle"
+              class="gicon gicon-clock-circle"
               role="img"
             >
               <svg
@@ -3972,7 +3972,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
         type="button"
       >
         <span>
@@ -3981,7 +3981,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
       </button>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -3989,7 +3989,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -3997,16 +3997,16 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
       </span>
     </button>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-select ant-cascader ant-select-outlined ant-select-compact-item ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+        class="g-select g-cascader g-select-outlined g-select-compact-item g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Select Address
@@ -4016,7 +4016,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -4025,11 +4025,11 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4049,7 +4049,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
         type="button"
       >
         <span>
@@ -4059,10 +4059,10 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-compact"
+    class="g-space-compact"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-first-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-solid g-btn-compact-item g-btn-compact-first-item"
       type="button"
     >
       <span>
@@ -4070,7 +4070,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -4078,7 +4078,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-solid ant-btn-compact-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-solid g-btn-compact-item"
       type="button"
     >
       <span>
@@ -4086,7 +4086,7 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
       type="button"
     >
       <span>
@@ -4099,18 +4099,18 @@ exports[`renders components/space/demo/compact-nested.tsx correctly 1`] = `
 
 exports[`renders components/space/demo/debug.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     Button
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4119,15 +4119,15 @@ exports[`renders components/space/demo/debug.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     Button
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4136,10 +4136,10 @@ exports[`renders components/space/demo/debug.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       disabled=""
       type="button"
     >
@@ -4149,12 +4149,12 @@ exports[`renders components/space/demo/debug.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     1
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     Button
   </div>
@@ -4165,21 +4165,21 @@ exports[`renders components/space/demo/gap-in-line.tsx correctly 1`] = `
 Array [
   <button
     aria-checked="false"
-    class="ant-switch css-var-test-id"
+    class="g-switch css-var-test-id"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       />
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       />
     </span>
   </button>,
@@ -4187,32 +4187,32 @@ Array [
     style="box-shadow:0 0 5px green"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center css-var-test-id"
       style="flex-wrap:wrap;column-gap:8px;row-gap:8px;width:310px;background:blue"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
           style="width:150px;height:100px;background:red"
         />
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
           style="width:150px;height:100px;background:red"
         />
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
           style="width:150px;height:100px;background:red"
         />
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
           style="width:150px;height:100px;background:red"
@@ -4225,47 +4225,47 @@ Array [
 
 exports[`renders components/space/demo/separator.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <a
-      class="ant-typography ant-typography-link css-var-test-id"
+      class="g-typography g-typography-link css-var-test-id"
     >
       Link
     </a>
   </div>
   <span
-    class="ant-space-item-separator"
+    class="g-space-item-separator"
   >
     <div
-      class="ant-divider css-var-test-id ant-divider-vertical ant-divider-rail"
+      class="g-divider css-var-test-id g-divider-vertical g-divider-rail"
       role="separator"
     />
   </span>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <a
-      class="ant-typography ant-typography-link css-var-test-id"
+      class="g-typography g-typography-link css-var-test-id"
     >
       Link
     </a>
   </div>
   <span
-    class="ant-space-item-separator"
+    class="g-space-item-separator"
   >
     <div
-      class="ant-divider css-var-test-id ant-divider-vertical ant-divider-rail"
+      class="g-divider css-var-test-id g-divider-vertical g-divider-rail"
       role="separator"
     />
   </span>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <a
-      class="ant-typography ant-typography-link css-var-test-id"
+      class="g-typography g-typography-link css-var-test-id"
     >
       Link
     </a>
@@ -4276,82 +4276,82 @@ exports[`renders components/space/demo/separator.tsx correctly 1`] = `
 exports[`renders components/space/demo/size.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="small"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         small
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="medium"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         medium
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="large"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         large
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="customize"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         customize
       </span>
@@ -4360,13 +4360,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span>
@@ -4375,10 +4375,10 @@ Array [
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -4387,10 +4387,10 @@ Array [
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+        class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
         type="button"
       >
         <span>
@@ -4399,10 +4399,10 @@ Array [
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+        class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
         type="button"
       >
         <span>
@@ -4417,15 +4417,15 @@ Array [
 exports[`renders components/space/demo/style-class.tsx correctly 1`] = `
 <div>
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id demo-space-root"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id demo-space-root"
     style="border-width:2px;border-style:dashed;padding:8px;margin-bottom:10px"
   >
     <div
-      class="ant-space-item demo-space-item"
+      class="g-space-item demo-space-item"
       style="background-color:#f0f0f0;padding:4px"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -4434,17 +4434,17 @@ exports[`renders components/space/demo/style-class.tsx correctly 1`] = `
       </button>
     </div>
     <span
-      class="ant-space-item-separator demo-space-separator"
+      class="g-space-item-separator demo-space-separator"
       style="color:red;font-weight:bold"
     >
       •
     </span>
     <div
-      class="ant-space-item demo-space-item"
+      class="g-space-item demo-space-item"
       style="background-color:#f0f0f0;padding:4px"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -4453,17 +4453,17 @@ exports[`renders components/space/demo/style-class.tsx correctly 1`] = `
       </button>
     </div>
     <span
-      class="ant-space-item-separator demo-space-separator"
+      class="g-space-item-separator demo-space-separator"
       style="color:red;font-weight:bold"
     >
       •
     </span>
     <div
-      class="ant-space-item demo-space-item"
+      class="g-space-item demo-space-item"
       style="background-color:#f0f0f0;padding:4px"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -4473,14 +4473,14 @@ exports[`renders components/space/demo/style-class.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-large ant-space-gap-col-large css-var-test-id demo-space-root--horizontal"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-large g-space-gap-col-large css-var-test-id demo-space-root--horizontal"
     style="background-color:#e6f7ff;border-color:#1890ff;padding:8px"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -4489,10 +4489,10 @@ exports[`renders components/space/demo/style-class.tsx correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -4501,10 +4501,10 @@ exports[`renders components/space/demo/style-class.tsx correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -4518,30 +4518,30 @@ exports[`renders components/space/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/space/demo/vertical.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-medium ant-space-gap-col-medium css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-medium g-space-gap-col-medium css-var-test-id"
   style="display:flex"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-card ant-card-bordered ant-card-small css-var-test-id"
+      class="g-card g-card-bordered g-card-small css-var-test-id"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Card
           </div>
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         <p>
           Card content
@@ -4553,26 +4553,26 @@ exports[`renders components/space/demo/vertical.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-card ant-card-bordered ant-card-small css-var-test-id"
+      class="g-card g-card-bordered g-card-small css-var-test-id"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Card
           </div>
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         <p>
           Card content
@@ -4584,26 +4584,26 @@ exports[`renders components/space/demo/vertical.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-card ant-card-bordered ant-card-small css-var-test-id"
+      class="g-card g-card-bordered g-card-small css-var-test-id"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Card
           </div>
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         <p>
           Card content
@@ -4619,14 +4619,14 @@ exports[`renders components/space/demo/vertical.tsx correctly 1`] = `
 
 exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center css-var-test-id"
   style="flex-wrap:wrap;column-gap:8px;row-gap:16px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4635,10 +4635,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4647,10 +4647,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4659,10 +4659,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4671,10 +4671,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4683,10 +4683,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4695,10 +4695,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4707,10 +4707,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4719,10 +4719,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4731,10 +4731,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4743,10 +4743,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4755,10 +4755,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4767,10 +4767,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4779,10 +4779,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4791,10 +4791,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4803,10 +4803,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4815,10 +4815,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4827,10 +4827,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4839,10 +4839,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -4851,10 +4851,10 @@ exports[`renders components/space/demo/wrap.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>

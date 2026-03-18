@@ -45,11 +45,11 @@ describe('Progress classNames & styles function', () => {
     const { container, rerender } = render(
       <Progress percent={100} classNames={classNames} styles={styles} />,
     );
-    const root = container.querySelector<HTMLDivElement>('.ant-progress');
-    const body = root?.querySelector<HTMLDivElement>('.ant-progress-body');
-    const rail = body?.querySelector<HTMLDivElement>('.ant-progress-rail');
-    const track = body?.querySelector<HTMLDivElement>('.ant-progress-track');
-    const indicator = body?.querySelector<HTMLDivElement>('.ant-progress-indicator');
+    const root = container.querySelector<HTMLDivElement>('.g-progress');
+    const body = root?.querySelector<HTMLDivElement>('.g-progress-body');
+    const rail = body?.querySelector<HTMLDivElement>('.g-progress-rail');
+    const track = body?.querySelector<HTMLDivElement>('.g-progress-track');
+    const indicator = body?.querySelector<HTMLDivElement>('.g-progress-indicator');
     expect(root).toHaveClass('progress-root-full');
     expect(body).toHaveClass('progress-body-full');
     expect(rail).toHaveClass('progress-rail-full');
@@ -61,7 +61,7 @@ describe('Progress classNames & styles function', () => {
     expect(track).toHaveStyle({ padding: '12px' });
     expect(indicator).toHaveStyle({ padding: '12px' });
     rerender(<Progress size="small" percent={50} classNames={classNames} styles={styles} />);
-    expect(root).toHaveClass('ant-progress-small');
+    expect(root).toHaveClass('g-progress-small');
     expect(root).toHaveClass('progress-root-not-full');
     expect(body).toHaveClass('progress-body-not-full');
     expect(rail).toHaveClass('progress-rail-not-full');

@@ -17,7 +17,7 @@ describe('hooks test', () => {
     },
     {
       params: [undefined, undefined, true],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
     {
       params: [undefined, undefined, false],
@@ -31,11 +31,11 @@ describe('hooks test', () => {
     },
     {
       params: [true, undefined, true],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
     {
       params: [true, undefined, false],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
 
     // test case like: <Component closable={false | true} closeIcon={null | false | element} />
@@ -49,19 +49,19 @@ describe('hooks test', () => {
     },
     {
       params: [true, null, true],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
     {
       params: [true, false, true],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
     {
       params: [true, null, false],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
     {
       params: [true, false, false],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
     {
       params: [
@@ -89,7 +89,7 @@ describe('hooks test', () => {
     },
     {
       params: [undefined, true, undefined],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
     {
       params: [
@@ -156,7 +156,7 @@ describe('hooks test', () => {
       };
       const { container } = render(<App />);
       if (res[1] === '') {
-        expect(container.querySelector('.anticon-close')).toBeFalsy();
+        expect(container.querySelector('.gicon-close')).toBeFalsy();
       } else {
         expect(container.querySelector(`${res[1]}`)).toBeTruthy();
       }
@@ -197,7 +197,7 @@ describe('hooks test', () => {
       return <div>hooks test {closeIcon}</div>;
     };
     const { container } = render(<App />);
-    expect(container.querySelector('.anticon-close')).toBeTruthy();
+    expect(container.querySelector('.gicon-close')).toBeTruthy();
   });
 
   it('useClosable with customCloseIconRender', () => {
@@ -232,7 +232,7 @@ describe('hooks test', () => {
         },
         undefined,
       ],
-      res: [true, '.anticon-close'],
+      res: [true, '.gicon-close'],
     },
     {
       params: [
@@ -268,7 +268,7 @@ describe('hooks test', () => {
       };
       const { container } = render(<App />);
       if (res[1] === '') {
-        expect(container.querySelector('.anticon-close')).toBeFalsy();
+        expect(container.querySelector('.gicon-close')).toBeFalsy();
       } else {
         expect(container.querySelector(res[1])).toBeTruthy();
       }

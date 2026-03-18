@@ -108,7 +108,7 @@ const useStyle = createStyles(({ cssVar, token, css }) => {
         margin: 0;
       }
 
-      .ant-btn {
+      .g-btn {
         font-family: sans-serif;
       }
     `,

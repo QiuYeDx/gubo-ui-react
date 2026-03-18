@@ -8,7 +8,7 @@ import type { CategoriesKeys } from './fields';
 import type { ThemeType } from './IconSearch';
 
 const styles = createStaticStyles(({ css, cssVar }) => ({
-  anticonsList: css`
+  giconsList: css`
     margin: ${cssVar.margin} 0;
     overflow: hidden;
     direction: ltr;
@@ -64,7 +64,7 @@ const Category: React.FC<CategoryProps> = (props) => {
   return (
     <div>
       <h3>{intl.formatMessage({ id: `app.docs.components.icon.category.${title}` })}</h3>
-      <ul className={styles.anticonsList}>
+      <ul className={styles.giconsList}>
         {icons.map((name) => (
           <CopyableIcon
             key={name}

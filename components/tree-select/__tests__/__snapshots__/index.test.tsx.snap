@@ -2,27 +2,27 @@
 
 exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-outlined css-var-root ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+  class="g-select g-tree-select g-select-outlined css-var-root g-select-css-var g-tree-select-css-var g-select-multiple g-select-allow-clear g-select-show-arrow g-select-show-search"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item"
+      class="g-select-content-item"
       style="opacity: 1;"
     >
       <span
-        class="ant-select-selection-item"
+        class="g-select-selection-item"
         title="my leaf"
       >
         <span
-          class="ant-select-selection-item-content"
+          class="g-select-selection-item-content"
         >
           my leaf
         </span>
         <span
           aria-hidden="true"
-          class="ant-select-selection-item-remove"
+          class="g-select-selection-item-remove"
           style="user-select: none;"
           unselectable="on"
         >
@@ -33,21 +33,21 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
       </span>
     </div>
     <div
-      class="ant-select-content-item"
+      class="g-select-content-item"
       style="opacity: 1;"
     >
       <span
-        class="ant-select-selection-item"
+        class="g-select-selection-item"
         title="your leaf"
       >
         <span
-          class="ant-select-selection-item-content"
+          class="g-select-selection-item-content"
         >
           your leaf
         </span>
         <span
           aria-hidden="true"
-          class="ant-select-selection-item-remove"
+          class="g-select-selection-item-remove"
           style="user-select: none;"
           unselectable="on"
         >
@@ -58,7 +58,7 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
       </span>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity: 1;"
     >
       <input
@@ -66,7 +66,7 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         style="--select-input-width: 0;"
@@ -76,11 +76,11 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -99,7 +99,7 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
     </span>
   </div>
   <div
-    class="ant-select-clear"
+    class="g-select-clear"
   >
     <span>
       clear
@@ -110,13 +110,13 @@ exports[`TreeSelect TreeSelect Custom Icons should support customized icons 1`] 
 
 exports[`TreeSelect rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-rtl ant-select-outlined css-var-root ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-tree-select g-select-rtl g-select-outlined css-var-root g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility: visible;"
     />
     <input
@@ -124,7 +124,7 @@ exports[`TreeSelect rtl render component should be rendered correctly in RTL dir
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -133,11 +133,11 @@ exports[`TreeSelect rtl render component should be rendered correctly in RTL dir
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg

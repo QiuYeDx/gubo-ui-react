@@ -34,7 +34,7 @@ describe('Tooltip.Unique', () => {
     );
 
     await waitFakeTimer();
-    expect(document.querySelector('.ant-tooltip-unique-container-visible')).toBeTruthy();
+    expect(document.querySelector('.g-tooltip-unique-container-visible')).toBeTruthy();
 
     expect(() => {
       tooltipRef.current?.forceAlign();

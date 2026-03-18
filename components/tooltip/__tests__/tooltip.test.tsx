@@ -62,13 +62,13 @@ describe('Tooltip', () => {
     await waitFakeTimer();
     expect(onOpenChange).not.toHaveBeenCalled();
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
 
     fireEvent.mouseLeave(divElement!);
     await waitFakeTimer();
     expect(onOpenChange).not.toHaveBeenCalled();
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
 
     // update `title` value.
     rerender(
@@ -86,13 +86,13 @@ describe('Tooltip', () => {
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenLastCalledWith(true);
     expect(isTooltipOpen()).toBeTruthy();
-    expect(container.querySelector('.ant-tooltip-open')).not.toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).not.toBeNull();
 
     fireEvent.mouseLeave(divElement!);
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenLastCalledWith(false);
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
 
     // add `open` props.
     rerender(
@@ -112,14 +112,14 @@ describe('Tooltip', () => {
     expect(onOpenChange).toHaveBeenLastCalledWith(true);
     const lastCount = onOpenChange.mock.calls.length;
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
 
     // always trigger onOpenChange
     fireEvent.mouseLeave(divElement!);
     await waitFakeTimer();
     expect(onOpenChange.mock.calls.length).toBe(lastCount); // no change with lastCount
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
   });
 
   it('should hide when mouse leave native disabled button', async () => {
@@ -146,13 +146,13 @@ describe('Tooltip', () => {
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenCalledWith(true);
     expect(isTooltipOpen()).toBeTruthy();
-    expect(container.querySelector('.ant-tooltip-open')).not.toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).not.toBeNull();
 
     fireEvent.pointerLeave(button);
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenCalledWith(false);
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
   });
 
   describe('should hide when mouse leave antd disabled component', () => {
@@ -180,13 +180,13 @@ describe('Tooltip', () => {
         await waitFakeTimer();
         expect(onOpenChange).toHaveBeenCalledWith(true);
         expect(isTooltipOpen()).toBeTruthy();
-        expect(container.querySelector('.ant-tooltip-open')).not.toBeNull();
+        expect(container.querySelector('.g-tooltip-open')).not.toBeNull();
 
         fireEvent.pointerLeave(button);
         await waitFakeTimer();
         expect(onOpenChange).toHaveBeenCalledWith(false);
         expect(isTooltipOpen()).toBeFalsy();
-        expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+        expect(container.querySelector('.g-tooltip-open')).toBeNull();
       });
     }
 
@@ -221,20 +221,20 @@ describe('Tooltip', () => {
       </Tooltip>,
     );
 
-    expect(container.getElementsByClassName('ant-picker')).toHaveLength(1);
-    const picker = container.getElementsByClassName('ant-picker')[0];
+    expect(container.getElementsByClassName('g-picker')).toHaveLength(1);
+    const picker = container.getElementsByClassName('g-picker')[0];
 
     fireEvent.mouseEnter(picker);
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenCalledWith(true);
     expect(isTooltipOpen()).toBeTruthy();
-    expect(container.querySelector('.ant-tooltip-open')).not.toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).not.toBeNull();
 
     fireEvent.mouseLeave(picker);
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenCalledWith(false);
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
   });
 
   it('should works for input group', async () => {
@@ -249,19 +249,19 @@ describe('Tooltip', () => {
       </Tooltip>,
     );
 
-    expect(container.getElementsByClassName('ant-input-group')).toHaveLength(1);
-    const inputGroup = container.getElementsByClassName('ant-input-group')[0];
+    expect(container.getElementsByClassName('g-input-group')).toHaveLength(1);
+    const inputGroup = container.getElementsByClassName('g-input-group')[0];
     fireEvent.mouseEnter(inputGroup);
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenCalledWith(true);
     expect(isTooltipOpen()).toBeTruthy();
-    expect(container.querySelector('.ant-tooltip-open')).not.toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).not.toBeNull();
 
     fireEvent.mouseLeave(inputGroup);
     await waitFakeTimer();
     expect(onOpenChange).toHaveBeenCalledWith(false);
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
   });
 
   // https://github.com/ant-design/ant-design/issues/20891
@@ -271,7 +271,7 @@ describe('Tooltip', () => {
         <div />
       </Tooltip>,
     );
-    expect(container.querySelector('.ant-tooltip-container')?.innerHTML).toBe('0');
+    expect(container.querySelector('.g-tooltip-container')?.innerHTML).toBe('0');
   });
 
   it('autoAdjustOverflow should be object or undefined', () => {
@@ -325,7 +325,7 @@ describe('Tooltip', () => {
         const element = container.getElementsByTagName('span')[0];
         fireEvent.mouseEnter(element);
         await waitFakeTimer();
-        expect(document.querySelector(`.ant-tooltip-placement-${placement}`)).toBeTruthy();
+        expect(document.querySelector(`.g-tooltip-placement-${placement}`)).toBeTruthy();
       });
 
       it(`${name} with arrowPointAtCenter`, async () => {
@@ -368,7 +368,7 @@ describe('Tooltip', () => {
     const button = container.getElementsByTagName('span')[0];
     fireEvent.mouseEnter(button);
     await waitFakeTimer();
-    expect(document.querySelector('.ant-tooltip')).not.toBeNull();
+    expect(document.querySelector('.g-tooltip')).not.toBeNull();
   });
 
   it('should pass styles.container through to the inner component', () => {
@@ -377,7 +377,7 @@ describe('Tooltip', () => {
         <div />
       </Tooltip>,
     );
-    expect(container.querySelector<HTMLDivElement>('.ant-tooltip-container')).toHaveStyle({
+    expect(container.querySelector<HTMLDivElement>('.g-tooltip-container')).toHaveStyle({
       color: 'rgb(255, 0, 0)',
     });
   });
@@ -397,7 +397,7 @@ describe('Tooltip', () => {
 
     fireEvent.pointerEnter(container.getElementsByTagName('button')[0]);
     expect(onOpenChange).toHaveBeenLastCalledWith(true);
-    expect(container.querySelector('.ant-tooltip-open')).not.toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).not.toBeNull();
   });
 
   it('should work with disabled Radio', () => {
@@ -415,7 +415,7 @@ describe('Tooltip', () => {
 
     fireEvent.pointerEnter(container.getElementsByTagName('input')[0]);
     expect(onOpenChange).toHaveBeenLastCalledWith(true);
-    expect(container.querySelector('.ant-tooltip-open')).not.toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).not.toBeNull();
   });
 
   it('should work with Fragment children', async () => {
@@ -442,13 +442,13 @@ describe('Tooltip', () => {
     expect(onOpenChange).toHaveBeenLastCalledWith(true);
     await waitFakeTimer();
     expect(isTooltipOpen()).toBeTruthy();
-    expect(container.querySelector('.ant-tooltip-open')).not.toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).not.toBeNull();
 
     fireEvent.mouseLeave(divElement!);
     expect(onOpenChange).toHaveBeenLastCalledWith(false);
     await waitFakeTimer();
     expect(isTooltipOpen()).toBeFalsy();
-    expect(container.querySelector('.ant-tooltip-open')).toBeNull();
+    expect(container.querySelector('.g-tooltip-open')).toBeNull();
   });
 
   it('deprecated warning', async () => {
@@ -482,7 +482,7 @@ describe('Tooltip', () => {
     );
 
     expect(container.querySelector('.bamboo')).toBeTruthy();
-    expect(container.querySelector('.ant-tooltip')).toBeTruthy();
+    expect(container.querySelector('.g-tooltip')).toBeTruthy();
   });
 
   it('support arrow props pass false to hide arrow', () => {
@@ -520,8 +520,8 @@ describe('Tooltip', () => {
       </Tooltip>,
     );
 
-    const tooltipElement = container.querySelector<HTMLElement>('.ant-tooltip');
-    const tooltipContainerElement = container.querySelector<HTMLElement>('.ant-tooltip-container');
+    const tooltipElement = container.querySelector<HTMLElement>('.g-tooltip');
+    const tooltipContainerElement = container.querySelector<HTMLElement>('.g-tooltip-container');
 
     // 验证 classNames
     expect(tooltipElement).toHaveClass(customClassNames.root);
@@ -548,7 +548,7 @@ describe('Tooltip', () => {
       );
     };
     const { container } = render(<TooltipTestComponent />);
-    const getTooltipArrow = () => container.querySelector('.ant-tooltip-arrow');
+    const getTooltipArrow = () => container.querySelector('.g-tooltip-arrow');
     const configbtn = container.querySelector('.configArrow');
 
     expect(getTooltipArrow()).not.toBeNull();
@@ -572,7 +572,7 @@ describe('Tooltip', () => {
     };
 
     const { container } = render(<TooltipTestComponent />);
-    const getTooltipArrow = () => container.querySelector('.ant-tooltip-arrow');
+    const getTooltipArrow = () => container.querySelector('.g-tooltip-arrow');
     const toggleArrowBtn = container.querySelector('.toggleArrow');
 
     // Initial render, arrow should be visible because Tooltip's arrow prop is true
@@ -587,7 +587,7 @@ describe('Tooltip', () => {
     expect(getTooltipArrow()).not.toBeNull();
   });
   describe('parseColor', () => {
-    const prefixCls = 'ant-tooltip';
+    const prefixCls = 'g-tooltip';
     it('should set white text for dark backgrounds', () => {
       const darkColor = '#003366'; // 深色
       const { overlayStyle } = parseColor(defaultPrefixCls, prefixCls, darkColor);
@@ -610,7 +610,7 @@ describe('Tooltip', () => {
         </Tooltip>,
       );
       const [varName] = genCssVar(defaultPrefixCls, 'tooltip');
-      const tooltipContainer = container.querySelector('.ant-tooltip-container');
+      const tooltipContainer = container.querySelector('.g-tooltip-container');
       expect(tooltipContainer).toHaveStyle({ [varName('overlay-color')]: '#FFF' });
     });
     it('actual tooltip color rendering (styles)', () => {
@@ -625,7 +625,7 @@ describe('Tooltip', () => {
         </Tooltip>,
       );
 
-      const tooltipContainer = container.querySelector('.ant-tooltip-container');
+      const tooltipContainer = container.querySelector('.g-tooltip-container');
       expect(tooltipContainer!).toHaveStyle({
         color: 'rgb(0, 255, 255)',
       });

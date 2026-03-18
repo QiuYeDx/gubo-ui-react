@@ -2,20 +2,20 @@
 
 exports[`renders components/dropdown/demo/arrow.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       style="flex-wrap:wrap"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -24,10 +24,10 @@ exports[`renders components/dropdown/demo/arrow.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -36,10 +36,10 @@ exports[`renders components/dropdown/demo/arrow.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -50,17 +50,17 @@ exports[`renders components/dropdown/demo/arrow.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       style="flex-wrap:wrap"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -69,10 +69,10 @@ exports[`renders components/dropdown/demo/arrow.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -81,10 +81,10 @@ exports[`renders components/dropdown/demo/arrow.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -99,20 +99,20 @@ exports[`renders components/dropdown/demo/arrow.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/arrow-center.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       style="flex-wrap:wrap"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -121,10 +121,10 @@ exports[`renders components/dropdown/demo/arrow-center.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -133,10 +133,10 @@ exports[`renders components/dropdown/demo/arrow-center.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -147,17 +147,17 @@ exports[`renders components/dropdown/demo/arrow-center.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       style="flex-wrap:wrap"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -166,10 +166,10 @@ exports[`renders components/dropdown/demo/arrow-center.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -178,10 +178,10 @@ exports[`renders components/dropdown/demo/arrow-center.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -196,22 +196,22 @@ exports[`renders components/dropdown/demo/arrow-center.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/basic.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Hover me
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -235,7 +235,7 @@ exports[`renders components/dropdown/demo/basic.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/context-menu.tsx correctly 1`] = `
 <div
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
   style="color:rgba(0,0,0,0.45);background:#f5f5f5;height:200px;text-align:center;line-height:200px"
 >
   Right Click on here
@@ -244,22 +244,22 @@ exports[`renders components/dropdown/demo/context-menu.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/custom-dropdown.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Hover me
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -283,17 +283,17 @@ exports[`renders components/dropdown/demo/custom-dropdown.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="flex-wrap:wrap"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -301,15 +301,15 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -331,13 +331,13 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -345,15 +345,15 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="user"
-            class="anticon anticon-user"
+            class="gicon gicon-user"
             role="img"
           >
             <svg
@@ -375,13 +375,13 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         disabled=""
         type="button"
       >
@@ -390,16 +390,16 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         disabled=""
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -421,13 +421,13 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -435,15 +435,15 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-loading ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-loading g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon ant-btn-loading-icon"
+          class="g-btn-icon g-btn-loading-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -465,18 +465,18 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-end ant-dropdown-trigger"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-end g-dropdown-trigger"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -500,13 +500,13 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -514,15 +514,15 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -548,22 +548,22 @@ exports[`renders components/dropdown/demo/dropdown-button.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/event.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Hover me, Click menu item
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -587,22 +587,22 @@ exports[`renders components/dropdown/demo/event.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/extra.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Hover me
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -626,16 +626,16 @@ exports[`renders components/dropdown/demo/extra.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block ant-dropdown-button"
+      class="g-space-compact g-space-compact-block g-dropdown-button"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -643,15 +643,15 @@ exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -673,13 +673,13 @@ exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact ant-space-compact-block ant-dropdown-button"
+      class="g-space-compact g-space-compact-block g-dropdown-button"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -687,15 +687,15 @@ exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -717,13 +717,13 @@ exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -731,15 +731,15 @@ exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -761,13 +761,13 @@ exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -775,15 +775,15 @@ exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -809,22 +809,22 @@ exports[`renders components/dropdown/demo/icon-debug.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/item.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Hover me
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -848,24 +848,24 @@ exports[`renders components/dropdown/demo/item.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-loading ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-loading g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span
-          class="ant-btn-icon ant-btn-loading-icon"
+          class="g-btn-icon g-btn-loading-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -888,15 +888,15 @@ exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -918,21 +918,21 @@ exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-loading ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-loading g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span
-          class="ant-btn-icon ant-btn-loading-icon"
+          class="g-btn-icon g-btn-loading-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -955,15 +955,15 @@ exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -985,13 +985,13 @@ exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -999,15 +999,15 @@ exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -1029,13 +1029,13 @@ exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
         type="button"
       >
         <span>
@@ -1043,15 +1043,15 @@ exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1077,22 +1077,22 @@ exports[`renders components/dropdown/demo/loading.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/menu-full.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Hover to check menu style
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1116,22 +1116,22 @@ exports[`renders components/dropdown/demo/menu-full.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/overlay-open.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Hover me
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1155,20 +1155,20 @@ exports[`renders components/dropdown/demo/overlay-open.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/placement.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       style="flex-wrap:wrap"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -1177,10 +1177,10 @@ exports[`renders components/dropdown/demo/placement.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -1189,10 +1189,10 @@ exports[`renders components/dropdown/demo/placement.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -1203,17 +1203,17 @@ exports[`renders components/dropdown/demo/placement.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       style="flex-wrap:wrap"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -1222,10 +1222,10 @@ exports[`renders components/dropdown/demo/placement.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -1234,10 +1234,10 @@ exports[`renders components/dropdown/demo/placement.tsx correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
           type="button"
         >
           <span>
@@ -1255,29 +1255,29 @@ exports[`renders components/dropdown/demo/render-panel.tsx correctly 1`] = `
   style="padding-bottom:0;position:relative;min-width:0"
 >
   <span
-    class="ant-dropdown-trigger"
+    class="g-dropdown-trigger"
   />
 </div>
 `;
 
 exports[`renders components/dropdown/demo/selectable.tsx correctly 1`] = `
 <a
-  class="ant-typography ant-typography-link ant-dropdown-trigger css-var-test-id"
+  class="g-typography g-typography-link g-dropdown-trigger css-var-test-id"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Selectable
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1301,32 +1301,32 @@ exports[`renders components/dropdown/demo/selectable.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-medium"
 >
   <div
-    class="ant-space ant-space-vertical ant-space-gap-row-large ant-space-gap-col-large css-var-test-id"
+    class="g-space g-space-vertical g-space-gap-row-large g-space-gap-col-large css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-dropdown-trigger"
         type="button"
       >
         <div
-          class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             Object Style
           </div>
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -1348,26 +1348,26 @@ exports[`renders components/dropdown/demo/style-class.tsx correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-dropdown-trigger"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-dropdown-trigger"
         type="button"
       >
         <div
-          class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             Function Style
           </div>
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -1394,22 +1394,22 @@ exports[`renders components/dropdown/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/sub-menu.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Cascading menu
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1433,22 +1433,22 @@ exports[`renders components/dropdown/demo/sub-menu.tsx correctly 1`] = `
 
 exports[`renders components/dropdown/demo/trigger.tsx correctly 1`] = `
 <a
-  class="ant-dropdown-trigger"
+  class="g-dropdown-trigger"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Click me
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg

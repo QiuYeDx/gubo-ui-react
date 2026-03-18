@@ -12,7 +12,7 @@ You can add an icon beside the slider to make it meaningful.
   padding: 0 30px;
 }
 
-.icon-wrapper .anticon {
+.icon-wrapper .gicon {
   position: absolute;
   top: -2px;
   width: 16px;
@@ -26,11 +26,11 @@ You can add an icon beside the slider to make it meaningful.
   color: rgba(0, 0, 0, 0.45);
 }
 
-.icon-wrapper .anticon:first-child {
+.icon-wrapper .gicon:first-child {
   inset-inline-start: 0;
 }
 
-.icon-wrapper .anticon:last-child {
+.icon-wrapper .gicon:last-child {
   inset-inline-end: 0;
 }
 ```

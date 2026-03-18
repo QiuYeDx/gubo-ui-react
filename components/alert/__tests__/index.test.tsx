@@ -42,7 +42,7 @@ describe('Alert', () => {
       />,
     );
 
-    fireEvent.click(container.querySelector('.ant-alert-close-icon')!);
+    fireEvent.click(container.querySelector('.g-alert-close-icon')!);
     expect(onClose).toHaveBeenCalledTimes(1);
     expect(errSpy).not.toHaveBeenCalled();
     errSpy.mockRestore();
@@ -61,7 +61,7 @@ describe('Alert', () => {
       />,
     );
 
-    fireEvent.click(container.querySelector('.ant-alert-close-icon')!);
+    fireEvent.click(container.querySelector('.g-alert-close-icon')!);
 
     expect(onClose).toHaveBeenCalledTimes(0);
     expect(handleClosableClose).toHaveBeenCalledTimes(1);
@@ -131,7 +131,7 @@ describe('Alert', () => {
 
     await waitFakeTimer();
 
-    expect(document.querySelector<HTMLDivElement>('.ant-tooltip')).toBeInTheDocument();
+    expect(document.querySelector<HTMLDivElement>('.g-tooltip')).toBeInTheDocument();
   });
 
   it('could be used with Popconfirm', async () => {
@@ -161,18 +161,18 @@ describe('Alert', () => {
 
   it('should not render title div when no title', () => {
     const { container } = render(<Alert description="description" />);
-    expect(!!container.querySelector('.ant-alert-title')).toBe(false);
+    expect(!!container.querySelector('.g-alert-title')).toBe(false);
   });
 
   it('close button should be hidden when closeIcon setting to null or false', () => {
     const { container, rerender } = render(<Alert closeIcon={null} />);
-    expect(container.querySelector('.ant-alert-close-icon')).toBeFalsy();
+    expect(container.querySelector('.g-alert-close-icon')).toBeFalsy();
     rerender(<Alert closeIcon={false} />);
-    expect(container.querySelector('.ant-alert-close-icon')).toBeFalsy();
+    expect(container.querySelector('.g-alert-close-icon')).toBeFalsy();
     rerender(<Alert closeIcon />);
-    expect(container.querySelector('.ant-alert-close-icon')).toBeTruthy();
+    expect(container.querySelector('.g-alert-close-icon')).toBeTruthy();
     rerender(<Alert />);
-    expect(container.querySelector('.ant-alert-close-icon')).toBeFalsy();
+    expect(container.querySelector('.g-alert-close-icon')).toBeFalsy();
   });
 
   it('close button should be support aria-* by closable', () => {
@@ -187,17 +187,17 @@ describe('Alert', () => {
   });
   it('close button should be support custom icon by closable', () => {
     const { container, rerender } = render(<Alert />);
-    expect(container.querySelector('.ant-alert-close-icon')).toBeFalsy();
+    expect(container.querySelector('.g-alert-close-icon')).toBeFalsy();
     rerender(<Alert closable={{ closeIcon: 'CloseBtn' }} />);
-    expect(container.querySelector('.ant-alert-close-icon')?.textContent).toBe('CloseBtn');
+    expect(container.querySelector('.g-alert-close-icon')?.textContent).toBe('CloseBtn');
     rerender(<Alert closable={{ closeIcon: 'CloseBtn' }} closeIcon="CloseBtn2" />);
-    expect(container.querySelector('.ant-alert-close-icon')?.textContent).toBe('CloseBtn');
+    expect(container.querySelector('.g-alert-close-icon')?.textContent).toBe('CloseBtn');
     rerender(<Alert closable={{ closeIcon: 'CloseBtn' }} closeText="CloseBtn3" />);
-    expect(container.querySelector('.ant-alert-close-icon')?.textContent).toBe('CloseBtn');
+    expect(container.querySelector('.g-alert-close-icon')?.textContent).toBe('CloseBtn');
     rerender(<Alert closeText="CloseBtn2" />);
-    expect(container.querySelector('.ant-alert-close-icon')?.textContent).toBe('CloseBtn2');
+    expect(container.querySelector('.g-alert-close-icon')?.textContent).toBe('CloseBtn2');
     rerender(<Alert closeIcon="CloseBtn3" />);
-    expect(container.querySelector('.ant-alert-close-icon')?.textContent).toBe('CloseBtn3');
+    expect(container.querySelector('.g-alert-close-icon')?.textContent).toBe('CloseBtn3');
   });
 
   it('should warning when using closeText', () => {
@@ -210,7 +210,7 @@ describe('Alert', () => {
       `Warning: [antd: Alert] \`closeText\` is deprecated. Please use \`closable.closeIcon\` instead.`,
     );
 
-    expect(container.querySelector('.ant-alert-close-icon')?.textContent).toBe('close');
+    expect(container.querySelector('.g-alert-close-icon')?.textContent).toBe('close');
 
     warnSpy.mockRestore();
   });
@@ -263,13 +263,13 @@ describe('Alert', () => {
       />,
     );
 
-    const rootElement = document.querySelector<HTMLElement>('.ant-alert');
-    const iconElement = document.querySelector<HTMLElement>('.ant-alert-icon');
-    const sectionElement = document.querySelector<HTMLElement>('.ant-alert-section');
-    const titleElement = document.querySelector<HTMLElement>('.ant-alert-title');
-    const descriptionElement = document.querySelector<HTMLElement>('.ant-alert-description');
-    const actionElement = document.querySelector<HTMLElement>('.ant-alert-actions');
-    const closeElement = document.querySelector<HTMLElement>('.ant-alert-close-icon');
+    const rootElement = document.querySelector<HTMLElement>('.g-alert');
+    const iconElement = document.querySelector<HTMLElement>('.g-alert-icon');
+    const sectionElement = document.querySelector<HTMLElement>('.g-alert-section');
+    const titleElement = document.querySelector<HTMLElement>('.g-alert-title');
+    const descriptionElement = document.querySelector<HTMLElement>('.g-alert-description');
+    const actionElement = document.querySelector<HTMLElement>('.g-alert-actions');
+    const closeElement = document.querySelector<HTMLElement>('.g-alert-close-icon');
 
     // check classNames
     expect(rootElement).toHaveClass(customClassNames.root!);

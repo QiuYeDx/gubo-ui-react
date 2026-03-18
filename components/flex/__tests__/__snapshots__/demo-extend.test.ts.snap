@@ -2,7 +2,7 @@
 
 exports[`renders components/flex/demo/align.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-start ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-start g-flex-gap-medium g-flex-vertical"
 >
   <p>
     Select justify :
@@ -10,99 +10,99 @@ exports[`renders components/flex/demo/align.tsx extend context correctly 1`] = `
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="flex-start"
         >
           flex-start
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="center"
         >
           center
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="flex-end"
         >
           flex-end
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="space-between"
         >
           space-between
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="space-around"
         >
           space-around
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="space-evenly"
         >
           space-evenly
@@ -116,54 +116,54 @@ exports[`renders components/flex/demo/align.tsx extend context correctly 1`] = `
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="flex-start"
         >
           flex-start
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="center"
         >
           center
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="flex-end"
         >
           flex-end
@@ -172,11 +172,11 @@ exports[`renders components/flex/demo/align.tsx extend context correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-justify-flex-start"
+    class="g-flex css-var-test-id g-flex-align-flex-start g-flex-justify-flex-start"
     style="width: 100%; height: 120px; border-radius: 6px; border: 1px solid rgb(64, 169, 255);"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -184,7 +184,7 @@ exports[`renders components/flex/demo/align.tsx extend context correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -192,7 +192,7 @@ exports[`renders components/flex/demo/align.tsx extend context correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -200,7 +200,7 @@ exports[`renders components/flex/demo/align.tsx extend context correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -215,54 +215,54 @@ exports[`renders components/flex/demo/align.tsx extend context correctly 2`] = `
 
 exports[`renders components/flex/demo/basic.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="horizontal"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         horizontal
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="vertical"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         vertical
       </span>
     </label>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
   >
     <div
       style="width: 25%; height: 54px; background-color: rgba(22, 119, 255, 0.75);"
@@ -284,15 +284,15 @@ exports[`renders components/flex/demo/basic.tsx extend context correctly 2`] = `
 
 exports[`renders components/flex/demo/combination.tsx extend context correctly 1`] = `
 <div
-  class="ant-card ant-card-bordered ant-card-hoverable css-var-test-id"
+  class="g-card g-card-bordered g-card-hoverable css-var-test-id"
   style="width: 620px;"
 >
   <div
-    class="ant-card-body"
+    class="g-card-body"
     style="padding: 0px; overflow: hidden;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-justify-space-between"
+      class="g-flex css-var-test-id g-flex-justify-space-between"
     >
       <img
         alt="avatar"
@@ -301,17 +301,17 @@ exports[`renders components/flex/demo/combination.tsx extend context correctly 1
         style="display: block; width: 273px;"
       />
       <div
-        class="ant-flex css-var-test-id ant-flex-align-flex-end ant-flex-justify-space-between ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-flex-end g-flex-justify-space-between g-flex-vertical"
         style="padding: 32px;"
       >
         <h3
-          class="ant-typography css-var-test-id"
+          class="g-typography css-var-test-id"
         >
           “antd is an enterprise-class UI design language and React UI library.”
         </h3>
         <a
           aria-disabled="false"
-          class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+          class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
           href="https://ant.design"
           tabindex="0"
           target="_blank"
@@ -331,7 +331,7 @@ exports[`renders components/flex/demo/combination.tsx extend context correctly 2
 exports[`renders components/flex/demo/debug.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+    class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   >
     <div
       style="height: 60px; background-color: rgba(22, 119, 255, 0.75);"
@@ -347,7 +347,7 @@ Array [
     />
   </div>,
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="margin-top: 20px;"
   >
     <div
@@ -370,95 +370,95 @@ exports[`renders components/flex/demo/debug.tsx extend context correctly 2`] = `
 
 exports[`renders components/flex/demo/gap.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="small"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         small
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="medium"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         medium
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="large"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         large
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="customize"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         customize
       </span>
     </label>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -466,7 +466,7 @@ exports[`renders components/flex/demo/gap.tsx extend context correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -474,7 +474,7 @@ exports[`renders components/flex/demo/gap.tsx extend context correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
       type="button"
     >
       <span>
@@ -482,7 +482,7 @@ exports[`renders components/flex/demo/gap.tsx extend context correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+      class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
       type="button"
     >
       <span>
@@ -497,10 +497,10 @@ exports[`renders components/flex/demo/gap.tsx extend context correctly 2`] = `[]
 
 exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -508,7 +508,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -516,7 +516,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -524,7 +524,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -532,7 +532,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -540,7 +540,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -548,7 +548,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -556,7 +556,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -564,7 +564,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -572,7 +572,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -580,7 +580,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -588,7 +588,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -596,7 +596,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -604,7 +604,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -612,7 +612,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -620,7 +620,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -628,7 +628,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -636,7 +636,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -644,7 +644,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -652,7 +652,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -660,7 +660,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -668,7 +668,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -676,7 +676,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -684,7 +684,7 @@ exports[`renders components/flex/demo/wrap.tsx extend context correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>

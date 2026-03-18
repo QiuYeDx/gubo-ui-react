@@ -4,7 +4,7 @@ import type { StepsToken } from '.';
 import { genCssVar } from '../../theme/util/genStyleUtils';
 
 function withoutVar(cssVar: any): string {
-  return (cssVar || '--ant-not-exist').replace(/var\((.*)\)/, '$1');
+  return (cssVar || '--g-not-exist').replace(/var\((.*)\)/, '$1');
 }
 
 /**

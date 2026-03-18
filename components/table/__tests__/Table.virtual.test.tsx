@@ -15,15 +15,13 @@ describe('Table.Virtual', () => {
     );
 
     expect(
-      container.querySelectorAll(
-        '.ant-table-wrapper .ant-table-tbody-virtual .ant-table-row:not(tr)',
-      ),
+      container.querySelectorAll('.g-table-wrapper .g-table-tbody-virtual .g-table-row:not(tr)'),
     ).toHaveLength(1);
+    expect(container.querySelectorAll('.g-table-tbody-virtual-holder .g-table-cell')).toHaveLength(
+      1,
+    );
     expect(
-      container.querySelectorAll('.ant-table-tbody-virtual-holder .ant-table-cell'),
-    ).toHaveLength(1);
-    expect(
-      container.querySelector('.ant-table-tbody-virtual-holder .ant-table-cell')?.textContent,
+      container.querySelector('.g-table-tbody-virtual-holder .g-table-cell')?.textContent,
     ).toBe('bamboo');
   });
 
@@ -61,18 +59,16 @@ describe('Table.Virtual', () => {
     );
 
     expect(
-      container.querySelectorAll('.ant-table-wrapper .ant-table-tbody-virtual .ant-table-row'),
+      container.querySelectorAll('.g-table-wrapper .g-table-tbody-virtual .g-table-row'),
     ).toHaveLength(1);
+    expect(container.querySelectorAll('.g-table-tbody-virtual-holder .g-table-cell')).toHaveLength(
+      1,
+    );
     expect(
-      container.querySelectorAll('.ant-table-tbody-virtual-holder .ant-table-cell'),
-    ).toHaveLength(1);
-    expect(
-      container.querySelector('.ant-table-tbody-virtual-holder .ant-table-cell')?.textContent,
+      container.querySelector('.g-table-tbody-virtual-holder .g-table-cell')?.textContent,
     ).toBe('bamboo');
     expect(
-      container.querySelector<HTMLElement>(
-        '.ant-table-wrapper .ant-table-tbody-virtual .ant-table-row',
-      ),
+      container.querySelector<HTMLElement>('.g-table-wrapper .g-table-tbody-virtual .g-table-row'),
     ).toHaveStyle({ display: 'flex' });
   });
 
@@ -106,22 +102,22 @@ describe('Table.Virtual', () => {
     );
 
     expect(
-      container.querySelectorAll('.ant-table-tbody-virtual-holder-inner > div > .ant-table-row'),
+      container.querySelectorAll('.g-table-tbody-virtual-holder-inner > div > .g-table-row'),
     ).toHaveLength(1);
 
     expect(
       container.querySelectorAll(
-        '.ant-table-tbody-virtual-holder-inner > div > .ant-table-row > .ant-table-cell',
+        '.g-table-tbody-virtual-holder-inner > div > .g-table-row > .g-table-cell',
       )?.[1]?.textContent,
     ).toBe('0');
 
     expect(
-      container.querySelectorAll('.ant-table-tbody-virtual-holder .ant-table-expanded-row'),
+      container.querySelectorAll('.g-table-tbody-virtual-holder .g-table-expanded-row'),
     ).toHaveLength(1);
 
     expect(
       container.querySelector<HTMLElement>(
-        '.ant-table-tbody-virtual-holder .ant-table-expanded-row .ant-table-row',
+        '.g-table-tbody-virtual-holder .g-table-expanded-row .g-table-row',
       ),
     ).toHaveStyle({ display: 'table-row' });
   });

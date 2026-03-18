@@ -6,12 +6,12 @@ Array [
     style="display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;"
   >
     <span
-      class="ant-tag ant-tag-filled css-var-test-id"
+      class="g-tag g-tag-filled css-var-test-id"
     >
       Tag 1
       <span
         aria-label="Close"
-        class="anticon anticon-close ant-tag-close-icon"
+        class="gicon gicon-close g-tag-close-icon"
         role="img"
         tabindex="-1"
       >
@@ -32,12 +32,12 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-filled css-var-test-id"
+      class="g-tag g-tag-filled css-var-test-id"
     >
       Tag 2
       <span
         aria-label="Close"
-        class="anticon anticon-close ant-tag-close-icon"
+        class="gicon gicon-close g-tag-close-icon"
         role="img"
         tabindex="-1"
       >
@@ -58,12 +58,12 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-filled css-var-test-id"
+      class="g-tag g-tag-filled css-var-test-id"
     >
       Tag 3
       <span
         aria-label="Close"
-        class="anticon anticon-close ant-tag-close-icon"
+        class="gicon gicon-close g-tag-close-icon"
         role="img"
         tabindex="-1"
       >
@@ -85,12 +85,12 @@ Array [
     </span>
   </div>,
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
     style="background: rgb(255, 255, 255); border-style: dashed;"
   >
     <span
       aria-label="plus"
-      class="anticon anticon-plus"
+      class="gicon gicon-plus"
       role="img"
     >
       <svg
@@ -119,15 +119,15 @@ exports[`renders components/tag/demo/animation.tsx extend context correctly 2`] 
 
 exports[`renders components/tag/demo/basic.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
 >
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
   >
     Tag 1
   </span>
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
   >
     <a
       href="https://github.com/ant-design/ant-design/issues/1862"
@@ -138,12 +138,12 @@ exports[`renders components/tag/demo/basic.tsx extend context correctly 1`] = `
     </a>
   </span>
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
   >
     Prevent Default
     <span
       aria-label="Close"
-      class="anticon anticon-close ant-tag-close-icon"
+      class="gicon gicon-close g-tag-close-icon"
       role="img"
       tabindex="-1"
     >
@@ -164,12 +164,12 @@ exports[`renders components/tag/demo/basic.tsx extend context correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
   >
     Tag 2
     <span
       aria-label="Close"
-      class="anticon anticon-close-circle ant-tag-close-icon"
+      class="gicon gicon-close-circle g-tag-close-icon"
       role="img"
       tabindex="-1"
     >
@@ -190,12 +190,12 @@ exports[`renders components/tag/demo/basic.tsx extend context correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
   >
     Tag 3
     <span
       aria-label="Close Button"
-      class="anticon anticon-delete ant-tag-close-icon"
+      class="gicon gicon-delete g-tag-close-icon"
       role="img"
       tabindex="-1"
     >
@@ -221,16 +221,16 @@ exports[`renders components/tag/demo/basic.tsx extend context correctly 2`] = `[
 
 exports[`renders components/tag/demo/checkable.tsx extend context correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-test-id ant-form-css-var"
+  class="g-form g-form-horizontal css-var-test-id g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-col-6 ant-form-item-label css-var-test-id"
+        class="g-col g-col-6 g-form-item-label css-var-test-id"
       >
         <label
           class=""
@@ -240,16 +240,16 @@ exports[`renders components/tag/demo/checkable.tsx extend context correctly 1`] 
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control css-var-test-id"
+        class="g-col g-form-item-control css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <span
-              class="ant-tag ant-tag-checkable ant-tag-checkable-checked css-var-test-id"
+              class="g-tag g-tag-checkable g-tag-checkable-checked css-var-test-id"
             >
               <span>
                 Yes
@@ -261,13 +261,13 @@ exports[`renders components/tag/demo/checkable.tsx extend context correctly 1`] 
     </div>
   </div>
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-col-6 ant-form-item-label css-var-test-id"
+        class="g-col g-col-6 g-form-item-label css-var-test-id"
       >
         <label
           class=""
@@ -277,40 +277,40 @@ exports[`renders components/tag/demo/checkable.tsx extend context correctly 1`] 
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control css-var-test-id"
+        class="g-col g-form-item-control css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-tag-checkable-group css-var-test-id"
+              class="g-tag-checkable-group css-var-test-id"
             >
               <span
-                class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+                class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
               >
                 <span>
                   Movies
                 </span>
               </span>
               <span
-                class="ant-tag ant-tag-checkable ant-tag-checkable-checked ant-tag-checkable-group-item css-var-test-id"
+                class="g-tag g-tag-checkable g-tag-checkable-checked g-tag-checkable-group-item css-var-test-id"
               >
                 <span>
                   Books
                 </span>
               </span>
               <span
-                class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+                class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
               >
                 <span>
                   Music
                 </span>
               </span>
               <span
-                class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+                class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
               >
                 <span>
                   Sports
@@ -323,13 +323,13 @@ exports[`renders components/tag/demo/checkable.tsx extend context correctly 1`] 
     </div>
   </div>
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-col-6 ant-form-item-label css-var-test-id"
+        class="g-col g-col-6 g-form-item-label css-var-test-id"
       >
         <label
           class=""
@@ -339,40 +339,40 @@ exports[`renders components/tag/demo/checkable.tsx extend context correctly 1`] 
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control css-var-test-id"
+        class="g-col g-form-item-control css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-tag-checkable-group css-var-test-id"
+              class="g-tag-checkable-group css-var-test-id"
             >
               <span
-                class="ant-tag ant-tag-checkable ant-tag-checkable-checked ant-tag-checkable-group-item css-var-test-id"
+                class="g-tag g-tag-checkable g-tag-checkable-checked g-tag-checkable-group-item css-var-test-id"
               >
                 <span>
                   Movies
                 </span>
               </span>
               <span
-                class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+                class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
               >
                 <span>
                   Books
                 </span>
               </span>
               <span
-                class="ant-tag ant-tag-checkable ant-tag-checkable-checked ant-tag-checkable-group-item css-var-test-id"
+                class="g-tag g-tag-checkable g-tag-checkable-checked g-tag-checkable-group-item css-var-test-id"
               >
                 <span>
                   Music
                 </span>
               </span>
               <span
-                class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+                class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
               >
                 <span>
                   Sports
@@ -393,76 +393,76 @@ exports[`renders components/tag/demo/colorful.tsx extend context correctly 1`] =
 Array [
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Presets (filled)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-filled ant-tag-magenta css-var-test-id"
+        class="g-tag g-tag-filled g-tag-magenta css-var-test-id"
       >
         magenta
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-red css-var-test-id"
+        class="g-tag g-tag-filled g-tag-red css-var-test-id"
       >
         red
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-volcano css-var-test-id"
+        class="g-tag g-tag-filled g-tag-volcano css-var-test-id"
       >
         volcano
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-orange css-var-test-id"
+        class="g-tag g-tag-filled g-tag-orange css-var-test-id"
       >
         orange
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-gold css-var-test-id"
+        class="g-tag g-tag-filled g-tag-gold css-var-test-id"
       >
         gold
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-lime css-var-test-id"
+        class="g-tag g-tag-filled g-tag-lime css-var-test-id"
       >
         lime
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-green css-var-test-id"
+        class="g-tag g-tag-filled g-tag-green css-var-test-id"
       >
         green
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-cyan css-var-test-id"
+        class="g-tag g-tag-filled g-tag-cyan css-var-test-id"
       >
         cyan
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-blue css-var-test-id"
+        class="g-tag g-tag-filled g-tag-blue css-var-test-id"
       >
         blue
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-geekblue css-var-test-id"
+        class="g-tag g-tag-filled g-tag-geekblue css-var-test-id"
       >
         geekblue
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-purple css-var-test-id"
+        class="g-tag g-tag-filled g-tag-purple css-var-test-id"
       >
         purple
       </span>
@@ -470,76 +470,76 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Presets (solid)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-solid ant-tag-magenta css-var-test-id"
+        class="g-tag g-tag-solid g-tag-magenta css-var-test-id"
       >
         magenta
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-red css-var-test-id"
+        class="g-tag g-tag-solid g-tag-red css-var-test-id"
       >
         red
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-volcano css-var-test-id"
+        class="g-tag g-tag-solid g-tag-volcano css-var-test-id"
       >
         volcano
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-orange css-var-test-id"
+        class="g-tag g-tag-solid g-tag-orange css-var-test-id"
       >
         orange
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-gold css-var-test-id"
+        class="g-tag g-tag-solid g-tag-gold css-var-test-id"
       >
         gold
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-lime css-var-test-id"
+        class="g-tag g-tag-solid g-tag-lime css-var-test-id"
       >
         lime
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-green css-var-test-id"
+        class="g-tag g-tag-solid g-tag-green css-var-test-id"
       >
         green
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-cyan css-var-test-id"
+        class="g-tag g-tag-solid g-tag-cyan css-var-test-id"
       >
         cyan
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-blue css-var-test-id"
+        class="g-tag g-tag-solid g-tag-blue css-var-test-id"
       >
         blue
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-geekblue css-var-test-id"
+        class="g-tag g-tag-solid g-tag-geekblue css-var-test-id"
       >
         geekblue
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-purple css-var-test-id"
+        class="g-tag g-tag-solid g-tag-purple css-var-test-id"
       >
         purple
       </span>
@@ -547,76 +547,76 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Presets (outlined)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-outlined ant-tag-magenta css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-magenta css-var-test-id"
       >
         magenta
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-red css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-red css-var-test-id"
       >
         red
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-volcano css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-volcano css-var-test-id"
       >
         volcano
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-orange css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-orange css-var-test-id"
       >
         orange
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-gold css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-gold css-var-test-id"
       >
         gold
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-lime css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-lime css-var-test-id"
       >
         lime
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-green css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-green css-var-test-id"
       >
         green
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-cyan css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-cyan css-var-test-id"
       >
         cyan
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-blue css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-blue css-var-test-id"
       >
         blue
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-geekblue css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-geekblue css-var-test-id"
       >
         geekblue
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-purple css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-purple css-var-test-id"
       >
         purple
       </span>
@@ -624,44 +624,44 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Custom (filled)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-filled css-var-test-id"
+        class="g-tag g-tag-filled css-var-test-id"
         style="background-color: rgb(255, 238, 229); color: rgb(255, 85, 0);"
       >
         #f50
       </span>
       <span
-        class="ant-tag ant-tag-filled css-var-test-id"
+        class="g-tag g-tag-filled css-var-test-id"
         style="background-color: rgb(231, 246, 254); color: rgb(45, 183, 245);"
       >
         #2db7f5
       </span>
       <span
-        class="ant-tag ant-tag-filled css-var-test-id"
+        class="g-tag g-tag-filled css-var-test-id"
         style="background-color: rgb(240, 249, 236); color: rgb(135, 208, 104);"
       >
         #87d068
       </span>
       <span
-        class="ant-tag ant-tag-filled css-var-test-id"
+        class="g-tag g-tag-filled css-var-test-id"
         style="background-color: rgb(231, 244, 253); color: rgb(16, 142, 233);"
       >
         #108ee9
@@ -670,44 +670,44 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Custom (solid)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-solid css-var-test-id"
+        class="g-tag g-tag-solid css-var-test-id"
         style="background-color: rgb(255, 85, 0);"
       >
         #f50
       </span>
       <span
-        class="ant-tag ant-tag-solid css-var-test-id"
+        class="g-tag g-tag-solid css-var-test-id"
         style="background-color: rgb(45, 183, 245);"
       >
         #2db7f5
       </span>
       <span
-        class="ant-tag ant-tag-solid css-var-test-id"
+        class="g-tag g-tag-solid css-var-test-id"
         style="background-color: rgb(135, 208, 104);"
       >
         #87d068
       </span>
       <span
-        class="ant-tag ant-tag-solid css-var-test-id"
+        class="g-tag g-tag-solid css-var-test-id"
         style="background-color: rgb(16, 142, 233);"
       >
         #108ee9
@@ -716,44 +716,44 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Custom (outlined)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-outlined css-var-test-id"
+        class="g-tag g-tag-outlined css-var-test-id"
         style="background-color: rgb(255, 238, 229); color: rgb(255, 85, 0); border-color: rgb(255, 85, 0);"
       >
         #f50
       </span>
       <span
-        class="ant-tag ant-tag-outlined css-var-test-id"
+        class="g-tag g-tag-outlined css-var-test-id"
         style="background-color: rgb(231, 246, 254); color: rgb(45, 183, 245); border-color: rgb(45, 183, 245);"
       >
         #2db7f5
       </span>
       <span
-        class="ant-tag ant-tag-outlined css-var-test-id"
+        class="g-tag g-tag-outlined css-var-test-id"
         style="background-color: rgb(240, 249, 236); color: rgb(135, 208, 104); border-color: rgb(135, 208, 104);"
       >
         #87d068
       </span>
       <span
-        class="ant-tag ant-tag-outlined css-var-test-id"
+        class="g-tag g-tag-outlined css-var-test-id"
         style="background-color: rgb(231, 244, 253); color: rgb(16, 142, 233); border-color: rgb(16, 142, 233);"
       >
         #108ee9
@@ -767,10 +767,10 @@ exports[`renders components/tag/demo/colorful.tsx extend context correctly 2`] =
 
 exports[`renders components/tag/demo/control.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
 >
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
     style="user-select: none;"
   >
     <span>
@@ -778,7 +778,7 @@ exports[`renders components/tag/demo/control.tsx extend context correctly 1`] = 
     </span>
   </span>
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
     style="user-select: none;"
   >
     <span>
@@ -786,7 +786,7 @@ exports[`renders components/tag/demo/control.tsx extend context correctly 1`] = 
     </span>
     <span
       aria-label="Close"
-      class="anticon anticon-close ant-tag-close-icon"
+      class="gicon gicon-close g-tag-close-icon"
       role="img"
       tabindex="-1"
     >
@@ -807,7 +807,7 @@ exports[`renders components/tag/demo/control.tsx extend context correctly 1`] = 
     </span>
   </span>
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
     style="user-select: none;"
   >
     <span>
@@ -815,7 +815,7 @@ exports[`renders components/tag/demo/control.tsx extend context correctly 1`] = 
     </span>
     <span
       aria-label="Close"
-      class="anticon anticon-close ant-tag-close-icon"
+      class="gicon gicon-close g-tag-close-icon"
       role="img"
       tabindex="-1"
     >
@@ -836,12 +836,12 @@ exports[`renders components/tag/demo/control.tsx extend context correctly 1`] = 
     </span>
   </span>
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
     style="height: 22px; background: rgb(255, 255, 255); border-style: dashed;"
   >
     <span
       aria-label="plus"
-      class="anticon anticon-plus"
+      class="gicon gicon-plus"
       role="img"
     >
       <svg
@@ -872,26 +872,26 @@ exports[`renders components/tag/demo/control.tsx extend context correctly 2`] = 
 
 exports[`renders components/tag/demo/customize.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
 >
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
   >
     Tag1
     <span
       aria-label="Close"
-      class="ant-tag-close-icon"
+      class="g-tag-close-icon"
     >
       关 闭
     </span>
   </span>
   <span
-    class="ant-tag ant-tag-filled css-var-test-id"
+    class="g-tag g-tag-filled css-var-test-id"
   >
     Tag2
     <span
       aria-label="Close"
-      class="anticon anticon-close-circle ant-tag-close-icon"
+      class="gicon gicon-close-circle g-tag-close-icon"
       role="img"
       tabindex="-1"
     >
@@ -918,18 +918,18 @@ exports[`renders components/tag/demo/customize.tsx extend context correctly 2`] 
 
 exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <span
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       Basic Tag
     </span>
     <span
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       <a
         href="https://ant.design"
@@ -939,16 +939,16 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] =
     </span>
     <a
       aria-disabled="true"
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       Href Tag
     </a>
     <span
-      class="ant-tag ant-tag-filled ant-tag-success ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-success g-tag-disabled css-var-test-id"
     >
       <span
         aria-label="check-circle"
-        class="anticon anticon-check-circle"
+        class="gicon gicon-check-circle"
         role="img"
       >
         <svg
@@ -974,53 +974,53 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] =
     </span>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <span
-      class="ant-tag ant-tag-filled ant-tag-red ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-red g-tag-disabled css-var-test-id"
     >
       Preset Color Red
     </span>
     <span
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       Custom Color #f50 Outlined
     </span>
     <span
-      class="ant-tag ant-tag-solid ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-solid g-tag-disabled css-var-test-id"
     >
       Custom Color #f50 Filled
     </span>
     <span
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       Custom Color #f50 Borderless
     </span>
     <span
-      class="ant-tag ant-tag-filled ant-tag-success ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-success g-tag-disabled css-var-test-id"
     >
       Preset Status Success
     </span>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <span
-      class="ant-tag ant-tag-checkable ant-tag-checkable-checked ant-tag-checkable-disabled css-var-test-id"
+      class="g-tag g-tag-checkable g-tag-checkable-checked g-tag-checkable-disabled css-var-test-id"
     >
       <span>
         Books
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-checkable ant-tag-checkable-disabled css-var-test-id"
+      class="g-tag g-tag-checkable g-tag-checkable-disabled css-var-test-id"
     >
       <span>
         Movies
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-checkable ant-tag-checkable-disabled css-var-test-id"
+      class="g-tag g-tag-checkable g-tag-checkable-disabled css-var-test-id"
     >
       <span>
         Music
@@ -1028,15 +1028,15 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] =
     </span>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <span
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       Closable Tag
       <span
         aria-label="Close"
-        class="anticon anticon-close ant-tag-close-icon"
+        class="gicon gicon-close g-tag-close-icon"
         role="img"
         tabindex="-1"
       >
@@ -1057,11 +1057,11 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] =
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-filled ant-tag-success ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-success g-tag-disabled css-var-test-id"
     >
       <span
         aria-label="check-circle"
-        class="anticon anticon-check-circle"
+        class="gicon gicon-check-circle"
         role="img"
       >
         <svg
@@ -1086,7 +1086,7 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] =
       </span>
       <span
         aria-label="Close"
-        class="anticon anticon-close ant-tag-close-icon"
+        class="gicon gicon-close g-tag-close-icon"
         role="img"
         tabindex="-1"
       >
@@ -1107,12 +1107,12 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] =
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       Closable with Custom Icon
       <span
         aria-label="Close"
-        class="anticon anticon-close-circle ant-tag-close-icon"
+        class="gicon gicon-close-circle g-tag-close-icon"
         role="img"
         tabindex="-1"
       >
@@ -1134,19 +1134,19 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] =
     </span>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <span
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       Borderless Basic
     </span>
     <span
-      class="ant-tag ant-tag-filled ant-tag-success ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-success g-tag-disabled css-var-test-id"
     >
       <span
         aria-label="check-circle"
-        class="anticon anticon-check-circle"
+        class="gicon gicon-check-circle"
         role="img"
       >
         <svg
@@ -1171,12 +1171,12 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 1`] =
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-filled ant-tag-disabled css-var-test-id"
+      class="g-tag g-tag-filled g-tag-disabled css-var-test-id"
     >
       Borderless Closable
       <span
         aria-label="Close"
-        class="anticon anticon-close ant-tag-close-icon"
+        class="gicon gicon-close g-tag-close-icon"
         role="img"
         tabindex="-1"
       >
@@ -1205,23 +1205,23 @@ exports[`renders components/tag/demo/disabled.tsx extend context correctly 2`] =
 exports[`renders components/tag/demo/draggable.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-flex ant-flex-wrap-wrap"
+    class="g-flex g-flex-wrap-wrap"
     style="gap: 4px 0;"
   >
     <span
-      class="ant-tag"
+      class="g-tag"
       style="cursor: move; transition: unset;"
     >
       Tag 1
     </span>
     <span
-      class="ant-tag"
+      class="g-tag"
       style="cursor: move; transition: unset;"
     >
       Tag 2
     </span>
     <span
-      class="ant-tag"
+      class="g-tag"
       style="cursor: move; transition: unset;"
     >
       Tag 3
@@ -1250,31 +1250,31 @@ exports[`renders components/tag/demo/draggable.tsx extend context correctly 2`] 
 exports[`renders components/tag/demo/icon.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       Tag with icon
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>,
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
   >
     <span
-      class="ant-tag ant-tag-filled css-var-test-id"
+      class="g-tag g-tag-filled css-var-test-id"
       style="background-color: rgb(232, 244, 253); color: rgb(85, 172, 238);"
     >
       <span
         aria-label="twitter"
-        class="anticon anticon-twitter"
+        class="gicon gicon-twitter"
         role="img"
       >
         <svg
@@ -1296,12 +1296,12 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-filled css-var-test-id"
+      class="g-tag g-tag-filled css-var-test-id"
       style="background-color: rgb(252, 233, 233); color: rgb(205, 32, 31);"
     >
       <span
         aria-label="youtube"
-        class="anticon anticon-youtube"
+        class="gicon gicon-youtube"
         role="img"
       >
         <svg
@@ -1323,12 +1323,12 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-filled css-var-test-id"
+      class="g-tag g-tag-filled css-var-test-id"
       style="background-color: rgb(237, 240, 248); color: rgb(59, 89, 153);"
     >
       <span
         aria-label="facebook"
-        class="anticon anticon-facebook"
+        class="gicon gicon-facebook"
         role="img"
       >
         <svg
@@ -1350,12 +1350,12 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-filled css-var-test-id"
+      class="g-tag g-tag-filled css-var-test-id"
       style="background-color: rgb(232, 244, 253); color: rgb(85, 172, 238);"
     >
       <span
         aria-label="linkedin"
-        class="anticon anticon-linkedin"
+        class="gicon gicon-linkedin"
         role="img"
       >
         <svg
@@ -1378,30 +1378,30 @@ Array [
     </span>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       CheckableTag with icon
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>,
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
   >
     <span
-      class="ant-tag ant-tag-checkable ant-tag-checkable-checked css-var-test-id"
+      class="g-tag g-tag-checkable g-tag-checkable-checked css-var-test-id"
     >
       <span
         aria-label="twitter"
-        class="anticon anticon-twitter"
+        class="gicon gicon-twitter"
         role="img"
       >
         <svg
@@ -1423,11 +1423,11 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-checkable css-var-test-id"
+      class="g-tag g-tag-checkable css-var-test-id"
     >
       <span
         aria-label="youtube"
-        class="anticon anticon-youtube"
+        class="gicon gicon-youtube"
         role="img"
       >
         <svg
@@ -1449,11 +1449,11 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-checkable css-var-test-id"
+      class="g-tag g-tag-checkable css-var-test-id"
     >
       <span
         aria-label="facebook"
-        class="anticon anticon-facebook"
+        class="gicon gicon-facebook"
         role="img"
       >
         <svg
@@ -1475,11 +1475,11 @@ Array [
       </span>
     </span>
     <span
-      class="ant-tag ant-tag-checkable css-var-test-id"
+      class="g-tag g-tag-checkable css-var-test-id"
     >
       <span
         aria-label="linkedin"
-        class="anticon anticon-linkedin"
+        class="gicon gicon-linkedin"
         role="img"
       >
         <svg
@@ -1510,30 +1510,30 @@ exports[`renders components/tag/demo/status.tsx extend context correctly 1`] = `
 Array [
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Status (filled)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-filled ant-tag-success css-var-test-id"
+        class="g-tag g-tag-filled g-tag-success css-var-test-id"
       >
         <span
           aria-label="check-circle"
-          class="anticon anticon-check-circle"
+          class="gicon gicon-check-circle"
           role="img"
         >
           <svg
@@ -1558,11 +1558,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-processing css-var-test-id"
+        class="g-tag g-tag-filled g-tag-processing css-var-test-id"
       >
         <span
           aria-label="sync"
-          class="anticon anticon-sync anticon-spin"
+          class="gicon gicon-sync gicon-spin"
           role="img"
         >
           <svg
@@ -1584,11 +1584,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-warning css-var-test-id"
+        class="g-tag g-tag-filled g-tag-warning css-var-test-id"
       >
         <span
           aria-label="exclamation-circle"
-          class="anticon anticon-exclamation-circle"
+          class="gicon gicon-exclamation-circle"
           role="img"
         >
           <svg
@@ -1613,11 +1613,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-error css-var-test-id"
+        class="g-tag g-tag-filled g-tag-error css-var-test-id"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1640,11 +1640,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-filled ant-tag-default css-var-test-id"
+        class="g-tag g-tag-filled g-tag-default css-var-test-id"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -1672,30 +1672,30 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Status (solid)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-solid ant-tag-success css-var-test-id"
+        class="g-tag g-tag-solid g-tag-success css-var-test-id"
       >
         <span
           aria-label="check-circle"
-          class="anticon anticon-check-circle"
+          class="gicon gicon-check-circle"
           role="img"
         >
           <svg
@@ -1720,11 +1720,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-processing css-var-test-id"
+        class="g-tag g-tag-solid g-tag-processing css-var-test-id"
       >
         <span
           aria-label="sync"
-          class="anticon anticon-sync anticon-spin"
+          class="gicon gicon-sync gicon-spin"
           role="img"
         >
           <svg
@@ -1746,11 +1746,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-warning css-var-test-id"
+        class="g-tag g-tag-solid g-tag-warning css-var-test-id"
       >
         <span
           aria-label="exclamation-circle"
-          class="anticon anticon-exclamation-circle"
+          class="gicon gicon-exclamation-circle"
           role="img"
         >
           <svg
@@ -1775,11 +1775,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-error css-var-test-id"
+        class="g-tag g-tag-solid g-tag-error css-var-test-id"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1802,11 +1802,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-solid ant-tag-default css-var-test-id"
+        class="g-tag g-tag-solid g-tag-default css-var-test-id"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -1834,30 +1834,30 @@ Array [
   </div>,
   <div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
         Status (outlined)
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
     >
       <span
-        class="ant-tag ant-tag-outlined ant-tag-success css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-success css-var-test-id"
       >
         <span
           aria-label="check-circle"
-          class="anticon anticon-check-circle"
+          class="gicon gicon-check-circle"
           role="img"
         >
           <svg
@@ -1882,11 +1882,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-processing css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-processing css-var-test-id"
       >
         <span
           aria-label="sync"
-          class="anticon anticon-sync anticon-spin"
+          class="gicon gicon-sync gicon-spin"
           role="img"
         >
           <svg
@@ -1908,11 +1908,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-warning css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-warning css-var-test-id"
       >
         <span
           aria-label="exclamation-circle"
-          class="anticon anticon-exclamation-circle"
+          class="gicon gicon-exclamation-circle"
           role="img"
         >
           <svg
@@ -1937,11 +1937,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-error css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-error css-var-test-id"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1964,11 +1964,11 @@ Array [
         </span>
       </span>
       <span
-        class="ant-tag ant-tag-outlined ant-tag-default css-var-test-id"
+        class="g-tag g-tag-outlined g-tag-default css-var-test-id"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -2001,21 +2001,21 @@ exports[`renders components/tag/demo/status.tsx extend context correctly 2`] = `
 
 exports[`renders components/tag/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-large ant-space-gap-col-large css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-large g-space-gap-col-large css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-gap-medium"
+      class="g-flex css-var-test-id g-flex-gap-medium"
     >
       <span
-        class="ant-tag acss-1cdgefp ant-tag-filled css-var-test-id"
+        class="g-tag acss-1cdgefp g-tag-filled css-var-test-id"
         style="background-color: rgb(230, 247, 255);"
       >
         <span
           aria-label="check-circle"
-          class="anticon anticon-check-circle"
+          class="gicon gicon-check-circle"
           role="img"
           style="color: rgb(82, 196, 26);"
         >
@@ -2043,12 +2043,12 @@ exports[`renders components/tag/demo/style-class.tsx extend context correctly 1`
         </span>
       </span>
       <span
-        class="ant-tag acss-1cdgefp ant-tag-filled css-var-test-id"
+        class="g-tag acss-1cdgefp g-tag-filled css-var-test-id"
         style="background-color: rgb(245, 239, 255);"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
           style="color: rgb(143, 135, 241);"
         >
@@ -2076,17 +2076,17 @@ exports[`renders components/tag/demo/style-class.tsx extend context correctly 1`
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+      class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
     >
       <div
-        class="ant-tag-checkable-group css-var-test-id acss-1cdgefp"
+        class="g-tag-checkable-group css-var-test-id acss-1cdgefp"
         style="gap: 12px; padding: 8px 12px; background-color: rgba(82, 196, 26, 0.08); border-radius: 8px;"
       >
         <span
-          class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+          class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
           style="background-color: rgba(82, 196, 26, 0.1); border-color: rgba(82, 196, 26, 0.3); color: rgb(82, 196, 26);"
         >
           <span>
@@ -2094,7 +2094,7 @@ exports[`renders components/tag/demo/style-class.tsx extend context correctly 1`
           </span>
         </span>
         <span
-          class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+          class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
           style="background-color: rgba(82, 196, 26, 0.1); border-color: rgba(82, 196, 26, 0.3); color: rgb(82, 196, 26);"
         >
           <span>
@@ -2102,7 +2102,7 @@ exports[`renders components/tag/demo/style-class.tsx extend context correctly 1`
           </span>
         </span>
         <span
-          class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+          class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
           style="background-color: rgba(82, 196, 26, 0.1); border-color: rgba(82, 196, 26, 0.3); color: rgb(82, 196, 26);"
         >
           <span>
@@ -2111,11 +2111,11 @@ exports[`renders components/tag/demo/style-class.tsx extend context correctly 1`
         </span>
       </div>
       <div
-        class="ant-tag-checkable-group css-var-test-id acss-1cdgefp"
+        class="g-tag-checkable-group css-var-test-id acss-1cdgefp"
         style="gap: 16px; padding: 8px 12px; background-color: rgba(143, 135, 241, 0.08); border-radius: 8px;"
       >
         <span
-          class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+          class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
           style="background-color: rgba(143, 135, 241, 0.1); border-color: rgba(143, 135, 241, 0.3); color: rgb(143, 135, 241); font-weight: 500;"
         >
           <span>
@@ -2123,7 +2123,7 @@ exports[`renders components/tag/demo/style-class.tsx extend context correctly 1`
           </span>
         </span>
         <span
-          class="ant-tag ant-tag-checkable ant-tag-checkable-group-item css-var-test-id"
+          class="g-tag g-tag-checkable g-tag-checkable-group-item css-var-test-id"
           style="background-color: rgba(143, 135, 241, 0.1); border-color: rgba(143, 135, 241, 0.3); color: rgb(143, 135, 241); font-weight: 500;"
         >
           <span>

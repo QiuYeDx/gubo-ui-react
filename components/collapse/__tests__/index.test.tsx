@@ -51,8 +51,8 @@ describe('Collapse', () => {
     const { container: small } = render(<Collapse size="small" />);
     const { container: large } = render(<Collapse size="large" />);
 
-    expect(small.querySelector('.ant-collapse')).toHaveClass('ant-collapse-small');
-    expect(large.querySelector('.ant-collapse')).toHaveClass('ant-collapse-large');
+    expect(small.querySelector('.g-collapse')).toHaveClass('g-collapse-small');
+    expect(large.querySelector('.g-collapse')).toHaveClass('g-collapse-large');
   });
 
   it('should keep the className of the expandIcon', () => {
@@ -90,12 +90,10 @@ describe('Collapse', () => {
         </Collapse.Panel>
       </Collapse>,
     );
-    expect(container.querySelector('.ant-collapse-item')).not.toHaveClass(
-      'ant-collapse-item-active',
-    );
-    fireEvent.click(container.querySelector('.ant-collapse-header')!);
+    expect(container.querySelector('.g-collapse-item')).not.toHaveClass('g-collapse-item-active');
+    fireEvent.click(container.querySelector('.g-collapse-header')!);
     await waitFakeTimer();
-    expect(container.querySelector('.ant-collapse-item')).toHaveClass('ant-collapse-item-active');
+    expect(container.querySelector('.g-collapse-item')).toHaveClass('g-collapse-item-active');
     jest.useRealTimers();
   });
 
@@ -107,7 +105,7 @@ describe('Collapse', () => {
         </Collapse.Panel>
       </Collapse>,
     );
-    fireEvent.click(container.querySelector('.ant-collapse-header')!);
+    fireEvent.click(container.querySelector('.g-collapse-header')!);
     expect(asFragment().firstChild).toMatchSnapshot();
   });
 
@@ -169,7 +167,7 @@ describe('Collapse', () => {
 
     triggerAllTimer();
 
-    expect(container.querySelectorAll('.ant-motion-collapse').length).toBe(0);
+    expect(container.querySelectorAll('.g-motion-collapse').length).toBe(0);
 
     spiedRAF.mockRestore();
     jest.useRealTimers();
@@ -195,8 +193,8 @@ describe('Collapse', () => {
     );
 
     expect(ref.current).toBe(container.firstChild);
-    expect(panelRef1.current).toBe(document.querySelectorAll('.ant-collapse-item')[0]);
-    expect(panelRef2.current).toBe(document.querySelectorAll('.ant-collapse-item')[1]);
+    expect(panelRef1.current).toBe(document.querySelectorAll('.g-collapse-item')[0]);
+    expect(panelRef2.current).toBe(document.querySelectorAll('.g-collapse-item')[1]);
   });
 
   it('Collapse.Panel usage', () => {
@@ -220,10 +218,7 @@ describe('Collapse', () => {
       </Collapse>,
     );
 
-    expect(container.querySelector('.ant-collapse-arrow')).toHaveAttribute(
-      'aria-label',
-      'expanded',
-    );
+    expect(container.querySelector('.g-collapse-arrow')).toHaveAttribute('aria-label', 'expanded');
 
     rerender(
       <Collapse>
@@ -231,10 +226,7 @@ describe('Collapse', () => {
       </Collapse>,
     );
 
-    expect(container.querySelector('.ant-collapse-arrow')).toHaveAttribute(
-      'aria-label',
-      'collapsed',
-    );
+    expect(container.querySelector('.g-collapse-arrow')).toHaveAttribute('aria-label', 'collapsed');
   });
 
   it('should support borderlessContentBg component token', () => {
@@ -259,8 +251,8 @@ describe('Collapse', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.ant-collapse-panel')).toHaveStyle({
-      backgroundColor: 'var(--ant-collapse-borderless-content-bg)',
+    expect(container.querySelector('.g-collapse-panel')).toHaveStyle({
+      backgroundColor: 'var(--g-collapse-borderless-content-bg)',
     });
   });
 
@@ -285,8 +277,8 @@ describe('Collapse', () => {
         </Collapse>
       </ConfigProvider>,
     );
-    expect(container.querySelector('.ant-collapse-body')).toHaveStyle({
-      padding: 'var(--ant-collapse-borderless-content-padding)',
+    expect(container.querySelector('.g-collapse-body')).toHaveStyle({
+      padding: 'var(--g-collapse-borderless-content-padding)',
     });
   });
 
@@ -301,35 +293,35 @@ describe('Collapse', () => {
       consoleErrorSpy.mockRestore();
     });
     it.each([
-      { props: {}, expectedClass: 'ant-collapse-icon-placement-start', shouldWarn: false },
+      { props: {}, expectedClass: 'g-collapse-icon-placement-start', shouldWarn: false },
       {
         props: { expandIconPlacement: 'start' },
-        expectedClass: 'ant-collapse-icon-placement-start',
+        expectedClass: 'g-collapse-icon-placement-start',
         shouldWarn: false,
       },
       {
         props: { expandIconPlacement: 'end' },
-        expectedClass: 'ant-collapse-icon-placement-end',
+        expectedClass: 'g-collapse-icon-placement-end',
         shouldWarn: false,
       },
       {
         props: { expandIconPosition: 'start' },
-        expectedClass: 'ant-collapse-icon-placement-start',
+        expectedClass: 'g-collapse-icon-placement-start',
         shouldWarn: true,
       },
       {
         props: { expandIconPosition: 'end' },
-        expectedClass: 'ant-collapse-icon-placement-end',
+        expectedClass: 'g-collapse-icon-placement-end',
         shouldWarn: true,
       },
       {
         props: { expandIconPosition: 'start', expandIconPlacement: 'end' },
-        expectedClass: 'ant-collapse-icon-placement-end',
+        expectedClass: 'g-collapse-icon-placement-end',
         shouldWarn: true,
       },
       {
         props: { expandIconPosition: 'end', expandIconPlacement: 'start' },
-        expectedClass: 'ant-collapse-icon-placement-start',
+        expectedClass: 'g-collapse-icon-placement-start',
         shouldWarn: true,
       },
     ])('should render with $expectedClass for %j', ({ props, expectedClass, shouldWarn }) => {
@@ -340,7 +332,7 @@ describe('Collapse', () => {
         />,
       );
 
-      expect(container.querySelector('.ant-collapse')).toHaveClass(expectedClass);
+      expect(container.querySelector('.g-collapse')).toHaveClass(expectedClass);
 
       if (shouldWarn) {
         expect(consoleErrorSpy).toHaveBeenCalledWith(

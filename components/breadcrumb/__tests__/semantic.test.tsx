@@ -21,13 +21,13 @@ describe('Breadcrumb.Semantic', () => {
       <Breadcrumb classNames={classNamesFn} styles={stylesFn} items={items.slice(0, 2)} />,
     );
 
-    const rootShort = container.querySelector('.ant-breadcrumb');
+    const rootShort = container.querySelector('.g-breadcrumb');
     expect(rootShort).toHaveClass('fn-root-short');
     expect(rootShort).toHaveStyle({ backgroundColor: 'rgb(255, 255, 255)' });
 
     rerender(<Breadcrumb classNames={classNamesFn} styles={stylesFn} items={items} />);
 
-    const rootLong = container.querySelector('.ant-breadcrumb');
+    const rootLong = container.querySelector('.g-breadcrumb');
     expect(rootLong).toHaveClass('fn-root-long');
     expect(rootLong).toHaveStyle({ backgroundColor: 'rgb(240, 249, 255)' });
   });

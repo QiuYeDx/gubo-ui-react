@@ -2,22 +2,22 @@
 
 exports[`List.pagination pagination button should be displayed normally, when the paginator total is not defined 1`] = `
 <ul
-  class="ant-pagination ant-pagination-end css-var-root"
+  class="g-pagination g-pagination-end css-var-root"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="g-pagination-prev g-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg
@@ -37,7 +37,7 @@ exports[`List.pagination pagination button should be displayed normally, when th
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -48,7 +48,7 @@ exports[`List.pagination pagination button should be displayed normally, when th
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="g-pagination-item g-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -60,18 +60,18 @@ exports[`List.pagination pagination button should be displayed normally, when th
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="g-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -95,26 +95,26 @@ exports[`List.pagination pagination button should be displayed normally, when th
 
 exports[`List.pagination renders pagination correctly 1`] = `
 <div
-  class="ant-list ant-list-vertical ant-list-split ant-list-something-after-last-item css-var-root"
+  class="g-list g-list-vertical g-list-split g-list-something-after-last-item css-var-root"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <ul
-        class="ant-list-items ant-list-container css-var-root"
+        class="g-list-items g-list-container css-var-root"
       >
         <li
-          class="ant-list-item ant-list-item-no-flex"
+          class="g-list-item g-list-item-no-flex"
         >
           Jack
         </li>
         <li
-          class="ant-list-item ant-list-item-no-flex"
+          class="g-list-item g-list-item-no-flex"
         >
           Lucy
         </li>
@@ -122,25 +122,25 @@ exports[`List.pagination renders pagination correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-list-pagination"
+    class="g-list-pagination"
   >
     <ul
-      class="ant-pagination ant-pagination-end my-page css-var-root"
+      class="g-pagination g-pagination-end my-page css-var-root"
     >
       <li
         aria-disabled="true"
-        class="ant-pagination-prev ant-pagination-disabled"
+        class="g-pagination-prev g-pagination-disabled"
         title="Previous Page"
       >
         <button
-          class="ant-pagination-item-link"
+          class="g-pagination-item-link"
           disabled=""
           tabindex="-1"
           type="button"
         >
           <span
             aria-label="left"
-            class="anticon anticon-left"
+            class="gicon gicon-left"
             role="img"
           >
             <svg
@@ -160,7 +160,7 @@ exports[`List.pagination renders pagination correctly 1`] = `
         </button>
       </li>
       <li
-        class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+        class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
         tabindex="0"
         title="1"
       >
@@ -171,7 +171,7 @@ exports[`List.pagination renders pagination correctly 1`] = `
         </a>
       </li>
       <li
-        class="ant-pagination-item ant-pagination-item-2"
+        class="g-pagination-item g-pagination-item-2"
         tabindex="0"
         title="2"
       >
@@ -183,18 +183,18 @@ exports[`List.pagination renders pagination correctly 1`] = `
       </li>
       <li
         aria-disabled="false"
-        class="ant-pagination-next"
+        class="g-pagination-next"
         tabindex="0"
         title="Next Page"
       >
         <button
-          class="ant-pagination-item-link"
+          class="g-pagination-item-link"
           tabindex="-1"
           type="button"
         >
           <span
             aria-label="right"
-            class="anticon anticon-right"
+            class="gicon gicon-right"
             role="img"
           >
             <svg
@@ -220,22 +220,22 @@ exports[`List.pagination renders pagination correctly 1`] = `
 
 exports[`List.pagination should default work 1`] = `
 <ul
-  class="ant-pagination ant-pagination-end css-var-root"
+  class="g-pagination g-pagination-end css-var-root"
 >
   <li
     aria-disabled="false"
-    class="ant-pagination-prev"
+    class="g-pagination-prev"
     tabindex="0"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg
@@ -255,7 +255,7 @@ exports[`List.pagination should default work 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1"
+    class="g-pagination-item g-pagination-item-1"
     tabindex="0"
     title="1"
   >
@@ -266,7 +266,7 @@ exports[`List.pagination should default work 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-2 g-pagination-item-active"
     tabindex="0"
     title="2"
   >
@@ -278,18 +278,18 @@ exports[`List.pagination should default work 1`] = `
   </li>
   <li
     aria-disabled="true"
-    class="ant-pagination-next ant-pagination-disabled"
+    class="g-pagination-next g-pagination-disabled"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -309,13 +309,13 @@ exports[`List.pagination should default work 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="g-pagination-options"
   >
     <div
-      class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-root ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined g-pagination-options-size-changer css-var-root g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="3 / page"
       >
         3 / page
@@ -325,7 +325,7 @@ exports[`List.pagination should default work 1`] = `
           aria-haspopup="listbox"
           aria-label="Page Size"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -333,11 +333,11 @@ exports[`List.pagination should default work 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg

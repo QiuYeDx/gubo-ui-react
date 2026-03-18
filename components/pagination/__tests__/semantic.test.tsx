@@ -24,8 +24,8 @@ describe('Pagination.Semantic', () => {
         }}
       />,
     );
-    const root = container.querySelector('.ant-pagination');
-    const item = container.querySelector('.ant-pagination-item');
+    const root = container.querySelector('.g-pagination');
+    const item = container.querySelector('.g-pagination-item');
     expect(root).toHaveClass('custom-root');
     expect(item).toHaveClass('custom-item');
     expect(root).toHaveStyle('color: rgb(255, 0, 0)');
@@ -63,8 +63,8 @@ describe('Pagination.Semantic', () => {
       />,
     );
 
-    const root = container.querySelector('.ant-pagination');
-    const item = container.querySelector('.ant-pagination-item');
+    const root = container.querySelector('.g-pagination');
+    const item = container.querySelector('.g-pagination-item');
     expect(root).toHaveClass('dynamic-root-small');
     expect(item).toHaveClass('enabled-item');
     expect(root).toHaveStyle('background-color: rgb(230, 247, 255)');
@@ -81,8 +81,8 @@ describe('Pagination.Semantic', () => {
       />,
     );
 
-    const disabledRoot = container.querySelector('.ant-pagination');
-    const disabledItem = container.querySelector('.ant-pagination-item');
+    const disabledRoot = container.querySelector('.g-pagination');
+    const disabledItem = container.querySelector('.g-pagination-item');
     expect(disabledRoot).toHaveClass('dynamic-root-default');
     expect(disabledItem).toHaveClass('disabled-item');
     expect(disabledRoot).toHaveStyle('background-color: rgb(246, 255, 237)');

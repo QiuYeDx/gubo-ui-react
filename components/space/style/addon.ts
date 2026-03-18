@@ -97,12 +97,12 @@ const genSpaceAddonStyle: GenerateStyle<SpaceToken, CSSObject> = (token) => {
         background: varRef('addon-background'),
 
         // ======================= Outlined =======================
-        '&-variant-outlined': {
+        '&-varig-outlined': {
           [varName('addon-border-color')]: varRef('addon-border-color-outlined'),
         },
 
         // ======================== Filled ========================
-        '&-variant-filled': {
+        '&-varig-filled': {
           [varName('addon-border-color')]: 'transparent',
           [varName('addon-background')]: varRef('addon-background-filled'),
 
@@ -114,13 +114,13 @@ const genSpaceAddonStyle: GenerateStyle<SpaceToken, CSSObject> = (token) => {
         },
 
         // ====================== Borderless ======================
-        '&-variant-borderless': {
+        '&-varig-borderless': {
           border: 'none',
           background: 'transparent',
         },
 
         // ====================== Underlined ======================
-        '&-variant-underlined': {
+        '&-varig-underlined': {
           border: 'none',
           background: 'transparent',
         },

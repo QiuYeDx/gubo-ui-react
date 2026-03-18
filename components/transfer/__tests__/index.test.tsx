@@ -109,7 +109,7 @@ describe('Transfer', () => {
   it('should move selected keys to corresponding list', () => {
     const handleChange = jest.fn();
     const { container } = render(<Transfer {...listCommonProps} onChange={handleChange} />);
-    fireEvent.click(container.querySelector('.ant-transfer-actions')?.querySelector('button')!); // move selected keys to right list
+    fireEvent.click(container.querySelector('.g-transfer-actions')?.querySelector('button')!); // move selected keys to right list
     expect(handleChange).toHaveBeenCalledWith(['a', 'b'], 'right', ['a']);
   });
 
@@ -124,7 +124,7 @@ describe('Transfer', () => {
       />,
     );
     fireEvent.click(
-      container.querySelector('.ant-transfer-actions')?.querySelectorAll('button')?.[1]!,
+      container.querySelector('.g-transfer-actions')?.querySelectorAll('button')?.[1]!,
     ); // move selected keys to left list
     expect(handleChange).toHaveBeenCalledWith([], 'left', ['a']);
   });
@@ -132,7 +132,7 @@ describe('Transfer', () => {
   it('should move selected keys expect disabled to corresponding list', () => {
     const handleChange = jest.fn();
     const { container } = render(<Transfer {...listDisabledProps} onChange={handleChange} />);
-    fireEvent.click(container.querySelector('.ant-transfer-actions')?.querySelector('button')!); // move selected keys to right list
+    fireEvent.click(container.querySelector('.g-transfer-actions')?.querySelector('button')!); // move selected keys to right list
     expect(handleChange).toHaveBeenCalledWith(['b'], 'right', ['b']);
   });
 
@@ -284,7 +284,7 @@ describe('Transfer', () => {
 
     fireEvent.click(
       container
-        ?.querySelectorAll('.ant-transfer-list-header')
+        ?.querySelectorAll('.g-transfer-list-header')
         ?.item(1)
         ?.querySelector('input[type="checkbox"]')!,
     );
@@ -300,7 +300,7 @@ describe('Transfer', () => {
 
     fireEvent.click(
       container
-        ?.querySelectorAll('.ant-transfer-list-header')
+        ?.querySelectorAll('.g-transfer-list-header')
         ?.item(0)
         ?.querySelector('input[type="checkbox"]')!,
     );
@@ -322,7 +322,7 @@ describe('Transfer', () => {
 
     fireEvent.change(
       container
-        ?.querySelectorAll('.ant-transfer-section')
+        ?.querySelectorAll('.g-transfer-section')
         ?.item(0)
         ?.querySelector('input[type="text"]')!,
       { target: { value: 'a' } },
@@ -330,9 +330,9 @@ describe('Transfer', () => {
 
     expect(
       container
-        .querySelectorAll('.ant-transfer-section')
+        .querySelectorAll('.g-transfer-section')
         .item(0)
-        .querySelectorAll('.ant-transfer-list-content input[type="checkbox"]'),
+        .querySelectorAll('.g-transfer-list-content input[type="checkbox"]'),
     ).toHaveLength(1);
   });
 
@@ -350,7 +350,7 @@ describe('Transfer', () => {
     );
     fireEvent.change(
       container
-        ?.querySelectorAll('.ant-transfer-section')
+        ?.querySelectorAll('.g-transfer-section')
         ?.item(0)
         ?.querySelector('input[type="text"]')!,
       { target: { value: 'content2' } },
@@ -432,7 +432,7 @@ describe('Transfer', () => {
     );
     fireEvent.change(
       container
-        ?.querySelectorAll('.ant-transfer-section')
+        ?.querySelectorAll('.g-transfer-section')
         ?.item(0)
         ?.querySelector('input[type="text"]')!,
       { target: { value: 'content2' } },
@@ -470,16 +470,15 @@ describe('Transfer', () => {
       );
     };
     const { container } = render(<TransferDemo />);
-    fireEvent.change(
-      container.querySelector('.ant-transfer-list-search')?.querySelector('input')!,
-      { target: { value: 'content2' } },
-    );
+    fireEvent.change(container.querySelector('.g-transfer-list-search')?.querySelector('input')!, {
+      target: { value: 'content2' },
+    });
     fireEvent.click(
       container
-        ?.querySelector('.ant-transfer-section')
-        ?.querySelector('.ant-transfer-list-header input[type="checkbox"]')!,
+        ?.querySelector('.g-transfer-section')
+        ?.querySelector('.g-transfer-list-header input[type="checkbox"]')!,
     );
-    fireEvent.click(container.querySelector('.ant-transfer-actions')?.querySelector('button')!);
+    fireEvent.click(container.querySelector('.g-transfer-actions')?.querySelector('button')!);
     expect(handleChange).toHaveBeenCalledWith(['1', '3', '4'], 'right', ['1']);
   });
 
@@ -502,25 +501,25 @@ describe('Transfer', () => {
 
     fireEvent.change(
       container
-        ?.querySelectorAll('.ant-transfer-section')
+        ?.querySelectorAll('.g-transfer-section')
         ?.item(0)
         ?.querySelector('input[type="text"]')!,
       { target: { value: 'a' } },
     );
     fireEvent.click(
       container
-        ?.querySelectorAll('.ant-transfer-section')
+        ?.querySelectorAll('.g-transfer-section')
         ?.item(0)
-        ?.querySelector('.ant-transfer-list-header input[type="checkbox"]')!,
+        ?.querySelector('.g-transfer-list-header input[type="checkbox"]')!,
     );
 
     expect(handleSelectChange).toHaveBeenLastCalledWith(['b', 'a'], []);
 
     fireEvent.click(
       container
-        ?.querySelectorAll('.ant-transfer-section')
+        ?.querySelectorAll('.g-transfer-section')
         ?.item(0)
-        ?.querySelector('.ant-transfer-list-header input[type="checkbox"]')!,
+        ?.querySelector('.g-transfer-list-header input[type="checkbox"]')!,
     );
 
     expect(handleSelectChange).toHaveBeenLastCalledWith(['b'], []);
@@ -574,10 +573,10 @@ describe('Transfer', () => {
       />,
     );
 
-    const wrapper = container.querySelector<HTMLDivElement>('.ant-transfer');
-    const listSource = container.querySelectorAll<HTMLDivElement>('.ant-transfer-section').item(0);
-    const listTarget = container.querySelectorAll<HTMLDivElement>('.ant-transfer-section').item(1);
-    const operation = container.querySelectorAll<HTMLDivElement>('.ant-transfer-actions').item(0);
+    const wrapper = container.querySelector<HTMLDivElement>('.g-transfer');
+    const listSource = container.querySelectorAll<HTMLDivElement>('.g-transfer-section').item(0);
+    const listTarget = container.querySelectorAll<HTMLDivElement>('.g-transfer-section').item(1);
+    const operation = container.querySelectorAll<HTMLDivElement>('.g-transfer-actions').item(0);
 
     expect(wrapper).toHaveStyle({ padding: '10px' });
     expect(listSource).toHaveStyle({ padding: '20px' });
@@ -609,10 +608,10 @@ describe('Transfer', () => {
       />,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-transfer');
-    const sectionElements = container.querySelectorAll<HTMLElement>('.ant-transfer-section');
-    const headerElements = container.querySelectorAll<HTMLElement>('.ant-transfer-list-header');
-    const actionsElement = container.querySelector<HTMLElement>('.ant-transfer-actions');
+    const rootElement = container.querySelector<HTMLElement>('.g-transfer');
+    const sectionElements = container.querySelectorAll<HTMLElement>('.g-transfer-section');
+    const headerElements = container.querySelectorAll<HTMLElement>('.g-transfer-list-header');
+    const actionsElement = container.querySelector<HTMLElement>('.g-transfer-actions');
 
     // check classNames
     expect(rootElement).toHaveClass(customClassNames.root!);
@@ -656,7 +655,7 @@ describe('Transfer', () => {
       />,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-transfer');
+    const rootElement = container.querySelector<HTMLElement>('.g-transfer');
     expect(rootElement).toHaveClass('disabled-transfer');
     expect(rootElement).toHaveStyle({ margin: '10px' });
 
@@ -680,18 +679,18 @@ describe('Transfer', () => {
 
     fireEvent.scroll(
       container
-        .querySelectorAll('.ant-transfer-section')
+        .querySelectorAll('.g-transfer-section')
         .item(0)
-        .querySelectorAll('.ant-transfer-list-content')
+        .querySelectorAll('.g-transfer-list-content')
         .item(0),
     );
     expect(onScroll).toHaveBeenLastCalledWith('left', expect.anything());
 
     fireEvent.scroll(
       container
-        .querySelectorAll('.ant-transfer-section')
+        .querySelectorAll('.g-transfer-section')
         .item(1)
-        .querySelectorAll('.ant-transfer-list-content')
+        .querySelectorAll('.g-transfer-list-content')
         .item(0),
     );
     expect(onScroll).toHaveBeenLastCalledWith('right', expect.anything());
@@ -718,10 +717,10 @@ describe('Transfer', () => {
 
     const { container } = render(<Demo />);
 
-    fireEvent.click(container.querySelector('.ant-transfer-list-content input')!);
+    fireEvent.click(container.querySelector('.g-transfer-list-content input')!);
     expect(onSelectChange).toHaveBeenCalledWith(['key_a']);
     expect(
-      container.querySelector<HTMLInputElement>('.ant-transfer-list-content input')!.checked,
+      container.querySelector<HTMLInputElement>('.g-transfer-list-content input')!.checked,
     ).toBeTruthy();
   });
 
@@ -768,7 +767,7 @@ describe('Transfer', () => {
     }));
     const { container } = render(<Transfer {...listDisabledProps} dataSource={dataSource} />);
     expect(
-      container.querySelectorAll<HTMLDivElement>('.ant-transfer-actions button').item(0),
+      container.querySelectorAll<HTMLDivElement>('.g-transfer-actions button').item(0),
     ).toBeDisabled();
   });
 
@@ -784,9 +783,9 @@ describe('Transfer', () => {
       );
       expect(
         container
-          .querySelectorAll('.ant-transfer-section')
+          .querySelectorAll('.g-transfer-section')
           .item(0)
-          .querySelectorAll('.ant-transfer-list-content-item'),
+          .querySelectorAll('.g-transfer-list-content-item'),
       ).toHaveLength(1);
       await waitFor(() => getByTitle('1/2'));
     });
@@ -795,7 +794,7 @@ describe('Transfer', () => {
       const { container, getByTitle, getAllByTitle, rerender } = render(
         <Transfer {...listDisabledProps} pagination={{ pageSize: 1 }} />,
       );
-      fireEvent.click(container.querySelector('.ant-pagination-next .ant-pagination-item-link')!);
+      fireEvent.click(container.querySelector('.g-pagination-next .g-pagination-item-link')!);
 
       await waitFor(() => getByTitle('2/2'));
 
@@ -814,9 +813,9 @@ describe('Transfer', () => {
         <Transfer dataSource={dataSource} pagination={{ showSizeChanger: true, simple: false }} />,
       );
 
-      fireEvent.mouseDown(container.querySelector('.ant-select')!);
-      fireEvent.click(container.querySelectorAll('.ant-select-item-option')[1]);
-      expect(container.querySelectorAll('.ant-transfer-list-content-item').length).toBe(20);
+      fireEvent.mouseDown(container.querySelector('.g-select')!);
+      fireEvent.click(container.querySelectorAll('.g-select-item-option')[1]);
+      expect(container.querySelectorAll('.g-transfer-list-content-item').length).toBe(20);
     });
 
     it('should be used first when pagination has pagesize', () => {
@@ -829,16 +828,16 @@ describe('Transfer', () => {
         />,
       );
 
-      fireEvent.mouseDown(container.querySelector('.ant-select')!);
-      fireEvent.click(container.querySelectorAll('.ant-select-item-option')[2]);
-      expect(container.querySelectorAll('.ant-transfer-list-content-item').length).toBe(20);
+      fireEvent.mouseDown(container.querySelector('.g-select')!);
+      fireEvent.click(container.querySelectorAll('.g-select-item-option')[2]);
+      expect(container.querySelectorAll('.g-transfer-list-content-item').length).toBe(20);
     });
   });
 
   it('remove by click icon', () => {
     const onChange = jest.fn();
     const { container } = render(<Transfer {...listCommonProps} onChange={onChange} oneWay />);
-    fireEvent.click(container.querySelectorAll('.ant-transfer-list-content-item-remove')[0]);
+    fireEvent.click(container.querySelectorAll('.g-transfer-list-content-item-remove')[0]);
     expect(onChange).toHaveBeenCalledWith([], 'left', ['b']);
   });
 
@@ -871,7 +870,7 @@ describe('Transfer', () => {
 
     const { container } = render(<App />);
 
-    fireEvent.click(container.querySelector('.ant-transfer-list-header input[type="checkbox"]')!);
+    fireEvent.click(container.querySelector('.g-transfer-list-header input[type="checkbox"]')!);
 
     expect(errSpy).not.toHaveBeenCalled();
 
@@ -935,7 +934,7 @@ describe('Transfer', () => {
     defaultCheckedKeys.forEach((item) => {
       expect(
         container
-          ?.querySelectorAll('.ant-transfer-list-content-item')
+          ?.querySelectorAll('.g-transfer-list-content-item')
           ?.item(Number(item))
           ?.querySelector('input[type="checkbox"]')!,
       ).toBeChecked();
@@ -953,7 +952,7 @@ describe('Transfer', () => {
         locale={locale}
       />,
     );
-    const searchInputs = container.querySelectorAll('.ant-transfer-list-search input');
+    const searchInputs = container.querySelectorAll('.g-transfer-list-search input');
     expect(searchInputs).toHaveLength(2);
     searchInputs.forEach((input) => {
       expect(input.getAttribute('placeholder')).toBe('Search placeholder');
@@ -963,7 +962,7 @@ describe('Transfer', () => {
 
   it('should be no class name for the selected state,when transfer is disabled', () => {
     const { container } = render(<Transfer {...listCommonProps} disabled />);
-    expect(container.querySelectorAll('.ant-transfer-list-content-item-checked')).toHaveLength(0);
+    expect(container.querySelectorAll('.g-transfer-list-content-item-checked')).toHaveLength(0);
   });
 
   describe('form disabled', () => {
@@ -976,7 +975,7 @@ describe('Transfer', () => {
         </Form>,
       );
 
-      expect(container.querySelector('.ant-transfer.ant-transfer-disabled')).toBeTruthy();
+      expect(container.querySelector('.g-transfer.g-transfer-disabled')).toBeTruthy();
     });
 
     it('set Transfer enabled when ConfigProvider componentDisabled is false', () => {
@@ -993,9 +992,9 @@ describe('Transfer', () => {
         </Form>,
       );
 
-      const transfers = container.querySelectorAll('.ant-transfer');
-      expect(transfers[0]).not.toHaveClass('ant-transfer-disabled');
-      expect(transfers[1]).toHaveClass('ant-transfer-disabled');
+      const transfers = container.querySelectorAll('.g-transfer');
+      expect(transfers[0]).not.toHaveClass('g-transfer-disabled');
+      expect(transfers[1]).toHaveClass('g-transfer-disabled');
     });
 
     it('prioritize using the disabled property of the Transfer component', () => {
@@ -1049,33 +1048,29 @@ describe('Transfer', () => {
         );
       };
       const { container } = render(<App />);
-      const transfer = container.querySelector('.ant-transfer');
-      const checkboxes = container.querySelectorAll('.ant-checkbox-input');
+      const transfer = container.querySelector('.g-transfer');
+      const checkboxes = container.querySelectorAll('.g-checkbox-input');
       const formCheck: HTMLInputElement = checkboxes[0] as HTMLInputElement;
       const transferCheck: HTMLInputElement = checkboxes[1] as HTMLInputElement;
 
       expect(formCheck.checked).toBe(true);
       expect(transferCheck.checked).toBe(true);
-      expect(transfer).toHaveClass('ant-transfer-disabled');
+      expect(transfer).toHaveClass('g-transfer-disabled');
 
       fireEvent.click(transferCheck);
       expect(formCheck.checked).toBe(true);
       expect(transferCheck.checked).toBe(false);
-      expect(container.querySelectorAll('.ant-transfer-list-content-item-disabled')).toHaveLength(
-        6,
-      );
+      expect(container.querySelectorAll('.g-transfer-list-content-item-disabled')).toHaveLength(6);
 
       fireEvent.click(formCheck);
       expect(formCheck.checked).toBe(false);
       expect(transferCheck.checked).toBe(false);
-      expect(container.querySelectorAll('.ant-transfer-list-content-item-disabled')).toHaveLength(
-        6,
-      );
+      expect(container.querySelectorAll('.g-transfer-list-content-item-disabled')).toHaveLength(6);
 
       fireEvent.click(transferCheck);
       expect(formCheck.checked).toBe(false);
       expect(transferCheck.checked).toBe(true);
-      expect(transfer).toHaveClass('ant-transfer-disabled');
+      expect(transfer).toHaveClass('g-transfer-disabled');
     });
   });
 });
@@ -1132,24 +1127,20 @@ describe('immutable data', () => {
     };
 
     const { container } = render(<App />);
-    fireEvent.click(container.querySelector('.ant-transfer-list-header input[type="checkbox"]')!);
-    fireEvent.click(container.querySelector('.ant-transfer-actions .ant-btn')!);
-    expect(container.querySelectorAll('.ant-transfer-section')[1]).toBeTruthy();
+    fireEvent.click(container.querySelector('.g-transfer-list-header input[type="checkbox"]')!);
+    fireEvent.click(container.querySelector('.g-transfer-actions .g-btn')!);
+    expect(container.querySelectorAll('.g-transfer-section')[1]).toBeTruthy();
     expect(
       container
-        .querySelectorAll('.ant-transfer-section')[1]
-        .querySelectorAll('.ant-transfer-list-content-item').length,
+        .querySelectorAll('.g-transfer-section')[1]
+        .querySelectorAll('.g-transfer-list-content-item').length,
     ).toBe(2);
 
     fireEvent.click(
-      container.querySelectorAll('.ant-transfer-list-header input[type="checkbox"]')![1],
+      container.querySelectorAll('.g-transfer-list-header input[type="checkbox"]')![1],
     );
-    expect(container.querySelectorAll('.ant-transfer-list-header-selected')[1]).toContainHTML(
-      '2/2',
-    );
-    fireEvent.click(container.querySelector('.ant-transfer-list-footer .ant-btn')!);
-    expect(container.querySelectorAll('.ant-transfer-list-header-selected')[1]).toContainHTML(
-      '1/1',
-    );
+    expect(container.querySelectorAll('.g-transfer-list-header-selected')[1]).toContainHTML('2/2');
+    fireEvent.click(container.querySelector('.g-transfer-list-footer .g-btn')!);
+    expect(container.querySelectorAll('.g-transfer-list-header-selected')[1]).toContainHTML('1/1');
   });
 });

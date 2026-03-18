@@ -15,7 +15,7 @@ describe('Image.Deprecated', () => {
   it('visible', () => {
     render(<Image preview={{ visible: true }} />);
 
-    expect(document.querySelector('.ant-image-preview')).toBeTruthy();
+    expect(document.querySelector('.g-image-preview')).toBeTruthy();
 
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: Image] `visible` is deprecated. Please use `open` instead.',
@@ -27,7 +27,7 @@ describe('Image.Deprecated', () => {
       const onVisibleChange = jest.fn();
       const { container } = render(<Image preview={{ onVisibleChange }} />);
 
-      fireEvent.click(container.querySelector('.ant-image')!);
+      fireEvent.click(container.querySelector('.g-image')!);
       expect(onVisibleChange).toHaveBeenCalledWith(true, false);
 
       expect(errSpy).toHaveBeenCalledWith(
@@ -39,7 +39,7 @@ describe('Image.Deprecated', () => {
       const onVisibleChange = jest.fn();
       render(<Image.PreviewGroup items={['']} preview={{ open: true, onVisibleChange }} />);
 
-      fireEvent.click(document.querySelector('.ant-image-preview-mask')!);
+      fireEvent.click(document.querySelector('.g-image-preview-mask')!);
       expect(onVisibleChange).toHaveBeenCalledWith(false, true, 0);
 
       expect(errSpy).toHaveBeenCalledWith(
@@ -51,7 +51,7 @@ describe('Image.Deprecated', () => {
   it('mask', () => {
     const { container } = render(<Image preview={{ mask: <div className="bamboo" /> }} />);
 
-    expect(container.querySelector('.ant-image .bamboo')).toBeTruthy();
+    expect(container.querySelector('.g-image .bamboo')).toBeTruthy();
 
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: Image] `mask` used as ReactNode is deprecated. Please use `cover` instead.',
@@ -61,7 +61,7 @@ describe('Image.Deprecated', () => {
   it('preview.rootClassName', () => {
     render(<Image preview={{ open: true, rootClassName: 'bamboo' }} />);
 
-    expect(document.querySelector('.ant-image-preview.bamboo')).toBeTruthy();
+    expect(document.querySelector('.g-image-preview.bamboo')).toBeTruthy();
 
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: Image] `rootClassName` is deprecated. Please use `classNames.root` instead.',

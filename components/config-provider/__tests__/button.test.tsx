@@ -36,7 +36,7 @@ describe('ConfigProvider.button', () => {
         <Button icon={<SearchOutlined />} />
       </ConfigProvider>,
     );
-    const item = container.querySelector<HTMLElement>('.ant-btn-icon');
+    const item = container.querySelector<HTMLElement>('.g-btn-icon');
     expect(item).toHaveStyle({ fontSize: '14px' });
   });
 
@@ -47,6 +47,6 @@ describe('ConfigProvider.button', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.ant-btn-icon')?.className.includes('custom-class')).toBe(true);
+    expect(container.querySelector('.g-btn-icon')?.className.includes('custom-class')).toBe(true);
   });
 });

@@ -67,7 +67,7 @@ describe('ConfigProvider.Locale', () => {
     };
     const wrapper = render(<App />);
     fireEvent.click(wrapper.container.querySelector('button')!);
-    expect($$('.ant-btn-primary')[0].textContent).toBe('OK');
+    expect($$('.g-btn-primary')[0].textContent).toBe('OK');
   });
 
   // https://github.com/ant-design/ant-design/issues/31592
@@ -79,12 +79,12 @@ describe('ConfigProvider.Locale', () => {
       </ConfigProvider>,
     );
 
-    const datepicke = wrapper.container.querySelector<HTMLInputElement>('.ant-picker-input input');
+    const datepicke = wrapper.container.querySelector<HTMLInputElement>('.g-picker-input input');
     expect(datepicke?.value).toBe('');
     expect(datepicke?.placeholder).toBe('请选择日期');
 
-    expect(wrapper.container.querySelector<HTMLElement>('.ant-pagination-item-1')).toHaveClass(
-      'ant-pagination-item-active',
+    expect(wrapper.container.querySelector<HTMLElement>('.g-pagination-item-1')).toHaveClass(
+      'g-pagination-item-active',
     );
 
     openPicker(wrapper);
@@ -92,7 +92,7 @@ describe('ConfigProvider.Locale', () => {
     closePicker(wrapper);
 
     expect(
-      wrapper.container.querySelector<HTMLInputElement>('.ant-picker-input input')?.value,
+      wrapper.container.querySelector<HTMLInputElement>('.g-picker-input input')?.value,
     ).not.toBe('');
 
     wrapper.rerender(
@@ -102,16 +102,16 @@ describe('ConfigProvider.Locale', () => {
       </ConfigProvider>,
     );
 
-    fireEvent.click(wrapper.container.querySelector('.ant-pagination-item-3')!);
+    fireEvent.click(wrapper.container.querySelector('.g-pagination-item-3')!);
 
-    const datepicker = wrapper.container.querySelector<HTMLInputElement>('.ant-picker-input input');
+    const datepicker = wrapper.container.querySelector<HTMLInputElement>('.g-picker-input input');
 
     expect(datepicker?.placeholder).not.toBe('请选择日期');
     expect(datepicker?.value).not.toBe('');
     expect(datepicker?.value).toContain('-10');
 
-    expect(wrapper.container.querySelector('.ant-pagination-item-3')).toHaveClass(
-      'ant-pagination-item-active',
+    expect(wrapper.container.querySelector('.g-pagination-item-3')).toHaveClass(
+      'g-pagination-item-active',
     );
   });
 

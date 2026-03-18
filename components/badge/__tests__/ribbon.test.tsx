@@ -16,14 +16,14 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(wrapperStart.querySelectorAll('.ant-ribbon-placement-start').length).toEqual(1);
+      expect(wrapperStart.querySelectorAll('.g-ribbon-placement-start').length).toEqual(1);
 
       const { container: wrapperEnd } = render(
         <Badge.Ribbon placement="end">
           <div />
         </Badge.Ribbon>,
       );
-      expect(wrapperEnd.querySelectorAll('.ant-ribbon-placement-end').length).toEqual(1);
+      expect(wrapperEnd.querySelectorAll('.g-ribbon-placement-end').length).toEqual(1);
     });
   });
 
@@ -34,7 +34,7 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(container.querySelectorAll('.ant-ribbon-color-green').length).toEqual(1);
+      expect(container.querySelectorAll('.g-ribbon-color-green').length).toEqual(1);
     });
     it('works with custom color', () => {
       const { container, rerender } = render(
@@ -42,10 +42,10 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(container.querySelector<HTMLElement>('.ant-ribbon')).toHaveStyle({
+      expect(container.querySelector<HTMLElement>('.g-ribbon')).toHaveStyle({
         backgroundColor: 'rgb(136, 136, 136)',
       });
-      expect(container.querySelector<HTMLElement>('.ant-ribbon-corner')).toHaveStyle({
+      expect(container.querySelector<HTMLElement>('.g-ribbon-corner')).toHaveStyle({
         color: 'rgb(136, 136, 136)',
       });
       rerender(
@@ -53,10 +53,10 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(container.querySelector<HTMLElement>('.ant-ribbon')).toHaveStyle({
+      expect(container.querySelector<HTMLElement>('.g-ribbon')).toHaveStyle({
         backgroundColor: 'rgb(136, 136, 136)',
       });
-      expect(container.querySelector<HTMLElement>('.ant-ribbon-corner')).toHaveStyle({
+      expect(container.querySelector<HTMLElement>('.g-ribbon-corner')).toHaveStyle({
         color: 'rgb(136, 136, 136)',
       });
     });
@@ -69,7 +69,7 @@ describe('Ribbon', () => {
           <div />
         </Badge.Ribbon>,
       );
-      expect(container.querySelector('.ant-ribbon')?.textContent).toEqual('cool');
+      expect(container.querySelector('.g-ribbon')?.textContent).toEqual('cool');
     });
     it('works with element', () => {
       const { container } = render(
@@ -99,9 +99,9 @@ describe('Ribbon', () => {
       </Badge.Ribbon>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-ribbon-wrapper');
-    const indicatorElement = container.querySelector<HTMLElement>('.ant-ribbon');
-    const contentElement = container.querySelector<HTMLElement>('.ant-ribbon-content');
+    const rootElement = container.querySelector<HTMLElement>('.g-ribbon-wrapper');
+    const indicatorElement = container.querySelector<HTMLElement>('.g-ribbon');
+    const contentElement = container.querySelector<HTMLElement>('.g-ribbon-content');
 
     // check classNames
     expect(rootElement).toHaveClass(customClassNames.root);
@@ -138,9 +138,9 @@ describe('Ribbon', () => {
       </Badge.Ribbon>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-ribbon-wrapper');
-    const indicatorElement = container.querySelector<HTMLElement>('.ant-ribbon');
-    const contentElement = container.querySelector<HTMLElement>('.ant-ribbon-content');
+    const rootElement = container.querySelector<HTMLElement>('.g-ribbon-wrapper');
+    const indicatorElement = container.querySelector<HTMLElement>('.g-ribbon');
+    const contentElement = container.querySelector<HTMLElement>('.g-ribbon-content');
 
     // check function-based classNames
     expect(rootElement).toHaveClass('ribbon-start');

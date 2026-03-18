@@ -2,37 +2,37 @@
 
 exports[`Cascader can be selected 1`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-placement-bottomLeft"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-placement-bottomLeft"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
 >
   <div>
     <div
-      class="ant-cascader-menus"
+      class="g-cascader-menus"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
           aria-label="Zhejiang"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang"
           data-title="Zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -53,22 +53,22 @@ exports[`Cascader can be selected 1`] = `
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -89,29 +89,29 @@ exports[`Cascader can be selected 1`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
           aria-label="Hangzhou"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
           data-title="Hangzhou"
           role="menuitemcheckbox"
           title="Hangzhou"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Hangzhou
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -138,37 +138,37 @@ exports[`Cascader can be selected 1`] = `
 
 exports[`Cascader can be selected 2`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-placement-bottomLeft"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-placement-bottomLeft"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
 >
   <div>
     <div
-      class="ant-cascader-menus"
+      class="g-cascader-menus"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
           aria-label="Zhejiang"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang"
           data-title="Zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -189,22 +189,22 @@ exports[`Cascader can be selected 2`] = `
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -225,29 +225,29 @@ exports[`Cascader can be selected 2`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
           aria-label="Hangzhou"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
           data-title="Hangzhou"
           role="menuitemcheckbox"
           title="Hangzhou"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Hangzhou
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -268,18 +268,18 @@ exports[`Cascader can be selected 2`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item"
+          class="g-cascader-menu-item"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"
           role="menuitemcheckbox"
           title="West Lake"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             West Lake
           </div>
@@ -292,37 +292,37 @@ exports[`Cascader can be selected 2`] = `
 
 exports[`Cascader can be selected 3`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-placement-bottomLeft"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-placement-bottomLeft"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
 >
   <div>
     <div
-      class="ant-cascader-menus"
+      class="g-cascader-menus"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
           aria-label="Zhejiang"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang"
           data-title="Zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -343,22 +343,22 @@ exports[`Cascader can be selected 3`] = `
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -379,29 +379,29 @@ exports[`Cascader can be selected 3`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
           aria-label="Hangzhou"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
           data-title="Hangzhou"
           role="menuitemcheckbox"
           title="Hangzhou"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Hangzhou
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -422,18 +422,18 @@ exports[`Cascader can be selected 3`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="true"
-          class="ant-cascader-menu-item ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-active"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"
           role="menuitemcheckbox"
           title="West Lake"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             West Lake
           </div>
@@ -446,35 +446,35 @@ exports[`Cascader can be selected 3`] = `
 
 exports[`Cascader can be selected in RTL direction 1`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-cascader-dropdown-rtl ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-placement-bottomRight"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-cascader-dropdown-rtl g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-placement-bottomRight"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
 >
   <div>
     <div
-      class="ant-cascader-menus ant-cascader-rtl"
+      class="g-cascader-menus g-cascader-rtl"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -495,22 +495,22 @@ exports[`Cascader can be selected in RTL direction 1`] = `
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -531,27 +531,27 @@ exports[`Cascader can be selected in RTL direction 1`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="true"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
           role="menuitemcheckbox"
           title="Hangzhou"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Hangzhou
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -578,35 +578,35 @@ exports[`Cascader can be selected in RTL direction 1`] = `
 
 exports[`Cascader can be selected in RTL direction 2`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-cascader-dropdown-rtl ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-placement-bottomRight"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-cascader-dropdown-rtl g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-placement-bottomRight"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
 >
   <div>
     <div
-      class="ant-cascader-menus ant-cascader-rtl"
+      class="g-cascader-menus g-cascader-rtl"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -627,22 +627,22 @@ exports[`Cascader can be selected in RTL direction 2`] = `
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -663,27 +663,27 @@ exports[`Cascader can be selected in RTL direction 2`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="true"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
           role="menuitemcheckbox"
           title="Hangzhou"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Hangzhou
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -704,18 +704,18 @@ exports[`Cascader can be selected in RTL direction 2`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item"
+          class="g-cascader-menu-item"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"
           role="menuitemcheckbox"
           title="West Lake"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             West Lake
           </div>
@@ -728,35 +728,35 @@ exports[`Cascader can be selected in RTL direction 2`] = `
 
 exports[`Cascader can be selected in RTL direction 3`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-cascader-dropdown-rtl ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-placement-bottomRight"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-cascader-dropdown-rtl g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-placement-bottomRight"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
 >
   <div>
     <div
-      class="ant-cascader-menus ant-cascader-rtl"
+      class="g-cascader-menus g-cascader-rtl"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -777,22 +777,22 @@ exports[`Cascader can be selected in RTL direction 3`] = `
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -813,27 +813,27 @@ exports[`Cascader can be selected in RTL direction 3`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
           role="menuitemcheckbox"
           title="Hangzhou"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Hangzhou
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="left"
-              class="anticon anticon-left"
+              class="gicon gicon-left"
               role="img"
             >
               <svg
@@ -854,18 +854,18 @@ exports[`Cascader can be selected in RTL direction 3`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="true"
-          class="ant-cascader-menu-item ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-active"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"
           role="menuitemcheckbox"
           title="West Lake"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             West Lake
           </div>
@@ -878,22 +878,22 @@ exports[`Cascader can be selected in RTL direction 3`] = `
 
 exports[`Cascader legacy props should support showCheckedStrategy child 1`] = `
 <div
-  class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-root ant-select-focused ant-select-multiple ant-select-show-arrow ant-select-open"
+  class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-root g-select-focused g-select-multiple g-select-show-arrow g-select-open"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item ant-select-content-item-prefix"
+      class="g-select-content-item g-select-content-item-prefix"
       style="opacity: 1;"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity: 1;"
     >
       <input
@@ -903,7 +903,7 @@ exports[`Cascader legacy props should support showCheckedStrategy child 1`] = `
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -914,11 +914,11 @@ exports[`Cascader legacy props should support showCheckedStrategy child 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -941,22 +941,22 @@ exports[`Cascader legacy props should support showCheckedStrategy child 1`] = `
 
 exports[`Cascader legacy props should support showCheckedStrategy parent 1`] = `
 <div
-  class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-root ant-select-focused ant-select-multiple ant-select-show-arrow ant-select-open"
+  class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-root g-select-focused g-select-multiple g-select-show-arrow g-select-open"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item ant-select-content-item-prefix"
+      class="g-select-content-item g-select-content-item-prefix"
       style="opacity: 1;"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity: 1;"
     >
       <input
@@ -966,7 +966,7 @@ exports[`Cascader legacy props should support showCheckedStrategy parent 1`] = `
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -977,11 +977,11 @@ exports[`Cascader legacy props should support showCheckedStrategy parent 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1004,37 +1004,37 @@ exports[`Cascader legacy props should support showCheckedStrategy parent 1`] = `
 
 exports[`Cascader popup correctly with defaultValue 1`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-placement-bottomLeft"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-placement-bottomLeft"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
 >
   <div>
     <div
-      class="ant-cascader-menus"
+      class="g-cascader-menus"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
           aria-label="Zhejiang"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang"
           data-title="Zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -1055,22 +1055,22 @@ exports[`Cascader popup correctly with defaultValue 1`] = `
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -1091,29 +1091,29 @@ exports[`Cascader popup correctly with defaultValue 1`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="true"
           aria-label="Hangzhou"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
           data-title="Hangzhou"
           role="menuitemcheckbox"
           title="Hangzhou"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Hangzhou
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -1134,18 +1134,18 @@ exports[`Cascader popup correctly with defaultValue 1`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item"
+          class="g-cascader-menu-item"
           data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"
           role="menuitemcheckbox"
           title="West Lake"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             West Lake
           </div>
@@ -1158,10 +1158,10 @@ exports[`Cascader popup correctly with defaultValue 1`] = `
 
 exports[`Cascader popup correctly with defaultValue RTL 1`] = `
 <div
-  class="ant-select ant-cascader ant-select-rtl ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-root ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-open"
+  class="g-select g-cascader g-select-rtl g-select-outlined g-select-css-var g-cascader-css-var css-var-root g-select-single g-select-allow-clear g-select-show-arrow g-select-open"
 >
   <div
-    class="ant-select-content ant-select-content-has-value"
+    class="g-select-content g-select-content-has-value"
     title="Zhejiang / Hangzhou"
   >
     Zhejiang / Hangzhou
@@ -1172,7 +1172,7 @@ exports[`Cascader popup correctly with defaultValue RTL 1`] = `
       aria-haspopup="listbox"
       aria-owns="test-id_list"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -1181,11 +1181,11 @@ exports[`Cascader popup correctly with defaultValue RTL 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1204,11 +1204,11 @@ exports[`Cascader popup correctly with defaultValue RTL 1`] = `
     </span>
   </div>
   <div
-    class="ant-select-clear"
+    class="g-select-clear"
   >
     <span
       aria-label="close-circle"
-      class="anticon anticon-close-circle"
+      class="gicon gicon-close-circle"
       role="img"
     >
       <svg
@@ -1232,13 +1232,13 @@ exports[`Cascader popup correctly with defaultValue RTL 1`] = `
 
 exports[`Cascader rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-select ant-cascader ant-select-rtl ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-root ant-select-single ant-select-show-arrow"
+  class="g-select g-cascader g-select-rtl g-select-outlined g-select-css-var g-cascader-css-var css-var-root g-select-single g-select-show-arrow"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility: visible;"
     />
     <input
@@ -1246,7 +1246,7 @@ exports[`Cascader rtl render component should be rendered correctly in RTL direc
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -1255,11 +1255,11 @@ exports[`Cascader rtl render component should be rendered correctly in RTL direc
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1280,32 +1280,32 @@ exports[`Cascader rtl render component should be rendered correctly in RTL direc
 </div>
 `;
 
-exports[`Cascader should highlight keyword and filter when search in Cascader 1`] = `"<div><div class="ant-cascader-menus"><ul class="ant-cascader-menu" role="menu"><li class="ant-cascader-menu-item" role="menuitemcheckbox" aria-checked="false" data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"><div class="ant-cascader-menu-item-content"><span class="ant-cascader-menu-item-keyword">Z</span>hejiang / Hang<span class="ant-cascader-menu-item-keyword">z</span>hou / West Lake</div></li><li class="ant-cascader-menu-item" role="menuitemcheckbox" aria-checked="false" data-path-key="jiangsu__RC_CASCADER_SPLIT__nanjing__RC_CASCADER_SPLIT__zhonghuamen"><div class="ant-cascader-menu-item-content">Jiangsu / Nanjing / <span class="ant-cascader-menu-item-keyword">Z</span>hong Hua Men</div></li></ul></div></div>"`;
+exports[`Cascader should highlight keyword and filter when search in Cascader 1`] = `"<div><div class="g-cascader-menus"><ul class="g-cascader-menu" role="menu"><li class="g-cascader-menu-item" role="menuitemcheckbox" aria-checked="false" data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"><div class="g-cascader-menu-item-content"><span class="g-cascader-menu-item-keyword">Z</span>hejiang / Hang<span class="g-cascader-menu-item-keyword">z</span>hou / West Lake</div></li><li class="g-cascader-menu-item" role="menuitemcheckbox" aria-checked="false" data-path-key="jiangsu__RC_CASCADER_SPLIT__nanjing__RC_CASCADER_SPLIT__zhonghuamen"><div class="g-cascader-menu-item-content">Jiangsu / Nanjing / <span class="g-cascader-menu-item-keyword">Z</span>hong Hua Men</div></li></ul></div></div>"`;
 
-exports[`Cascader should highlight keyword and filter when search in Cascader with same field name of label and value 1`] = `"<div><div class="ant-cascader-menus"><ul class="ant-cascader-menu" role="menu"><li class="ant-cascader-menu-item" role="menuitemcheckbox" aria-checked="false" data-path-key="Zhejiang__RC_CASCADER_SPLIT__Hangzhou__RC_CASCADER_SPLIT__West Lake"><div class="ant-cascader-menu-item-content"><span class="ant-cascader-menu-item-keyword">Z</span>hejiang / Hang<span class="ant-cascader-menu-item-keyword">z</span>hou / West Lake</div></li><li class="ant-cascader-menu-item ant-cascader-menu-item-disabled" role="menuitemcheckbox" aria-checked="false" data-path-key="Zhejiang__RC_CASCADER_SPLIT__Hangzhou__RC_CASCADER_SPLIT__Xia Sha"><div class="ant-cascader-menu-item-content"><span class="ant-cascader-menu-item-keyword">Z</span>hejiang / Hang<span class="ant-cascader-menu-item-keyword">z</span>hou / Xia Sha</div></li></ul></div></div>"`;
+exports[`Cascader should highlight keyword and filter when search in Cascader with same field name of label and value 1`] = `"<div><div class="g-cascader-menus"><ul class="g-cascader-menu" role="menu"><li class="g-cascader-menu-item" role="menuitemcheckbox" aria-checked="false" data-path-key="Zhejiang__RC_CASCADER_SPLIT__Hangzhou__RC_CASCADER_SPLIT__West Lake"><div class="g-cascader-menu-item-content"><span class="g-cascader-menu-item-keyword">Z</span>hejiang / Hang<span class="g-cascader-menu-item-keyword">z</span>hou / West Lake</div></li><li class="g-cascader-menu-item g-cascader-menu-item-disabled" role="menuitemcheckbox" aria-checked="false" data-path-key="Zhejiang__RC_CASCADER_SPLIT__Hangzhou__RC_CASCADER_SPLIT__Xia Sha"><div class="g-cascader-menu-item-content"><span class="g-cascader-menu-item-keyword">Z</span>hejiang / Hang<span class="g-cascader-menu-item-keyword">z</span>hou / Xia Sha</div></li></ul></div></div>"`;
 
 exports[`Cascader should render custom notFoundContent when search returns no results 1`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
 >
   <div>
     <div
-      class="ant-cascader-menus ant-cascader-menu-empty"
+      class="g-cascader-menus g-cascader-menu-empty"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+          class="g-cascader-menu-item g-cascader-menu-item-disabled"
           data-path-key="__EMPTY__"
           role="menuitemcheckbox"
           title="no data"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             no data
           </div>
@@ -1318,31 +1318,31 @@ exports[`Cascader should render custom notFoundContent when search returns no re
 
 exports[`Cascader should render not found content 1`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
 >
   <div>
     <div
-      class="ant-cascader-menus ant-cascader-menu-empty"
+      class="g-cascader-menus g-cascader-menu-empty"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+          class="g-cascader-menu-item g-cascader-menu-item-disabled"
           data-path-key="__EMPTY__"
           role="menuitemcheckbox"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             <div
-              class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+              class="css-var-root g-empty g-empty-normal g-empty-small"
             >
               <div
-                class="ant-empty-image"
+                class="g-empty-image"
               >
                 <svg
                   height="41"
@@ -1381,7 +1381,7 @@ exports[`Cascader should render not found content 1`] = `
                 </svg>
               </div>
               <div
-                class="ant-empty-description"
+                class="g-empty-description"
               >
                 No data
               </div>
@@ -1396,31 +1396,31 @@ exports[`Cascader should render not found content 1`] = `
 
 exports[`Cascader should show not found content when options.length is 0 1`] = `
 <div
-  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-root ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+  class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-root g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
 >
   <div>
     <div
-      class="ant-cascader-menus ant-cascader-menu-empty"
+      class="g-cascader-menus g-cascader-menu-empty"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+          class="g-cascader-menu-item g-cascader-menu-item-disabled"
           data-path-key="__EMPTY__"
           role="menuitemcheckbox"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             <div
-              class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+              class="css-var-root g-empty g-empty-normal g-empty-small"
             >
               <div
-                class="ant-empty-image"
+                class="g-empty-image"
               >
                 <svg
                   height="41"
@@ -1459,7 +1459,7 @@ exports[`Cascader should show not found content when options.length is 0 1`] = `
                 </svg>
               </div>
               <div
-                class="ant-empty-description"
+                class="g-empty-description"
               >
                 No data
               </div>
@@ -1474,10 +1474,10 @@ exports[`Cascader should show not found content when options.length is 0 1`] = `
 
 exports[`Cascader support controlled mode 1`] = `
 <div
-  class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-root ant-select-single ant-select-allow-clear ant-select-show-arrow"
+  class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-root g-select-single g-select-allow-clear g-select-show-arrow"
 >
   <div
-    class="ant-select-content ant-select-content-has-value"
+    class="g-select-content g-select-content-has-value"
     title="Zhejiang / Hangzhou / West Lake"
   >
     Zhejiang / Hangzhou / West Lake
@@ -1486,7 +1486,7 @@ exports[`Cascader support controlled mode 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -1495,11 +1495,11 @@ exports[`Cascader support controlled mode 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1518,11 +1518,11 @@ exports[`Cascader support controlled mode 1`] = `
     </span>
   </div>
   <div
-    class="ant-select-clear"
+    class="g-select-clear"
   >
     <span
       aria-label="close-circle"
-      class="anticon anticon-close-circle"
+      class="gicon gicon-close-circle"
       role="img"
     >
       <svg

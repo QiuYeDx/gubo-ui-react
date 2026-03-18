@@ -107,9 +107,9 @@ describe('Radio', () => {
 
     const { container } = render(<Radio classNames={customClassNames}>Test</Radio>);
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-radio-wrapper');
-    const iconElement = container.querySelector<HTMLElement>('.ant-radio');
-    const labelElement = container.querySelector<HTMLElement>('.ant-radio-label');
+    const rootElement = container.querySelector<HTMLElement>('.g-radio-wrapper');
+    const iconElement = container.querySelector<HTMLElement>('.g-radio');
+    const labelElement = container.querySelector<HTMLElement>('.g-radio-label');
 
     expect(rootElement).toHaveClass('custom-root');
     expect(iconElement).toHaveClass('custom-icon');
@@ -125,9 +125,9 @@ describe('Radio', () => {
 
     const { container } = render(<Radio styles={customStyles}>Test</Radio>);
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-radio-wrapper');
-    const iconElement = container.querySelector<HTMLElement>('.ant-radio');
-    const labelElement = container.querySelector<HTMLElement>('.ant-radio-label');
+    const rootElement = container.querySelector<HTMLElement>('.g-radio-wrapper');
+    const iconElement = container.querySelector<HTMLElement>('.g-radio');
+    const labelElement = container.querySelector<HTMLElement>('.g-radio-label');
 
     expect(rootElement).toHaveStyle({ backgroundColor: customStyles.root.backgroundColor });
     expect(iconElement).toHaveStyle({ backgroundColor: customStyles.icon.backgroundColor });
@@ -153,9 +153,9 @@ describe('Radio', () => {
       </Radio>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-radio-wrapper');
-    const iconElement = container.querySelector<HTMLElement>('.ant-radio');
-    const labelElement = container.querySelector<HTMLElement>('.ant-radio-label');
+    const rootElement = container.querySelector<HTMLElement>('.g-radio-wrapper');
+    const iconElement = container.querySelector<HTMLElement>('.g-radio');
+    const labelElement = container.querySelector<HTMLElement>('.g-radio-label');
 
     // Test classNames
     expect(rootElement).toHaveClass('custom-root');

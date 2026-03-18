@@ -110,7 +110,7 @@ message.config({
 | duration | Time before auto-dismiss, in seconds | number | 3 |  |
 | getContainer | Return the mount node for Message, but still display at fullScreen | () => HTMLElement | () => document.body |  |
 | maxCount | Max message show, drop oldest if exceed limit | number | - |  |
-| prefixCls | The prefix className of message node | string | `ant-message` | 4.5.0 |
+| prefixCls | The prefix className of message node | string | `g-message` | 4.5.0 |
 | rtl | Whether to enable RTL mode | boolean | false |  |
 | top | Distance from top | string \| number | 8 |  |
 

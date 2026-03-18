@@ -56,11 +56,11 @@ const App: React.FC = () => {
         {uploadButton}
       </Upload>
       <Dragger disabled>
-        <p className="ant-upload-drag-icon">
+        <p className="g-upload-drag-icon">
           <InboxOutlined />
         </p>
-        <p className="ant-upload-text">Click or drag file to this area to upload</p>
-        <p className="ant-upload-hint">
+        <p className="g-upload-text">Click or drag file to this area to upload</p>
+        <p className="g-upload-hint">
           Support for a single or bulk upload. Strictly prohibited from uploading company data or
           other banned files.
         </p>

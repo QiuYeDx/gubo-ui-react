@@ -18,7 +18,7 @@ juejin_url: https://juejin.cn/post/7322352551088603163
 ```html
 <div>
   <style>
-    :where(.css-bAmBOo).ant-btn {
+    :where(.css-bAmBOo).g-btn {
       // ...
     }
   </style>
@@ -33,19 +33,19 @@ juejin_url: https://juejin.cn/post/7322352551088603163
 ```html
 <div>
   <style>
-    :where(.css-bAmBOo).ant-btn {
+    :where(.css-bAmBOo).g-btn {
       // ...
     }
   </style>
   <button className="ant-btn css-bAmBOo">Hello World 1</button>
   <style>
-    :where(.css-bAmBOo).ant-btn {
+    :where(.css-bAmBOo).g-btn {
       // ...
     }
   </style>
   <button className="ant-btn css-bAmBOo">Hello World 2</button>
   <style>
-    :where(.css-bAmBOo).ant-btn {
+    :where(.css-bAmBOo).g-btn {
       // ...
     }
   </style>

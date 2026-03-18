@@ -48,15 +48,15 @@ describe('Drawer.Semantic', () => {
       </Drawer>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-drawer');
-    const maskElement = container.querySelector<HTMLElement>('.ant-drawer-mask');
-    const headerElement = container.querySelector<HTMLElement>('.ant-drawer-header');
-    const titleElement = container.querySelector<HTMLElement>('.ant-drawer-title');
-    const extraElement = container.querySelector<HTMLElement>('.ant-drawer-extra');
-    const sectionElement = container.querySelector<HTMLElement>('.ant-drawer-section');
-    const bodyElement = container.querySelector<HTMLElement>('.ant-drawer-body');
-    const footerElement = container.querySelector<HTMLElement>('.ant-drawer-footer');
-    const closeElement = container.querySelector<HTMLElement>('.ant-drawer-close');
+    const rootElement = container.querySelector<HTMLElement>('.g-drawer');
+    const maskElement = container.querySelector<HTMLElement>('.g-drawer-mask');
+    const headerElement = container.querySelector<HTMLElement>('.g-drawer-header');
+    const titleElement = container.querySelector<HTMLElement>('.g-drawer-title');
+    const extraElement = container.querySelector<HTMLElement>('.g-drawer-extra');
+    const sectionElement = container.querySelector<HTMLElement>('.g-drawer-section');
+    const bodyElement = container.querySelector<HTMLElement>('.g-drawer-body');
+    const footerElement = container.querySelector<HTMLElement>('.g-drawer-footer');
+    const closeElement = container.querySelector<HTMLElement>('.g-drawer-close');
 
     // check classNames
     expect(rootElement).toHaveClass('custom-root');
@@ -150,15 +150,15 @@ describe('Drawer.Semantic', () => {
       </Drawer>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-drawer');
-    const maskElement = container.querySelector<HTMLElement>('.ant-drawer-mask');
-    const headerElement = container.querySelector<HTMLElement>('.ant-drawer-header');
-    const titleElement = container.querySelector<HTMLElement>('.ant-drawer-title');
-    const extraElement = container.querySelector<HTMLElement>('.ant-drawer-extra');
-    const sectionElement = container.querySelector<HTMLElement>('.ant-drawer-section');
-    const bodyElement = container.querySelector<HTMLElement>('.ant-drawer-body');
-    const footerElement = container.querySelector<HTMLElement>('.ant-drawer-footer');
-    const closeElement = container.querySelector<HTMLElement>('.ant-drawer-close');
+    const rootElement = container.querySelector<HTMLElement>('.g-drawer');
+    const maskElement = container.querySelector<HTMLElement>('.g-drawer-mask');
+    const headerElement = container.querySelector<HTMLElement>('.g-drawer-header');
+    const titleElement = container.querySelector<HTMLElement>('.g-drawer-title');
+    const extraElement = container.querySelector<HTMLElement>('.g-drawer-extra');
+    const sectionElement = container.querySelector<HTMLElement>('.g-drawer-section');
+    const bodyElement = container.querySelector<HTMLElement>('.g-drawer-body');
+    const footerElement = container.querySelector<HTMLElement>('.g-drawer-footer');
+    const closeElement = container.querySelector<HTMLElement>('.g-drawer-close');
 
     // check classNames
     expect(rootElement).toHaveClass('custom-root-default');

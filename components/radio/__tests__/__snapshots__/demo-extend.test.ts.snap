@@ -2,43 +2,43 @@
 
 exports[`renders components/radio/demo/badge.tsx extend context correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-solid css-var-test-id ant-radio-css-var"
+  class="g-radio-group g-radio-group-solid css-var-test-id g-radio-css-var"
   role="radiogroup"
 >
   <span
-    class="ant-badge css-var-test-id"
+    class="g-badge css-var-test-id"
   >
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="1"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Click Me
       </span>
     </label>
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="g-scroll-number g-badge-count"
       data-show="true"
       title="1"
     >
       <bdi>
         <span
-          class="ant-scroll-number-only"
+          class="g-scroll-number-only"
           style="transition: none;"
         >
           <span
-            class="ant-scroll-number-only-unit current"
+            class="g-scroll-number-only-unit current"
           >
             1
           </span>
@@ -47,39 +47,39 @@ exports[`renders components/radio/demo/badge.tsx extend context correctly 1`] = 
     </sup>
   </span>
   <span
-    class="ant-badge css-var-test-id"
+    class="g-badge css-var-test-id"
   >
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="2"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Not Me
       </span>
     </label>
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="g-scroll-number g-badge-count"
       data-show="true"
       title="2"
     >
       <bdi>
         <span
-          class="ant-scroll-number-only"
+          class="g-scroll-number-only"
           style="transition: none;"
         >
           <span
-            class="ant-scroll-number-only-unit current"
+            class="g-scroll-number-only-unit current"
           >
             2
           </span>
@@ -94,18 +94,18 @@ exports[`renders components/radio/demo/badge.tsx extend context correctly 2`] = 
 
 exports[`renders components/radio/demo/basic.tsx extend context correctly 1`] = `
 <label
-  class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+  class="g-radio-wrapper css-var-test-id g-radio-css-var"
 >
   <span
-    class="ant-radio ant-wave-target"
+    class="g-radio g-wave-target"
   >
     <input
-      class="ant-radio-input"
+      class="g-radio-input"
       type="radio"
     />
   </span>
   <span
-    class="ant-radio-label"
+    class="g-radio-label"
   >
     Radio
   </span>
@@ -116,133 +116,133 @@ exports[`renders components/radio/demo/basic.tsx extend context correctly 2`] = 
 
 exports[`renders components/radio/demo/component-token.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           type="radio"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Test
       </span>
     </label>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked ant-radio-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked g-radio-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked ant-radio-disabled"
+        class="g-radio g-wave-target g-radio-checked g-radio-disabled"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           disabled=""
           type="radio"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Disabled
       </span>
     </label>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+      class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
       role="radiogroup"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="g-radio-button g-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="a"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Hangzhou
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button"
+          class="g-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="b"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Shanghai
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button"
+          class="g-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="c"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Beijing
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button"
+          class="g-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="d"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Chengdu
         </span>
@@ -250,21 +250,21 @@ exports[`renders components/radio/demo/component-token.tsx extend context correc
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+      class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
       role="radiogroup"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper g-radio-button-wrapper-checked g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked ant-radio-button-disabled"
+          class="g-radio-button g-radio-button-checked g-radio-button-disabled"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             disabled=""
             name="test-id"
             type="radio"
@@ -272,19 +272,19 @@ exports[`renders components/radio/demo/component-token.tsx extend context correc
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Hangzhou
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button ant-radio-button-disabled"
+          class="g-radio-button g-radio-button-disabled"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             disabled=""
             name="test-id"
             type="radio"
@@ -292,19 +292,19 @@ exports[`renders components/radio/demo/component-token.tsx extend context correc
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Shanghai
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button ant-radio-button-disabled"
+          class="g-radio-button g-radio-button-disabled"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             disabled=""
             name="test-id"
             type="radio"
@@ -312,19 +312,19 @@ exports[`renders components/radio/demo/component-token.tsx extend context correc
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Beijing
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button ant-radio-button-disabled"
+          class="g-radio-button g-radio-button-disabled"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             disabled=""
             name="test-id"
             type="radio"
@@ -332,7 +332,7 @@ exports[`renders components/radio/demo/component-token.tsx extend context correc
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Chengdu
         </span>
@@ -340,85 +340,85 @@ exports[`renders components/radio/demo/component-token.tsx extend context correc
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-radio-group ant-radio-group-solid css-var-test-id ant-radio-css-var"
+      class="g-radio-group g-radio-group-solid css-var-test-id g-radio-css-var"
       role="radiogroup"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="g-radio-button g-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="a"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Hangzhou
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button"
+          class="g-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="b"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Shanghai
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button"
+          class="g-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="c"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Beijing
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button"
+          class="g-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="d"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Chengdu
         </span>
@@ -435,63 +435,63 @@ exports[`renders components/radio/demo/debug-group-width.tsx extend context corr
   style="width: 280px; border: 1px solid rgb(238, 238, 238); padding: 16px;"
 >
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Short
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="b"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Long label that may wrap in narrow container
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="c"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Medium
       </span>
@@ -504,19 +504,19 @@ exports[`renders components/radio/demo/debug-group-width.tsx extend context corr
 
 exports[`renders components/radio/demo/debug-upload.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id"
+      class="g-upload-wrapper css-var-test-id"
     >
       <div
-        class="ant-upload ant-upload-select"
+        class="g-upload g-upload-select"
       >
         <span
-          class="ant-upload"
+          class="g-upload"
         >
           <input
             accept=""
@@ -525,18 +525,18 @@ exports[`renders components/radio/demo/debug-upload.tsx extend context correctly
             type="file"
           />
           <label
-            class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+            class="g-radio-wrapper css-var-test-id g-radio-css-var"
           >
             <span
-              class="ant-radio ant-wave-target"
+              class="g-radio g-wave-target"
             >
               <input
-                class="ant-radio-input"
+                class="g-radio-input"
                 type="radio"
               />
             </span>
             <span
-              class="ant-radio-label"
+              class="g-radio-label"
             >
               Radio
             </span>
@@ -544,21 +544,21 @@ exports[`renders components/radio/demo/debug-upload.tsx extend context correctly
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-text"
+        class="g-upload-list g-upload-list-text"
       />
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id"
+      class="g-upload-wrapper css-var-test-id"
     >
       <div
-        class="ant-upload ant-upload-select"
+        class="g-upload g-upload-select"
       >
         <span
-          class="ant-upload"
+          class="g-upload"
         >
           <input
             accept=""
@@ -567,18 +567,18 @@ exports[`renders components/radio/demo/debug-upload.tsx extend context correctly
             type="file"
           />
           <label
-            class="ant-checkbox-wrapper css-var-test-id ant-checkbox-css-var"
+            class="g-checkbox-wrapper css-var-test-id g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target"
+              class="g-checkbox g-wave-target"
             >
               <input
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 type="checkbox"
               />
             </span>
             <span
-              class="ant-checkbox-label"
+              class="g-checkbox-label"
             >
               Checkbox
             </span>
@@ -586,7 +586,7 @@ exports[`renders components/radio/demo/debug-upload.tsx extend context correctly
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-text"
+        class="g-upload-list g-upload-list-text"
       />
     </span>
   </div>
@@ -598,45 +598,45 @@ exports[`renders components/radio/demo/debug-upload.tsx extend context correctly
 exports[`renders components/radio/demo/disabled.tsx extend context correctly 1`] = `
 Array [
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-disabled css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper g-radio-wrapper-disabled css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target ant-radio-disabled"
+      class="g-radio g-wave-target g-radio-disabled"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         disabled=""
         type="radio"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       Disabled
     </span>
   </label>,
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-disabled css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper g-radio-wrapper-disabled css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target ant-radio-checked ant-radio-disabled"
+      class="g-radio g-wave-target g-radio-checked g-radio-disabled"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="g-radio-input"
         disabled=""
         type="radio"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       Disabled
     </span>
   </label>,
   <br />,
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     style="margin-top: 16px;"
     type="button"
   >
@@ -651,122 +651,122 @@ exports[`renders components/radio/demo/disabled.tsx extend context correctly 2`]
 
 exports[`renders components/radio/demo/radiobutton.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="b"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="c"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Beijing
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="d"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Chengdu
       </span>
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="g-radio-button g-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -774,63 +774,63 @@ exports[`renders components/radio/demo/radiobutton.tsx extend context correctly 
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="c"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Beijing
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="d"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Chengdu
       </span>
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked ant-radio-button-disabled"
+        class="g-radio-button g-radio-button-checked g-radio-button-disabled"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -838,19 +838,19 @@ exports[`renders components/radio/demo/radiobutton.tsx extend context correctly 
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="g-radio-button g-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -858,19 +858,19 @@ exports[`renders components/radio/demo/radiobutton.tsx extend context correctly 
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="g-radio-button g-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -878,19 +878,19 @@ exports[`renders components/radio/demo/radiobutton.tsx extend context correctly 
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Beijing
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="g-radio-button g-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -898,7 +898,7 @@ exports[`renders components/radio/demo/radiobutton.tsx extend context correctly 
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Chengdu
       </span>
@@ -911,121 +911,121 @@ exports[`renders components/radio/demo/radiobutton.tsx extend context correctly 
 
 exports[`renders components/radio/demo/radiobutton-solid.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-radio-group ant-radio-group-solid css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-solid css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="b"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="c"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Beijing
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="d"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Chengdu
       </span>
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-solid css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-solid css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="g-radio-button g-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -1033,46 +1033,46 @@ exports[`renders components/radio/demo/radiobutton-solid.tsx extend context corr
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="c"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Beijing
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="d"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Chengdu
       </span>
@@ -1085,32 +1085,32 @@ exports[`renders components/radio/demo/radiobutton-solid.tsx extend context corr
 
 exports[`renders components/radio/demo/radiogroup.tsx extend context correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+  class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
   role="radiogroup"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked option-1 css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper g-radio-wrapper-checked option-1 css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target ant-radio-checked"
+      class="g-radio g-wave-target g-radio-checked"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="g-radio-input"
         name="test-id"
         type="radio"
         value="1"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center ant-flex-gap-small ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center g-flex-gap-small g-flex-vertical"
       >
         <span
           aria-label="line-chart"
-          class="anticon anticon-line-chart"
+          class="gicon gicon-line-chart"
           role="img"
           style="font-size: 18px;"
         >
@@ -1133,27 +1133,27 @@ exports[`renders components/radio/demo/radiogroup.tsx extend context correctly 1
     </span>
   </label>
   <label
-    class="ant-radio-wrapper option-2 css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper option-2 css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="test-id"
         type="radio"
         value="2"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center ant-flex-gap-small ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center g-flex-gap-small g-flex-vertical"
       >
         <span
           aria-label="dot-chart"
-          class="anticon anticon-dot-chart"
+          class="gicon gicon-dot-chart"
           role="img"
           style="font-size: 18px;"
         >
@@ -1176,27 +1176,27 @@ exports[`renders components/radio/demo/radiogroup.tsx extend context correctly 1
     </span>
   </label>
   <label
-    class="ant-radio-wrapper option-3 css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper option-3 css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="test-id"
         type="radio"
         value="3"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center ant-flex-gap-small ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center g-flex-gap-small g-flex-vertical"
       >
         <span
           aria-label="bar-chart"
-          class="anticon anticon-bar-chart"
+          class="gicon gicon-bar-chart"
           role="img"
           style="font-size: 18px;"
         >
@@ -1219,27 +1219,27 @@ exports[`renders components/radio/demo/radiogroup.tsx extend context correctly 1
     </span>
   </label>
   <label
-    class="ant-radio-wrapper option-4 css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper option-4 css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="test-id"
         type="radio"
         value="4"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center ant-flex-gap-small ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center g-flex-gap-small g-flex-vertical"
       >
         <span
           aria-label="pie-chart"
-          class="anticon anticon-pie-chart"
+          class="gicon gicon-pie-chart"
           role="img"
           style="font-size: 18px;"
         >
@@ -1268,192 +1268,192 @@ exports[`renders components/radio/demo/radiogroup.tsx extend context correctly 2
 
 exports[`renders components/radio/demo/radiogroup-block.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-radio-group ant-radio-group-outline ant-radio-group-block css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline g-radio-group-block css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked ant-radio-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked g-radio-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="Apple"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Apple
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="Pear"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Pear
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="Orange"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Orange
       </span>
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-solid ant-radio-group-block css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-solid g-radio-group-block css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked g-radio-button-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Apple"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Apple
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Pear"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Pear
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Orange"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Orange
       </span>
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-outline ant-radio-group-block css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline g-radio-group-block css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Apple"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Apple
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked g-radio-button-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Pear"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Pear
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-block css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-block css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Orange"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Orange
       </span>
@@ -1466,86 +1466,86 @@ exports[`renders components/radio/demo/radiogroup-block.tsx extend context corre
 
 exports[`renders components/radio/demo/radiogroup-more.tsx extend context correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var ant-radio-group-vertical"
+  class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var g-radio-group-vertical"
   role="radiogroup"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     style="height: 32px; line-height: 32px;"
   >
     <span
-      class="ant-radio ant-wave-target ant-radio-checked"
+      class="g-radio g-wave-target g-radio-checked"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="g-radio-input"
         name="test-id"
         type="radio"
         value="1"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       Option A
     </span>
   </label>
   <label
-    class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper css-var-test-id g-radio-css-var"
     style="height: 32px; line-height: 32px;"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="test-id"
         type="radio"
         value="2"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       Option B
     </span>
   </label>
   <label
-    class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper css-var-test-id g-radio-css-var"
     style="height: 32px; line-height: 32px;"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="test-id"
         type="radio"
         value="3"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       Option C
     </span>
   </label>
   <label
-    class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper css-var-test-id g-radio-css-var"
     style="height: 32px; line-height: 32px;"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="test-id"
         type="radio"
         value="4"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       More...
     </span>
@@ -1558,63 +1558,63 @@ exports[`renders components/radio/demo/radiogroup-more.tsx extend context correc
 exports[`renders components/radio/demo/radiogroup-options.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="Apple"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Apple
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="Pear"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Pear
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="Orange"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Orange
       </span>
@@ -1622,56 +1622,56 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked label-1 css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked label-1 css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="Apple"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Apple
       </span>
     </label>
     <label
-      class="ant-radio-wrapper label-2 css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper label-2 css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="Pear"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Pear
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-disabled label-3 css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-disabled label-3 css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-disabled"
+        class="g-radio g-wave-target g-radio-disabled"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -1679,7 +1679,7 @@ Array [
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         Orange
       </span>
@@ -1688,64 +1688,64 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked label-1 css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked label-1 css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Apple"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Apple
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper label-2 css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper label-2 css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Pear"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Pear
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper label-3 css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper label-3 css-var-test-id g-radio-css-var"
       title="Orange"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Orange"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Orange
       </span>
@@ -1754,56 +1754,56 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-radio-group ant-radio-group-solid css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-solid css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked label-1 css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked label-1 css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Apple"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Apple
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper label-2 css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper label-2 css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="Pear"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Pear
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled label-3 css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-disabled label-3 css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-disabled"
+        class="g-radio-button g-radio-button-disabled"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -1811,7 +1811,7 @@ Array [
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Orange
       </span>
@@ -1824,82 +1824,82 @@ exports[`renders components/radio/demo/radiogroup-options.tsx extend context cor
 
 exports[`renders components/radio/demo/radiogroup-with-name.tsx extend context correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+  class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
   role="radiogroup"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target ant-radio-checked"
+      class="g-radio g-wave-target g-radio-checked"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="g-radio-input"
         name="radiogroup"
         type="radio"
         value="1"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       A
     </span>
   </label>
   <label
-    class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="radiogroup"
         type="radio"
         value="2"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       B
     </span>
   </label>
   <label
-    class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="radiogroup"
         type="radio"
         value="3"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       C
     </span>
   </label>
   <label
-    class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target"
+      class="g-radio g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="radiogroup"
         type="radio"
         value="4"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
     >
       D
     </span>
@@ -1911,249 +1911,249 @@ exports[`renders components/radio/demo/radiogroup-with-name.tsx extend context c
 
 exports[`renders components/radio/demo/size.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-radio-group ant-radio-group-outline ant-radio-group-large css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline g-radio-group-large css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="b"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="c"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Beijing
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="d"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Chengdu
       </span>
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="b"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="c"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Beijing
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="d"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Chengdu
       </span>
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-outline ant-radio-group-small css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline g-radio-group-small css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="a"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Hangzhou
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="b"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Shanghai
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="c"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Beijing
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="d"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Chengdu
       </span>
@@ -2166,43 +2166,43 @@ exports[`renders components/radio/demo/size.tsx extend context correctly 2`] = `
 
 exports[`renders components/radio/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio ant-wave-target ant-radio-checked"
+      class="g-radio g-wave-target g-radio-checked"
       style="border-radius: 6px;"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="g-radio-input"
         name="style-class"
         type="radio"
       />
     </span>
     <span
-      class="ant-radio-label"
+      class="g-radio-label"
       style="color: blue;"
     >
       Object styles
     </span>
   </label>
   <label
-    class="ant-radio-wrapper acss-1q9j8js css-var-test-id ant-radio-css-var"
+    class="g-radio-wrapper acss-1q9j8js css-var-test-id g-radio-css-var"
   >
     <span
-      class="ant-radio acss-1sy50lm ant-wave-target"
+      class="g-radio acss-1sy50lm g-wave-target"
     >
       <input
-        class="ant-radio-input"
+        class="g-radio-input"
         name="style-class"
         type="radio"
       />
     </span>
     <span
-      class="ant-radio-label acss-eesh8g"
+      class="g-radio-label acss-eesh8g"
     >
       Function classNames
     </span>
@@ -2215,82 +2215,82 @@ exports[`renders components/radio/demo/style-class.tsx extend context correctly 
 exports[`renders components/radio/demo/wireframe.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked"
+        class="g-radio g-wave-target g-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="1"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         A
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="2"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         B
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="3"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         C
       </span>
     </label>
     <label
-      class="ant-radio-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target"
+        class="g-radio g-wave-target"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           name="test-id"
           type="radio"
           value="4"
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         D
       </span>
@@ -2298,18 +2298,18 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked ant-radio-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-checked g-radio-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-checked ant-radio-disabled"
+        class="g-radio g-wave-target g-radio-checked g-radio-disabled"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="g-radio-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -2317,19 +2317,19 @@ Array [
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         A
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-disabled"
+        class="g-radio g-wave-target g-radio-disabled"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -2337,19 +2337,19 @@ Array [
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         B
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-disabled"
+        class="g-radio g-wave-target g-radio-disabled"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -2357,19 +2357,19 @@ Array [
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         C
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-disabled css-var-test-id ant-radio-css-var"
+      class="g-radio-wrapper g-radio-wrapper-disabled css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio ant-wave-target ant-radio-disabled"
+        class="g-radio g-wave-target g-radio-disabled"
       >
         <input
-          class="ant-radio-input"
+          class="g-radio-input"
           disabled=""
           name="test-id"
           type="radio"
@@ -2377,7 +2377,7 @@ Array [
         />
       </span>
       <span
-        class="ant-radio-label"
+        class="g-radio-label"
       >
         D
       </span>

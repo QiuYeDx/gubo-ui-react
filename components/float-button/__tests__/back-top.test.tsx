@@ -28,7 +28,7 @@ describe('BackTop', () => {
     window.scrollTo(0, 400);
     await waitFakeTimer();
     expect(document.documentElement.scrollTop).toBe(400);
-    fireEvent.click(container.querySelector<HTMLButtonElement>('.ant-float-btn')!);
+    fireEvent.click(container.querySelector<HTMLButtonElement>('.g-float-btn')!);
     await waitFakeTimer();
     expect(document.documentElement.scrollTop).toBe(0);
     scrollToSpy.mockRestore();
@@ -37,7 +37,7 @@ describe('BackTop', () => {
   it('support onClick', () => {
     const onClick = jest.fn();
     const { container } = render(<BackTop onClick={onClick} visibilityHeight={0} />);
-    fireEvent.click(container.querySelector<HTMLButtonElement>('.ant-float-btn')!);
+    fireEvent.click(container.querySelector<HTMLButtonElement>('.g-float-btn')!);
     expect(onClick).toHaveBeenCalled();
   });
 
@@ -46,13 +46,13 @@ describe('BackTop', () => {
     const { container } = render(
       <BackTop onClick={onClick} visibilityHeight={0} target={undefined} />,
     );
-    fireEvent.click(container.querySelector<HTMLButtonElement>('.ant-float-btn')!);
+    fireEvent.click(container.querySelector<HTMLButtonElement>('.g-float-btn')!);
     expect(onClick).toHaveBeenCalled();
   });
 
   it('pass style to float button', () => {
     const { container } = render(<BackTop style={{ padding: 20 }} visibilityHeight={0} />);
-    expect(container.querySelector<HTMLButtonElement>('.ant-float-btn')).toHaveStyle({
+    expect(container.querySelector<HTMLButtonElement>('.g-float-btn')).toHaveStyle({
       padding: '20px',
     });
   });

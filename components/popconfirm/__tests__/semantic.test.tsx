@@ -32,8 +32,8 @@ describe('Popconfirm.semantic', () => {
       </Popconfirm>,
     );
 
-    const popconfirmElement = container.querySelector('.ant-popover');
-    const contentElement = container.querySelector('.ant-popover-container');
+    const popconfirmElement = container.querySelector('.g-popover');
+    const contentElement = container.querySelector('.g-popover-container');
 
     expect(popconfirmElement).toHaveClass('custom-root');
     expect(contentElement).toHaveClass('custom-container');
@@ -61,8 +61,8 @@ describe('Popconfirm.semantic', () => {
       </Popconfirm>,
     );
 
-    const popconfirmElement = container.querySelector('.ant-popover');
-    const contentElement = container.querySelector('.ant-popover-container');
+    const popconfirmElement = container.querySelector('.g-popover');
+    const contentElement = container.querySelector('.g-popover-container');
 
     expect(popconfirmElement).toHaveClass('top-root');
     expect(contentElement).toHaveClass('custom-container');

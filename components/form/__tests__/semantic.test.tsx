@@ -27,9 +27,9 @@ describe('Form.Semantic', () => {
         </Form.Item>
       </Form>,
     );
-    const root = container.querySelector('.ant-form');
-    const label = container.querySelector('.ant-form-item-required');
-    const content = container.querySelector('.ant-form-item-control-input-content');
+    const root = container.querySelector('.g-form');
+    const label = container.querySelector('.g-form-item-required');
+    const content = container.querySelector('.g-form-item-control-input-content');
     expect(root).toHaveClass(customClassNames.root);
     expect(label).toHaveClass(customClassNames.label);
     expect(content).toHaveClass(customClassNames.content);
@@ -65,9 +65,9 @@ describe('Form.Semantic', () => {
       </Form>,
     );
 
-    const root = container.querySelector('.ant-form');
-    const label = container.querySelector('.ant-form-item-label label');
-    const content = container.querySelector('.ant-form-item-control-input-content');
+    const root = container.querySelector('.g-form');
+    const label = container.querySelector('.g-form-item-label label');
+    const content = container.querySelector('.g-form-item-control-input-content');
 
     // Check semantic class names
     expect(root).toHaveClass('semantic-form-root');
@@ -100,8 +100,8 @@ describe('Form.Semantic', () => {
       </Form>,
     );
 
-    const root = container.querySelector('.ant-form');
-    const label = container.querySelector('.ant-form-item-label label');
+    const root = container.querySelector('.g-form');
+    const label = container.querySelector('.g-form-item-label label');
 
     expect(root).toHaveClass('dynamic-form-root');
     expect(label).toHaveClass('dynamic-form-label');

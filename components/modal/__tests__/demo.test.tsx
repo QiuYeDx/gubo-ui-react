@@ -7,6 +7,6 @@ demoTest('modal', {
 });
 
 rootPropsTest('modal', (Modal, props) => <Modal {...props} />, {
-  findRootElements: () => document.querySelectorAll('.ant-modal-root'),
+  findRootElements: () => document.querySelectorAll('.g-modal-root'),
   expectCount: 1,
 });

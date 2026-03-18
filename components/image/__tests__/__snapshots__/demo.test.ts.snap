@@ -2,17 +2,17 @@
 
 exports[`renders components/image/demo/basic.tsx correctly 1`] = `
 <div
-  class="ant-image css-var-test-id ant-image-css-var"
+  class="g-image css-var-test-id g-image-css-var"
   style="width:200px"
 >
   <img
     alt="basic"
-    class="ant-image-img"
+    class="g-image-img"
     src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
     width="200"
   />
   <div
-    class="ant-image-cover ant-image-cover-center"
+    class="g-image-cover g-image-cover-center"
   />
 </div>
 `;
@@ -20,31 +20,31 @@ exports[`renders components/image/demo/basic.tsx correctly 1`] = `
 exports[`renders components/image/demo/component-token.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:150px"
   >
     <img
       alt="svg image"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://gw.alipayobjects.com/zos/antfincdn/aPkFc8Sj7n/method-draw-image.svg"
       width="150"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:150px"
   >
     <img
       alt="basic image"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
       width="150"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
 ]
@@ -56,31 +56,31 @@ Array [
     scaleStep:
     <!-- -->
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     >
       <input
         aria-valuemax="5"
         aria-valuemin="0.1"
         aria-valuenow="0.5"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="0.1"
         value="0.5"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -101,13 +101,13 @@ Array [
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -130,7 +130,7 @@ Array [
   </div>,
   <br />,
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -138,18 +138,18 @@ Array [
     </span>
   </button>,
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:200px"
   >
     <img
       alt="basic image"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png?x-oss-process=image/blur,r_50,s_50/quality,q_1/resize,m_mfit,h_200,w_200"
       style="display:none"
       width="200"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
       style="display:none"
     />
   </div>,
@@ -158,34 +158,34 @@ Array [
 
 exports[`renders components/image/demo/coverPlacement.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center css-var-test-id"
   style="column-gap:16px;row-gap:16px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-image css-var-test-id ant-image-css-var"
+      class="g-image css-var-test-id g-image-css-var"
       style="width:96px"
     >
       <img
         alt="basic image"
-        class="ant-image-img"
+        class="g-image-img"
         src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
         width="96"
       />
       <div
-        class="ant-image-cover ant-image-cover-center"
+        class="g-image-cover g-image-cover-center"
       >
         <div
-          class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             <span
               aria-label="zoom-in"
-              class="anticon anticon-zoom-in"
+              class="gicon gicon-zoom-in"
               role="img"
             >
               <svg
@@ -204,7 +204,7 @@ exports[`renders components/image/demo/coverPlacement.tsx correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             center
           </div>
@@ -213,30 +213,30 @@ exports[`renders components/image/demo/coverPlacement.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-image css-var-test-id ant-image-css-var"
+      class="g-image css-var-test-id g-image-css-var"
       style="width:96px"
     >
       <img
         alt="image"
-        class="ant-image-img"
+        class="g-image-img"
         src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
         width="96"
       />
       <div
-        class="ant-image-cover ant-image-cover-top"
+        class="g-image-cover g-image-cover-top"
       >
         <div
-          class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             <span
               aria-label="zoom-in"
-              class="anticon anticon-zoom-in"
+              class="gicon gicon-zoom-in"
               role="img"
             >
               <svg
@@ -255,7 +255,7 @@ exports[`renders components/image/demo/coverPlacement.tsx correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             top
           </div>
@@ -264,30 +264,30 @@ exports[`renders components/image/demo/coverPlacement.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-image css-var-test-id ant-image-css-var"
+      class="g-image css-var-test-id g-image-css-var"
       style="width:96px"
     >
       <img
         alt="image"
-        class="ant-image-img"
+        class="g-image-img"
         src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
         width="96"
       />
       <div
-        class="ant-image-cover ant-image-cover-bottom"
+        class="g-image-cover g-image-cover-bottom"
       >
         <div
-          class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             <span
               aria-label="zoom-in"
-              class="anticon anticon-zoom-in"
+              class="gicon gicon-zoom-in"
               role="img"
             >
               <svg
@@ -306,7 +306,7 @@ exports[`renders components/image/demo/coverPlacement.tsx correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             bottom
           </div>
@@ -319,65 +319,65 @@ exports[`renders components/image/demo/coverPlacement.tsx correctly 1`] = `
 
 exports[`renders components/image/demo/fallback.tsx correctly 1`] = `
 <div
-  class="ant-image css-var-test-id ant-image-css-var"
+  class="g-image css-var-test-id g-image-css-var"
   style="width:200px;height:200px"
 >
   <img
     alt="basic image"
-    class="ant-image-img"
+    class="g-image-img"
     height="200"
     src="error"
     style="height:200px"
     width="200"
   />
   <div
-    class="ant-image-cover ant-image-cover-center"
+    class="g-image-cover g-image-cover-center"
   />
 </div>
 `;
 
 exports[`renders components/image/demo/imageRender.tsx correctly 1`] = `
 <div
-  class="ant-image css-var-test-id ant-image-css-var"
+  class="g-image css-var-test-id g-image-css-var"
   style="width:200px"
 >
   <img
     alt="basic image"
-    class="ant-image-img"
+    class="g-image-img"
     src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
     width="200"
   />
   <div
-    class="ant-image-cover ant-image-cover-center"
+    class="g-image-cover g-image-cover-center"
   />
 </div>
 `;
 
 exports[`renders components/image/demo/mask.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-image css-var-test-id ant-image-css-var"
+      class="g-image css-var-test-id g-image-css-var"
       style="width:100px"
     >
       <img
         alt="blur"
-        class="ant-image-img"
+        class="g-image-img"
         src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
         width="100"
       />
       <div
-        class="ant-image-cover ant-image-cover-center"
+        class="g-image-cover g-image-cover-center"
       >
         <div
-          class="ant-space ant-space-vertical ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-vertical g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             blur
           </div>
@@ -386,26 +386,26 @@ exports[`renders components/image/demo/mask.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-image css-var-test-id ant-image-css-var"
+      class="g-image css-var-test-id g-image-css-var"
       style="width:100px"
     >
       <img
         alt="Dimmed mask"
-        class="ant-image-img"
+        class="g-image-img"
         src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
         width="100"
       />
       <div
-        class="ant-image-cover ant-image-cover-center"
+        class="g-image-cover g-image-cover-center"
       >
         <div
-          class="ant-space ant-space-vertical ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-vertical g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             Dimmed mask
           </div>
@@ -414,26 +414,26 @@ exports[`renders components/image/demo/mask.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-image css-var-test-id ant-image-css-var"
+      class="g-image css-var-test-id g-image-css-var"
       style="width:100px"
     >
       <img
         alt="No mask"
-        class="ant-image-img"
+        class="g-image-img"
         src="https://gw.alipayobjects.com/zos/antfincdn/aPkFc8Sj7n/method-draw-image.svg"
         width="100"
       />
       <div
-        class="ant-image-cover ant-image-cover-center"
+        class="g-image-cover g-image-cover-center"
       >
         <div
-          class="ant-space ant-space-vertical ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+          class="g-space g-space-vertical g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
         >
           <div
-            class="ant-space-item"
+            class="g-space-item"
           >
             No mask
           </div>
@@ -446,7 +446,7 @@ exports[`renders components/image/demo/mask.tsx correctly 1`] = `
 
 exports[`renders components/image/demo/nested.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -457,48 +457,48 @@ exports[`renders components/image/demo/nested.tsx correctly 1`] = `
 
 exports[`renders components/image/demo/placeholder.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-image css-var-test-id ant-image-css-var"
+      class="g-image css-var-test-id g-image-css-var"
       style="width:200px"
     >
       <img
         alt="basic image"
-        class="ant-image-img"
+        class="g-image-img"
         src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png?1479772800000"
         width="200"
       />
       <div
         aria-hidden="true"
-        class="ant-image-placeholder"
+        class="g-image-placeholder"
       >
         <div
-          class="ant-image css-var-test-id ant-image-css-var"
+          class="g-image css-var-test-id g-image-css-var"
           style="width:200px"
         >
           <img
             alt="placeholder image"
-            class="ant-image-img"
+            class="g-image-img"
             src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png?x-oss-process=image/blur,r_50,s_50/quality,q_1/resize,m_mfit,h_200,w_200"
             width="200"
           />
         </div>
       </div>
       <div
-        class="ant-image-cover ant-image-cover-center"
+        class="g-image-cover g-image-cover-center"
       />
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -512,31 +512,31 @@ exports[`renders components/image/demo/placeholder.tsx correctly 1`] = `
 exports[`renders components/image/demo/preview-group.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:200px"
   >
     <img
       alt="svg image"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
       width="200"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:200px"
   >
     <img
       alt="svg image"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://gw.alipayobjects.com/zos/antfincdn/aPkFc8Sj7n/method-draw-image.svg"
       width="200"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
 ]
@@ -545,45 +545,45 @@ Array [
 exports[`renders components/image/demo/preview-group-top-progress.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:150px"
   >
     <img
       alt="svg image"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
       width="150"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:150px"
   >
     <img
       alt="svg image"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://gw.alipayobjects.com/zos/antfincdn/aPkFc8Sj7n/method-draw-image.svg"
       width="150"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:150px"
   >
     <img
       alt="svg image"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
       width="150"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
 ]
@@ -591,63 +591,63 @@ Array [
 
 exports[`renders components/image/demo/preview-group-visible.tsx correctly 1`] = `
 <div
-  class="ant-image css-var-test-id ant-image-css-var"
+  class="g-image css-var-test-id g-image-css-var"
   style="width:200px"
 >
   <img
     alt="webp image"
-    class="ant-image-img"
+    class="g-image-img"
     src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp"
     width="200"
   />
   <div
-    class="ant-image-cover ant-image-cover-center"
+    class="g-image-cover g-image-cover-center"
   />
 </div>
 `;
 
 exports[`renders components/image/demo/preview-imgInfo.tsx correctly 1`] = `
 <div
-  class="ant-image css-var-test-id ant-image-css-var"
+  class="g-image css-var-test-id g-image-css-var"
   style="width:200px;height:200px"
 >
   <img
     alt="test"
-    class="ant-image-img"
+    class="g-image-img"
     height="200px"
     src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
     style="height:200px"
     width="200px"
   />
   <div
-    class="ant-image-cover ant-image-cover-center"
+    class="g-image-cover g-image-cover-center"
   />
 </div>
 `;
 
 exports[`renders components/image/demo/preview-mask.tsx correctly 1`] = `
 <div
-  class="ant-image css-var-test-id ant-image-css-var"
+  class="g-image css-var-test-id g-image-css-var"
   style="width:96px"
 >
   <img
     alt="basic image"
-    class="ant-image-img"
+    class="g-image-img"
     src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
     width="96"
   />
   <div
-    class="ant-image-cover ant-image-cover-center"
+    class="g-image-cover g-image-cover-center"
   >
     <div
-      class="ant-space ant-space-vertical ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-vertical g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span
           aria-label="zoom-in"
-          class="anticon anticon-zoom-in"
+          class="gicon gicon-zoom-in"
           role="img"
         >
           <svg
@@ -666,7 +666,7 @@ exports[`renders components/image/demo/preview-mask.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         示例
       </div>
@@ -677,53 +677,53 @@ exports[`renders components/image/demo/preview-mask.tsx correctly 1`] = `
 
 exports[`renders components/image/demo/previewSrc.tsx correctly 1`] = `
 <div
-  class="ant-image css-var-test-id ant-image-css-var"
+  class="g-image css-var-test-id g-image-css-var"
   style="width:200px"
 >
   <img
     alt="basic image"
-    class="ant-image-img"
+    class="g-image-img"
     src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png?x-oss-process=image/blur,r_50,s_50/quality,q_1/resize,m_mfit,h_200,w_200"
     width="200"
   />
   <div
-    class="ant-image-cover ant-image-cover-center"
+    class="g-image-cover g-image-cover-center"
   />
 </div>
 `;
 
 exports[`renders components/image/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-gap-medium"
 >
   <div
-    class="ant-image css-var-test-id ant-image-css-var acss-1tjmp0k"
+    class="g-image css-var-test-id g-image-css-var acss-1tjmp0k"
     style="width:160px"
   >
     <img
       alt="示例图片"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
       style="border-radius:4px"
       width="160"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>
   <div
-    class="ant-image css-var-test-id ant-image-css-var acss-1tjmp0k"
+    class="g-image css-var-test-id g-image-css-var acss-1tjmp0k"
     style="width:160px;border:2px solid #A594F9;border-radius:8px;padding:4px;transition:all 0.3s ease"
   >
     <img
       alt="示例图片"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
       style="border-radius:4px;filter:grayscale(50%)"
       width="160"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>
 </div>
@@ -732,31 +732,31 @@ exports[`renders components/image/demo/style-class.tsx correctly 1`] = `
 exports[`renders components/image/demo/toolbarRender.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:200px"
   >
     <img
       alt="image-0"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
       width="200"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
   <div
-    class="ant-image css-var-test-id ant-image-css-var"
+    class="g-image css-var-test-id g-image-css-var"
     style="width:200px"
   >
     <img
       alt="image-1"
-      class="ant-image-img"
+      class="g-image-img"
       src="https://gw.alipayobjects.com/zos/antfincdn/aPkFc8Sj7n/method-draw-image.svg"
       width="200"
     />
     <div
-      class="ant-image-cover ant-image-cover-center"
+      class="g-image-cover g-image-cover-center"
     />
   </div>,
 ]

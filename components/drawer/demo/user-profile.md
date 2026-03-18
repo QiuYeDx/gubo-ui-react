@@ -14,7 +14,7 @@ Use Drawer to quickly preview details of an object, such as those in a list.
   line-height: 1.5715;
 }
 
-.ant-drawer-body p.site-description-item-profile-p {
+.g-drawer-body p.site-description-item-profile-p {
   display: block;
   margin-bottom: 16px;
   color: rgba(0, 0, 0, 0.85);

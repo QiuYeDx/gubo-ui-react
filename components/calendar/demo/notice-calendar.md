@@ -12,7 +12,7 @@ This component can be rendered by using `dateCellRender` and `monthCellRender` w
   padding: 0;
   list-style: none;
 }
-.events .ant-badge-status {
+.events .g-badge-status {
   width: 100%;
   overflow: hidden;
   font-size: 12px;

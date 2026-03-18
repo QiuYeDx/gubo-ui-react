@@ -2,14 +2,14 @@
 
 exports[`renders components/tree-select/demo/async.tsx correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       Please select
@@ -19,7 +19,7 @@ exports[`renders components/tree-select/demo/async.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -28,11 +28,11 @@ exports[`renders components/tree-select/demo/async.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -55,14 +55,14 @@ exports[`renders components/tree-select/demo/async.tsx correctly 1`] = `
 
 exports[`renders components/tree-select/demo/basic.tsx correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+  class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       Please select
@@ -72,7 +72,7 @@ exports[`renders components/tree-select/demo/basic.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       role="combobox"
       type="search"
@@ -80,11 +80,11 @@ exports[`renders components/tree-select/demo/basic.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -107,34 +107,34 @@ exports[`renders components/tree-select/demo/basic.tsx correctly 1`] = `
 
 exports[`renders components/tree-select/demo/checkable.tsx correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow"
+  class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item"
+      class="g-select-content-item"
       style="opacity:1"
     >
       <span
-        class="ant-select-selection-item"
+        class="g-select-selection-item"
         title="Node1"
       >
         <span
-          class="ant-select-selection-item-content"
+          class="g-select-selection-item-content"
         >
           Node1
         </span>
         <span
           aria-hidden="true"
-          class="ant-select-selection-item-remove"
+          class="g-select-selection-item-remove"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close"
+            class="gicon gicon-close"
             role="img"
           >
             <svg
@@ -156,7 +156,7 @@ exports[`renders components/tree-select/demo/checkable.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -164,7 +164,7 @@ exports[`renders components/tree-select/demo/checkable.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -174,11 +174,11 @@ exports[`renders components/tree-select/demo/checkable.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -201,34 +201,34 @@ exports[`renders components/tree-select/demo/checkable.tsx correctly 1`] = `
 
 exports[`renders components/tree-select/demo/maxCount.tsx correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow"
+  class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item"
+      class="g-select-content-item"
       style="opacity:1"
     >
       <span
-        class="ant-select-selection-item"
+        class="g-select-selection-item"
         title="Child 1-1"
       >
         <span
-          class="ant-select-selection-item-content"
+          class="g-select-selection-item-content"
         >
           Child 1-1
         </span>
         <span
           aria-hidden="true"
-          class="ant-select-selection-item-remove"
+          class="g-select-selection-item-remove"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close"
+            class="gicon gicon-close"
             role="img"
           >
             <svg
@@ -250,7 +250,7 @@ exports[`renders components/tree-select/demo/maxCount.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -258,7 +258,7 @@ exports[`renders components/tree-select/demo/maxCount.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -268,7 +268,7 @@ exports[`renders components/tree-select/demo/maxCount.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span>
       1
@@ -279,7 +279,7 @@ exports[`renders components/tree-select/demo/maxCount.tsx correctly 1`] = `
     </span>
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -302,25 +302,25 @@ exports[`renders components/tree-select/demo/maxCount.tsx correctly 1`] = `
 
 exports[`renders components/tree-select/demo/maxCountNoEffect.tsx correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow"
+  class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item ant-select-content-item-prefix"
+      class="g-select-content-item g-select-content-item-prefix"
       style="opacity:1"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         please select
       </div>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -328,7 +328,7 @@ exports[`renders components/tree-select/demo/maxCountNoEffect.tsx correctly 1`] 
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -338,7 +338,7 @@ exports[`renders components/tree-select/demo/maxCountNoEffect.tsx correctly 1`] 
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span>
       0
@@ -349,7 +349,7 @@ exports[`renders components/tree-select/demo/maxCountNoEffect.tsx correctly 1`] 
     </span>
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -372,25 +372,25 @@ exports[`renders components/tree-select/demo/maxCountNoEffect.tsx correctly 1`] 
 
 exports[`renders components/tree-select/demo/multiple.tsx correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item ant-select-content-item-prefix"
+      class="g-select-content-item g-select-content-item-prefix"
       style="opacity:1"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Please select
       </div>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -398,7 +398,7 @@ exports[`renders components/tree-select/demo/multiple.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -407,11 +407,11 @@ exports[`renders components/tree-select/demo/multiple.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -435,82 +435,82 @@ exports[`renders components/tree-select/demo/multiple.tsx correctly 1`] = `
 exports[`renders components/tree-select/demo/placement.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topRight
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomRight
       </span>
@@ -519,13 +519,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Please select
@@ -535,7 +535,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -543,11 +543,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -574,11 +574,11 @@ exports[`renders components/tree-select/demo/render-panel.tsx correctly 1`] = `
   style="padding-bottom:0;position:relative;min-width:0"
 >
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width:100%;margin:0"
   >
     <div
-      class="ant-select-content ant-select-content-has-value"
+      class="g-select-content g-select-content-has-value"
       title="lucy"
     >
       lucy
@@ -587,7 +587,7 @@ exports[`renders components/tree-select/demo/render-panel.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -596,11 +596,11 @@ exports[`renders components/tree-select/demo/render-panel.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -624,21 +624,21 @@ exports[`renders components/tree-select/demo/render-panel.tsx correctly 1`] = `
 
 exports[`renders components/tree-select/demo/status.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-tree-select ant-select-outlined ant-select-status-error css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-tree-select g-select-outlined g-select-status-error css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         >
           Error
@@ -648,7 +648,7 @@ exports[`renders components/tree-select/demo/status.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -657,11 +657,11 @@ exports[`renders components/tree-select/demo/status.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -682,28 +682,28 @@ exports[`renders components/tree-select/demo/status.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-tree-select ant-select-outlined ant-select-status-warning css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-multiple ant-select-show-arrow"
+      class="g-select g-tree-select g-select-outlined g-select-status-warning css-var-test-id g-select-css-var g-tree-select-css-var g-select-multiple g-select-show-arrow"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item ant-select-content-item-prefix"
+          class="g-select-content-item g-select-content-item-prefix"
           style="opacity:1"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Warning multiple
           </div>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -711,7 +711,7 @@ exports[`renders components/tree-select/demo/status.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -721,11 +721,11 @@ exports[`renders components/tree-select/demo/status.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -750,16 +750,16 @@ exports[`renders components/tree-select/demo/status.tsx correctly 1`] = `
 
 exports[`renders components/tree-select/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-large ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-large g-flex-vertical"
 >
   <div
-    class="ant-select ant-tree-select ant-select-outlined acss-aylixc css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined acss-aylixc css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Object
@@ -769,7 +769,7 @@ exports[`renders components/tree-select/demo/style-class.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -779,12 +779,12 @@ exports[`renders components/tree-select/demo/style-class.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
       style="color:#1890ff"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -804,13 +804,13 @@ exports[`renders components/tree-select/demo/style-class.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-outlined acss-aylixc css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined acss-aylixc css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Function
@@ -820,7 +820,7 @@ exports[`renders components/tree-select/demo/style-class.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -829,12 +829,12 @@ exports[`renders components/tree-select/demo/style-class.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
       style="color:#722ed1"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -859,14 +859,14 @@ exports[`renders components/tree-select/demo/style-class.tsx correctly 1`] = `
 exports[`renders components/tree-select/demo/suffix.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     style="width:100%"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Please select
@@ -876,7 +876,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -884,11 +884,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -910,19 +910,19 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     style="width:100%"
   >
     <div
-      class="ant-select-prefix"
+      class="g-select-prefix"
     >
       Prefix
     </div>
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Please select
@@ -932,7 +932,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -940,11 +940,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -968,14 +968,14 @@ Array [
 
 exports[`renders components/tree-select/demo/treeData.tsx correctly 1`] = `
 <div
-  class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       Please select
@@ -985,7 +985,7 @@ exports[`renders components/tree-select/demo/treeData.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -994,11 +994,11 @@ exports[`renders components/tree-select/demo/treeData.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1021,30 +1021,30 @@ exports[`renders components/tree-select/demo/treeData.tsx correctly 1`] = `
 
 exports[`renders components/tree-select/demo/treeLine.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-checked="false"
-      class="ant-switch css-var-test-id"
+      class="g-switch css-var-test-id"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         >
           showIcon
         </span>
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         >
           showIcon
         </span>
@@ -1052,27 +1052,27 @@ exports[`renders components/tree-select/demo/treeLine.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-checked="true"
-      class="ant-switch css-var-test-id ant-switch-checked"
+      class="g-switch css-var-test-id g-switch-checked"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         >
           treeLine
         </span>
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         >
           treeLine
         </span>
@@ -1080,27 +1080,27 @@ exports[`renders components/tree-select/demo/treeLine.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-checked="false"
-      class="ant-switch css-var-test-id"
+      class="g-switch css-var-test-id"
       role="switch"
       type="button"
     >
       <div
-        class="ant-switch-handle"
+        class="g-switch-handle"
       />
       <span
-        class="ant-switch-inner"
+        class="g-switch-inner"
       >
         <span
-          class="ant-switch-inner-checked"
+          class="g-switch-inner-checked"
         >
           showLeafIcon
         </span>
         <span
-          class="ant-switch-inner-unchecked"
+          class="g-switch-inner-unchecked"
         >
           showLeafIcon
         </span>
@@ -1108,17 +1108,17 @@ exports[`renders components/tree-select/demo/treeLine.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
       style="width:300px"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         />
         <input
@@ -1126,7 +1126,7 @@ exports[`renders components/tree-select/demo/treeLine.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1135,11 +1135,11 @@ exports[`renders components/tree-select/demo/treeLine.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1164,17 +1164,17 @@ exports[`renders components/tree-select/demo/treeLine.tsx correctly 1`] = `
 
 exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-select ant-tree-select ant-select-borderless css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-borderless css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width:100%;max-width:100%"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Please select
@@ -1184,7 +1184,7 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1193,11 +1193,11 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1217,14 +1217,14 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-filled css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-filled css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width:100%;max-width:100%"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Please select
@@ -1234,7 +1234,7 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1243,11 +1243,11 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1267,14 +1267,14 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width:100%;max-width:100%"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Please select
@@ -1284,7 +1284,7 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1293,11 +1293,11 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1317,14 +1317,14 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-underlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-tree-select g-select-underlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
     style="width:100%;max-width:100%"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Please select
@@ -1334,7 +1334,7 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1343,11 +1343,11 @@ exports[`renders components/tree-select/demo/variant.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg

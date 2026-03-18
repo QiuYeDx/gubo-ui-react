@@ -9,7 +9,7 @@ exports[`CheckboxGroup passes prefixCls down to checkbox 1`] = `
     class="my-checkbox-wrapper my-checkbox-group-item css-var-root my-checkbox-css-var"
   >
     <span
-      class="my-checkbox ant-wave-target"
+      class="my-checkbox g-wave-target"
     >
       <input
         class="my-checkbox-input"
@@ -28,7 +28,7 @@ exports[`CheckboxGroup passes prefixCls down to checkbox 1`] = `
     style="font-size: 12px;"
   >
     <span
-      class="my-checkbox ant-wave-target"
+      class="my-checkbox g-wave-target"
     >
       <input
         class="my-checkbox-input"
@@ -47,7 +47,7 @@ exports[`CheckboxGroup passes prefixCls down to checkbox 1`] = `
 
 exports[`CheckboxGroup rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-checkbox-group ant-checkbox-group-rtl css-var-root ant-checkbox-css-var"
+  class="g-checkbox-group g-checkbox-group-rtl css-var-root g-checkbox-css-var"
   role="group"
 />
 `;

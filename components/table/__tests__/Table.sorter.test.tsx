@@ -37,7 +37,7 @@ describe('Table.sorter', () => {
   function renderedNames(container: ReturnType<typeof render>['container']) {
     const namesList: (Node['textContent'] | undefined)[] = [];
     container
-      ?.querySelector('.ant-table-tbody')
+      ?.querySelector('.g-table-tbody')
       ?.querySelectorAll('tr')
       ?.forEach((tr) => {
         namesList.push(tr.querySelector('td')?.textContent);
@@ -112,7 +112,7 @@ describe('Table.sorter', () => {
       />
     );
     const { container } = render(<TableSorter />);
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(renderedNames(container)).toEqual(['200 left', '100 left', '50 left']);
   });
   it('should change aria-sort when default sort order is set to descend', () => {
@@ -126,10 +126,10 @@ describe('Table.sorter', () => {
     expect(renderedNames(container)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual('descending');
 
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual('ascending');
 
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual(null);
   });
 
@@ -151,11 +151,11 @@ describe('Table.sorter', () => {
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual('descending');
     expect(getNameColumn()?.getAttribute('aria-label')).toEqual('Name');
 
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual('ascending');
     expect(getNameColumn()?.getAttribute('aria-label')).toEqual('Name');
 
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual(null);
     expect(getNameColumn()?.getAttribute('aria-label')).toEqual('Name');
   });
@@ -169,12 +169,12 @@ describe('Table.sorter', () => {
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual(null);
 
     // ascend
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(renderedNames(container)).toEqual(['Jack', 'Jerry', 'Lucy', 'Tom']);
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual('ascending');
 
     // descend
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(renderedNames(container)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual('descending');
   });
@@ -183,11 +183,11 @@ describe('Table.sorter', () => {
     const { container } = render(createTable());
 
     // ascend
-    fireEvent.keyDown(container.querySelector('.ant-table-column-sorters')!, { keyCode: 13 });
+    fireEvent.keyDown(container.querySelector('.g-table-column-sorters')!, { keyCode: 13 });
     expect(renderedNames(container)).toEqual(['Jack', 'Jerry', 'Lucy', 'Tom']);
 
     // descend
-    fireEvent.keyDown(container.querySelector('.ant-table-column-sorters')!, { keyCode: 13 });
+    fireEvent.keyDown(container.querySelector('.g-table-column-sorters')!, { keyCode: 13 });
     expect(renderedNames(container)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
   });
 
@@ -207,11 +207,11 @@ describe('Table.sorter', () => {
     );
 
     // don't trigger ascend
-    fireEvent.keyDown(container.querySelector('.ant-table-filter-dropdown')!, { keyCode: 13 });
+    fireEvent.keyDown(container.querySelector('.g-table-filter-dropdown')!, { keyCode: 13 });
     expect(renderedNames(container)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
 
     // don't trigger descend
-    fireEvent.keyDown(container.querySelector('.ant-table-filter-dropdown')!, { keyCode: 13 });
+    fireEvent.keyDown(container.querySelector('.g-table-filter-dropdown')!, { keyCode: 13 });
     expect(renderedNames(container)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
   });
 
@@ -288,21 +288,21 @@ describe('Table.sorter', () => {
     const { container } = render(createTable({ onChange: handleChange }));
 
     // ascent
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     const sorter1 = handleChange.mock.calls[0][2];
     expect(sorter1.column.dataIndex).toBe('name');
     expect(sorter1.order).toBe('ascend');
     expect(sorter1.field).toBe('name');
     expect(sorter1.columnKey).toBe('name');
 
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     const sorter2 = handleChange.mock.calls[1][2];
     expect(sorter2.column.dataIndex).toBe('name');
     expect(sorter2.order).toBe('descend');
     expect(sorter2.field).toBe('name');
     expect(sorter2.columnKey).toBe('name');
 
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     const sorter3 = handleChange.mock.calls[2][2];
     expect(sorter3.column).toBe(undefined);
     expect(sorter3.order).toBe(undefined);
@@ -320,7 +320,7 @@ describe('Table.sorter', () => {
     );
 
     // ascending sort
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(handleChange).toHaveBeenCalledTimes(1);
     let sorter = handleChange.mock.calls[0][2];
     expect(sorter.column.dataIndex).toBe('name');
@@ -329,7 +329,7 @@ describe('Table.sorter', () => {
     expect(sorter.columnKey).toBe('name');
 
     // descending sort
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(handleChange).toHaveBeenCalledTimes(2);
     sorter = handleChange.mock.calls[1][2];
     expect(sorter.column.dataIndex).toBe('name');
@@ -338,7 +338,7 @@ describe('Table.sorter', () => {
     expect(sorter.columnKey).toBe('name');
 
     // cancel sort
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(handleChange).toHaveBeenCalledTimes(3);
     sorter = handleChange.mock.calls[2][2];
     expect(sorter.column).toBe(undefined);
@@ -347,7 +347,7 @@ describe('Table.sorter', () => {
     expect(sorter.columnKey).toBe(undefined);
 
     // change page
-    fireEvent.click(container.querySelector('.ant-pagination-item-2')!);
+    fireEvent.click(container.querySelector('.g-pagination-item-2')!);
     expect(handleChange).toHaveBeenCalledTimes(4);
     sorter = handleChange.mock.calls[3][2];
 
@@ -363,33 +363,33 @@ describe('Table.sorter', () => {
     const { container, rerender } = render(createTable());
 
     // default show sorter tooltip
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // set table props showSorterTooltip is false
     rerender(createTable({ showSorterTooltip: false }));
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeFalsy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeFalsy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // set table props showSorterTooltip is false, column showSorterTooltip is true
     rerender(
       createTable({ showSorterTooltip: false, columns: [{ ...column, showSorterTooltip: true }] }),
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // set table props showSorterTooltip is true, column showSorterTooltip is false
     rerender(
@@ -398,12 +398,12 @@ describe('Table.sorter', () => {
         columns: [{ ...column, showSorterTooltip: false }],
       }),
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeFalsy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeFalsy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // table props showSorterTooltip is 'full-header' by default
     rerender(
@@ -412,15 +412,15 @@ describe('Table.sorter', () => {
         columns: [{ ...column }],
       }),
     );
-    expect(container.querySelector('.ant-table-column-sorters')).not.toHaveClass(
-      'ant-table-column-sorters-tooltip-target-sorter',
+    expect(container.querySelector('.g-table-column-sorters')).not.toHaveClass(
+      'g-table-column-sorters-tooltip-target-sorter',
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // set table props showSorterTooltip target is 'sorter-icon'
     rerender(
@@ -429,23 +429,23 @@ describe('Table.sorter', () => {
         columns: [{ ...column }],
       }),
     );
-    expect(container.querySelector('.ant-table-column-sorters')).toHaveClass(
-      'ant-table-column-sorters-tooltip-target-sorter',
+    expect(container.querySelector('.g-table-column-sorters')).toHaveClass(
+      'g-table-column-sorters-tooltip-target-sorter',
     );
     // hovering over the sorters element does NOT open tooltip
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeFalsy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeFalsy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
     // hovering over the sorter element DOES open tooltip
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorter')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorter')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorter')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorter')!);
 
     // set table props showSorterTooltip target is 'sorter-icon', column showSorterTooltip target is 'full-header'
     rerender(
@@ -454,15 +454,15 @@ describe('Table.sorter', () => {
         columns: [{ ...column, showSorterTooltip: { target: 'full-header' } }],
       }),
     );
-    expect(container.querySelector('.ant-table-column-sorters')).not.toHaveClass(
-      'ant-table-column-sorters-tooltip-target-sorter',
+    expect(container.querySelector('.g-table-column-sorters')).not.toHaveClass(
+      'g-table-column-sorters-tooltip-target-sorter',
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // set table props showSorterTooltip target is 'full-header', column showSorterTooltip target is 'sorter-icon'
     rerender(
@@ -471,29 +471,29 @@ describe('Table.sorter', () => {
         columns: [{ ...column, showSorterTooltip: { target: 'sorter-icon' } }],
       }),
     );
-    expect(container.querySelector('.ant-table-column-sorters')).toHaveClass(
-      'ant-table-column-sorters-tooltip-target-sorter',
+    expect(container.querySelector('.g-table-column-sorters')).toHaveClass(
+      'g-table-column-sorters-tooltip-target-sorter',
     );
     // hovering over the sorters element does NOT open tooltip
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeFalsy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeFalsy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
     // hovering over the title element does NOT open tooltip
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-title')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-title')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeFalsy();
+    expect(container.querySelector('.g-tooltip-open')).toBeFalsy();
     // hovering over the sorter element DOES open tooltip
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorter')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorter')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorter')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorter')!);
   });
 
   it('should show correct tooltip when showSorterTooltip is an object', () => {
@@ -503,12 +503,12 @@ describe('Table.sorter', () => {
       createTable({ showSorterTooltip: { placement: 'bottom', title: 'static title' } }),
     );
 
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // should merge original title into showSorterTooltip object
     rerender(
@@ -518,19 +518,19 @@ describe('Table.sorter', () => {
         },
       }),
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // Root to false
     rerender(createTable({ showSorterTooltip: false }));
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeFalsy();
+    expect(container.querySelector('.g-tooltip-open')).toBeFalsy();
 
     // Column to true
     rerender(
@@ -539,12 +539,12 @@ describe('Table.sorter', () => {
         columns: [{ ...column, showSorterTooltip: true }],
       }),
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.mouseEnter(container.querySelector('.g-table-column-sorters')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
-    fireEvent.mouseOut(container.querySelector('.ant-table-column-sorters')!);
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
+    fireEvent.mouseOut(container.querySelector('.g-table-column-sorters')!);
 
     // Column to false
     rerender(
@@ -556,7 +556,7 @@ describe('Table.sorter', () => {
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeFalsy();
+    expect(container.querySelector('.g-tooltip-open')).toBeFalsy();
   });
 
   it('renders custom sort icon correctly', () => {
@@ -638,9 +638,9 @@ describe('Table.sorter', () => {
     ];
     const { container } = render(<Table columns={columns} dataSource={testData} />);
     expect(container.querySelector('.custom-title')?.textContent).toEqual('');
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(container.querySelector('.custom-title')?.textContent).toEqual('ascend');
-    fireEvent.click(container.querySelector('.ant-table-column-sorters')!);
+    fireEvent.click(container.querySelector('.g-table-column-sorters')!);
     expect(container.querySelector('.custom-title')?.textContent).toEqual('descend');
   });
 
@@ -659,13 +659,13 @@ describe('Table.sorter', () => {
     const { container } = render(<Table columns={columns} dataSource={testData} />);
 
     const getNameColumn = () =>
-      container.querySelectorAll<HTMLElement>('.ant-table-column-has-sorters')[0];
+      container.querySelectorAll<HTMLElement>('.g-table-column-has-sorters')[0];
     const getAgeColumn = () =>
-      container.querySelectorAll<HTMLElement>('.ant-table-column-has-sorters')[1];
+      container.querySelectorAll<HTMLElement>('.g-table-column-has-sorters')[1];
     const getNameIcon = (name: string) =>
-      getNameColumn()?.querySelector(`.ant-table-column-sorter-${name}`);
+      getNameColumn()?.querySelector(`.g-table-column-sorter-${name}`);
     const getAgeIcon = (name: string) =>
-      getAgeColumn().querySelector(`.ant-table-column-sorter-${name}`);
+      getAgeColumn().querySelector(`.g-table-column-sorter-${name}`);
 
     // sort name
     fireEvent.click(getNameColumn()!);
@@ -710,7 +710,7 @@ describe('Table.sorter', () => {
 
     const getNameColumn = () => container.querySelector('th');
     const getIcon = (name: string) =>
-      getNameColumn()?.querySelector(`.ant-table-column-sorter-${name}`);
+      getNameColumn()?.querySelector(`.g-table-column-sorter-${name}`);
 
     expect(getIcon('up')?.className.includes('active')).toBeFalsy();
     expect(getIcon('down')?.className.includes('active')).toBeFalsy();
@@ -772,7 +772,7 @@ describe('Table.sorter', () => {
 
     const getNameColumn = () => container.querySelector('th');
     const getIcon = (name: string) =>
-      getNameColumn()?.querySelector(`.ant-table-column-sorter-${name}`);
+      getNameColumn()?.querySelector(`.g-table-column-sorter-${name}`);
 
     expect(getIcon('up')?.className.includes('active')).toBeFalsy();
     expect(getIcon('down')?.className.includes('active')).toBeFalsy();
@@ -832,40 +832,40 @@ describe('Table.sorter', () => {
     const { container } = render(<TableTest />);
     const getNameColumn = () => container.querySelector('th');
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-up')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-up')?.className.includes('active'),
     ).toBeFalsy();
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-down')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-down')?.className.includes('active'),
     ).toBeFalsy();
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual(null);
 
     // sort name
     fireEvent.click(getNameColumn()!);
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-up')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-up')?.className.includes('active'),
     ).toBeTruthy();
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-down')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-down')?.className.includes('active'),
     ).toBeFalsy();
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual('ascending');
 
     // sort name
     fireEvent.click(getNameColumn()!);
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-up')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-up')?.className.includes('active'),
     ).toBeFalsy();
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-down')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-down')?.className.includes('active'),
     ).toBeTruthy();
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual('descending');
 
     // sort name
     fireEvent.click(getNameColumn()!);
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-up')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-up')?.className.includes('active'),
     ).toBeFalsy();
     expect(
-      getNameColumn()?.querySelector('.ant-table-column-sorter-down')?.className.includes('active'),
+      getNameColumn()?.querySelector('.g-table-column-sorter-down')?.className.includes('active'),
     ).toBeFalsy();
     expect(getNameColumn()?.getAttribute('aria-sort')).toEqual(null);
   });
@@ -1064,7 +1064,7 @@ describe('Table.sorter', () => {
       />,
     );
 
-    expect(container.querySelectorAll('.ant-table-column-sorter-inner')).toHaveLength(0);
+    expect(container.querySelectorAll('.g-table-column-sorter-inner')).toHaveLength(0);
   });
 
   // https://github.com/ant-design/ant-design/issues/21193
@@ -1092,7 +1092,7 @@ describe('Table.sorter', () => {
 
     fireEvent.click(container.querySelector('th')!);
 
-    expect(container.querySelectorAll('th.ant-table-column-sort')).toHaveLength(1);
+    expect(container.querySelectorAll('th.g-table-column-sort')).toHaveLength(1);
   });
 
   it('surger should support sortOrder', () => {
@@ -1103,10 +1103,10 @@ describe('Table.sorter', () => {
     );
 
     expect(
-      container.querySelector('.ant-table-column-sorter-up')?.className.includes('active'),
+      container.querySelector('.g-table-column-sorter-up')?.className.includes('active'),
     ).toBeTruthy();
     expect(
-      container.querySelector('.ant-table-column-sorter-down')?.className.includes('active'),
+      container.querySelector('.g-table-column-sorter-down')?.className.includes('active'),
     ).toBeFalsy();
   });
 
@@ -1146,14 +1146,14 @@ describe('Table.sorter', () => {
 
     expect(
       container
-        ?.querySelectorAll('.ant-table-column-sorter-full')?.[0]
-        ?.querySelector('.ant-table-column-sorter-up')
+        ?.querySelectorAll('.g-table-column-sorter-full')?.[0]
+        ?.querySelector('.g-table-column-sorter-up')
         ?.className.includes('active'),
     ).toBeTruthy();
     expect(
       container
-        ?.querySelectorAll('.ant-table-column-sorter-full')?.[1]
-        ?.querySelector('.ant-table-column-sorter-down')
+        ?.querySelectorAll('.g-table-column-sorter-full')?.[1]
+        ?.querySelector('.g-table-column-sorter-down')
         ?.className.includes('active'),
     ).toBeTruthy();
   });
@@ -1192,7 +1192,7 @@ describe('Table.sorter', () => {
       index: number,
       sorter: { field: string | undefined; order: SortOrder },
     ) {
-      fireEvent.click(container.querySelectorAll('.ant-table-column-sorters')[index]);
+      fireEvent.click(container.querySelectorAll('.g-table-column-sorters')[index]);
 
       expect(onChange).toHaveBeenCalledWith(
         expect.anything(),
@@ -1283,7 +1283,7 @@ describe('Table.sorter', () => {
     const { container } = render(
       <Table columns={columns} dataSource={tableData} onChange={onChange} />,
     );
-    const sorterColumns = Array.from(container.querySelectorAll('.ant-table-column-has-sorters'));
+    const sorterColumns = Array.from(container.querySelectorAll('.g-table-column-has-sorters'));
     expect(sorterColumns.length).toBe(3);
     fireEvent.click(sorterColumns[0]);
     expect(onChange).toHaveBeenLastCalledWith(

@@ -7,13 +7,13 @@
 Components which support rtl direction are listed here, you can toggle the direction in the demo.
 
 ```css
-.button-demo .ant-btn,
-.button-demo .ant-btn-group {
+.button-demo .g-btn,
+.button-demo .g-btn-group {
   margin-inline-end: 8px;
   margin-bottom: 12px;
 }
-.button-demo .ant-btn-group > .ant-btn,
-.button-demo .ant-btn-group > span > .ant-btn {
+.button-demo .g-btn-group > .g-btn,
+.button-demo .g-btn-group > span > .g-btn {
   margin-inline-end: 0;
   margin-inline-start: 0;
 }
@@ -27,11 +27,11 @@ Components which support rtl direction are listed here, you can toggle the direc
   border-radius: 4px;
 }
 
-.ant-badge:not(.ant-badge-not-a-wrapper) {
+.g-badge:not(.g-badge-not-a-wrapper) {
   margin-inline-end: 20px;
 }
 
-.ant-badge-rtl:not(.ant-badge-not-a-wrapper) {
+.g-badge-rtl:not(.g-badge-not-a-wrapper) {
   margin-inline-end: 0;
   margin-inline-start: 20px;
 }

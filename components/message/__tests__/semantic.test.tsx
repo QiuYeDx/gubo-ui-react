@@ -230,8 +230,8 @@ describe('Message.semantic', () => {
     render(<Demo />);
 
     // Should render with default styles
-    const messageEl = document.querySelector('.ant-message-notice');
+    const messageEl = document.querySelector('.g-message-notice');
     expect(messageEl).toBeTruthy();
-    expect(messageEl).toHaveClass('ant-message-notice');
+    expect(messageEl).toHaveClass('g-message-notice');
   });
 });

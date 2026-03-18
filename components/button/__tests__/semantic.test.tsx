@@ -26,14 +26,14 @@ describe('Button.Semantic', () => {
       </Button>,
     );
 
-    expect(container.querySelector('.ant-btn')).toHaveClass('primary-default');
-    expect(container.querySelector('.ant-btn')).toHaveStyle({ background: 'red' });
+    expect(container.querySelector('.g-btn')).toHaveClass('primary-default');
+    expect(container.querySelector('.g-btn')).toHaveStyle({ background: 'red' });
     rerender(
       <Button classNames={classNames} styles={styles}>
         Dynamic
       </Button>,
     );
 
-    expect(container.querySelector('.ant-btn')).toHaveStyle({ background: 'blue' });
+    expect(container.querySelector('.g-btn')).toHaveStyle({ background: 'blue' });
   });
 });

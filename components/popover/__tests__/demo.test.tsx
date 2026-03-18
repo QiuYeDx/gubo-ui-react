@@ -14,5 +14,5 @@ rootPropsTest(
       <span />
     </Popover>
   ),
-  { findRootElements: () => document.querySelector('.ant-popover')! },
+  { findRootElements: () => document.querySelector('.g-popover')! },
 );

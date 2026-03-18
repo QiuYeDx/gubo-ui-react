@@ -96,21 +96,21 @@ describe('Anchor Render', () => {
         ]}
       />,
     );
-    expect(container.querySelectorAll<HTMLElement>('.ant-anchor .ant-anchor-link').length).toBe(5);
-    const linkTitles = Array.from(container.querySelector('.ant-anchor')?.childNodes ?? []).map(
-      (n) => (n as HTMLElement).querySelector<HTMLAnchorElement>('.ant-anchor-link-title'),
+    expect(container.querySelectorAll<HTMLElement>('.g-anchor .g-anchor-link').length).toBe(5);
+    const linkTitles = Array.from(container.querySelector('.g-anchor')?.childNodes ?? []).map((n) =>
+      (n as HTMLElement).querySelector<HTMLAnchorElement>('.g-anchor-link-title'),
     );
     expect(linkTitles[1]?.href).toContain('#anchor-demo-basic');
     expect(linkTitles[2]?.href).toContain('#anchor-demo-static');
     expect(linkTitles[3]?.href).toContain('#api');
     expect(
       container.querySelector<HTMLAnchorElement>(
-        '.ant-anchor .ant-anchor-link .ant-anchor-link .ant-anchor-link-title',
+        '.g-anchor .g-anchor-link .g-anchor-link .g-anchor-link-title',
       )?.href,
     ).toContain('#anchor-props');
     expect(
       container.querySelector<HTMLAnchorElement>(
-        '.ant-anchor .ant-anchor-link .ant-anchor-link .ant-anchor-link .ant-anchor-link-title',
+        '.g-anchor .g-anchor-link .g-anchor-link .g-anchor-link .g-anchor-link-title',
       )?.href,
     ).toContain('#link-props');
     expect(asFragment().firstChild).toMatchSnapshot();
@@ -126,9 +126,9 @@ describe('Anchor Render', () => {
         ]}
       />,
     );
-    expect(container.querySelectorAll<HTMLElement>('.ant-anchor .ant-anchor-link').length).toBe(3);
-    const linkTitles = Array.from(container.querySelector('.ant-anchor')?.childNodes ?? []).map(
-      (n) => (n as HTMLElement).querySelector<HTMLAnchorElement>('.ant-anchor-link-title'),
+    expect(container.querySelectorAll<HTMLElement>('.g-anchor .g-anchor-link').length).toBe(3);
+    const linkTitles = Array.from(container.querySelector('.g-anchor')?.childNodes ?? []).map((n) =>
+      (n as HTMLElement).querySelector<HTMLAnchorElement>('.g-anchor-link-title'),
     );
     expect(linkTitles[1]?.href).toContain('#anchor-demo-basic');
     expect(linkTitles[2]?.href).toContain('#anchor-demo-static');
@@ -150,9 +150,9 @@ describe('Anchor Render', () => {
         <Link href="#api" title="API" />
       </Anchor>,
     );
-    expect(container.querySelectorAll('.ant-anchor .ant-anchor-link').length).toBe(1);
+    expect(container.querySelectorAll('.g-anchor .g-anchor-link').length).toBe(1);
     expect(
-      (container.querySelector('.ant-anchor .ant-anchor-link-title') as HTMLAnchorElement).href,
+      (container.querySelector('.g-anchor .g-anchor-link-title') as HTMLAnchorElement).href,
     ).toContain('#anchor-demo-basic');
     expect(asFragment().firstChild).toMatchSnapshot();
   });
@@ -161,7 +161,7 @@ describe('Anchor Render', () => {
     const hash = getHashUrl();
     const { container } = render(
       <Anchor
-        prefixCls="ant-anchor"
+        prefixCls="g-anchor"
         direction="horizontal"
         items={[
           {
@@ -175,7 +175,7 @@ describe('Anchor Render', () => {
     const link = container.querySelector(`a[href="http://www.example.com/#${hash}"]`)!;
     fireEvent.click(link);
     await waitFakeTimer();
-    expect(link).toHaveClass('ant-anchor-link-title-active');
+    expect(link).toHaveClass('g-anchor-link-title-active');
   });
 
   it('scrolls the page when clicking a link', async () => {
@@ -232,11 +232,11 @@ describe('Anchor Render', () => {
       <Anchor items={[{ key: hash, href: `#${hash}`, title: hash }]} />,
     );
 
-    expect(container.querySelectorAll('.ant-anchor-link-title')).toHaveLength(1);
-    expect(container.querySelector('.ant-anchor-link-title')).toHaveAttribute('href', `#${hash}`);
+    expect(container.querySelectorAll('.g-anchor-link-title')).toHaveLength(1);
+    expect(container.querySelector('.g-anchor-link-title')).toHaveAttribute('href', `#${hash}`);
 
     rerender(<Anchor />);
-    expect(container.querySelector('.ant-anchor-link-title')).toBeFalsy();
+    expect(container.querySelector('.g-anchor-link-title')).toBeFalsy();
   });
 
   it('should update DOM when link href is changed', async () => {
@@ -463,7 +463,7 @@ describe('Anchor Render', () => {
 
     const link = container.querySelector(`a[href="nonexistent"]`)!;
     fireEvent.click(link);
-    expect(container.querySelector(`.ant-anchor-link-title-active`)?.textContent).toBe('title');
+    expect(container.querySelector(`.g-anchor-link-title-active`)?.textContent).toBe('title');
   });
 
   it('test edge case when getBoundingClientRect return zero size', async () => {
@@ -557,7 +557,7 @@ describe('Anchor Render', () => {
         />,
       );
 
-      expect(container.querySelector(`.ant-anchor-link-title-active`)?.textContent).toBe(hash2);
+      expect(container.querySelector(`.g-anchor-link-title-active`)?.textContent).toBe(hash2);
     });
 
     // https://github.com/ant-design/ant-design/issues/30584
@@ -620,9 +620,9 @@ describe('Anchor Render', () => {
         />
       );
       const { container, rerender } = render(<Demo current={hash1} />);
-      expect(container.querySelector(`.ant-anchor-link-title-active`)?.textContent).toBe(hash1);
+      expect(container.querySelector(`.g-anchor-link-title-active`)?.textContent).toBe(hash1);
       rerender(<Demo current={hash2} />);
-      expect(container.querySelector(`.ant-anchor-link-title-active`)?.textContent).toBe(hash2);
+      expect(container.querySelector(`.g-anchor-link-title-active`)?.textContent).toBe(hash2);
     });
 
     it('should render correctly when href is null', () => {
@@ -726,9 +726,9 @@ describe('Anchor Render', () => {
           ]}
         />,
       );
-      expect(container.querySelectorAll('.ant-anchor-ink').length).toBe(1);
-      expect(container.querySelector('.ant-anchor-wrapper')).toHaveClass(
-        'ant-anchor-wrapper-horizontal',
+      expect(container.querySelectorAll('.g-anchor-ink').length).toBe(1);
+      expect(container.querySelector('.g-anchor-wrapper')).toHaveClass(
+        'g-anchor-wrapper-horizontal',
       );
     });
 
@@ -767,7 +767,7 @@ describe('Anchor Render', () => {
           ]}
         />,
       );
-      expect(container.querySelectorAll('.ant-anchor-link').length).toBe(3);
+      expect(container.querySelectorAll('.g-anchor-link').length).toBe(3);
     });
 
     it('nested children via jsx should be filtered out when direction is horizontal', () => {
@@ -781,7 +781,7 @@ describe('Anchor Render', () => {
           </Link>
         </Anchor>,
       );
-      expect(container.querySelectorAll('.ant-anchor-link').length).toBe(3);
+      expect(container.querySelectorAll('.g-anchor-link').length).toBe(3);
     });
   });
 
@@ -799,14 +799,14 @@ describe('Anchor Render', () => {
     it('actives the target when clicking a link', async () => {
       const hash = getHashUrl();
       const { container } = render(
-        <Anchor prefixCls="ant-anchor">
+        <Anchor prefixCls="g-anchor">
           <Link href={`http://www.example.com/#${hash}`} title={hash} />
         </Anchor>,
       );
       const link = container.querySelector(`a[href="http://www.example.com/#${hash}"]`)!;
       fireEvent.click(link);
       await waitFakeTimer();
-      expect(link).toHaveClass('ant-anchor-link-title-active');
+      expect(link).toHaveClass('g-anchor-link-title-active');
     });
 
     it('scrolls the page when clicking a link', async () => {
@@ -864,11 +864,11 @@ describe('Anchor Render', () => {
         </Anchor>,
       );
 
-      expect(container.querySelectorAll('.ant-anchor-link-title')).toHaveLength(1);
-      expect(container.querySelector('.ant-anchor-link-title')).toHaveAttribute('href', `#${hash}`);
+      expect(container.querySelectorAll('.g-anchor-link-title')).toHaveLength(1);
+      expect(container.querySelector('.g-anchor-link-title')).toHaveAttribute('href', `#${hash}`);
 
       rerender(<Anchor />);
-      expect(container.querySelector('.ant-anchor-link-title')).toBeFalsy();
+      expect(container.querySelector('.g-anchor-link-title')).toBeFalsy();
     });
 
     it('should update DOM when link href is changed', async () => {
@@ -896,7 +896,7 @@ describe('Anchor Render', () => {
 
       const link = container.querySelector(`a[href="nonexistent"]`)!;
       fireEvent.click(link);
-      expect(container.querySelector(`.ant-anchor-link-title-active`)?.textContent).toBe('title');
+      expect(container.querySelector(`.g-anchor-link-title-active`)?.textContent).toBe('title');
     });
   });
 
@@ -1075,7 +1075,7 @@ describe('Anchor Render', () => {
       const { container, findByText } = await render(<Foo />);
       (await findByText('part-1')).click();
       await waitFakeTimer();
-      const inkElement = container.querySelector<HTMLSpanElement>('.ant-anchor-ink');
+      const inkElement = container.querySelector<HTMLSpanElement>('.g-anchor-ink');
       const toggleButton = container.querySelector<HTMLElement>('button');
 
       expect(toggleButton).toBeInTheDocument();

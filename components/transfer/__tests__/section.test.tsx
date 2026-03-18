@@ -8,7 +8,7 @@ import Section from '../Section';
 const listCommonProps: TransferListProps<KeyWiseTransferItem> = {
   classNames: {},
   styles: {},
-  prefixCls: 'ant-transfer',
+  prefixCls: 'g-transfer',
   dataSource: [
     { key: 'a', title: 'a' },
     { key: 'b', title: 'b' },
@@ -37,7 +37,7 @@ describe('Transfer.List', () => {
   it('should check top Checkbox while all available items are checked', () => {
     const { container } = render(<Section {...listCommonProps} checkedKeys={['a', 'b']} />);
     expect(
-      container.querySelector<HTMLInputElement>('.ant-transfer-list-header input[type="checkbox"]')
+      container.querySelector<HTMLInputElement>('.g-transfer-list-header input[type="checkbox"]')
         ?.checked,
     ).toBeTruthy();
   });
@@ -50,21 +50,21 @@ describe('Transfer.List', () => {
 
   it('Checkbox should disabled when dataSource is empty', () => {
     const { container } = render(<Section {...emptyListProps} />);
-    expect(container.querySelector<HTMLLabelElement>('label.ant-checkbox-wrapper')).toHaveClass(
-      'ant-checkbox-wrapper-disabled',
+    expect(container.querySelector<HTMLLabelElement>('label.g-checkbox-wrapper')).toHaveClass(
+      'g-checkbox-wrapper-disabled',
     );
-    expect(container.querySelector<HTMLSpanElement>('span.ant-checkbox')).toHaveClass(
-      'ant-checkbox-disabled',
+    expect(container.querySelector<HTMLSpanElement>('span.g-checkbox')).toHaveClass(
+      'g-checkbox-disabled',
     );
   });
 
   it('Checkbox should not disabled when dataSource not is empty', () => {
     const { container } = render(<Section {...listCommonProps} />);
-    expect(container.querySelector<HTMLLabelElement>('label.ant-checkbox-wrapper')).not.toHaveClass(
-      'ant-checkbox-wrapper-disabled',
+    expect(container.querySelector<HTMLLabelElement>('label.g-checkbox-wrapper')).not.toHaveClass(
+      'g-checkbox-wrapper-disabled',
     );
-    expect(container.querySelector<HTMLSpanElement>('span.ant-checkbox')).not.toHaveClass(
-      'ant-checkbox-disabled',
+    expect(container.querySelector<HTMLSpanElement>('span.g-checkbox')).not.toHaveClass(
+      'g-checkbox-disabled',
     );
   });
 
@@ -77,11 +77,11 @@ describe('Transfer.List', () => {
       })),
     };
     const { container } = render(<Section {...allDisabledListProps} />);
-    expect(container.querySelector<HTMLLabelElement>('label.ant-checkbox-wrapper')).toHaveClass(
-      'ant-checkbox-wrapper-disabled',
+    expect(container.querySelector<HTMLLabelElement>('label.g-checkbox-wrapper')).toHaveClass(
+      'g-checkbox-wrapper-disabled',
     );
-    expect(container.querySelector<HTMLSpanElement>('span.ant-checkbox')).toHaveClass(
-      'ant-checkbox-disabled',
+    expect(container.querySelector<HTMLSpanElement>('span.g-checkbox')).toHaveClass(
+      'g-checkbox-disabled',
     );
   });
 
@@ -94,7 +94,7 @@ describe('Transfer.List', () => {
     );
     expect(
       container?.querySelector<HTMLSpanElement>(
-        '.ant-transfer-section .ant-transfer-list-header .test-dropdown-icon',
+        '.g-transfer-section .g-transfer-list-header .test-dropdown-icon',
       ),
     ).toBeTruthy();
   });

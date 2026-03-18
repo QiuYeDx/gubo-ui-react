@@ -64,7 +64,7 @@ interface ProgressToken extends FullToken<'Progress'> {
 
 const genAntProgressActive = (isRtl?: boolean) => {
   const direction = isRtl ? '100%' : '-100%';
-  return new Keyframes(`antProgress${isRtl ? 'RTL' : 'LTR'}Active`, {
+  return new Keyframes(`gProgress${isRtl ? 'RTL' : 'LTR'}Active`, {
     '0%': {
       transform: `translateX(${direction}) scaleX(0)`,
       opacity: 0.1,

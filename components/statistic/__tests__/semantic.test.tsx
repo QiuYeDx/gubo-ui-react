@@ -58,12 +58,12 @@ describe('Statistic.Semantic', () => {
       <Statistic {...baseProps} classNames={fnClassNames} styles={fnStyles} />,
     );
 
-    const root = container.querySelector('.ant-statistic');
-    const header = container.querySelector('.ant-statistic-header');
-    const title = container.querySelector('.ant-statistic-title');
-    const content = container.querySelector('.ant-statistic-content');
-    const prefix = container.querySelector('.ant-statistic-content-prefix');
-    const suffix = container.querySelector('.ant-statistic-content-suffix');
+    const root = container.querySelector('.g-statistic');
+    const header = container.querySelector('.g-statistic-header');
+    const title = container.querySelector('.g-statistic-title');
+    const content = container.querySelector('.g-statistic-content');
+    const prefix = container.querySelector('.g-statistic-content-prefix');
+    const suffix = container.querySelector('.g-statistic-content-suffix');
 
     expect(root).toHaveClass('test-statistic-root-positive');
     expect(header).toHaveClass('test-statistic-header');

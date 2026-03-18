@@ -2,7 +2,7 @@
 
 exports[`Button fixbug renders {0} , 0 and {false} 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   0
@@ -11,7 +11,7 @@ exports[`Button fixbug renders {0} , 0 and {false} 1`] = `
 
 exports[`Button fixbug renders {0} , 0 and {false} 2`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -22,14 +22,14 @@ exports[`Button fixbug renders {0} , 0 and {false} 2`] = `
 
 exports[`Button fixbug renders {0} , 0 and {false} 3`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 />
 `;
 
 exports[`Button renders Chinese characters correctly 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -40,15 +40,15 @@ exports[`Button renders Chinese characters correctly 1`] = `
 
 exports[`Button renders Chinese characters correctly 2`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span
-    class="ant-btn-icon"
+    class="g-btn-icon"
   >
     <span
       aria-label="search"
-      class="anticon anticon-search"
+      class="gicon gicon-search"
       role="img"
     >
       <svg
@@ -74,12 +74,12 @@ exports[`Button renders Chinese characters correctly 2`] = `
 
 exports[`Button renders Chinese characters correctly 3`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span
     aria-label="search"
-    class="anticon anticon-search"
+    class="gicon gicon-search"
     role="img"
   >
     <svg
@@ -104,15 +104,15 @@ exports[`Button renders Chinese characters correctly 3`] = `
 
 exports[`Button renders Chinese characters correctly 4`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span
-    class="ant-btn-icon"
+    class="g-btn-icon"
   >
     <span
       aria-label="search"
-      class="anticon anticon-search"
+      class="gicon gicon-search"
       role="img"
     >
       <svg
@@ -138,15 +138,15 @@ exports[`Button renders Chinese characters correctly 4`] = `
 
 exports[`Button renders Chinese characters correctly 5`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-loading"
   type="button"
 >
   <span
-    class="ant-btn-icon ant-btn-loading-icon"
+    class="g-btn-icon g-btn-loading-icon"
   >
     <span
       aria-label="loading"
-      class="anticon anticon-loading anticon-spin"
+      class="gicon gicon-loading gicon-spin"
       role="img"
     >
       <svg
@@ -172,15 +172,15 @@ exports[`Button renders Chinese characters correctly 5`] = `
 
 exports[`Button renders Chinese characters correctly 6`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-loading"
   type="button"
 >
   <span
-    class="ant-btn-icon ant-btn-loading-icon"
+    class="g-btn-icon g-btn-loading-icon"
   >
     <span
       aria-label="loading"
-      class="anticon anticon-loading anticon-spin"
+      class="gicon gicon-loading gicon-spin"
       role="img"
     >
       <svg
@@ -206,7 +206,7 @@ exports[`Button renders Chinese characters correctly 6`] = `
 
 exports[`Button renders Chinese characters correctly 7`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -217,7 +217,7 @@ exports[`Button renders Chinese characters correctly 7`] = `
 
 exports[`Button renders correctly 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -228,52 +228,52 @@ exports[`Button renders correctly 1`] = `
 
 exports[`Button rtl render component should be rendered correctly in RTL direction 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-rtl"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-rtl"
   type="button"
 />
 `;
 
 exports[`Button rtl render component should be rendered correctly in RTL direction 2`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-rtl"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-rtl"
   type="button"
 />
 `;
 
 exports[`Button rtl render component should be rendered correctly in RTL direction 3`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-btn-rtl"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-btn-rtl"
   type="button"
 />
 `;
 
 exports[`Button rtl render component should be rendered correctly in RTL direction 4`] = `
 <div
-  class="ant-btn-group ant-btn-group-rtl"
+  class="g-btn-group g-btn-group-rtl"
 />
 `;
 
 exports[`Button rtl render component should be rendered correctly in RTL direction 5`] = `
 <div
-  class="ant-btn-group ant-btn-group-lg ant-btn-group-rtl"
+  class="g-btn-group g-btn-group-lg g-btn-group-rtl"
 />
 `;
 
 exports[`Button rtl render component should be rendered correctly in RTL direction 6`] = `
 <div
-  class="ant-btn-group ant-btn-group-sm ant-btn-group-rtl"
+  class="g-btn-group g-btn-group-sm g-btn-group-rtl"
 />
 `;
 
 exports[`Button rtl render component should be rendered correctly in RTL direction 7`] = `
 <div
-  class="ant-btn-group ant-btn-group-rtl"
+  class="g-btn-group g-btn-group-rtl"
 />
 `;
 
 exports[`Button should handle fragment as children 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -284,7 +284,7 @@ exports[`Button should handle fragment as children 1`] = `
 
 exports[`Button should merge text if children using variable 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -295,7 +295,7 @@ exports[`Button should merge text if children using variable 1`] = `
 
 exports[`Button should not render as link button when href is undefined 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -306,7 +306,7 @@ exports[`Button should not render as link button when href is undefined 1`] = `
 
 exports[`Button should render empty button without errors 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 />
 `;
@@ -314,15 +314,15 @@ exports[`Button should render empty button without errors 1`] = `
 exports[`Button should support custom icon className 1`] = `
 <div>
   <button
-    class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only"
+    class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only"
     type="button"
   >
     <span
-      class="ant-btn-icon custom-icon"
+      class="g-btn-icon custom-icon"
     >
       <span
         aria-label="search"
-        class="anticon anticon-search"
+        class="gicon gicon-search"
         role="img"
       >
         <svg
@@ -347,16 +347,16 @@ exports[`Button should support custom icon className 1`] = `
 exports[`Button should support custom icon styles 1`] = `
 <div>
   <button
-    class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only"
+    class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
       style="color: rgb(255, 0, 0);"
     >
       <span
         aria-label="search"
-        class="anticon anticon-search"
+        class="gicon gicon-search"
         role="img"
       >
         <svg
@@ -381,7 +381,7 @@ exports[`Button should support custom icon styles 1`] = `
 exports[`Button should support link button 1`] = `
 <a
   aria-disabled="false"
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   href="https://ant.design"
   tabindex="0"
   target="_blank"

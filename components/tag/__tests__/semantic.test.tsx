@@ -33,7 +33,7 @@ describe('Tag.Semantic', () => {
       </Tag>,
     );
 
-    const tagElement = container.querySelector('.ant-tag');
+    const tagElement = container.querySelector('.g-tag');
     const iconElement = container.querySelector('.custom-tag-icon');
     const contentElement = container.querySelector('.custom-tag-content');
 
@@ -85,7 +85,7 @@ describe('Tag.Semantic', () => {
       </Tag>,
     );
 
-    const tagElement = container.querySelector('.ant-tag');
+    const tagElement = container.querySelector('.g-tag');
     const iconElement = container.querySelector('.icon-blue');
     const contentElement = container.querySelector('.content-enabled');
 
@@ -121,13 +121,13 @@ describe('Tag.Semantic', () => {
       />,
     );
 
-    expect(container.querySelector('.ant-tag-checkable-group')).toHaveClass('customize-root');
-    expect(container.querySelector('.ant-tag-checkable-group')).toHaveStyle({
+    expect(container.querySelector('.g-tag-checkable-group')).toHaveClass('customize-root');
+    expect(container.querySelector('.g-tag-checkable-group')).toHaveStyle({
       backgroundColor: 'rgb(0, 255, 0)',
     });
 
-    expect(container.querySelector('.ant-tag-checkable')).toHaveClass('customize-item');
-    expect(container.querySelector('.ant-tag-checkable')).toHaveStyle({
+    expect(container.querySelector('.g-tag-checkable')).toHaveClass('customize-item');
+    expect(container.querySelector('.g-tag-checkable')).toHaveStyle({
       color: 'rgb(255, 0, 0)',
     });
   });
@@ -155,8 +155,8 @@ describe('Tag.Semantic', () => {
       />,
     );
 
-    const groupElement = container.querySelector('.ant-tag-checkable-group');
-    const itemElements = container.querySelectorAll('.ant-tag-checkable');
+    const groupElement = container.querySelector('.g-tag-checkable-group');
+    const itemElements = container.querySelectorAll('.g-tag-checkable');
 
     expect(groupElement).toHaveClass('multiple-group');
     expect(groupElement).toHaveAttribute('style');

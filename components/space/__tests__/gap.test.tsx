@@ -16,11 +16,11 @@ describe('flex gap', () => {
         <span />
       </Space>,
     );
-    expect(container.querySelector<HTMLDivElement>('div.ant-space')).toHaveClass(
-      'ant-space-gap-row-small',
+    expect(container.querySelector<HTMLDivElement>('div.g-space')).toHaveClass(
+      'g-space-gap-row-small',
     );
-    expect(container.querySelector<HTMLDivElement>('div.ant-space')).toHaveClass(
-      'ant-space-gap-col-small',
+    expect(container.querySelector<HTMLDivElement>('div.g-space')).toHaveClass(
+      'g-space-gap-col-small',
     );
   });
 
@@ -30,7 +30,7 @@ describe('flex gap', () => {
         <span>test</span>
       </Space>,
     );
-    const element = container.querySelector<HTMLDivElement>('div.ant-space');
+    const element = container.querySelector<HTMLDivElement>('div.g-space');
     expect(element).toHaveStyle({ rowGap: '10px', columnGap: '10px' });
   });
 

@@ -15,6 +15,6 @@ rootPropsTest(
     </Popconfirm>
   ),
   {
-    findRootElements: () => document.querySelector('.ant-popover')!,
+    findRootElements: () => document.querySelector('.g-popover')!,
   },
 );

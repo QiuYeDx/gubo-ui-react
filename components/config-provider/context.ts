@@ -68,9 +68,9 @@ import type { TreeSelectProps } from '../tree-select';
 import type { UploadProps } from '../upload';
 import type { RenderEmptyHandler } from './defaultRenderEmpty';
 
-export const defaultPrefixCls = 'ant';
+export const defaultPrefixCls = 'g';
 
-export const defaultIconPrefixCls = 'anticon';
+export const defaultIconPrefixCls = 'gicon';
 
 export interface Theme {
   primaryColor?: string;
@@ -133,7 +133,7 @@ export interface ThemeConfig {
     /**
      * @descCN css 变量的前缀
      * @descEN Prefix for css variable.
-     * @default ant
+     * @default g
      */
     prefix?: string;
     /**

@@ -115,7 +115,7 @@ const App: React.FC = () => {
                 ))}
               </Flex>
             ) : (
-              <Typography.Text className="ant-form-text" type="secondary">
+              <Typography.Text className="g-form-text" type="secondary">
                 ( <SmileOutlined /> No user yet. )
               </Typography.Text>
             );

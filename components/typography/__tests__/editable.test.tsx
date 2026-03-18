@@ -56,7 +56,7 @@ describe('Typography.Editable', () => {
       </Base>,
     );
 
-    fireEvent.click(wrapper.querySelector('.ant-typography-edit')!);
+    fireEvent.click(wrapper.querySelector('.g-typography-edit')!);
 
     expect(wrapper.querySelector('textarea')?.textContent).toEqual(fullStr + suffix);
 
@@ -72,7 +72,7 @@ describe('Typography.Editable', () => {
       </Base>,
     );
 
-    fireEvent.click(wrapper.querySelector('.ant-typography-edit')!);
+    fireEvent.click(wrapper.querySelector('.g-typography-edit')!);
 
     expect(wrapper.querySelector('textarea')?.textContent).toEqual(fullStr);
 
@@ -81,25 +81,25 @@ describe('Typography.Editable', () => {
 
   it('dynamic set editable', () => {
     const { container, rerender } = render(<Base component="p">test</Base>);
-    expect(container.querySelector('.ant-typography-edit')).toBeFalsy();
+    expect(container.querySelector('.g-typography-edit')).toBeFalsy();
 
     rerender(
       <Base component="p" editable>
         test
       </Base>,
     );
-    expect(container.querySelector('.ant-typography-edit')).toBeTruthy();
+    expect(container.querySelector('.g-typography-edit')).toBeTruthy();
   });
 
   it('tabIndex of edit button', () => {
     const { container, rerender } = render(<Base component="p">test</Base>);
-    expect(container.querySelector('.ant-typography-edit')).toBeFalsy();
+    expect(container.querySelector('.g-typography-edit')).toBeFalsy();
 
     rerender(
       <Base component="p" editable={{ tabIndex: -1 }}>
         test
       </Base>,
     );
-    expect(container.querySelector('.ant-typography-edit')?.getAttribute('tabIndex')).toBe('-1');
+    expect(container.querySelector('.g-typography-edit')?.getAttribute('tabIndex')).toBe('-1');
   });
 });

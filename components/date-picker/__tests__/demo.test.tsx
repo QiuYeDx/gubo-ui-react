@@ -6,7 +6,7 @@ import demoTest, { rootPropsTest } from '../../../tests/shared/demoTest';
 demoTest('date-picker', { skip: ['locale.tsx', 'component-token.tsx'], testRootProps: false });
 
 rootPropsTest('date-picker', (DatePicker, props) => <DatePicker {...props} value={dayjs()} />, {
-  findRootElements: () => document.querySelectorAll('.ant-picker, .ant-picker-dropdown'),
+  findRootElements: () => document.querySelectorAll('.g-picker, .g-picker-dropdown'),
   expectCount: 2,
 });
 
@@ -14,7 +14,7 @@ rootPropsTest(
   ['date-picker', 'RangePicker'],
   (DatePicker, props) => <DatePicker.RangePicker {...props} value={dayjs()} />,
   {
-    findRootElements: () => document.querySelectorAll('.ant-picker-range, .ant-picker-dropdown'),
+    findRootElements: () => document.querySelectorAll('.g-picker-range, .g-picker-dropdown'),
     expectCount: 2,
   },
 );

@@ -380,7 +380,7 @@ const InternalCompoundedButton = React.forwardRef<
       [`${prefixCls}-dangerous`]: danger,
 
       [`${prefixCls}-color-${mergedColorText}`]: mergedColorText,
-      [`${prefixCls}-variant-${mergedVariant}`]: mergedVariant,
+      [`${prefixCls}-varig-${mergedVariant}`]: mergedVariant,
       [`${prefixCls}-lg`]: sizeFullName === 'large',
       [`${prefixCls}-sm`]: sizeFullName === 'small',
       [`${prefixCls}-icon-only`]: !children && children !== 0 && !!iconType,

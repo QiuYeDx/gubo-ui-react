@@ -25,17 +25,17 @@ describe('Transfer.Semantic', () => {
     };
 
     const semanticsStructure: Record<string, [selector: string, count: number]> = {
-      root: ['.ant-transfer', 1],
-      section: ['.ant-transfer-section', 2],
-      header: ['.ant-transfer-list-header', 2],
-      title: ['.ant-transfer-list-title', 2],
-      body: ['.ant-transfer-list-body', 2],
-      list: ['.ant-transfer-list-content', 2],
-      item: ['.ant-transfer-list-item', mockData.length],
-      itemIcon: ['.ant-transfer-list-item-icon', mockData.length],
-      itemContent: ['.ant-transfer-list-item-content', mockData.length],
-      footer: ['.ant-transfer-list-footer', 2],
-      actions: ['.ant-transfer-action', 1],
+      root: ['.g-transfer', 1],
+      section: ['.g-transfer-section', 2],
+      header: ['.g-transfer-list-header', 2],
+      title: ['.g-transfer-list-title', 2],
+      body: ['.g-transfer-list-body', 2],
+      list: ['.g-transfer-list-content', 2],
+      item: ['.g-transfer-list-item', mockData.length],
+      itemIcon: ['.g-transfer-list-item-icon', mockData.length],
+      itemContent: ['.g-transfer-list-item-content', mockData.length],
+      footer: ['.g-transfer-list-footer', 2],
+      actions: ['.g-transfer-action', 1],
     };
 
     const styles = {

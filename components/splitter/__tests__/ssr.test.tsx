@@ -27,11 +27,11 @@ describe('Splitter.SSR', () => {
     div.innerHTML = str;
     document.body.appendChild(div);
 
-    expect(div.querySelectorAll('.ant-splitter-panel')[0]).toHaveStyle({
+    expect(div.querySelectorAll('.g-splitter-panel')[0]).toHaveStyle({
       flexBasis: '23px',
       flexGrow: '0',
     });
-    expect(div.querySelectorAll('.ant-splitter-panel')[1]).toHaveStyle({
+    expect(div.querySelectorAll('.g-splitter-panel')[1]).toHaveStyle({
       flexBasis: 'auto',
       flexGrow: '1',
     });
@@ -49,11 +49,11 @@ describe('Splitter.SSR', () => {
     div.innerHTML = str;
     document.body.appendChild(div);
 
-    expect(div.querySelectorAll('.ant-splitter-panel')[0]).toHaveStyle({
+    expect(div.querySelectorAll('.g-splitter-panel')[0]).toHaveStyle({
       flexBasis: '33%',
       flexGrow: '0',
     });
-    expect(div.querySelectorAll('.ant-splitter-panel')[1]).toHaveStyle({
+    expect(div.querySelectorAll('.g-splitter-panel')[1]).toHaveStyle({
       flexBasis: 'auto',
       flexGrow: '1',
     });

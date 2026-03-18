@@ -17,8 +17,8 @@ describe('Popover.Semantic', () => {
       </Popover>,
     );
 
-    const popoverElement = container.querySelector('.ant-popover');
-    const contentElement = container.querySelector('.ant-popover-container');
+    const popoverElement = container.querySelector('.g-popover');
+    const contentElement = container.querySelector('.g-popover-container');
 
     expect(popoverElement).toHaveClass('custom-root');
     expect(contentElement).toHaveClass('custom-container');
@@ -46,8 +46,8 @@ describe('Popover.Semantic', () => {
       </Popover>,
     );
 
-    const popoverElement = container.querySelector('.ant-popover');
-    const contentElement = container.querySelector('.ant-popover-container');
+    const popoverElement = container.querySelector('.g-popover');
+    const contentElement = container.querySelector('.g-popover-container');
 
     expect(popoverElement).toHaveClass('top-root');
     expect(contentElement).toHaveClass('custom-container');

@@ -2,13 +2,13 @@
 
 exports[`Checkbox rtl render component should be rendered correctly in RTL direction 1`] = `
 <label
-  class="ant-checkbox-wrapper ant-checkbox-rtl css-var-root ant-checkbox-css-var"
+  class="g-checkbox-wrapper g-checkbox-rtl css-var-root g-checkbox-css-var"
 >
   <span
-    class="ant-checkbox ant-wave-target"
+    class="g-checkbox g-wave-target"
   >
     <input
-      class="ant-checkbox-input"
+      class="g-checkbox-input"
       type="checkbox"
     />
   </span>

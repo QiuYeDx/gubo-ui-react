@@ -51,13 +51,13 @@ describe('MonthPicker and WeekPicker', () => {
   it('render MonthPicker', () => {
     const birthday = dayjs('2000-01-01', 'YYYY-MM-DD').locale('zh-cn');
     const { container } = render(<MonthPicker open value={birthday} />);
-    expect(container.querySelector('div.ant-picker-dropdown')?.parentNode).toMatchSnapshot();
+    expect(container.querySelector('div.g-picker-dropdown')?.parentNode).toMatchSnapshot();
   });
 
   it('render WeekPicker', () => {
     const birthday = dayjs('2000-01-01', 'YYYY-MM-DD').locale('zh-cn');
     const { container } = render(<WeekPicker open value={birthday} />);
-    expect(container.querySelector('div.ant-picker-dropdown')?.parentNode).toMatchSnapshot();
+    expect(container.querySelector('div.g-picker-dropdown')?.parentNode).toMatchSnapshot();
   });
 });
 

@@ -394,7 +394,7 @@ describe('Upload', () => {
     const { container: wrapper } = render(
       <Upload fileList={fileList as UploadProps['fileList']} />,
     );
-    const linkNode = wrapper.querySelector('a.ant-upload-list-item-name');
+    const linkNode = wrapper.querySelector('a.g-upload-list-item-name');
     expect(linkNode?.getAttribute('download')).toBe('image');
     expect(linkNode?.getAttribute('rel')).toBe('noopener');
   });
@@ -416,7 +416,7 @@ describe('Upload', () => {
     const { container: wrapper } = render(
       <Upload fileList={fileList as UploadProps['fileList']} />,
     );
-    const linkNode = wrapper.querySelector('a.ant-upload-list-item-name');
+    const linkNode = wrapper.querySelector('a.g-upload-list-item-name');
     expect(linkNode?.getAttribute('download')).toBe('image');
     expect(linkNode?.getAttribute('rel')).toBe('noopener');
   });
@@ -437,7 +437,7 @@ describe('Upload', () => {
 
     const { container: wrapper } = render(<Upload {...props} />);
 
-    fireEvent.click(wrapper.querySelector('div.ant-upload-list-item .anticon-delete')!);
+    fireEvent.click(wrapper.querySelector('div.g-upload-list-item .gicon-delete')!);
 
     await waitFakeTimer();
 
@@ -471,7 +471,7 @@ describe('Upload', () => {
         onRemove={onRemove}
       />,
     );
-    fireEvent.click(container.querySelector('div.ant-upload-list-item .anticon-delete')!);
+    fireEvent.click(container.querySelector('div.g-upload-list-item .gicon-delete')!);
 
     // Delay return true for remove
     await waitFakeTimer();
@@ -502,7 +502,7 @@ describe('Upload', () => {
 
     const { container: wrapper } = render(<Upload {...props} onDownload={() => {}} />);
 
-    fireEvent.click(wrapper.querySelector('div.ant-upload-list-item .anticon-download')!);
+    fireEvent.click(wrapper.querySelector('div.g-upload-list-item .gicon-download')!);
 
     await waitFakeTimer();
     expect(props.fileList).toHaveLength(1);
@@ -527,7 +527,7 @@ describe('Upload', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.querySelectorAll('.ant-upload-drag-uploading').length).toBe(1);
+    expect(wrapper.querySelectorAll('.g-upload-drag-uploading').length).toBe(1);
   });
 
   it('return when targetItem is null', () => {
@@ -610,11 +610,11 @@ describe('Upload', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    fireEvent.click(wrapper.querySelectorAll('.ant-upload')[1]);
+    fireEvent.click(wrapper.querySelectorAll('.g-upload')[1]);
     expect(onClick).toHaveBeenCalled();
-    fireEvent.mouseEnter(wrapper.querySelectorAll('.ant-upload')[1]);
+    fireEvent.mouseEnter(wrapper.querySelectorAll('.g-upload')[1]);
     expect(onMouseEnter).toHaveBeenCalled();
-    fireEvent.mouseLeave(wrapper.querySelectorAll('.ant-upload')[1]);
+    fireEvent.mouseLeave(wrapper.querySelectorAll('.g-upload')[1]);
     expect(onMouseLeave).toHaveBeenCalled();
   });
 
@@ -799,7 +799,7 @@ describe('Upload', () => {
       );
 
       // Click delete
-      fireEvent.click(container.querySelector('.ant-upload-list-item-action')!);
+      fireEvent.click(container.querySelector('.g-upload-list-item-action')!);
 
       await waitFakeTimer();
 
@@ -846,7 +846,7 @@ describe('Upload', () => {
         </Upload>,
       );
 
-      fireEvent.click(container.querySelector('.ant-upload-list-item-action')!);
+      fireEvent.click(container.querySelector('.g-upload-list-item-action')!);
       await waitFakeTimer();
       // Click delete
 
@@ -920,7 +920,7 @@ describe('Upload', () => {
     const { container: wrapper } = render(
       <Upload fileList={frozenFileList as unknown as UploadProps['fileList']} />,
     );
-    const rmBtn = wrapper.querySelectorAll('.ant-upload-list-item-action');
+    const rmBtn = wrapper.querySelectorAll('.g-upload-list-item-action');
     fireEvent.click(rmBtn[rmBtn.length - 1]);
 
     // Wait for Upload async remove
@@ -960,25 +960,25 @@ describe('Upload', () => {
     );
 
     rerender(<Upload listType="picture-card" />);
-    expect(container.querySelector('.ant-upload-select')).toHaveClass(
-      'ant-upload-animate-inline-leave-start',
+    expect(container.querySelector('.g-upload-select')).toHaveClass(
+      'g-upload-animate-inline-leave-start',
     );
-    expect(container.querySelector('.ant-upload-select')).toHaveStyle({
+    expect(container.querySelector('.g-upload-select')).toHaveStyle({
       pointerEvents: 'none',
     });
 
     // Motion leave status change: start > active
     await waitFakeTimer();
 
-    fireEvent.animationEnd(container.querySelector('.ant-upload-select')!);
-    expect(container.querySelector('.ant-upload-select')).not.toHaveClass(
-      'ant-upload-animate-inline-leave-start',
+    fireEvent.animationEnd(container.querySelector('.g-upload-select')!);
+    expect(container.querySelector('.g-upload-select')).not.toHaveClass(
+      'g-upload-animate-inline-leave-start',
     );
   });
 
   it('<Upload /> should pass <UploadList /> prefixCls', async () => {
     const { container: wrapper } = render(<Upload />);
-    expect(wrapper.querySelectorAll('.ant-upload-list').length).toBeGreaterThan(0);
+    expect(wrapper.querySelectorAll('.g-upload-list').length).toBeGreaterThan(0);
 
     const { container: wrapper2 } = render(<Upload prefixCls="custom-upload" />);
     expect(wrapper2.querySelectorAll('.custom-upload-list').length).toBeGreaterThan(0);
@@ -1118,7 +1118,7 @@ describe('Upload', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    const normalEl = normalContainer.querySelector('.ant-upload');
+    const normalEl = normalContainer.querySelector('.g-upload');
     expect(normalEl).toBeTruthy();
     expect(normalEl).toHaveStyle({ background: 'rgb(255, 0, 0)' });
 
@@ -1128,7 +1128,7 @@ describe('Upload', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    const dragEl = dragContainer.querySelector('.ant-upload-drag');
+    const dragEl = dragContainer.querySelector('.g-upload-drag');
     expect(dragEl).toBeTruthy();
     expect(dragEl).toHaveStyle({ background: 'rgb(0, 128, 0)' });
 
@@ -1138,7 +1138,7 @@ describe('Upload', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    const pictureCardEl = pictureCardContainer.querySelector('.ant-upload');
+    const pictureCardEl = pictureCardContainer.querySelector('.g-upload');
     expect(pictureCardEl).toBeTruthy();
     expect(pictureCardEl).toHaveStyle({ background: 'rgb(0, 0, 255)' });
 
@@ -1148,7 +1148,7 @@ describe('Upload', () => {
         <button type="button">upload</button>
       </Upload.Dragger>,
     );
-    const draggerEl = draggerContainer.querySelector('.ant-upload-drag');
+    const draggerEl = draggerContainer.querySelector('.g-upload-drag');
     expect(draggerEl).toBeTruthy();
     expect(draggerEl).toHaveStyle({ background: 'rgb(255, 255, 0)' });
   });

@@ -12,7 +12,7 @@ describe('QRCode test', () => {
 
   it('should correct render', () => {
     const { container } = render(<QRCode value="test" />);
-    expect(container?.querySelector<HTMLCanvasElement>('.ant-qrcode canvas')).toBeTruthy();
+    expect(container?.querySelector<HTMLCanvasElement>('.g-qrcode canvas')).toBeTruthy();
     expect(container).toMatchSnapshot();
   });
 
@@ -27,12 +27,12 @@ describe('QRCode test', () => {
 
   it('support custom icon', () => {
     const { container } = render(<QRCode value="test" icon="test" />);
-    expect(container?.querySelector<HTMLImageElement>('.ant-qrcode img')).toBeTruthy();
+    expect(container?.querySelector<HTMLImageElement>('.g-qrcode img')).toBeTruthy();
   });
 
   it('support custom size', () => {
     const { container } = render(<QRCode value="test" size={100} />);
-    const canvas = container.querySelector<HTMLCanvasElement>('.ant-qrcode > canvas')!;
+    const canvas = container.querySelector<HTMLCanvasElement>('.g-qrcode > canvas')!;
     expect(canvas.width).toBe(100);
     expect(canvas.height).toBe(100);
   });
@@ -40,16 +40,14 @@ describe('QRCode test', () => {
   it('support refresh', () => {
     const refresh = jest.fn();
     const { container } = render(<QRCode value="test" status="expired" onRefresh={refresh} />);
-    fireEvent.click(
-      container?.querySelector<HTMLButtonElement>('.ant-qrcode button.ant-btn-link')!,
-    );
+    fireEvent.click(container?.querySelector<HTMLButtonElement>('.g-qrcode button.g-btn-link')!);
     expect(refresh).toHaveBeenCalled();
   });
 
   it('support click', () => {
     const handleClick = jest.fn();
     const { container } = render(<QRCode value="test" onClick={handleClick} />);
-    fireEvent.click(container?.querySelector<HTMLDivElement>('.ant-qrcode')!);
+    fireEvent.click(container?.querySelector<HTMLDivElement>('.g-qrcode')!);
     expect(handleClick).toHaveBeenCalled();
   });
 
@@ -66,15 +64,15 @@ describe('QRCode test', () => {
       );
     };
     const { container } = render(<Demo />);
-    expect(container.querySelector<HTMLDivElement>('.ant-spin-spinning')).toBeFalsy();
+    expect(container.querySelector<HTMLDivElement>('.g-spin-spinning')).toBeFalsy();
     fireEvent.click(container?.querySelector<HTMLButtonElement>('button')!);
-    expect(container.querySelector<HTMLDivElement>('.ant-spin-spinning')).toBeTruthy();
+    expect(container.querySelector<HTMLDivElement>('.g-spin-spinning')).toBeTruthy();
   });
 
   it('support bordered', () => {
     const { container } = render(<QRCode value="test" bordered={false} />);
-    expect(container?.querySelector<HTMLDivElement>('.ant-qrcode')).toHaveClass(
-      'ant-qrcode-borderless',
+    expect(container?.querySelector<HTMLDivElement>('.g-qrcode')).toHaveClass(
+      'g-qrcode-borderless',
     );
   });
 
@@ -91,10 +89,10 @@ describe('QRCode test', () => {
     const { container } = render(
       <QRCode value="test" size={60} style={{ width: '100%', height: '80%' }} />,
     );
-    expect(container.querySelector<HTMLElement>('.ant-qrcode')).toHaveStyle(
+    expect(container.querySelector<HTMLElement>('.g-qrcode')).toHaveStyle(
       'width: 100%; height: 80%;',
     );
-    expect(container.querySelector<HTMLElement>('.ant-qrcode canvas')).toHaveStyle(
+    expect(container.querySelector<HTMLElement>('.g-qrcode canvas')).toHaveStyle(
       'width: 100%; height: 80%;',
     );
   });
@@ -158,7 +156,7 @@ describe('QRCode test', () => {
 
   it('should pass aria and data props to qrcode element', () => {
     const { container } = render(<QRCode value="test" aria-label="Test QR Code" />);
-    const qrcodeElement = container.querySelector('.ant-qrcode canvas');
+    const qrcodeElement = container.querySelector('.g-qrcode canvas');
     expect(qrcodeElement).toHaveAttribute('aria-label', 'Test QR Code');
   });
 
@@ -171,7 +169,7 @@ describe('QRCode test', () => {
       />,
     );
 
-    const qrcodeElement = container.querySelector('.ant-qrcode canvas');
+    const qrcodeElement = container.querySelector('.g-qrcode canvas');
     expect(qrcodeElement).toHaveAttribute('aria-label', 'Test QR Code');
     expect(qrcodeElement).not.toHaveAttribute('title', 'qr-title');
   });

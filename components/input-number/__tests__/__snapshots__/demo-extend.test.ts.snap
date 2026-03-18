@@ -2,43 +2,43 @@
 
 exports[`renders components/input-number/demo/addon.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined g-input-number-addon css-var-test-id"
       >
         +
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-outlined"
       >
         <input
           aria-valuenow="100"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           role="spinbutton"
           step="1"
           value="100"
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -59,13 +59,13 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -86,27 +86,27 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-outlined ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-outlined g-input-number-addon css-var-test-id"
       >
         $
       </div>
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined g-input-number-addon css-var-test-id"
       >
         <div
-          class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+          class="g-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
           style="width: 60px;"
         >
           <div
-            class="ant-select-content ant-select-content-has-value"
+            class="g-select-content g-select-content-has-value"
             title="+"
           >
             +
@@ -115,7 +115,7 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               readonly=""
               role="combobox"
@@ -124,11 +124,11 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
             />
           </div>
           <div
-            class="ant-select-suffix"
+            class="g-select-suffix"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -148,7 +148,7 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
           </div>
         </div>
         <div
-          class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-placement-bottomLeft"
+          class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-placement-bottomLeft"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div>
@@ -189,34 +189,34 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
                   >
                     <div
                       aria-disabled="false"
-                      class="ant-select-item ant-select-item-option ant-select-item-option-active ant-select-item-option-selected"
+                      class="g-select-item g-select-item-option g-select-item-option-active g-select-item-option-selected"
                       title="+"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="g-select-item-option-content"
                       >
                         +
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="g-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
                     </div>
                     <div
                       aria-disabled="false"
-                      class="ant-select-item ant-select-item-option"
+                      class="g-select-item g-select-item-option"
                       title="-"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="g-select-item-option-content"
                       >
                         -
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="g-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
@@ -229,29 +229,29 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-outlined"
       >
         <input
           aria-valuenow="100"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           role="spinbutton"
           step="1"
           value="100"
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -272,13 +272,13 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -299,14 +299,14 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-outlined ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-outlined g-input-number-addon css-var-test-id"
       >
         <div
-          class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-last-item css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+          class="g-select g-select-outlined g-select-compact-item g-select-compact-last-item css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
           style="width: 60px;"
         >
           <div
-            class="ant-select-content ant-select-content-has-value"
+            class="g-select-content g-select-content-has-value"
             title="$"
           >
             $
@@ -315,7 +315,7 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               readonly=""
               role="combobox"
@@ -324,11 +324,11 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
             />
           </div>
           <div
-            class="ant-select-suffix"
+            class="g-select-suffix"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -348,7 +348,7 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
           </div>
         </div>
         <div
-          class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-placement-bottomLeft"
+          class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-placement-bottomLeft"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div>
@@ -389,68 +389,68 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
                   >
                     <div
                       aria-disabled="false"
-                      class="ant-select-item ant-select-item-option ant-select-item-option-active ant-select-item-option-selected"
+                      class="g-select-item g-select-item-option g-select-item-option-active g-select-item-option-selected"
                       title="$"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="g-select-item-option-content"
                       >
                         $
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="g-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
                     </div>
                     <div
                       aria-disabled="false"
-                      class="ant-select-item ant-select-item-option"
+                      class="g-select-item g-select-item-option"
                       title="€"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="g-select-item-option-content"
                       >
                         €
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="g-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
                     </div>
                     <div
                       aria-disabled="false"
-                      class="ant-select-item ant-select-item-option"
+                      class="g-select-item g-select-item-option"
                       title="£"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="g-select-item-option-content"
                       >
                         £
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="g-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
                     </div>
                     <div
                       aria-disabled="false"
-                      class="ant-select-item ant-select-item-option"
+                      class="g-select-item g-select-item-option"
                       title="¥"
                     >
                       <div
-                        class="ant-select-item-option-content"
+                        class="g-select-item-option-content"
                       >
                         ¥
                       </div>
                       <span
                         aria-hidden="true"
-                        class="ant-select-item-option-state"
+                        class="g-select-item-option-state"
                         style="user-select: none;"
                         unselectable="on"
                       />
@@ -465,35 +465,35 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-first-item ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-first-item g-input-number-outlined"
       >
         <input
           aria-valuenow="100"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           role="spinbutton"
           step="1"
           value="100"
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -514,13 +514,13 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -541,11 +541,11 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-outlined ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-outlined g-input-number-addon css-var-test-id"
       >
         <span
           aria-label="setting"
-          class="anticon anticon-setting"
+          class="gicon gicon-setting"
           role="img"
         >
           <svg
@@ -566,23 +566,23 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined g-input-number-addon css-var-test-id"
       >
         <div
-          class="ant-select ant-cascader ant-select-outlined ant-select-compact-item ant-select-compact-first-item ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+          class="g-select g-cascader g-select-outlined g-select-compact-item g-select-compact-first-item g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
           style="width: 150px;"
         >
           <div
-            class="ant-select-content"
+            class="g-select-content"
           >
             <div
-              class="ant-select-placeholder"
+              class="g-select-placeholder"
               style="visibility: visible;"
             >
               cascader
@@ -592,7 +592,7 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               readonly=""
               role="combobox"
@@ -601,11 +601,11 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
             />
           </div>
           <div
-            class="ant-select-suffix"
+            class="g-select-suffix"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -625,31 +625,31 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
           </div>
         </div>
         <div
-          class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+          class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div>
             <div
-              class="ant-cascader-menus ant-cascader-menu-empty"
+              class="g-cascader-menus g-cascader-menu-empty"
             >
               <ul
-                class="ant-cascader-menu"
+                class="g-cascader-menu"
                 role="menu"
               >
                 <li
                   aria-checked="false"
-                  class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+                  class="g-cascader-menu-item g-cascader-menu-item-disabled"
                   data-path-key="__EMPTY__"
                   role="menuitemcheckbox"
                 >
                   <div
-                    class="ant-cascader-menu-item-content"
+                    class="g-cascader-menu-item-content"
                   >
                     <div
-                      class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                      class="css-var-test-id g-empty g-empty-normal g-empty-small"
                     >
                       <div
-                        class="ant-empty-image"
+                        class="g-empty-image"
                       >
                         <svg
                           height="41"
@@ -688,7 +688,7 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
                         </svg>
                       </div>
                       <div
-                        class="ant-empty-description"
+                        class="g-empty-description"
                       >
                         No data
                       </div>
@@ -701,29 +701,29 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-outlined"
       >
         <input
           aria-valuenow="100"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           role="spinbutton"
           step="1"
           value="100"
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -744,13 +744,13 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -773,23 +773,23 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         +
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-outlined ant-input-number-without-controls ant-input-number-disabled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-outlined g-input-number-without-controls g-input-number-disabled"
       >
         <input
           aria-valuenow="100"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           disabled=""
           role="spinbutton"
           step="1"
@@ -797,11 +797,11 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
         />
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-outlined ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-outlined g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         <span
           aria-label="setting"
-          class="anticon anticon-setting"
+          class="gicon gicon-setting"
           role="img"
         >
           <svg
@@ -822,28 +822,28 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         +
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-outlined ant-input-number-without-controls ant-input-number-disabled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-outlined g-input-number-without-controls g-input-number-disabled"
       >
         <div
-          class="ant-input-number-prefix"
+          class="g-input-number-prefix"
         >
           ¥
         </div>
         <input
           aria-valuenow="100"
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           disabled=""
           role="spinbutton"
           step="1"
@@ -851,11 +851,11 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
         />
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-outlined ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-outlined g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         <span
           aria-label="setting"
-          class="anticon anticon-setting"
+          class="gicon gicon-setting"
           role="img"
         >
           <svg
@@ -887,31 +887,31 @@ exports[`renders components/input-number/demo/addon.tsx extend context correctly
 
 exports[`renders components/input-number/demo/basic.tsx extend context correctly 1`] = `
 <div
-  class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+  class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
 >
   <input
     aria-valuemax="10"
     aria-valuemin="1"
     aria-valuenow="3"
     autocomplete="off"
-    class="ant-input-number-input"
+    class="g-input-number-input"
     role="spinbutton"
     step="1"
     value="3"
   />
   <div
-    class="ant-input-number-actions"
+    class="g-input-number-actions"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="up"
-        class="anticon anticon-up"
+        class="gicon gicon-up"
         role="img"
       >
         <svg
@@ -932,13 +932,13 @@ exports[`renders components/input-number/demo/basic.tsx extend context correctly
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -964,37 +964,37 @@ exports[`renders components/input-number/demo/basic.tsx extend context correctly
 
 exports[`renders components/input-number/demo/borderless-height-debug.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap: 16px;"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center"
+    class="g-flex css-var-test-id g-flex-align-center"
     style="gap: 8px;"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-borderless ant-input-number-lg"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-borderless g-input-number-lg"
       style="width: 100px; background: lightpink;"
     >
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -1015,13 +1015,13 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1042,20 +1042,20 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
       </div>
     </div>
     <input
-      class="ant-input ant-input-lg ant-input-borderless css-var-test-id ant-input-css-var"
+      class="g-input g-input-lg g-input-borderless css-var-test-id g-input-css-var"
       style="width: 100px; background: lightpink;"
       type="text"
       value=""
     />
     <div
-      class="ant-select ant-select-lg ant-select-borderless css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-lg g-select-borderless css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width: 100px; background: lightpink;"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         />
         <input
@@ -1063,7 +1063,7 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1072,11 +1072,11 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1096,20 +1096,20 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -1148,7 +1148,7 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -1158,33 +1158,33 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center"
+    class="g-flex css-var-test-id g-flex-align-center"
     style="gap: 8px;"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-borderless"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-borderless"
       style="width: 100px; background: lightpink;"
     >
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -1205,13 +1205,13 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1232,20 +1232,20 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
       </div>
     </div>
     <input
-      class="ant-input ant-input-borderless css-var-test-id ant-input-css-var"
+      class="g-input g-input-borderless css-var-test-id g-input-css-var"
       style="width: 100px; background: lightpink;"
       type="text"
       value=""
     />
     <div
-      class="ant-select ant-select-borderless css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-borderless css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width: 100px; background: lightpink;"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         />
         <input
@@ -1253,7 +1253,7 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1262,11 +1262,11 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1286,20 +1286,20 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -1338,7 +1338,7 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -1348,33 +1348,33 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center"
+    class="g-flex css-var-test-id g-flex-align-center"
     style="gap: 8px;"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-borderless ant-input-number-sm"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-borderless g-input-number-sm"
       style="width: 100px; background: lightpink;"
     >
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -1395,13 +1395,13 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1422,20 +1422,20 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
       </div>
     </div>
     <input
-      class="ant-input ant-input-sm ant-input-borderless css-var-test-id ant-input-css-var"
+      class="g-input g-input-sm g-input-borderless css-var-test-id g-input-css-var"
       style="width: 100px; background: lightpink;"
       type="text"
       value=""
     />
     <div
-      class="ant-select ant-select-sm ant-select-borderless css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-sm g-select-borderless css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width: 100px; background: lightpink;"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         />
         <input
@@ -1443,7 +1443,7 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1452,11 +1452,11 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1476,20 +1476,20 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -1528,7 +1528,7 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -1544,31 +1544,31 @@ exports[`renders components/input-number/demo/borderless-height-debug.tsx extend
 
 exports[`renders components/input-number/demo/change-on-wheel.tsx extend context correctly 1`] = `
 <div
-  class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+  class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
 >
   <input
     aria-valuemax="10"
     aria-valuemin="1"
     aria-valuenow="3"
     autocomplete="off"
-    class="ant-input-number-input"
+    class="g-input-number-input"
     role="spinbutton"
     step="1"
     value="3"
   />
   <div
-    class="ant-input-number-actions"
+    class="g-input-number-actions"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="up"
-        class="anticon anticon-up"
+        class="gicon gicon-up"
         role="img"
       >
         <svg
@@ -1589,13 +1589,13 @@ exports[`renders components/input-number/demo/change-on-wheel.tsx extend context
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1621,28 +1621,28 @@ exports[`renders components/input-number/demo/change-on-wheel.tsx extend context
 
 exports[`renders components/input-number/demo/controls.tsx extend context correctly 1`] = `
 <div
-  class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+  class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
 >
   <input
     autocomplete="off"
-    class="ant-input-number-input"
+    class="g-input-number-input"
     role="spinbutton"
     step="1"
     value=""
   />
   <div
-    class="ant-input-number-actions"
+    class="g-input-number-actions"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="arrow-up"
-        class="anticon anticon-arrow-up"
+        class="gicon gicon-arrow-up"
         role="img"
       >
         <svg
@@ -1663,13 +1663,13 @@ exports[`renders components/input-number/demo/controls.tsx extend context correc
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="arrow-down"
-        class="anticon anticon-arrow-down"
+        class="gicon gicon-arrow-down"
         role="img"
       >
         <svg
@@ -1695,7 +1695,7 @@ exports[`renders components/input-number/demo/controls.tsx extend context correc
 
 exports[`renders components/input-number/demo/digit.tsx extend context correctly 1`] = `
 <div
-  class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+  class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
   style="width: 200px;"
 >
   <input
@@ -1703,24 +1703,24 @@ exports[`renders components/input-number/demo/digit.tsx extend context correctly
     aria-valuemin="0"
     aria-valuenow="1"
     autocomplete="off"
-    class="ant-input-number-input"
+    class="g-input-number-input"
     role="spinbutton"
     step="0.00000000000001"
     value="1.00000000000000"
   />
   <div
-    class="ant-input-number-actions"
+    class="g-input-number-actions"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="up"
-        class="anticon anticon-up"
+        class="gicon gicon-up"
         role="img"
       >
         <svg
@@ -1741,13 +1741,13 @@ exports[`renders components/input-number/demo/digit.tsx extend context correctly
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1774,14 +1774,14 @@ exports[`renders components/input-number/demo/digit.tsx extend context correctly
 exports[`renders components/input-number/demo/disabled.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-without-controls ant-input-number-disabled"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-without-controls g-input-number-disabled"
   >
     <input
       aria-valuemax="10"
       aria-valuemin="1"
       aria-valuenow="3"
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       disabled=""
       role="spinbutton"
       step="1"
@@ -1792,7 +1792,7 @@ Array [
     style="margin-top: 20px;"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1807,37 +1807,37 @@ exports[`renders components/input-number/demo/disabled.tsx extend context correc
 
 exports[`renders components/input-number/demo/filled-debug.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap: 12px;"
 >
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap: 12px;"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-filled"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-filled"
     >
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         placeholder="Filled"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -1858,13 +1858,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1885,11 +1885,11 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
       </div>
     </div>
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-filled ant-input-number-without-controls ant-input-number-disabled"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-filled g-input-number-without-controls g-input-number-disabled"
     >
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         disabled=""
         placeholder="Filled"
         role="spinbutton"
@@ -1898,29 +1898,29 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
       />
     </div>
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-status-error ant-input-number-filled"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-status-error g-input-number-filled"
     >
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         placeholder="Filled"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -1941,13 +1941,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1969,38 +1969,38 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap: 12px;"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-filled"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-filled"
     >
       <div
-        class="ant-input-number-prefix"
+        class="g-input-number-prefix"
       >
         $
       </div>
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         placeholder="Filled"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -2021,13 +2021,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2048,16 +2048,16 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
       </div>
     </div>
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-filled ant-input-number-without-controls ant-input-number-disabled"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-filled g-input-number-without-controls g-input-number-disabled"
     >
       <div
-        class="ant-input-number-prefix"
+        class="g-input-number-prefix"
       >
         $
       </div>
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         disabled=""
         placeholder="Filled"
         role="spinbutton"
@@ -2066,34 +2066,34 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
       />
     </div>
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-status-error ant-input-number-filled"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-status-error g-input-number-filled"
     >
       <div
-        class="ant-input-number-prefix"
+        class="g-input-number-prefix"
       >
         $
       </div>
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         placeholder="Filled"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -2114,13 +2114,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2142,41 +2142,41 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap: 12px;"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-filled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-filled g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-filled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-filled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="Filled"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -2197,13 +2197,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -2224,25 +2224,25 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         </div>
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-filled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-filled g-input-number-addon css-var-test-id"
       >
         .com
       </div>
     </div>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-filled g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-filled ant-input-number-without-controls ant-input-number-disabled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-filled g-input-number-without-controls g-input-number-disabled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           disabled=""
           placeholder="Filled"
           role="spinbutton"
@@ -2251,43 +2251,43 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         />
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-filled g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         .com
       </div>
     </div>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-status-error ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-filled g-space-addon-status-error g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-status-error ant-input-number-filled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-status-error g-input-number-filled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="Filled"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -2308,13 +2308,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -2335,43 +2335,43 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         </div>
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-status-error ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-filled g-space-addon-status-error g-input-number-addon css-var-test-id"
       >
         .com
       </div>
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap: 12px;"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-first-item ant-input-number-filled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-first-item g-input-number-filled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="Filled"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -2392,13 +2392,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -2419,20 +2419,20 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         </div>
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-filled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-filled g-input-number-addon css-var-test-id"
       >
         .com
       </div>
     </div>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-first-item ant-input-number-filled ant-input-number-without-controls ant-input-number-disabled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-first-item g-input-number-filled g-input-number-without-controls g-input-number-disabled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           disabled=""
           placeholder="Filled"
           role="spinbutton"
@@ -2441,38 +2441,38 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         />
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-filled g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         .com
       </div>
     </div>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-first-item ant-input-number-status-error ant-input-number-filled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-first-item g-input-number-status-error g-input-number-filled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="Filled"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -2493,13 +2493,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -2520,48 +2520,48 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
         </div>
       </div>
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-last-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-status-error ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-last-item css-var-test-id g-space-addon-varig-filled g-space-addon-status-error g-input-number-addon css-var-test-id"
       >
         .com
       </div>
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap: 12px;"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-filled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-filled g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-filled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-filled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="Filled"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -2582,13 +2582,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -2610,19 +2610,19 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
       </div>
     </div>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-filled g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-filled ant-input-number-without-controls ant-input-number-disabled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-filled g-input-number-without-controls g-input-number-disabled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           disabled=""
           placeholder="Filled"
           role="spinbutton"
@@ -2632,37 +2632,37 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
       </div>
     </div>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-status-error ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-filled g-space-addon-status-error g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-status-error ant-input-number-filled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-status-error g-input-number-filled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="Filled"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -2683,13 +2683,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -2712,41 +2712,41 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap: 12px;"
   >
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined ant-space-addon-status-warning ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined g-space-addon-status-warning g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-status-warning ant-input-number-outlined"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-status-warning g-input-number-outlined"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="Outlined"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -2767,13 +2767,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -2795,19 +2795,19 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
       </div>
     </div>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-status-warning ant-space-addon-disabled ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-filled g-space-addon-status-warning g-space-addon-disabled g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-status-warning ant-input-number-filled ant-input-number-without-controls ant-input-number-disabled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-status-warning g-input-number-filled g-input-number-without-controls g-input-number-disabled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           disabled=""
           placeholder="Filled"
           role="spinbutton"
@@ -2817,37 +2817,37 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
       </div>
     </div>
     <div
-      class="ant-space-compact"
+      class="g-space-compact"
     >
       <div
-        class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-filled ant-space-addon-status-warning ant-input-number-addon css-var-test-id"
+        class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-filled g-space-addon-status-warning g-input-number-addon css-var-test-id"
       >
         http://
       </div>
       <div
-        class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-status-warning ant-input-number-filled"
+        class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-status-warning g-input-number-filled"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="g-input-number-input"
           placeholder="Filled"
           role="spinbutton"
           step="1"
           value=""
         />
         <div
-          class="ant-input-number-actions"
+          class="g-input-number-actions"
         >
           <span
             aria-disabled="false"
             aria-label="Increase Value"
-            class="ant-input-number-action ant-input-number-action-up"
+            class="g-input-number-action g-input-number-action-up"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="up"
-              class="anticon anticon-up"
+              class="gicon gicon-up"
               role="img"
             >
               <svg
@@ -2868,13 +2868,13 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
           <span
             aria-disabled="false"
             aria-label="Decrease Value"
-            class="ant-input-number-action ant-input-number-action-down"
+            class="g-input-number-action g-input-number-action-down"
             role="button"
             unselectable="on"
           >
             <span
               aria-label="down"
-              class="anticon anticon-down"
+              class="gicon gicon-down"
               role="img"
             >
               <svg
@@ -2908,21 +2908,21 @@ exports[`renders components/input-number/demo/filled-debug.tsx extend context co
 
 exports[`renders components/input-number/demo/focus.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width: 100%;"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
       style="flex-wrap: wrap;"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -2931,10 +2931,10 @@ exports[`renders components/input-number/demo/focus.tsx extend context correctly
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -2943,10 +2943,10 @@ exports[`renders components/input-number/demo/focus.tsx extend context correctly
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -2955,10 +2955,10 @@ exports[`renders components/input-number/demo/focus.tsx extend context correctly
         </button>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -2969,33 +2969,33 @@ exports[`renders components/input-number/demo/focus.tsx extend context correctly
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
       style="width: 100%;"
     >
       <input
         aria-valuenow="999"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value="999"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3016,13 +3016,13 @@ exports[`renders components/input-number/demo/focus.tsx extend context correctly
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3050,35 +3050,35 @@ exports[`renders components/input-number/demo/focus.tsx extend context correctly
 
 exports[`renders components/input-number/demo/formatter.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     >
       <input
         aria-valuenow="1000"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value="$ 1,000"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3099,13 +3099,13 @@ exports[`renders components/input-number/demo/formatter.tsx extend context corre
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3127,34 +3127,34 @@ exports[`renders components/input-number/demo/formatter.tsx extend context corre
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     >
       <input
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="100"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value="100%"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="true"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up ant-input-number-action-up-disabled"
+          class="g-input-number-action g-input-number-action-up g-input-number-action-up-disabled"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3175,13 +3175,13 @@ exports[`renders components/input-number/demo/formatter.tsx extend context corre
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3209,37 +3209,37 @@ exports[`renders components/input-number/demo/formatter.tsx extend context corre
 
 exports[`renders components/input-number/demo/keyboard.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     >
       <input
         aria-valuemax="10"
         aria-valuemin="1"
         aria-valuenow="3"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value="3"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3260,13 +3260,13 @@ exports[`renders components/input-number/demo/keyboard.tsx extend context correc
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3288,22 +3288,22 @@ exports[`renders components/input-number/demo/keyboard.tsx extend context correc
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked css-var-test-id ant-checkbox-css-var"
+      class="g-checkbox-wrapper g-checkbox-wrapper-checked css-var-test-id g-checkbox-css-var"
     >
       <span
-        class="ant-checkbox ant-wave-target ant-checkbox-checked"
+        class="g-checkbox g-wave-target g-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="g-checkbox-input"
           type="checkbox"
         />
       </span>
       <span
-        class="ant-checkbox-label"
+        class="g-checkbox-label"
       >
         Toggle keyboard
       </span>
@@ -3316,37 +3316,37 @@ exports[`renders components/input-number/demo/keyboard.tsx extend context correc
 
 exports[`renders components/input-number/demo/out-of-range.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-out-of-range"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-out-of-range"
     >
       <input
         aria-valuemax="10"
         aria-valuemin="1"
         aria-valuenow="99"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value="99"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="true"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up ant-input-number-action-up-disabled"
+          class="g-input-number-action g-input-number-action-up g-input-number-action-up-disabled"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3367,13 +3367,13 @@ exports[`renders components/input-number/demo/out-of-range.tsx extend context co
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3395,10 +3395,10 @@ exports[`renders components/input-number/demo/out-of-range.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -3413,37 +3413,37 @@ exports[`renders components/input-number/demo/out-of-range.tsx extend context co
 
 exports[`renders components/input-number/demo/presuffix.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     style="width: 100%;"
   >
     <div
-      class="ant-input-number-prefix"
+      class="g-input-number-prefix"
     >
       ￥
     </div>
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -3464,13 +3464,13 @@ exports[`renders components/input-number/demo/presuffix.tsx extend context corre
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3491,14 +3491,14 @@ exports[`renders components/input-number/demo/presuffix.tsx extend context corre
     </div>
   </div>
   <div
-    class="ant-space-compact ant-space-compact-block"
+    class="g-space-compact g-space-compact-block"
   >
     <div
-      class="ant-space-addon ant-space-addon-compact-item ant-space-addon-compact-first-item css-var-test-id ant-space-addon-variant-outlined"
+      class="g-space-addon g-space-addon-compact-item g-space-addon-compact-first-item css-var-test-id g-space-addon-varig-outlined"
     >
       <span
         aria-label="user"
-        class="anticon anticon-user"
+        class="gicon gicon-user"
         role="img"
       >
         <svg
@@ -3517,34 +3517,34 @@ exports[`renders components/input-number/demo/presuffix.tsx extend context corre
       </span>
     </div>
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-compact-item ant-input-number-compact-last-item ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-compact-item g-input-number-compact-last-item g-input-number-outlined"
       style="width: 100%;"
     >
       <div
-        class="ant-input-number-prefix"
+        class="g-input-number-prefix"
       >
         ￥
       </div>
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3565,13 +3565,13 @@ exports[`renders components/input-number/demo/presuffix.tsx extend context corre
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3593,17 +3593,17 @@ exports[`renders components/input-number/demo/presuffix.tsx extend context corre
     </div>
   </div>
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-without-controls ant-input-number-disabled"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-without-controls g-input-number-disabled"
     style="width: 100%;"
   >
     <div
-      class="ant-input-number-prefix"
+      class="g-input-number-prefix"
     >
       ￥
     </div>
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       disabled=""
       role="spinbutton"
       step="1"
@@ -3611,34 +3611,34 @@ exports[`renders components/input-number/demo/presuffix.tsx extend context corre
     />
   </div>
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     style="width: 100%;"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-suffix"
+      class="g-input-number-suffix"
     >
       RMB
     </div>
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -3659,13 +3659,13 @@ exports[`renders components/input-number/demo/presuffix.tsx extend context corre
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3695,29 +3695,29 @@ exports[`renders components/input-number/demo/render-panel.tsx extend context co
   style="display: flex; flex-direction: column; row-gap: 16px;"
 >
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     style="width: 100%;"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -3738,13 +3738,13 @@ exports[`renders components/input-number/demo/render-panel.tsx extend context co
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3771,38 +3771,38 @@ exports[`renders components/input-number/demo/render-panel.tsx extend context co
 
 exports[`renders components/input-number/demo/size.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="flex-wrap: wrap;"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-lg"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-lg"
     >
       <input
         aria-valuemax="100000"
         aria-valuemin="1"
         aria-valuenow="3"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value="3"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3823,13 +3823,13 @@ exports[`renders components/input-number/demo/size.tsx extend context correctly 
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3851,34 +3851,34 @@ exports[`renders components/input-number/demo/size.tsx extend context correctly 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     >
       <input
         aria-valuemax="100000"
         aria-valuemin="1"
         aria-valuenow="3"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value="3"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3899,13 +3899,13 @@ exports[`renders components/input-number/demo/size.tsx extend context correctly 
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3927,34 +3927,34 @@ exports[`renders components/input-number/demo/size.tsx extend context correctly 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-sm"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-sm"
     >
       <input
         aria-valuemax="100000"
         aria-valuemin="1"
         aria-valuenow="3"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value="3"
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -3975,13 +3975,13 @@ exports[`renders components/input-number/demo/size.tsx extend context correctly 
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4009,22 +4009,22 @@ exports[`renders components/input-number/demo/size.tsx extend context correctly 
 
 exports[`renders components/input-number/demo/spinner.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-input-number ant-input-number-mode-spinner css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+    class="g-input-number g-input-number-mode-spinner css-var-test-id g-input-number-css-var g-input-number-outlined"
     style="width: 150px;"
   >
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="minus"
-        class="anticon anticon-minus"
+        class="gicon gicon-minus"
         role="img"
       >
         <svg
@@ -4047,7 +4047,7 @@ exports[`renders components/input-number/demo/spinner.tsx extend context correct
       aria-valuemin="1"
       aria-valuenow="3"
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       placeholder="Outlined"
       role="spinbutton"
       step="1"
@@ -4056,13 +4056,13 @@ exports[`renders components/input-number/demo/spinner.tsx extend context correct
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="plus"
-        class="anticon anticon-plus"
+        class="gicon gicon-plus"
         role="img"
       >
         <svg
@@ -4085,19 +4085,19 @@ exports[`renders components/input-number/demo/spinner.tsx extend context correct
     </span>
   </div>
   <div
-    class="ant-input-number ant-input-number-mode-spinner css-var-test-id ant-input-number-css-var ant-input-number-filled"
+    class="g-input-number g-input-number-mode-spinner css-var-test-id g-input-number-css-var g-input-number-filled"
     style="width: 150px;"
   >
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="minus"
-        class="anticon anticon-minus"
+        class="gicon gicon-minus"
         role="img"
       >
         <svg
@@ -4120,7 +4120,7 @@ exports[`renders components/input-number/demo/spinner.tsx extend context correct
       aria-valuemin="1"
       aria-valuenow="3"
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       placeholder="Filled"
       role="spinbutton"
       step="1"
@@ -4129,13 +4129,13 @@ exports[`renders components/input-number/demo/spinner.tsx extend context correct
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="plus"
-        class="anticon anticon-plus"
+        class="gicon gicon-plus"
         role="img"
       >
         <svg
@@ -4164,36 +4164,36 @@ exports[`renders components/input-number/demo/spinner.tsx extend context correct
 
 exports[`renders components/input-number/demo/status.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width: 100%;"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-status-error ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-status-error g-input-number-outlined"
       style="width: 100%;"
     >
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -4214,13 +4214,13 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4242,32 +4242,32 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-status-warning ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-status-warning g-input-number-outlined"
       style="width: 100%;"
     >
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -4288,13 +4288,13 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4316,18 +4316,18 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-status-error ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-status-error g-input-number-outlined"
       style="width: 100%;"
     >
       <div
-        class="ant-input-number-prefix"
+        class="g-input-number-prefix"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -4350,24 +4350,24 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
       </div>
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -4388,13 +4388,13 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4416,18 +4416,18 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-status-warning ant-input-number-outlined"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-status-warning g-input-number-outlined"
       style="width: 100%;"
     >
       <div
-        class="ant-input-number-prefix"
+        class="g-input-number-prefix"
       >
         <span
           aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
+          class="gicon gicon-clock-circle"
           role="img"
         >
           <svg
@@ -4450,24 +4450,24 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
       </div>
       <input
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         role="spinbutton"
         step="1"
         value=""
       />
       <div
-        class="ant-input-number-actions"
+        class="g-input-number-actions"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-action ant-input-number-action-up"
+          class="g-input-number-action g-input-number-action-up"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="up"
-            class="anticon anticon-up"
+            class="gicon gicon-up"
             role="img"
           >
             <svg
@@ -4488,13 +4488,13 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-action ant-input-number-action-down"
+          class="g-input-number-action g-input-number-action-down"
           role="button"
           unselectable="on"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4522,14 +4522,14 @@ exports[`renders components/input-number/demo/status.tsx extend context correctl
 
 exports[`renders components/input-number/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var acss-1tkizl6 ant-input-number-outlined acss-1tkizl6"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var acss-1tkizl6 g-input-number-outlined acss-1tkizl6"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       placeholder="Object"
       role="spinbutton"
       step="1"
@@ -4537,18 +4537,18 @@ exports[`renders components/input-number/demo/style-class.tsx extend context cor
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -4569,13 +4569,13 @@ exports[`renders components/input-number/demo/style-class.tsx extend context cor
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4596,30 +4596,30 @@ exports[`renders components/input-number/demo/style-class.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var acss-1tkizl6 ant-input-number-outlined ant-input-number-lg acss-1tkizl6"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var acss-1tkizl6 g-input-number-outlined g-input-number-lg acss-1tkizl6"
     style="background-color: rgba(250, 250, 250, 0.5); border-color: rgb(114, 46, 209);"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       placeholder="Function"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -4640,13 +4640,13 @@ exports[`renders components/input-number/demo/style-class.tsx extend context cor
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4673,34 +4673,34 @@ exports[`renders components/input-number/demo/style-class.tsx extend context cor
 
 exports[`renders components/input-number/demo/variant.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap: 12px;"
 >
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined"
     style="width: 200px;"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       placeholder="Outlined"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -4721,13 +4721,13 @@ exports[`renders components/input-number/demo/variant.tsx extend context correct
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4748,30 +4748,30 @@ exports[`renders components/input-number/demo/variant.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-filled"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-filled"
     style="width: 200px;"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       placeholder="Filled"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -4792,13 +4792,13 @@ exports[`renders components/input-number/demo/variant.tsx extend context correct
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4819,30 +4819,30 @@ exports[`renders components/input-number/demo/variant.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-borderless"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-borderless"
     style="width: 200px;"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       placeholder="Borderless"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -4863,13 +4863,13 @@ exports[`renders components/input-number/demo/variant.tsx extend context correct
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4890,30 +4890,30 @@ exports[`renders components/input-number/demo/variant.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-underlined"
+    class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-underlined"
     style="width: 200px;"
   >
     <input
       autocomplete="off"
-      class="ant-input-number-input"
+      class="g-input-number-input"
       placeholder="Underlined"
       role="spinbutton"
       step="1"
       value=""
     />
     <div
-      class="ant-input-number-actions"
+      class="g-input-number-actions"
     >
       <span
         aria-disabled="false"
         aria-label="Increase Value"
-        class="ant-input-number-action ant-input-number-action-up"
+        class="g-input-number-action g-input-number-action-up"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="up"
-          class="anticon anticon-up"
+          class="gicon gicon-up"
           role="img"
         >
           <svg
@@ -4934,13 +4934,13 @@ exports[`renders components/input-number/demo/variant.tsx extend context correct
       <span
         aria-disabled="false"
         aria-label="Decrease Value"
-        class="ant-input-number-action ant-input-number-action-down"
+        class="g-input-number-action g-input-number-action-down"
         role="button"
         unselectable="on"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg

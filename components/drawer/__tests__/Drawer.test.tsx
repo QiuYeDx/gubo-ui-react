@@ -34,12 +34,12 @@ describe('Drawer', () => {
       jest.runAllTimers();
     });
 
-    const mask = document.querySelector('.ant-drawer-mask');
+    const mask = document.querySelector('.g-drawer-mask');
     if (mask) {
       fireEvent.animationEnd(mask);
     }
 
-    const panel = document.querySelector('.ant-drawer-section');
+    const panel = document.querySelector('.g-drawer-section');
     if (panel) {
       fireEvent.animationEnd(panel);
     }
@@ -70,7 +70,7 @@ describe('Drawer', () => {
 
     triggerMotion();
 
-    const drawerWrapper = container.querySelector('.ant-drawer-content-wrapper');
+    const drawerWrapper = container.querySelector('.g-drawer-content-wrapper');
     expect(drawerWrapper).toHaveStyle({ width: '378px' });
   });
 
@@ -83,7 +83,7 @@ describe('Drawer', () => {
 
     triggerMotion();
 
-    const drawerWrapper = container.querySelector('.ant-drawer-content-wrapper');
+    const drawerWrapper = container.querySelector('.g-drawer-content-wrapper');
     expect(drawerWrapper).toHaveStyle({ width: '736px' });
   });
 
@@ -96,7 +96,7 @@ describe('Drawer', () => {
 
     triggerMotion();
 
-    let drawerWrapper = container.querySelector('.ant-drawer-content-wrapper');
+    let drawerWrapper = container.querySelector('.g-drawer-content-wrapper');
     expect(drawerWrapper).toHaveStyle({ width: '20vw' });
 
     rerender(
@@ -107,7 +107,7 @@ describe('Drawer', () => {
 
     triggerMotion();
 
-    drawerWrapper = container.querySelector('.ant-drawer-content-wrapper');
+    drawerWrapper = container.querySelector('.g-drawer-content-wrapper');
     expect(drawerWrapper).toHaveStyle({ width: '500px' });
   });
 
@@ -247,7 +247,7 @@ describe('Drawer', () => {
         </Drawer>,
       );
       triggerMotion();
-      const wrapper = container.querySelector<HTMLDivElement>('.ant-skeleton');
+      const wrapper = container.querySelector<HTMLDivElement>('.g-skeleton');
       expect(wrapper).toBeTruthy();
     });
   });
@@ -279,7 +279,7 @@ describe('Drawer', () => {
     );
 
     triggerMotion();
-    const wrapper = container.querySelector<HTMLButtonElement>('.ant-drawer-close-end');
+    const wrapper = container.querySelector<HTMLButtonElement>('.g-drawer-close-end');
     expect(wrapper).toBeTruthy();
   });
 
@@ -299,7 +299,7 @@ describe('Drawer', () => {
 
   it('zIndex should work', () => {
     const { container } = render(<Drawer getContainer={false} open zIndex={903} />);
-    expect(container.querySelector('.ant-drawer')).toHaveStyle({
+    expect(container.querySelector('.g-drawer')).toHaveStyle({
       zIndex: 903,
     });
   });
@@ -367,14 +367,14 @@ describe('Drawer', () => {
           Here is content of Drawer
         </Drawer>,
       );
-      expect(baseElement.querySelector('.ant-drawer-close')).toBeNull();
+      expect(baseElement.querySelector('.g-drawer-close')).toBeNull();
 
       rerender(
         <Drawer open closeIcon={false}>
           Here is content of Drawer
         </Drawer>,
       );
-      expect(baseElement.querySelector('.ant-drawer-close')).toBeNull();
+      expect(baseElement.querySelector('.g-drawer-close')).toBeNull();
 
       rerender(
         <Drawer open closeIcon={<span className="custom-close">Close</span>}>
@@ -402,30 +402,30 @@ describe('Drawer', () => {
           Here is content of Drawer
         </Drawer>,
       );
-      expect(baseElement.querySelector('.custom-drawer1 .ant-drawer-close')).not.toBeNull();
-      expect(baseElement.querySelector('.custom-drawer1 .anticon-close')).toBeNull();
+      expect(baseElement.querySelector('.custom-drawer1 .g-drawer-close')).not.toBeNull();
+      expect(baseElement.querySelector('.custom-drawer1 .gicon-close')).toBeNull();
 
       rerender(
         <Drawer open closeIcon="" className="custom-drawer2">
           Here is content of Drawer
         </Drawer>,
       );
-      expect(baseElement.querySelector('.custom-drawer2 .ant-drawer-close')).not.toBeNull();
-      expect(baseElement.querySelector('.custom-drawer2 .anticon-close')).toBeNull();
+      expect(baseElement.querySelector('.custom-drawer2 .g-drawer-close')).not.toBeNull();
+      expect(baseElement.querySelector('.custom-drawer2 .gicon-close')).toBeNull();
 
       rerender(
         <Drawer open closeIcon className="custom-drawer3">
           Here is content of Drawer
         </Drawer>,
       );
-      expect(baseElement.querySelector('.custom-drawer3 .anticon-close')).not.toBeNull();
+      expect(baseElement.querySelector('.custom-drawer3 .gicon-close')).not.toBeNull();
 
       rerender(
         <Drawer open closable>
           Here is content of Drawer
         </Drawer>,
       );
-      expect(baseElement.querySelector('.anticon-close')).not.toBeNull();
+      expect(baseElement.querySelector('.gicon-close')).not.toBeNull();
     });
 
     it('match between styles and deprecated style prop', () => {
@@ -491,7 +491,7 @@ describe('Drawer', () => {
         Here is content of Drawer
       </Drawer>,
     );
-    expect(baseElement.querySelector('.ant-drawer-close')).not.toBeNull();
+    expect(baseElement.querySelector('.g-drawer-close')).not.toBeNull();
     expect(baseElement.querySelector('.custom-close')).not.toBeNull();
     expect(baseElement.querySelector('*[aria-label="Close"]')).not.toBeNull();
   });
@@ -557,7 +557,7 @@ describe('Drawer', () => {
         </ConfigProvider>,
       );
 
-      const maskElement = document.querySelector('.ant-drawer-mask');
+      const maskElement = document.querySelector('.g-drawer-mask');
 
       if (!openMask) {
         expect(maskElement).toBeNull();
@@ -566,9 +566,9 @@ describe('Drawer', () => {
 
       expect(maskElement).toBeInTheDocument();
       if (expectedBlurClass) {
-        expect(maskElement!.className).toContain('ant-drawer-mask-blur');
+        expect(maskElement!.className).toContain('g-drawer-mask-blur');
       } else {
-        expect(maskElement!.className).not.toContain('ant-drawer-mask-blur');
+        expect(maskElement!.className).not.toContain('g-drawer-mask-blur');
       }
     });
     it('should support closable placement with start', () => {
@@ -579,9 +579,9 @@ describe('Drawer', () => {
       );
       triggerMotion();
       // 当 placement 为 'start' 时，使用默认的类名
-      expect(container.querySelector('.ant-drawer-close')).toBeInTheDocument();
-      expect(container.querySelector('.ant-drawer-close-start')).toBeNull();
-      expect(container.querySelector('.ant-drawer-close-end')).toBeNull();
+      expect(container.querySelector('.g-drawer-close')).toBeInTheDocument();
+      expect(container.querySelector('.g-drawer-close-start')).toBeNull();
+      expect(container.querySelector('.g-drawer-close-end')).toBeNull();
       // 添加快照断言
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -594,8 +594,8 @@ describe('Drawer', () => {
       );
       triggerMotion();
       // 当 placement 为 'end' 时，使用新的类名
-      expect(container.querySelector('.ant-drawer-close')).toBeInTheDocument();
-      expect(container.querySelector('.ant-drawer-close-end')).toBeInTheDocument();
+      expect(container.querySelector('.g-drawer-close')).toBeInTheDocument();
+      expect(container.querySelector('.g-drawer-close-end')).toBeInTheDocument();
       // 添加快照断言
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -603,7 +603,7 @@ describe('Drawer', () => {
 
   it('should have aria-labelledby on drawer content when title is provided', () => {
     const { baseElement, rerender } = render(<Drawer open>Here is content of Drawer</Drawer>);
-    const content = baseElement.querySelector('.ant-drawer-section');
+    const content = baseElement.querySelector('.g-drawer-section');
     expect(content).not.toHaveAttribute('aria-labelledby');
 
     rerender(
@@ -611,7 +611,7 @@ describe('Drawer', () => {
         Here is content of Drawer
       </Drawer>,
     );
-    const title = baseElement.querySelector('.ant-drawer-title');
+    const title = baseElement.querySelector('.g-drawer-title');
     expect(content).toHaveAttribute('aria-labelledby', title?.getAttribute('id'));
 
     rerender(
@@ -637,9 +637,9 @@ describe('Drawer', () => {
     );
 
     triggerMotion();
-    const closeButton1 = container1.querySelector('.ant-drawer-close-end');
+    const closeButton1 = container1.querySelector('.g-drawer-close-end');
     expect(closeButton1).toBeTruthy();
-    expect(container1.querySelector('.ant-drawer-close')).toBe(closeButton1);
+    expect(container1.querySelector('.g-drawer-close')).toBe(closeButton1);
     unmount1();
 
     // Test start placement from ConfigProvider
@@ -656,9 +656,9 @@ describe('Drawer', () => {
     );
 
     triggerMotion();
-    const closeButton2 = container2.querySelector('.ant-drawer-close');
+    const closeButton2 = container2.querySelector('.g-drawer-close');
     expect(closeButton2).toBeTruthy();
-    expect(container2.querySelector('.ant-drawer-close-end')).toBeFalsy();
+    expect(container2.querySelector('.g-drawer-close-end')).toBeFalsy();
     unmount2();
 
     // Test props override ConfigProvider
@@ -674,9 +674,9 @@ describe('Drawer', () => {
       </ConfigProvider>,
     );
     triggerMotion();
-    const closeButton3 = container3.querySelector('.ant-drawer-close');
+    const closeButton3 = container3.querySelector('.g-drawer-close');
     expect(closeButton3).toBeTruthy();
-    expect(container3.querySelector('.ant-drawer-close-end')).toBeFalsy();
+    expect(container3.querySelector('.g-drawer-close-end')).toBeFalsy();
     unmount3();
   });
 });

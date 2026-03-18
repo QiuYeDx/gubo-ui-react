@@ -25,9 +25,9 @@ describe('FloatButton.Semantic', () => {
       content: { color: 'rgb(0, 255, 0)' },
     };
     const classNamesTargets: Required<ButtonSemanticClassNames> = {
-      root: 'ant-float-btn',
-      icon: 'ant-float-btn-icon',
-      content: 'ant-float-btn-content',
+      root: 'g-float-btn',
+      icon: 'g-float-btn-icon',
+      content: 'g-float-btn-content',
     };
     const { container, rerender } = render(
       <FloatButton icon="little" content="bamboo" classNames={initialClassNames} styles={styles} />,
@@ -93,14 +93,14 @@ describe('FloatButton.Semantic', () => {
       triggerContent: { color: 'rgb(0, 255, 255)' },
     };
     const classNamesTargets = {
-      root: '.ant-float-btn-group',
-      list: '.ant-float-btn-group-list',
-      item: '.ant-float-btn-group-list .ant-float-btn',
-      itemIcon: '.ant-float-btn-group-list .ant-float-btn-icon',
-      itemContent: '.ant-float-btn-group-list .ant-float-btn-content',
-      trigger: '.ant-float-btn-group-trigger',
-      triggerIcon: '.ant-float-btn-group-trigger .ant-float-btn-icon',
-      triggerContent: '.ant-float-btn-group-trigger .ant-float-btn-content',
+      root: '.g-float-btn-group',
+      list: '.g-float-btn-group-list',
+      item: '.g-float-btn-group-list .g-float-btn',
+      itemIcon: '.g-float-btn-group-list .g-float-btn-icon',
+      itemContent: '.g-float-btn-group-list .g-float-btn-content',
+      trigger: '.g-float-btn-group-trigger',
+      triggerIcon: '.g-float-btn-group-trigger .g-float-btn-icon',
+      triggerContent: '.g-float-btn-group-trigger .g-float-btn-content',
     };
     const { container, rerender } = render(
       <FloatButton.Group

@@ -2,16 +2,16 @@
 
 exports[`Modal.confirm triggers callbacks correctly footer confirm should render the footer when footer is set 1`] = `
 <div
-  class="ant-modal-container"
+  class="g-modal-container"
 >
   <div
-    class="ant-modal-body"
+    class="g-modal-body"
   >
     <div
-      class="ant-modal-confirm-body-wrapper"
+      class="g-modal-confirm-body-wrapper"
     >
       <div
-        class="ant-modal-confirm-body"
+        class="g-modal-confirm-body"
       >
         <span
           aria-label="exclamation-circle"
@@ -33,10 +33,10 @@ exports[`Modal.confirm triggers callbacks correctly footer confirm should render
           </svg>
         </span>
         <div
-          class="ant-modal-confirm-paragraph"
+          class="g-modal-confirm-paragraph"
         >
           <div
-            class="ant-modal-confirm-content"
+            class="g-modal-confirm-content"
           >
             hai
           </div>

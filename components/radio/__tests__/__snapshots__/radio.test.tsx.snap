@@ -2,13 +2,13 @@
 
 exports[`Radio rtl render component should be rendered correctly in RTL direction 1`] = `
 <label
-  class="ant-radio-wrapper ant-radio-wrapper-rtl css-var-root ant-radio-css-var"
+  class="g-radio-wrapper g-radio-wrapper-rtl css-var-root g-radio-css-var"
 >
   <span
-    class="ant-radio ant-wave-target"
+    class="g-radio g-wave-target"
   >
     <input
-      class="ant-radio-input"
+      class="g-radio-input"
       type="radio"
     />
   </span>
@@ -17,20 +17,20 @@ exports[`Radio rtl render component should be rendered correctly in RTL directio
 
 exports[`Radio rtl render component should be rendered correctly in RTL direction 2`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline ant-radio-group-rtl css-var-root ant-radio-css-var"
+  class="g-radio-group g-radio-group-outline g-radio-group-rtl css-var-root g-radio-css-var"
   role="radiogroup"
 />
 `;
 
 exports[`Radio rtl render component should be rendered correctly in RTL direction 3`] = `
 <label
-  class="ant-radio-button-wrapper ant-radio-button-wrapper-rtl css-var-root ant-radio-css-var"
+  class="g-radio-button-wrapper g-radio-button-wrapper-rtl css-var-root g-radio-css-var"
 >
   <span
-    class="ant-radio-button"
+    class="g-radio-button"
   >
     <input
-      class="ant-radio-button-input"
+      class="g-radio-button-input"
       type="radio"
     />
   </span>
@@ -39,18 +39,18 @@ exports[`Radio rtl render component should be rendered correctly in RTL directio
 
 exports[`Radio should render correctly 1`] = `
 <label
-  class="ant-radio-wrapper customized css-var-root ant-radio-css-var"
+  class="g-radio-wrapper customized css-var-root g-radio-css-var"
 >
   <span
-    class="ant-radio ant-wave-target"
+    class="g-radio g-wave-target"
   >
     <input
-      class="ant-radio-input"
+      class="g-radio-input"
       type="radio"
     />
   </span>
   <span
-    class="ant-radio-label"
+    class="g-radio-label"
   >
     Test
   </span>

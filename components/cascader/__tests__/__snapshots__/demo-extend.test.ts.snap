@@ -3,13 +3,13 @@
 exports[`renders components/cascader/demo/basic.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -19,7 +19,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -28,11 +28,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -52,37 +52,37 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
             aria-label="Zhejiang"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             data-title="Zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -104,23 +104,23 @@ Array [
           <li
             aria-checked="false"
             aria-label="Jiangsu"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             data-title="Jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -151,13 +151,13 @@ exports[`renders components/cascader/demo/basic.tsx extend context correctly 2`]
 exports[`renders components/cascader/demo/change-on-select.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -165,7 +165,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -174,11 +174,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -198,35 +198,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -247,22 +247,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -293,13 +293,13 @@ exports[`renders components/cascader/demo/change-on-select.tsx extend context co
 exports[`renders components/cascader/demo/component-token.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -309,7 +309,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -318,11 +318,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -342,35 +342,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -391,22 +391,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -437,13 +437,13 @@ exports[`renders components/cascader/demo/component-token.tsx extend context cor
 exports[`renders components/cascader/demo/custom-dropdown.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -453,7 +453,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -462,11 +462,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -486,36 +486,36 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div>
         <div
-          class="ant-cascader-menus"
+          class="g-cascader-menus"
         >
           <ul
-            class="ant-cascader-menu"
+            class="g-cascader-menu"
             role="menu"
           >
             <li
               aria-checked="false"
-              class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+              class="g-cascader-menu-item g-cascader-menu-item-expand"
               data-path-key="zhejiang"
               role="menuitemcheckbox"
               title="Zhejiang"
             >
               <div
-                class="ant-cascader-menu-item-content"
+                class="g-cascader-menu-item-content"
               >
                 Zhejiang
               </div>
               <div
-                class="ant-cascader-menu-item-expand-icon"
+                class="g-cascader-menu-item-expand-icon"
               >
                 <span
                   aria-label="right"
-                  class="anticon anticon-right"
+                  class="gicon gicon-right"
                   role="img"
                 >
                   <svg
@@ -536,22 +536,22 @@ Array [
             </li>
             <li
               aria-checked="false"
-              class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+              class="g-cascader-menu-item g-cascader-menu-item-expand"
               data-path-key="jiangsu"
               role="menuitemcheckbox"
               title="Jiangsu"
             >
               <div
-                class="ant-cascader-menu-item-content"
+                class="g-cascader-menu-item-content"
               >
                 Jiangsu
               </div>
               <div
-                class="ant-cascader-menu-item-expand-icon"
+                class="g-cascader-menu-item-expand-icon"
               >
                 <span
                   aria-label="right"
-                  class="anticon anticon-right"
+                  class="gicon gicon-right"
                   role="img"
                 >
                   <svg
@@ -573,7 +573,7 @@ Array [
           </ul>
         </div>
         <div
-          class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+          class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
           role="separator"
           style="margin: 0px;"
         />
@@ -593,11 +593,11 @@ exports[`renders components/cascader/demo/custom-dropdown.tsx extend context cor
 exports[`renders components/cascader/demo/custom-render.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-allow-clear ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-allow-clear g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content ant-select-content-has-value"
+      class="g-select-content g-select-content-has-value"
     >
       <span>
         Zhejiang / 
@@ -617,7 +617,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -626,11 +626,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -649,11 +649,11 @@ Array [
       </span>
     </div>
     <div
-      class="ant-select-clear"
+      class="g-select-clear"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -674,35 +674,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+            class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang (zhejiang)
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -723,22 +723,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu (jiangsu)
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -759,27 +759,27 @@ Array [
           </li>
         </ul>
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+            class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
             data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
             role="menuitemcheckbox"
             title="Hangzhou"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Hangzhou (hangzhou)
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -800,18 +800,18 @@ Array [
           </li>
         </ul>
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="true"
-            class="ant-cascader-menu-item ant-cascader-menu-item-active"
+            class="g-cascader-menu-item g-cascader-menu-item-active"
             data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"
             role="menuitemcheckbox"
             title="West Lake"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               West Lake (xihu)
             </div>
@@ -832,35 +832,35 @@ exports[`renders components/cascader/demo/custom-trigger.tsx extend context corr
     Change city
   </a>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -881,22 +881,22 @@ exports[`renders components/cascader/demo/custom-trigger.tsx extend context corr
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -927,10 +927,10 @@ exports[`renders components/cascader/demo/custom-trigger.tsx extend context corr
 exports[`renders components/cascader/demo/default-value.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-allow-clear ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-allow-clear g-select-show-arrow"
   >
     <div
-      class="ant-select-content ant-select-content-has-value"
+      class="g-select-content g-select-content-has-value"
       title="Zhejiang / Hangzhou / West Lake"
     >
       Zhejiang / Hangzhou / West Lake
@@ -939,7 +939,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -948,11 +948,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -971,11 +971,11 @@ Array [
       </span>
     </div>
     <div
-      class="ant-select-clear"
+      class="g-select-clear"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -996,35 +996,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+            class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1045,22 +1045,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1081,27 +1081,27 @@ Array [
           </li>
         </ul>
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+            class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-active"
             data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou"
             role="menuitemcheckbox"
             title="Hangzhou"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Hangzhou
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1122,18 +1122,18 @@ Array [
           </li>
         </ul>
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="true"
-            class="ant-cascader-menu-item ant-cascader-menu-item-active"
+            class="g-cascader-menu-item g-cascader-menu-item-active"
             data-path-key="zhejiang__RC_CASCADER_SPLIT__hangzhou__RC_CASCADER_SPLIT__xihu"
             role="menuitemcheckbox"
             title="West Lake"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               West Lake
             </div>
@@ -1150,13 +1150,13 @@ exports[`renders components/cascader/demo/default-value.tsx extend context corre
 exports[`renders components/cascader/demo/disabled-option.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -1164,7 +1164,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1173,11 +1173,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1197,35 +1197,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1246,22 +1246,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-disabled"
+            class="g-cascader-menu-item g-cascader-menu-item-expand g-cascader-menu-item-disabled"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1292,13 +1292,13 @@ exports[`renders components/cascader/demo/disabled-option.tsx extend context cor
 exports[`renders components/cascader/demo/fields-name.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -1308,7 +1308,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1317,11 +1317,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1341,35 +1341,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1390,22 +1390,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1436,13 +1436,13 @@ exports[`renders components/cascader/demo/fields-name.tsx extend context correct
 exports[`renders components/cascader/demo/hover.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -1450,7 +1450,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1459,11 +1459,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1483,35 +1483,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1532,22 +1532,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1578,13 +1578,13 @@ exports[`renders components/cascader/demo/hover.tsx extend context correctly 2`]
 exports[`renders components/cascader/demo/lazy.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -1592,7 +1592,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1601,11 +1601,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1625,35 +1625,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1674,22 +1674,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1720,23 +1720,23 @@ exports[`renders components/cascader/demo/lazy.tsx extend context correctly 2`] 
 exports[`renders components/cascader/demo/multiple.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-multiple ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-multiple g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-content-item ant-select-content-item-prefix"
+        class="g-select-content-item g-select-content-item-prefix"
         style="opacity: 1; order: -1;"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         />
       </div>
       <div
-        class="ant-select-content-item ant-select-content-item-suffix"
+        class="g-select-content-item g-select-content-item-suffix"
         style="opacity: 1; order: 0;"
       >
         <input
@@ -1744,7 +1744,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1755,11 +1755,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1779,42 +1779,42 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="light"
             role="menuitemcheckbox"
             title="Light"
           >
             <span
-              class="ant-cascader-checkbox"
+              class="g-cascader-checkbox"
             >
               <span
-                class="ant-cascader-checkbox-inner"
+                class="g-cascader-checkbox-inner"
               />
             </span>
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Light
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1835,29 +1835,29 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="bamboo"
             role="menuitemcheckbox"
             title="Bamboo"
           >
             <span
-              class="ant-cascader-checkbox"
+              class="g-cascader-checkbox"
             >
               <span
-                class="ant-cascader-checkbox-inner"
+                class="g-cascader-checkbox-inner"
               />
             </span>
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Bamboo
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -1887,61 +1887,61 @@ exports[`renders components/cascader/demo/multiple.tsx extend context correctly 
 
 exports[`renders components/cascader/demo/panel.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
 >
   <button
     aria-checked="false"
     aria-label="disabled switch"
-    class="ant-switch css-var-test-id"
+    class="g-switch css-var-test-id"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       >
         Enabled
       </span>
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       >
         Disabled
       </span>
     </span>
   </button>
   <div
-    class="ant-cascader-panel css-var-test-id ant-cascader-css-var"
+    class="g-cascader-panel css-var-test-id g-cascader-css-var"
   >
     <div
-      class="ant-cascader-menus"
+      class="g-cascader-menus"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -1962,22 +1962,22 @@ exports[`renders components/cascader/demo/panel.tsx extend context correctly 1`]
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -2000,40 +2000,40 @@ exports[`renders components/cascader/demo/panel.tsx extend context correctly 1`]
     </div>
   </div>
   <div
-    class="ant-cascader-panel css-var-test-id ant-cascader-css-var"
+    class="g-cascader-panel css-var-test-id g-cascader-css-var"
   >
     <div
-      class="ant-cascader-menus"
+      class="g-cascader-menus"
     >
       <ul
-        class="ant-cascader-menu"
+        class="g-cascader-menu"
         role="menu"
       >
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="zhejiang"
           role="menuitemcheckbox"
           title="Zhejiang"
         >
           <span
-            class="ant-cascader-checkbox"
+            class="g-cascader-checkbox"
           >
             <span
-              class="ant-cascader-checkbox-inner"
+              class="g-cascader-checkbox-inner"
             />
           </span>
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Zhejiang
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -2054,29 +2054,29 @@ exports[`renders components/cascader/demo/panel.tsx extend context correctly 1`]
         </li>
         <li
           aria-checked="false"
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="g-cascader-menu-item g-cascader-menu-item-expand"
           data-path-key="jiangsu"
           role="menuitemcheckbox"
           title="Jiangsu"
         >
           <span
-            class="ant-cascader-checkbox"
+            class="g-cascader-checkbox"
           >
             <span
-              class="ant-cascader-checkbox-inner"
+              class="g-cascader-checkbox-inner"
             />
           </span>
           <div
-            class="ant-cascader-menu-item-content"
+            class="g-cascader-menu-item-content"
           >
             Jiangsu
           </div>
           <div
-            class="ant-cascader-menu-item-expand-icon"
+            class="g-cascader-menu-item-expand-icon"
           >
             <span
               aria-label="right"
-              class="anticon anticon-right"
+              class="gicon gicon-right"
               role="img"
             >
               <svg
@@ -2099,13 +2099,13 @@ exports[`renders components/cascader/demo/panel.tsx extend context correctly 1`]
     </div>
   </div>
   <div
-    class="ant-cascader-panel ant-cascader-panel-empty css-var-test-id ant-cascader-css-var"
+    class="g-cascader-panel g-cascader-panel-empty css-var-test-id g-cascader-css-var"
   >
     <div
-      class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+      class="css-var-test-id g-empty g-empty-normal g-empty-small"
     >
       <div
-        class="ant-empty-image"
+        class="g-empty-image"
       >
         <svg
           height="41"
@@ -2144,7 +2144,7 @@ exports[`renders components/cascader/demo/panel.tsx extend context correctly 1`]
         </svg>
       </div>
       <div
-        class="ant-empty-description"
+        class="g-empty-description"
       >
         No data
       </div>
@@ -2158,82 +2158,82 @@ exports[`renders components/cascader/demo/panel.tsx extend context correctly 2`]
 exports[`renders components/cascader/demo/placement.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topRight
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomRight
       </span>
@@ -2242,13 +2242,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -2258,7 +2258,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -2267,11 +2267,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -2291,35 +2291,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-topLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-topLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -2340,22 +2340,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -2388,14 +2388,14 @@ exports[`renders components/cascader/demo/render-panel.tsx extend context correc
   style="padding-bottom: 0px; position: relative; min-width: 0;"
 >
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow g-select-open"
     style="margin: 0px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -2407,7 +2407,7 @@ exports[`renders components/cascader/demo/render-panel.tsx extend context correc
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -2416,11 +2416,11 @@ exports[`renders components/cascader/demo/render-panel.tsx extend context correc
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -2440,35 +2440,35 @@ exports[`renders components/cascader/demo/render-panel.tsx extend context correc
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -2489,22 +2489,22 @@ exports[`renders components/cascader/demo/render-panel.tsx extend context correc
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -2535,13 +2535,13 @@ exports[`renders components/cascader/demo/render-panel.tsx extend context correc
 exports[`renders components/cascader/demo/search.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow ant-select-show-search"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow g-select-show-search"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -2551,7 +2551,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -2559,11 +2559,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -2583,35 +2583,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -2632,22 +2632,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -2678,30 +2678,30 @@ exports[`renders components/cascader/demo/search.tsx extend context correctly 2`
 exports[`renders components/cascader/demo/showCheckedStrategy.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-multiple ant-select-allow-clear ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-multiple g-select-allow-clear g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
         aria-hidden="true"
-        class="ant-select-content-item ant-select-content-item-rest"
+        class="g-select-content-item g-select-content-item-rest"
         style="opacity: 0; height: 0px; overflow-y: hidden; order: 9007199254740991; pointer-events: none; position: absolute;"
       >
         <span
-          class="ant-select-selection-item"
+          class="g-select-selection-item"
           title="+ 2 ..."
         >
           <span
-            class="ant-select-selection-item-content"
+            class="g-select-selection-item-content"
           >
             + 2 ...
           </span>
         </span>
       </div>
       <div
-        class="ant-select-content-item ant-select-content-item-suffix"
+        class="g-select-content-item g-select-content-item-suffix"
         style="opacity: 1; order: 0;"
       >
         <input
@@ -2709,7 +2709,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -2720,11 +2720,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -2743,11 +2743,11 @@ Array [
       </span>
     </div>
     <div
-      class="ant-select-clear"
+      class="g-select-clear"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -2768,42 +2768,42 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="light"
             role="menuitemcheckbox"
             title="Light"
           >
             <span
-              class="ant-cascader-checkbox"
+              class="g-cascader-checkbox"
             >
               <span
-                class="ant-cascader-checkbox-inner"
+                class="g-cascader-checkbox-inner"
               />
             </span>
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Light
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -2824,29 +2824,29 @@ Array [
           </li>
           <li
             aria-checked="true"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="bamboo"
             role="menuitemcheckbox"
             title="Bamboo"
           >
             <span
-              class="ant-cascader-checkbox ant-cascader-checkbox-checked"
+              class="g-cascader-checkbox g-cascader-checkbox-checked"
             >
               <span
-                class="ant-cascader-checkbox-inner"
+                class="g-cascader-checkbox-inner"
               />
             </span>
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Bamboo
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -2872,30 +2872,30 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-multiple ant-select-allow-clear ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-multiple g-select-allow-clear g-select-show-arrow"
     style="width: 100%;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
         aria-hidden="true"
-        class="ant-select-content-item ant-select-content-item-rest"
+        class="g-select-content-item g-select-content-item-rest"
         style="opacity: 0; height: 0px; overflow-y: hidden; order: 9007199254740991; pointer-events: none; position: absolute;"
       >
         <span
-          class="ant-select-selection-item"
+          class="g-select-selection-item"
           title="+ 0 ..."
         >
           <span
-            class="ant-select-selection-item-content"
+            class="g-select-selection-item-content"
           >
             + 0 ...
           </span>
         </span>
       </div>
       <div
-        class="ant-select-content-item ant-select-content-item-suffix"
+        class="g-select-content-item g-select-content-item-suffix"
         style="opacity: 1; order: 0;"
       >
         <input
@@ -2903,7 +2903,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -2914,11 +2914,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -2937,11 +2937,11 @@ Array [
       </span>
     </div>
     <div
-      class="ant-select-clear"
+      class="g-select-clear"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -2962,42 +2962,42 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="light"
             role="menuitemcheckbox"
             title="Light"
           >
             <span
-              class="ant-cascader-checkbox"
+              class="g-cascader-checkbox"
             >
               <span
-                class="ant-cascader-checkbox-inner"
+                class="g-cascader-checkbox-inner"
               />
             </span>
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Light
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3018,29 +3018,29 @@ Array [
           </li>
           <li
             aria-checked="true"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="bamboo"
             role="menuitemcheckbox"
             title="Bamboo"
           >
             <span
-              class="ant-cascader-checkbox ant-cascader-checkbox-checked"
+              class="g-cascader-checkbox g-cascader-checkbox-checked"
             >
               <span
-                class="ant-cascader-checkbox-inner"
+                class="g-cascader-checkbox-inner"
               />
             </span>
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Bamboo
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3071,13 +3071,13 @@ exports[`renders components/cascader/demo/showCheckedStrategy.tsx extend context
 exports[`renders components/cascader/demo/size.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-lg ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-lg g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -3085,7 +3085,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3094,11 +3094,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3118,35 +3118,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3167,22 +3167,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3208,13 +3208,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -3222,7 +3222,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3231,11 +3231,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3255,35 +3255,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3304,22 +3304,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3345,13 +3345,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-cascader ant-select-sm ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-sm g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -3359,7 +3359,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3368,11 +3368,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3392,35 +3392,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3441,22 +3441,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3488,19 +3488,19 @@ exports[`renders components/cascader/demo/size.tsx extend context correctly 2`] 
 
 exports[`renders components/cascader/demo/status.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-cascader ant-select-outlined ant-select-status-error ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+      class="g-select g-cascader g-select-outlined g-select-status-error g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         >
           Error
@@ -3510,7 +3510,7 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -3519,11 +3519,11 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3543,31 +3543,31 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-cascader-menus ant-cascader-menu-empty"
+          class="g-cascader-menus g-cascader-menu-empty"
         >
           <ul
-            class="ant-cascader-menu"
+            class="g-cascader-menu"
             role="menu"
           >
             <li
               aria-checked="false"
-              class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+              class="g-cascader-menu-item g-cascader-menu-item-disabled"
               data-path-key="__EMPTY__"
               role="menuitemcheckbox"
             >
               <div
-                class="ant-cascader-menu-item-content"
+                class="g-cascader-menu-item-content"
               >
                 <div
-                  class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                  class="css-var-test-id g-empty g-empty-normal g-empty-small"
                 >
                   <div
-                    class="ant-empty-image"
+                    class="g-empty-image"
                   >
                     <svg
                       height="41"
@@ -3606,7 +3606,7 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
                     </svg>
                   </div>
                   <div
-                    class="ant-empty-description"
+                    class="g-empty-description"
                   >
                     No data
                   </div>
@@ -3619,27 +3619,27 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-cascader ant-select-outlined ant-select-status-warning ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-multiple ant-select-show-arrow"
+      class="g-select g-cascader g-select-outlined g-select-status-warning g-select-css-var g-cascader-css-var css-var-test-id g-select-multiple g-select-show-arrow"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item ant-select-content-item-prefix"
+          class="g-select-content-item g-select-content-item-prefix"
           style="opacity: 1;"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility: visible;"
           >
             Warning multiple
           </div>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity: 1;"
         >
           <input
@@ -3647,7 +3647,7 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -3658,11 +3658,11 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3682,31 +3682,31 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-cascader-menus ant-cascader-menu-empty"
+          class="g-cascader-menus g-cascader-menu-empty"
         >
           <ul
-            class="ant-cascader-menu"
+            class="g-cascader-menu"
             role="menu"
           >
             <li
               aria-checked="false"
-              class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+              class="g-cascader-menu-item g-cascader-menu-item-disabled"
               data-path-key="__EMPTY__"
               role="menuitemcheckbox"
             >
               <div
-                class="ant-cascader-menu-item-content"
+                class="g-cascader-menu-item-content"
               >
                 <div
-                  class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                  class="css-var-test-id g-empty g-empty-normal g-empty-small"
                 >
                   <div
-                    class="ant-empty-image"
+                    class="g-empty-image"
                   >
                     <svg
                       height="41"
@@ -3745,7 +3745,7 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 1`
                     </svg>
                   </div>
                   <div
-                    class="ant-empty-description"
+                    class="g-empty-description"
                   >
                     No data
                   </div>
@@ -3764,22 +3764,22 @@ exports[`renders components/cascader/demo/status.tsx extend context correctly 2`
 
 exports[`renders components/cascader/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-select ant-cascader ant-select-outlined acss-rl6otz ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined acss-rl6otz g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-prefix"
+      class="g-select-prefix"
       style="color: rgb(204, 204, 204);"
     >
       🏠
     </div>
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Object styles
@@ -3789,7 +3789,7 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3798,12 +3798,12 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
       style="color: rgb(204, 204, 204);"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3823,35 +3823,35 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="meet-student"
             role="menuitemcheckbox"
             title="meet-student"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               meet-student
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3872,22 +3872,22 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -3911,19 +3911,19 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-select ant-cascader ant-select-filled acss-rl6otz ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-filled acss-rl6otz g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-prefix"
+      class="g-select-prefix"
       style="color: rgb(24, 144, 255);"
     >
       ✅
     </div>
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Function  styles
@@ -3933,7 +3933,7 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3942,12 +3942,12 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
       style="color: rgb(24, 144, 255);"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3967,36 +3967,36 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="meet-student"
             role="menuitemcheckbox"
             style="color: rgb(24, 144, 255);"
             title="meet-student"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               meet-student
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -4017,23 +4017,23 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             style="color: rgb(24, 144, 255);"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -4064,13 +4064,13 @@ exports[`renders components/cascader/demo/style-class.tsx extend context correct
 exports[`renders components/cascader/demo/suffix.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4080,7 +4080,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4089,11 +4089,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -4113,35 +4113,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -4162,22 +4162,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -4203,13 +4203,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4219,7 +4219,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4228,41 +4228,41 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       ab
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -4283,22 +4283,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -4324,13 +4324,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4340,7 +4340,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4349,11 +4349,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4373,35 +4373,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="smile"
-                class="anticon anticon-smile"
+                class="gicon gicon-smile"
                 role="img"
               >
                 <svg
@@ -4422,22 +4422,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="smile"
-                class="anticon anticon-smile"
+                class="gicon gicon-smile"
                 role="img"
               >
                 <svg
@@ -4463,13 +4463,13 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4479,7 +4479,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4488,11 +4488,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4512,49 +4512,49 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               ab
             </div>
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               ab
             </div>
@@ -4566,14 +4566,14 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-prefix"
+      class="g-select-prefix"
     >
       <span
         aria-label="smile"
-        class="anticon anticon-smile"
+        class="gicon gicon-smile"
         role="img"
       >
         <svg
@@ -4592,10 +4592,10 @@ Array [
       </span>
     </div>
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4605,7 +4605,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4614,11 +4614,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4638,35 +4638,35 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; min-width: auto;"
   >
     <div>
       <div
-        class="ant-cascader-menus"
+        class="g-cascader-menus"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="zhejiang"
             role="menuitemcheckbox"
             title="Zhejiang"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Zhejiang
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -4687,22 +4687,22 @@ Array [
           </li>
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+            class="g-cascader-menu-item g-cascader-menu-item-expand"
             data-path-key="jiangsu"
             role="menuitemcheckbox"
             title="Jiangsu"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               Jiangsu
             </div>
             <div
-              class="ant-cascader-menu-item-expand-icon"
+              class="g-cascader-menu-item-expand-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -4732,16 +4732,16 @@ exports[`renders components/cascader/demo/suffix.tsx extend context correctly 2`
 
 exports[`renders components/cascader/demo/variant.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-select ant-cascader ant-select-borderless ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-borderless g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4751,7 +4751,7 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4760,11 +4760,11 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4784,31 +4784,31 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-cascader-menus ant-cascader-menu-empty"
+        class="g-cascader-menus g-cascader-menu-empty"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+            class="g-cascader-menu-item g-cascader-menu-item-disabled"
             data-path-key="__EMPTY__"
             role="menuitemcheckbox"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               <div
-                class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                class="css-var-test-id g-empty g-empty-normal g-empty-small"
               >
                 <div
-                  class="ant-empty-image"
+                  class="g-empty-image"
                 >
                   <svg
                     height="41"
@@ -4847,7 +4847,7 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
                   </svg>
                 </div>
                 <div
-                  class="ant-empty-description"
+                  class="g-empty-description"
                 >
                   No data
                 </div>
@@ -4859,13 +4859,13 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
     </div>
   </div>
   <div
-    class="ant-select ant-cascader ant-select-filled ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-filled g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4875,7 +4875,7 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4884,11 +4884,11 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4908,31 +4908,31 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-cascader-menus ant-cascader-menu-empty"
+        class="g-cascader-menus g-cascader-menu-empty"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+            class="g-cascader-menu-item g-cascader-menu-item-disabled"
             data-path-key="__EMPTY__"
             role="menuitemcheckbox"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               <div
-                class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                class="css-var-test-id g-empty g-empty-normal g-empty-small"
               >
                 <div
-                  class="ant-empty-image"
+                  class="g-empty-image"
                 >
                   <svg
                     height="41"
@@ -4971,7 +4971,7 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
                   </svg>
                 </div>
                 <div
-                  class="ant-empty-description"
+                  class="g-empty-description"
                 >
                   No data
                 </div>
@@ -4983,13 +4983,13 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
     </div>
   </div>
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -4999,7 +4999,7 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -5008,11 +5008,11 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -5032,31 +5032,31 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-cascader-menus ant-cascader-menu-empty"
+        class="g-cascader-menus g-cascader-menu-empty"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+            class="g-cascader-menu-item g-cascader-menu-item-disabled"
             data-path-key="__EMPTY__"
             role="menuitemcheckbox"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               <div
-                class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                class="css-var-test-id g-empty g-empty-normal g-empty-small"
               >
                 <div
-                  class="ant-empty-image"
+                  class="g-empty-image"
                 >
                   <svg
                     height="41"
@@ -5095,7 +5095,7 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
                   </svg>
                 </div>
                 <div
-                  class="ant-empty-description"
+                  class="g-empty-description"
                 >
                   No data
                 </div>
@@ -5107,13 +5107,13 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
     </div>
   </div>
   <div
-    class="ant-select ant-cascader ant-select-underlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+    class="g-select g-cascader g-select-underlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Please select
@@ -5123,7 +5123,7 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -5132,11 +5132,11 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -5156,31 +5156,31 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-cascader-menus ant-cascader-menu-empty"
+        class="g-cascader-menus g-cascader-menu-empty"
       >
         <ul
-          class="ant-cascader-menu"
+          class="g-cascader-menu"
           role="menu"
         >
           <li
             aria-checked="false"
-            class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+            class="g-cascader-menu-item g-cascader-menu-item-disabled"
             data-path-key="__EMPTY__"
             role="menuitemcheckbox"
           >
             <div
-              class="ant-cascader-menu-item-content"
+              class="g-cascader-menu-item-content"
             >
               <div
-                class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                class="css-var-test-id g-empty g-empty-normal g-empty-small"
               >
                 <div
-                  class="ant-empty-image"
+                  class="g-empty-image"
                 >
                   <svg
                     height="41"
@@ -5219,7 +5219,7 @@ exports[`renders components/cascader/demo/variant.tsx extend context correctly 1
                   </svg>
                 </div>
                 <div
-                  class="ant-empty-description"
+                  class="g-empty-description"
                 >
                   No data
                 </div>

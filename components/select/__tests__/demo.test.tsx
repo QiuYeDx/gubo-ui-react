@@ -8,6 +8,6 @@ demoTest('select', {
 });
 
 rootPropsTest('select', (Select, props) => <Select {...props} />, {
-  findRootElements: () => document.querySelectorAll('.ant-select, .ant-select-dropdown'),
+  findRootElements: () => document.querySelectorAll('.g-select, .g-select-dropdown'),
   expectCount: 2,
 });

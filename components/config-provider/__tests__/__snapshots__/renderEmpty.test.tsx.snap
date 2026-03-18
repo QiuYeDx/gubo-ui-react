@@ -2,10 +2,10 @@
 
 exports[`renderEmpty should render Cascader empty 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+  class="css-var-root g-empty g-empty-normal g-empty-small"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -44,7 +44,7 @@ exports[`renderEmpty should render Cascader empty 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -53,10 +53,10 @@ exports[`renderEmpty should render Cascader empty 1`] = `
 
 exports[`renderEmpty should render List empty 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-normal"
+  class="css-var-root g-empty g-empty-normal"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -95,7 +95,7 @@ exports[`renderEmpty should render List empty 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -104,10 +104,10 @@ exports[`renderEmpty should render List empty 1`] = `
 
 exports[`renderEmpty should render Mentions empty 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+  class="css-var-root g-empty g-empty-normal g-empty-small"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -146,7 +146,7 @@ exports[`renderEmpty should render Mentions empty 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -155,10 +155,10 @@ exports[`renderEmpty should render Mentions empty 1`] = `
 
 exports[`renderEmpty should render Select empty 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+  class="css-var-root g-empty g-empty-normal g-empty-small"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -197,7 +197,7 @@ exports[`renderEmpty should render Select empty 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -206,10 +206,10 @@ exports[`renderEmpty should render Select empty 1`] = `
 
 exports[`renderEmpty should render Table empty 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-normal"
+  class="css-var-root g-empty g-empty-normal"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -248,7 +248,7 @@ exports[`renderEmpty should render Table empty 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -259,10 +259,10 @@ exports[`renderEmpty should render Table.filter empty 1`] = `null`;
 
 exports[`renderEmpty should render Transfer empty 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+  class="css-var-root g-empty g-empty-normal g-empty-small"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -301,7 +301,7 @@ exports[`renderEmpty should render Transfer empty 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -310,10 +310,10 @@ exports[`renderEmpty should render Transfer empty 1`] = `
 
 exports[`renderEmpty should render TreeSelect empty 1`] = `
 <div
-  class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+  class="css-var-root g-empty g-empty-normal g-empty-small"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -352,7 +352,7 @@ exports[`renderEmpty should render TreeSelect empty 1`] = `
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -361,10 +361,10 @@ exports[`renderEmpty should render TreeSelect empty 1`] = `
 
 exports[`renderEmpty should return empty when componentName is not matched 1`] = `
 <div
-  class="css-var-root ant-empty"
+  class="css-var-root g-empty"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="152"
@@ -424,7 +424,7 @@ exports[`renderEmpty should return empty when componentName is not matched 1`] =
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>

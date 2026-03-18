@@ -74,7 +74,7 @@ describe('Wave component', () => {
 
   function getWaveStyle() {
     const styleObj: Record<string, string> = {};
-    const { style } = document.querySelector<HTMLElement>('.ant-wave')!;
+    const { style } = document.querySelector<HTMLElement>('.g-wave')!;
     style.cssText.split(';').forEach((kv) => {
       if (kv.trim()) {
         const cells = kv.split(':');
@@ -104,12 +104,12 @@ describe('Wave component', () => {
 
     fireEvent.click(container.querySelector('button')!);
     waitRaf();
-    expect(document.querySelector('.ant-wave')).toBeTruthy();
+    expect(document.querySelector('.g-wave')).toBeTruthy();
 
     // Match deadline
     await waitFakeTimer();
 
-    expect(document.querySelector('.ant-wave')).toBeFalsy();
+    expect(document.querySelector('.g-wave')).toBeFalsy();
 
     expect(errorSpy).not.toHaveBeenCalled();
     errorSpy.mockRestore();
@@ -127,7 +127,7 @@ describe('Wave component', () => {
 
     fireEvent.click(container.querySelector('button')!);
     waitRaf();
-    expect(document.querySelector('.ant-wave')).toBeFalsy();
+    expect(document.querySelector('.g-wave')).toBeFalsy();
 
     unmount();
   });
@@ -226,7 +226,7 @@ describe('Wave component', () => {
 
     fireEvent.click(container.querySelector('button')!);
     waitRaf();
-    expect(document.querySelector('.ant-wave')).toBeFalsy();
+    expect(document.querySelector('.g-wave')).toBeFalsy();
 
     unmount();
   });
@@ -241,7 +241,7 @@ describe('Wave component', () => {
     );
 
     fireEvent.click(container.querySelector('button')!);
-    expect(document.querySelector('.ant-wave')).toBeFalsy();
+    expect(document.querySelector('.g-wave')).toBeFalsy();
   });
 
   it('not show when hidden', () => {
@@ -257,7 +257,7 @@ describe('Wave component', () => {
 
     fireEvent.click(container.querySelector('button')!);
     waitRaf();
-    expect(document.querySelector('.ant-wave')).toBeFalsy();
+    expect(document.querySelector('.g-wave')).toBeFalsy();
   });
 
   it('should not throw when click it', () => {
@@ -334,7 +334,7 @@ describe('Wave component', () => {
     fireEvent.click(elem);
     waitRaf();
 
-    expect(container.querySelector('.ant-wave')).toBeTruthy();
+    expect(container.querySelector('.g-wave')).toBeTruthy();
   });
 
   it('Wave can match target', () => {
@@ -350,7 +350,7 @@ describe('Wave component', () => {
     fireEvent.click(container.querySelector('.bamboo')!);
     waitRaf();
 
-    expect(container.querySelector('.ant-wave')).toBeTruthy();
+    expect(container.querySelector('.g-wave')).toBeTruthy();
   });
 
   it('Checkbox with uncheck should not trigger wave', () => {
@@ -362,7 +362,7 @@ describe('Wave component', () => {
     waitRaf();
 
     expect(onChange).toHaveBeenCalled();
-    expect(container.querySelector('.ant-wave')).toBeFalsy();
+    expect(container.querySelector('.g-wave')).toBeFalsy();
   });
 
   it('support colorSource', async () => {
@@ -374,7 +374,7 @@ describe('Wave component', () => {
 
     fireEvent.click(container.querySelector('.bamboo')!);
     waitRaf();
-    expect(document.querySelector('.ant-wave')).toBeTruthy();
+    expect(document.querySelector('.g-wave')).toBeTruthy();
 
     const style = getWaveStyle();
     expect(style[varName('color')]).toBe('rgb(255, 0, 0)');

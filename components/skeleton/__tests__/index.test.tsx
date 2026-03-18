@@ -171,9 +171,9 @@ describe('Skeleton', () => {
         </ConfigProvider>,
       );
 
-      expect(container.querySelector('.ant-skeleton-avatar-sm')).toBeTruthy();
-      expect(container.querySelector('.ant-skeleton-button-sm')).toBeTruthy();
-      expect(container.querySelector('.ant-skeleton-input-sm')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-avatar-sm')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-button-sm')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-input-sm')).toBeTruthy();
 
       rerender(
         <ConfigProvider componentSize="large">
@@ -183,9 +183,9 @@ describe('Skeleton', () => {
         </ConfigProvider>,
       );
 
-      expect(container.querySelector('.ant-skeleton-avatar-lg')).toBeTruthy();
-      expect(container.querySelector('.ant-skeleton-button-lg')).toBeTruthy();
-      expect(container.querySelector('.ant-skeleton-input-lg')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-avatar-lg')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-button-lg')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-input-lg')).toBeTruthy();
     });
 
     it('explicit size should override componentSize', () => {
@@ -197,12 +197,12 @@ describe('Skeleton', () => {
         </ConfigProvider>,
       );
 
-      expect(container.querySelector('.ant-skeleton-avatar-sm')).toBeTruthy();
-      expect(container.querySelector('.ant-skeleton-button-sm')).toBeTruthy();
-      expect(container.querySelector('.ant-skeleton-input-sm')).toBeTruthy();
-      expect(container.querySelector('.ant-skeleton-avatar-lg')).toBeFalsy();
-      expect(container.querySelector('.ant-skeleton-button-lg')).toBeFalsy();
-      expect(container.querySelector('.ant-skeleton-input-lg')).toBeFalsy();
+      expect(container.querySelector('.g-skeleton-avatar-sm')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-button-sm')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-input-sm')).toBeTruthy();
+      expect(container.querySelector('.g-skeleton-avatar-lg')).toBeFalsy();
+      expect(container.querySelector('.g-skeleton-button-lg')).toBeFalsy();
+      expect(container.querySelector('.g-skeleton-input-lg')).toBeFalsy();
     });
   });
 
@@ -252,11 +252,11 @@ describe('Skeleton', () => {
       classNames: customClassNames.avatar,
     });
 
-    const avatarRootElement = avatarContainer.querySelector('.ant-skeleton');
+    const avatarRootElement = avatarContainer.querySelector('.g-skeleton');
     expect(avatarRootElement).toHaveStyle(rootStyle);
     expect(avatarRootElement).toHaveClass(customClassNames.avatar!.root);
 
-    const avatarElement = avatarContainer.querySelector('.ant-skeleton-avatar');
+    const avatarElement = avatarContainer.querySelector('.g-skeleton-avatar');
     expect(avatarElement).toHaveStyle(elementStyle);
     expect(avatarElement).toHaveClass(customClassNames.avatar!.content);
 
@@ -265,11 +265,11 @@ describe('Skeleton', () => {
       classNames: customClassNames.button,
     });
 
-    const buttonRootElement = buttonContainer.querySelector('.ant-skeleton');
+    const buttonRootElement = buttonContainer.querySelector('.g-skeleton');
     expect(buttonRootElement).toHaveStyle(rootStyle);
     expect(buttonRootElement).toHaveClass(customClassNames.button!.root);
 
-    const buttonElement = buttonContainer.querySelector('.ant-skeleton-button');
+    const buttonElement = buttonContainer.querySelector('.g-skeleton-button');
     expect(buttonElement).toHaveStyle(elementStyle);
     expect(buttonElement).toHaveClass(customClassNames.button!.content);
 
@@ -278,11 +278,11 @@ describe('Skeleton', () => {
       classNames: customClassNames.input,
     });
 
-    const inputRootElement = inputContainer.querySelector('.ant-skeleton');
+    const inputRootElement = inputContainer.querySelector('.g-skeleton');
     expect(inputRootElement).toHaveStyle(rootStyle);
     expect(inputRootElement).toHaveClass(customClassNames.input!.root);
 
-    const inputElement = inputContainer.querySelector('.ant-skeleton-input');
+    const inputElement = inputContainer.querySelector('.g-skeleton-input');
     expect(inputElement).toHaveStyle(elementStyle);
     expect(inputElement).toHaveClass(customClassNames.input!.content);
 
@@ -291,11 +291,11 @@ describe('Skeleton', () => {
       classNames: customClassNames.node,
     });
 
-    const nodeRootElement = nodeContainer.querySelector('.ant-skeleton');
+    const nodeRootElement = nodeContainer.querySelector('.g-skeleton');
     expect(nodeRootElement).toHaveStyle(rootStyle);
     expect(nodeRootElement).toHaveClass(customClassNames.node!.root);
 
-    const nodeElement = nodeContainer.querySelector('.ant-skeleton-node');
+    const nodeElement = nodeContainer.querySelector('.g-skeleton-node');
     expect(nodeElement).toHaveStyle(elementStyle);
     expect(nodeElement).toHaveClass(customClassNames.node!.content);
 
@@ -304,11 +304,11 @@ describe('Skeleton', () => {
       classNames: customClassNames.image,
     });
 
-    const imageRootElement = imageContainer.querySelector('.ant-skeleton');
+    const imageRootElement = imageContainer.querySelector('.g-skeleton');
     expect(imageRootElement).toHaveStyle(rootStyle);
     expect(imageRootElement).toHaveClass(customClassNames.image!.root);
 
-    const imageElement = imageContainer.querySelector('.ant-skeleton-image');
+    const imageElement = imageContainer.querySelector('.g-skeleton-image');
     expect(imageElement).toHaveStyle(elementStyle);
     expect(imageElement).toHaveClass(customClassNames.image!.content);
   });

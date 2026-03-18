@@ -2,8 +2,8 @@
 
 exports[`TimeLine rtl render component should be rendered correctly in RTL direction 1`] = `
 <ol
-  class="ant-steps ant-steps-vertical ant-steps-title-horizontal ant-steps-outlined ant-steps-dot ant-steps-rtl ant-timeline css-var-root ant-timeline-rtl css-var-root"
-  style="--ant-cmp-steps-items-offset: 0;"
+  class="g-steps g-steps-vertical g-steps-title-horizontal g-steps-outlined g-steps-dot g-steps-rtl g-timeline css-var-root g-timeline-rtl css-var-root"
+  style="--g-cmp-steps-items-offset: 0;"
 />
 `;
 

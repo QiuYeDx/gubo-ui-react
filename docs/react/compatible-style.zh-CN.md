@@ -41,8 +41,8 @@ export default () => (
 切换后，样式将从 `:where` 切换为类选择器：
 
 ```diff
---  :where(.css-bAMboO).ant-btn {
-++  .css-bAMboO.ant-btn {
+--  :where(.css-bAMboO).g-btn {
+++  .css-bAMboO.g-btn {
       color: #fff;
     }
 ```
@@ -86,7 +86,7 @@ export default () => (
 切换后，样式将降级 CSS 逻辑属性：
 
 ```diff
-.ant-modal-root {
+.g-modal-root {
 -- inset: 0;
 ++ top: 0;
 ++ right: 0;
@@ -152,7 +152,7 @@ antd 的样式会被封装在 `@layer` 中，以降低优先级：
 
 ```diff
 ++  @layer antd {
-      :where(.css-bAMboO).ant-btn {
+      :where(.css-bAMboO).g-btn {
         color: #fff;
       }
 ++  }

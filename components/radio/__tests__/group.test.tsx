@@ -160,7 +160,7 @@ describe('Radio Group', () => {
       />,
     );
 
-    expect(radioGroupRef!).toBe(container.querySelector<HTMLDivElement>('.ant-radio-group'));
+    expect(radioGroupRef!).toBe(container.querySelector<HTMLDivElement>('.g-radio-group'));
   });
 
   it('should support data-* or aria-* props', () => {
@@ -201,16 +201,16 @@ describe('Radio Group', () => {
       const { container } = render(
         <Radio.Group defaultValue="bamboo" value={undefined} options={options} />,
       );
-      expect(container.querySelectorAll('.ant-radio-wrapper-checked').length).toBe(1);
+      expect(container.querySelectorAll('.g-radio-wrapper-checked').length).toBe(1);
     });
 
     [undefined, null].forEach((newValue) => {
       it(`should set value back when value change back to ${newValue}`, () => {
         const options = [{ label: 'Bamboo', value: 'bamboo' }];
         const { container, rerender } = render(<Radio.Group value="bamboo" options={options} />);
-        expect(container.querySelectorAll('.ant-radio-wrapper-checked').length).toBe(1);
+        expect(container.querySelectorAll('.g-radio-wrapper-checked').length).toBe(1);
         rerender(<Radio.Group value={newValue} options={options} />);
-        expect(container.querySelectorAll('.ant-radio-wrapper-checked').length).toBe(0);
+        expect(container.querySelectorAll('.g-radio-wrapper-checked').length).toBe(0);
       });
     });
   });
@@ -239,12 +239,12 @@ describe('Radio Group', () => {
       <Radio.Group options={[{ label: 'bamboo', title: 'bamboo', value: 'bamboo' }]} />,
     );
 
-    const select = container.querySelector('.ant-radio-group label > span');
+    const select = container.querySelector('.g-radio-group label > span');
     expect(select).toBeTruthy();
     // https://github.com/ant-design/ant-design/issues/46739
     expect(select!.getAttribute('title')).toBeFalsy();
     // fix 46739 solution
-    expect(container.querySelector('.ant-radio-group label')).toHaveAttribute('title', 'bamboo');
+    expect(container.querySelector('.g-radio-group label')).toHaveAttribute('title', 'bamboo');
   });
 
   it('should use FormItem name', () => {
@@ -374,8 +374,8 @@ describe('Radio Group', () => {
           <Radio value="B">Preference B</Radio>
         </Radio.Group>,
       );
-      expect(container.querySelector<HTMLDivElement>('.ant-radio-group')).toBeTruthy();
-      expect(container.querySelector<HTMLDivElement>('.ant-radio-group-vertical')).toBeNull();
+      expect(container.querySelector<HTMLDivElement>('.g-radio-group')).toBeTruthy();
+      expect(container.querySelector<HTMLDivElement>('.g-radio-group-vertical')).toBeNull();
     });
 
     it('vertical=true, result orientation=vertical', () => {
@@ -385,7 +385,7 @@ describe('Radio Group', () => {
           <Radio value="B">Preference B</Radio>
         </Radio.Group>,
       );
-      expect(container.querySelector<HTMLDivElement>('.ant-radio-group-vertical')).toBeTruthy();
+      expect(container.querySelector<HTMLDivElement>('.g-radio-group-vertical')).toBeTruthy();
     });
   });
 

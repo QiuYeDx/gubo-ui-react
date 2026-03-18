@@ -29,19 +29,19 @@ const specClassNames = createStaticStyles(({ css }) => ({
 
 const originalClsStyle = createStaticStyles(({ css }) => ({
   wrapper: css`
-    .ant-btn-primary {
+    .g-btn-primary {
       color: #ec5b56;
     }
-    .ant-btn-default {
+    .g-btn-default {
       color: orange;
     }
-    .ant-btn-dashed {
+    .g-btn-dashed {
       color: #3976f6;
     }
-    .ant-btn-text {
+    .g-btn-text {
       color: green;
     }
-    .ant-btn-link {
+    .g-btn-link {
       color: #0e98aa;
     }
   `,

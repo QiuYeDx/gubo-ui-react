@@ -2,76 +2,76 @@
 
 exports[`Table renders empty table 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table ant-table-empty css-var-root ant-table-css-var"
+        class="g-table g-table-empty css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 1
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 2
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 3
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 4
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 5
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 6
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 7
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 8
@@ -79,20 +79,20 @@ exports[`Table renders empty table 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-placeholder"
+                  class="g-table-placeholder"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     colspan="8"
                   >
                     <div
-                      class="css-var-root ant-empty ant-empty-normal"
+                      class="css-var-root g-empty g-empty-normal"
                     >
                       <div
-                        class="ant-empty-image"
+                        class="g-empty-image"
                       >
                         <svg
                           height="41"
@@ -131,7 +131,7 @@ exports[`Table renders empty table 1`] = `
                         </svg>
                       </div>
                       <div
-                        class="ant-empty-description"
+                        class="g-empty-description"
                       >
                         No data
                       </div>
@@ -150,76 +150,76 @@ exports[`Table renders empty table 1`] = `
 
 exports[`Table renders empty table when emptyText is null 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table ant-table-empty css-var-root ant-table-css-var"
+        class="g-table g-table-empty css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 1
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 2
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 3
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 4
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 5
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 6
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 7
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 8
@@ -227,13 +227,13 @@ exports[`Table renders empty table when emptyText is null 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-placeholder"
+                  class="g-table-placeholder"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     colspan="8"
                   />
                 </tr>
@@ -249,76 +249,76 @@ exports[`Table renders empty table when emptyText is null 1`] = `
 
 exports[`Table renders empty table with custom emptyText 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table ant-table-empty css-var-root ant-table-css-var"
+        class="g-table g-table-empty css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 1
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 2
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 3
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 4
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 5
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 6
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 7
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 8
@@ -326,13 +326,13 @@ exports[`Table renders empty table with custom emptyText 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-placeholder"
+                  class="g-table-placeholder"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     colspan="8"
                   >
                     custom empty text
@@ -350,24 +350,24 @@ exports[`Table renders empty table with custom emptyText 1`] = `
 
 exports[`Table renders empty table with fixed columns should work 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table ant-table-empty css-var-root ant-table-css-var ant-table-fix-start-shadow ant-table-fix-end-shadow ant-table-fixed-column ant-table-scroll-horizontal ant-table-has-fix-start ant-table-has-fix-end"
+        class="g-table g-table-empty css-var-root g-table-css-var g-table-fix-start-shadow g-table-fix-end-shadow g-table-fixed-column g-table-scroll-horizontal g-table-has-fix-start g-table-has-fix-end"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
             style="overflow-x: auto; overflow-y: hidden;"
           >
             <table
@@ -393,73 +393,73 @@ exports[`Table renders empty table with fixed columns should work 1`] = `
                 />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell ant-table-cell-fix ant-table-cell-fix-start"
+                    class="g-table-cell g-table-cell-fix g-table-cell-fix-start"
                     scope="col"
                     style="inset-inline-start: 0; --z-offset: 22; --z-offset-reverse: 11;"
                   >
                     Full Name
                   </th>
                   <th
-                    class="ant-table-cell ant-table-cell-fix ant-table-cell-fix-start ant-table-cell-fix-start-shadow"
+                    class="g-table-cell g-table-cell-fix g-table-cell-fix-start g-table-cell-fix-start-shadow"
                     scope="col"
                     style="inset-inline-start: 0; --z-offset: 21; --z-offset-reverse: 12;"
                   >
                     Age
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 1
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 2
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 3
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 4
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 5
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 6
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 7
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 8
                   </th>
                   <th
-                    class="ant-table-cell ant-table-cell-fix ant-table-cell-fix-end ant-table-cell-fix-end-shadow"
+                    class="g-table-cell g-table-cell-fix g-table-cell-fix-end g-table-cell-fix-end-shadow"
                     scope="col"
                     style="inset-inline-end: 0; --z-offset: 10; --z-offset-reverse: 1;"
                   >
@@ -468,11 +468,11 @@ exports[`Table renders empty table with fixed columns should work 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
                   aria-hidden="true"
-                  class="ant-table-measure-row"
+                  class="g-table-measure-row"
                   style="height: 0px;"
                 >
                   <td
@@ -576,21 +576,21 @@ exports[`Table renders empty table with fixed columns should work 1`] = `
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-placeholder"
+                  class="g-table-placeholder"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     colspan="11"
                   >
                     <div
-                      class="ant-table-expanded-row-fixed"
+                      class="g-table-expanded-row-fixed"
                       style="width: 1000px; position: sticky; left: 0px; overflow: hidden;"
                     >
                       <div
-                        class="css-var-root ant-empty ant-empty-normal"
+                        class="css-var-root g-empty g-empty-normal"
                       >
                         <div
-                          class="ant-empty-image"
+                          class="g-empty-image"
                         >
                           <svg
                             height="41"
@@ -629,7 +629,7 @@ exports[`Table renders empty table with fixed columns should work 1`] = `
                           </svg>
                         </div>
                         <div
-                          class="ant-empty-description"
+                          class="g-empty-description"
                         >
                           No data
                         </div>
@@ -649,100 +649,100 @@ exports[`Table renders empty table with fixed columns should work 1`] = `
 
 exports[`Table renders empty table without emptyText when loading 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-spinning css-var-root"
+    class="g-spin g-spin-spinning css-var-root"
   >
     <div
-      class="ant-spin-section"
+      class="g-spin-section"
     >
       <span
-        class="ant-spin-dot-holder"
+        class="g-spin-dot-holder"
       >
         <span
-          class="ant-spin-dot ant-spin-dot-spin"
+          class="g-spin-dot g-spin-dot-spin"
         >
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
         </span>
       </span>
     </div>
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table ant-table-empty css-var-root ant-table-css-var"
+        class="g-table g-table-empty css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 1
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 2
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 3
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 4
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 5
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 6
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 7
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 8
@@ -750,20 +750,20 @@ exports[`Table renders empty table without emptyText when loading 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-placeholder"
+                  class="g-table-placeholder"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     colspan="8"
                   >
                     <div
-                      class="css-var-root ant-empty ant-empty-normal"
+                      class="css-var-root g-empty g-empty-normal"
                     >
                       <div
-                        class="ant-empty-image"
+                        class="g-empty-image"
                       >
                         <svg
                           height="41"
@@ -802,7 +802,7 @@ exports[`Table renders empty table without emptyText when loading 1`] = `
                         </svg>
                       </div>
                       <div
-                        class="ant-empty-description"
+                        class="g-empty-description"
                       >
                         No data
                       </div>
@@ -821,100 +821,100 @@ exports[`Table renders empty table without emptyText when loading 1`] = `
 
 exports[`Table should not render empty when loading 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="true"
     aria-live="polite"
-    class="ant-spin ant-spin-spinning css-var-root"
+    class="g-spin g-spin-spinning css-var-root"
   >
     <div
-      class="ant-spin-section"
+      class="g-spin-section"
     >
       <span
-        class="ant-spin-dot-holder"
+        class="g-spin-dot-holder"
       >
         <span
-          class="ant-spin-dot ant-spin-dot-spin"
+          class="g-spin-dot g-spin-dot-spin"
         >
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
           <i
-            class="ant-spin-dot-item"
+            class="g-spin-dot-item"
           />
         </span>
       </span>
     </div>
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table ant-table-empty css-var-root ant-table-css-var"
+        class="g-table g-table-empty css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 1
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 2
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 3
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 4
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 5
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 6
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 7
                   </th>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     Column 8
@@ -922,13 +922,13 @@ exports[`Table should not render empty when loading 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-placeholder"
+                  class="g-table-placeholder"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     colspan="8"
                   />
                 </tr>

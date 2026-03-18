@@ -5,10 +5,10 @@ import { fireEvent, render, waitFakeTimer } from '../../../tests/utils';
 
 describe('click wave effect', () => {
   async function click(container: HTMLElement) {
-    fireEvent.click(container.querySelector('.ant-switch')!);
-    container.querySelector('.ant-switch')!.dispatchEvent(new Event('transitionstart'));
+    fireEvent.click(container.querySelector('.g-switch')!);
+    container.querySelector('.g-switch')!.dispatchEvent(new Event('transitionstart'));
     await waitFakeTimer();
-    container.querySelector('.ant-switch')!.dispatchEvent(new Event('animationend'));
+    container.querySelector('.g-switch')!.dispatchEvent(new Event('animationend'));
     await waitFakeTimer();
   }
 
@@ -19,12 +19,12 @@ describe('click wave effect', () => {
     await click(container);
 
     expect(
-      container.querySelector('.ant-switch')!.getAttribute('ant-switch-click-animating'),
+      container.querySelector('.g-switch')!.getAttribute('g-switch-click-animating'),
     ).toBeFalsy();
 
     const event = new Event('animationend');
     Object.assign(event, { animationName: 'fadeEffect' });
-    container.querySelector('.ant-switch')!.dispatchEvent(event);
+    container.querySelector('.g-switch')!.dispatchEvent(event);
     jest.clearAllTimers();
     jest.useRealTimers();
   });

@@ -22,7 +22,7 @@ describe('List', () => {
     const { container } = render(
       <List renderItem={renderItem} dataSource={dataSource} locale={locale} />,
     );
-    expect(container.querySelector('div.ant-list')?.getAttribute('locale')).toBe(null);
+    expect(container.querySelector('div.g-list')?.getAttribute('locale')).toBe(null);
   });
 
   it('should apply the componentSize of ConfigProvider', () => {
@@ -37,8 +37,8 @@ describe('List', () => {
       </>,
     );
 
-    expect(container.querySelector('.ant-list-sm')).toBeTruthy();
-    expect(container.querySelector('.ant-list-lg')).toBeTruthy();
+    expect(container.querySelector('.g-list-sm')).toBeTruthy();
+    expect(container.querySelector('.g-list-lg')).toBeTruthy();
   });
 
   it('ref should be able to get List id passe to internal div', async () => {

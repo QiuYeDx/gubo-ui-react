@@ -31,7 +31,7 @@ describe('Switch', () => {
   it('should has click wave effect', () => {
     jest.useFakeTimers();
     const { container } = render(<Switch />);
-    fireEvent.click(container.querySelector('.ant-switch')!);
+    fireEvent.click(container.querySelector('.g-switch')!);
     act(() => {
       jest.advanceTimersByTime(100);
     });
@@ -40,7 +40,7 @@ describe('Switch', () => {
     act(() => {
       jest.advanceTimersByTime(100);
     });
-    expect(document.querySelector('.ant-wave')).toBeTruthy();
+    expect(document.querySelector('.g-wave')).toBeTruthy();
     jest.clearAllTimers();
     jest.useRealTimers();
   });
@@ -83,13 +83,13 @@ describe('Switch', () => {
 
   it('inner element have min-height', () => {
     const { container, rerender } = render(<Switch unCheckedChildren="0" size="small" />);
-    expect(container.querySelector('.ant-switch-inner-unchecked')).toHaveStyle(
-      'min-height: var(--ant-switch-track-height-sm)',
+    expect(container.querySelector('.g-switch-inner-unchecked')).toHaveStyle(
+      'min-height: var(--g-switch-track-height-sm)',
     );
 
     rerender(<Switch unCheckedChildren="0" />);
-    expect(container.querySelector('.ant-switch-inner-unchecked')).toHaveStyle(
-      'min-height: var(--ant-switch-track-height)',
+    expect(container.querySelector('.g-switch-inner-unchecked')).toHaveStyle(
+      'min-height: var(--g-switch-track-height)',
     );
   });
   it('support styles and classNames', () => {
@@ -110,8 +110,8 @@ describe('Switch', () => {
         classNames={customClassNames}
       />,
     );
-    const root = container.querySelector<HTMLElement>('.ant-switch');
-    const content = container.querySelector<HTMLElement>('.ant-switch-inner-checked');
+    const root = container.querySelector<HTMLElement>('.g-switch');
+    const content = container.querySelector<HTMLElement>('.g-switch-inner-checked');
     expect(root).toHaveClass('custom-root');
     expect(content).toHaveClass('custom-content');
 

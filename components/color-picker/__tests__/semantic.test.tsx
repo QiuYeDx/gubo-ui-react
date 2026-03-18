@@ -32,8 +32,8 @@ describe('ColorPicker.Semantic', () => {
     const { container } = render(
       <ColorPicker defaultValue="red" open classNames={testClassNames} styles={testStyles} />,
     );
-    const root = container.querySelector('.ant-color-picker-trigger');
-    const popup = container.querySelector('.ant-color-picker');
+    const root = container.querySelector('.g-color-picker-trigger');
+    const popup = container.querySelector('.g-color-picker');
     expect(root).toHaveClass(testClassNames.root);
     expect(popup).toHaveClass(testClassNames.popup.root);
     expect(root).toHaveStyle(testStyles.root);
@@ -57,7 +57,7 @@ describe('ColorPicker.Semantic', () => {
     const { container, rerender } = render(
       <ColorPicker defaultValue="red" classNames={classNamesFn} styles={stylesFn} />,
     );
-    const root = container.querySelector<HTMLElement>('.ant-color-picker-trigger');
+    const root = container.querySelector<HTMLElement>('.g-color-picker-trigger');
     expect(root).toHaveClass('test-enabled');
     expect(root).toHaveStyle({ fontSize: '14px' });
 

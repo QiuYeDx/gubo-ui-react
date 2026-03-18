@@ -2,37 +2,37 @@
 
 exports[`Dropdown rtl render component should be rendered correctly in RTL direction 1`] = `
 <span
-  class="ant-dropdown-trigger ant-dropdown-rtl"
+  class="g-dropdown-trigger g-dropdown-rtl"
 />
 `;
 
 exports[`Dropdown should render custom dropdown correctly 1`] = `
 Array [
   <button
-    class="ant-dropdown-trigger ant-dropdown-open"
+    class="g-dropdown-trigger g-dropdown-open"
     type="button"
   >
     button
   </button>,
   <div
-    class="ant-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-root ant-dropdown-css-var ant-dropdown-placement-bottomLeft"
+    class="g-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-root g-dropdown-css-var g-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <ul
-        class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light css-var-root ant-dropdown-css-var css-var-root ant-dropdown-menu-css-var"
+        class="g-dropdown-menu g-dropdown-menu-root g-dropdown-menu-vertical g-dropdown-menu-light css-var-root g-dropdown-css-var css-var-root g-dropdown-menu-css-var"
         data-menu-list="true"
         role="menu"
         tabindex="0"
       >
         <li
-          class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+          class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
           data-menu-id="rc-menu-uuid-1"
           role="menuitem"
           tabindex="-1"
         >
           <span
-            class="ant-dropdown-menu-title-content"
+            class="g-dropdown-menu-title-content"
           >
             foo
           </span>
@@ -55,29 +55,29 @@ Array [
 exports[`Dropdown support custom transitionName 1`] = `
 Array [
   <button
-    class="ant-dropdown-trigger ant-dropdown-open"
+    class="g-dropdown-trigger g-dropdown-open"
     type="button"
   >
     button
   </button>,
   <div
-    class="ant-dropdown move-up-appear move-up-appear-prepare move-up css-var-root ant-dropdown-css-var ant-dropdown-placement-bottomLeft"
+    class="g-dropdown move-up-appear move-up-appear-prepare move-up css-var-root g-dropdown-css-var g-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <ul
-      class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light css-var-root ant-dropdown-css-var css-var-root ant-dropdown-menu-css-var"
+      class="g-dropdown-menu g-dropdown-menu-root g-dropdown-menu-vertical g-dropdown-menu-light css-var-root g-dropdown-css-var css-var-root g-dropdown-menu-css-var"
       data-menu-list="true"
       role="menu"
       tabindex="0"
     >
       <li
-        class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+        class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
         data-menu-id="rc-menu-uuid-1"
         role="menuitem"
         tabindex="-1"
       >
         <span
-          class="ant-dropdown-menu-title-content"
+          class="g-dropdown-menu-title-content"
         >
           foo
         </span>

@@ -2,28 +2,28 @@
 
 exports[`InputNumber renders correctly when controls has custom upIcon and downIcon 1`] = `
 <div
-  class="ant-input-number ant-input-number-mode-input css-var-root ant-input-number-css-var ant-input-number-outlined"
+  class="g-input-number g-input-number-mode-input css-var-root g-input-number-css-var g-input-number-outlined"
 >
   <input
     autocomplete="off"
-    class="ant-input-number-input"
+    class="g-input-number-input"
     role="spinbutton"
     step="1"
     value=""
   />
   <div
-    class="ant-input-number-actions"
+    class="g-input-number-actions"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="arrow-up"
-        class="anticon anticon-arrow-up"
+        class="gicon gicon-arrow-up"
         role="img"
       >
         <svg
@@ -44,13 +44,13 @@ exports[`InputNumber renders correctly when controls has custom upIcon and downI
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="arrow-down"
-        class="anticon anticon-arrow-down"
+        class="gicon gicon-arrow-down"
         role="img"
       >
         <svg
@@ -74,28 +74,28 @@ exports[`InputNumber renders correctly when controls has custom upIcon and downI
 
 exports[`InputNumber renders correctly when controls is {} 1`] = `
 <div
-  class="ant-input-number ant-input-number-mode-input css-var-root ant-input-number-css-var ant-input-number-outlined"
+  class="g-input-number g-input-number-mode-input css-var-root g-input-number-css-var g-input-number-outlined"
 >
   <input
     autocomplete="off"
-    class="ant-input-number-input"
+    class="g-input-number-input"
     role="spinbutton"
     step="1"
     value=""
   />
   <div
-    class="ant-input-number-actions"
+    class="g-input-number-actions"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="up"
-        class="anticon anticon-up"
+        class="gicon gicon-up"
         role="img"
       >
         <svg
@@ -116,13 +116,13 @@ exports[`InputNumber renders correctly when controls is {} 1`] = `
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -146,11 +146,11 @@ exports[`InputNumber renders correctly when controls is {} 1`] = `
 
 exports[`InputNumber renders correctly when controls is boolean 1`] = `
 <div
-  class="ant-input-number ant-input-number-mode-input css-var-root ant-input-number-css-var ant-input-number-outlined ant-input-number-without-controls"
+  class="g-input-number g-input-number-mode-input css-var-root g-input-number-css-var g-input-number-outlined g-input-number-without-controls"
 >
   <input
     autocomplete="off"
-    class="ant-input-number-input"
+    class="g-input-number-input"
     role="spinbutton"
     step="1"
     value=""
@@ -160,28 +160,28 @@ exports[`InputNumber renders correctly when controls is boolean 1`] = `
 
 exports[`InputNumber rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-input-number ant-input-number-mode-input css-var-root ant-input-number-css-var ant-input-number-outlined ant-input-number-rtl"
+  class="g-input-number g-input-number-mode-input css-var-root g-input-number-css-var g-input-number-outlined g-input-number-rtl"
 >
   <input
     autocomplete="off"
-    class="ant-input-number-input"
+    class="g-input-number-input"
     role="spinbutton"
     step="1"
     value=""
   />
   <div
-    class="ant-input-number-actions"
+    class="g-input-number-actions"
   >
     <span
       aria-disabled="false"
       aria-label="Increase Value"
-      class="ant-input-number-action ant-input-number-action-up"
+      class="g-input-number-action g-input-number-action-up"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="up"
-        class="anticon anticon-up"
+        class="gicon gicon-up"
         role="img"
       >
         <svg
@@ -202,13 +202,13 @@ exports[`InputNumber rtl render component should be rendered correctly in RTL di
     <span
       aria-disabled="false"
       aria-label="Decrease Value"
-      class="ant-input-number-action ant-input-number-action-down"
+      class="g-input-number-action g-input-number-action-down"
       role="button"
       unselectable="on"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg

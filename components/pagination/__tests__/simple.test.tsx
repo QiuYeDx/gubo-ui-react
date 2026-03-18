@@ -12,7 +12,7 @@ describe('Pagination simple mode', () => {
         showTotal={(total: number, range: number[]) => `${range[0]}-${range[1]} of ${total} items`}
       />,
     );
-    expect(container?.querySelector('.ant-pagination-total-text')).toHaveTextContent(
+    expect(container?.querySelector('.g-pagination-total-text')).toHaveTextContent(
       '1-10 of 100 items',
     );
   });

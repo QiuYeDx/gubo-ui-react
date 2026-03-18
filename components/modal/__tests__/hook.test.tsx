@@ -62,10 +62,10 @@ describe('Modal.hook', () => {
     fireEvent.click(container.querySelectorAll('button')[0]);
 
     expect(document.body.querySelectorAll('.test-hook')[0].textContent).toBe('bamboo');
-    expect(document.body.querySelectorAll('.ant-btn').length).toBeTruthy();
-    expect(document.body.querySelectorAll('.ant-modal-body').length).toBeTruthy();
+    expect(document.body.querySelectorAll('.g-btn').length).toBeTruthy();
+    expect(document.body.querySelectorAll('.g-modal-body').length).toBeTruthy();
 
-    expect(document.querySelector('.ant-modal-wrap')).toHaveStyle({
+    expect(document.querySelector('.g-modal-wrap')).toHaveStyle({
       zIndex: '903',
     });
 
@@ -115,13 +115,13 @@ describe('Modal.hook', () => {
     const { container } = render(<Demo />);
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
 
-    expect(document.body.querySelectorAll('.ant-modal')).toHaveLength(modalTypes.length);
+    expect(document.body.querySelectorAll('.g-modal')).toHaveLength(modalTypes.length);
 
     // Update instance
     act(() => {
       Modal.destroyAll();
     });
-    expect(document.body.querySelectorAll('.ant-modal')).toHaveLength(0);
+    expect(document.body.querySelectorAll('.g-modal')).toHaveLength(0);
   });
 
   it('context support config direction', () => {
@@ -149,7 +149,7 @@ describe('Modal.hook', () => {
     );
 
     fireEvent.click(container.querySelectorAll('button')[0]);
-    expect(document.body.querySelectorAll('.ant-input-rtl').length).toBeTruthy();
+    expect(document.body.querySelectorAll('.g-input-rtl').length).toBeTruthy();
   });
 
   it('hooks modal should trigger onCancel', () => {
@@ -182,12 +182,12 @@ describe('Modal.hook', () => {
     const { container } = render(<Demo />);
 
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
-    fireEvent.click(document.body.querySelectorAll('.ant-modal-confirm-btns .ant-btn')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-modal-confirm-btns .g-btn')[0]);
     expect(cancelCount).toEqual(1); // click cancel btn, trigger onCancel
 
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
-    fireEvent.mouseDown(document.body.querySelectorAll('.ant-modal-wrap')[0]);
-    fireEvent.click(document.body.querySelectorAll('.ant-modal-wrap')[0]);
+    fireEvent.mouseDown(document.body.querySelectorAll('.g-modal-wrap')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-modal-wrap')[0]);
     expect(cancelCount).toEqual(2); // click modal wrapper, trigger onCancel
   });
 
@@ -221,12 +221,12 @@ describe('Modal.hook', () => {
     const { container } = render(<Demo />);
 
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
-    fireEvent.click(document.body.querySelectorAll('.ant-modal-confirm-btns .ant-btn')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-modal-confirm-btns .g-btn')[0]);
     expect(cancelCount).toEqual(1); // click cancel btn, trigger onCancel
 
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
-    fireEvent.mouseDown(document.body.querySelectorAll('.ant-modal-wrap')[0]);
-    fireEvent.click(document.body.querySelectorAll('.ant-modal-wrap')[0]);
+    fireEvent.mouseDown(document.body.querySelectorAll('.g-modal-wrap')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-modal-wrap')[0]);
     expect(cancelCount).toEqual(2); // click modal wrapper, trigger onCancel
   });
 
@@ -261,10 +261,8 @@ describe('Modal.hook', () => {
 
     const { container } = render(<Demo />);
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
-    expect(document.body.querySelector('.ant-modal-confirm-title')!.textContent).toEqual('Bamboo');
-    expect(document.body.querySelector('.ant-modal-confirm-content')!.textContent).toEqual(
-      'Little',
-    );
+    expect(document.body.querySelector('.g-modal-confirm-title')!.textContent).toEqual('Bamboo');
+    expect(document.body.querySelector('.g-modal-confirm-content')!.textContent).toEqual('Little');
   });
 
   it('support update config', () => {
@@ -294,10 +292,8 @@ describe('Modal.hook', () => {
 
     const { container } = render(<Demo />);
     fireEvent.click(container.querySelector('.open-hook-modal-btn')!);
-    expect(document.body.querySelector('.ant-modal-confirm-title')!.textContent).toEqual('Bamboo');
-    expect(document.body.querySelector('.ant-modal-confirm-content')!.textContent).toEqual(
-      'Little',
-    );
+    expect(document.body.querySelector('.g-modal-confirm-title')!.textContent).toEqual('Bamboo');
+    expect(document.body.querySelector('.g-modal-confirm-content')!.textContent).toEqual('Little');
   });
 
   it('destroy before render', () => {
@@ -321,7 +317,7 @@ describe('Modal.hook', () => {
 
     const { container } = render(<Demo />);
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
-    expect(document.body).not.toHaveClass('ant-modal-confirm-title');
+    expect(document.body).not.toHaveClass('g-modal-confirm-title');
   });
 
   it('the callback close should be a method when onCancel has a close parameter', async () => {
@@ -355,67 +351,67 @@ describe('Modal.hook', () => {
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(0);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(0);
     // First open
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(1);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(1);
     // Click mask to close
-    fireEvent.mouseDown(document.body.querySelectorAll('.ant-modal-wrap')[0]);
-    fireEvent.click(document.body.querySelectorAll('.ant-modal-wrap')[0]);
+    fireEvent.mouseDown(document.body.querySelectorAll('.g-modal-wrap')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-modal-wrap')[0]);
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(0);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(0);
     // Second open
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(1);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(1);
     // Press ESC to turn off
-    fireEvent.keyDown(document.body.querySelectorAll('.ant-modal')[0], {
+    fireEvent.keyDown(document.body.querySelectorAll('.g-modal')[0], {
       key: 'Escape',
     });
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(0);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(0);
     // Third open
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(1);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(1);
     // Click the close icon to close
-    fireEvent.click(document.body.querySelectorAll('.ant-modal-close')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-modal-close')[0]);
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(0);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(0);
     // Last open
     fireEvent.click(container.querySelectorAll('.open-hook-modal-btn')[0]);
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(1);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(1);
 
     // Click the Cancel button to close (invalid)
-    fireEvent.click(document.body.querySelectorAll('.ant-modal-confirm-btns > .ant-btn')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-modal-confirm-btns > .g-btn')[0]);
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(1);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(1);
 
     mockFn.mockImplementation((close) => close());
 
     // Click the Cancel button to close (valid)
-    fireEvent.click(document.body.querySelectorAll('.ant-modal-confirm-btns > .ant-btn')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-modal-confirm-btns > .g-btn')[0]);
 
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-modal-confirm-confirm')).toHaveLength(0);
+    expect(document.body.querySelectorAll('.g-modal-confirm-confirm')).toHaveLength(0);
 
     // Close called 5 times
     expect(mockFn).toHaveBeenCalledTimes(5);
@@ -454,7 +450,7 @@ describe('Modal.hook', () => {
     };
 
     render(<Demo />);
-    const btns = document.body.querySelectorAll('.ant-btn');
+    const btns = document.body.querySelectorAll('.g-btn');
     fireEvent.click(btns[btns.length - 1]);
 
     expect(afterClose).toHaveBeenCalledTimes(1);
@@ -476,7 +472,7 @@ describe('Modal.hook', () => {
     };
 
     render(<Demo />);
-    const btns = document.body.querySelectorAll('.ant-btn');
+    const btns = document.body.querySelectorAll('.g-btn');
     fireEvent.click(btns[btns.length - 1]);
 
     expect(afterClose).toHaveBeenCalledTimes(1);
@@ -493,7 +489,7 @@ describe('Modal.hook', () => {
       return <ConfigWarp>{contextHolder}</ConfigWarp>;
     };
     render(<Demo />);
-    const btns = document.body.querySelectorAll('.ant-btn');
+    const btns = document.body.querySelectorAll('.g-btn');
     fireEvent.click(btns[btns.length - 1]);
 
     expect(onClose).toHaveBeenCalledTimes(1);
@@ -515,12 +511,12 @@ describe('Modal.hook', () => {
 
     const { unmount } = render(<Demo zh />);
     await waitFakeTimer();
-    expect(document.body.querySelector('.ant-btn-primary')!.textContent).toEqual('确 定');
+    expect(document.body.querySelector('.g-btn-primary')!.textContent).toEqual('确 定');
     unmount();
 
     render(<Demo />);
     await waitFakeTimer();
-    expect(document.body.querySelector('.ant-btn-primary')!.textContent).toEqual('OK');
+    expect(document.body.querySelector('.g-btn-primary')!.textContent).toEqual('OK');
 
     jest.useRealTimers();
   });
@@ -558,12 +554,12 @@ describe('Modal.hook', () => {
       await waitFakeTimer();
 
       // First time click should not close
-      fireEvent.click(document.querySelector('.ant-btn-primary')!);
+      fireEvent.click(document.querySelector('.g-btn-primary')!);
       await waitFakeTimer();
       expect(lastResult).toBeFalsy();
 
       // Second time click to close
-      fireEvent.click(document.querySelector('.ant-btn-primary')!);
+      fireEvent.click(document.querySelector('.g-btn-primary')!);
       await waitFakeTimer();
       expect(lastResult).toBeTruthy();
 
@@ -596,7 +592,7 @@ describe('Modal.hook', () => {
     await waitFakeTimer();
 
     // ESC to close
-    fireEvent.keyDown(document.querySelector('.ant-modal')!, {
+    fireEvent.keyDown(document.querySelector('.g-modal')!, {
       key: 'Escape',
     });
     await waitFakeTimer();

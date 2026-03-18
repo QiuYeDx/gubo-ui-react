@@ -31,7 +31,7 @@ describe('Slider.Tooltip', () => {
   it('Correct show the tooltip', async () => {
     const { container } = render(<Slider defaultValue={30} />);
 
-    const handleEle = container.querySelector('.ant-slider-handle')!;
+    const handleEle = container.querySelector('.g-slider-handle')!;
 
     // Enter
     fireEvent.mouseEnter(handleEle);
@@ -57,7 +57,7 @@ describe('Slider.Tooltip', () => {
   it('range show the tooltip', async () => {
     const { container } = render(<Slider range defaultValue={[0, 100]} />);
 
-    const handleEle = container.querySelector('.ant-slider-handle')!;
+    const handleEle = container.querySelector('.g-slider-handle')!;
 
     // Enter
     fireEvent.mouseEnter(handleEle);
@@ -75,21 +75,21 @@ describe('Slider.Tooltip', () => {
       <Slider defaultValue={30} tooltip={{ open: false }} />,
     );
 
-    const handler1 = container1.querySelector('.ant-slider-handle')!;
-    const handler2 = container2.querySelector('.ant-slider-handle')!;
+    const handler1 = container1.querySelector('.g-slider-handle')!;
+    const handler2 = container2.querySelector('.g-slider-handle')!;
 
     // Enter
     fireEvent.mouseEnter(handler1);
     fireEvent.mouseEnter(handler2);
     await waitFakeTimer();
-    expect(container1.querySelector('.ant-tooltip-open')).toBeFalsy();
-    expect(container2.querySelector('.ant-tooltip-open')).toBeFalsy();
+    expect(container1.querySelector('.g-tooltip-open')).toBeFalsy();
+    expect(container2.querySelector('.g-tooltip-open')).toBeFalsy();
 
     // Down
     fireEvent.focus(handler1);
     fireEvent.focus(handler2);
     await waitFakeTimer();
-    expect(container1.querySelector('.ant-tooltip-open')).toBeFalsy();
-    expect(container2.querySelector('.ant-tooltip-open')).toBeFalsy();
+    expect(container1.querySelector('.g-tooltip-open')).toBeFalsy();
+    expect(container2.querySelector('.g-tooltip-open')).toBeFalsy();
   });
 });

@@ -63,7 +63,7 @@ describe('Locale Provider demo', () => {
     fireEvent.click(container.querySelector('.dashboard')!);
     await waitFakeTimer();
 
-    expect(document.body.querySelectorAll('.ant-btn-primary span')[0]?.textContent).toBe('确 定');
+    expect(document.body.querySelectorAll('.g-btn-primary span')[0]?.textContent).toBe('确 定');
     Modal.destroyAll();
     jest.useRealTimers();
   }, 500000);

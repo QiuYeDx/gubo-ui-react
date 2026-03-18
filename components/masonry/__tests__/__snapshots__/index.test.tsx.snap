@@ -2,7 +2,7 @@
 
 exports[`Masonry rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-masonry css-var-root ant-masonry-rtl"
+  class="g-masonry css-var-root g-masonry-rtl"
   style="height: 0px;"
 />
 `;

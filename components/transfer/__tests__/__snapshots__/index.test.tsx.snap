@@ -2,22 +2,22 @@
 
 exports[`Transfer rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-transfer ant-transfer-rtl css-var-root"
+  class="g-transfer g-transfer-rtl css-var-root"
 >
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-checkbox-rtl ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-checkbox-rtl g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+          class="g-checkbox g-wave-target g-checkbox-disabled"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             disabled=""
             type="checkbox"
           />
@@ -25,7 +25,7 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger ant-dropdown-rtl"
+        class="gicon gicon-down g-dropdown-trigger g-dropdown-rtl"
         role="img"
       >
         <svg
@@ -43,26 +43,26 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         0
         item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <div
-        class="ant-transfer-list-body-not-found"
+        class="g-transfer-list-body-not-found"
       >
         <div
-          class="css-var-root ant-empty ant-empty-normal ant-empty-rtl ant-empty-small"
+          class="css-var-root g-empty g-empty-normal g-empty-rtl g-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -101,7 +101,7 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>
@@ -110,19 +110,19 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
     </div>
   </div>
   <div
-    class="ant-transfer-actions"
+    class="g-transfer-actions"
   >
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only ant-btn-rtl"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only g-btn-rtl"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -142,16 +142,16 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only ant-btn-rtl"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only g-btn-rtl"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -172,19 +172,19 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
     </button>
   </div>
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-checkbox-rtl ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-checkbox-rtl g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+          class="g-checkbox g-wave-target g-checkbox-disabled"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             disabled=""
             type="checkbox"
           />
@@ -192,7 +192,7 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger ant-dropdown-rtl"
+        class="gicon gicon-down g-dropdown-trigger g-dropdown-rtl"
         role="img"
       >
         <svg
@@ -210,26 +210,26 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         0
         item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <div
-        class="ant-transfer-list-body-not-found"
+        class="g-transfer-list-body-not-found"
       >
         <div
-          class="css-var-root ant-empty ant-empty-normal ant-empty-rtl ant-empty-small"
+          class="css-var-root g-empty g-empty-normal g-empty-rtl g-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -268,7 +268,7 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>
@@ -281,30 +281,30 @@ exports[`Transfer rtl render component should be rendered correctly in RTL direc
 
 exports[`Transfer should render correctly 1`] = `
 <div
-  class="ant-transfer css-var-root"
+  class="g-transfer css-var-root"
 >
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-checkbox-wrapper-checked g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target ant-checkbox-checked"
+          class="g-checkbox g-wave-target g-checkbox-checked"
         >
           <input
             checked=""
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             type="checkbox"
           />
         </span>
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger"
+        class="gicon gicon-down g-dropdown-trigger"
         role="img"
       >
         <svg
@@ -322,77 +322,77 @@ exports[`Transfer should render correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         1/2
         items
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="g-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item ant-transfer-list-content-item-checked"
+          class="g-transfer-list-content-item g-transfer-list-content-item-checked"
         >
           <label
-            class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+            class="g-checkbox-wrapper g-checkbox-wrapper-checked g-transfer-list-checkbox css-var-root g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target ant-checkbox-checked"
+              class="g-checkbox g-wave-target g-checkbox-checked"
             >
               <input
                 checked=""
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 type="checkbox"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="g-transfer-list-content-item-text"
           />
         </li>
         <li
-          class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+          class="g-transfer-list-content-item g-transfer-list-content-item-disabled"
         >
           <label
-            class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+            class="g-checkbox-wrapper g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-root g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+              class="g-checkbox g-wave-target g-checkbox-disabled"
             >
               <input
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 disabled=""
                 type="checkbox"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="g-transfer-list-content-item-text"
           />
         </li>
       </ul>
     </div>
   </div>
   <div
-    class="ant-transfer-actions"
+    class="g-transfer-actions"
   >
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -412,16 +412,16 @@ exports[`Transfer should render correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -442,26 +442,26 @@ exports[`Transfer should render correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target"
+          class="g-checkbox g-wave-target"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             type="checkbox"
           />
         </span>
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger"
+        class="gicon gicon-down g-dropdown-trigger"
         role="img"
       >
         <svg
@@ -479,38 +479,38 @@ exports[`Transfer should render correctly 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         1
         item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="g-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="g-transfer-list-content-item"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+            class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target"
+              class="g-checkbox g-wave-target"
             >
               <input
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 type="checkbox"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="g-transfer-list-content-item-text"
           />
         </li>
       </ul>
@@ -521,29 +521,29 @@ exports[`Transfer should render correctly 1`] = `
 
 exports[`Transfer should show sorted targetKey 1`] = `
 <div
-  class="ant-transfer css-var-root"
+  class="g-transfer css-var-root"
 >
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target"
+          class="g-checkbox g-wave-target"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             type="checkbox"
           />
         </span>
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger"
+        class="gicon gicon-down g-dropdown-trigger"
         role="img"
       >
         <svg
@@ -561,39 +561,39 @@ exports[`Transfer should show sorted targetKey 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         1
         item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="g-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="g-transfer-list-content-item"
           title="a"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+            class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target"
+              class="g-checkbox g-wave-target"
             >
               <input
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 type="checkbox"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="g-transfer-list-content-item-text"
           >
             a
           </span>
@@ -602,19 +602,19 @@ exports[`Transfer should show sorted targetKey 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-actions"
+    class="g-transfer-actions"
   >
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -634,16 +634,16 @@ exports[`Transfer should show sorted targetKey 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -664,26 +664,26 @@ exports[`Transfer should show sorted targetKey 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target"
+          class="g-checkbox g-wave-target"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             type="checkbox"
           />
         </span>
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger"
+        class="gicon gicon-down g-dropdown-trigger"
         role="img"
       >
         <svg
@@ -701,61 +701,61 @@ exports[`Transfer should show sorted targetKey 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         2
         items
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="g-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="g-transfer-list-content-item"
           title="c"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+            class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target"
+              class="g-checkbox g-wave-target"
             >
               <input
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 type="checkbox"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="g-transfer-list-content-item-text"
           >
             c
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="g-transfer-list-content-item"
           title="b"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+            class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target"
+              class="g-checkbox g-wave-target"
             >
               <input
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 type="checkbox"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="g-transfer-list-content-item-text"
           >
             b
           </span>
@@ -768,29 +768,29 @@ exports[`Transfer should show sorted targetKey 1`] = `
 
 exports[`Transfer should support render value and label in item 1`] = `
 <div
-  class="ant-transfer css-var-root"
+  class="g-transfer css-var-root"
 >
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target"
+          class="g-checkbox g-wave-target"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             type="checkbox"
           />
         </span>
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger"
+        class="gicon gicon-down g-dropdown-trigger"
         role="img"
       >
         <svg
@@ -808,39 +808,39 @@ exports[`Transfer should support render value and label in item 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         1
         item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="g-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="g-transfer-list-content-item"
           title="title value"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+            class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target"
+              class="g-checkbox g-wave-target"
             >
               <input
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 type="checkbox"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="g-transfer-list-content-item-text"
           >
             label
           </span>
@@ -849,19 +849,19 @@ exports[`Transfer should support render value and label in item 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-actions"
+    class="g-transfer-actions"
   >
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -881,16 +881,16 @@ exports[`Transfer should support render value and label in item 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -911,19 +911,19 @@ exports[`Transfer should support render value and label in item 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+          class="g-checkbox g-wave-target g-checkbox-disabled"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             disabled=""
             type="checkbox"
           />
@@ -931,7 +931,7 @@ exports[`Transfer should support render value and label in item 1`] = `
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger"
+        class="gicon gicon-down g-dropdown-trigger"
         role="img"
       >
         <svg
@@ -949,26 +949,26 @@ exports[`Transfer should support render value and label in item 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         0
         item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <div
-        class="ant-transfer-list-body-not-found"
+        class="g-transfer-list-body-not-found"
       >
         <div
-          class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+          class="css-var-root g-empty g-empty-normal g-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -1007,7 +1007,7 @@ exports[`Transfer should support render value and label in item 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>
@@ -1020,29 +1020,29 @@ exports[`Transfer should support render value and label in item 1`] = `
 
 exports[`immutable data dataSource is frozen 1`] = `
 <div
-  class="ant-transfer css-var-root"
+  class="g-transfer css-var-root"
 >
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target"
+          class="g-checkbox g-wave-target"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             type="checkbox"
           />
         </span>
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger"
+        class="gicon gicon-down g-dropdown-trigger"
         role="img"
       >
         <svg
@@ -1060,57 +1060,57 @@ exports[`immutable data dataSource is frozen 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         1
         item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="g-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="g-transfer-list-content-item"
         >
           <label
-            class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+            class="g-checkbox-wrapper g-transfer-list-checkbox css-var-root g-checkbox-css-var"
           >
             <span
-              class="ant-checkbox ant-wave-target"
+              class="g-checkbox g-wave-target"
             >
               <input
-                class="ant-checkbox-input"
+                class="g-checkbox-input"
                 type="checkbox"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-content-item-text"
+            class="g-transfer-list-content-item-text"
           />
         </li>
       </ul>
     </div>
   </div>
   <div
-    class="ant-transfer-actions"
+    class="g-transfer-actions"
   >
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -1130,16 +1130,16 @@ exports[`immutable data dataSource is frozen 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -1160,19 +1160,19 @@ exports[`immutable data dataSource is frozen 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-section"
+    class="g-transfer-section"
   >
     <div
-      class="ant-transfer-list-header"
+      class="g-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-root ant-checkbox-css-var"
+        class="g-checkbox-wrapper g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-root g-checkbox-css-var"
       >
         <span
-          class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+          class="g-checkbox g-wave-target g-checkbox-disabled"
         >
           <input
-            class="ant-checkbox-input"
+            class="g-checkbox-input"
             disabled=""
             type="checkbox"
           />
@@ -1180,7 +1180,7 @@ exports[`immutable data dataSource is frozen 1`] = `
       </label>
       <span
         aria-label="down"
-        class="anticon anticon-down ant-dropdown-trigger"
+        class="gicon gicon-down g-dropdown-trigger"
         role="img"
       >
         <svg
@@ -1198,26 +1198,26 @@ exports[`immutable data dataSource is frozen 1`] = `
         </svg>
       </span>
       <span
-        class="ant-transfer-list-header-selected"
+        class="g-transfer-list-header-selected"
       >
         0
         item
       </span>
       <span
-        class="ant-transfer-list-header-title"
+        class="g-transfer-list-header-title"
       />
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="g-transfer-list-body"
     >
       <div
-        class="ant-transfer-list-body-not-found"
+        class="g-transfer-list-body-not-found"
       >
         <div
-          class="css-var-root ant-empty ant-empty-normal ant-empty-small"
+          class="css-var-root g-empty g-empty-normal g-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -1256,7 +1256,7 @@ exports[`immutable data dataSource is frozen 1`] = `
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>

@@ -2,11 +2,11 @@
 
 exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
 <ul
-  class="ant-rate css-var-test-id"
+  class="g-rate css-var-test-id"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -16,11 +16,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -39,11 +39,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -64,7 +64,7 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -74,11 +74,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -97,11 +97,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -122,7 +122,7 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -132,11 +132,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -155,11 +155,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -180,7 +180,7 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -190,11 +190,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -213,11 +213,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -238,7 +238,7 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -248,11 +248,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -271,11 +271,11 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -302,14 +302,14 @@ exports[`renders components/rate/demo/basic.tsx extend context correctly 2`] = `
 
 exports[`renders components/rate/demo/character.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <ul
-    class="ant-rate css-var-test-id"
+    class="g-rate css-var-test-id"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -319,11 +319,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -342,11 +342,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -367,7 +367,7 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -377,11 +377,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -400,11 +400,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -425,7 +425,7 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -435,11 +435,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -458,11 +458,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -483,7 +483,7 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -493,11 +493,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -516,11 +516,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -541,7 +541,7 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -551,11 +551,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -574,11 +574,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
           >
             <svg
@@ -600,12 +600,12 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
     </li>
   </ul>
   <ul
-    class="ant-rate css-var-test-id"
+    class="g-rate css-var-test-id"
     style="font-size: 36px;"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -615,19 +615,19 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -637,19 +637,19 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -659,19 +659,19 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -681,19 +681,19 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -703,12 +703,12 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           A
         </div>
@@ -716,11 +716,11 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
     </li>
   </ul>
   <ul
-    class="ant-rate css-var-test-id"
+    class="g-rate css-var-test-id"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -730,19 +730,19 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -752,19 +752,19 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -774,19 +774,19 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -796,19 +796,19 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -818,12 +818,12 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 1`]
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           好
         </div>
@@ -837,14 +837,14 @@ exports[`renders components/rate/demo/character.tsx extend context correctly 2`]
 
 exports[`renders components/rate/demo/character-function.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <ul
-    class="ant-rate css-var-test-id"
+    class="g-rate css-var-test-id"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="g-rate-star g-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -854,19 +854,19 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           1
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           1
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="g-rate-star g-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -876,19 +876,19 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           2
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           2
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -898,19 +898,19 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           3
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           3
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -920,19 +920,19 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           4
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           4
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -942,12 +942,12 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           5
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           5
         </div>
@@ -955,11 +955,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
     </li>
   </ul>
   <ul
-    class="ant-rate css-var-test-id"
+    class="g-rate css-var-test-id"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="g-rate-star g-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -969,11 +969,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="frown"
-            class="anticon anticon-frown"
+            class="gicon gicon-frown"
             role="img"
           >
             <svg
@@ -992,11 +992,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="frown"
-            class="anticon anticon-frown"
+            class="gicon gicon-frown"
             role="img"
           >
             <svg
@@ -1017,7 +1017,7 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="g-rate-star g-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1027,11 +1027,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="frown"
-            class="anticon anticon-frown"
+            class="gicon gicon-frown"
             role="img"
           >
             <svg
@@ -1050,11 +1050,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="frown"
-            class="anticon anticon-frown"
+            class="gicon gicon-frown"
             role="img"
           >
             <svg
@@ -1075,7 +1075,7 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="g-rate-star g-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1085,11 +1085,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="meh"
-            class="anticon anticon-meh"
+            class="gicon gicon-meh"
             role="img"
           >
             <svg
@@ -1108,11 +1108,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="meh"
-            class="anticon anticon-meh"
+            class="gicon gicon-meh"
             role="img"
           >
             <svg
@@ -1133,7 +1133,7 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1143,11 +1143,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="smile"
-            class="anticon anticon-smile"
+            class="gicon gicon-smile"
             role="img"
           >
             <svg
@@ -1166,11 +1166,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="smile"
-            class="anticon anticon-smile"
+            class="gicon gicon-smile"
             role="img"
           >
             <svg
@@ -1191,7 +1191,7 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1201,11 +1201,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="smile"
-            class="anticon anticon-smile"
+            class="gicon gicon-smile"
             role="img"
           >
             <svg
@@ -1224,11 +1224,11 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="smile"
-            class="anticon anticon-smile"
+            class="gicon gicon-smile"
             role="img"
           >
             <svg
@@ -1256,17 +1256,17 @@ exports[`renders components/rate/demo/character-function.tsx extend context corr
 
 exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-medium"
+    class="g-flex css-var-test-id g-flex-gap-medium"
   >
     <ul
-      class="ant-rate css-var-test-id"
+      class="g-rate css-var-test-id"
       tabindex="0"
     >
       <li
-        class="ant-rate-star ant-rate-star-full"
+        class="g-rate-star g-rate-star-full"
       >
         <div
           aria-checked="true"
@@ -1276,11 +1276,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1299,11 +1299,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1324,7 +1324,7 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
         </div>
       </li>
       <li
-        class="ant-rate-star ant-rate-star-full"
+        class="g-rate-star g-rate-star-full"
       >
         <div
           aria-checked="true"
@@ -1334,11 +1334,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1357,11 +1357,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1382,7 +1382,7 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
         </div>
       </li>
       <li
-        class="ant-rate-star ant-rate-star-full"
+        class="g-rate-star g-rate-star-full"
       >
         <div
           aria-checked="true"
@@ -1392,11 +1392,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1415,11 +1415,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1440,7 +1440,7 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
         </div>
       </li>
       <li
-        class="ant-rate-star ant-rate-star-zero"
+        class="g-rate-star g-rate-star-zero"
       >
         <div
           aria-checked="false"
@@ -1450,11 +1450,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1473,11 +1473,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1498,7 +1498,7 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
         </div>
       </li>
       <li
-        class="ant-rate-star ant-rate-star-zero"
+        class="g-rate-star g-rate-star-zero"
       >
         <div
           aria-checked="false"
@@ -1508,11 +1508,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1531,11 +1531,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1561,14 +1561,14 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-medium"
+    class="g-flex css-var-test-id g-flex-gap-medium"
   >
     <ul
-      class="ant-rate css-var-test-id"
+      class="g-rate css-var-test-id"
       tabindex="0"
     >
       <li
-        class="ant-rate-star ant-rate-star-full"
+        class="g-rate-star g-rate-star-full"
       >
         <div
           aria-checked="true"
@@ -1578,11 +1578,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1601,11 +1601,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1626,7 +1626,7 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
         </div>
       </li>
       <li
-        class="ant-rate-star ant-rate-star-full"
+        class="g-rate-star g-rate-star-full"
       >
         <div
           aria-checked="true"
@@ -1636,11 +1636,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1659,11 +1659,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1684,7 +1684,7 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
         </div>
       </li>
       <li
-        class="ant-rate-star ant-rate-star-full"
+        class="g-rate-star g-rate-star-full"
       >
         <div
           aria-checked="true"
@@ -1694,11 +1694,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1717,11 +1717,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1742,7 +1742,7 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
         </div>
       </li>
       <li
-        class="ant-rate-star ant-rate-star-zero"
+        class="g-rate-star g-rate-star-zero"
       >
         <div
           aria-checked="false"
@@ -1752,11 +1752,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1775,11 +1775,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1800,7 +1800,7 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
         </div>
       </li>
       <li
-        class="ant-rate-star ant-rate-star-zero"
+        class="g-rate-star g-rate-star-zero"
       >
         <div
           aria-checked="false"
@@ -1810,11 +1810,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
           tabindex="0"
         >
           <div
-            class="ant-rate-star-first"
+            class="g-rate-star-first"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1833,11 +1833,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-rate-star-second"
+            class="g-rate-star-second"
           >
             <span
               aria-label="star"
-              class="anticon anticon-star"
+              class="gicon gicon-star"
               role="img"
             >
               <svg
@@ -1869,11 +1869,11 @@ exports[`renders components/rate/demo/clear.tsx extend context correctly 2`] = `
 
 exports[`renders components/rate/demo/component-token.tsx extend context correctly 1`] = `
 <ul
-  class="ant-rate css-var-test-id"
+  class="g-rate css-var-test-id"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="g-rate-star g-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -1883,11 +1883,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -1906,11 +1906,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -1931,7 +1931,7 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="g-rate-star g-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -1941,11 +1941,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -1964,11 +1964,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -1989,7 +1989,7 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="true"
@@ -1999,11 +1999,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2022,11 +2022,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2047,7 +2047,7 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2057,11 +2057,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2080,11 +2080,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2105,7 +2105,7 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2115,11 +2115,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2138,11 +2138,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2169,11 +2169,11 @@ exports[`renders components/rate/demo/component-token.tsx extend context correct
 
 exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] = `
 <ul
-  class="ant-rate css-var-test-id ant-rate-disabled"
+  class="g-rate css-var-test-id g-rate-disabled"
   tabindex="-1"
 >
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="g-rate-star g-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -2183,11 +2183,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2206,11 +2206,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2231,7 +2231,7 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="g-rate-star g-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -2241,11 +2241,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2264,11 +2264,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2289,7 +2289,7 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2299,11 +2299,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2322,11 +2322,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2347,7 +2347,7 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2357,11 +2357,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2380,11 +2380,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2405,7 +2405,7 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2415,11 +2415,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
       tabindex="-1"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2438,11 +2438,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 1`] 
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2469,11 +2469,11 @@ exports[`renders components/rate/demo/disabled.tsx extend context correctly 2`] 
 
 exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
 <ul
-  class="ant-rate css-var-test-id"
+  class="g-rate css-var-test-id"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="g-rate-star g-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -2483,11 +2483,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2506,11 +2506,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2531,7 +2531,7 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="g-rate-star g-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -2541,11 +2541,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2564,11 +2564,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2589,7 +2589,7 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-half ant-rate-star-active"
+    class="g-rate-star g-rate-star-half g-rate-star-active"
   >
     <div
       aria-checked="true"
@@ -2599,11 +2599,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2622,11 +2622,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2647,7 +2647,7 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2657,11 +2657,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2680,11 +2680,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2705,7 +2705,7 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="g-rate-star g-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -2715,11 +2715,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="g-rate-star-first"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2738,11 +2738,11 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="g-rate-star-second"
       >
         <span
           aria-label="star"
-          class="anticon anticon-star"
+          class="gicon gicon-star"
           role="img"
         >
           <svg
@@ -2769,14 +2769,14 @@ exports[`renders components/rate/demo/half.tsx extend context correctly 2`] = `[
 
 exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <ul
-    class="ant-rate ant-rate-large css-var-test-id"
+    class="g-rate g-rate-large css-var-test-id"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -2786,11 +2786,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -2809,11 +2809,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -2834,7 +2834,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -2844,11 +2844,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -2867,11 +2867,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -2892,7 +2892,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -2902,11 +2902,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -2925,11 +2925,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -2950,7 +2950,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -2960,11 +2960,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -2983,11 +2983,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3008,7 +3008,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3018,11 +3018,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3041,11 +3041,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3067,11 +3067,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-rate css-var-test-id"
+    class="g-rate css-var-test-id"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3081,11 +3081,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3104,11 +3104,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3129,7 +3129,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3139,11 +3139,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3162,11 +3162,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3187,7 +3187,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3197,11 +3197,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3220,11 +3220,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3245,7 +3245,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3255,11 +3255,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3278,11 +3278,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3303,7 +3303,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3313,11 +3313,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3336,11 +3336,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3362,11 +3362,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-rate ant-rate-small css-var-test-id"
+    class="g-rate g-rate-small css-var-test-id"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3376,11 +3376,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3399,11 +3399,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3424,7 +3424,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3434,11 +3434,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3457,11 +3457,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3482,7 +3482,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3492,11 +3492,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3515,11 +3515,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3540,7 +3540,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3550,11 +3550,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3573,11 +3573,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3598,7 +3598,7 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3608,11 +3608,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3631,11 +3631,11 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3663,15 +3663,15 @@ exports[`renders components/rate/demo/size.tsx extend context correctly 2`] = `[
 
 exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <ul
-    class="ant-rate css-var-test-id"
+    class="g-rate css-var-test-id"
     tabindex="0"
   >
     <li
       aria-describedby="test-id"
-      class="ant-rate-star ant-rate-star-full"
+      class="g-rate-star g-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -3681,11 +3681,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3704,11 +3704,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3729,19 +3729,19 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
       </div>
     </li>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3750,7 +3750,7 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
     </div>
     <li
       aria-describedby="test-id"
-      class="ant-rate-star ant-rate-star-full"
+      class="g-rate-star g-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -3760,11 +3760,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3783,11 +3783,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3808,19 +3808,19 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
       </div>
     </li>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3829,7 +3829,7 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
     </div>
     <li
       aria-describedby="test-id"
-      class="ant-rate-star ant-rate-star-full"
+      class="g-rate-star g-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -3839,11 +3839,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3862,11 +3862,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3887,19 +3887,19 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
       </div>
     </li>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3908,7 +3908,7 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
     </div>
     <li
       aria-describedby="test-id"
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3918,11 +3918,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3941,11 +3941,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -3966,19 +3966,19 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
       </div>
     </li>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3987,7 +3987,7 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
     </div>
     <li
       aria-describedby="test-id"
-      class="ant-rate-star ant-rate-star-zero"
+      class="g-rate-star g-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -3997,11 +3997,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="g-rate-star-first"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -4020,11 +4020,11 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="g-rate-star-second"
         >
           <span
             aria-label="star"
-            class="anticon anticon-star"
+            class="gicon gicon-star"
             role="img"
           >
             <svg
@@ -4045,19 +4045,19 @@ exports[`renders components/rate/demo/text.tsx extend context correctly 1`] = `
       </div>
     </li>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >

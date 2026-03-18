@@ -4,7 +4,7 @@ exports[`Tooltip rtl render component should be rendered correctly in RTL direct
 
 exports[`Tooltip should hide when mouse leave antd disabled component Button 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
   disabled=""
   type="button"
 />
@@ -13,22 +13,22 @@ exports[`Tooltip should hide when mouse leave antd disabled component Button 1`]
 exports[`Tooltip should hide when mouse leave antd disabled component Switch 1`] = `
 <button
   aria-checked="false"
-  class="ant-switch css-var-root ant-switch-disabled"
+  class="g-switch css-var-root g-switch-disabled"
   disabled=""
   role="switch"
   type="button"
 >
   <div
-    class="ant-switch-handle"
+    class="g-switch-handle"
   />
   <span
-    class="ant-switch-inner"
+    class="g-switch-inner"
   >
     <span
-      class="ant-switch-inner-checked"
+      class="g-switch-inner-checked"
     />
     <span
-      class="ant-switch-inner-unchecked"
+      class="g-switch-inner-unchecked"
     />
   </span>
 </button>
@@ -38,24 +38,24 @@ exports[`Tooltip support arrow props by default 1`] = `
 <div>
   <div
     aria-describedby="test-id"
-    class="target ant-tooltip-open"
+    class="target g-tooltip-open"
   >
     target
   </div>
   <div
-    class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-root ant-tooltip-placement-top"
+    class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-root g-tooltip-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-tooltip-arrow"
+      class="g-tooltip-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-tooltip-arrow-content"
+        class="g-tooltip-arrow-content"
       />
     </div>
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       id="test-id"
       role="tooltip"
     />
@@ -67,16 +67,16 @@ exports[`Tooltip support arrow props pass false to hide arrow 1`] = `
 <div>
   <div
     aria-describedby="test-id"
-    class="target ant-tooltip-open"
+    class="target g-tooltip-open"
   >
     target
   </div>
   <div
-    class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-root ant-tooltip-placement-top"
+    class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-root g-tooltip-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       id="test-id"
       role="tooltip"
     />

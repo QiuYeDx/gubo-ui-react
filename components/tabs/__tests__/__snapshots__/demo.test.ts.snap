@@ -3,30 +3,30 @@
 exports[`renders components/tabs/demo/animated.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-checked="true"
-        class="ant-switch css-var-test-id ant-switch-checked"
+        class="g-switch css-var-test-id g-switch-checked"
         role="switch"
         type="button"
       >
         <div
-          class="ant-switch-handle"
+          class="g-switch-handle"
         />
         <span
-          class="ant-switch-inner"
+          class="g-switch-inner"
         >
           <span
-            class="ant-switch-inner-checked"
+            class="g-switch-inner-checked"
           >
             inkBar
           </span>
           <span
-            class="ant-switch-inner-unchecked"
+            class="g-switch-inner-unchecked"
           >
             inkBar
           </span>
@@ -34,27 +34,27 @@ Array [
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-checked="true"
-        class="ant-switch css-var-test-id ant-switch-checked"
+        class="g-switch css-var-test-id g-switch-checked"
         role="switch"
         type="button"
       >
         <div
-          class="ant-switch-handle"
+          class="g-switch-handle"
         />
         <span
-          class="ant-switch-inner"
+          class="g-switch-inner"
         >
           <span
-            class="ant-switch-inner-checked"
+            class="g-switch-inner-checked"
           >
             tabPane
           </span>
           <span
-            class="ant-switch-inner-unchecked"
+            class="g-switch-inner-unchecked"
           >
             tabPane
           </span>
@@ -63,27 +63,27 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -91,12 +91,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -104,12 +104,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -117,25 +117,25 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -156,14 +156,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top ant-tabs-content-animated"
+        class="g-tabs-content g-tabs-content-top g-tabs-content-animated"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           style="height:200px;box-shadow:0 0 3px rgba(255, 0, 0, 0.5)"
           tabindex="0"
@@ -178,27 +178,27 @@ Array [
 
 exports[`renders components/tabs/demo/basic.tsx correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="1"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -206,12 +206,12 @@ exports[`renders components/tabs/demo/basic.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="2"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -219,12 +219,12 @@ exports[`renders components/tabs/demo/basic.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="3"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -232,25 +232,25 @@ exports[`renders components/tabs/demo/basic.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -271,14 +271,14 @@ exports[`renders components/tabs/demo/basic.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -291,27 +291,27 @@ exports[`renders components/tabs/demo/basic.tsx correctly 1`] = `
 
 exports[`renders components/tabs/demo/card.tsx correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-card css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top g-tabs-card css-var-test-id g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="1"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -319,12 +319,12 @@ exports[`renders components/tabs/demo/card.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="2"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -332,12 +332,12 @@ exports[`renders components/tabs/demo/card.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="3"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -345,25 +345,25 @@ exports[`renders components/tabs/demo/card.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -384,14 +384,14 @@ exports[`renders components/tabs/demo/card.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -407,27 +407,27 @@ exports[`renders components/tabs/demo/card-top.tsx correctly 1`] = `
   class="acss-1g7foe3"
 >
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-card css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top g-tabs-card css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -435,12 +435,12 @@ exports[`renders components/tabs/demo/card-top.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -448,12 +448,12 @@ exports[`renders components/tabs/demo/card-top.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -461,25 +461,25 @@ exports[`renders components/tabs/demo/card-top.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -500,14 +500,14 @@ exports[`renders components/tabs/demo/card-top.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -535,27 +535,27 @@ exports[`renders components/tabs/demo/card-top.tsx correctly 1`] = `
 
 exports[`renders components/tabs/demo/centered.tsx correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-centered css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top g-tabs-centered css-var-test-id g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="1"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -563,12 +563,12 @@ exports[`renders components/tabs/demo/centered.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="2"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -576,12 +576,12 @@ exports[`renders components/tabs/demo/centered.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="3"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -589,25 +589,25 @@ exports[`renders components/tabs/demo/centered.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -628,14 +628,14 @@ exports[`renders components/tabs/demo/centered.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -650,29 +650,29 @@ exports[`renders components/tabs/demo/component-token.tsx correctly 1`] = `
 Array [
   <div>
     <div
-      class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
       style="margin-bottom:32px"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -680,13 +680,13 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -694,38 +694,38 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-disabled"
+              class="g-tabs-tab g-tabs-tab-disabled"
               data-node-key="3"
             >
               <div
                 aria-disabled="true"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -745,10 +745,10 @@ Array [
           </button>
         </div>
         <div
-          class="ant-tabs-extra-content"
+          class="g-tabs-extra-content"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span>
@@ -758,14 +758,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
           >
@@ -775,29 +775,29 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-left css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-left css-var-test-id g-tabs-css-var"
       style="margin-bottom:32px"
     >
       <div
         aria-orientation="vertical"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -805,13 +805,13 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -819,38 +819,38 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-disabled"
+              class="g-tabs-tab g-tabs-tab-disabled"
               data-node-key="3"
             >
               <div
                 aria-disabled="true"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -870,10 +870,10 @@ Array [
           </button>
         </div>
         <div
-          class="ant-tabs-extra-content"
+          class="g-tabs-extra-content"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span>
@@ -883,14 +883,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-left"
+          class="g-tabs-content g-tabs-content-left"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
           >
@@ -900,29 +900,29 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-small css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-small css-var-test-id g-tabs-css-var"
       style="margin-bottom:32px"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -930,13 +930,13 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -944,38 +944,38 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-disabled"
+              class="g-tabs-tab g-tabs-tab-disabled"
               data-node-key="3"
             >
               <div
                 aria-disabled="true"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -995,10 +995,10 @@ Array [
           </button>
         </div>
         <div
-          class="ant-tabs-extra-content"
+          class="g-tabs-extra-content"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span>
@@ -1008,14 +1008,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
           >
@@ -1025,29 +1025,29 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-large css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-large css-var-test-id g-tabs-css-var"
       style="margin-bottom:32px"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1055,13 +1055,13 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -1069,38 +1069,38 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-disabled"
+              class="g-tabs-tab g-tabs-tab-disabled"
               data-node-key="3"
             >
               <div
                 aria-disabled="true"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -1120,10 +1120,10 @@ Array [
           </button>
         </div>
         <div
-          class="ant-tabs-extra-content"
+          class="g-tabs-extra-content"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span>
@@ -1133,14 +1133,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
           >
@@ -1150,28 +1150,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-card ant-tabs-centered css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-card g-tabs-centered css-var-test-id g-tabs-css-var"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1179,13 +1179,13 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -1193,38 +1193,38 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-disabled"
+              class="g-tabs-tab g-tabs-tab-disabled"
               data-node-key="3"
             >
               <div
                 aria-disabled="true"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -1245,14 +1245,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
           >
@@ -1262,28 +1262,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-small ant-tabs-card ant-tabs-centered css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-small g-tabs-card g-tabs-centered css-var-test-id g-tabs-css-var"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1291,13 +1291,13 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -1305,38 +1305,38 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-disabled"
+              class="g-tabs-tab g-tabs-tab-disabled"
               data-node-key="3"
             >
               <div
                 aria-disabled="true"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -1357,14 +1357,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
           >
@@ -1374,28 +1374,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-large ant-tabs-card ant-tabs-centered css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-large g-tabs-card g-tabs-centered css-var-test-id g-tabs-css-var"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1403,13 +1403,13 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -1417,38 +1417,38 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-disabled"
+              class="g-tabs-tab g-tabs-tab-disabled"
               data-node-key="3"
             >
               <div
                 aria-disabled="true"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -1469,14 +1469,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
           >
@@ -1487,28 +1487,28 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-small ant-tabs-card ant-tabs-editable-card css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top g-tabs-editable g-tabs-small g-tabs-card g-tabs-editable-card css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-with-remove g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-disabled="false"
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -1516,13 +1516,13 @@ Array [
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="g-tabs-tab-remove"
               tabindex="0"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -1543,13 +1543,13 @@ Array [
             </button>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove"
+            class="g-tabs-tab g-tabs-tab-with-remove"
             data-node-key="2"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -1557,13 +1557,13 @@ Array [
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="g-tabs-tab-remove"
               tabindex="-1"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -1584,13 +1584,13 @@ Array [
             </button>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-disabled"
+            class="g-tabs-tab g-tabs-tab-disabled"
             data-node-key="3"
           >
             <div
               aria-disabled="true"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
             >
               Tab 3
@@ -1598,12 +1598,12 @@ Array [
           </div>
           <button
             aria-label="Add tab"
-            class="ant-tabs-nav-add"
+            class="g-tabs-nav-add"
             type="button"
           >
             <span
               aria-label="plus"
-              class="anticon anticon-plus"
+              class="gicon gicon-plus"
               role="img"
             >
               <svg
@@ -1625,25 +1625,25 @@ Array [
             </span>
           </button>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -1663,12 +1663,12 @@ Array [
         </button>
         <button
           aria-label="Add tab"
-          class="ant-tabs-nav-add"
+          class="g-tabs-nav-add"
           type="button"
         >
           <span
             aria-label="plus"
-            class="anticon anticon-plus"
+            class="gicon gicon-plus"
             role="img"
           >
             <svg
@@ -1692,14 +1692,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -1709,31 +1709,31 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-flex css-var-test-id ant-flex-align-flex-end"
+    class="g-flex css-var-test-id g-flex-align-flex-end"
   >
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-large ant-tabs-card css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-large g-tabs-card css-var-test-id g-tabs-css-var"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
         style="background:red"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1741,12 +1741,12 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -1754,26 +1754,26 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
           style="background:red"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -1794,14 +1794,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="-1"
           />
@@ -1809,28 +1809,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-card css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-card css-var-test-id g-tabs-css-var"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
         style="background:red"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1838,12 +1838,12 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -1851,26 +1851,26 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
           style="background:red"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -1891,14 +1891,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="-1"
           />
@@ -1906,28 +1906,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-small ant-tabs-card ant-tabs-editable-card css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-editable g-tabs-small g-tabs-card g-tabs-editable-card css-var-test-id g-tabs-css-var"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
         style="background:red"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-with-remove g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -1935,13 +1935,13 @@ Array [
               </div>
               <button
                 aria-label="remove"
-                class="ant-tabs-tab-remove"
+                class="g-tabs-tab-remove"
                 tabindex="0"
                 type="button"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -1962,12 +1962,12 @@ Array [
               </button>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-with-remove"
+              class="g-tabs-tab g-tabs-tab-with-remove"
               data-node-key="2"
             >
               <div
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -1975,13 +1975,13 @@ Array [
               </div>
               <button
                 aria-label="remove"
-                class="ant-tabs-tab-remove"
+                class="g-tabs-tab-remove"
                 tabindex="-1"
                 type="button"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -2003,12 +2003,12 @@ Array [
             </div>
             <button
               aria-label="Add tab"
-              class="ant-tabs-nav-add"
+              class="g-tabs-nav-add"
               type="button"
             >
               <span
                 aria-label="plus"
-                class="anticon anticon-plus"
+                class="gicon gicon-plus"
                 role="img"
               >
                 <svg
@@ -2030,26 +2030,26 @@ Array [
               </span>
             </button>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
           style="background:red"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -2069,12 +2069,12 @@ Array [
           </button>
           <button
             aria-label="Add tab"
-            class="ant-tabs-nav-add"
+            class="g-tabs-nav-add"
             type="button"
           >
             <span
               aria-label="plus"
-              class="anticon anticon-plus"
+              class="gicon gicon-plus"
               role="img"
             >
               <svg
@@ -2098,14 +2098,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="-1"
           />
@@ -2113,28 +2113,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-small ant-tabs-card css-var-test-id ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-small g-tabs-card css-var-test-id g-tabs-css-var"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
         style="background:red"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform:translate(0px, 0px)"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-active"
               data-node-key="1"
             >
               <div
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="0"
               >
@@ -2142,12 +2142,12 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="2"
             >
               <div
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 role="tab"
                 tabindex="-1"
               >
@@ -2155,26 +2155,26 @@ Array [
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
           style="background:red"
         >
           <button
             aria-controls="null-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="null-more"
             style="visibility:hidden;order:1"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -2195,14 +2195,14 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             role="tabpanel"
             tabindex="-1"
           />
@@ -2219,7 +2219,7 @@ exports[`renders components/tabs/demo/custom-add-trigger.tsx correctly 1`] = `
     style="margin-bottom:16px"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -2228,27 +2228,27 @@ exports[`renders components/tabs/demo/custom-add-trigger.tsx correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-card ant-tabs-editable-card css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top g-tabs-editable g-tabs-card g-tabs-editable-card css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-with-remove g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2256,13 +2256,13 @@ exports[`renders components/tabs/demo/custom-add-trigger.tsx correctly 1`] = `
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="g-tabs-tab-remove"
               tabindex="0"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -2283,12 +2283,12 @@ exports[`renders components/tabs/demo/custom-add-trigger.tsx correctly 1`] = `
             </button>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove"
+            class="g-tabs-tab g-tabs-tab-with-remove"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -2296,13 +2296,13 @@ exports[`renders components/tabs/demo/custom-add-trigger.tsx correctly 1`] = `
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="g-tabs-tab-remove"
               tabindex="-1"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -2323,25 +2323,25 @@ exports[`renders components/tabs/demo/custom-add-trigger.tsx correctly 1`] = `
             </button>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -2362,14 +2362,14 @@ exports[`renders components/tabs/demo/custom-add-trigger.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -2386,55 +2386,55 @@ Array [
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     style="margin-bottom:8px"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="start"
         >
           start
         </div>
       </label>
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="center"
         >
           center
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="end"
         >
           end
@@ -2443,27 +2443,27 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2471,12 +2471,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -2484,12 +2484,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -2497,25 +2497,25 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -2536,14 +2536,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -2557,31 +2557,31 @@ Array [
 
 exports[`renders components/tabs/demo/custom-tab-bar.tsx correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
 >
   <div
     style="z-index:1"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
       style="background:#ffffff"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -2589,12 +2589,12 @@ exports[`renders components/tabs/demo/custom-tab-bar.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -2602,12 +2602,12 @@ exports[`renders components/tabs/demo/custom-tab-bar.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -2615,26 +2615,26 @@ exports[`renders components/tabs/demo/custom-tab-bar.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         style="background:#ffffff"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -2656,14 +2656,14 @@ exports[`renders components/tabs/demo/custom-tab-bar.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         role="tabpanel"
         style="height:200px"
         tabindex="0"
@@ -2677,25 +2677,25 @@ exports[`renders components/tabs/demo/custom-tab-bar.tsx correctly 1`] = `
 
 exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
           aria-describedby="DndDescribedBy-0"
           aria-disabled="false"
           aria-roledescription="sortable"
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="1"
           role="button"
           style="cursor:move"
@@ -2703,7 +2703,7 @@ exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -2714,7 +2714,7 @@ exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
           aria-describedby="DndDescribedBy-0"
           aria-disabled="false"
           aria-roledescription="sortable"
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="2"
           role="button"
           style="cursor:move"
@@ -2722,7 +2722,7 @@ exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -2733,7 +2733,7 @@ exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
           aria-describedby="DndDescribedBy-0"
           aria-disabled="false"
           aria-roledescription="sortable"
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="3"
           role="button"
           style="cursor:move"
@@ -2741,7 +2741,7 @@ exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -2749,25 +2749,25 @@ exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -2788,14 +2788,14 @@ exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -2808,27 +2808,27 @@ exports[`renders components/tabs/demo/custom-tab-bar-node.tsx correctly 1`] = `
 
 exports[`renders components/tabs/demo/disabled.tsx correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="1"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -2836,25 +2836,25 @@ exports[`renders components/tabs/demo/disabled.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab ant-tabs-tab-disabled"
+          class="g-tabs-tab g-tabs-tab-disabled"
           data-node-key="2"
         >
           <div
             aria-disabled="true"
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
           >
             Tab 2
           </div>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="3"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -2862,25 +2862,25 @@ exports[`renders components/tabs/demo/disabled.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -2901,14 +2901,14 @@ exports[`renders components/tabs/demo/disabled.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -2921,27 +2921,27 @@ exports[`renders components/tabs/demo/disabled.tsx correctly 1`] = `
 
 exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-card ant-tabs-editable-card css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top g-tabs-editable g-tabs-card g-tabs-editable-card css-var-test-id g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-with-remove g-tabs-tab-active"
           data-node-key="1"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
@@ -2949,13 +2949,13 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
           </div>
           <button
             aria-label="remove"
-            class="ant-tabs-tab-remove"
+            class="g-tabs-tab-remove"
             tabindex="0"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -2976,12 +2976,12 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
           </button>
         </div>
         <div
-          class="ant-tabs-tab ant-tabs-tab-with-remove"
+          class="g-tabs-tab g-tabs-tab-with-remove"
           data-node-key="2"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -2989,13 +2989,13 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
           </div>
           <button
             aria-label="remove"
-            class="ant-tabs-tab-remove"
+            class="g-tabs-tab-remove"
             tabindex="-1"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -3016,12 +3016,12 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
           </button>
         </div>
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="3"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
@@ -3030,12 +3030,12 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
         </div>
         <button
           aria-label="Add tab"
-          class="ant-tabs-nav-add"
+          class="g-tabs-nav-add"
           type="button"
         >
           <span
             aria-label="plus"
-            class="anticon anticon-plus"
+            class="gicon gicon-plus"
             role="img"
           >
             <svg
@@ -3057,25 +3057,25 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
           </span>
         </button>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -3095,12 +3095,12 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
       </button>
       <button
         aria-label="Add tab"
-        class="ant-tabs-nav-add"
+        class="g-tabs-nav-add"
         type="button"
       >
         <span
           aria-label="plus"
-          class="anticon anticon-plus"
+          class="gicon gicon-plus"
           role="img"
         >
           <svg
@@ -3124,14 +3124,14 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -3145,27 +3145,27 @@ exports[`renders components/tabs/demo/editable-card.tsx correctly 1`] = `
 exports[`renders components/tabs/demo/extra.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3173,12 +3173,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -3186,12 +3186,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -3199,25 +3199,25 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -3237,10 +3237,10 @@ Array [
         </button>
       </div>
       <div
-        class="ant-tabs-extra-content"
+        class="g-tabs-extra-content"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -3250,14 +3250,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -3273,47 +3273,47 @@ Array [
     You can also specify its direction or both side
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />,
   <div
-    class="ant-checkbox-group css-var-test-id ant-checkbox-css-var"
+    class="g-checkbox-group css-var-test-id g-checkbox-css-var"
     role="group"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item css-var-test-id ant-checkbox-css-var"
+      class="g-checkbox-wrapper g-checkbox-wrapper-checked g-checkbox-group-item css-var-test-id g-checkbox-css-var"
     >
       <span
-        class="ant-checkbox ant-wave-target ant-checkbox-checked"
+        class="g-checkbox g-wave-target g-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="g-checkbox-input"
           type="checkbox"
           value="left"
         />
       </span>
       <span
-        class="ant-checkbox-label"
+        class="g-checkbox-label"
       >
         left
       </span>
     </label>
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item css-var-test-id ant-checkbox-css-var"
+      class="g-checkbox-wrapper g-checkbox-wrapper-checked g-checkbox-group-item css-var-test-id g-checkbox-css-var"
     >
       <span
-        class="ant-checkbox ant-wave-target ant-checkbox-checked"
+        class="g-checkbox g-wave-target g-checkbox-checked"
       >
         <input
           checked=""
-          class="ant-checkbox-input"
+          class="g-checkbox-input"
           type="checkbox"
           value="right"
         />
       </span>
       <span
-        class="ant-checkbox-label"
+        class="g-checkbox-label"
       >
         right
       </span>
@@ -3322,18 +3322,18 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-extra-content"
+        class="g-tabs-extra-content"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined tabs-extra-demo-button"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined tabs-extra-demo-button"
           type="button"
         >
           <span>
@@ -3342,19 +3342,19 @@ Array [
         </button>
       </div>
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3362,12 +3362,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -3375,12 +3375,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -3388,25 +3388,25 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -3426,10 +3426,10 @@ Array [
         </button>
       </div>
       <div
-        class="ant-tabs-extra-content"
+        class="g-tabs-extra-content"
       >
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -3439,14 +3439,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -3460,36 +3460,36 @@ Array [
 
 exports[`renders components/tabs/demo/icon.tsx correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+  class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform:translate(0px, 0px)"
       >
         <div
-          class="ant-tabs-tab"
+          class="g-tabs-tab"
           data-node-key="1"
         >
           <div
             aria-selected="false"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="-1"
           >
             <span
-              class="ant-tabs-tab-icon"
+              class="g-tabs-tab-icon"
             >
               <span
                 aria-label="apple"
-                class="anticon anticon-apple"
+                class="gicon gicon-apple"
                 role="img"
               >
                 <svg
@@ -3513,21 +3513,21 @@ exports[`renders components/tabs/demo/icon.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="2"
         >
           <div
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             role="tab"
             tabindex="0"
           >
             <span
-              class="ant-tabs-tab-icon"
+              class="g-tabs-tab-icon"
             >
               <span
                 aria-label="android"
-                class="anticon anticon-android"
+                class="gicon gicon-android"
                 role="img"
               >
                 <svg
@@ -3551,25 +3551,25 @@ exports[`renders components/tabs/demo/icon.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="null-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="null-more"
         style="visibility:hidden;order:1"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -3590,14 +3590,14 @@ exports[`renders components/tabs/demo/icon.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         role="tabpanel"
         tabindex="0"
       >
@@ -3611,14 +3611,14 @@ exports[`renders components/tabs/demo/icon.tsx correctly 1`] = `
 exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
 <div>
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       />
       <input
@@ -3626,7 +3626,7 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3635,11 +3635,11 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3659,14 +3659,14 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       />
       <input
@@ -3674,7 +3674,7 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3683,11 +3683,11 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3707,14 +3707,14 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       />
       <input
@@ -3722,7 +3722,7 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3731,11 +3731,11 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3755,14 +3755,14 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:200px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       />
       <input
@@ -3770,7 +3770,7 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3779,11 +3779,11 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3803,27 +3803,27 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -3831,12 +3831,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -3844,25 +3844,25 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -3883,40 +3883,40 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
           <div
-            class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+            class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
             style="height:300px"
           >
             <div
               aria-orientation="horizontal"
-              class="ant-tabs-nav"
+              class="g-tabs-nav"
               role="tablist"
             >
               <div
-                class="ant-tabs-nav-wrap"
+                class="g-tabs-nav-wrap"
               >
                 <div
-                  class="ant-tabs-nav-list"
+                  class="g-tabs-nav-list"
                   style="transform:translate(0px, 0px)"
                 >
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="0"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -3924,12 +3924,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab ant-tabs-tab-active"
+                    class="g-tabs-tab g-tabs-tab-active"
                     data-node-key="1"
                   >
                     <div
                       aria-selected="true"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="0"
                     >
@@ -3937,12 +3937,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="2"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -3950,12 +3950,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="3"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -3963,12 +3963,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="4"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -3976,12 +3976,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="5"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -3989,12 +3989,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="6"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4002,12 +4002,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="7"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4015,12 +4015,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="8"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4028,12 +4028,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="9"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4041,12 +4041,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="10"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4054,12 +4054,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="11"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4067,12 +4067,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="12"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4080,12 +4080,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="13"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4093,12 +4093,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="14"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4106,12 +4106,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="15"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4119,12 +4119,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="16"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4132,12 +4132,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="17"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4145,12 +4145,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="18"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4158,12 +4158,12 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-tab"
+                    class="g-tabs-tab"
                     data-node-key="19"
                   >
                     <div
                       aria-selected="false"
-                      class="ant-tabs-tab-btn"
+                      class="g-tabs-tab-btn"
                       role="tab"
                       tabindex="-1"
                     >
@@ -4171,25 +4171,25 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
                     </div>
                   </div>
                   <div
-                    class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                    class="g-tabs-ink-bar g-tabs-ink-bar-animated"
                   />
                 </div>
               </div>
               <div
-                class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+                class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
               >
                 <button
                   aria-controls="null-more-popup"
                   aria-expanded="false"
                   aria-haspopup="listbox"
-                  class="ant-tabs-nav-more"
+                  class="g-tabs-nav-more"
                   id="null-more"
                   style="visibility:hidden;order:1"
                   type="button"
                 >
                   <span
                     aria-label="ellipsis"
-                    class="anticon anticon-ellipsis"
+                    class="gicon gicon-ellipsis"
                     role="img"
                   >
                     <svg
@@ -4210,14 +4210,14 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-content-holder"
+              class="g-tabs-content-holder"
             >
               <div
-                class="ant-tabs-content ant-tabs-content-top"
+                class="g-tabs-content g-tabs-content-top"
               >
                 <div
                   aria-hidden="false"
-                  class="ant-tabs-tabpane ant-tabs-tabpane-active"
+                  class="g-tabs-tabpane g-tabs-tabpane-active"
                   role="tabpanel"
                   tabindex="0"
                 >
@@ -4236,94 +4236,94 @@ exports[`renders components/tabs/demo/nest.tsx correctly 1`] = `
 exports[`renders components/tabs/demo/placement.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="margin-bottom:24px"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       Tab placement:
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+        class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
         role="radiogroup"
       >
         <label
-          class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button"
+            class="g-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="top"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             top
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button"
+            class="g-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="bottom"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             bottom
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button ant-radio-button-checked"
+            class="g-radio-button g-radio-button-checked"
           >
             <input
               checked=""
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="start"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             start
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button"
+            class="g-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="end"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             end
           </span>
@@ -4332,27 +4332,27 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-tabs ant-tabs-left css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-left css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="vertical"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -4360,12 +4360,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -4373,12 +4373,12 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -4386,25 +4386,25 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -4425,14 +4425,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-left"
+        class="g-tabs-content g-tabs-content-left"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -4447,92 +4447,92 @@ Array [
 exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
     style="margin-bottom:16px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="small"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Small
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="medium"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Medium
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="large"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Large
       </span>
     </label>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-small css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top g-tabs-small css-var-test-id g-tabs-css-var"
     style="margin-bottom:32px"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -4540,12 +4540,12 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -4553,12 +4553,12 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -4566,25 +4566,25 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -4605,14 +4605,14 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -4622,28 +4622,28 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-small ant-tabs-card css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top g-tabs-small g-tabs-card css-var-test-id g-tabs-css-var"
     style="margin-bottom:32px"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -4651,12 +4651,12 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -4664,12 +4664,12 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -4677,25 +4677,25 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -4716,14 +4716,14 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -4733,27 +4733,27 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-small ant-tabs-card ant-tabs-editable-card css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top g-tabs-editable g-tabs-small g-tabs-card g-tabs-editable-card css-var-test-id g-tabs-css-var"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-with-remove g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -4761,13 +4761,13 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="g-tabs-tab-remove"
               tabindex="0"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4788,12 +4788,12 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </button>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove"
+            class="g-tabs-tab g-tabs-tab-with-remove"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -4801,13 +4801,13 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="g-tabs-tab-remove"
               tabindex="-1"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4828,12 +4828,12 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </button>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-with-remove"
+            class="g-tabs-tab g-tabs-tab-with-remove"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -4841,13 +4841,13 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </div>
             <button
               aria-label="remove"
-              class="ant-tabs-tab-remove"
+              class="g-tabs-tab-remove"
               tabindex="-1"
               type="button"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4869,12 +4869,12 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
           </div>
           <button
             aria-label="Add tab"
-            class="ant-tabs-nav-add"
+            class="g-tabs-nav-add"
             type="button"
           >
             <span
               aria-label="plus"
-              class="anticon anticon-plus"
+              class="gicon gicon-plus"
               role="img"
             >
               <svg
@@ -4896,25 +4896,25 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
             </span>
           </button>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -4934,12 +4934,12 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
         </button>
         <button
           aria-label="Add tab"
-          class="ant-tabs-nav-add"
+          class="g-tabs-nav-add"
           type="button"
         >
           <span
             aria-label="plus"
-            class="anticon anticon-plus"
+            class="gicon gicon-plus"
             role="img"
           >
             <svg
@@ -4963,14 +4963,14 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -4985,74 +4985,74 @@ exports[`renders components/tabs/demo/size.tsx correctly 1`] = `
 exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
     style="margin-bottom:8px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="top"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Horizontal
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="left"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Vertical
       </span>
     </label>
   </div>
   <div
-    class="ant-tabs ant-tabs-top css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top css-var-test-id g-tabs-css-var"
     style="height:220px"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="0"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5060,13 +5060,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-disabled="false"
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -5074,13 +5074,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5088,13 +5088,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5102,13 +5102,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="4"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5116,13 +5116,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="5"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5130,13 +5130,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="6"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5144,13 +5144,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="7"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5158,13 +5158,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="8"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5172,13 +5172,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="9"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5186,13 +5186,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="10"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5200,13 +5200,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="11"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5214,13 +5214,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="12"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5228,13 +5228,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="13"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5242,13 +5242,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="14"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5256,13 +5256,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="15"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5270,13 +5270,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="16"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5284,13 +5284,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="17"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5298,13 +5298,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="18"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5312,13 +5312,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="19"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5326,13 +5326,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="20"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5340,13 +5340,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="21"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5354,13 +5354,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="22"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5368,13 +5368,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="23"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5382,13 +5382,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="24"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5396,13 +5396,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="25"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5410,13 +5410,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="26"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5424,13 +5424,13 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="27"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5438,26 +5438,26 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab ant-tabs-tab-disabled"
+            class="g-tabs-tab g-tabs-tab-disabled"
             data-node-key="28"
           >
             <div
               aria-disabled="true"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
             >
               Tab-28
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="29"
           >
             <div
               aria-disabled="false"
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5465,25 +5465,25 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -5504,14 +5504,14 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >
@@ -5525,33 +5525,33 @@ exports[`renders components/tabs/demo/slide.tsx correctly 1`] = `
 
 exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-tabs ant-tabs-top acss-1umkjc1 css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-top acss-1umkjc1 css-var-test-id g-tabs-css-var"
     style="border-width:2px;border-style:dashed;padding:16px;margin-bottom:10px"
   >
     <div
       aria-orientation="horizontal"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
       style="background-color:rgba(245,245,245,0.5)"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
             style="font-weight:bold;color:#1890ff;padding:6px 10px"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -5559,13 +5559,13 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
             style="font-weight:bold;color:#1890ff;padding:6px 10px"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5573,13 +5573,13 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
             style="font-weight:bold;color:#1890ff;padding:6px 10px"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5587,26 +5587,26 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             style="background-color:rgba(255,77,79, 0.3);height:4px"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -5627,14 +5627,14 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-top"
+        class="g-tabs-content g-tabs-content-top"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           style="background-color:rgba(230,247,255,0.8);padding:16px"
           tabindex="0"
@@ -5645,29 +5645,29 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs ant-tabs-left ant-tabs-card acss-1umkjc1 css-var-test-id ant-tabs-css-var"
+    class="g-tabs g-tabs-left g-tabs-card acss-1umkjc1 css-var-test-id g-tabs-css-var"
     style="background-color:rgba(250,250,250, 0.8);border-color:#d9d9d9"
   >
     <div
       aria-orientation="vertical"
-      class="ant-tabs-nav"
+      class="g-tabs-nav"
       role="tablist"
       style="text-align:start"
     >
       <div
-        class="ant-tabs-nav-wrap"
+        class="g-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-list"
+          class="g-tabs-nav-list"
           style="transform:translate(0px, 0px)"
         >
           <div
-            class="ant-tabs-tab ant-tabs-tab-active"
+            class="g-tabs-tab g-tabs-tab-active"
             data-node-key="1"
           >
             <div
               aria-selected="true"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="0"
             >
@@ -5675,12 +5675,12 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="2"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5688,12 +5688,12 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-tab"
+            class="g-tabs-tab"
             data-node-key="3"
           >
             <div
               aria-selected="false"
-              class="ant-tabs-tab-btn"
+              class="g-tabs-tab-btn"
               role="tab"
               tabindex="-1"
             >
@@ -5701,25 +5701,25 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            class="g-tabs-ink-bar g-tabs-ink-bar-animated"
           />
         </div>
       </div>
       <div
-        class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
       >
         <button
           aria-controls="null-more-popup"
           aria-expanded="false"
           aria-haspopup="listbox"
-          class="ant-tabs-nav-more"
+          class="g-tabs-nav-more"
           id="null-more"
           style="visibility:hidden;order:1"
           type="button"
         >
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -5740,14 +5740,14 @@ exports[`renders components/tabs/demo/style-class.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-tabs-content-holder"
+      class="g-tabs-content-holder"
     >
       <div
-        class="ant-tabs-content ant-tabs-content-left"
+        class="g-tabs-content g-tabs-content-left"
       >
         <div
           aria-hidden="false"
-          class="ant-tabs-tabpane ant-tabs-tabpane-active"
+          class="g-tabs-tabpane g-tabs-tabpane-active"
           role="tabpanel"
           tabindex="0"
         >

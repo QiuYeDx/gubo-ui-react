@@ -43,7 +43,7 @@ describe('Tree.Semantic', () => {
       />,
     );
 
-    const root = container.querySelector('.ant-tree');
+    const root = container.querySelector('.g-tree');
     expect(root).toHaveClass(testClassNames.root!);
     expect(root).toHaveStyle({ color: 'rgb(255, 0, 0)' });
   });
@@ -83,7 +83,7 @@ describe('Tree.Semantic', () => {
       />,
     );
 
-    let root = container.querySelector('.ant-tree');
+    let root = container.querySelector('.g-tree');
     expect(root).toHaveClass('dynamic-tree-root', 'with-icon');
     expect(root).toHaveStyle({
       backgroundColor: 'rgb(255, 255, 255)',
@@ -102,7 +102,7 @@ describe('Tree.Semantic', () => {
       />,
     );
 
-    root = container.querySelector('.ant-tree');
+    root = container.querySelector('.g-tree');
     expect(root).toHaveStyle({
       backgroundColor: 'rgb(245, 245, 245)',
       border: '1px solid rgb(217, 217, 217)',

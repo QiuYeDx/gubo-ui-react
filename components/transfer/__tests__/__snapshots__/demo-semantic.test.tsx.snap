@@ -5,36 +5,36 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
   class="acss-1ucck97"
 >
   <div
-    class="ant-row css-var-test-id"
+    class="g-row css-var-test-id"
   >
     <div
-      class="ant-col ant-col-16 acss-my3sst css-var-test-id"
+      class="g-col g-col-16 acss-my3sst css-var-test-id"
     >
       <div
-        class="ant-transfer css-var-test-id semantic-mark-root"
+        class="g-transfer css-var-test-id semantic-mark-root"
       >
         <div
-          class="ant-transfer-section semantic-mark-section ant-transfer-section-with-footer"
+          class="g-transfer-section semantic-mark-section g-transfer-section-with-footer"
           style="height: 250px; width: 200px;"
         >
           <div
-            class="ant-transfer-list-header semantic-mark-header"
+            class="g-transfer-list-header semantic-mark-header"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-test-id ant-checkbox-css-var"
+              class="g-checkbox-wrapper g-transfer-list-checkbox css-var-test-id g-checkbox-css-var"
             >
               <span
-                class="ant-checkbox ant-wave-target"
+                class="g-checkbox g-wave-target"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="g-checkbox-input"
                   type="checkbox"
                 />
               </span>
             </label>
             <span
               aria-label="down"
-              class="anticon anticon-down ant-dropdown-trigger"
+              class="gicon gicon-down g-dropdown-trigger"
               role="img"
             >
               <svg
@@ -52,31 +52,31 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </svg>
             </span>
             <span
-              class="ant-transfer-list-header-selected"
+              class="g-transfer-list-header-selected"
             >
               18 items
             </span>
             <span
-              class="ant-transfer-list-header-title semantic-mark-title"
+              class="g-transfer-list-header-title semantic-mark-title"
             >
               Source
             </span>
           </div>
           <div
-            class="ant-transfer-list-body ant-transfer-list-body-with-search semantic-mark-body"
+            class="g-transfer-list-body g-transfer-list-body-with-search semantic-mark-body"
           >
             <div
-              class="ant-transfer-list-body-search-wrapper"
+              class="g-transfer-list-body-search-wrapper"
             >
               <span
-                class="ant-input-affix-wrapper ant-input-outlined ant-transfer-list-search css-var-test-id ant-input-css-var"
+                class="g-input-affix-wrapper g-input-outlined g-transfer-list-search css-var-test-id g-input-css-var"
               >
                 <span
-                  class="ant-input-prefix"
+                  class="g-input-prefix"
                 >
                   <span
                     aria-label="search"
-                    class="anticon anticon-search"
+                    class="gicon gicon-search"
                     role="img"
                   >
                     <svg
@@ -95,22 +95,22 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                   </span>
                 </span>
                 <input
-                  class="ant-input"
+                  class="g-input"
                   placeholder="Search here"
                   type="text"
                   value=""
                 />
                 <span
-                  class="ant-input-suffix"
+                  class="g-input-suffix"
                 >
                   <button
-                    class="ant-input-clear-icon ant-input-clear-icon-hidden"
+                    class="g-input-clear-icon g-input-clear-icon-hidden"
                     tabindex="-1"
                     type="button"
                   >
                     <span
                       aria-label="close-circle"
-                      class="anticon anticon-close-circle"
+                      class="gicon gicon-close-circle"
                       role="img"
                     >
                       <svg
@@ -133,400 +133,400 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </span>
             </div>
             <ul
-              class="ant-transfer-list-content semantic-mark-list"
+              class="g-transfer-list-content semantic-mark-list"
             >
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 1"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 1
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 2"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 2
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 3"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 3
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 5"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 5
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 6"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 6
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 7"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 7
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 8"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 8
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 9"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 9
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 11"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 11
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 12"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 12
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 13"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 13
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 14"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 14
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 15"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 15
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 16"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 16
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 17"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 17
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 18"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 18
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 19"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 19
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 20"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 20
                 </span>
@@ -534,7 +534,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
             </ul>
           </div>
           <div
-            class="ant-transfer-list-footer semantic-mark-footer"
+            class="g-transfer-list-footer semantic-mark-footer"
           >
             <div
               style="padding: 8px;"
@@ -544,19 +544,19 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-transfer-actions semantic-mark-actions"
+          class="g-transfer-actions semantic-mark-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+            class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
             disabled=""
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -576,16 +576,16 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+            class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
             disabled=""
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="left"
-                class="anticon anticon-left"
+                class="gicon gicon-left"
                 role="img"
               >
                 <svg
@@ -606,27 +606,27 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           </button>
         </div>
         <div
-          class="ant-transfer-section semantic-mark-section ant-transfer-section-with-footer"
+          class="g-transfer-section semantic-mark-section g-transfer-section-with-footer"
           style="height: 250px; width: 200px;"
         >
           <div
-            class="ant-transfer-list-header semantic-mark-header"
+            class="g-transfer-list-header semantic-mark-header"
           >
             <label
-              class="ant-checkbox-wrapper ant-transfer-list-checkbox css-var-test-id ant-checkbox-css-var"
+              class="g-checkbox-wrapper g-transfer-list-checkbox css-var-test-id g-checkbox-css-var"
             >
               <span
-                class="ant-checkbox ant-wave-target"
+                class="g-checkbox g-wave-target"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="g-checkbox-input"
                   type="checkbox"
                 />
               </span>
             </label>
             <span
               aria-label="down"
-              class="anticon anticon-down ant-dropdown-trigger"
+              class="gicon gicon-down g-dropdown-trigger"
               role="img"
             >
               <svg
@@ -644,31 +644,31 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </svg>
             </span>
             <span
-              class="ant-transfer-list-header-selected"
+              class="g-transfer-list-header-selected"
             >
               2 items
             </span>
             <span
-              class="ant-transfer-list-header-title semantic-mark-title"
+              class="g-transfer-list-header-title semantic-mark-title"
             >
               Target
             </span>
           </div>
           <div
-            class="ant-transfer-list-body ant-transfer-list-body-with-search semantic-mark-body"
+            class="g-transfer-list-body g-transfer-list-body-with-search semantic-mark-body"
           >
             <div
-              class="ant-transfer-list-body-search-wrapper"
+              class="g-transfer-list-body-search-wrapper"
             >
               <span
-                class="ant-input-affix-wrapper ant-input-outlined ant-transfer-list-search css-var-test-id ant-input-css-var"
+                class="g-input-affix-wrapper g-input-outlined g-transfer-list-search css-var-test-id g-input-css-var"
               >
                 <span
-                  class="ant-input-prefix"
+                  class="g-input-prefix"
                 >
                   <span
                     aria-label="search"
-                    class="anticon anticon-search"
+                    class="gicon gicon-search"
                     role="img"
                   >
                     <svg
@@ -687,22 +687,22 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                   </span>
                 </span>
                 <input
-                  class="ant-input"
+                  class="g-input"
                   placeholder="Search here"
                   type="text"
                   value=""
                 />
                 <span
-                  class="ant-input-suffix"
+                  class="g-input-suffix"
                 >
                   <button
-                    class="ant-input-clear-icon ant-input-clear-icon-hidden"
+                    class="g-input-clear-icon g-input-clear-icon-hidden"
                     tabindex="-1"
                     type="button"
                   >
                     <span
                       aria-label="close-circle"
-                      class="anticon anticon-close-circle"
+                      class="gicon gicon-close-circle"
                       role="img"
                     >
                       <svg
@@ -725,48 +725,48 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </span>
             </div>
             <ul
-              class="ant-transfer-list-content semantic-mark-list"
+              class="g-transfer-list-content semantic-mark-list"
             >
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 4"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 4
                 </span>
               </li>
               <li
-                class="ant-transfer-list-content-item semantic-mark-item"
+                class="g-transfer-list-content-item semantic-mark-item"
                 title="content 10"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id ant-checkbox-css-var"
+                  class="g-checkbox-wrapper g-transfer-list-checkbox semantic-mark-itemIcon css-var-test-id g-checkbox-css-var"
                 >
                   <span
-                    class="ant-checkbox ant-wave-target"
+                    class="g-checkbox g-wave-target"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="g-checkbox-input"
                       type="checkbox"
                     />
                   </span>
                 </label>
                 <span
-                  class="ant-transfer-list-content-item-text semantic-mark-itemContent"
+                  class="g-transfer-list-content-item-text semantic-mark-itemContent"
                 >
                   content 10
                 </span>
@@ -774,7 +774,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
             </ul>
           </div>
           <div
-            class="ant-transfer-list-footer semantic-mark-footer"
+            class="g-transfer-list-footer semantic-mark-footer"
           >
             <div
               style="padding: 8px;"
@@ -786,7 +786,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-col ant-col-8 css-var-test-id"
+      class="g-col g-col-8 css-var-test-id"
     >
       <ul
         class="acss-1ry21g5"
@@ -795,35 +795,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   root
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -844,15 +844,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -877,7 +877,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素，设置flex布局、穿梭框容器的基础样式和布局控制
@@ -888,35 +888,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   section
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -937,15 +937,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -970,7 +970,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               区域元素，设置flex布局、宽度、高度、最小高度、边框、圆角等单侧穿梭框的容器样式
@@ -981,35 +981,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   header
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1030,15 +1030,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1063,7 +1063,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               头部元素，设置flex布局、对齐方式、高度、内边距、颜色、背景色、下边框、圆角等头部区域的样式
@@ -1074,35 +1074,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   title
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1123,15 +1123,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1156,7 +1156,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               标题元素，设置文本省略、flex占比、文本对齐、自动左边距等标题文字的布局和样式
@@ -1167,35 +1167,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   body
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1216,15 +1216,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1249,7 +1249,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               内容元素，设置列表主体区域的容器样式和布局控制
@@ -1260,35 +1260,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   list
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1309,15 +1309,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1342,7 +1342,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               列表元素，设置列表内容的样式、布局和滚动控制
@@ -1353,35 +1353,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   item
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1402,15 +1402,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1435,7 +1435,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               列表项元素，设置相对定位、内边距、边框、悬停态、选中态、禁用态等列表项的交互样式
@@ -1446,35 +1446,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemIcon
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1495,15 +1495,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1528,7 +1528,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               列表项图标元素，设置复选框等图标的样式和交互状态
@@ -1539,35 +1539,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   itemContent
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1588,15 +1588,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1621,7 +1621,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               列表项内容元素，设置文本省略、内边距等列表项文本内容的展示样式
@@ -1632,35 +1632,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   footer
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1681,15 +1681,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1714,7 +1714,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               页脚元素，设置底部操作区域的样式和布局
@@ -1725,35 +1725,35 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   actions
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1774,15 +1774,15 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1807,7 +1807,7 @@ exports[`renders components/transfer/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               操作元素，设置穿梭按钮组的样式、布局和交互状态

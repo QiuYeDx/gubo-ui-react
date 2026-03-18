@@ -38,7 +38,7 @@ jest.mock('@rc-component/trigger', () => {
 });
 
 function getCell(text: string) {
-  const cells = Array.from(document.querySelectorAll('.ant-picker-cell'));
+  const cells = Array.from(document.querySelectorAll('.g-picker-cell'));
 
   return cells.find((cell) => cell.textContent === text);
 }
@@ -106,8 +106,8 @@ describe('DatePicker', () => {
     const disabledDate = (current: any) => current && current < dayjs().endOf('day');
     render(<DatePicker disabledDate={disabledDate} open />);
 
-    expect(getCell('21')).toHaveClass('ant-picker-cell-disabled');
-    expect(getCell('23')).not.toHaveClass('ant-picker-cell-disabled');
+    expect(getCell('21')).toHaveClass('g-picker-cell-disabled');
+    expect(getCell('23')).not.toHaveClass('g-picker-cell-disabled');
   });
 
   it('placeholder', () => {
@@ -124,16 +124,16 @@ describe('DatePicker', () => {
         open
       />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(2);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(2);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(24);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[1]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[1]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
   });
 
@@ -146,16 +146,16 @@ describe('DatePicker', () => {
         open
       />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(2);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(2);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[1]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[1]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
   });
 
@@ -168,21 +168,21 @@ describe('DatePicker', () => {
         open
       />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(3);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(3);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(24);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[1]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[1]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[2]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[2]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
   });
 
@@ -195,16 +195,16 @@ describe('DatePicker', () => {
         open
       />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(2);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(2);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(24);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[1]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[1]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
   });
 
@@ -217,11 +217,11 @@ describe('DatePicker', () => {
         open
       />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(1);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(1);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
   });
 
@@ -234,11 +234,11 @@ describe('DatePicker', () => {
         open
       />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(1);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(1);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
   });
 
@@ -246,11 +246,11 @@ describe('DatePicker', () => {
     const { container } = render(
       <DatePicker defaultValue={dayjs()} showTime={{ showHour: true }} format="YYYY-MM-DD" open />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(1);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(1);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(24);
   });
 
@@ -258,7 +258,7 @@ describe('DatePicker', () => {
     const { container } = render(
       <DatePicker defaultValue={dayjs()} showTime={{}} format="YYYY-MM-DD" open />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column')).toHaveLength(3);
+    expect(container.querySelectorAll('.g-picker-time-panel-column')).toHaveLength(3);
   });
 
   it('showTime should work correctly when format is custom function', () => {
@@ -298,26 +298,26 @@ describe('DatePicker', () => {
     const { container } = render(
       <DatePicker defaultValue={dayjs()} showTime format="YYYY-MM-DD HH:mm:ss A" open />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(4);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(4);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(12);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[1]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[1]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[2]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[2]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[3]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[3]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(2);
   });
 
@@ -325,21 +325,21 @@ describe('DatePicker', () => {
     const { container } = render(
       <DatePicker defaultValue={dayjs()} showTime format="YYYY-MM-DD HH:mm:ss" open />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column').length).toBe(3);
+    expect(container.querySelectorAll('.g-picker-time-panel-column').length).toBe(3);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(24);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[1]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[1]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[2]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[2]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
   });
 
@@ -351,11 +351,11 @@ describe('DatePicker', () => {
       <DatePicker.RangePicker defaultValue={[startDate, endDate]} showTime open />,
     );
 
-    const m = container.querySelector('.ant-picker-header-view .ant-picker-month-btn')?.innerHTML;
-    const y = container.querySelector('.ant-picker-header-view .ant-picker-year-btn')?.innerHTML;
+    const m = container.querySelector('.g-picker-header-view .g-picker-month-btn')?.innerHTML;
+    const y = container.querySelector('.g-picker-header-view .g-picker-year-btn')?.innerHTML;
     expect(m).toBe(startDate.format('MMM'));
     expect(y).toBe(startDate.format('YYYY'));
-    expect(container.querySelectorAll('.ant-picker-time-panel').length).toBe(1);
+    expect(container.querySelectorAll('.g-picker-time-panel').length).toBe(1);
   });
 
   it('DatePicker placement api work correctly', () => {
@@ -430,7 +430,7 @@ describe('DatePicker', () => {
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: DatePicker] `popupStyle` is deprecated. Please use `styles.popup.root` instead.',
     );
-    expect(container.querySelector('.ant-picker-dropdown')).toHaveStyle(
+    expect(container.querySelector('.g-picker-dropdown')).toHaveStyle(
       'background-color: rgb(255, 0, 0)',
     );
 
@@ -447,16 +447,16 @@ describe('DatePicker', () => {
     const { container } = render(
       <DatePicker defaultValue={dayjs()} format="kk:mm" showTime open />,
     );
-    expect(container.querySelectorAll('.ant-picker-time-panel-column')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-picker-time-panel-column')).toHaveLength(2);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[0]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[0]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(24);
     expect(
       container
-        .querySelectorAll('.ant-picker-time-panel-column')?.[1]
-        .querySelectorAll('.ant-picker-time-panel-cell').length,
+        .querySelectorAll('.g-picker-time-panel-column')?.[1]
+        .querySelectorAll('.g-picker-time-panel-cell').length,
     ).toBe(60);
   });
 
@@ -486,19 +486,19 @@ describe('DatePicker', () => {
 
   it('suffixIcon', () => {
     const { rerender, container } = render(<DatePicker />);
-    expect(container.querySelector('.ant-picker-suffix')!.children.length).toBeTruthy();
+    expect(container.querySelector('.g-picker-suffix')!.children.length).toBeTruthy();
 
     rerender(<DatePicker suffixIcon />);
-    expect(container.querySelector('.ant-picker-suffix')!.children.length).toBeTruthy();
+    expect(container.querySelector('.g-picker-suffix')!.children.length).toBeTruthy();
 
     rerender(<DatePicker suffixIcon={false} />);
-    expect(container.querySelector('.ant-picker-suffix')).toBeFalsy();
+    expect(container.querySelector('.g-picker-suffix')).toBeFalsy();
 
     rerender(<DatePicker suffixIcon={null} />);
-    expect(container.querySelector('.ant-picker-suffix')).toBeFalsy();
+    expect(container.querySelector('.g-picker-suffix')).toBeFalsy();
 
     rerender(<DatePicker suffixIcon={'123'} />);
-    expect(container.querySelector('.ant-picker-suffix')?.textContent).toBe('123');
+    expect(container.querySelector('.g-picker-suffix')?.textContent).toBe('123');
     expect(container.children).toMatchSnapshot();
   });
 
@@ -512,9 +512,7 @@ describe('DatePicker', () => {
       />,
     );
 
-    expect(container.querySelector('.ant-picker-content thead')).toHaveTextContent(
-      '一二三四五六日',
-    );
+    expect(container.querySelector('.g-picker-content thead')).toHaveTextContent('一二三四五六日');
 
     expect(container.querySelector<HTMLInputElement>('input')).toHaveAttribute(
       'placeholder',
@@ -527,7 +525,7 @@ describe('DatePicker', () => {
   describe('suffixIcon', () => {
     it('should support suffixIcon prop', () => {
       const { container } = render(<DatePicker suffixIcon="foobar" />);
-      expect(container.querySelector('.ant-picker-suffix')!.textContent).toBe('foobar');
+      expect(container.querySelector('.g-picker-suffix')!.textContent).toBe('foobar');
     });
 
     it('should support suffixIcon prop in config provider', () => {
@@ -536,7 +534,7 @@ describe('DatePicker', () => {
           <DatePicker />
         </ConfigProvider>,
       );
-      expect(container.querySelector('.ant-picker-suffix')!.textContent).toBe('foobar');
+      expect(container.querySelector('.g-picker-suffix')!.textContent).toBe('foobar');
     });
 
     it('should prefer suffixIcon prop over config provider', () => {
@@ -545,7 +543,7 @@ describe('DatePicker', () => {
           <DatePicker suffixIcon="bamboo" />
         </ConfigProvider>,
       );
-      expect(container.querySelector('.ant-picker-suffix')!.textContent).toBe('bamboo');
+      expect(container.querySelector('.g-picker-suffix')!.textContent).toBe('bamboo');
     });
   });
 });

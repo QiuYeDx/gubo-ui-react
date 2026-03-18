@@ -58,15 +58,15 @@ describe('Badge', () => {
 
   it('badge dot not scaling count > 9', () => {
     const { container } = render(<Badge count={10} dot />);
-    expect(container.querySelectorAll('.ant-card-multiple-words').length).toBe(0);
+    expect(container.querySelectorAll('.g-card-multiple-words').length).toBe(0);
   });
 
   it('badge should support float number', () => {
     const { container } = render(<Badge count={3.5} />);
-    expect(container.querySelectorAll('.ant-badge-multiple-words')[0].textContent).toEqual('3.5');
+    expect(container.querySelectorAll('.g-badge-multiple-words')[0].textContent).toEqual('3.5');
 
     const { container: anotherContainer, unmount } = render(<Badge count="3.5" />);
-    expect(anotherContainer.querySelectorAll('.ant-badge-multiple-words')[0].textContent).toEqual(
+    expect(anotherContainer.querySelectorAll('.g-badge-multiple-words')[0].textContent).toEqual(
       '3.5',
     );
 
@@ -75,12 +75,12 @@ describe('Badge', () => {
 
   it('badge dot not showing count == 0', () => {
     const { container } = render(<Badge count={0} dot />);
-    expect(container.querySelectorAll('.ant-badge-dot').length).toBe(0);
+    expect(container.querySelectorAll('.g-badge-dot').length).toBe(0);
   });
 
   it('should have an overridden title attribute', () => {
     const { container } = render(<Badge count={10} title="Custom title" />);
-    expect(container.querySelector<HTMLElement>('.ant-scroll-number')?.title).toBe('Custom title');
+    expect(container.querySelector<HTMLElement>('.g-scroll-number')?.title).toBe('Custom title');
   });
 
   // https://github.com/ant-design/ant-design/issues/10626
@@ -93,10 +93,10 @@ describe('Badge', () => {
     );
 
     act(() => {
-      fireEvent.mouseEnter(container.querySelector('.ant-badge')!);
+      fireEvent.mouseEnter(container.querySelector('.g-badge')!);
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-open')).toBeTruthy();
+    expect(container.querySelector('.g-tooltip-open')).toBeTruthy();
   });
 
   it('should render when count is changed', () => {
@@ -146,7 +146,7 @@ describe('Badge', () => {
     const { container } = render(
       <Badge style={{ color: 'rgb(255, 0, 0)' }} status="success" text="Success" />,
     );
-    expect(container.querySelector<HTMLElement>('.ant-badge-status-text')).toHaveStyle({
+    expect(container.querySelector<HTMLElement>('.g-badge-status-text')).toHaveStyle({
       color: 'rgb(255, 0, 0)',
     });
   });
@@ -179,9 +179,9 @@ describe('Badge', () => {
       </div>,
     );
     expect(asFragment().firstChild).toMatchSnapshot();
-    expect(container.querySelectorAll('.ant-scroll-number-only-unit')[0].textContent).toBe('5');
-    expect(container.querySelectorAll('.ant-scroll-number-only-unit')[1].textContent).toBe('5');
-    expect(container.querySelectorAll('.ant-scroll-number-only-unit')[2].textContent).toBe('5');
+    expect(container.querySelectorAll('.g-scroll-number-only-unit')[0].textContent).toBe('5');
+    expect(container.querySelectorAll('.g-scroll-number-only-unit')[1].textContent).toBe('5');
+    expect(container.querySelectorAll('.g-scroll-number-only-unit')[2].textContent).toBe('5');
   });
 
   it('Badge should work when status/color is empty string', () => {
@@ -192,7 +192,7 @@ describe('Badge', () => {
       </>,
     );
 
-    expect(container.querySelectorAll('.ant-badge')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-badge')).toHaveLength(2);
   });
 
   it('Badge should display count when color and count are both exist', () => {
@@ -204,15 +204,15 @@ describe('Badge', () => {
       </>,
     );
 
-    expect(container.querySelectorAll('.ant-badge-count')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-badge-count')).toHaveLength(1);
     expect(container.querySelectorAll('[title="44"]')).toHaveLength(1);
-    expect(container.querySelectorAll('.ant-badge-status-dot')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-badge-status-dot')).toHaveLength(2);
   });
 
   it('Badge not render status-text when text is empty string', () => {
     const { container } = render(<Badge status="default" text={undefined} />);
 
-    expect(container.querySelectorAll('.ant-badge > .ant-badge-status-text')).toHaveLength(0);
+    expect(container.querySelectorAll('.g-badge > .g-badge-status-text')).toHaveLength(0);
   });
 
   // https://github.com/ant-design/ant-design/issues/38965
@@ -229,14 +229,14 @@ describe('Badge', () => {
     );
 
     expect(container).toMatchSnapshot();
-    expect(container.querySelectorAll('.ant-badge-count')).toHaveLength(4);
+    expect(container.querySelectorAll('.g-badge-count')).toHaveLength(4);
     expect(container.querySelectorAll('[title="0"]')).toHaveLength(4);
   });
 
   // https://github.com/ant-design/ant-design/issues/49149
   it('should display custom color and number is 0 when showZero is false visibility', () => {
     const { container, rerender } = render(<Badge count={0} color="#ff0" />);
-    expect(container.querySelectorAll('.ant-badge-status-dot')).toHaveLength(0);
+    expect(container.querySelectorAll('.g-badge-status-dot')).toHaveLength(0);
     rerender(<Badge count={0} showZero color="#ff0" />);
     expect(container.querySelectorAll('[title="0"]')).toHaveLength(1);
   });
@@ -244,6 +244,6 @@ describe('Badge', () => {
   it('should support ref when exist status & text', () => {
     const badgeRef = React.createRef<HTMLSpanElement>();
     const { container } = render(<Badge ref={badgeRef} status="success" text="Success" />);
-    expect(badgeRef.current).toBe(container.querySelector('.ant-badge'));
+    expect(badgeRef.current).toBe(container.querySelector('.g-badge'));
   });
 });

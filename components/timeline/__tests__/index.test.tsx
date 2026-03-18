@@ -38,7 +38,7 @@ describe('TimeLine', () => {
       );
 
       // has 3 timeline item
-      expect(container.querySelectorAll('li.ant-timeline-item')).toHaveLength(3);
+      expect(container.querySelectorAll('li.g-timeline-item')).toHaveLength(3);
 
       expect(errSpy).toHaveBeenCalledWith(
         'Warning: [antd: Timeline] `Timeline.Item` is deprecated. Please use `items` instead.',
@@ -66,7 +66,7 @@ describe('TimeLine', () => {
         'Warning: [antd: Timeline] `pendingDot` is deprecated. Please use `items` instead. You can create a `item` as pending node directly.',
       );
 
-      expect(container.querySelectorAll('.ant-timeline-item')).toHaveLength(4);
+      expect(container.querySelectorAll('.g-timeline-item')).toHaveLength(4);
 
       errSpy.mockRestore();
     });
@@ -91,7 +91,7 @@ describe('TimeLine', () => {
         },
       ],
     });
-    expect(container.querySelector('li.ant-timeline-item')).toHaveClass('ant-steps-item-process');
+    expect(container.querySelector('li.g-timeline-item')).toHaveClass('g-steps-item-process');
   });
 
   describe('the item rendering sequence is controlled by reverse', () => {
@@ -100,17 +100,13 @@ describe('TimeLine', () => {
 
     it('items is in order when prop reverse is false', () => {
       const { container } = renderFactory({ reverse: false });
-      const textContents = getTextContents(
-        container.querySelectorAll('.ant-timeline-item-content'),
-      );
+      const textContents = getTextContents(container.querySelectorAll('.g-timeline-item-content'));
       expect(textContents).toEqual(['foo', 'bar', 'baz']);
     });
 
     it('items is reversed when prop reverse is true', () => {
       const { container } = renderFactory({ reverse: true });
-      const textContents = getTextContents(
-        container.querySelectorAll('.ant-timeline-item-content'),
-      );
+      const textContents = getTextContents(container.querySelectorAll('.g-timeline-item-content'));
       expect(textContents).toEqual(['baz', 'bar', 'foo']);
     });
   });
@@ -133,16 +129,16 @@ describe('TimeLine', () => {
         ]}
       />,
     );
-    expect(container.querySelectorAll('.ant-timeline-item-title')).toHaveLength(1);
-    expect(container.querySelector('.ant-timeline-item-title')).toHaveTextContent(label);
+    expect(container.querySelectorAll('.g-timeline-item-title')).toHaveLength(1);
+    expect(container.querySelector('.g-timeline-item-title')).toHaveTextContent(label);
   });
 
   it('TimeLine className should correctly', () => {
     const { container } = renderFactory({ className: 'timelineBox' });
 
-    expect(container.querySelector('.ant-timeline')).toHaveClass('timelineBox');
+    expect(container.querySelector('.g-timeline')).toHaveClass('timelineBox');
 
-    expect(container.querySelectorAll('li.ant-timeline-item')[0]).not.toHaveClass('timelineBox');
+    expect(container.querySelectorAll('li.g-timeline-item')[0]).not.toHaveClass('timelineBox');
   });
 
   it('TimeLineItem className should correctly', () => {
@@ -175,8 +171,8 @@ describe('TimeLine', () => {
             ]}
           />,
         );
-        expect(container.querySelector('.ant-timeline-item')).toHaveClass(
-          `ant-timeline-item-color-${color}`,
+        expect(container.querySelector('.g-timeline-item')).toHaveClass(
+          `g-timeline-item-color-${color}`,
         );
       });
     });
@@ -199,8 +195,8 @@ describe('TimeLine', () => {
             ]}
           />,
         );
-        expect(container.querySelector('.ant-timeline-item')).not.toHaveClass(
-          `ant-timeline-item-color-${color}`,
+        expect(container.querySelector('.g-timeline-item')).not.toHaveClass(
+          `g-timeline-item-color-${color}`,
         );
       });
     });
@@ -213,11 +209,11 @@ describe('TimeLine', () => {
     const { container, rerender } = render(
       <TimeLine items={[{ content: 'Create a services' }]} mode="left" />,
     );
-    expect(container.querySelector('.ant-timeline-item-placement-start')).toBeTruthy();
+    expect(container.querySelector('.g-timeline-item-placement-start')).toBeTruthy();
 
     // Right
     rerender(<TimeLine items={[{ content: 'Create a services' }]} mode="right" />);
-    expect(container.querySelector('.ant-timeline-item-placement-end')).toBeTruthy();
+    expect(container.querySelector('.g-timeline-item-placement-end')).toBeTruthy();
 
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: Timeline] `mode=left|right` is deprecated. Please use `mode=start|end` instead.',
@@ -246,26 +242,26 @@ describe('TimeLine', () => {
 
     it.each([
       // [description, props, expectedClass, shouldWarn]
-      ['should use placement=end', { placement: 'end' }, '.ant-timeline-item-placement-end', false],
+      ['should use placement=end', { placement: 'end' }, '.g-timeline-item-placement-end', false],
       [
         'should use placement=start',
         { placement: 'start' },
-        '.ant-timeline-item-placement-start',
+        '.g-timeline-item-placement-start',
         false,
       ],
       [
         'should convert position=end to end',
         { position: 'end' },
-        '.ant-timeline-item-placement-end',
+        '.g-timeline-item-placement-end',
         true,
       ],
       [
         'should prioritize placement over position',
         { placement: 'end', position: 'start' },
-        '.ant-timeline-item-placement-end',
+        '.g-timeline-item-placement-end',
         true,
       ],
-      ['should default to no placement class', {}, '.ant-timeline-item-placement-start', false],
+      ['should default to no placement class', {}, '.g-timeline-item-placement-start', false],
     ])('%s', (_, props, expectedClass, shouldWarn) => {
       const { container } = render(renderTimeline(props));
 
@@ -330,12 +326,12 @@ describe('TimeLine', () => {
       />,
     );
 
-    const timelineElement = container.querySelector('.ant-timeline');
-    const itemElements = container.querySelectorAll('.ant-timeline-item');
-    const iconElements = container.querySelectorAll('.ant-timeline-item-icon');
-    const titleElements = container.querySelectorAll('.ant-timeline-item-title');
-    const contentElements = container.querySelectorAll('.ant-timeline-item-content');
-    const railElements = container.querySelectorAll('.ant-timeline-item-rail');
+    const timelineElement = container.querySelector('.g-timeline');
+    const itemElements = container.querySelectorAll('.g-timeline-item');
+    const iconElements = container.querySelectorAll('.g-timeline-item-icon');
+    const titleElements = container.querySelectorAll('.g-timeline-item-title');
+    const contentElements = container.querySelectorAll('.g-timeline-item-content');
+    const railElements = container.querySelectorAll('.g-timeline-item-rail');
 
     expect(timelineElement).toHaveClass('custom-timeline-root');
     expect(timelineElement).toHaveAttribute('style');

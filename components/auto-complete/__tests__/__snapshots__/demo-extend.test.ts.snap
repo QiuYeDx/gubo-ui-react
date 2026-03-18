@@ -2,18 +2,18 @@
 
 exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap: 16px;"
 >
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
   >
     <div
-      class="ant-select ant-select-sm ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-sm g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       style="width: 200px;"
     >
       <div
-        class="ant-select-content ant-select-content-has-value ant-select-content-has-search-value"
+        class="g-select-content g-select-content-has-value g-select-content-has-search-value"
         title="centered"
       >
         centered
@@ -22,7 +22,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -30,11 +30,11 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -54,20 +54,20 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -106,7 +106,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -115,11 +115,11 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select ant-select-sm ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+      class="g-select g-select-sm g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
       style="width: 200px;"
     >
       <div
-        class="ant-select-content ant-select-content-has-value ant-select-content-has-search-value"
+        class="g-select-content g-select-content-has-value g-select-content-has-search-value"
         title="centered"
       >
         centered
@@ -128,7 +128,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="text"
@@ -137,12 +137,12 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         />
@@ -150,14 +150,14 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       style="width: 200px;"
     >
       <div
-        class="ant-select-content ant-select-content-has-value ant-select-content-has-search-value"
+        class="g-select-content g-select-content-has-value g-select-content-has-search-value"
         title="centered"
       >
         centered
@@ -166,7 +166,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -174,11 +174,11 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -198,20 +198,20 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -250,7 +250,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -259,11 +259,11 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+      class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
       style="width: 200px;"
     >
       <div
-        class="ant-select-content ant-select-content-has-value ant-select-content-has-search-value"
+        class="g-select-content g-select-content-has-value g-select-content-has-search-value"
         title="centered"
       >
         centered
@@ -272,7 +272,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="text"
@@ -281,12 +281,12 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         />
@@ -294,14 +294,14 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
   >
     <div
-      class="ant-select ant-select-lg ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-lg g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       style="width: 200px;"
     >
       <div
-        class="ant-select-content ant-select-content-has-value ant-select-content-has-search-value"
+        class="g-select-content g-select-content-has-value g-select-content-has-search-value"
         title="centered"
       >
         centered
@@ -310,7 +310,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -318,11 +318,11 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -342,20 +342,20 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -394,7 +394,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -403,11 +403,11 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select ant-select-lg ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+      class="g-select g-select-lg g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
       style="width: 200px;"
     >
       <div
-        class="ant-select-content ant-select-content-has-value ant-select-content-has-search-value"
+        class="g-select-content g-select-content-has-value g-select-content-has-search-value"
         title="centered"
       >
         centered
@@ -416,7 +416,7 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="text"
@@ -425,12 +425,12 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         />
@@ -445,14 +445,14 @@ exports[`renders components/auto-complete/demo/AutoComplete-and-Select.tsx exten
 exports[`renders components/auto-complete/demo/allowClear.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         UnClearable
@@ -462,7 +462,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -471,12 +471,12 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
@@ -485,14 +485,14 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Customized clear icon
@@ -502,7 +502,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -511,12 +511,12 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
@@ -530,14 +530,14 @@ exports[`renders components/auto-complete/demo/allowClear.tsx extend context cor
 exports[`renders components/auto-complete/demo/basic.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         input here
@@ -547,7 +547,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -556,12 +556,12 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
@@ -570,14 +570,14 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         control mode
@@ -587,7 +587,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -596,12 +596,12 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
@@ -615,21 +615,21 @@ exports[`renders components/auto-complete/demo/basic.tsx extend context correctl
 exports[`renders components/auto-complete/demo/certain-category.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete ant-select-customize css-var-test-id ant-select-css-var ant-select-single ant-select-customize-input ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete g-select-customize css-var-test-id g-select-css-var g-select-single g-select-customize-input g-select-show-search"
     style="width: 250px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-space-compact ant-input-search css-var-test-id ant-input-search-large ant-select-input"
+        class="g-space-compact g-input-search css-var-test-id g-input-search-large g-select-input"
       >
         <input
           aria-autocomplete="list"
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-input ant-input-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+          class="g-input g-input-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
           id="test-id"
           placeholder="input here"
           role="combobox"
@@ -637,15 +637,15 @@ Array [
           value=""
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -668,7 +668,7 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up certain-category-search-dropdown css-var-test-id ant-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up certain-category-search-dropdown css-var-test-id g-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; width: 500px;"
   >
     <div>
@@ -697,10 +697,10 @@ Array [
               style="display: flex; flex-direction: column;"
             >
               <div
-                class="ant-select-item ant-select-item-group"
+                class="g-select-item g-select-item-group"
               >
                 <div
-                  class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+                  class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
                 >
                   Libraries
                   <a
@@ -714,19 +714,19 @@ Array [
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option ant-select-item-option-grouped"
+                class="g-select-item g-select-item-option g-select-item-option-grouped"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   <div
-                    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+                    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
                   >
                     AntDesign
                     <span>
                       <span
                         aria-label="user"
-                        class="anticon anticon-user"
+                        class="gicon gicon-user"
                         role="img"
                       >
                         <svg
@@ -749,26 +749,26 @@ Array [
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option ant-select-item-option-grouped"
+                class="g-select-item g-select-item-option g-select-item-option-grouped"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   <div
-                    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+                    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
                   >
                     AntDesign UI
                     <span>
                       <span
                         aria-label="user"
-                        class="anticon anticon-user"
+                        class="gicon gicon-user"
                         role="img"
                       >
                         <svg
@@ -791,16 +791,16 @@ Array [
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
-                class="ant-select-item ant-select-item-group"
+                class="g-select-item g-select-item-group"
               >
                 <div
-                  class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+                  class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
                 >
                   Solutions
                   <a
@@ -814,19 +814,19 @@ Array [
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option ant-select-item-option-grouped"
+                class="g-select-item g-select-item-option g-select-item-option-grouped"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   <div
-                    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+                    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
                   >
                     AntDesign UI FAQ
                     <span>
                       <span
                         aria-label="user"
-                        class="anticon anticon-user"
+                        class="gicon gicon-user"
                         role="img"
                       >
                         <svg
@@ -849,26 +849,26 @@ Array [
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option ant-select-item-option-grouped"
+                class="g-select-item g-select-item-option g-select-item-option-grouped"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   <div
-                    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+                    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
                   >
                     AntDesign FAQ
                     <span>
                       <span
                         aria-label="user"
-                        class="anticon anticon-user"
+                        class="gicon gicon-user"
                         role="img"
                       >
                         <svg
@@ -891,16 +891,16 @@ Array [
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
-                class="ant-select-item ant-select-item-group"
+                class="g-select-item g-select-item-group"
               >
                 <div
-                  class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+                  class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
                 >
                   Articles
                   <a
@@ -914,19 +914,19 @@ Array [
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option ant-select-item-option-grouped"
+                class="g-select-item g-select-item-option g-select-item-option-grouped"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   <div
-                    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+                    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
                   >
                     AntDesign design language
                     <span>
                       <span
                         aria-label="user"
-                        class="anticon anticon-user"
+                        class="gicon gicon-user"
                         role="img"
                       >
                         <svg
@@ -949,7 +949,7 @@ Array [
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
@@ -968,18 +968,18 @@ exports[`renders components/auto-complete/demo/certain-category.tsx extend conte
 exports[`renders components/auto-complete/demo/custom.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete ant-select-customize css-var-test-id ant-select-css-var ant-select-single ant-select-customize-input ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete g-select-customize css-var-test-id g-select-css-var g-select-single g-select-customize-input g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <textarea
         aria-autocomplete="list"
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var custom"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var custom"
         id="test-id"
         placeholder="input here"
         role="combobox"
@@ -989,12 +989,12 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
@@ -1007,17 +1007,17 @@ exports[`renders components/auto-complete/demo/custom.tsx extend context correct
 
 exports[`renders components/auto-complete/demo/form-debug.tsx extend context correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-test-id ant-form-css-var"
+  class="g-form g-form-horizontal css-var-test-id g-form-css-var"
   style="margin: 0px auto;"
 >
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8 css-var-test-id"
+        class="g-col g-form-item-label g-col-xs-24 g-col-sm-8 css-var-test-id"
       >
         <label
           class=""
@@ -1027,22 +1027,22 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16 css-var-test-id"
+        class="g-col g-form-item-control g-col-xs-24 g-col-sm-16 css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-select ant-select-outlined ant-select-in-form-item ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+              class="g-select g-select-outlined g-select-in-form-item g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
             >
               <div
-                class="ant-select-content"
+                class="g-select-content"
               >
                 <div
-                  class="ant-select-placeholder"
+                  class="g-select-placeholder"
                   style="visibility: visible;"
                 />
                 <input
@@ -1050,7 +1050,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   autocomplete="off"
-                  class="ant-select-input"
+                  class="g-select-input"
                   id="test-id"
                   role="combobox"
                   type="text"
@@ -1059,12 +1059,12 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
               </div>
             </div>
             <div
-              class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+              class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
               style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
             >
               <div>
                 <div
-                  class="ant-select-item-empty"
+                  class="g-select-item-empty"
                   id="test-id_list"
                   role="listbox"
                 />
@@ -1076,13 +1076,13 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8 css-var-test-id"
+        class="g-col g-form-item-label g-col-xs-24 g-col-sm-8 css-var-test-id"
       >
         <label
           class=""
@@ -1092,22 +1092,22 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16 css-var-test-id"
+        class="g-col g-form-item-control g-col-xs-24 g-col-sm-16 css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-select ant-tree-select ant-select-outlined ant-select-in-form-item css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+              class="g-select g-tree-select g-select-outlined g-select-in-form-item css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
             >
               <div
-                class="ant-select-content"
+                class="g-select-content"
               >
                 <div
-                  class="ant-select-placeholder"
+                  class="g-select-placeholder"
                   style="visibility: visible;"
                 />
                 <input
@@ -1115,7 +1115,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   autocomplete="off"
-                  class="ant-select-input"
+                  class="g-select-input"
                   id="test-id"
                   readonly=""
                   role="combobox"
@@ -1124,11 +1124,11 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 />
               </div>
               <div
-                class="ant-select-suffix"
+                class="g-select-suffix"
               >
                 <span
                   aria-label="down"
-                  class="anticon anticon-down"
+                  class="gicon gicon-down"
                   role="img"
                 >
                   <svg
@@ -1148,19 +1148,19 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
               </div>
             </div>
             <div
-              class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+              class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
               style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
             >
               <div>
                 <div
-                  class="ant-select-empty"
+                  class="g-select-empty"
                   role="listbox"
                 >
                   <div
-                    class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                    class="css-var-test-id g-empty g-empty-normal g-empty-small"
                   >
                     <div
-                      class="ant-empty-image"
+                      class="g-empty-image"
                     >
                       <svg
                         height="41"
@@ -1199,7 +1199,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                       </svg>
                     </div>
                     <div
-                      class="ant-empty-description"
+                      class="g-empty-description"
                     >
                       No data
                     </div>
@@ -1213,13 +1213,13 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8 css-var-test-id"
+        class="g-col g-form-item-label g-col-xs-24 g-col-sm-8 css-var-test-id"
       >
         <label
           class=""
@@ -1229,26 +1229,26 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16 css-var-test-id"
+        class="g-col g-form-item-control g-col-xs-24 g-col-sm-16 css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+              class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
             >
               <div
-                class="ant-select ant-tree-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+                class="g-select g-tree-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
                 style="width: 30%;"
               >
                 <div
-                  class="ant-select-content"
+                  class="g-select-content"
                 >
                   <div
-                    class="ant-select-placeholder"
+                    class="g-select-placeholder"
                     style="visibility: visible;"
                   />
                   <input
@@ -1256,7 +1256,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                     aria-expanded="false"
                     aria-haspopup="listbox"
                     autocomplete="off"
-                    class="ant-select-input"
+                    class="g-select-input"
                     id="test-id"
                     readonly=""
                     role="combobox"
@@ -1265,11 +1265,11 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                   />
                 </div>
                 <div
-                  class="ant-select-suffix"
+                  class="g-select-suffix"
                 >
                   <span
                     aria-label="down"
-                    class="anticon anticon-down"
+                    class="gicon gicon-down"
                     role="img"
                   >
                     <svg
@@ -1289,19 +1289,19 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+                class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div>
                   <div
-                    class="ant-select-empty"
+                    class="g-select-empty"
                     role="listbox"
                   >
                     <div
-                      class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                      class="css-var-test-id g-empty g-empty-normal g-empty-small"
                     >
                       <div
-                        class="ant-empty-image"
+                        class="g-empty-image"
                       >
                         <svg
                           height="41"
@@ -1340,7 +1340,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                         </svg>
                       </div>
                       <div
-                        class="ant-empty-description"
+                        class="g-empty-description"
                       >
                         No data
                       </div>
@@ -1349,13 +1349,13 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-last-item ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+                class="g-select g-select-outlined g-select-compact-item g-select-compact-last-item g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
               >
                 <div
-                  class="ant-select-content"
+                  class="g-select-content"
                 >
                   <div
-                    class="ant-select-placeholder"
+                    class="g-select-placeholder"
                     style="visibility: visible;"
                   />
                   <input
@@ -1363,7 +1363,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                     aria-expanded="false"
                     aria-haspopup="listbox"
                     autocomplete="off"
-                    class="ant-select-input"
+                    class="g-select-input"
                     id="test-id"
                     role="combobox"
                     type="text"
@@ -1372,12 +1372,12 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+                class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div>
                   <div
-                    class="ant-select-item-empty"
+                    class="g-select-item-empty"
                     id="test-id_list"
                     role="listbox"
                   />
@@ -1390,13 +1390,13 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8 css-var-test-id"
+        class="g-col g-form-item-label g-col-xs-24 g-col-sm-8 css-var-test-id"
       >
         <label
           class=""
@@ -1406,40 +1406,40 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16 css-var-test-id"
+        class="g-col g-form-item-control g-col-xs-24 g-col-sm-16 css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-select ant-select-outlined ant-select-in-form-item ant-select-auto-complete ant-select-customize css-var-test-id ant-select-css-var ant-select-single ant-select-customize-input ant-select-show-search"
+              class="g-select g-select-outlined g-select-in-form-item g-select-auto-complete g-select-customize css-var-test-id g-select-css-var g-select-single g-select-customize-input g-select-show-search"
             >
               <div
-                class="ant-select-content"
+                class="g-select-content"
               >
                 <span
-                  class="ant-input-affix-wrapper ant-input-outlined ant-select-input css-var-test-id ant-input-css-var"
+                  class="g-input-affix-wrapper g-input-outlined g-select-input css-var-test-id g-input-css-var"
                 >
                   <input
                     aria-autocomplete="list"
                     aria-expanded="false"
                     aria-haspopup="listbox"
                     autocomplete="off"
-                    class="ant-input"
+                    class="g-input"
                     id="test-id"
                     role="combobox"
                     type="text"
                     value=""
                   />
                   <span
-                    class="ant-input-suffix"
+                    class="g-input-suffix"
                   >
                     <span
                       aria-label="search"
-                      class="anticon anticon-search"
+                      class="gicon gicon-search"
                       role="img"
                     >
                       <svg
@@ -1461,12 +1461,12 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
               </div>
             </div>
             <div
-              class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+              class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
               style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
             >
               <div>
                 <div
-                  class="ant-select-item-empty"
+                  class="g-select-item-empty"
                   id="test-id_list"
                   role="listbox"
                 />
@@ -1478,13 +1478,13 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8 css-var-test-id"
+        class="g-col g-form-item-label g-col-xs-24 g-col-sm-8 css-var-test-id"
       >
         <label
           class=""
@@ -1494,26 +1494,26 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16 css-var-test-id"
+        class="g-col g-form-item-control g-col-xs-24 g-col-sm-16 css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+              class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
             >
               <div
-                class="ant-select ant-tree-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+                class="g-select g-tree-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
                 style="width: 30%;"
               >
                 <div
-                  class="ant-select-content"
+                  class="g-select-content"
                 >
                   <div
-                    class="ant-select-placeholder"
+                    class="g-select-placeholder"
                     style="visibility: visible;"
                   />
                   <input
@@ -1521,7 +1521,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                     aria-expanded="false"
                     aria-haspopup="listbox"
                     autocomplete="off"
-                    class="ant-select-input"
+                    class="g-select-input"
                     id="test-id"
                     readonly=""
                     role="combobox"
@@ -1530,11 +1530,11 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                   />
                 </div>
                 <div
-                  class="ant-select-suffix"
+                  class="g-select-suffix"
                 >
                   <span
                     aria-label="down"
-                    class="anticon anticon-down"
+                    class="gicon gicon-down"
                     role="img"
                   >
                     <svg
@@ -1554,19 +1554,19 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+                class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div>
                   <div
-                    class="ant-select-empty"
+                    class="g-select-empty"
                     role="listbox"
                   >
                     <div
-                      class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                      class="css-var-test-id g-empty g-empty-normal g-empty-small"
                     >
                       <div
-                        class="ant-empty-image"
+                        class="g-empty-image"
                       >
                         <svg
                           height="41"
@@ -1605,7 +1605,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                         </svg>
                       </div>
                       <div
-                        class="ant-empty-description"
+                        class="g-empty-description"
                       >
                         No data
                       </div>
@@ -1614,31 +1614,31 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-last-item ant-select-auto-complete ant-select-customize css-var-test-id ant-select-css-var ant-select-single ant-select-customize-input ant-select-show-search"
+                class="g-select g-select-outlined g-select-compact-item g-select-compact-last-item g-select-auto-complete g-select-customize css-var-test-id g-select-css-var g-select-single g-select-customize-input g-select-show-search"
               >
                 <div
-                  class="ant-select-content"
+                  class="g-select-content"
                 >
                   <span
-                    class="ant-input-affix-wrapper ant-input-outlined ant-select-input css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-last-item"
+                    class="g-input-affix-wrapper g-input-outlined g-select-input css-var-test-id g-input-css-var g-input-compact-item g-input-compact-last-item"
                   >
                     <input
                       aria-autocomplete="list"
                       aria-expanded="false"
                       aria-haspopup="listbox"
                       autocomplete="off"
-                      class="ant-input"
+                      class="g-input"
                       id="test-id"
                       role="combobox"
                       type="text"
                       value=""
                     />
                     <span
-                      class="ant-input-suffix"
+                      class="g-input-suffix"
                     >
                       <span
                         aria-label="search"
-                        class="anticon anticon-search"
+                        class="gicon gicon-search"
                         role="img"
                       >
                         <svg
@@ -1660,12 +1660,12 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+                class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div>
                   <div
-                    class="ant-select-item-empty"
+                    class="g-select-item-empty"
                     id="test-id_list"
                     role="listbox"
                   />
@@ -1678,13 +1678,13 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8 css-var-test-id"
+        class="g-col g-form-item-label g-col-xs-24 g-col-sm-8 css-var-test-id"
       >
         <label
           class=""
@@ -1694,26 +1694,26 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16 css-var-test-id"
+        class="g-col g-form-item-control g-col-xs-24 g-col-sm-16 css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+              class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
             >
               <div
-                class="ant-select ant-tree-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+                class="g-select g-tree-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
                 style="width: 30%;"
               >
                 <div
-                  class="ant-select-content"
+                  class="g-select-content"
                 >
                   <div
-                    class="ant-select-placeholder"
+                    class="g-select-placeholder"
                     style="visibility: visible;"
                   />
                   <input
@@ -1721,7 +1721,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                     aria-expanded="false"
                     aria-haspopup="listbox"
                     autocomplete="off"
-                    class="ant-select-input"
+                    class="g-select-input"
                     id="test-id"
                     readonly=""
                     role="combobox"
@@ -1730,11 +1730,11 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                   />
                 </div>
                 <div
-                  class="ant-select-suffix"
+                  class="g-select-suffix"
                 >
                   <span
                     aria-label="down"
-                    class="anticon anticon-down"
+                    class="gicon gicon-down"
                     role="img"
                   >
                     <svg
@@ -1754,19 +1754,19 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+                class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div>
                   <div
-                    class="ant-select-empty"
+                    class="g-select-empty"
                     role="listbox"
                   >
                     <div
-                      class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                      class="css-var-test-id g-empty g-empty-normal g-empty-small"
                     >
                       <div
-                        class="ant-empty-image"
+                        class="g-empty-image"
                       >
                         <svg
                           height="41"
@@ -1805,7 +1805,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                         </svg>
                       </div>
                       <div
-                        class="ant-empty-description"
+                        class="g-empty-description"
                       >
                         No data
                       </div>
@@ -1814,35 +1814,35 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select ant-select-outlined ant-select-compact-item ant-select-compact-last-item ant-select-auto-complete ant-select-customize css-var-test-id ant-select-css-var ant-select-single ant-select-customize-input ant-select-show-search"
+                class="g-select g-select-outlined g-select-compact-item g-select-compact-last-item g-select-auto-complete g-select-customize css-var-test-id g-select-css-var g-select-single g-select-customize-input g-select-show-search"
               >
                 <div
-                  class="ant-select-content"
+                  class="g-select-content"
                 >
                   <div
-                    class="ant-space-compact ant-input-search css-var-test-id ant-select-input"
+                    class="g-space-compact g-input-search css-var-test-id g-select-input"
                   >
                     <input
                       aria-autocomplete="list"
                       aria-expanded="false"
                       aria-haspopup="listbox"
                       autocomplete="off"
-                      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+                      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
                       id="test-id"
                       role="combobox"
                       type="search"
                       value=""
                     />
                     <button
-                      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+                      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
                       type="button"
                     >
                       <span
-                        class="ant-btn-icon"
+                        class="g-btn-icon"
                       >
                         <span
                           aria-label="search"
-                          class="anticon anticon-search"
+                          class="gicon gicon-search"
                           role="img"
                         >
                           <svg
@@ -1865,12 +1865,12 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+                class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div>
                   <div
-                    class="ant-select-item-empty"
+                    class="g-select-item-empty"
                     id="test-id_list"
                     role="listbox"
                   />
@@ -1883,13 +1883,13 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
     </div>
   </div>
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8 css-var-test-id"
+        class="g-col g-form-item-label g-col-xs-24 g-col-sm-8 css-var-test-id"
       >
         <label
           class=""
@@ -1899,26 +1899,26 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16 css-var-test-id"
+        class="g-col g-form-item-control g-col-xs-24 g-col-sm-16 css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-space-compact ant-input-group css-var-test-id ant-input-group-compact"
+              class="g-space-compact g-input-group css-var-test-id g-input-group-compact"
             >
               <div
-                class="ant-select ant-tree-select ant-select-outlined ant-select-compact-item ant-select-compact-first-item css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+                class="g-select g-tree-select g-select-outlined g-select-compact-item g-select-compact-first-item css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
                 style="width: 20%;"
               >
                 <div
-                  class="ant-select-content"
+                  class="g-select-content"
                 >
                   <div
-                    class="ant-select-placeholder"
+                    class="g-select-placeholder"
                     style="visibility: visible;"
                   />
                   <input
@@ -1926,7 +1926,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                     aria-expanded="false"
                     aria-haspopup="listbox"
                     autocomplete="off"
-                    class="ant-select-input"
+                    class="g-select-input"
                     id="test-id"
                     readonly=""
                     role="combobox"
@@ -1935,11 +1935,11 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                   />
                 </div>
                 <div
-                  class="ant-select-suffix"
+                  class="g-select-suffix"
                 >
                   <span
                     aria-label="down"
-                    class="anticon anticon-down"
+                    class="gicon gicon-down"
                     role="img"
                   >
                     <svg
@@ -1959,19 +1959,19 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+                class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div>
                   <div
-                    class="ant-select-empty"
+                    class="g-select-empty"
                     role="listbox"
                   >
                     <div
-                      class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+                      class="css-var-test-id g-empty g-empty-normal g-empty-small"
                     >
                       <div
-                        class="ant-empty-image"
+                        class="g-empty-image"
                       >
                         <svg
                           height="41"
@@ -2010,7 +2010,7 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                         </svg>
                       </div>
                       <div
-                        class="ant-empty-description"
+                        class="g-empty-description"
                       >
                         No data
                       </div>
@@ -2019,35 +2019,35 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select ant-select-outlined ant-select-compact-item ant-select-auto-complete ant-select-customize css-var-test-id ant-select-css-var ant-select-single ant-select-customize-input ant-select-show-search"
+                class="g-select g-select-outlined g-select-compact-item g-select-auto-complete g-select-customize css-var-test-id g-select-css-var g-select-single g-select-customize-input g-select-show-search"
               >
                 <div
-                  class="ant-select-content"
+                  class="g-select-content"
                 >
                   <div
-                    class="ant-space-compact ant-input-search css-var-test-id ant-select-input"
+                    class="g-space-compact g-input-search css-var-test-id g-select-input"
                   >
                     <input
                       aria-autocomplete="list"
                       aria-expanded="false"
                       aria-haspopup="listbox"
                       autocomplete="off"
-                      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item"
+                      class="g-input g-input-outlined css-var-test-id g-input-css-var g-input-compact-item"
                       id="test-id"
                       role="combobox"
                       type="search"
                       value=""
                     />
                     <button
-                      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-input-search-btn"
+                      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-input-search-btn"
                       type="button"
                     >
                       <span
-                        class="ant-btn-icon"
+                        class="g-btn-icon"
                       >
                         <span
                           aria-label="search"
-                          class="anticon anticon-search"
+                          class="gicon gicon-search"
                           role="img"
                         >
                           <svg
@@ -2070,27 +2070,27 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                 </div>
               </div>
               <div
-                class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+                class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div>
                   <div
-                    class="ant-select-item-empty"
+                    class="g-select-item-empty"
                     id="test-id_list"
                     role="listbox"
                   />
                 </div>
               </div>
               <button
-                class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item"
+                class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item"
                 type="button"
               >
                 <span
-                  class="ant-btn-icon"
+                  class="g-btn-icon"
                 >
                   <span
                     aria-label="search"
-                    class="anticon anticon-search"
+                    class="gicon gicon-search"
                     role="img"
                   >
                     <svg
@@ -2130,14 +2130,14 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
 exports[`renders components/auto-complete/demo/non-case-sensitive.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         try to type \`b\`
@@ -2147,7 +2147,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -2156,7 +2156,7 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
@@ -2188,51 +2188,51 @@ Array [
             >
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 title="Burns Bay Road"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Burns Bay Road
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 title="Downing Street"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Downing Street
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 title="Wall Street"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Wall Street
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
@@ -2251,14 +2251,14 @@ exports[`renders components/auto-complete/demo/non-case-sensitive.tsx extend con
 exports[`renders components/auto-complete/demo/options.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         input here
@@ -2268,7 +2268,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -2277,12 +2277,12 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
@@ -2295,25 +2295,25 @@ exports[`renders components/auto-complete/demo/options.tsx extend context correc
 
 exports[`renders components/auto-complete/demo/render-panel.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-start g-flex-gap-small g-flex-vertical"
 >
   <button
     aria-checked="false"
-    class="ant-switch css-var-test-id"
+    class="g-switch css-var-test-id"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       />
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       />
     </span>
   </button>
@@ -2321,11 +2321,11 @@ exports[`renders components/auto-complete/demo/render-panel.tsx extend context c
     style="padding-bottom: 0px; position: relative; min-width: 0;"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+      class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
       style="width: 120px; margin: 0px;"
     >
       <div
-        class="ant-select-content ant-select-content-has-value ant-select-content-has-search-value"
+        class="g-select-content g-select-content-has-value g-select-content-has-search-value"
         title="Lucy"
       >
         Lucy
@@ -2334,7 +2334,7 @@ exports[`renders components/auto-complete/demo/render-panel.tsx extend context c
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="text"
@@ -2343,7 +2343,7 @@ exports[`renders components/auto-complete/demo/render-panel.tsx extend context c
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
@@ -2376,68 +2376,68 @@ exports[`renders components/auto-complete/demo/render-panel.tsx extend context c
               >
                 <div
                   aria-disabled="false"
-                  class="ant-select-item ant-select-item-option"
+                  class="g-select-item g-select-item-option"
                   title="Jack"
                 >
                   <div
-                    class="ant-select-item-option-content"
+                    class="g-select-item-option-content"
                   >
                     Jack
                   </div>
                   <span
                     aria-hidden="true"
-                    class="ant-select-item-option-state"
+                    class="g-select-item-option-state"
                     style="user-select: none;"
                     unselectable="on"
                   />
                 </div>
                 <div
                   aria-disabled="false"
-                  class="ant-select-item ant-select-item-option"
+                  class="g-select-item g-select-item-option"
                   title="Lucy"
                 >
                   <div
-                    class="ant-select-item-option-content"
+                    class="g-select-item-option-content"
                   >
                     Lucy
                   </div>
                   <span
                     aria-hidden="true"
-                    class="ant-select-item-option-state"
+                    class="g-select-item-option-state"
                     style="user-select: none;"
                     unselectable="on"
                   />
                 </div>
                 <div
                   aria-disabled="false"
-                  class="ant-select-item ant-select-item-option"
+                  class="g-select-item g-select-item-option"
                   title="Disabled"
                 >
                   <div
-                    class="ant-select-item-option-content"
+                    class="g-select-item-option-content"
                   >
                     Disabled
                   </div>
                   <span
                     aria-hidden="true"
-                    class="ant-select-item-option-state"
+                    class="g-select-item-option-state"
                     style="user-select: none;"
                     unselectable="on"
                   />
                 </div>
                 <div
                   aria-disabled="false"
-                  class="ant-select-item ant-select-item-option"
+                  class="g-select-item g-select-item-option"
                   title="Bamboo"
                 >
                   <div
-                    class="ant-select-item-option-content"
+                    class="g-select-item-option-content"
                   >
                     Bamboo
                   </div>
                   <span
                     aria-hidden="true"
-                    class="ant-select-item-option-state"
+                    class="g-select-item-option-state"
                     style="user-select: none;"
                     unselectable="on"
                   />
@@ -2456,21 +2456,21 @@ exports[`renders components/auto-complete/demo/render-panel.tsx extend context c
 
 exports[`renders components/auto-complete/demo/status.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width: 100%;"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-status-error ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+      class="g-select g-select-outlined g-select-status-error g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
       style="width: 200px;"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         />
         <input
@@ -2478,7 +2478,7 @@ exports[`renders components/auto-complete/demo/status.tsx extend context correct
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="text"
@@ -2487,12 +2487,12 @@ exports[`renders components/auto-complete/demo/status.tsx extend context correct
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         />
@@ -2500,17 +2500,17 @@ exports[`renders components/auto-complete/demo/status.tsx extend context correct
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-status-warning ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+      class="g-select g-select-outlined g-select-status-warning g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
       style="width: 200px;"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         />
         <input
@@ -2518,7 +2518,7 @@ exports[`renders components/auto-complete/demo/status.tsx extend context correct
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="text"
@@ -2527,12 +2527,12 @@ exports[`renders components/auto-complete/demo/status.tsx extend context correct
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         />
@@ -2546,17 +2546,17 @@ exports[`renders components/auto-complete/demo/status.tsx extend context correct
 
 exports[`renders components/auto-complete/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete acss-1rj0z6b css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete acss-1rj0z6b css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         object styles
@@ -2566,7 +2566,7 @@ exports[`renders components/auto-complete/demo/style-class.tsx extend context co
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -2575,7 +2575,7 @@ exports[`renders components/auto-complete/demo/style-class.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; border-width: 1px; border-color: rgb(24, 144, 255);"
   >
     <div>
@@ -2607,90 +2607,90 @@ exports[`renders components/auto-complete/demo/style-class.tsx extend context co
             >
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="Burnaby"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Burnaby
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="Seattle"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Seattle
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="Los Angeles"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Los Angeles
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="San Francisco"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   San Francisco
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="Meet student"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Meet student
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
@@ -2702,14 +2702,14 @@ exports[`renders components/auto-complete/demo/style-class.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-select ant-select-filled ant-select-auto-complete acss-1rj0z6b css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-filled g-select-auto-complete acss-1rj0z6b css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         function styles
@@ -2719,7 +2719,7 @@ exports[`renders components/auto-complete/demo/style-class.tsx extend context co
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -2728,7 +2728,7 @@ exports[`renders components/auto-complete/demo/style-class.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; border-width: 1px; border-color: rgb(204, 204, 204);"
   >
     <div>
@@ -2760,90 +2760,90 @@ exports[`renders components/auto-complete/demo/style-class.tsx extend context co
             >
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="Burnaby"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Burnaby
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="Seattle"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Seattle
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="Los Angeles"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Los Angeles
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="San Francisco"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   San Francisco
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
               </div>
               <div
                 aria-disabled="false"
-                class="ant-select-item ant-select-item-option"
+                class="g-select-item g-select-item-option"
                 style="color: rgb(39, 39, 39);"
                 title="Meet student"
               >
                 <div
-                  class="ant-select-item-option-content"
+                  class="g-select-item-option-content"
                 >
                   Meet student
                 </div>
                 <span
                   aria-hidden="true"
-                  class="ant-select-item-option-state"
+                  class="g-select-item-option-state"
                   style="user-select: none;"
                   unselectable="on"
                 />
@@ -2862,21 +2862,21 @@ exports[`renders components/auto-complete/demo/style-class.tsx extend context co
 exports[`renders components/auto-complete/demo/uncertain-category.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete ant-select-customize css-var-test-id ant-select-css-var ant-select-single ant-select-customize-input ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete g-select-customize css-var-test-id g-select-css-var g-select-single g-select-customize-input g-select-show-search"
     style="width: 300px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-space-compact ant-input-search css-var-test-id ant-input-search-large ant-input-search-with-button ant-select-input"
+        class="g-space-compact g-input-search css-var-test-id g-input-search-large g-input-search-with-button g-select-input"
       >
         <input
           aria-autocomplete="list"
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-input ant-input-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+          class="g-input g-input-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
           id="test-id"
           placeholder="input here"
           role="combobox"
@@ -2884,15 +2884,15 @@ Array [
           value=""
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -2915,12 +2915,12 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; width: 252px;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
@@ -2933,18 +2933,18 @@ exports[`renders components/auto-complete/demo/uncertain-category.tsx extend con
 
 exports[`renders components/auto-complete/demo/variant.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap: 12px;"
 >
   <div
-    class="ant-select ant-select-outlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-outlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Outlined
@@ -2954,7 +2954,7 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -2963,26 +2963,26 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
     </div>
   </div>
   <div
-    class="ant-select ant-select-filled ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-filled g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Filled
@@ -2992,7 +2992,7 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -3001,26 +3001,26 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
     </div>
   </div>
   <div
-    class="ant-select ant-select-borderless ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-borderless g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Borderless
@@ -3030,7 +3030,7 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -3039,26 +3039,26 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />
     </div>
   </div>
   <div
-    class="ant-select ant-select-underlined ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+    class="g-select g-select-underlined g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-show-search"
     style="width: 200px;"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       >
         Underlined
@@ -3068,7 +3068,7 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="text"
@@ -3077,12 +3077,12 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
     </div>
   </div>
   <div
-    class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+    class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div>
       <div
-        class="ant-select-item-empty"
+        class="g-select-item-empty"
         id="test-id_list"
         role="listbox"
       />

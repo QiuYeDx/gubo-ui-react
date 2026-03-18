@@ -197,9 +197,7 @@ describe('Tour', () => {
     };
     const { getByText, baseElement } = render(<App />);
     expect(getByText('primary description.')).toBeTruthy();
-    expect(baseElement.querySelector('.ant-tour-panel')?.parentElement).toHaveClass(
-      'ant-tour-primary',
-    );
+    expect(baseElement.querySelector('.g-tour-panel')?.parentElement).toHaveClass('g-tour-primary');
     expect(baseElement).toMatchSnapshot();
   });
 
@@ -233,10 +231,10 @@ describe('Tour', () => {
     };
     const { getByText, container, baseElement } = render(<App />);
     expect(getByText('cover description.')).toBeTruthy();
-    expect(container.querySelector('.ant-tour-primary .ant-tour-panel')).toBeFalsy();
+    expect(container.querySelector('.g-tour-primary .g-tour-panel')).toBeFalsy();
     fireEvent.click(screen.getByRole('button', { name: 'Next' }));
     expect(getByText('primary description.')).toBeTruthy();
-    expect(container.querySelector('.ant-tour-primary .ant-tour-panel')).toBeTruthy();
+    expect(container.querySelector('.g-tour-primary .g-tour-panel')).toBeTruthy();
     expect(baseElement).toMatchSnapshot();
   });
 
@@ -311,7 +309,7 @@ describe('Tour', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Next' }));
     expect(getByText('Adjust Placement')).toBeTruthy();
     fireEvent.click(screen.getByRole('button', { name: 'Finish' }));
-    expect(container.querySelector('.ant-tour')).toBeFalsy();
+    expect(container.querySelector('.g-tour')).toBeFalsy();
     expect(baseElement).toMatchSnapshot();
   });
 
@@ -319,7 +317,7 @@ describe('Tour', () => {
     [undefined, null].forEach((total: any) => {
       const { container } = render(<Tour open steps={[{ title: <div>test</div>, total }]} />);
       expect(
-        container.querySelector<HTMLDivElement>('.ant-tour-panel .ant-tour-indicators'),
+        container.querySelector<HTMLDivElement>('.g-tour-panel .g-tour-indicators'),
       ).toBeFalsy();
     });
   });
@@ -327,9 +325,7 @@ describe('Tour', () => {
   it('panelRender should correct render when title is undefined or null', () => {
     [undefined, null].forEach((title) => {
       const { container } = render(<Tour open steps={[{ title, total: 1 }]} />);
-      expect(
-        container.querySelector<HTMLDivElement>('.ant-tour-panel .ant-tour-header'),
-      ).toBeFalsy();
+      expect(container.querySelector<HTMLDivElement>('.g-tour-panel .g-tour-header')).toBeFalsy();
     });
   });
 
@@ -440,7 +436,7 @@ describe('Tour', () => {
 
     fireEvent.click(screen.getByRole('button', { name: 'SetCurrent' }));
     expect(getByText('Primary description.')).toBeTruthy();
-    expect(container.querySelector('.ant-tour-primary .ant-tour-panel')).toBeTruthy();
+    expect(container.querySelector('.g-tour-primary .g-tour-panel')).toBeTruthy();
     expect(baseElement).toMatchSnapshot();
   });
 
@@ -505,43 +501,43 @@ describe('Tour', () => {
     const { baseElement, rerender } = render(<Demo />);
     const resetIndex = () => {
       // reset
-      fireEvent.click(baseElement.querySelector('.ant-tour-prev-btn')!);
-      fireEvent.click(baseElement.querySelector('.ant-tour-prev-btn')!);
+      fireEvent.click(baseElement.querySelector('.g-tour-prev-btn')!);
+      fireEvent.click(baseElement.querySelector('.g-tour-prev-btn')!);
     };
-    expect(baseElement.querySelector('.ant-tour-close')).toBeFalsy();
-    fireEvent.click(baseElement.querySelector('.ant-tour-next-btn')!);
-    expect(baseElement.querySelector('.ant-tour-close')).toBeTruthy();
-    expect(baseElement.querySelector('.ant-tour-close-icon')).toBeTruthy();
-    fireEvent.click(baseElement.querySelector('.ant-tour-next-btn')!);
-    expect(baseElement.querySelector('.ant-tour-close')).toBeTruthy();
-    expect(baseElement.querySelector('.ant-tour-close-icon')).toBeFalsy();
+    expect(baseElement.querySelector('.g-tour-close')).toBeFalsy();
+    fireEvent.click(baseElement.querySelector('.g-tour-next-btn')!);
+    expect(baseElement.querySelector('.g-tour-close')).toBeTruthy();
+    expect(baseElement.querySelector('.g-tour-close-icon')).toBeTruthy();
+    fireEvent.click(baseElement.querySelector('.g-tour-next-btn')!);
+    expect(baseElement.querySelector('.g-tour-close')).toBeTruthy();
+    expect(baseElement.querySelector('.g-tour-close-icon')).toBeFalsy();
     expect(baseElement.querySelector('.custom-del-close-icon')).toBeTruthy();
 
     resetIndex();
 
     rerender(<Demo closeIcon />);
-    expect(baseElement.querySelector('.ant-tour-close')).toBeTruthy();
-    expect(baseElement.querySelector('.ant-tour-close-icon')).toBeTruthy();
-    fireEvent.click(baseElement.querySelector('.ant-tour-next-btn')!);
-    expect(baseElement.querySelector('.ant-tour-close')).toBeFalsy();
-    expect(baseElement.querySelector('.ant-tour-close-icon')).toBeFalsy();
-    fireEvent.click(baseElement.querySelector('.ant-tour-next-btn')!);
-    expect(baseElement.querySelector('.ant-tour-close')).toBeTruthy();
-    expect(baseElement.querySelector('.ant-tour-close-icon')).toBeFalsy();
+    expect(baseElement.querySelector('.g-tour-close')).toBeTruthy();
+    expect(baseElement.querySelector('.g-tour-close-icon')).toBeTruthy();
+    fireEvent.click(baseElement.querySelector('.g-tour-next-btn')!);
+    expect(baseElement.querySelector('.g-tour-close')).toBeFalsy();
+    expect(baseElement.querySelector('.g-tour-close-icon')).toBeFalsy();
+    fireEvent.click(baseElement.querySelector('.g-tour-next-btn')!);
+    expect(baseElement.querySelector('.g-tour-close')).toBeTruthy();
+    expect(baseElement.querySelector('.g-tour-close-icon')).toBeFalsy();
     expect(baseElement.querySelector('.custom-del-close-icon')).toBeTruthy();
 
     resetIndex();
 
     rerender(<Demo closeIcon={<span className="custom-global-close-icon">X</span>} />);
-    expect(baseElement.querySelector('.ant-tour-close')).toBeTruthy();
+    expect(baseElement.querySelector('.g-tour-close')).toBeTruthy();
     expect(baseElement.querySelector('.custom-global-close-icon')).toBeTruthy();
-    fireEvent.click(baseElement.querySelector('.ant-tour-next-btn')!);
-    expect(baseElement.querySelector('.ant-tour-close')).toBeFalsy();
-    expect(baseElement.querySelector('.ant-tour-close-icon')).toBeFalsy();
+    fireEvent.click(baseElement.querySelector('.g-tour-next-btn')!);
+    expect(baseElement.querySelector('.g-tour-close')).toBeFalsy();
+    expect(baseElement.querySelector('.g-tour-close-icon')).toBeFalsy();
     expect(baseElement.querySelector('.custom-global-close-icon')).toBeFalsy();
-    fireEvent.click(baseElement.querySelector('.ant-tour-next-btn')!);
-    expect(baseElement.querySelector('.ant-tour-close')).toBeTruthy();
-    expect(baseElement.querySelector('.ant-tour-close-icon')).toBeFalsy();
+    fireEvent.click(baseElement.querySelector('.g-tour-next-btn')!);
+    expect(baseElement.querySelector('.g-tour-close')).toBeTruthy();
+    expect(baseElement.querySelector('.g-tour-close-icon')).toBeFalsy();
     expect(baseElement.querySelector('.custom-del-close-icon')).toBeTruthy();
 
     resetIndex();
@@ -578,7 +574,7 @@ describe('Tour', () => {
     render(<App />);
     fireEvent.click(screen.getByRole('button', { name: 'target' }));
     expect(document.querySelector('.should-be-primary')).toBeTruthy();
-    expect(document.querySelector('.should-be-primary')).toHaveClass('ant-tour-primary');
+    expect(document.querySelector('.should-be-primary')).toHaveClass('g-tour-primary');
   });
 
   // https://github.com/ant-design/ant-design/issues/49117
@@ -601,8 +597,8 @@ describe('Tour', () => {
         ]}
       />,
     );
-    fireEvent.click(container.querySelector('.ant-tour-next-btn')!);
-    fireEvent.click(container.querySelector('.ant-tour-close-icon')!);
+    fireEvent.click(container.querySelector('.g-tour-next-btn')!);
+    fireEvent.click(container.querySelector('.g-tour-close-icon')!);
     expect(onClose).toHaveBeenLastCalledWith(1);
   });
 
@@ -630,12 +626,12 @@ describe('Tour', () => {
     const { rerender, baseElement } = render(<App gap={{ radius: 4 }} />);
     fireEvent.click(screen.getByRole('button', { name: 'Show' }));
 
-    expect(baseElement.querySelector('.ant-tour-placeholder-animated')).toBeTruthy();
-    expect(baseElement.querySelector('.ant-tour-placeholder-animated')).toHaveAttribute('rx', '4');
+    expect(baseElement.querySelector('.g-tour-placeholder-animated')).toBeTruthy();
+    expect(baseElement.querySelector('.g-tour-placeholder-animated')).toHaveAttribute('rx', '4');
     rerender(<App gap={{ radius: 0 }} />);
     fireEvent.click(screen.getByRole('button', { name: 'Show' }));
-    expect(baseElement.querySelector('.ant-tour-placeholder-animated')).toBeTruthy();
-    expect(baseElement.querySelector('.ant-tour-placeholder-animated')).toHaveAttribute('rx', '0');
+    expect(baseElement.querySelector('.g-tour-placeholder-animated')).toBeTruthy();
+    expect(baseElement.querySelector('.g-tour-placeholder-animated')).toHaveAttribute('rx', '0');
   });
   it('should support gap.offset', () => {
     const gap = { offset: 10 };
@@ -667,19 +663,19 @@ describe('Tour', () => {
     const targetBtn = screen.getByRole('button', { name: 'Show' });
     fireEvent.click(targetBtn);
 
-    expect(baseElement.querySelector('.ant-tour-placeholder-animated')).toHaveAttribute(
+    expect(baseElement.querySelector('.g-tour-placeholder-animated')).toHaveAttribute(
       'width',
       String(pos.width + gap.offset * 2),
     );
-    expect(baseElement.querySelector('.ant-tour-placeholder-animated')).toHaveAttribute(
+    expect(baseElement.querySelector('.g-tour-placeholder-animated')).toHaveAttribute(
       'height',
       String(pos.height + gap.offset * 2),
     );
-    expect(baseElement.querySelector('.ant-tour-placeholder-animated')).toHaveAttribute(
+    expect(baseElement.querySelector('.g-tour-placeholder-animated')).toHaveAttribute(
       'x',
       String(pos.x - gap.offset),
     );
-    expect(baseElement.querySelector('.ant-tour-placeholder-animated')).toHaveAttribute(
+    expect(baseElement.querySelector('.g-tour-placeholder-animated')).toHaveAttribute(
       'y',
       String(pos.y - gap.offset),
     );
@@ -767,17 +763,17 @@ describe('Tour', () => {
     };
     render(<Demo />);
 
-    const maskElement = document.querySelector<HTMLElement>('.ant-tour-mask');
-    const actionsElement = document.querySelector<HTMLElement>('.ant-tour-actions');
-    const titleElement = document.querySelector<HTMLElement>('.ant-tour-title');
-    const headerElement = document.querySelector<HTMLElement>('.ant-tour-header');
-    const sectionElement = document.querySelector<HTMLElement>('.ant-tour-section');
-    const footerElement = document.querySelector<HTMLElement>('.ant-tour-footer');
-    const descriptionElement = document.querySelector<HTMLElement>('.ant-tour-description');
-    const coverElement = document.querySelector<HTMLElement>('.ant-tour-cover');
-    const indicatorElement = document.querySelector<HTMLElement>('.ant-tour-indicator');
-    const indicatorsElement = document.querySelector<HTMLElement>('.ant-tour-indicators');
-    const rootElement = document.querySelector<HTMLElement>('.ant-tour-mask');
+    const maskElement = document.querySelector<HTMLElement>('.g-tour-mask');
+    const actionsElement = document.querySelector<HTMLElement>('.g-tour-actions');
+    const titleElement = document.querySelector<HTMLElement>('.g-tour-title');
+    const headerElement = document.querySelector<HTMLElement>('.g-tour-header');
+    const sectionElement = document.querySelector<HTMLElement>('.g-tour-section');
+    const footerElement = document.querySelector<HTMLElement>('.g-tour-footer');
+    const descriptionElement = document.querySelector<HTMLElement>('.g-tour-description');
+    const coverElement = document.querySelector<HTMLElement>('.g-tour-cover');
+    const indicatorElement = document.querySelector<HTMLElement>('.g-tour-indicator');
+    const indicatorsElement = document.querySelector<HTMLElement>('.g-tour-indicators');
+    const rootElement = document.querySelector<HTMLElement>('.g-tour-mask');
 
     // check classNames
     expect(maskElement).toHaveClass(customClassnames.mask);
@@ -808,7 +804,7 @@ describe('Tour', () => {
 
   it('default aria-label', () => {
     const { container } = render(<Tour open steps={[{ title: 'test', description: 'test' }]} />);
-    expect(container.querySelector<HTMLElement>('.ant-tour-close')).toHaveAttribute(
+    expect(container.querySelector<HTMLElement>('.g-tour-close')).toHaveAttribute(
       'aria-label',
       'Close',
     );
@@ -823,7 +819,7 @@ describe('Tour', () => {
         ]}
       />,
     );
-    expect(container.querySelector<HTMLElement>('.ant-tour-close')).toHaveAttribute(
+    expect(container.querySelector<HTMLElement>('.g-tour-close')).toHaveAttribute(
       'aria-label',
       'Custom Close Button',
     );

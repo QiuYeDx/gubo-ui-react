@@ -7,7 +7,7 @@
 Select different settings to see the result.
 
 <style>
-.table-demo-control-bar .ant-form-item {
+.table-demo-control-bar .g-form-item {
   margin-inline-end: 16px !important;
   margin-bottom: 8px !important;
 }

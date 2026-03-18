@@ -41,7 +41,7 @@ rootPropsTest(
 
       fireEvent.keyDown(container.querySelector('textarea')!, myKeyEvent);
     },
-    findRootElements: () => document.querySelectorAll('.ant-mentions, .ant-mentions-dropdown'),
+    findRootElements: () => document.querySelectorAll('.g-mentions, .g-mentions-dropdown'),
     expectCount: 2,
   },
 );

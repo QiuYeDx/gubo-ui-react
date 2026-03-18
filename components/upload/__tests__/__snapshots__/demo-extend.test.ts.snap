@@ -2,16 +2,16 @@
 
 exports[`renders components/upload/demo/avatar.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-medium"
 >
   <span
-    class="ant-upload-wrapper avatar-uploader css-var-test-id ant-upload-picture-card-wrapper"
+    class="g-upload-wrapper avatar-uploader css-var-test-id g-upload-picture-card-wrapper"
   >
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -25,7 +25,7 @@ exports[`renders components/upload/demo/avatar.tsx extend context correctly 1`] 
         >
           <span
             aria-label="plus"
-            class="anticon anticon-plus"
+            class="gicon gicon-plus"
             role="img"
           >
             <svg
@@ -55,13 +55,13 @@ exports[`renders components/upload/demo/avatar.tsx extend context correctly 1`] 
     </div>
   </span>
   <span
-    class="ant-upload-wrapper avatar-uploader css-var-test-id ant-upload-picture-circle-wrapper"
+    class="g-upload-wrapper avatar-uploader css-var-test-id g-upload-picture-circle-wrapper"
   >
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -75,7 +75,7 @@ exports[`renders components/upload/demo/avatar.tsx extend context correctly 1`] 
         >
           <span
             aria-label="plus"
-            class="anticon anticon-plus"
+            class="gicon gicon-plus"
             role="img"
           >
             <svg
@@ -111,13 +111,13 @@ exports[`renders components/upload/demo/avatar.tsx extend context correctly 2`] 
 
 exports[`renders components/upload/demo/basic.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -126,15 +126,15 @@ exports[`renders components/upload/demo/basic.tsx extend context correctly 1`] =
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -159,7 +159,7 @@ exports[`renders components/upload/demo/basic.tsx extend context correctly 1`] =
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   />
 </span>
 `;
@@ -168,13 +168,13 @@ exports[`renders components/upload/demo/basic.tsx extend context correctly 2`] =
 
 exports[`renders components/upload/demo/component-token.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -183,15 +183,15 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -216,20 +216,20 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -248,7 +248,7 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/xxx.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -257,19 +257,19 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
           xxx.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -293,17 +293,17 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -322,7 +322,7 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/yyy.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -331,19 +331,19 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
           yyy.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -367,18 +367,18 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -397,7 +397,7 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/zzz.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -406,19 +406,19 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
           zzz.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -441,19 +441,19 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -469,13 +469,13 @@ exports[`renders components/upload/demo/component-token.tsx extend context corre
 
 exports[`renders components/upload/demo/customize-progress-bar.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -484,15 +484,15 @@ exports[`renders components/upload/demo/customize-progress-bar.tsx extend contex
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -517,7 +517,7 @@ exports[`renders components/upload/demo/customize-progress-bar.tsx extend contex
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   />
 </span>
 `;
@@ -526,19 +526,19 @@ exports[`renders components/upload/demo/customize-progress-bar.tsx extend contex
 
 exports[`renders components/upload/demo/debug-disabled.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id"
+      class="g-upload-wrapper css-var-test-id"
     >
       <div
-        class="ant-upload ant-upload-select ant-upload-disabled"
+        class="g-upload g-upload-select g-upload-disabled"
       >
         <span
-          class="ant-upload ant-upload-disabled"
+          class="g-upload g-upload-disabled"
         >
           <input
             accept=""
@@ -551,21 +551,21 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-text"
+        class="g-upload-list g-upload-list-text"
       />
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id"
+      class="g-upload-wrapper css-var-test-id"
     >
       <div
-        class="ant-upload ant-upload-select ant-upload-disabled"
+        class="g-upload g-upload-select g-upload-disabled"
       >
         <span
-          class="ant-upload ant-upload-disabled"
+          class="g-upload g-upload-disabled"
         >
           <input
             accept=""
@@ -575,15 +575,15 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
             type="file"
           />
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="upload"
-                class="anticon anticon-upload"
+                class="gicon gicon-upload"
                 role="img"
               >
                 <svg
@@ -608,39 +608,39 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-text"
+        class="g-upload-list g-upload-list-text"
       />
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id ant-upload-picture-card-wrapper"
+      class="g-upload-wrapper css-var-test-id g-upload-picture-card-wrapper"
     >
       <div
-        class="ant-upload-list ant-upload-list-picture-card"
+        class="g-upload-list g-upload-list-picture-card"
       >
         <div
-          class="ant-upload-list-item-container"
+          class="g-upload-list-item-container"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-done"
+            class="g-upload-list-item g-upload-list-item-done"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="g-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="g-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -649,7 +649,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               image.png
             </a>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <a
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -659,7 +659,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               >
                 <span
                   aria-label="eye"
-                  class="anticon anticon-eye"
+                  class="gicon gicon-eye"
                   role="img"
                 >
                   <svg
@@ -681,25 +681,25 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
           </div>
         </div>
         <div
-          class="ant-upload-list-item-container"
+          class="g-upload-list-item-container"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-done"
+            class="g-upload-list-item g-upload-list-item-done"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="g-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="g-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -708,7 +708,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               image.png
             </a>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <a
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -718,7 +718,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               >
                 <span
                   aria-label="eye"
-                  class="anticon anticon-eye"
+                  class="gicon gicon-eye"
                   role="img"
                 >
                   <svg
@@ -740,18 +740,18 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
           </div>
         </div>
         <div
-          class="ant-upload-list-item-container"
+          class="g-upload-list-item-container"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-uploading"
+            class="g-upload-list-item g-upload-list-item-uploading"
           >
             <div
-              class="ant-upload-list-item-thumbnail"
+              class="g-upload-list-item-thumbnail"
             >
               Uploading...
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -762,18 +762,18 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
           </div>
         </div>
         <div
-          class="ant-upload-list-item-container"
+          class="g-upload-list-item-container"
         >
           <div
             aria-describedby="test-id"
-            class="ant-upload-list-item ant-upload-list-item-error"
+            class="g-upload-list-item g-upload-list-item-error"
           >
             <div
-              class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+              class="g-upload-list-item-thumbnail g-upload-list-item-file"
             >
               <span
                 aria-label="picture"
-                class="anticon anticon-picture"
+                class="gicon gicon-picture"
                 role="img"
               >
                 <svg
@@ -809,29 +809,29 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               </span>
             </div>
             <span
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               title="image.png"
             >
               image.png
             </span>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             />
           </div>
           <div
-            class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+            class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
             style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
           >
             <div
-              class="ant-tooltip-arrow"
+              class="g-tooltip-arrow"
               style="position: absolute; bottom: 0px; left: 0px;"
             >
               <span
-                class="ant-tooltip-arrow-content"
+                class="g-tooltip-arrow-content"
               />
             </div>
             <div
-              class="ant-tooltip-container"
+              class="g-tooltip-container"
               id="test-id"
               role="tooltip"
             >
@@ -840,10 +840,10 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
           </div>
         </div>
         <div
-          class="ant-upload ant-upload-select ant-upload-disabled"
+          class="g-upload g-upload-select g-upload-disabled"
         >
           <span
-            class="ant-upload ant-upload-disabled"
+            class="g-upload g-upload-disabled"
           >
             <input
               accept=""
@@ -858,7 +858,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
             >
               <span
                 aria-label="plus"
-                class="anticon anticon-plus"
+                class="gicon gicon-plus"
                 role="img"
               >
                 <svg
@@ -890,34 +890,34 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id ant-upload-picture-circle-wrapper"
+      class="g-upload-wrapper css-var-test-id g-upload-picture-circle-wrapper"
     >
       <div
-        class="ant-upload-list ant-upload-list-picture-circle"
+        class="g-upload-list g-upload-list-picture-circle"
       >
         <div
-          class="ant-upload-list-item-container"
+          class="g-upload-list-item-container"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-done"
+            class="g-upload-list-item g-upload-list-item-done"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="g-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="g-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -926,7 +926,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               image.png
             </a>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <a
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -936,7 +936,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               >
                 <span
                   aria-label="eye"
-                  class="anticon anticon-eye"
+                  class="gicon gicon-eye"
                   role="img"
                 >
                   <svg
@@ -958,25 +958,25 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
           </div>
         </div>
         <div
-          class="ant-upload-list-item-container"
+          class="g-upload-list-item-container"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-done"
+            class="g-upload-list-item g-upload-list-item-done"
           >
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="g-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
                 alt="image.png"
-                class="ant-upload-list-item-image"
+                class="g-upload-list-item-image"
                 src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -985,7 +985,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               image.png
             </a>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <a
                 href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -995,7 +995,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               >
                 <span
                   aria-label="eye"
-                  class="anticon anticon-eye"
+                  class="gicon gicon-eye"
                   role="img"
                 >
                   <svg
@@ -1017,18 +1017,18 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
           </div>
         </div>
         <div
-          class="ant-upload-list-item-container"
+          class="g-upload-list-item-container"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-uploading"
+            class="g-upload-list-item g-upload-list-item-uploading"
           >
             <div
-              class="ant-upload-list-item-thumbnail"
+              class="g-upload-list-item-thumbnail"
             >
               Uploading...
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -1039,18 +1039,18 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
           </div>
         </div>
         <div
-          class="ant-upload-list-item-container"
+          class="g-upload-list-item-container"
         >
           <div
             aria-describedby="test-id"
-            class="ant-upload-list-item ant-upload-list-item-error"
+            class="g-upload-list-item g-upload-list-item-error"
           >
             <div
-              class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+              class="g-upload-list-item-thumbnail g-upload-list-item-file"
             >
               <span
                 aria-label="picture"
-                class="anticon anticon-picture"
+                class="gicon gicon-picture"
                 role="img"
               >
                 <svg
@@ -1086,29 +1086,29 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               </span>
             </div>
             <span
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               title="image.png"
             >
               image.png
             </span>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             />
           </div>
           <div
-            class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+            class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
             style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
           >
             <div
-              class="ant-tooltip-arrow"
+              class="g-tooltip-arrow"
               style="position: absolute; bottom: 0px; left: 0px;"
             >
               <span
-                class="ant-tooltip-arrow-content"
+                class="g-tooltip-arrow-content"
               />
             </div>
             <div
-              class="ant-tooltip-container"
+              class="g-tooltip-container"
               id="test-id"
               role="tooltip"
             >
@@ -1117,10 +1117,10 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
           </div>
         </div>
         <div
-          class="ant-upload ant-upload-select ant-upload-disabled"
+          class="g-upload g-upload-select g-upload-disabled"
         >
           <span
-            class="ant-upload ant-upload-disabled"
+            class="g-upload g-upload-disabled"
           >
             <input
               accept=""
@@ -1135,7 +1135,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
             >
               <span
                 aria-label="plus"
-                class="anticon anticon-plus"
+                class="gicon gicon-plus"
                 role="img"
               >
                 <svg
@@ -1167,16 +1167,16 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id"
+      class="g-upload-wrapper css-var-test-id"
     >
       <div
-        class="ant-upload ant-upload-drag ant-upload-disabled"
+        class="g-upload g-upload-drag g-upload-disabled"
       >
         <span
-          class="ant-upload ant-upload-disabled ant-upload-btn"
+          class="g-upload g-upload-disabled g-upload-btn"
           role="button"
         >
           <input
@@ -1187,14 +1187,14 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
             type="file"
           />
           <div
-            class="ant-upload-drag-container"
+            class="g-upload-drag-container"
           >
             <p
-              class="ant-upload-drag-icon"
+              class="g-upload-drag-icon"
             >
               <span
                 aria-label="inbox"
-                class="anticon anticon-inbox"
+                class="gicon gicon-inbox"
                 role="img"
               >
                 <svg
@@ -1213,12 +1213,12 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
               </span>
             </p>
             <p
-              class="ant-upload-text"
+              class="g-upload-text"
             >
               Click or drag file to this area to upload
             </p>
             <p
-              class="ant-upload-hint"
+              class="g-upload-hint"
             >
               Support for a single or bulk upload. Strictly prohibited from uploading company data or other banned files.
             </p>
@@ -1226,7 +1226,7 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-text"
+        class="g-upload-list g-upload-list-text"
       />
     </span>
   </div>
@@ -1237,13 +1237,13 @@ exports[`renders components/upload/demo/debug-disabled.tsx extend context correc
 
 exports[`renders components/upload/demo/defaultFileList.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -1252,15 +1252,15 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -1285,20 +1285,20 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -1317,7 +1317,7 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/xxx.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -1326,19 +1326,19 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
           xxx.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -1362,17 +1362,17 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -1391,7 +1391,7 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/yyy.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -1400,19 +1400,19 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
           yyy.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -1436,18 +1436,18 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -1466,7 +1466,7 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/zzz.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -1475,19 +1475,19 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
           zzz.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -1510,19 +1510,19 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1538,13 +1538,13 @@ exports[`renders components/upload/demo/defaultFileList.tsx extend context corre
 
 exports[`renders components/upload/demo/directory.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -1555,15 +1555,15 @@ exports[`renders components/upload/demo/directory.tsx extend context correctly 1
         webkitdirectory="webkitdirectory"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -1588,7 +1588,7 @@ exports[`renders components/upload/demo/directory.tsx extend context correctly 1
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   />
 </span>
 `;
@@ -1597,13 +1597,13 @@ exports[`renders components/upload/demo/directory.tsx extend context correctly 2
 
 exports[`renders components/upload/demo/drag.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-drag"
+    class="g-upload g-upload-drag"
   >
     <span
-      class="ant-upload ant-upload-btn"
+      class="g-upload g-upload-btn"
       role="button"
       tabindex="0"
     >
@@ -1615,14 +1615,14 @@ exports[`renders components/upload/demo/drag.tsx extend context correctly 1`] = 
         type="file"
       />
       <div
-        class="ant-upload-drag-container"
+        class="g-upload-drag-container"
       >
         <p
-          class="ant-upload-drag-icon"
+          class="g-upload-drag-icon"
         >
           <span
             aria-label="inbox"
-            class="anticon anticon-inbox"
+            class="gicon gicon-inbox"
             role="img"
           >
             <svg
@@ -1641,12 +1641,12 @@ exports[`renders components/upload/demo/drag.tsx extend context correctly 1`] = 
           </span>
         </p>
         <p
-          class="ant-upload-text"
+          class="g-upload-text"
         >
           Click or drag file to this area to upload
         </p>
         <p
-          class="ant-upload-hint"
+          class="g-upload-hint"
         >
           Support for a single or bulk upload. Strictly prohibited from uploading company data or other banned files.
         </p>
@@ -1654,7 +1654,7 @@ exports[`renders components/upload/demo/drag.tsx extend context correctly 1`] = 
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   />
 </span>
 `;
@@ -1664,13 +1664,13 @@ exports[`renders components/upload/demo/drag.tsx extend context correctly 2`] = 
 exports[`renders components/upload/demo/drag-sorting.tsx extend context correctly 1`] = `
 Array [
   <span
-    class="ant-upload-wrapper"
+    class="g-upload-wrapper"
   >
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -1679,15 +1679,15 @@ Array [
           type="file"
         />
         <button
-          class="ant-btn ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="upload"
-              class="anticon anticon-upload"
+              class="gicon gicon-upload"
               role="img"
             >
               <svg
@@ -1712,10 +1712,10 @@ Array [
       </span>
     </div>
     <div
-      class="ant-upload-list ant-upload-list-text"
+      class="g-upload-list g-upload-list-text"
     >
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
           aria-describedby="DndDescribedBy-1"
@@ -1727,14 +1727,14 @@ Array [
           tabindex="0"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-done"
+            class="g-upload-list-item g-upload-list-item-done"
           >
             <div
-              class="ant-upload-icon"
+              class="g-upload-icon"
             >
               <span
                 aria-label="paper-clip"
-                class="anticon anticon-paper-clip"
+                class="gicon gicon-paper-clip"
                 role="img"
               >
                 <svg
@@ -1753,7 +1753,7 @@ Array [
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -1762,19 +1762,19 @@ Array [
               image1.png
             </a>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+                class="g-btn g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
                 title="Remove file"
                 type="button"
               >
                 <span
-                  class="ant-btn-icon"
+                  class="g-btn-icon"
                 >
                   <span
                     aria-label="delete"
-                    class="anticon anticon-delete"
+                    class="gicon gicon-delete"
                     role="img"
                     tabindex="-1"
                   >
@@ -1799,7 +1799,7 @@ Array [
         </div>
       </div>
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
           aria-describedby="DndDescribedBy-1"
@@ -1811,14 +1811,14 @@ Array [
           tabindex="0"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-done"
+            class="g-upload-list-item g-upload-list-item-done"
           >
             <div
-              class="ant-upload-icon"
+              class="g-upload-icon"
             >
               <span
                 aria-label="paper-clip"
-                class="anticon anticon-paper-clip"
+                class="gicon gicon-paper-clip"
                 role="img"
               >
                 <svg
@@ -1837,7 +1837,7 @@ Array [
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -1846,19 +1846,19 @@ Array [
               image2.png
             </a>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+                class="g-btn g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
                 title="Remove file"
                 type="button"
               >
                 <span
-                  class="ant-btn-icon"
+                  class="g-btn-icon"
                 >
                   <span
                     aria-label="delete"
-                    class="anticon anticon-delete"
+                    class="gicon gicon-delete"
                     role="img"
                     tabindex="-1"
                   >
@@ -1883,7 +1883,7 @@ Array [
         </div>
       </div>
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
           aria-describedby="DndDescribedBy-1"
@@ -1895,14 +1895,14 @@ Array [
           tabindex="0"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-done"
+            class="g-upload-list-item g-upload-list-item-done"
           >
             <div
-              class="ant-upload-icon"
+              class="g-upload-icon"
             >
               <span
                 aria-label="paper-clip"
-                class="anticon anticon-paper-clip"
+                class="gicon gicon-paper-clip"
                 role="img"
               >
                 <svg
@@ -1921,7 +1921,7 @@ Array [
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -1930,19 +1930,19 @@ Array [
               image3.png
             </a>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+                class="g-btn g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
                 title="Remove file"
                 type="button"
               >
                 <span
-                  class="ant-btn-icon"
+                  class="g-btn-icon"
                 >
                   <span
                     aria-label="delete"
-                    class="anticon anticon-delete"
+                    class="gicon gicon-delete"
                     role="img"
                     tabindex="-1"
                   >
@@ -1967,7 +1967,7 @@ Array [
         </div>
       </div>
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
           aria-describedby="DndDescribedBy-1"
@@ -1979,14 +1979,14 @@ Array [
           tabindex="0"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-done"
+            class="g-upload-list-item g-upload-list-item-done"
           >
             <div
-              class="ant-upload-icon"
+              class="g-upload-icon"
             >
               <span
                 aria-label="paper-clip"
-                class="anticon anticon-paper-clip"
+                class="gicon gicon-paper-clip"
                 role="img"
               >
                 <svg
@@ -2005,7 +2005,7 @@ Array [
               </span>
             </div>
             <a
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -2014,19 +2014,19 @@ Array [
               image4.png
             </a>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+                class="g-btn g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
                 title="Remove file"
                 type="button"
               >
                 <span
-                  class="ant-btn-icon"
+                  class="g-btn-icon"
                 >
                   <span
                     aria-label="delete"
-                    class="anticon anticon-delete"
+                    class="gicon gicon-delete"
                     role="img"
                     tabindex="-1"
                   >
@@ -2051,7 +2051,7 @@ Array [
         </div>
       </div>
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
           aria-describedby="DndDescribedBy-1"
@@ -2063,14 +2063,14 @@ Array [
           tabindex="0"
         >
           <div
-            class="ant-upload-list-item ant-upload-list-item-error"
+            class="g-upload-list-item g-upload-list-item-error"
           >
             <div
-              class="ant-upload-icon"
+              class="g-upload-icon"
             >
               <span
                 aria-label="paper-clip"
-                class="anticon anticon-paper-clip"
+                class="gicon gicon-paper-clip"
                 role="img"
               >
                 <svg
@@ -2089,25 +2089,25 @@ Array [
               </span>
             </div>
             <span
-              class="ant-upload-list-item-name"
+              class="g-upload-list-item-name"
               title="image.png"
             >
               image.png
             </span>
             <span
-              class="ant-upload-list-item-actions"
+              class="g-upload-list-item-actions"
             >
               <button
-                class="ant-btn ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+                class="g-btn g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
                 title="Remove file"
                 type="button"
               >
                 <span
-                  class="ant-btn-icon"
+                  class="g-btn-icon"
                 >
                   <span
                     aria-label="delete"
-                    class="anticon anticon-delete"
+                    class="gicon gicon-delete"
                     role="img"
                     tabindex="-1"
                   >
@@ -2130,18 +2130,18 @@ Array [
             </span>
           </div>
           <div
-            class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-placement-top"
+            class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-placement-top"
             style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; box-sizing: border-box;"
           >
             <div
-              class="ant-tooltip-arrow"
+              class="g-tooltip-arrow"
               style="position: absolute; bottom: 0px; left: 0px;"
             />
             <div
-              class="ant-tooltip-content"
+              class="g-tooltip-content"
             >
               <div
-                class="ant-tooltip-inner"
+                class="g-tooltip-inner"
                 role="tooltip"
               >
                 Upload error
@@ -2174,26 +2174,26 @@ exports[`renders components/upload/demo/drag-sorting.tsx extend context correctl
 
 exports[`renders components/upload/demo/file-type.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id ant-upload-picture-card-wrapper"
+  class="g-upload-wrapper css-var-test-id g-upload-picture-card-wrapper"
 >
   <div
-    class="ant-upload-list ant-upload-list-picture-card"
+    class="g-upload-list g-upload-list-picture-card"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
           href="http://cdn07.foxitsoftware.cn/pub/foxit/cpdf/FoxitCompanyProfile.pdf"
           rel="noopener noreferrer"
           target="_blank"
         >
           <span
             aria-label="file-pdf"
-            class="anticon anticon-file-pdf"
+            class="gicon gicon-file-pdf"
             role="img"
           >
             <svg
@@ -2229,7 +2229,7 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           </span>
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://cdn07.foxitsoftware.cn/pub/foxit/cpdf/FoxitCompanyProfile.pdf"
           rel="noopener noreferrer"
           target="_blank"
@@ -2238,7 +2238,7 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           pdf.pdf
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <a
             href="http://cdn07.foxitsoftware.cn/pub/foxit/cpdf/FoxitCompanyProfile.pdf"
@@ -2248,7 +2248,7 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           >
             <span
               aria-label="eye"
-              class="anticon anticon-eye"
+              class="gicon gicon-eye"
               role="img"
             >
               <svg
@@ -2267,16 +2267,16 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
             </span>
           </a>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -2300,20 +2300,20 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.doc"
           rel="noopener noreferrer"
           target="_blank"
         >
           <span
             aria-label="file-word"
-            class="anticon anticon-file-word"
+            class="gicon gicon-file-word"
             role="img"
           >
             <svg
@@ -2341,7 +2341,7 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           </span>
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.doc"
           rel="noopener noreferrer"
           target="_blank"
@@ -2350,7 +2350,7 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           doc.doc
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.doc"
@@ -2360,7 +2360,7 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           >
             <span
               aria-label="eye"
-              class="anticon anticon-eye"
+              class="gicon gicon-eye"
               role="img"
             >
               <svg
@@ -2379,16 +2379,16 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
             </span>
           </a>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -2412,18 +2412,18 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
         >
           <span
             aria-label="picture"
-            class="anticon anticon-picture"
+            class="gicon gicon-picture"
             role="img"
           >
             <svg
@@ -2459,25 +2459,25 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="image.png"
         >
           image.png
         </span>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -2500,19 +2500,19 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -2521,18 +2521,18 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
         >
           <span
             aria-label="file-pdf"
-            class="anticon anticon-file-pdf"
+            class="gicon gicon-file-pdf"
             role="img"
           >
             <svg
@@ -2568,25 +2568,25 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="pdf.pdf"
         >
           pdf.pdf
         </span>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -2609,19 +2609,19 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -2630,18 +2630,18 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
         >
           <span
             aria-label="file-word"
-            class="anticon anticon-file-word"
+            class="gicon gicon-file-word"
             role="img"
           >
             <svg
@@ -2669,25 +2669,25 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="doc.doc"
         >
           doc.doc
         </span>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -2710,19 +2710,19 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -2731,10 +2731,10 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -2748,7 +2748,7 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 1
         >
           <span
             aria-label="plus"
-            class="anticon anticon-plus"
+            class="gicon gicon-plus"
             role="img"
           >
             <svg
@@ -2784,13 +2784,13 @@ exports[`renders components/upload/demo/file-type.tsx extend context correctly 2
 
 exports[`renders components/upload/demo/fileList.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -2800,15 +2800,15 @@ exports[`renders components/upload/demo/fileList.tsx extend context correctly 1`
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -2833,20 +2833,20 @@ exports[`renders components/upload/demo/fileList.tsx extend context correctly 1`
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -2865,7 +2865,7 @@ exports[`renders components/upload/demo/fileList.tsx extend context correctly 1`
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/xxx.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -2874,19 +2874,19 @@ exports[`renders components/upload/demo/fileList.tsx extend context correctly 1`
           xxx.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -2917,20 +2917,20 @@ exports[`renders components/upload/demo/fileList.tsx extend context correctly 2`
 
 exports[`renders components/upload/demo/max-count.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-large ant-space-gap-col-large css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-large g-space-gap-col-large css-var-test-id"
   style="width: 100%;"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id"
+      class="g-upload-wrapper css-var-test-id"
     >
       <div
-        class="ant-upload ant-upload-select"
+        class="g-upload g-upload-select"
       >
         <span
-          class="ant-upload"
+          class="g-upload"
         >
           <input
             accept=""
@@ -2939,15 +2939,15 @@ exports[`renders components/upload/demo/max-count.tsx extend context correctly 1
             type="file"
           />
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="upload"
-                class="anticon anticon-upload"
+                class="gicon gicon-upload"
                 role="img"
               >
                 <svg
@@ -2972,21 +2972,21 @@ exports[`renders components/upload/demo/max-count.tsx extend context correctly 1
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-picture"
+        class="g-upload-list g-upload-list-picture"
       />
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span
-      class="ant-upload-wrapper css-var-test-id"
+      class="g-upload-wrapper css-var-test-id"
     >
       <div
-        class="ant-upload ant-upload-select"
+        class="g-upload g-upload-select"
       >
         <span
-          class="ant-upload"
+          class="g-upload"
         >
           <input
             accept=""
@@ -2996,15 +2996,15 @@ exports[`renders components/upload/demo/max-count.tsx extend context correctly 1
             type="file"
           />
           <button
-            class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="upload"
-                class="anticon anticon-upload"
+                class="gicon gicon-upload"
                 role="img"
               >
                 <svg
@@ -3029,7 +3029,7 @@ exports[`renders components/upload/demo/max-count.tsx extend context correctly 1
         </span>
       </div>
       <div
-        class="ant-upload-list ant-upload-list-picture"
+        class="g-upload-list g-upload-list-picture"
       />
     </span>
   </div>
@@ -3040,13 +3040,13 @@ exports[`renders components/upload/demo/max-count.tsx extend context correctly 2
 
 exports[`renders components/upload/demo/paste.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -3055,15 +3055,15 @@ exports[`renders components/upload/demo/paste.tsx extend context correctly 1`] =
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -3088,7 +3088,7 @@ exports[`renders components/upload/demo/paste.tsx extend context correctly 1`] =
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   />
 </span>
 `;
@@ -3097,31 +3097,31 @@ exports[`renders components/upload/demo/paste.tsx extend context correctly 2`] =
 
 exports[`renders components/upload/demo/picture-card.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id ant-upload-picture-card-wrapper"
+  class="g-upload-wrapper css-var-test-id g-upload-picture-card-wrapper"
 >
   <div
-    class="ant-upload-list ant-upload-list-picture-card"
+    class="g-upload-list g-upload-list-picture-card"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image.png"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -3130,7 +3130,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           image.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -3140,7 +3140,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           >
             <span
               aria-label="eye"
-              class="anticon anticon-eye"
+              class="gicon gicon-eye"
               role="img"
             >
               <svg
@@ -3159,16 +3159,16 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
             </span>
           </a>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -3192,25 +3192,25 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image.png"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -3219,7 +3219,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           image.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -3229,7 +3229,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           >
             <span
               aria-label="eye"
-              class="anticon anticon-eye"
+              class="gicon gicon-eye"
               role="img"
             >
               <svg
@@ -3248,16 +3248,16 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
             </span>
           </a>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -3281,25 +3281,25 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image.png"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -3308,7 +3308,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           image.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -3318,7 +3318,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           >
             <span
               aria-label="eye"
-              class="anticon anticon-eye"
+              class="gicon gicon-eye"
               role="img"
             >
               <svg
@@ -3337,16 +3337,16 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
             </span>
           </a>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -3370,25 +3370,25 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image.png"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -3397,7 +3397,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           image.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -3407,7 +3407,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           >
             <span
               aria-label="eye"
-              class="anticon anticon-eye"
+              class="gicon gicon-eye"
               role="img"
             >
               <svg
@@ -3426,16 +3426,16 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
             </span>
           </a>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -3459,18 +3459,18 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
         >
           Uploading...
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -3481,18 +3481,18 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
         >
           <span
             aria-label="picture"
-            class="anticon anticon-picture"
+            class="gicon gicon-picture"
             role="img"
           >
             <svg
@@ -3528,25 +3528,25 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="image.png"
         >
           image.png
         </span>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -3569,19 +3569,19 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -3590,10 +3590,10 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
       </div>
     </div>
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -3607,7 +3607,7 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
         >
           <span
             aria-label="plus"
-            class="anticon anticon-plus"
+            class="gicon gicon-plus"
             role="img"
           >
             <svg
@@ -3643,31 +3643,31 @@ exports[`renders components/upload/demo/picture-card.tsx extend context correctl
 
 exports[`renders components/upload/demo/picture-circle.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id ant-upload-picture-circle-wrapper"
+  class="g-upload-wrapper css-var-test-id g-upload-picture-circle-wrapper"
 >
   <div
-    class="ant-upload-list ant-upload-list-picture-circle"
+    class="g-upload-list g-upload-list-picture-circle"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="image.png"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -3676,7 +3676,7 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
           image.png
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -3686,7 +3686,7 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
           >
             <span
               aria-label="eye"
-              class="anticon anticon-eye"
+              class="gicon gicon-eye"
               role="img"
             >
               <svg
@@ -3705,16 +3705,16 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
             </span>
           </a>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -3738,18 +3738,18 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
         >
           Uploading...
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -3760,18 +3760,18 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
         >
           <span
             aria-label="picture"
-            class="anticon anticon-picture"
+            class="gicon gicon-picture"
             role="img"
           >
             <svg
@@ -3807,25 +3807,25 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="image.png"
         >
           image.png
         </span>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -3848,19 +3848,19 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -3869,10 +3869,10 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
       </div>
     </div>
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -3886,7 +3886,7 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
         >
           <span
             aria-label="plus"
-            class="anticon anticon-plus"
+            class="gicon gicon-plus"
             role="img"
           >
             <svg
@@ -3922,13 +3922,13 @@ exports[`renders components/upload/demo/picture-circle.tsx extend context correc
 
 exports[`renders components/upload/demo/picture-style.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -3937,15 +3937,15 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -3970,20 +3970,20 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="g-upload-list g-upload-list-picture"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-uploading"
+        class="g-upload-list-item g-upload-list-item-uploading"
       >
         <div
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -4002,25 +4002,25 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="xxx.png"
         >
           xxx.png
         </span>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -4044,25 +4044,25 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <a
-          class="ant-upload-list-item-thumbnail"
+          class="g-upload-list-item-thumbnail"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
         >
           <img
             alt="yyy.png"
-            class="ant-upload-list-item-image"
+            class="g-upload-list-item-image"
             src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           />
         </a>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -4071,19 +4071,19 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
           yyy.png
         </a>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -4107,18 +4107,18 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-list-item-thumbnail ant-upload-list-item-file"
+          class="g-upload-list-item-thumbnail g-upload-list-item-file"
         >
           <span
             aria-label="picture"
-            class="anticon anticon-picture"
+            class="gicon gicon-picture"
             role="img"
           >
             <svg
@@ -4154,25 +4154,25 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
           </span>
         </div>
         <span
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           title="zzz.png"
         >
           zzz.png
         </span>
         <span
-          class="ant-upload-list-item-actions picture"
+          class="g-upload-list-item-actions picture"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="delete"
-                class="anticon anticon-delete"
+                class="gicon gicon-delete"
                 role="img"
                 tabindex="-1"
               >
@@ -4195,19 +4195,19 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -4223,13 +4223,13 @@ exports[`renders components/upload/demo/picture-style.tsx extend context correct
 
 exports[`renders components/upload/demo/preview-file.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -4238,15 +4238,15 @@ exports[`renders components/upload/demo/preview-file.tsx extend context correctl
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -4271,7 +4271,7 @@ exports[`renders components/upload/demo/preview-file.tsx extend context correctl
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="g-upload-list g-upload-list-picture"
   />
 </span>
 `;
@@ -4280,17 +4280,17 @@ exports[`renders components/upload/demo/preview-file.tsx extend context correctl
 
 exports[`renders components/upload/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-large ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-large g-flex-vertical"
 >
   <span
-    class="ant-upload-wrapper css-var-test-id acss-1f6kc14"
+    class="g-upload-wrapper css-var-test-id acss-1f6kc14"
   >
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
       style="background-color: rgba(84, 89, 172, 0.1); padding: 8px; border-radius: 4px;"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -4299,15 +4299,15 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
           type="file"
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="upload"
-              class="anticon anticon-upload"
+              class="gicon gicon-upload"
               role="img"
             >
               <svg
@@ -4332,21 +4332,21 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
       </span>
     </div>
     <div
-      class="ant-upload-list ant-upload-list-text"
+      class="g-upload-list g-upload-list-text"
     >
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-uploading"
+          class="g-upload-list-item g-upload-list-item-uploading"
           style="border-radius: 2px; background-color: rgba(5, 5, 5, 0.06); height: 30px;"
         >
           <div
-            class="ant-upload-icon"
+            class="g-upload-icon"
           >
             <span
               aria-label="loading"
-              class="anticon anticon-loading anticon-spin"
+              class="gicon gicon-loading gicon-spin"
               role="img"
             >
               <svg
@@ -4365,7 +4365,7 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             </span>
           </div>
           <a
-            class="ant-upload-list-item-name"
+            class="g-upload-list-item-name"
             href="http://www.baidu.com/xxx.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -4374,19 +4374,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             xxx.png
           </a>
           <span
-            class="ant-upload-list-item-actions"
+            class="g-upload-list-item-actions"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+              class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
               title="Remove file"
               type="button"
             >
               <span
-                class="ant-btn-icon"
+                class="g-btn-icon"
               >
                 <span
                   aria-label="delete"
-                  class="anticon anticon-delete"
+                  class="gicon gicon-delete"
                   role="img"
                   tabindex="-1"
                 >
@@ -4410,18 +4410,18 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-done"
+          class="g-upload-list-item g-upload-list-item-done"
           style="border-radius: 2px; background-color: rgba(5, 5, 5, 0.06); height: 30px;"
         >
           <div
-            class="ant-upload-icon"
+            class="g-upload-icon"
           >
             <span
               aria-label="paper-clip"
-              class="anticon anticon-paper-clip"
+              class="gicon gicon-paper-clip"
               role="img"
             >
               <svg
@@ -4440,7 +4440,7 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             </span>
           </div>
           <a
-            class="ant-upload-list-item-name"
+            class="g-upload-list-item-name"
             href="http://www.baidu.com/yyy.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -4449,19 +4449,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             yyy.png
           </a>
           <span
-            class="ant-upload-list-item-actions"
+            class="g-upload-list-item-actions"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+              class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
               title="Remove file"
               type="button"
             >
               <span
-                class="ant-btn-icon"
+                class="g-btn-icon"
               >
                 <span
                   aria-label="delete"
-                  class="anticon anticon-delete"
+                  class="gicon gicon-delete"
                   role="img"
                   tabindex="-1"
                 >
@@ -4485,19 +4485,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
           aria-describedby="test-id"
-          class="ant-upload-list-item ant-upload-list-item-error"
+          class="g-upload-list-item g-upload-list-item-error"
           style="border-radius: 2px; background-color: rgba(5, 5, 5, 0.06); height: 30px;"
         >
           <div
-            class="ant-upload-icon"
+            class="g-upload-icon"
           >
             <span
               aria-label="paper-clip"
-              class="anticon anticon-paper-clip"
+              class="gicon gicon-paper-clip"
               role="img"
             >
               <svg
@@ -4516,7 +4516,7 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             </span>
           </div>
           <a
-            class="ant-upload-list-item-name"
+            class="g-upload-list-item-name"
             href="http://www.baidu.com/zzz.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -4525,19 +4525,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             zzz.png
           </a>
           <span
-            class="ant-upload-list-item-actions"
+            class="g-upload-list-item-actions"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+              class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
               title="Remove file"
               type="button"
             >
               <span
-                class="ant-btn-icon"
+                class="g-btn-icon"
               >
                 <span
                   aria-label="delete"
-                  class="anticon anticon-delete"
+                  class="gicon gicon-delete"
                   role="img"
                   tabindex="-1"
                 >
@@ -4560,19 +4560,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
           </span>
         </div>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute; bottom: 0px; left: 0px;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           >
@@ -4583,15 +4583,15 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
     </div>
   </span>
   <span
-    class="ant-upload-wrapper css-var-test-id acss-1f6kc14"
+    class="g-upload-wrapper css-var-test-id acss-1f6kc14"
     style="border: 1px solid rgb(84, 89, 172);"
   >
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
       style="background-color: rgba(84, 89, 172, 0.2); padding: 8px; border-radius: 4px;"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -4601,15 +4601,15 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
           type="file"
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="upload"
-              class="anticon anticon-upload"
+              class="gicon gicon-upload"
               role="img"
             >
               <svg
@@ -4634,21 +4634,21 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
       </span>
     </div>
     <div
-      class="ant-upload-list ant-upload-list-text"
+      class="g-upload-list g-upload-list-text"
     >
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-uploading"
+          class="g-upload-list-item g-upload-list-item-uploading"
           style="border-radius: 2px; background-color: rgba(5, 5, 5, 0.06); height: 30px;"
         >
           <div
-            class="ant-upload-icon"
+            class="g-upload-icon"
           >
             <span
               aria-label="loading"
-              class="anticon anticon-loading anticon-spin"
+              class="gicon gicon-loading gicon-spin"
               role="img"
             >
               <svg
@@ -4667,7 +4667,7 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             </span>
           </div>
           <a
-            class="ant-upload-list-item-name"
+            class="g-upload-list-item-name"
             href="http://www.baidu.com/xxx.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -4676,19 +4676,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             xxx.png
           </a>
           <span
-            class="ant-upload-list-item-actions"
+            class="g-upload-list-item-actions"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+              class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
               title="Remove file"
               type="button"
             >
               <span
-                class="ant-btn-icon"
+                class="g-btn-icon"
               >
                 <span
                   aria-label="delete"
-                  class="anticon anticon-delete"
+                  class="gicon gicon-delete"
                   role="img"
                   tabindex="-1"
                 >
@@ -4712,18 +4712,18 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
-          class="ant-upload-list-item ant-upload-list-item-done"
+          class="g-upload-list-item g-upload-list-item-done"
           style="border-radius: 2px; background-color: rgba(5, 5, 5, 0.06); height: 30px;"
         >
           <div
-            class="ant-upload-icon"
+            class="g-upload-icon"
           >
             <span
               aria-label="paper-clip"
-              class="anticon anticon-paper-clip"
+              class="gicon gicon-paper-clip"
               role="img"
             >
               <svg
@@ -4742,7 +4742,7 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             </span>
           </div>
           <a
-            class="ant-upload-list-item-name"
+            class="g-upload-list-item-name"
             href="http://www.baidu.com/yyy.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -4751,19 +4751,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             yyy.png
           </a>
           <span
-            class="ant-upload-list-item-actions"
+            class="g-upload-list-item-actions"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+              class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
               title="Remove file"
               type="button"
             >
               <span
-                class="ant-btn-icon"
+                class="g-btn-icon"
               >
                 <span
                   aria-label="delete"
-                  class="anticon anticon-delete"
+                  class="gicon gicon-delete"
                   role="img"
                   tabindex="-1"
                 >
@@ -4787,19 +4787,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
         </div>
       </div>
       <div
-        class="ant-upload-list-item-container"
+        class="g-upload-list-item-container"
       >
         <div
           aria-describedby="test-id"
-          class="ant-upload-list-item ant-upload-list-item-error"
+          class="g-upload-list-item g-upload-list-item-error"
           style="border-radius: 2px; background-color: rgba(5, 5, 5, 0.06); height: 30px;"
         >
           <div
-            class="ant-upload-icon"
+            class="g-upload-icon"
           >
             <span
               aria-label="paper-clip"
-              class="anticon anticon-paper-clip"
+              class="gicon gicon-paper-clip"
               role="img"
             >
               <svg
@@ -4818,7 +4818,7 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             </span>
           </div>
           <a
-            class="ant-upload-list-item-name"
+            class="g-upload-list-item-name"
             href="http://www.baidu.com/zzz.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -4827,19 +4827,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
             zzz.png
           </a>
           <span
-            class="ant-upload-list-item-actions"
+            class="g-upload-list-item-actions"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+              class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
               title="Remove file"
               type="button"
             >
               <span
-                class="ant-btn-icon"
+                class="g-btn-icon"
               >
                 <span
                   aria-label="delete"
-                  class="anticon anticon-delete"
+                  class="gicon gicon-delete"
                   role="img"
                   tabindex="-1"
                 >
@@ -4862,19 +4862,19 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
           </span>
         </div>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute; bottom: 0px; left: 0px;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           >
@@ -4891,13 +4891,13 @@ exports[`renders components/upload/demo/style-class.tsx extend context correctly
 
 exports[`renders components/upload/demo/transform-file.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -4906,15 +4906,15 @@ exports[`renders components/upload/demo/transform-file.tsx extend context correc
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -4939,7 +4939,7 @@ exports[`renders components/upload/demo/transform-file.tsx extend context correc
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="g-upload-list g-upload-list-picture"
   />
 </span>
 `;
@@ -4948,13 +4948,13 @@ exports[`renders components/upload/demo/transform-file.tsx extend context correc
 
 exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -4963,15 +4963,15 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -4996,20 +4996,20 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   >
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -5028,7 +5028,7 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/xxx.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -5036,7 +5036,7 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
         >
           xxx.png
           <span
-            class="ant-upload-list-item-extra"
+            class="g-upload-list-item-extra"
           >
             <span
               style="color: rgb(204, 204, 204);"
@@ -5046,10 +5046,10 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
           </span>
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-upload-list-item-action"
             title="Download file"
             type="button"
           >
@@ -5058,16 +5058,16 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
             </span>
           </button>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="star"
-                class="anticon anticon-star"
+                class="gicon gicon-star"
                 role="img"
                 tabindex="-1"
               >
@@ -5091,17 +5091,17 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="g-upload-list-item g-upload-list-item-done"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -5120,7 +5120,7 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/yyy.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -5128,7 +5128,7 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
         >
           yyy.png
           <span
-            class="ant-upload-list-item-extra"
+            class="g-upload-list-item-extra"
           >
             <span
               style="color: rgb(204, 204, 204);"
@@ -5138,10 +5138,10 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
           </span>
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-upload-list-item-action"
             title="Download file"
             type="button"
           >
@@ -5150,16 +5150,16 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
             </span>
           </button>
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="star"
-                class="anticon anticon-star"
+                class="gicon gicon-star"
                 role="img"
                 tabindex="-1"
               >
@@ -5183,18 +5183,18 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
       </div>
     </div>
     <div
-      class="ant-upload-list-item-container"
+      class="g-upload-list-item-container"
     >
       <div
         aria-describedby="test-id"
-        class="ant-upload-list-item ant-upload-list-item-error"
+        class="g-upload-list-item g-upload-list-item-error"
       >
         <div
-          class="ant-upload-icon"
+          class="g-upload-icon"
         >
           <span
             aria-label="paper-clip"
-            class="anticon anticon-paper-clip"
+            class="gicon gicon-paper-clip"
             role="img"
           >
             <svg
@@ -5213,7 +5213,7 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
           </span>
         </div>
         <a
-          class="ant-upload-list-item-name"
+          class="g-upload-list-item-name"
           href="http://www.baidu.com/zzz.png"
           rel="noopener noreferrer"
           target="_blank"
@@ -5221,7 +5221,7 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
         >
           zzz.png
           <span
-            class="ant-upload-list-item-extra"
+            class="g-upload-list-item-extra"
           >
             <span
               style="color: rgb(204, 204, 204);"
@@ -5231,19 +5231,19 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
           </span>
         </a>
         <span
-          class="ant-upload-list-item-actions"
+          class="g-upload-list-item-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+            class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
             title="Remove file"
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="star"
-                class="anticon anticon-star"
+                class="gicon gicon-star"
                 role="img"
                 tabindex="-1"
               >
@@ -5266,19 +5266,19 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
         </span>
       </div>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -5295,13 +5295,13 @@ exports[`renders components/upload/demo/upload-custom-action-icon.tsx extend con
 exports[`renders components/upload/demo/upload-manually.tsx extend context correctly 1`] = `
 Array [
   <span
-    class="ant-upload-wrapper css-var-test-id"
+    class="g-upload-wrapper css-var-test-id"
   >
     <div
-      class="ant-upload ant-upload-select"
+      class="g-upload g-upload-select"
     >
       <span
-        class="ant-upload"
+        class="g-upload"
       >
         <input
           accept=""
@@ -5310,15 +5310,15 @@ Array [
           type="file"
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="upload"
-              class="anticon anticon-upload"
+              class="gicon gicon-upload"
               role="img"
             >
               <svg
@@ -5343,11 +5343,11 @@ Array [
       </span>
     </div>
     <div
-      class="ant-upload-list ant-upload-list-text"
+      class="g-upload-list g-upload-list-text"
     />
   </span>,
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     disabled=""
     style="margin-top: 16px;"
     type="button"
@@ -5363,13 +5363,13 @@ exports[`renders components/upload/demo/upload-manually.tsx extend context corre
 
 exports[`renders components/upload/demo/upload-png-only.tsx extend context correctly 1`] = `
 <span
-  class="ant-upload-wrapper css-var-test-id"
+  class="g-upload-wrapper css-var-test-id"
 >
   <div
-    class="ant-upload ant-upload-select"
+    class="g-upload g-upload-select"
   >
     <span
-      class="ant-upload"
+      class="g-upload"
     >
       <input
         accept=""
@@ -5378,15 +5378,15 @@ exports[`renders components/upload/demo/upload-png-only.tsx extend context corre
         type="file"
       />
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="upload"
-            class="anticon anticon-upload"
+            class="gicon gicon-upload"
             role="img"
           >
             <svg
@@ -5411,7 +5411,7 @@ exports[`renders components/upload/demo/upload-png-only.tsx extend context corre
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="g-upload-list g-upload-list-text"
   />
 </span>
 `;
@@ -5420,16 +5420,16 @@ exports[`renders components/upload/demo/upload-png-only.tsx extend context corre
 
 exports[`renders components/upload/demo/upload-with-aliyun-oss.tsx extend context correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-test-id ant-form-css-var"
+  class="g-form g-form-horizontal css-var-test-id g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-test-id"
+        class="g-col g-col-4 g-form-item-label css-var-test-id"
       >
         <label
           class=""
@@ -5440,22 +5440,22 @@ exports[`renders components/upload/demo/upload-with-aliyun-oss.tsx extend contex
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control css-var-test-id"
+        class="g-col g-form-item-control css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <span
-              class="ant-upload-wrapper css-var-test-id"
+              class="g-upload-wrapper css-var-test-id"
             >
               <div
-                class="ant-upload ant-upload-select"
+                class="g-upload g-upload-select"
               >
                 <span
-                  class="ant-upload"
+                  class="g-upload"
                 >
                   <input
                     accept=""
@@ -5464,15 +5464,15 @@ exports[`renders components/upload/demo/upload-with-aliyun-oss.tsx extend contex
                     type="file"
                   />
                   <button
-                    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
                     type="button"
                   >
                     <span
-                      class="ant-btn-icon"
+                      class="g-btn-icon"
                     >
                       <span
                         aria-label="upload"
-                        class="anticon anticon-upload"
+                        class="gicon gicon-upload"
                         role="img"
                       >
                         <svg
@@ -5497,7 +5497,7 @@ exports[`renders components/upload/demo/upload-with-aliyun-oss.tsx extend contex
                 </span>
               </div>
               <div
-                class="ant-upload-list ant-upload-list-text"
+                class="g-upload-list g-upload-list-text"
               />
             </span>
           </div>

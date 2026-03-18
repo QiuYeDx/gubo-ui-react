@@ -29,7 +29,7 @@ describe('InputNumber useMergeSemantic', () => {
     );
 
     const root = container.querySelector('.additional-class')!;
-    expect(root).toHaveClass('ant-input-number');
+    expect(root).toHaveClass('g-input-number');
     expect(root).toHaveStyle('margin: 10px');
   });
 
@@ -42,7 +42,7 @@ describe('InputNumber useMergeSemantic', () => {
 
     const { container, rerender } = render(<InputNumber styles={stylesFn} size="large" />);
 
-    const root = container.querySelector('.ant-input-number')!;
+    const root = container.querySelector('.g-input-number')!;
     expect(root).toHaveStyle('background-color: #1677FF');
 
     rerender(<InputNumber styles={stylesFn} size="medium" />);

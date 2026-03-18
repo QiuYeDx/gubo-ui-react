@@ -60,13 +60,13 @@ describe('Mentions', () => {
 
     const { container } = render(<Mentions onFocus={onFocus} onBlur={onBlur} />);
     fireEvent.focus(container.querySelector('textarea')!);
-    expect(container.querySelector('.ant-mentions')).toHaveClass('ant-mentions-focused');
+    expect(container.querySelector('.g-mentions')).toHaveClass('g-mentions-focused');
     expect(onFocus).toHaveBeenCalled();
     fireEvent.blur(container.querySelector('textarea')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-mentions')).not.toHaveClass('ant-mentions-focused');
+    expect(container.querySelector('.g-mentions')).not.toHaveClass('g-mentions-focused');
     expect(onBlur).toHaveBeenCalled();
   });
 
@@ -77,14 +77,14 @@ describe('Mentions', () => {
   it('loading', () => {
     const wrapper = render(<Mentions loading />);
     simulateInput(wrapper, '@');
-    expect(wrapper.container.querySelectorAll('li.ant-mentions-dropdown-menu-item').length).toBe(1);
-    expect(wrapper.container.querySelectorAll('.ant-spin').length).toBeTruthy();
+    expect(wrapper.container.querySelectorAll('li.g-mentions-dropdown-menu-item').length).toBe(1);
+    expect(wrapper.container.querySelectorAll('.g-spin').length).toBeTruthy();
   });
 
   it('notFoundContent', () => {
     const wrapper = render(<Mentions notFoundContent={<span className="bamboo-light" />} />);
     simulateInput(wrapper, '@');
-    expect(wrapper.container.querySelectorAll('li.ant-mentions-dropdown-menu-item').length).toBe(1);
+    expect(wrapper.container.querySelectorAll('li.g-mentions-dropdown-menu-item').length).toBe(1);
     expect(wrapper.container.querySelectorAll('.bamboo-light').length).toBeTruthy();
   });
 
@@ -92,13 +92,13 @@ describe('Mentions', () => {
     const wrapper = render(<Mentions allowClear defaultValue="111" />);
     const textareaInstance = wrapper.container.querySelector('textarea')!;
     expect(textareaInstance.value).toEqual('111');
-    fireEvent.click(wrapper.container.querySelector('.ant-mentions-clear-icon')!);
+    fireEvent.click(wrapper.container.querySelector('.g-mentions-clear-icon')!);
     expect(textareaInstance.value).toEqual('');
   });
 
   it('should support custom clearIcon', () => {
     const { container } = render(<Mentions allowClear={{ clearIcon: 'clear' }} />);
-    expect(container.querySelector('.ant-mentions-clear-icon')?.textContent).toBe('clear');
+    expect(container.querySelector('.g-mentions-clear-icon')?.textContent).toBe('clear');
   });
 
   it('warning if use Mentions.Option', () => {
@@ -125,13 +125,13 @@ describe('Mentions', () => {
     );
     simulateInput(wrapper, '@');
     const { container } = wrapper;
-    fireEvent.mouseEnter(container.querySelector('li.ant-mentions-dropdown-menu-item:last-child')!);
+    fireEvent.mouseEnter(container.querySelector('li.g-mentions-dropdown-menu-item:last-child')!);
     fireEvent.focus(container.querySelector('textarea')!);
     act(() => {
       jest.runAllTimers();
     });
     expect(
-      wrapper.container.querySelector('.ant-mentions-dropdown-menu-item-active')?.textContent,
+      wrapper.container.querySelector('.g-mentions-dropdown-menu-item-active')?.textContent,
     ).toBe('Yesmeck');
   });
 
@@ -176,15 +176,13 @@ describe('Mentions', () => {
       );
       simulateInput(wrapper, '@');
       const { container } = wrapper;
-      fireEvent.mouseEnter(
-        container.querySelector('li.ant-mentions-dropdown-menu-item:last-child')!,
-      );
+      fireEvent.mouseEnter(container.querySelector('li.g-mentions-dropdown-menu-item:last-child')!);
       fireEvent.focus(container.querySelector('textarea')!);
       act(() => {
         jest.runAllTimers();
       });
-      const root = container.querySelector('.ant-mentions');
-      const popup = container.querySelector('.ant-mentions-dropdown');
+      const root = container.querySelector('.g-mentions');
+      const popup = container.querySelector('.g-mentions-dropdown');
       const textarea = container.querySelector('.rc-textarea');
       expect(root).toHaveClass(customClassNames.root);
       expect(popup).toHaveClass(customClassNames.popup);

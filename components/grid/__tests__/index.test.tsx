@@ -175,21 +175,21 @@ describe('Grid', () => {
   it(`should align by responsive align prop`, () => {
     jest.spyOn(window, 'matchMedia').mockImplementation(createImplFn('(max-width: 575px)') as any);
     const { container } = render(<Row align="middle" />);
-    expect(container.innerHTML).toContain('ant-row-middle');
+    expect(container.innerHTML).toContain('g-row-middle');
     const { container: container2 } = render(<Row align={{ xs: 'middle' }} />);
-    expect(container2.innerHTML).toContain('ant-row-middle');
+    expect(container2.innerHTML).toContain('g-row-middle');
     const { container: container3 } = render(<Row align={{ lg: 'middle' }} />);
-    expect(container3.innerHTML).not.toContain('ant-row-middle');
+    expect(container3.innerHTML).not.toContain('g-row-middle');
   });
 
   it(`should justify by responsive justify prop`, () => {
     jest.spyOn(window, 'matchMedia').mockImplementation(createImplFn('(max-width: 575px)') as any);
     const { container } = render(<Row justify="center" />);
-    expect(container.innerHTML).toContain('ant-row-center');
+    expect(container.innerHTML).toContain('g-row-center');
     const { container: container2 } = render(<Row justify={{ xs: 'center' }} />);
-    expect(container2.innerHTML).toContain('ant-row-center');
+    expect(container2.innerHTML).toContain('g-row-center');
     const { container: container3 } = render(<Row justify={{ lg: 'center' }} />);
-    expect(container3.innerHTML).not.toContain('ant-row-center');
+    expect(container3.innerHTML).not.toContain('g-row-center');
   });
 
   // https://github.com/ant-design/ant-design/issues/39690
@@ -207,9 +207,9 @@ describe('Grid', () => {
       );
     };
     const { container } = render(<ReactiveTest />);
-    expect(container.innerHTML).toContain('ant-row-start');
+    expect(container.innerHTML).toContain('g-row-start');
     fireEvent.click(container.querySelector('span')!);
-    expect(container.innerHTML).toContain('ant-row-end');
+    expect(container.innerHTML).toContain('g-row-end');
   });
 
   it('The column spacing should be evenly spaced', () => {
@@ -219,7 +219,7 @@ describe('Grid', () => {
         <Col span={4}>col-2</Col>
       </Row>,
     );
-    const row = container.querySelector('.ant-row-space-evenly');
+    const row = container.querySelector('.g-row-space-evenly');
     expect(row).toBeTruthy();
     expect(row).toHaveStyle({ justifyContent: 'space-evenly' });
   });

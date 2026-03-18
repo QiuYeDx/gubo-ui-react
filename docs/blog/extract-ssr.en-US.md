@@ -18,7 +18,7 @@ In the v5 alpha version, in order to cover the SSR style rendering, we refer to 
 ```html
 <div>
   <style>
-    :where(.css-bAmBOo).ant-btn {
+    :where(.css-bAmBOo).g-btn {
       // ...
     }
   </style>
@@ -33,19 +33,19 @@ It worked well at the beginning, and the official website of antd directly suppo
 ```html
 <div>
   <style>
-    :where(.css-bAmBOo).ant-btn {
+    :where(.css-bAmBOo).g-btn {
       // ...
     }
   </style>
   <button className="ant-btn css-bAmBOo">Hello World 1</button>
   <style>
-    :where(.css-bAmBOo).ant-btn {
+    :where(.css-bAmBOo).g-btn {
       // ...
     }
   </style>
   <button className="ant-btn css-bAmBOo">Hello World 2</button>
   <style>
-    :where(.css-bAmBOo).ant-btn {
+    :where(.css-bAmBOo).g-btn {
       // ...
     }
   </style>

@@ -4,32 +4,32 @@ exports[`Space rtl render component should be rendered correctly in RTL directio
 
 exports[`Space separator 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-root"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-root"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     text1
   </div>
   <span
-    class="ant-space-item-separator"
+    class="g-space-item-separator"
   >
     -
   </span>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span>
       text1
     </span>
   </div>
   <span
-    class="ant-space-item-separator"
+    class="g-space-item-separator"
   >
     -
   </span>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     text3
   </div>
@@ -38,22 +38,22 @@ exports[`Space separator 1`] = `
 
 exports[`Space should render correct with children 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-root"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-root"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     text1
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <span>
       text1
     </span>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     text3
   </div>
@@ -63,17 +63,17 @@ exports[`Space should render correct with children 1`] = `
 exports[`Space should render width ConfigProvider 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-large ant-space-gap-col-large css-var-root"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-large g-space-gap-col-large css-var-root"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         1
       </span>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         2
@@ -81,17 +81,17 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-medium ant-space-gap-col-medium css-var-root"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-medium g-space-gap-col-medium css-var-root"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         1
       </span>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         2
@@ -99,17 +99,17 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-large ant-space-gap-col-large css-var-root"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-large g-space-gap-col-large css-var-root"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         1
       </span>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         2
@@ -122,17 +122,17 @@ Array [
 exports[`Space should render width rtl 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-rtl ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-root"
+    class="g-space g-space-horizontal g-space-rtl g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-root"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         1
       </span>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         2
@@ -140,17 +140,17 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-space ant-space-horizontal ant-space-rtl ant-space-align-center ant-space-gap-row-medium ant-space-gap-col-medium css-var-root"
+    class="g-space g-space-horizontal g-space-rtl g-space-align-center g-space-gap-row-medium g-space-gap-col-medium css-var-root"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         1
       </span>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         2
@@ -158,17 +158,17 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-space ant-space-horizontal ant-space-rtl ant-space-align-center ant-space-gap-row-large ant-space-gap-col-large css-var-root"
+    class="g-space g-space-horizontal g-space-rtl g-space-align-center g-space-gap-row-large g-space-gap-col-large css-var-root"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         1
       </span>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span>
         2

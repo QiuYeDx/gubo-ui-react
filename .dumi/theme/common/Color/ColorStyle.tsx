@@ -102,7 +102,7 @@ ${makeGrayPalette(index + 1)}
               margin-inline-start: ${token.margin}px;
               font-size: ${token.fontSize}px;
               font-family: Consolas, sans-serif;
-              .ant-row-rtl & {
+              .g-row-rtl & {
                 margin-inline-end: ${token.margin}px;
                 margin-inline-start: 0;
               }
@@ -115,7 +115,7 @@ ${makeGrayPalette(index + 1)}
               color: ${token.colorError};
               font-size: ${token.fontSize}px;
 
-              .ant-row-rtl & {
+              .g-row-rtl & {
                 margin-inline-end: ${token.margin}px;
                 margin-inline-start: 0;
               }
@@ -229,7 +229,7 @@ ${makeGrayPalette(index + 1)}
                 color: rgba(255, 255, 255, 0.65);
               }
 
-              .ant-row-rtl & {
+              .g-row-rtl & {
                 direction: rtl;
                 text-align: right;
               }

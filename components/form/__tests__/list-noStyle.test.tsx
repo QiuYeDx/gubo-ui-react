@@ -56,7 +56,7 @@ describe('Form.List.NoStyle', () => {
     await waitFakeTimer();
 
     // Match error message
-    expect(container.querySelector('.ant-form-item-explain-error')?.textContent).toBe(
+    expect(container.querySelector('.g-form-item-explain-error')?.textContent).toBe(
       "'users.1.first' is required",
     );
 

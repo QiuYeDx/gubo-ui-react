@@ -31,7 +31,7 @@ describe('List Item Layout', () => {
         )}
       />,
     );
-    expect(container.querySelectorAll('.ant-list-item')[0]).toHaveClass('ant-list-item-no-flex');
+    expect(container.querySelectorAll('.g-list-item')[0]).toHaveClass('g-list-item-no-flex');
   });
 
   it('horizontal itemLayout List should be flex container by default', () => {
@@ -48,7 +48,7 @@ describe('List Item Layout', () => {
         )}
       />,
     );
-    expect(container.querySelector('.ant-list-item')).not.toHaveClass('ant-list-item-no-flex');
+    expect(container.querySelector('.g-list-item')).not.toHaveClass('g-list-item-no-flex');
   });
 
   it('vertical itemLayout List should be flex container when there is extra node', () => {
@@ -66,9 +66,7 @@ describe('List Item Layout', () => {
         )}
       />,
     );
-    expect(container.querySelectorAll('.ant-list-item')[0]).not.toHaveClass(
-      'ant-list-item-no-flex',
-    );
+    expect(container.querySelectorAll('.g-list-item')[0]).not.toHaveClass('g-list-item-no-flex');
   });
 
   it('vertical itemLayout List should not be flex container when there is not extra node', () => {
@@ -86,7 +84,7 @@ describe('List Item Layout', () => {
         )}
       />,
     );
-    expect(container.querySelectorAll('.ant-list-item')[0]).toHaveClass('ant-list-item-no-flex');
+    expect(container.querySelectorAll('.g-list-item')[0]).toHaveClass('g-list-item-no-flex');
   });
 
   it('horizontal itemLayout List should accept extra node', () => {
@@ -186,7 +184,7 @@ describe('List Item Layout', () => {
   it('should ref', () => {
     const ref = React.createRef<GetRef<typeof List.Item>>();
     render(<List.Item ref={ref}>Item</List.Item>);
-    expect(ref.current).toHaveClass('ant-list-item');
+    expect(ref.current).toHaveClass('g-list-item');
   });
 
   it('should grid ref', () => {
@@ -196,7 +194,7 @@ describe('List Item Layout', () => {
         <List.Item ref={ref}>Item</List.Item>,
       </List>,
     );
-    expect(ref.current).toHaveClass('ant-col');
+    expect(ref.current).toHaveClass('g-col');
   });
   it('react key', () => {
     const loadId: number[] = [];
@@ -238,10 +236,8 @@ describe('List Item Layout', () => {
     );
 
     const styles = document.head.querySelectorAll('style');
-    const style = Array.from(styles).find((s) => s.innerHTML.includes('.ant-list-item-meta-title'));
-    expect(style?.innerHTML).toContain(
-      '.ant-list-item-meta-title{margin:0 0 var(--ant-margin-xxs) 0;',
-    );
+    const style = Array.from(styles).find((s) => s.innerHTML.includes('.g-list-item-meta-title'));
+    expect(style?.innerHTML).toContain('.g-list-item-meta-title{margin:0 0 var(--g-margin-xxs) 0;');
   });
 
   it('List.Item support styles and classNames', () => {
@@ -273,15 +269,13 @@ describe('List Item Layout', () => {
         <List itemLayout="vertical" dataSource={dataSource} renderItem={(item) => getItem(item)} />,
       </ConfigProvider>,
     );
-    expect(container.querySelector('.ant-list-item-extra')!).toHaveStyle(
-      'color: rgb(255, 192, 203)',
-    );
-    expect(container.querySelector('.ant-list-item-action')!).toHaveStyle('color: rgb(0, 128, 0)');
+    expect(container.querySelector('.g-list-item-extra')!).toHaveStyle('color: rgb(255, 192, 203)');
+    expect(container.querySelector('.g-list-item-action')!).toHaveStyle('color: rgb(0, 128, 0)');
 
-    expect(container.querySelector('.ant-list-item-extra')!).toHaveClass(
+    expect(container.querySelector('.g-list-item-extra')!).toHaveClass(
       'test-provider-extra test-extra',
     );
-    expect(container.querySelector('.ant-list-item-action')!).toHaveClass(
+    expect(container.querySelector('.g-list-item-action')!).toHaveClass(
       'test-provider-actions test-actions',
     );
 
@@ -300,7 +294,7 @@ describe('List Item Layout', () => {
         ,
       </ConfigProvider>,
     );
-    expect(container.querySelector('.ant-list-item-extra')!).toHaveStyle('color: rgb(255, 0, 0)');
-    expect(container.querySelector('.ant-list-item-action')!).toHaveStyle('color: rgb(0, 0, 255)');
+    expect(container.querySelector('.g-list-item-extra')!).toHaveStyle('color: rgb(255, 0, 0)');
+    expect(container.querySelector('.g-list-item-action')!).toHaveStyle('color: rgb(0, 0, 255)');
   });
 });

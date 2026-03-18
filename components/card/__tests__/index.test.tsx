@@ -88,7 +88,7 @@ describe('Card', () => {
         <p>Card content</p>
       </Card>,
     );
-    expect(container.querySelectorAll('.ant-tabs-small').length === 0).toBeFalsy();
+    expect(container.querySelectorAll('.g-tabs-small').length === 0).toBeFalsy();
   });
 
   it('tab size extend card size', () => {
@@ -105,7 +105,7 @@ describe('Card', () => {
         <p>Card content</p>
       </Card>,
     );
-    expect(largeContainer.querySelectorAll('.ant-tabs-large').length === 0).toBeFalsy();
+    expect(largeContainer.querySelectorAll('.g-tabs-large').length === 0).toBeFalsy();
 
     const { container } = render(
       <Card
@@ -121,7 +121,7 @@ describe('Card', () => {
         <p>Card content</p>
       </Card>,
     );
-    expect(container.querySelectorAll('.ant-tabs-small').length === 0).toBeFalsy();
+    expect(container.querySelectorAll('.g-tabs-small').length === 0).toBeFalsy();
   });
 
   it('get ref of card', () => {
@@ -133,7 +133,7 @@ describe('Card', () => {
       </Card>,
     );
 
-    expect(cardRef.current).toHaveClass('ant-card');
+    expect(cardRef.current).toHaveClass('g-card');
   });
 
   it('should show tab when tabList is empty', () => {
@@ -143,8 +143,8 @@ describe('Card', () => {
       </Card>,
     );
 
-    expect(container.querySelector('.ant-tabs')).toBeTruthy();
-    expect(container.querySelector('.ant-tabs-nav-add')).toBeTruthy();
+    expect(container.querySelector('.g-tabs')).toBeTruthy();
+    expect(container.querySelector('.g-tabs-nav-add')).toBeTruthy();
   });
 
   it('correct pass tabList props', () => {
@@ -213,13 +213,13 @@ describe('Card', () => {
       </Card>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-card');
-    const headerElement = container.querySelector<HTMLElement>('.ant-card-head');
-    const bodyElement = container.querySelector<HTMLElement>('.ant-card-body');
-    const extraElement = container.querySelector<HTMLElement>('.ant-card-extra');
-    const titleElement = container.querySelector<HTMLElement>('.ant-card-head-title');
-    const actionsElement = container.querySelector<HTMLElement>('.ant-card-actions');
-    const coverElement = container.querySelector<HTMLElement>('.ant-card-cover');
+    const rootElement = container.querySelector<HTMLElement>('.g-card');
+    const headerElement = container.querySelector<HTMLElement>('.g-card-head');
+    const bodyElement = container.querySelector<HTMLElement>('.g-card-body');
+    const extraElement = container.querySelector<HTMLElement>('.g-card-extra');
+    const titleElement = container.querySelector<HTMLElement>('.g-card-head-title');
+    const actionsElement = container.querySelector<HTMLElement>('.g-card-actions');
+    const coverElement = container.querySelector<HTMLElement>('.g-card-cover');
 
     // check classNames
     expect(rootElement).toHaveClass(customClassNames.root);
@@ -276,11 +276,11 @@ describe('Card', () => {
       </Card>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-card-meta');
-    const sectionElement = container.querySelector<HTMLElement>('.ant-card-meta-section');
-    const avatarElement = container.querySelector<HTMLElement>('.ant-card-meta-avatar');
-    const titleElement = container.querySelector<HTMLElement>('.ant-card-meta-title');
-    const descElement = container.querySelector<HTMLElement>('.ant-card-meta-description');
+    const rootElement = container.querySelector<HTMLElement>('.g-card-meta');
+    const sectionElement = container.querySelector<HTMLElement>('.g-card-meta-section');
+    const avatarElement = container.querySelector<HTMLElement>('.g-card-meta-avatar');
+    const titleElement = container.querySelector<HTMLElement>('.g-card-meta-title');
+    const descElement = container.querySelector<HTMLElement>('.g-card-meta-description');
 
     expect(rootElement).toHaveClass(customClassNames.root);
     expect(sectionElement).toHaveClass(customClassNames.section);
@@ -320,14 +320,14 @@ describe('Card', () => {
 
     const { container, getByText } = render(<TestComponent />);
 
-    // Check if the default `ant-card-bordered` exists
-    expect(container.querySelector('.ant-card-bordered')).toBeTruthy();
+    // Check if the default `g-card-bordered` exists
+    expect(container.querySelector('.g-card-bordered')).toBeTruthy();
 
     fireEvent.click(getByText('Set borderless'));
-    expect(container.querySelector('.ant-card-bordered')).toBeFalsy();
+    expect(container.querySelector('.g-card-bordered')).toBeFalsy();
 
     fireEvent.click(getByText('Set outlined'));
-    expect(container.querySelector('.ant-card-bordered')).toBeTruthy();
+    expect(container.querySelector('.g-card-bordered')).toBeTruthy();
   });
 
   it('should support left and right properties for tabBarExtraContent props', () => {

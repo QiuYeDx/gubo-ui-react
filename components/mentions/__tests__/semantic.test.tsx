@@ -27,7 +27,7 @@ describe('Mentions.Semantic', () => {
       />,
     );
 
-    const mentionsElement = container.querySelector('.ant-mentions');
+    const mentionsElement = container.querySelector('.g-mentions');
     expect(mentionsElement).toHaveClass('enabled-root');
     // 检查样式是否应用到了 style 属性中
     expect(mentionsElement).toHaveAttribute('style');

@@ -2,29 +2,29 @@
 
 exports[`renders components/breadcrumb/demo/basic.tsx correctly 1`] = `
 <nav
-  class="ant-breadcrumb css-var-test-id"
+  class="g-breadcrumb css-var-test-id"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Home
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         <a
           href=""
@@ -35,15 +35,15 @@ exports[`renders components/breadcrumb/demo/basic.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         <a
           href=""
@@ -54,15 +54,15 @@ exports[`renders components/breadcrumb/demo/basic.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         An Application
       </span>
@@ -73,29 +73,29 @@ exports[`renders components/breadcrumb/demo/basic.tsx correctly 1`] = `
 
 exports[`renders components/breadcrumb/demo/component-token.tsx correctly 1`] = `
 <nav
-  class="ant-breadcrumb css-var-test-id"
+  class="g-breadcrumb css-var-test-id"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Home
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       &gt;
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         <a
           href=""
@@ -106,18 +106,18 @@ exports[`renders components/breadcrumb/demo/component-token.tsx correctly 1`] = 
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       &gt;
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-dropdown-trigger ant-breadcrumb-overlay-link"
+        class="g-dropdown-trigger g-breadcrumb-overlay-link"
       >
         <span
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
         >
           <a
             href=""
@@ -127,7 +127,7 @@ exports[`renders components/breadcrumb/demo/component-token.tsx correctly 1`] = 
         </span>
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -148,15 +148,15 @@ exports[`renders components/breadcrumb/demo/component-token.tsx correctly 1`] = 
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       &gt;
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         Application Center
@@ -164,20 +164,20 @@ exports[`renders components/breadcrumb/demo/component-token.tsx correctly 1`] = 
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       &gt;
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         <span
           aria-label="home"
-          class="anticon anticon-home"
+          class="gicon gicon-home"
           role="img"
         >
           <svg
@@ -198,20 +198,20 @@ exports[`renders components/breadcrumb/demo/component-token.tsx correctly 1`] = 
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       &gt;
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         <span
           aria-label="user"
-          class="anticon anticon-user"
+          class="gicon gicon-user"
           role="img"
         >
           <svg
@@ -239,14 +239,14 @@ exports[`renders components/breadcrumb/demo/component-token.tsx correctly 1`] = 
 
 exports[`renders components/breadcrumb/demo/debug-routes.tsx correctly 1`] = `
 <nav
-  class="ant-breadcrumb css-var-test-id"
+  class="g-breadcrumb css-var-test-id"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href="#/home"
       >
         Home
@@ -254,25 +254,25 @@ exports[`renders components/breadcrumb/demo/debug-routes.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-dropdown-trigger ant-breadcrumb-overlay-link"
+        class="g-dropdown-trigger g-breadcrumb-overlay-link"
       >
         <a
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
           href="#/home/user"
         >
           User
         </a>
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -297,29 +297,29 @@ exports[`renders components/breadcrumb/demo/debug-routes.tsx correctly 1`] = `
 
 exports[`renders components/breadcrumb/demo/overlay.tsx correctly 1`] = `
 <nav
-  class="ant-breadcrumb css-var-test-id"
+  class="g-breadcrumb css-var-test-id"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Ant Design
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         <a
           href=""
@@ -330,18 +330,18 @@ exports[`renders components/breadcrumb/demo/overlay.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-dropdown-trigger ant-breadcrumb-overlay-link"
+        class="g-dropdown-trigger g-breadcrumb-overlay-link"
       >
         <span
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
         >
           <a
             href=""
@@ -351,7 +351,7 @@ exports[`renders components/breadcrumb/demo/overlay.tsx correctly 1`] = `
         </span>
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -372,15 +372,15 @@ exports[`renders components/breadcrumb/demo/overlay.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Button
       </span>
@@ -391,29 +391,29 @@ exports[`renders components/breadcrumb/demo/overlay.tsx correctly 1`] = `
 
 exports[`renders components/breadcrumb/demo/separator.tsx correctly 1`] = `
 <nav
-  class="ant-breadcrumb css-var-test-id"
+  class="g-breadcrumb css-var-test-id"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Home
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       &gt;
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         Application Center
@@ -421,15 +421,15 @@ exports[`renders components/breadcrumb/demo/separator.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       &gt;
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         Application List
@@ -437,15 +437,15 @@ exports[`renders components/breadcrumb/demo/separator.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       &gt;
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         An Application
       </span>
@@ -456,29 +456,29 @@ exports[`renders components/breadcrumb/demo/separator.tsx correctly 1`] = `
 
 exports[`renders components/breadcrumb/demo/separator-component.tsx correctly 1`] = `
 <nav
-  class="ant-breadcrumb css-var-test-id"
+  class="g-breadcrumb css-var-test-id"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Location
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       :
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         Application Center
@@ -486,15 +486,15 @@ exports[`renders components/breadcrumb/demo/separator-component.tsx correctly 1`
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         Application List
@@ -502,15 +502,15 @@ exports[`renders components/breadcrumb/demo/separator-component.tsx correctly 1`
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         An Application
       </span>
@@ -521,37 +521,37 @@ exports[`renders components/breadcrumb/demo/separator-component.tsx correctly 1`
 
 exports[`renders components/breadcrumb/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <nav
     aria-label="Breadcrumb with Object"
-    class="ant-breadcrumb acss-14g82y5 css-var-test-id"
+    class="g-breadcrumb acss-14g82y5 css-var-test-id"
     style="border:1px solid #f0f0f0;padding:8px;border-radius:4px"
   >
     <ol>
       <li
-        class="ant-breadcrumb-item acss-11xwyle"
+        class="g-breadcrumb-item acss-11xwyle"
         style="color:#1890ff"
       >
         <span
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
         >
           Ant Design
         </span>
       </li>
       <li
         aria-hidden="true"
-        class="ant-breadcrumb-separator acss-1qxitnl"
+        class="g-breadcrumb-separator acss-1qxitnl"
         style="color:rgba(0, 0, 0, 0.45)"
       >
         /
       </li>
       <li
-        class="ant-breadcrumb-item acss-11xwyle"
+        class="g-breadcrumb-item acss-11xwyle"
         style="color:#1890ff"
       >
         <span
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
         >
           <a
             href=""
@@ -564,32 +564,32 @@ exports[`renders components/breadcrumb/demo/style-class.tsx correctly 1`] = `
   </nav>
   <nav
     aria-label="Breadcrumb with Function"
-    class="ant-breadcrumb acss-14g82y5 css-var-test-id"
+    class="g-breadcrumb acss-14g82y5 css-var-test-id"
     style="border:1px solid #F5EFFF;padding:8px;border-radius:4px"
   >
     <ol>
       <li
-        class="ant-breadcrumb-item acss-11xwyle"
+        class="g-breadcrumb-item acss-11xwyle"
         style="color:#8F87F1"
       >
         <span
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
         >
           Ant Design
         </span>
       </li>
       <li
         aria-hidden="true"
-        class="ant-breadcrumb-separator acss-1qxitnl"
+        class="g-breadcrumb-separator acss-1qxitnl"
       >
         /
       </li>
       <li
-        class="ant-breadcrumb-item acss-11xwyle"
+        class="g-breadcrumb-item acss-11xwyle"
         style="color:#8F87F1"
       >
         <span
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
         >
           <a
             href=""
@@ -600,16 +600,16 @@ exports[`renders components/breadcrumb/demo/style-class.tsx correctly 1`] = `
       </li>
       <li
         aria-hidden="true"
-        class="ant-breadcrumb-separator acss-1qxitnl"
+        class="g-breadcrumb-separator acss-1qxitnl"
       >
         /
       </li>
       <li
-        class="ant-breadcrumb-item acss-11xwyle"
+        class="g-breadcrumb-item acss-11xwyle"
         style="color:#8F87F1"
       >
         <span
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
         >
           Breadcrumb
         </span>
@@ -621,19 +621,19 @@ exports[`renders components/breadcrumb/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/breadcrumb/demo/withIcon.tsx correctly 1`] = `
 <nav
-  class="ant-breadcrumb css-var-test-id"
+  class="g-breadcrumb css-var-test-id"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         <span
           aria-label="home"
-          class="anticon anticon-home"
+          class="gicon gicon-home"
           role="img"
         >
           <svg
@@ -654,20 +654,20 @@ exports[`renders components/breadcrumb/demo/withIcon.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         <span
           aria-label="user"
-          class="anticon anticon-user"
+          class="gicon gicon-user"
           role="img"
         >
           <svg
@@ -691,15 +691,15 @@ exports[`renders components/breadcrumb/demo/withIcon.tsx correctly 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Application
       </span>
@@ -710,29 +710,29 @@ exports[`renders components/breadcrumb/demo/withIcon.tsx correctly 1`] = `
 
 exports[`renders components/breadcrumb/demo/withParams.tsx correctly 1`] = `
 <nav
-  class="ant-breadcrumb css-var-test-id"
+  class="g-breadcrumb css-var-test-id"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Users
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         1

@@ -36,11 +36,11 @@ describe('Tabs.Semantic', () => {
         })}
       />,
     );
-    const root = container.querySelector('.ant-tabs');
-    const item = container.querySelector('.ant-tabs-tab');
-    const indicator = container.querySelector('.ant-tabs-ink-bar');
-    const header = container.querySelector('.ant-tabs-nav');
-    const content = container.querySelector('.ant-tabs-tabpane');
+    const root = container.querySelector('.g-tabs');
+    const item = container.querySelector('.g-tabs-tab');
+    const indicator = container.querySelector('.g-tabs-ink-bar');
+    const header = container.querySelector('.g-tabs-nav');
+    const content = container.querySelector('.g-tabs-tabpane');
     expect(root).toHaveClass(customClassnames.root);
     expect(item).toHaveClass(customClassnames.item);
     expect(indicator).toHaveClass(customClassnames.indicator);
@@ -82,7 +82,7 @@ describe('Tabs.Semantic', () => {
       />,
     );
 
-    const root = container.querySelector('.ant-tabs');
+    const root = container.querySelector('.g-tabs');
     expect(root).toHaveClass('custom-card-root');
     expect(root).toHaveStyle({ backgroundColor: 'rgb(255, 0, 0)' });
   });

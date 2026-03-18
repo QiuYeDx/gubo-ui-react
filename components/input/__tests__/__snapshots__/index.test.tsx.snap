@@ -3,27 +3,27 @@
 exports[`Input allowClear semantic dom snapshot 1`] = `
 <div>
   <span
-    class="ant-input-affix-wrapper ant-input-outlined custom-class css-var-root ant-input-css-var"
+    class="g-input-affix-wrapper g-input-outlined custom-class css-var-root g-input-css-var"
     style="background-color: red;"
   >
     <span
-      class="ant-input-prefix custom-prefix"
+      class="g-input-prefix custom-prefix"
       style="color: blue;"
     >
       prefix
     </span>
     <input
-      class="ant-input custom-input"
+      class="g-input custom-input"
       style="color: red;"
       type="text"
       value="123"
     />
     <span
-      class="ant-input-suffix custom-suffix"
+      class="g-input-suffix custom-suffix"
       style="color: yellow;"
     >
       <span
-        class="ant-input-show-count-suffix ant-input-show-count-has-suffix custom-count"
+        class="g-input-show-count-suffix g-input-show-count-has-suffix custom-count"
         style="color: green;"
       >
         3
@@ -32,33 +32,33 @@ exports[`Input allowClear semantic dom snapshot 1`] = `
     </span>
   </span>
   <span
-    class="ant-input-group-wrapper ant-input-group-wrapper-outlined custom-class css-var-root ant-input-css-var"
+    class="g-input-group-wrapper g-input-group-wrapper-outlined custom-class css-var-root g-input-css-var"
     style="background-color: red;"
   >
     <span
-      class="ant-input-wrapper ant-input-group"
+      class="g-input-wrapper g-input-group"
     >
       <span
-        class="ant-input-affix-wrapper ant-input-outlined"
+        class="g-input-affix-wrapper g-input-outlined"
       >
         <span
-          class="ant-input-prefix custom-prefix"
+          class="g-input-prefix custom-prefix"
           style="color: blue;"
         >
           prefix
         </span>
         <input
-          class="ant-input custom-input"
+          class="g-input custom-input"
           style="color: red;"
           type="text"
           value="123"
         />
         <span
-          class="ant-input-suffix custom-suffix"
+          class="g-input-suffix custom-suffix"
           style="color: yellow;"
         >
           <span
-            class="ant-input-show-count-suffix ant-input-show-count-has-suffix custom-count"
+            class="g-input-show-count-suffix g-input-show-count-has-suffix custom-count"
             style="color: green;"
           >
             3
@@ -67,33 +67,33 @@ exports[`Input allowClear semantic dom snapshot 1`] = `
         </span>
       </span>
       <span
-        class="ant-input-group-addon"
+        class="g-input-group-addon"
       >
         addon
       </span>
     </span>
   </span>
   <input
-    class="ant-input custom-input ant-input-outlined custom-class css-var-root ant-input-css-var"
+    class="g-input custom-input g-input-outlined custom-class css-var-root g-input-css-var"
     style="color: red; background-color: red;"
     type="text"
     value="123"
   />
   <span
-    class="ant-input-group-wrapper ant-input-group-wrapper-outlined custom-class css-var-root ant-input-css-var"
+    class="g-input-group-wrapper g-input-group-wrapper-outlined custom-class css-var-root g-input-css-var"
     style="background-color: red;"
   >
     <span
-      class="ant-input-wrapper ant-input-group"
+      class="g-input-wrapper g-input-group"
     >
       <input
-        class="ant-input custom-input ant-input-outlined"
+        class="g-input custom-input g-input-outlined"
         style="color: red;"
         type="text"
         value="123"
       />
       <span
-        class="ant-input-group-addon"
+        class="g-input-group-addon"
       >
         addon
       </span>
@@ -104,24 +104,24 @@ exports[`Input allowClear semantic dom snapshot 1`] = `
 
 exports[`Input allowClear should change type when click 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <input
-    class="ant-input"
+    class="g-input"
     type="text"
     value="111"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon"
+      class="g-input-clear-icon"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -146,24 +146,24 @@ exports[`Input allowClear should change type when click 1`] = `
 
 exports[`Input allowClear should change type when click 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-focused ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-affix-wrapper-focused g-input-outlined css-var-root g-input-css-var"
 >
   <input
-    class="ant-input"
+    class="g-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -188,24 +188,24 @@ exports[`Input allowClear should change type when click 2`] = `
 
 exports[`Input allowClear should not show icon if defaultValue is undefined, null or empty string 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <input
-    class="ant-input"
+    class="g-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -230,24 +230,24 @@ exports[`Input allowClear should not show icon if defaultValue is undefined, nul
 
 exports[`Input allowClear should not show icon if defaultValue is undefined, null or empty string 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <input
-    class="ant-input"
+    class="g-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -272,24 +272,24 @@ exports[`Input allowClear should not show icon if defaultValue is undefined, nul
 
 exports[`Input allowClear should not show icon if defaultValue is undefined, null or empty string 3`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <input
-    class="ant-input"
+    class="g-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -314,24 +314,24 @@ exports[`Input allowClear should not show icon if defaultValue is undefined, nul
 
 exports[`Input allowClear should not show icon if value is undefined, null or empty string 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <input
-    class="ant-input"
+    class="g-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -356,24 +356,24 @@ exports[`Input allowClear should not show icon if value is undefined, null or em
 
 exports[`Input allowClear should not show icon if value is undefined, null or empty string 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <input
-    class="ant-input"
+    class="g-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -398,24 +398,24 @@ exports[`Input allowClear should not show icon if value is undefined, null or em
 
 exports[`Input allowClear should not show icon if value is undefined, null or empty string 3`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <input
-    class="ant-input"
+    class="g-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -440,7 +440,7 @@ exports[`Input allowClear should not show icon if value is undefined, null or em
 
 exports[`Input rtl render component should be rendered correctly in RTL direction 1`] = `
 <input
-  class="ant-input ant-input-rtl ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input g-input-rtl g-input-outlined css-var-root g-input-css-var"
   type="text"
   value=""
 />
@@ -450,7 +450,7 @@ exports[`Input rtl render component should be rendered correctly in RTL directio
 
 exports[`Input should support maxLength 1`] = `
 <input
-  class="ant-input ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input g-input-outlined css-var-root g-input-css-var"
   maxlength="3"
   type="text"
   value=""
@@ -459,7 +459,7 @@ exports[`Input should support maxLength 1`] = `
 
 exports[`Input should support size 1`] = `
 <input
-  class="ant-input ant-input-lg ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input g-input-lg g-input-outlined css-var-root g-input-css-var"
   type="text"
   value=""
 />
@@ -467,25 +467,25 @@ exports[`Input should support size 1`] = `
 
 exports[`Input should support size in form 1`] = `
 <form
-  class="ant-form ant-form-horizontal ant-form-large css-var-root ant-form-css-var"
+  class="g-form g-form-horizontal g-form-large css-var-root g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-form-item-control css-var-root"
+        class="g-col g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
-              class="ant-input ant-input-lg ant-input-outlined css-var-root ant-input-css-var"
+              class="g-input g-input-lg g-input-outlined css-var-root g-input-css-var"
               type="text"
               value=""
             />

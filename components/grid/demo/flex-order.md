@@ -7,7 +7,7 @@
 To change the element sort by `order`.
 
 ```css
-#grid-demo-flex-order [class~='ant-row'] {
+#grid-demo-flex-order [class~='g-row'] {
   background: rgba(128, 128, 128, 0.08);
 }
 ```

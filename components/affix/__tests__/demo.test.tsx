@@ -29,7 +29,7 @@ rootPropsTest(
         return { top: 0, bottom: 0 };
       });
     },
-    findRootElements: () => document.querySelectorAll('.ant-affix'),
+    findRootElements: () => document.querySelectorAll('.g-affix'),
     expectCount: 1,
   },
 );

@@ -32,7 +32,7 @@ describe('Descriptions', () => {
       </Descriptions>,
     );
     expect(wrapper.container.querySelectorAll('tr')).toHaveLength(5);
-    expect(wrapper.container.querySelectorAll('.ant-descriptions-item-label')).toHaveLength(4);
+    expect(wrapper.container.querySelectorAll('.g-descriptions-item-label')).toHaveLength(4);
     wrapper.unmount();
   });
 
@@ -73,9 +73,9 @@ describe('Descriptions', () => {
       />,
     );
 
-    expect(container.querySelectorAll('.ant-descriptions-item')[0]).toHaveAttribute('colSpan', '2');
-    expect(container.querySelectorAll('.ant-descriptions-item')[1]).toHaveAttribute('colSpan', '1');
-    expect(container.querySelectorAll('.ant-descriptions-item')[2]).toHaveAttribute('colSpan', '1');
+    expect(container.querySelectorAll('.g-descriptions-item')[0]).toHaveAttribute('colSpan', '2');
+    expect(container.querySelectorAll('.g-descriptions-item')[1]).toHaveAttribute('colSpan', '1');
+    expect(container.querySelectorAll('.g-descriptions-item')[2]).toHaveAttribute('colSpan', '1');
   });
 
   it('span = filled', () => {
@@ -93,13 +93,13 @@ describe('Descriptions', () => {
         ]}
       />,
     );
-    expect(container.querySelectorAll('.ant-descriptions-item')[0]).toHaveAttribute('colSpan', '2');
-    expect(container.querySelectorAll('.ant-descriptions-item')[1]).toHaveAttribute('colSpan', '1');
-    expect(container.querySelectorAll('.ant-descriptions-item')[2]).toHaveAttribute('colSpan', '1');
-    expect(container.querySelectorAll('.ant-descriptions-item')[3]).toHaveAttribute('colSpan', '2');
-    expect(container.querySelectorAll('.ant-descriptions-item')[4]).toHaveAttribute('colSpan', '3');
-    expect(container.querySelectorAll('.ant-descriptions-item')[5]).toHaveAttribute('colSpan', '1');
-    expect(container.querySelectorAll('.ant-descriptions-item')[6]).toHaveAttribute('colSpan', '2');
+    expect(container.querySelectorAll('.g-descriptions-item')[0]).toHaveAttribute('colSpan', '2');
+    expect(container.querySelectorAll('.g-descriptions-item')[1]).toHaveAttribute('colSpan', '1');
+    expect(container.querySelectorAll('.g-descriptions-item')[2]).toHaveAttribute('colSpan', '1');
+    expect(container.querySelectorAll('.g-descriptions-item')[3]).toHaveAttribute('colSpan', '2');
+    expect(container.querySelectorAll('.g-descriptions-item')[4]).toHaveAttribute('colSpan', '3');
+    expect(container.querySelectorAll('.g-descriptions-item')[5]).toHaveAttribute('colSpan', '1');
+    expect(container.querySelectorAll('.g-descriptions-item')[6]).toHaveAttribute('colSpan', '2');
   });
 
   it('when column=6, last item span should be 5', () => {
@@ -112,8 +112,8 @@ describe('Descriptions', () => {
         ]}
       />,
     );
-    expect(container.querySelectorAll('.ant-descriptions-item')[0]).toHaveAttribute('colSpan', '1');
-    expect(container.querySelectorAll('.ant-descriptions-item')[1]).toHaveAttribute('colSpan', '5');
+    expect(container.querySelectorAll('.g-descriptions-item')[0]).toHaveAttribute('colSpan', '1');
+    expect(container.querySelectorAll('.g-descriptions-item')[1]).toHaveAttribute('colSpan', '5');
   });
 
   it('column is number', () => {
@@ -303,8 +303,8 @@ describe('Descriptions', () => {
         <Descriptions.Item label={0}>0</Descriptions.Item>
       </Descriptions>,
     );
-    expect(wrapper.container.querySelector('th')).toHaveClass('ant-descriptions-item-label');
-    expect(wrapper.container.querySelector('td')).toHaveClass('ant-descriptions-item-content');
+    expect(wrapper.container.querySelector('th')).toHaveClass('g-descriptions-item-label');
+    expect(wrapper.container.querySelector('td')).toHaveClass('g-descriptions-item-content');
   });
 
   it('Descriptions support extra', () => {
@@ -318,8 +318,8 @@ describe('Descriptions', () => {
         <Descriptions.Item label="UserName">Zhou Maomao</Descriptions.Item>
       </Descriptions>,
     );
-    expect(wrapper1.container.querySelector('.ant-descriptions-extra')).toBeTruthy();
-    expect(wrapper2.container.querySelector('.ant-descriptions-extra')).toBeFalsy();
+    expect(wrapper1.container.querySelector('.g-descriptions-extra')).toBeTruthy();
+    expect(wrapper2.container.querySelector('.g-descriptions-extra')).toBeFalsy();
   });
 
   it('number 0 should render correct', () => {
@@ -355,7 +355,7 @@ describe('Descriptions', () => {
         </Descriptions>
       </ConfigProvider>,
     );
-    expect(container.querySelectorAll('.ant-descriptions-small')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-descriptions-small')).toHaveLength(1);
   });
 
   it('should items work', () => {
@@ -380,8 +380,8 @@ describe('Descriptions', () => {
         ]}
       />,
     );
-    expect(container.querySelector('.ant-descriptions-item')).toBeTruthy();
-    expect(container.querySelectorAll('.ant-descriptions-item')).toHaveLength(3);
+    expect(container.querySelector('.g-descriptions-item')).toBeTruthy();
+    expect(container.querySelectorAll('.g-descriptions-item')).toHaveLength(3);
     expect(container).toMatchSnapshot();
   });
 
@@ -393,8 +393,8 @@ describe('Descriptions', () => {
         </Descriptions.Item>
       </Descriptions>,
     );
-    const nestDesc = container.querySelectorAll('.ant-descriptions')[1];
-    const view = nestDesc.querySelector('.ant-descriptions-view');
+    const nestDesc = container.querySelectorAll('.g-descriptions')[1];
+    const view = nestDesc.querySelector('.g-descriptions-view');
     expect(view).toHaveStyle({ border: '' });
   });
 
@@ -415,7 +415,7 @@ describe('Descriptions', () => {
   });
 
   // https://github.com/ant-design/ant-design/issues/47151
-  it('should has .ant-descriptions-item-content className when children is falsy', () => {
+  it('should has .g-descriptions-item-content className when children is falsy', () => {
     const wrapper = render(
       <Descriptions
         bordered
@@ -428,7 +428,7 @@ describe('Descriptions', () => {
         ]}
       />,
     );
-    expect(wrapper.container.querySelectorAll('.ant-descriptions-item-label')).toHaveLength(1);
-    expect(wrapper.container.querySelectorAll('.ant-descriptions-item-content')).toHaveLength(1);
+    expect(wrapper.container.querySelectorAll('.g-descriptions-item-label')).toHaveLength(1);
+    expect(wrapper.container.querySelectorAll('.g-descriptions-item-content')).toHaveLength(1);
   });
 });

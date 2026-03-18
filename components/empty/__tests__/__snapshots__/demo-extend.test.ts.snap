@@ -2,10 +2,10 @@
 
 exports[`renders components/empty/demo/basic.tsx extend context correctly 1`] = `
 <div
-  class="css-var-test-id ant-empty"
+  class="css-var-test-id g-empty"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="152"
@@ -65,7 +65,7 @@ exports[`renders components/empty/demo/basic.tsx extend context correctly 1`] = 
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -78,55 +78,55 @@ exports[`renders components/empty/demo/config-provider.tsx extend context correc
 Array [
   <button
     aria-checked="true"
-    class="ant-switch css-var-test-id ant-switch-checked"
+    class="g-switch css-var-test-id g-switch-checked"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       >
         customize
       </span>
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       >
         default
       </span>
     </span>
   </button>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-rail"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-rail"
     role="separator"
   />,
   <div
-    class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="width: 100%;"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         Select
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
         style="width: 200px;"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility: visible;"
           />
           <input
@@ -134,7 +134,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -143,11 +143,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -167,12 +167,12 @@ Array [
         </div>
       </div>
       <div
-        class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+        class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div>
           <div
-            class="ant-select-item-empty"
+            class="g-select-item-empty"
             id="test-id_list"
             role="listbox"
           >
@@ -181,7 +181,7 @@ Array [
             >
               <span
                 aria-label="smile"
-                class="anticon anticon-smile"
+                class="gicon gicon-smile"
                 role="img"
                 style="font-size: 20px;"
               >
@@ -208,24 +208,24 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         TreeSelect
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow"
         style="width: 200px;"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility: visible;"
           />
           <input
@@ -233,7 +233,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -242,11 +242,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -266,12 +266,12 @@ Array [
         </div>
       </div>
       <div
-        class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-tree-select-dropdown css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+        class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-tree-select-dropdown css-var-test-id g-select-css-var g-tree-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div>
           <div
-            class="ant-select-empty"
+            class="g-select-empty"
             role="listbox"
           >
             <div
@@ -279,7 +279,7 @@ Array [
             >
               <span
                 aria-label="smile"
-                class="anticon anticon-smile"
+                class="gicon gicon-smile"
                 role="img"
                 style="font-size: 20px;"
               >
@@ -306,24 +306,24 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         Cascader
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow g-select-show-search"
         style="width: 200px;"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility: visible;"
           />
           <input
@@ -331,7 +331,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -339,11 +339,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -363,32 +363,32 @@ Array [
         </div>
       </div>
       <div
-        class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-cascader-dropdown ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+        class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up g-cascader-dropdown g-select-css-var g-cascader-css-var css-var-test-id g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div>
           <div
-            class="ant-cascader-menus ant-cascader-menu-empty"
+            class="g-cascader-menus g-cascader-menu-empty"
           >
             <ul
-              class="ant-cascader-menu"
+              class="g-cascader-menu"
               role="menu"
             >
               <li
                 aria-checked="false"
-                class="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+                class="g-cascader-menu-item g-cascader-menu-item-disabled"
                 data-path-key="__EMPTY__"
                 role="menuitemcheckbox"
               >
                 <div
-                  class="ant-cascader-menu-item-content"
+                  class="g-cascader-menu-item-content"
                 >
                   <div
                     style="text-align: center;"
                   >
                     <span
                       aria-label="smile"
-                      class="anticon anticon-smile"
+                      class="gicon gicon-smile"
                       role="img"
                       style="font-size: 20px;"
                     >
@@ -418,32 +418,32 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         Transfer
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-transfer css-var-test-id"
+        class="g-transfer css-var-test-id"
       >
         <div
-          class="ant-transfer-section"
+          class="g-transfer-section"
         >
           <div
-            class="ant-transfer-list-header"
+            class="g-transfer-list-header"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-test-id ant-checkbox-css-var"
+              class="g-checkbox-wrapper g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-test-id g-checkbox-css-var"
             >
               <span
-                class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+                class="g-checkbox g-wave-target g-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="g-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
@@ -451,7 +451,7 @@ Array [
             </label>
             <span
               aria-label="down"
-              class="anticon anticon-down ant-dropdown-trigger"
+              class="gicon gicon-down g-dropdown-trigger"
               role="img"
             >
               <svg
@@ -469,73 +469,73 @@ Array [
               </svg>
             </span>
             <div
-              class="ant-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-dropdown-css-var ant-dropdown-placement-bottomLeft"
+              class="g-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-dropdown-css-var g-dropdown-placement-bottomLeft"
               style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
             >
               <ul
-                class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light css-var-test-id ant-dropdown-css-var css-var-test-id ant-dropdown-menu-css-var"
+                class="g-dropdown-menu g-dropdown-menu-root g-dropdown-menu-vertical g-dropdown-menu-light css-var-test-id g-dropdown-css-var css-var-test-id g-dropdown-menu-css-var"
                 data-menu-list="true"
                 role="menu"
                 tabindex="0"
               >
                 <li
                   aria-describedby="test-id"
-                  class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                  class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
                   data-menu-id="rc-menu-uuid-selectAll"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <span
-                    class="ant-dropdown-menu-title-content"
+                    class="g-dropdown-menu-title-content"
                   >
                     Select all data
                   </span>
                 </li>
                 <div
-                  class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-dropdown-menu-inline-collapsed-tooltip ant-tooltip-placement-right"
+                  class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-dropdown-menu-inline-collapsed-tooltip g-tooltip-placement-right"
                   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
                 >
                   <div
-                    class="ant-tooltip-arrow"
+                    class="g-tooltip-arrow"
                     style="position: absolute; top: 0px; left: 0px;"
                   >
                     <span
-                      class="ant-tooltip-arrow-content"
+                      class="g-tooltip-arrow-content"
                     />
                   </div>
                   <div
-                    class="ant-tooltip-container"
+                    class="g-tooltip-container"
                     id="test-id"
                     role="tooltip"
                   />
                 </div>
                 <li
                   aria-describedby="test-id"
-                  class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                  class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
                   data-menu-id="rc-menu-uuid-selectInvert"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <span
-                    class="ant-dropdown-menu-title-content"
+                    class="g-dropdown-menu-title-content"
                   >
                     Invert current page
                   </span>
                 </li>
                 <div
-                  class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-dropdown-menu-inline-collapsed-tooltip ant-tooltip-placement-right"
+                  class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-dropdown-menu-inline-collapsed-tooltip g-tooltip-placement-right"
                   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
                 >
                   <div
-                    class="ant-tooltip-arrow"
+                    class="g-tooltip-arrow"
                     style="position: absolute; top: 0px; left: 0px;"
                   >
                     <span
-                      class="ant-tooltip-arrow-content"
+                      class="g-tooltip-arrow-content"
                     />
                   </div>
                   <div
-                    class="ant-tooltip-container"
+                    class="g-tooltip-container"
                     id="test-id"
                     role="tooltip"
                   />
@@ -547,26 +547,26 @@ Array [
               />
             </div>
             <span
-              class="ant-transfer-list-header-selected"
+              class="g-transfer-list-header-selected"
             >
               0 item
             </span>
             <span
-              class="ant-transfer-list-header-title"
+              class="g-transfer-list-header-title"
             />
           </div>
           <div
-            class="ant-transfer-list-body"
+            class="g-transfer-list-body"
           >
             <div
-              class="ant-transfer-list-body-not-found"
+              class="g-transfer-list-body-not-found"
             >
               <div
                 style="text-align: center;"
               >
                 <span
                   aria-label="smile"
-                  class="anticon anticon-smile"
+                  class="gicon gicon-smile"
                   role="img"
                   style="font-size: 20px;"
                 >
@@ -592,19 +592,19 @@ Array [
           </div>
         </div>
         <div
-          class="ant-transfer-actions"
+          class="g-transfer-actions"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+            class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
             disabled=""
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="right"
-                class="anticon anticon-right"
+                class="gicon gicon-right"
                 role="img"
               >
                 <svg
@@ -624,16 +624,16 @@ Array [
             </span>
           </button>
           <button
-            class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+            class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
             disabled=""
             type="button"
           >
             <span
-              class="ant-btn-icon"
+              class="g-btn-icon"
             >
               <span
                 aria-label="left"
-                class="anticon anticon-left"
+                class="gicon gicon-left"
                 role="img"
               >
                 <svg
@@ -654,19 +654,19 @@ Array [
           </button>
         </div>
         <div
-          class="ant-transfer-section"
+          class="g-transfer-section"
         >
           <div
-            class="ant-transfer-list-header"
+            class="g-transfer-list-header"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-transfer-list-checkbox css-var-test-id ant-checkbox-css-var"
+              class="g-checkbox-wrapper g-checkbox-wrapper-disabled g-transfer-list-checkbox css-var-test-id g-checkbox-css-var"
             >
               <span
-                class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+                class="g-checkbox g-wave-target g-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="g-checkbox-input"
                   disabled=""
                   type="checkbox"
                 />
@@ -674,7 +674,7 @@ Array [
             </label>
             <span
               aria-label="down"
-              class="anticon anticon-down ant-dropdown-trigger"
+              class="gicon gicon-down g-dropdown-trigger"
               role="img"
             >
               <svg
@@ -692,73 +692,73 @@ Array [
               </svg>
             </span>
             <div
-              class="ant-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-dropdown-css-var ant-dropdown-placement-bottomLeft"
+              class="g-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-dropdown-css-var g-dropdown-placement-bottomLeft"
               style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
             >
               <ul
-                class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light css-var-test-id ant-dropdown-css-var css-var-test-id ant-dropdown-menu-css-var"
+                class="g-dropdown-menu g-dropdown-menu-root g-dropdown-menu-vertical g-dropdown-menu-light css-var-test-id g-dropdown-css-var css-var-test-id g-dropdown-menu-css-var"
                 data-menu-list="true"
                 role="menu"
                 tabindex="0"
               >
                 <li
                   aria-describedby="test-id"
-                  class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                  class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
                   data-menu-id="rc-menu-uuid-selectAll"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <span
-                    class="ant-dropdown-menu-title-content"
+                    class="g-dropdown-menu-title-content"
                   >
                     Select all data
                   </span>
                 </li>
                 <div
-                  class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-dropdown-menu-inline-collapsed-tooltip ant-tooltip-placement-right"
+                  class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-dropdown-menu-inline-collapsed-tooltip g-tooltip-placement-right"
                   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
                 >
                   <div
-                    class="ant-tooltip-arrow"
+                    class="g-tooltip-arrow"
                     style="position: absolute; top: 0px; left: 0px;"
                   >
                     <span
-                      class="ant-tooltip-arrow-content"
+                      class="g-tooltip-arrow-content"
                     />
                   </div>
                   <div
-                    class="ant-tooltip-container"
+                    class="g-tooltip-container"
                     id="test-id"
                     role="tooltip"
                   />
                 </div>
                 <li
                   aria-describedby="test-id"
-                  class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+                  class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
                   data-menu-id="rc-menu-uuid-selectInvert"
                   role="menuitem"
                   tabindex="-1"
                 >
                   <span
-                    class="ant-dropdown-menu-title-content"
+                    class="g-dropdown-menu-title-content"
                   >
                     Invert current page
                   </span>
                 </li>
                 <div
-                  class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-dropdown-menu-inline-collapsed-tooltip ant-tooltip-placement-right"
+                  class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-dropdown-menu-inline-collapsed-tooltip g-tooltip-placement-right"
                   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
                 >
                   <div
-                    class="ant-tooltip-arrow"
+                    class="g-tooltip-arrow"
                     style="position: absolute; top: 0px; left: 0px;"
                   >
                     <span
-                      class="ant-tooltip-arrow-content"
+                      class="g-tooltip-arrow-content"
                     />
                   </div>
                   <div
-                    class="ant-tooltip-container"
+                    class="g-tooltip-container"
                     id="test-id"
                     role="tooltip"
                   />
@@ -770,26 +770,26 @@ Array [
               />
             </div>
             <span
-              class="ant-transfer-list-header-selected"
+              class="g-transfer-list-header-selected"
             >
               0 item
             </span>
             <span
-              class="ant-transfer-list-header-title"
+              class="g-transfer-list-header-title"
             />
           </div>
           <div
-            class="ant-transfer-list-body"
+            class="g-transfer-list-body"
           >
             <div
-              class="ant-transfer-list-body-not-found"
+              class="g-transfer-list-body-not-found"
             >
               <div
                 style="text-align: center;"
               >
                 <span
                   aria-label="smile"
-                  class="anticon anticon-smile"
+                  class="gicon gicon-smile"
                   role="img"
                   style="font-size: 20px;"
                 >
@@ -817,51 +817,51 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         Table
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="css-var-test-id ant-table-css-var ant-table-wrapper"
+        class="css-var-test-id g-table-css-var g-table-wrapper"
         style="margin-top: 8px;"
       >
         <div
           aria-busy="false"
           aria-live="polite"
-          class="ant-spin css-var-test-id"
+          class="g-spin css-var-test-id"
         >
           <div
-            class="ant-spin-container"
+            class="g-spin-container"
           >
             <div
-              class="ant-table ant-table-empty css-var-test-id ant-table-css-var"
+              class="g-table g-table-empty css-var-test-id g-table-css-var"
             >
               <div
-                class="ant-table-container"
+                class="g-table-container"
               >
                 <div
-                  class="ant-table-content"
+                  class="g-table-content"
                 >
                   <table
                     style="table-layout: auto;"
                   >
                     <thead
-                      class="ant-table-thead"
+                      class="g-table-thead"
                     >
                       <tr>
                         <th
-                          class="ant-table-cell"
+                          class="g-table-cell"
                           scope="col"
                         >
                           Name
                         </th>
                         <th
-                          class="ant-table-cell"
+                          class="g-table-cell"
                           scope="col"
                         >
                           Age
@@ -869,13 +869,13 @@ Array [
                       </tr>
                     </thead>
                     <tbody
-                      class="ant-table-tbody"
+                      class="g-table-tbody"
                     >
                       <tr
-                        class="ant-table-placeholder"
+                        class="g-table-placeholder"
                       >
                         <td
-                          class="ant-table-cell"
+                          class="g-table-cell"
                           colspan="2"
                         >
                           <div
@@ -883,7 +883,7 @@ Array [
                           >
                             <span
                               aria-label="smile"
-                              class="anticon anticon-smile"
+                              class="gicon gicon-smile"
                               role="img"
                               style="font-size: 20px;"
                             >
@@ -917,35 +917,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <h4>
         List
       </h4>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-list ant-list-split css-var-test-id"
+        class="g-list g-list-split css-var-test-id"
       >
         <div
           aria-busy="false"
           aria-live="polite"
-          class="ant-spin css-var-test-id"
+          class="g-spin css-var-test-id"
         >
           <div
-            class="ant-spin-container"
+            class="g-spin-container"
           >
             <div
-              class="ant-list-empty-text"
+              class="g-list-empty-text"
             >
               <div
                 style="text-align: center;"
               >
                 <span
                   aria-label="smile"
-                  class="anticon anticon-smile"
+                  class="gicon gicon-smile"
                   role="img"
                   style="font-size: 20px;"
                 >
@@ -984,10 +984,10 @@ exports[`renders components/empty/demo/config-provider.tsx extend context correc
 
 exports[`renders components/empty/demo/customize.tsx extend context correctly 1`] = `
 <div
-  class="css-var-test-id ant-empty"
+  class="css-var-test-id g-empty"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
     style="height: 60px;"
   >
     <img
@@ -997,10 +997,10 @@ exports[`renders components/empty/demo/customize.tsx extend context correctly 1`
     />
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     <span
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       Customize 
       <a
@@ -1011,10 +1011,10 @@ exports[`renders components/empty/demo/customize.tsx extend context correctly 1`
     </span>
   </div>
   <div
-    class="ant-empty-footer"
+    class="g-empty-footer"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1029,10 +1029,10 @@ exports[`renders components/empty/demo/customize.tsx extend context correctly 2`
 
 exports[`renders components/empty/demo/description.tsx extend context correctly 1`] = `
 <div
-  class="css-var-test-id ant-empty"
+  class="css-var-test-id g-empty"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="152"
@@ -1098,10 +1098,10 @@ exports[`renders components/empty/demo/description.tsx extend context correctly 
 
 exports[`renders components/empty/demo/simple.tsx extend context correctly 1`] = `
 <div
-  class="css-var-test-id ant-empty ant-empty-normal"
+  class="css-var-test-id g-empty g-empty-normal"
 >
   <div
-    class="ant-empty-image"
+    class="g-empty-image"
   >
     <svg
       height="41"
@@ -1140,7 +1140,7 @@ exports[`renders components/empty/demo/simple.tsx extend context correctly 1`] =
     </svg>
   </div>
   <div
-    class="ant-empty-description"
+    class="g-empty-description"
   >
     No data
   </div>
@@ -1151,14 +1151,14 @@ exports[`renders components/empty/demo/simple.tsx extend context correctly 2`] =
 
 exports[`renders components/empty/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="css-var-test-id ant-empty ant-empty-normal acss-8yzyy9"
+    class="css-var-test-id g-empty g-empty-normal acss-8yzyy9"
     style="background-color: rgb(245, 245, 245); border-radius: 8px;"
   >
     <div
-      class="ant-empty-image"
+      class="g-empty-image"
       style="filter: grayscale(100%);"
     >
       <svg
@@ -1198,17 +1198,17 @@ exports[`renders components/empty/demo/style-class.tsx extend context correctly 
       </svg>
     </div>
     <div
-      class="ant-empty-description"
+      class="g-empty-description"
       style="color: rgb(24, 144, 255); font-weight: bold;"
     >
       Object styles
     </div>
     <div
-      class="ant-empty-footer"
+      class="g-empty-footer"
       style="margin-top: 16px;"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span>
@@ -1218,11 +1218,11 @@ exports[`renders components/empty/demo/style-class.tsx extend context correctly 
     </div>
   </div>
   <div
-    class="css-var-test-id ant-empty ant-empty-normal acss-8yzyy9"
+    class="css-var-test-id g-empty g-empty-normal acss-8yzyy9"
     style="background-color: rgb(230, 247, 255); border: 1px solid rgb(145, 213, 255);"
   >
     <div
-      class="ant-empty-image"
+      class="g-empty-image"
       style="filter: hue-rotate(180deg);"
     >
       <svg
@@ -1262,16 +1262,16 @@ exports[`renders components/empty/demo/style-class.tsx extend context correctly 
       </svg>
     </div>
     <div
-      class="ant-empty-description"
+      class="g-empty-description"
       style="color: rgb(24, 144, 255); font-weight: bold;"
     >
       Function styles
     </div>
     <div
-      class="ant-empty-footer"
+      class="g-empty-footer"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span>

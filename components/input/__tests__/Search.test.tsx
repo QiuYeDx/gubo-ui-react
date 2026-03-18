@@ -38,7 +38,7 @@ describe('Input.Search', () => {
 
   it('should disable enter button when disabled prop is true', () => {
     const { container } = render(<Search placeholder="input search text" enterButton disabled />);
-    expect(container.querySelectorAll('.ant-btn[disabled]')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-btn[disabled]')).toHaveLength(1);
   });
 
   it('should disable search icon when disabled prop is true', () => {
@@ -154,7 +154,7 @@ describe('Input.Search', () => {
     const { container } = render(
       <Search allowClear defaultValue="value" onSearch={onSearch} onChange={onChange} />,
     );
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(onSearch).toHaveBeenLastCalledWith('', expect.anything(), { source: 'clear' });
     expect(onChange).toHaveBeenCalled();
   });
@@ -215,8 +215,8 @@ describe('Input.Search', () => {
   it('Search with allowClear should have one className only', () => {
     const { container } = render(<Search allowClear className="bamboo" />);
     expect(container.querySelectorAll('.bamboo')).toHaveLength(1);
-    expect(container.querySelector('.ant-input-search')).toHaveClass('bamboo');
-    expect(container.querySelector('.ant-input-affix-wrapper')).not.toHaveClass('bamboo');
+    expect(container.querySelector('.g-input-search')).toHaveClass('bamboo');
+    expect(container.querySelector('.g-input-affix-wrapper')).not.toHaveClass('bamboo');
   });
 
   // https://github.com/ant-design/ant-design/issues/53897
@@ -269,13 +269,13 @@ describe('Input.Search', () => {
         disabled
       />,
     );
-    const root = container.querySelector('.ant-input-search');
-    const input = container.querySelector('.ant-input');
-    const prefix = container.querySelector('.ant-input-prefix');
-    const suffix = container.querySelector('.ant-input-suffix');
-    const count = container.querySelector('.ant-input-show-count-suffix');
-    const button = container.querySelector('.ant-btn');
-    const buttonIcon = container.querySelector('.ant-btn-icon');
+    const root = container.querySelector('.g-input-search');
+    const input = container.querySelector('.g-input');
+    const prefix = container.querySelector('.g-input-prefix');
+    const suffix = container.querySelector('.g-input-suffix');
+    const count = container.querySelector('.g-input-show-count-suffix');
+    const button = container.querySelector('.g-btn');
+    const buttonIcon = container.querySelector('.g-btn-icon');
 
     expect(root).toHaveClass('dynamic-root');
     expect(input).toHaveClass('dynamic-input-without-button');
@@ -338,7 +338,7 @@ describe('Input.Search', () => {
       />,
     );
 
-    const buttonContent = container.querySelector('.ant-btn > .ant-btn-icon + span');
+    const buttonContent = container.querySelector('.g-btn > .g-btn-icon + span');
 
     expect(root).toHaveClass('dynamic-root-default');
     expect(input).toHaveClass('dynamic-input-default');

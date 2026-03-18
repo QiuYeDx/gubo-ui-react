@@ -2,10 +2,10 @@
 
 exports[`renders components/button/demo/basic.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -13,7 +13,7 @@ exports[`renders components/button/demo/basic.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -21,7 +21,7 @@ exports[`renders components/button/demo/basic.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+    class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
     type="button"
   >
     <span>
@@ -29,7 +29,7 @@ exports[`renders components/button/demo/basic.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text"
+    class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text"
     type="button"
   >
     <span>
@@ -37,7 +37,7 @@ exports[`renders components/button/demo/basic.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+    class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
     type="button"
   >
     <span>
@@ -51,11 +51,11 @@ exports[`renders components/button/demo/basic.tsx extend context correctly 2`] =
 
 exports[`renders components/button/demo/block.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
   style="width: 100%;"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-block"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-block"
     type="button"
   >
     <span>
@@ -63,7 +63,7 @@ exports[`renders components/button/demo/block.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-block"
     type="button"
   >
     <span>
@@ -71,7 +71,7 @@ exports[`renders components/button/demo/block.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-block"
+    class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-block"
     type="button"
   >
     <span>
@@ -79,7 +79,7 @@ exports[`renders components/button/demo/block.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-block"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-block"
     disabled=""
     type="button"
   >
@@ -88,7 +88,7 @@ exports[`renders components/button/demo/block.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-block"
+    class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-block"
     type="button"
   >
     <span>
@@ -96,7 +96,7 @@ exports[`renders components/button/demo/block.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link ant-btn-block"
+    class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link g-btn-block"
     type="button"
   >
     <span>
@@ -110,10 +110,10 @@ exports[`renders components/button/demo/block.tsx extend context correctly 2`] =
 
 exports[`renders components/button/demo/chinese-chars-loading.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-two-chinese-chars"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-two-chinese-chars"
     type="button"
   >
     <span>
@@ -123,15 +123,15 @@ exports[`renders components/button/demo/chinese-chars-loading.tsx extend context
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-loading"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -154,15 +154,15 @@ exports[`renders components/button/demo/chinese-chars-loading.tsx extend context
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-loading"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -183,15 +183,15 @@ exports[`renders components/button/demo/chinese-chars-loading.tsx extend context
     部署
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-loading"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -214,15 +214,15 @@ exports[`renders components/button/demo/chinese-chars-loading.tsx extend context
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-loading"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -243,15 +243,15 @@ exports[`renders components/button/demo/chinese-chars-loading.tsx extend context
     Submit
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-loading"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -272,15 +272,15 @@ exports[`renders components/button/demo/chinese-chars-loading.tsx extend context
     部署
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-loading"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -309,10 +309,10 @@ exports[`renders components/button/demo/chinese-chars-loading.tsx extend context
 
 exports[`renders components/button/demo/chinese-space.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -320,7 +320,7 @@ exports[`renders components/button/demo/chinese-space.tsx extend context correct
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -334,13 +334,13 @@ exports[`renders components/button/demo/chinese-space.tsx extend context correct
 
 exports[`renders components/button/demo/color-variant.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -348,7 +348,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm"
       type="button"
     >
       <span>
@@ -356,7 +356,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-dashed ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-dashed g-btn-sm"
       type="button"
     >
       <span>
@@ -364,7 +364,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-filled ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-filled g-btn-sm"
       type="button"
     >
       <span>
@@ -372,7 +372,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm"
       type="button"
     >
       <span>
@@ -380,7 +380,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-link ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-link g-btn-sm"
       type="button"
     >
       <span>
@@ -389,10 +389,10 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -400,7 +400,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-outlined ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-outlined g-btn-sm"
       type="button"
     >
       <span>
@@ -408,7 +408,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-dashed ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-dashed g-btn-sm"
       type="button"
     >
       <span>
@@ -416,7 +416,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-filled ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-filled g-btn-sm"
       type="button"
     >
       <span>
@@ -424,7 +424,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-text ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-text g-btn-sm"
       type="button"
     >
       <span>
@@ -432,7 +432,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-link ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-link g-btn-sm"
       type="button"
     >
       <span>
@@ -441,10 +441,10 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -452,7 +452,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-outlined g-btn-sm"
       type="button"
     >
       <span>
@@ -460,7 +460,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-dashed ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-dashed g-btn-sm"
       type="button"
     >
       <span>
@@ -468,7 +468,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-filled ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-filled g-btn-sm"
       type="button"
     >
       <span>
@@ -476,7 +476,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-text ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-text g-btn-sm"
       type="button"
     >
       <span>
@@ -484,7 +484,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-link ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-link g-btn-sm"
       type="button"
     >
       <span>
@@ -493,10 +493,10 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-pink ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-pink g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -504,7 +504,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-pink ant-btn-variant-outlined ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-pink g-btn-varig-outlined g-btn-sm"
       type="button"
     >
       <span>
@@ -512,7 +512,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-pink ant-btn-variant-dashed ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-pink g-btn-varig-dashed g-btn-sm"
       type="button"
     >
       <span>
@@ -520,7 +520,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-pink ant-btn-variant-filled ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-pink g-btn-varig-filled g-btn-sm"
       type="button"
     >
       <span>
@@ -528,7 +528,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-pink ant-btn-variant-text ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-pink g-btn-varig-text g-btn-sm"
       type="button"
     >
       <span>
@@ -536,7 +536,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-pink ant-btn-variant-link ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-pink g-btn-varig-link g-btn-sm"
       type="button"
     >
       <span>
@@ -545,10 +545,10 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-purple ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-purple g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -556,7 +556,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-purple ant-btn-variant-outlined ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-purple g-btn-varig-outlined g-btn-sm"
       type="button"
     >
       <span>
@@ -564,7 +564,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-purple ant-btn-variant-dashed ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-purple g-btn-varig-dashed g-btn-sm"
       type="button"
     >
       <span>
@@ -572,7 +572,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-purple ant-btn-variant-filled ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-purple g-btn-varig-filled g-btn-sm"
       type="button"
     >
       <span>
@@ -580,7 +580,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-purple ant-btn-variant-text ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-purple g-btn-varig-text g-btn-sm"
       type="button"
     >
       <span>
@@ -588,7 +588,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-purple ant-btn-variant-link ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-purple g-btn-varig-link g-btn-sm"
       type="button"
     >
       <span>
@@ -597,10 +597,10 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-cyan ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-cyan g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -608,7 +608,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-cyan ant-btn-variant-outlined ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-cyan g-btn-varig-outlined g-btn-sm"
       type="button"
     >
       <span>
@@ -616,7 +616,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-cyan ant-btn-variant-dashed ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-cyan g-btn-varig-dashed g-btn-sm"
       type="button"
     >
       <span>
@@ -624,7 +624,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-cyan ant-btn-variant-filled ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-cyan g-btn-varig-filled g-btn-sm"
       type="button"
     >
       <span>
@@ -632,7 +632,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-cyan ant-btn-variant-text ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-cyan g-btn-varig-text g-btn-sm"
       type="button"
     >
       <span>
@@ -640,7 +640,7 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-cyan ant-btn-variant-link ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-cyan g-btn-varig-link g-btn-sm"
       type="button"
     >
       <span>
@@ -655,10 +655,10 @@ exports[`renders components/button/demo/color-variant.tsx extend context correct
 
 exports[`renders components/button/demo/custom-disabled-bg.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     disabled=""
     type="button"
   >
@@ -667,7 +667,7 @@ exports[`renders components/button/demo/custom-disabled-bg.tsx extend context co
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     disabled=""
     type="button"
   >
@@ -676,7 +676,7 @@ exports[`renders components/button/demo/custom-disabled-bg.tsx extend context co
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+    class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
     disabled=""
     type="button"
   >
@@ -691,10 +691,10 @@ exports[`renders components/button/demo/custom-disabled-bg.tsx extend context co
 
 exports[`renders components/button/demo/danger.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-dangerous g-btn-color-dangerous g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -702,7 +702,7 @@ exports[`renders components/button/demo/danger.tsx extend context correctly 1`] 
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -710,7 +710,7 @@ exports[`renders components/button/demo/danger.tsx extend context correctly 1`] 
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-dashed ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-dashed"
+    class="g-btn css-var-test-id g-btn-dashed g-btn-dangerous g-btn-color-dangerous g-btn-varig-dashed"
     type="button"
   >
     <span>
@@ -718,7 +718,7 @@ exports[`renders components/button/demo/danger.tsx extend context correctly 1`] 
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-text ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-text"
+    class="g-btn css-var-test-id g-btn-text g-btn-dangerous g-btn-color-dangerous g-btn-varig-text"
     type="button"
   >
     <span>
@@ -726,7 +726,7 @@ exports[`renders components/button/demo/danger.tsx extend context correctly 1`] 
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-link ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-link"
+    class="g-btn css-var-test-id g-btn-link g-btn-dangerous g-btn-color-dangerous g-btn-varig-link"
     type="button"
   >
     <span>
@@ -740,25 +740,25 @@ exports[`renders components/button/demo/danger.tsx extend context correctly 2`] 
 
 exports[`renders components/button/demo/debug-block.tsx extend context correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-test-id ant-form-css-var"
+  class="g-form g-form-horizontal css-var-test-id g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-test-id"
+      class="g-row g-form-item-row css-var-test-id"
     >
       <div
-        class="ant-col ant-form-item-control css-var-test-id"
+        class="g-col g-form-item-control css-var-test-id"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <button
-              class="ant-btn css-var-test-id ant-btn-round ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-block"
+              class="g-btn css-var-test-id g-btn-round g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-block"
               style="margin-bottom: 12px;"
               type="button"
             >
@@ -767,15 +767,15 @@ exports[`renders components/button/demo/debug-block.tsx extend context correctly
               </span>
             </button>
             <button
-              class="ant-btn css-var-test-id ant-btn-round ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+              class="g-btn css-var-test-id g-btn-round g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
               type="button"
             >
               <span
-                class="ant-btn-icon"
+                class="g-btn-icon"
               >
                 <span
                   aria-label="download"
-                  class="anticon anticon-download"
+                  class="gicon gicon-download"
                   role="img"
                 >
                   <svg
@@ -806,13 +806,13 @@ exports[`renders components/button/demo/debug-block.tsx extend context correctly
 
 exports[`renders components/button/demo/debug-color-variant.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+      class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
       type="button"
     >
       <span>
@@ -820,7 +820,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+      class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
       type="button"
     >
       <span>
@@ -829,10 +829,10 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid acss-1ncngmd"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid acss-1ncngmd"
       type="button"
     >
       <span>
@@ -840,7 +840,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined acss-1ndra3x"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined acss-1ndra3x"
       type="button"
     >
       <span>
@@ -848,7 +848,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed acss-1ndra3x"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed acss-1ndra3x"
       type="button"
     >
       <span>
@@ -856,7 +856,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text acss-v6wxmk"
+      class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text acss-v6wxmk"
       type="button"
     >
       <span>
@@ -864,7 +864,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link acss-1r0846s"
+      class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link acss-1r0846s"
       type="button"
     >
       <span>
@@ -873,10 +873,10 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
     </button>
   </div>
   <div
-    class="acss-1cu8o9m ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="acss-1cu8o9m g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -884,7 +884,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -892,7 +892,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
       type="button"
     >
       <span>
@@ -900,7 +900,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text"
+      class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text"
       type="button"
     >
       <span>
@@ -908,7 +908,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+      class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
       type="button"
     >
       <span>
@@ -917,10 +917,10 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -928,7 +928,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -936,7 +936,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-dangerous ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-dangerous g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -944,7 +944,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -952,7 +952,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -960,7 +960,7 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
       type="button"
     >
       <span>
@@ -976,101 +976,101 @@ exports[`renders components/button/demo/debug-color-variant.tsx extend context c
 exports[`renders components/button/demo/debug-icon.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="large"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Large
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="medium"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Medium
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="small"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Small
       </span>
     </label>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start ant-divider-plain"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start g-divider-plain"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       Preview
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>,
   <div
-    class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+    class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1090,19 +1090,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1110,7 +1110,7 @@ Array [
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-circle g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg"
         type="button"
       >
         <span>
@@ -1118,15 +1118,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1150,15 +1150,15 @@ Array [
       </button>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1178,19 +1178,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1198,15 +1198,15 @@ Array [
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1230,19 +1230,19 @@ Array [
       </button>
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1262,19 +1262,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1282,15 +1282,15 @@ Array [
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1314,15 +1314,15 @@ Array [
       </button>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1342,19 +1342,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1362,15 +1362,15 @@ Array [
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1394,17 +1394,17 @@ Array [
       </button>
       <a
         aria-disabled="false"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         href="https://www.google.com"
         tabindex="0"
         target="_blank"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1424,12 +1424,12 @@ Array [
         </span>
       </a>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -1452,24 +1452,24 @@ Array [
       </button>
     </div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-center ant-divider-plain"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-center g-divider-plain"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
          https://github.com/ant-design/ant-design/issues/51811 
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span>
@@ -1477,15 +1477,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1509,24 +1509,24 @@ Array [
       </button>
     </div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-center ant-divider-plain"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-center g-divider-plain"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
          https://github.com/ant-design/ant-design/issues/52124 
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         style="height: 60px;"
         type="button"
       >
@@ -1535,16 +1535,16 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         style="height: 60px;"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1568,28 +1568,28 @@ Array [
       </button>
     </div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-center ant-divider-plain"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-center g-divider-plain"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
          https://github.com/ant-design/ant-design/issues/51380 
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <svg
             class="my-class-name"
@@ -1610,11 +1610,11 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <svg
             fill="none"
@@ -1637,15 +1637,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1665,15 +1665,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -1696,7 +1696,7 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span>
@@ -1704,24 +1704,24 @@ Array [
         </span>
       </button>
       <div
-        class="ant-space-compact ant-input-search css-var-test-id ant-input-search-large"
+        class="g-space-compact g-input-search css-var-test-id g-input-search-large"
         style="width: 100px;"
       >
         <input
-          class="ant-input ant-input-lg ant-input-outlined css-var-test-id ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+          class="g-input g-input-lg g-input-outlined css-var-test-id g-input-css-var g-input-compact-item g-input-compact-first-item"
           type="search"
           value=""
         />
         <button
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
           type="button"
         >
           <span
-            class="ant-btn-icon"
+            class="g-btn-icon"
           >
             <span
               aria-label="search"
-              class="anticon anticon-search"
+              class="gicon gicon-search"
               role="img"
             >
               <svg
@@ -1743,35 +1743,35 @@ Array [
       </div>
     </div>
     <div
-      class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-center ant-divider-plain"
+      class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-center g-divider-plain"
       role="separator"
     >
       <div
-        class="ant-divider-rail ant-divider-rail-start"
+        class="g-divider-rail g-divider-rail-start"
       />
       <span
-        class="ant-divider-inner-text"
+        class="g-divider-inner-text"
       >
          https://github.com/ant-design/ant-design/issues/51380 
       </span>
       <div
-        class="ant-divider-rail ant-divider-rail-end"
+        class="g-divider-rail g-divider-rail-end"
       />
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-gap-small"
       style="transform: scale(3); transform-origin: left top; margin-bottom: 100px;"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="minus-square"
-            class="anticon anticon-minus-square"
+            class="gicon gicon-minus-square"
             role="img"
           >
             <svg
@@ -1794,11 +1794,11 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <div
             style="background: red; width: 12px; height: 12px;"
@@ -1806,11 +1806,11 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <div
             style="background: green; width: 16px; height: 16px;"
@@ -1818,11 +1818,11 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <div
             style="background: blue; width: 14px; height: 16px;"
@@ -1832,19 +1832,19 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-center ant-divider-plain"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-center g-divider-plain"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
        paddingInline / paddingInlineLG / paddingInlineSM 
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>,
   <p
@@ -1853,19 +1853,19 @@ Array [
     Icon-only button should not be affected by paddingInline / paddingInlineLG / paddingInlineSM
   </p>,
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="margin-bottom: 12px; gap: 8px;"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -1885,15 +1885,15 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-round ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-round g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -1913,15 +1913,15 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -1942,19 +1942,19 @@ Array [
     </button>
   </div>,
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="margin-bottom: 12px; gap: 8px;"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -1974,15 +1974,15 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-round ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-round g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -2002,15 +2002,15 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -2031,19 +2031,19 @@ Array [
     </button>
   </div>,
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="margin-bottom: 12px; gap: 8px;"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -2063,15 +2063,15 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-round ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-round g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -2091,15 +2091,15 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="arrow-down"
-          class="anticon anticon-arrow-down"
+          class="gicon gicon-arrow-down"
           role="img"
         >
           <svg
@@ -2126,13 +2126,13 @@ exports[`renders components/button/demo/debug-icon.tsx extend context correctly 
 
 exports[`renders components/button/demo/disabled.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -2140,7 +2140,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       disabled=""
       type="button"
     >
@@ -2150,10 +2150,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -2161,7 +2161,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       disabled=""
       type="button"
     >
@@ -2171,10 +2171,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
       type="button"
     >
       <span>
@@ -2182,7 +2182,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
       disabled=""
       type="button"
     >
@@ -2192,10 +2192,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text"
+      class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text"
       type="button"
     >
       <span>
@@ -2203,7 +2203,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text"
+      class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text"
       disabled=""
       type="button"
     >
@@ -2213,10 +2213,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+      class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
       type="button"
     >
       <span>
@@ -2224,7 +2224,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+      class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
       disabled=""
       type="button"
     >
@@ -2234,11 +2234,11 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <a
       aria-disabled="false"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       href="https://ant.design/index-cn"
       tabindex="0"
     >
@@ -2248,7 +2248,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </a>
     <a
       aria-disabled="true"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-disabled"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-disabled"
       tabindex="-1"
     >
       <span>
@@ -2257,10 +2257,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </a>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -2268,7 +2268,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined"
       disabled=""
       type="button"
     >
@@ -2278,10 +2278,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-text ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-text"
+      class="g-btn css-var-test-id g-btn-text g-btn-dangerous g-btn-color-dangerous g-btn-varig-text"
       type="button"
     >
       <span>
@@ -2289,7 +2289,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-text ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-text"
+      class="g-btn css-var-test-id g-btn-text g-btn-dangerous g-btn-color-dangerous g-btn-varig-text"
       disabled=""
       type="button"
     >
@@ -2299,10 +2299,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-link"
+      class="g-btn css-var-test-id g-btn-link g-btn-dangerous g-btn-color-dangerous g-btn-varig-link"
       type="button"
     >
       <span>
@@ -2310,7 +2310,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-link"
+      class="g-btn css-var-test-id g-btn-link g-btn-dangerous g-btn-color-dangerous g-btn-varig-link"
       disabled=""
       type="button"
     >
@@ -2320,10 +2320,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="site-button-ghost-wrapper ant-flex css-var-test-id ant-flex-gap-small"
+    class="site-button-ghost-wrapper g-flex css-var-test-id g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-background-ghost"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-background-ghost"
       type="button"
     >
       <span>
@@ -2331,7 +2331,7 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-background-ghost"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-background-ghost"
       disabled=""
       type="button"
     >
@@ -2347,10 +2347,10 @@ exports[`renders components/button/demo/disabled.tsx extend context correctly 2`
 
 exports[`renders components/button/demo/ghost.tsx extend context correctly 1`] = `
 <div
-  class="site-button-ghost-wrapper ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+  class="site-button-ghost-wrapper g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-outlined ant-btn-background-ghost"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-outlined g-btn-background-ghost"
     type="button"
   >
     <span>
@@ -2358,7 +2358,7 @@ exports[`renders components/button/demo/ghost.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-background-ghost"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-background-ghost"
     type="button"
   >
     <span>
@@ -2366,7 +2366,7 @@ exports[`renders components/button/demo/ghost.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-background-ghost"
+    class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-background-ghost"
     type="button"
   >
     <span>
@@ -2374,7 +2374,7 @@ exports[`renders components/button/demo/ghost.tsx extend context correctly 1`] =
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-background-ghost"
+    class="g-btn css-var-test-id g-btn-primary g-btn-dangerous g-btn-color-dangerous g-btn-varig-outlined g-btn-background-ghost"
     type="button"
   >
     <span>
@@ -2388,22 +2388,22 @@ exports[`renders components/button/demo/ghost.tsx extend context correctly 2`] =
 
 exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-circle g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2423,19 +2423,19 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -2443,7 +2443,7 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </div>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-circle g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -2451,15 +2451,15 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2483,15 +2483,15 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
     </button>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2511,19 +2511,19 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -2531,15 +2531,15 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </div>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2563,19 +2563,19 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2595,19 +2595,19 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -2615,15 +2615,15 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </div>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2647,15 +2647,15 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
     </button>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-circle ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-circle g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2675,19 +2675,19 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -2695,15 +2695,15 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
       </div>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed"
+      class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2727,17 +2727,17 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 1`] = 
     </button>
     <a
       aria-disabled="false"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only"
       href="https://www.google.com"
       tabindex="0"
       target="_blank"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="search"
-          class="anticon anticon-search"
+          class="gicon gicon-search"
           role="img"
         >
           <svg
@@ -2765,50 +2765,50 @@ exports[`renders components/button/demo/icon.tsx extend context correctly 2`] = 
 exports[`renders components/button/demo/icon-placement.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+        class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
         role="radiogroup"
       >
         <label
-          class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button"
+            class="g-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="start"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             start
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button ant-radio-button-checked"
+            class="g-radio-button g-radio-button-checked"
           >
             <input
               checked=""
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="end"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             end
           </span>
@@ -2817,38 +2817,38 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start ant-divider-plain"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start g-divider-plain"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       Preview
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>,
   <div
-    class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+    class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -2868,19 +2868,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -2888,7 +2888,7 @@ Array [
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+        class="g-btn css-var-test-id g-btn-circle g-btn-primary g-btn-color-primary g-btn-varig-solid"
         type="button"
       >
         <span>
@@ -2896,15 +2896,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-end"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-end"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -2928,15 +2928,15 @@ Array [
       </button>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -2956,19 +2956,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -2976,15 +2976,15 @@ Array [
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-end"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-end"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -3008,19 +3008,19 @@ Array [
       </button>
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -3040,19 +3040,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -3060,15 +3060,15 @@ Array [
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-icon-end"
+        class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-icon-end"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -3092,15 +3092,15 @@ Array [
       </button>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -3120,19 +3120,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -3140,15 +3140,15 @@ Array [
         </div>
       </div>
       <button
-        class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-icon-end"
+        class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-icon-end"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -3172,17 +3172,17 @@ Array [
       </button>
       <a
         aria-disabled="false"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-icon-end"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-icon-end"
         href="https://www.google.com"
         tabindex="0"
         target="_blank"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="search"
-            class="anticon anticon-search"
+            class="gicon gicon-search"
             role="img"
           >
             <svg
@@ -3202,15 +3202,15 @@ Array [
         </span>
       </a>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-loading ant-btn-icon-end"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-loading g-btn-icon-end"
         type="button"
       >
         <span
-          class="ant-btn-icon ant-btn-loading-icon"
+          class="g-btn-icon g-btn-loading-icon"
         >
           <span
             aria-label="loading"
-            class="anticon anticon-loading anticon-spin"
+            class="gicon gicon-loading gicon-spin"
             role="img"
           >
             <svg
@@ -3242,10 +3242,10 @@ exports[`renders components/button/demo/icon-placement.tsx extend context correc
 exports[`renders components/button/demo/legacy-group.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-btn-group ant-btn-group-sm"
+    class="g-btn-group g-btn-group-sm"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -3253,7 +3253,7 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -3262,16 +3262,16 @@ Array [
     </button>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -3291,19 +3291,19 @@ Array [
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3312,15 +3312,15 @@ Array [
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -3340,19 +3340,19 @@ Array [
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3362,10 +3362,10 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-btn-group"
+    class="g-btn-group"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -3373,7 +3373,7 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -3382,16 +3382,16 @@ Array [
     </button>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -3411,19 +3411,19 @@ Array [
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3432,15 +3432,15 @@ Array [
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -3460,19 +3460,19 @@ Array [
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3482,10 +3482,10 @@ Array [
   </div>,
   <br />,
   <div
-    class="ant-btn-group ant-btn-group-lg"
+    class="g-btn-group g-btn-group-lg"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg"
       type="button"
     >
       <span>
@@ -3493,7 +3493,7 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg"
       type="button"
     >
       <span>
@@ -3502,16 +3502,16 @@ Array [
     </button>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-icon-only"
       disabled=""
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -3531,19 +3531,19 @@ Array [
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3552,15 +3552,15 @@ Array [
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="download"
-          class="anticon anticon-download"
+          class="gicon gicon-download"
           role="img"
         >
           <svg
@@ -3580,19 +3580,19 @@ Array [
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -3611,21 +3611,21 @@ exports[`renders components/button/demo/legacy-group.tsx extend context correctl
 
 exports[`renders components/button/demo/linear-gradient.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg acss-wkbm77"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg acss-wkbm77"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="ant-design"
-          class="anticon anticon-ant-design"
+          class="gicon gicon-ant-design"
           role="img"
         >
           <svg
@@ -3649,10 +3649,10 @@ exports[`renders components/button/demo/linear-gradient.tsx extend context corre
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg acss-wkbm77"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg acss-wkbm77"
       type="button"
     >
       <span>
@@ -3667,21 +3667,21 @@ exports[`renders components/button/demo/linear-gradient.tsx extend context corre
 
 exports[`renders components/button/demo/loading.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-align-center ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-align-center g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-loading"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-loading"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-btn-loading-icon"
+        class="g-btn-icon g-btn-loading-icon"
       >
         <span
           aria-label="loading"
-          class="anticon anticon-loading anticon-spin"
+          class="gicon gicon-loading gicon-spin"
           role="img"
         >
           <svg
@@ -3704,15 +3704,15 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 1`]
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-btn-loading"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-btn-loading"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-btn-loading-icon"
+        class="g-btn-icon g-btn-loading-icon"
       >
         <span
           aria-label="loading"
-          class="anticon anticon-loading anticon-spin"
+          class="gicon gicon-loading gicon-spin"
           role="img"
         >
           <svg
@@ -3735,15 +3735,15 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 1`]
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only ant-btn-loading"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only g-btn-loading"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-btn-loading-icon"
+        class="g-btn-icon g-btn-loading-icon"
       >
         <span
           aria-label="loading"
-          class="anticon anticon-loading anticon-spin"
+          class="gicon gicon-loading gicon-spin"
           role="img"
         >
           <svg
@@ -3763,15 +3763,15 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 1`]
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-loading"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-loading"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="sync"
-          class="anticon anticon-sync anticon-spin"
+          class="gicon gicon-sync gicon-spin"
           role="img"
         >
           <svg
@@ -3795,10 +3795,10 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 1`]
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -3806,7 +3806,7 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 1`]
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-end"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-end"
       type="button"
     >
       <span>
@@ -3814,15 +3814,15 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 1`]
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="poweroff"
-          class="anticon anticon-poweroff"
+          class="gicon gicon-poweroff"
           role="img"
         >
           <svg
@@ -3845,15 +3845,15 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 1`]
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-icon-only"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="poweroff"
-          class="anticon anticon-poweroff"
+          class="gicon gicon-poweroff"
           role="img"
         >
           <svg
@@ -3873,15 +3873,15 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 1`]
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="poweroff"
-          class="anticon anticon-poweroff"
+          class="gicon gicon-poweroff"
           role="img"
         >
           <svg
@@ -3911,10 +3911,10 @@ exports[`renders components/button/demo/loading.tsx extend context correctly 2`]
 
 exports[`renders components/button/demo/multiple.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -3922,7 +3922,7 @@ exports[`renders components/button/demo/multiple.tsx extend context correctly 1`
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -3930,10 +3930,10 @@ exports[`renders components/button/demo/multiple.tsx extend context correctly 1`
     </span>
   </button>
   <div
-    class="ant-space-compact"
+    class="g-space-compact"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
       type="button"
     >
       <span>
@@ -3941,15 +3941,15 @@ exports[`renders components/button/demo/multiple.tsx extend context correctly 1`
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
       type="button"
     >
       <span
-        class="ant-btn-icon"
+        class="g-btn-icon"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -3969,104 +3969,104 @@ exports[`renders components/button/demo/multiple.tsx extend context correctly 1`
       </span>
     </button>
     <div
-      class="ant-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-dropdown-css-var ant-dropdown-placement-bottomRight"
+      class="g-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-dropdown-css-var g-dropdown-placement-bottomRight"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <ul
-        class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light css-var-test-id ant-dropdown-css-var css-var-test-id ant-dropdown-menu-css-var"
+        class="g-dropdown-menu g-dropdown-menu-root g-dropdown-menu-vertical g-dropdown-menu-light css-var-test-id g-dropdown-css-var css-var-test-id g-dropdown-menu-css-var"
         data-menu-list="true"
         role="menu"
         tabindex="0"
       >
         <li
           aria-describedby="test-id"
-          class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+          class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
           data-menu-id="rc-menu-uuid-1"
           role="menuitem"
           tabindex="-1"
         >
           <span
-            class="ant-dropdown-menu-title-content"
+            class="g-dropdown-menu-title-content"
           >
             1st item
           </span>
         </li>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-dropdown-menu-inline-collapsed-tooltip ant-tooltip-placement-right"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-dropdown-menu-inline-collapsed-tooltip g-tooltip-placement-right"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute; top: 0px; left: 0px;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           />
         </div>
         <li
           aria-describedby="test-id"
-          class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+          class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
           data-menu-id="rc-menu-uuid-2"
           role="menuitem"
           tabindex="-1"
         >
           <span
-            class="ant-dropdown-menu-title-content"
+            class="g-dropdown-menu-title-content"
           >
             2nd item
           </span>
         </li>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-dropdown-menu-inline-collapsed-tooltip ant-tooltip-placement-right"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-dropdown-menu-inline-collapsed-tooltip g-tooltip-placement-right"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute; top: 0px; left: 0px;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           />
         </div>
         <li
           aria-describedby="test-id"
-          class="ant-dropdown-menu-item ant-dropdown-menu-item-only-child"
+          class="g-dropdown-menu-item g-dropdown-menu-item-only-child"
           data-menu-id="rc-menu-uuid-3"
           role="menuitem"
           tabindex="-1"
         >
           <span
-            class="ant-dropdown-menu-title-content"
+            class="g-dropdown-menu-title-content"
           >
             3rd item
           </span>
         </li>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-dropdown-menu-inline-collapsed-tooltip ant-tooltip-placement-right"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-dropdown-menu-inline-collapsed-tooltip g-tooltip-placement-right"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute; top: 0px; left: 0px;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           />
@@ -4086,92 +4086,92 @@ exports[`renders components/button/demo/multiple.tsx extend context correctly 2`
 exports[`renders components/button/demo/size.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="large"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Large
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="medium"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Medium
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="small"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Small
       </span>
     </label>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start ant-divider-plain"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start g-divider-plain"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       Preview
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>,
   <div
-    class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+    class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg"
         type="button"
       >
         <span>
@@ -4179,7 +4179,7 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg"
         type="button"
       >
         <span>
@@ -4187,7 +4187,7 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-dashed ant-btn-color-default ant-btn-variant-dashed ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-dashed g-btn-color-default g-btn-varig-dashed g-btn-lg"
         type="button"
       >
         <span>
@@ -4196,7 +4196,7 @@ Array [
       </button>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link ant-btn-lg"
+      class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link g-btn-lg"
       type="button"
     >
       <span>
@@ -4204,18 +4204,18 @@ Array [
       </span>
     </button>
     <div
-      class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-small"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="download"
-            class="anticon anticon-download"
+            class="gicon gicon-download"
             role="img"
           >
             <svg
@@ -4235,15 +4235,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-circle ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-circle g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="download"
-            class="anticon anticon-download"
+            class="gicon gicon-download"
             role="img"
           >
             <svg
@@ -4263,15 +4263,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-round ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg ant-btn-icon-only"
+        class="g-btn css-var-test-id g-btn-round g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg g-btn-icon-only"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="download"
-            class="anticon anticon-download"
+            class="gicon gicon-download"
             role="img"
           >
             <svg
@@ -4291,15 +4291,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-round ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-round g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="download"
-            class="anticon anticon-download"
+            class="gicon gicon-download"
             role="img"
           >
             <svg
@@ -4322,15 +4322,15 @@ Array [
         </span>
       </button>
       <button
-        class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg"
+        class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg"
         type="button"
       >
         <span
-          class="ant-btn-icon"
+          class="g-btn-icon"
         >
           <span
             aria-label="download"
-            class="anticon anticon-download"
+            class="gicon gicon-download"
             role="img"
           >
             <svg
@@ -4361,10 +4361,10 @@ exports[`renders components/button/demo/size.tsx extend context correctly 2`] = 
 
 exports[`renders components/button/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-gap-small"
+  class="g-flex css-var-test-id g-flex-gap-small"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined acss-nfftpo"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined acss-nfftpo"
     style="box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);"
     type="button"
   >
@@ -4375,7 +4375,7 @@ exports[`renders components/button/demo/style-class.tsx extend context correctly
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid acss-nfftpo"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid acss-nfftpo"
     style="background-color: rgb(23, 23, 23);"
     type="button"
   >
@@ -4393,10 +4393,10 @@ exports[`renders components/button/demo/style-class.tsx extend context correctly
 
 exports[`renders components/button/demo/wave.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-wrap-wrap ant-flex-gap-large"
+  class="g-flex css-var-test-id g-flex-wrap-wrap g-flex-gap-large"
 >
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -4404,7 +4404,7 @@ exports[`renders components/button/demo/wave.tsx extend context correctly 1`] = 
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -4412,7 +4412,7 @@ exports[`renders components/button/demo/wave.tsx extend context correctly 1`] = 
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -4420,7 +4420,7 @@ exports[`renders components/button/demo/wave.tsx extend context correctly 1`] = 
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -4428,7 +4428,7 @@ exports[`renders components/button/demo/wave.tsx extend context correctly 1`] = 
     </span>
   </button>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>

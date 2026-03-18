@@ -2,30 +2,30 @@
 
 exports[`renders components/statistic/demo/animated.tsx extend context correctly 1`] = `
 <div
-  class="ant-row css-var-test-id"
+  class="g-row css-var-test-id"
   style="margin-inline: -8px;"
 >
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Active Users
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           <span>
             0
@@ -35,26 +35,26 @@ exports[`renders components/statistic/demo/animated.tsx extend context correctly
     </div>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Account Balance (CNY)
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           <span>
             0
@@ -70,33 +70,33 @@ exports[`renders components/statistic/demo/animated.tsx extend context correctly
 
 exports[`renders components/statistic/demo/basic.tsx extend context correctly 1`] = `
 <div
-  class="ant-row css-var-test-id"
+  class="g-row css-var-test-id"
   style="margin-inline: -8px;"
 >
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Active Users
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="g-statistic-content-value-int"
           >
             112,893
           </span>
@@ -105,34 +105,34 @@ exports[`renders components/statistic/demo/basic.tsx extend context correctly 1`
     </div>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Account Balance (CNY)
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="g-statistic-content-value-int"
           >
             112,893
           </span>
           <span
-            class="ant-statistic-content-value-decimal"
+            class="g-statistic-content-value-decimal"
           >
             .00
           </span>
@@ -140,7 +140,7 @@ exports[`renders components/statistic/demo/basic.tsx extend context correctly 1`
       </div>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       style="margin-top: 16px;"
       type="button"
     >
@@ -150,29 +150,29 @@ exports[`renders components/statistic/demo/basic.tsx extend context correctly 1`
     </button>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Active Users
         </div>
       </div>
       <div
-        class="ant-skeleton ant-skeleton-active ant-statistic-skeleton css-var-test-id"
+        class="g-skeleton g-skeleton-active g-statistic-skeleton css-var-test-id"
       >
         <div
-          class="ant-skeleton-section"
+          class="g-skeleton-section"
         >
           <h3
-            class="ant-skeleton-title"
+            class="g-skeleton-title"
           />
         </div>
       </div>
@@ -185,41 +185,41 @@ exports[`renders components/statistic/demo/basic.tsx extend context correctly 2`
 
 exports[`renders components/statistic/demo/card.tsx extend context correctly 1`] = `
 <div
-  class="ant-row css-var-test-id"
+  class="g-row css-var-test-id"
   style="margin-inline: -8px;"
 >
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-card css-var-test-id"
+      class="g-card css-var-test-id"
     >
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         <div
-          class="ant-statistic css-var-test-id"
+          class="g-statistic css-var-test-id"
         >
           <div
-            class="ant-statistic-header"
+            class="g-statistic-header"
           >
             <div
-              class="ant-statistic-title"
+              class="g-statistic-title"
             >
               Active
             </div>
           </div>
           <div
-            class="ant-statistic-content"
+            class="g-statistic-content"
             style="color: rgb(63, 134, 0);"
           >
             <span
-              class="ant-statistic-content-prefix"
+              class="g-statistic-content-prefix"
             >
               <span
                 aria-label="arrow-up"
-                class="anticon anticon-arrow-up"
+                class="gicon gicon-arrow-up"
                 role="img"
               >
                 <svg
@@ -238,21 +238,21 @@ exports[`renders components/statistic/demo/card.tsx extend context correctly 1`]
               </span>
             </span>
             <span
-              class="ant-statistic-content-value"
+              class="g-statistic-content-value"
             >
               <span
-                class="ant-statistic-content-value-int"
+                class="g-statistic-content-value-int"
               >
                 11
               </span>
               <span
-                class="ant-statistic-content-value-decimal"
+                class="g-statistic-content-value-decimal"
               >
                 .28
               </span>
             </span>
             <span
-              class="ant-statistic-content-suffix"
+              class="g-statistic-content-suffix"
             >
               %
             </span>
@@ -262,37 +262,37 @@ exports[`renders components/statistic/demo/card.tsx extend context correctly 1`]
     </div>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-card css-var-test-id"
+      class="g-card css-var-test-id"
     >
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         <div
-          class="ant-statistic css-var-test-id"
+          class="g-statistic css-var-test-id"
         >
           <div
-            class="ant-statistic-header"
+            class="g-statistic-header"
           >
             <div
-              class="ant-statistic-title"
+              class="g-statistic-title"
             >
               Idle
             </div>
           </div>
           <div
-            class="ant-statistic-content"
+            class="g-statistic-content"
             style="color: rgb(207, 19, 34);"
           >
             <span
-              class="ant-statistic-content-prefix"
+              class="g-statistic-content-prefix"
             >
               <span
                 aria-label="arrow-down"
-                class="anticon anticon-arrow-down"
+                class="gicon gicon-arrow-down"
                 role="img"
               >
                 <svg
@@ -311,21 +311,21 @@ exports[`renders components/statistic/demo/card.tsx extend context correctly 1`]
               </span>
             </span>
             <span
-              class="ant-statistic-content-value"
+              class="g-statistic-content-value"
             >
               <span
-                class="ant-statistic-content-value-int"
+                class="g-statistic-content-value-int"
               >
                 9
               </span>
               <span
-                class="ant-statistic-content-value-decimal"
+                class="g-statistic-content-value-decimal"
               >
                 .30
               </span>
             </span>
             <span
-              class="ant-statistic-content-suffix"
+              class="g-statistic-content-suffix"
             >
               %
             </span>
@@ -341,33 +341,33 @@ exports[`renders components/statistic/demo/card.tsx extend context correctly 2`]
 
 exports[`renders components/statistic/demo/component-token.tsx extend context correctly 1`] = `
 <div
-  class="ant-row css-var-test-id"
+  class="g-row css-var-test-id"
   style="margin-inline: -8px;"
 >
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Active Users
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="g-statistic-content-value-int"
           >
             112,893
           </span>
@@ -376,34 +376,34 @@ exports[`renders components/statistic/demo/component-token.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Account Balance (CNY)
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="g-statistic-content-value-int"
           >
             112,893
           </span>
           <span
-            class="ant-statistic-content-value-decimal"
+            class="g-statistic-content-value-decimal"
           >
             .00
           </span>
@@ -411,7 +411,7 @@ exports[`renders components/statistic/demo/component-token.tsx extend context co
       </div>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       style="margin-top: 16px;"
       type="button"
     >
@@ -421,29 +421,29 @@ exports[`renders components/statistic/demo/component-token.tsx extend context co
     </button>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Active Users
         </div>
       </div>
       <div
-        class="ant-skeleton ant-skeleton-active ant-statistic-skeleton css-var-test-id"
+        class="g-skeleton g-skeleton-active g-statistic-skeleton css-var-test-id"
       >
         <div
-          class="ant-skeleton-section"
+          class="g-skeleton-section"
         >
           <h3
-            class="ant-skeleton-title"
+            class="g-skeleton-title"
           />
         </div>
       </div>
@@ -456,31 +456,31 @@ exports[`renders components/statistic/demo/component-token.tsx extend context co
 
 exports[`renders components/statistic/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-statistic acss-1347agw css-var-test-id"
+    class="g-statistic acss-1347agw css-var-test-id"
   >
     <div
-      class="ant-statistic-header"
+      class="g-statistic-header"
     >
       <div
-        class="ant-statistic-title"
+        class="g-statistic-title"
         style="color: rgb(24, 144, 255); font-weight: 600;"
       >
         Monthly Active Users
       </div>
     </div>
     <div
-      class="ant-statistic-content"
+      class="g-statistic-content"
       style="font-size: 24px;"
     >
       <span
-        class="ant-statistic-content-prefix"
+        class="g-statistic-content-prefix"
       >
         <span
           aria-label="arrow-up"
-          class="anticon anticon-arrow-up"
+          class="gicon gicon-arrow-up"
           role="img"
         >
           <svg
@@ -499,44 +499,44 @@ exports[`renders components/statistic/demo/style-class.tsx extend context correc
         </span>
       </span>
       <span
-        class="ant-statistic-content-value"
+        class="g-statistic-content-value"
       >
         <span
-          class="ant-statistic-content-value-int"
+          class="g-statistic-content-value-int"
         >
           93,241
         </span>
       </span>
       <span
-        class="ant-statistic-content-suffix"
+        class="g-statistic-content-suffix"
       >
         users
       </span>
     </div>
   </div>
   <div
-    class="ant-statistic acss-1347agw css-var-test-id"
+    class="g-statistic acss-1347agw css-var-test-id"
   >
     <div
-      class="ant-statistic-header"
+      class="g-statistic-header"
     >
       <div
-        class="ant-statistic-title"
+        class="g-statistic-title"
         style="color: rgb(255, 77, 79);"
       >
         Yearly Loss
       </div>
     </div>
     <div
-      class="ant-statistic-content"
+      class="g-statistic-content"
       style="color: rgb(255, 120, 117);"
     >
       <span
-        class="ant-statistic-content-prefix"
+        class="g-statistic-content-prefix"
       >
         <span
           aria-label="arrow-up"
-          class="anticon anticon-arrow-up"
+          class="gicon gicon-arrow-up"
           role="img"
         >
           <svg
@@ -555,21 +555,21 @@ exports[`renders components/statistic/demo/style-class.tsx extend context correc
         </span>
       </span>
       <span
-        class="ant-statistic-content-value"
+        class="g-statistic-content-value"
       >
         <span
-          class="ant-statistic-content-value-int"
+          class="g-statistic-content-value-int"
         >
           -18
         </span>
         <span
-          class="ant-statistic-content-value-decimal"
+          class="g-statistic-content-value-decimal"
         >
           .7
         </span>
       </span>
       <span
-        class="ant-statistic-content-suffix"
+        class="g-statistic-content-suffix"
       >
         %
       </span>
@@ -582,21 +582,21 @@ exports[`renders components/statistic/demo/style-class.tsx extend context correc
 
 exports[`renders components/statistic/demo/timer.tsx extend context correctly 1`] = `
 <div
-  class="ant-row css-var-test-id"
+  class="g-row css-var-test-id"
   style="margin-inline: -8px;"
 >
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           48:00:30
         </span>
@@ -604,26 +604,26 @@ exports[`renders components/statistic/demo/timer.tsx extend context correctly 1`
     </div>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Million Seconds
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           48:00:30:000
         </span>
@@ -631,26 +631,26 @@ exports[`renders components/statistic/demo/timer.tsx extend context correctly 1`
     </div>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Countdown
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           00:00:10
         </span>
@@ -658,26 +658,26 @@ exports[`renders components/statistic/demo/timer.tsx extend context correctly 1`
     </div>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Countup
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           47:59:30
         </span>
@@ -685,26 +685,26 @@ exports[`renders components/statistic/demo/timer.tsx extend context correctly 1`
     </div>
   </div>
   <div
-    class="ant-col ant-col-24 css-var-test-id"
+    class="g-col g-col-24 css-var-test-id"
     style="padding-inline: 8px; margin-top: 32px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Day Level (Countdown)
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           2 天 0 时 0 分 30 秒
         </span>
@@ -712,26 +712,26 @@ exports[`renders components/statistic/demo/timer.tsx extend context correctly 1`
     </div>
   </div>
   <div
-    class="ant-col ant-col-24 css-var-test-id"
+    class="g-col g-col-24 css-var-test-id"
     style="padding-inline: 8px; margin-top: 32px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Day Level (Countup)
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           1 天 23 时 59 分 30 秒
         </span>
@@ -745,34 +745,34 @@ exports[`renders components/statistic/demo/timer.tsx extend context correctly 2`
 
 exports[`renders components/statistic/demo/unit.tsx extend context correctly 1`] = `
 <div
-  class="ant-row css-var-test-id"
+  class="g-row css-var-test-id"
   style="margin-inline: -8px;"
 >
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Feedback
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-prefix"
+          class="g-statistic-content-prefix"
         >
           <span
             aria-label="like"
-            class="anticon anticon-like"
+            class="gicon gicon-like"
             role="img"
           >
             <svg
@@ -791,10 +791,10 @@ exports[`renders components/statistic/demo/unit.tsx extend context correctly 1`]
           </span>
         </span>
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="g-statistic-content-value-int"
           >
             1,128
           </span>
@@ -803,35 +803,35 @@ exports[`renders components/statistic/demo/unit.tsx extend context correctly 1`]
     </div>
   </div>
   <div
-    class="ant-col ant-col-12 css-var-test-id"
+    class="g-col g-col-12 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-statistic css-var-test-id"
+      class="g-statistic css-var-test-id"
     >
       <div
-        class="ant-statistic-header"
+        class="g-statistic-header"
       >
         <div
-          class="ant-statistic-title"
+          class="g-statistic-title"
         >
           Unmerged
         </div>
       </div>
       <div
-        class="ant-statistic-content"
+        class="g-statistic-content"
       >
         <span
-          class="ant-statistic-content-value"
+          class="g-statistic-content-value"
         >
           <span
-            class="ant-statistic-content-value-int"
+            class="g-statistic-content-value-int"
           >
             93
           </span>
         </span>
         <span
-          class="ant-statistic-content-suffix"
+          class="g-statistic-content-suffix"
         >
           / 100
         </span>

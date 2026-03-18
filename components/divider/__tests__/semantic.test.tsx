@@ -21,9 +21,9 @@ describe('Divider.Semantic', () => {
         Text
       </Divider>,
     );
-    const root = container.querySelector('.ant-divider');
-    const rail = container.querySelector('.ant-divider-rail');
-    const content = container.querySelector('.ant-divider-inner-text');
+    const root = container.querySelector('.g-divider');
+    const rail = container.querySelector('.g-divider-rail');
+    const content = container.querySelector('.g-divider-inner-text');
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);
     expect(rail).toHaveClass(testClassNames.rail);
@@ -51,7 +51,7 @@ describe('Divider.Semantic', () => {
         Text
       </Divider>,
     );
-    let root = container.querySelector('.ant-divider')!;
+    let root = container.querySelector('.g-divider')!;
     expect(root).toHaveClass('divider-start');
     expect(root).toHaveStyle({ opacity: 0.5 });
 
@@ -60,7 +60,7 @@ describe('Divider.Semantic', () => {
         Text
       </Divider>,
     );
-    root = container.querySelector('.ant-divider')!;
+    root = container.querySelector('.g-divider')!;
     expect(root).toHaveClass('divider-center');
     expect(root).toHaveStyle({ opacity: 1 });
   });

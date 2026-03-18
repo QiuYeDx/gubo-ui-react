@@ -309,8 +309,8 @@ describe('Locale Provider', () => {
           </Modal>
         </LocaleProvider>,
       );
-      let cancelButtonText = container?.querySelector('button.ant-btn-default span')?.innerHTML;
-      let okButtonText = container?.querySelector('button.ant-btn-primary span')?.innerHTML;
+      let cancelButtonText = container?.querySelector('button.g-btn-default span')?.innerHTML;
+      let okButtonText = container?.querySelector('button.g-btn-primary span')?.innerHTML;
       if (locale.locale.includes('zh-')) {
         cancelButtonText = cancelButtonText?.replace(' ', '');
         okButtonText = okButtonText?.replace(' ', '');

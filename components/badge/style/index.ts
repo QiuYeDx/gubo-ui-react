@@ -107,32 +107,32 @@ export interface BadgeToken extends FullToken<'Badge'> {
   badgeRibbonCornerFilter: string;
 }
 
-const antStatusProcessing = new Keyframes('antStatusProcessing', {
+const gStatusProcessing = new Keyframes('gStatusProcessing', {
   '0%': { transform: 'scale(0.8)', opacity: 0.5 },
   '100%': { transform: 'scale(2.4)', opacity: 0 },
 });
 
-const antZoomBadgeIn = new Keyframes('antZoomBadgeIn', {
+const gZoomBadgeIn = new Keyframes('gZoomBadgeIn', {
   '0%': { transform: 'scale(0) translate(50%, -50%)', opacity: 0 },
   '100%': { transform: 'scale(1) translate(50%, -50%)' },
 });
 
-const antZoomBadgeOut = new Keyframes('antZoomBadgeOut', {
+const gZoomBadgeOut = new Keyframes('gZoomBadgeOut', {
   '0%': { transform: 'scale(1) translate(50%, -50%)' },
   '100%': { transform: 'scale(0) translate(50%, -50%)', opacity: 0 },
 });
 
-const antNoWrapperZoomBadgeIn = new Keyframes('antNoWrapperZoomBadgeIn', {
+const gNoWrapperZoomBadgeIn = new Keyframes('gNoWrapperZoomBadgeIn', {
   '0%': { transform: 'scale(0)', opacity: 0 },
   '100%': { transform: 'scale(1)' },
 });
 
-const antNoWrapperZoomBadgeOut = new Keyframes('antNoWrapperZoomBadgeOut', {
+const gNoWrapperZoomBadgeOut = new Keyframes('gNoWrapperZoomBadgeOut', {
   '0%': { transform: 'scale(1)' },
   '100%': { transform: 'scale(0)', opacity: 0 },
 });
 
-const antBadgeLoadingCircle = new Keyframes('antBadgeLoadingCircle', {
+const gBadgeLoadingCircle = new Keyframes('gBadgeLoadingCircle', {
   '0%': { transformOrigin: '50%' },
   '100%': {
     transform: 'translate(50%, -50%) rotate(360deg)',
@@ -238,7 +238,7 @@ const genSharedBadgeStyle: GenerateStyle<BadgeToken, CSSObject> = (token) => {
         transform: 'translate(50%, -50%)',
         transformOrigin: '100% 0%',
         [`&${iconCls}-spin`]: {
-          animationName: antBadgeLoadingCircle,
+          animationName: gBadgeLoadingCircle,
           animationDuration: '1s',
           animationIterationCount: 'infinite',
           animationTimingFunction: 'linear',
@@ -277,7 +277,7 @@ const genSharedBadgeStyle: GenerateStyle<BadgeToken, CSSObject> = (token) => {
             borderStyle: 'solid',
             borderColor: 'inherit',
             borderRadius: '50%',
-            animationName: antStatusProcessing,
+            animationName: gStatusProcessing,
             animationDuration: token.badgeProcessingDuration,
             animationIterationCount: 'infinite',
             animationTimingFunction: 'ease-in-out',
@@ -303,26 +303,26 @@ const genSharedBadgeStyle: GenerateStyle<BadgeToken, CSSObject> = (token) => {
       },
       ...colorPreset,
       [`${componentCls}-zoom-appear, ${componentCls}-zoom-enter`]: {
-        animationName: antZoomBadgeIn,
+        animationName: gZoomBadgeIn,
         animationDuration: token.motionDurationSlow,
         animationTimingFunction: token.motionEaseOutBack,
         animationFillMode: 'both',
       },
       [`${componentCls}-zoom-leave`]: {
-        animationName: antZoomBadgeOut,
+        animationName: gZoomBadgeOut,
         animationDuration: token.motionDurationSlow,
         animationTimingFunction: token.motionEaseOutBack,
         animationFillMode: 'both',
       },
       [`&${componentCls}-not-a-wrapper`]: {
         [`${componentCls}-zoom-appear, ${componentCls}-zoom-enter`]: {
-          animationName: antNoWrapperZoomBadgeIn,
+          animationName: gNoWrapperZoomBadgeIn,
           animationDuration: token.motionDurationSlow,
           animationTimingFunction: token.motionEaseOutBack,
         },
 
         [`${componentCls}-zoom-leave`]: {
-          animationName: antNoWrapperZoomBadgeOut,
+          animationName: gNoWrapperZoomBadgeOut,
           animationDuration: token.motionDurationSlow,
           animationTimingFunction: token.motionEaseOutBack,
         },

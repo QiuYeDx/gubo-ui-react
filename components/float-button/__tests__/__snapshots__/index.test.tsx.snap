@@ -2,15 +2,15 @@
 
 exports[`FloatButton rtl render component should be rendered correctly in RTL direction 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg ant-btn-rtl css-var-root ant-float-btn-css-var ant-float-btn ant-float-btn-default ant-float-btn-circle ant-float-btn-rtl ant-float-btn-individual ant-float-btn-icon-only"
+  class="g-btn css-var-root g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg g-btn-rtl css-var-root g-float-btn-css-var g-float-btn g-float-btn-default g-float-btn-circle g-float-btn-rtl g-float-btn-individual g-float-btn-icon-only"
   type="button"
 >
   <span
-    class="ant-btn-icon ant-float-btn-icon"
+    class="g-btn-icon g-float-btn-icon"
   >
     <span
       aria-label="file-text"
-      class="anticon anticon-file-text"
+      class="gicon gicon-file-text"
       role="img"
     >
       <svg
@@ -33,15 +33,15 @@ exports[`FloatButton rtl render component should be rendered correctly in RTL di
 
 exports[`FloatButton should correct render 1`] = `
 <button
-  class="ant-btn css-var-root ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg css-var-root ant-float-btn-css-var ant-float-btn ant-float-btn-default ant-float-btn-circle ant-float-btn-individual ant-float-btn-icon-only"
+  class="g-btn css-var-root g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg css-var-root g-float-btn-css-var g-float-btn g-float-btn-default g-float-btn-circle g-float-btn-individual g-float-btn-icon-only"
   type="button"
 >
   <span
-    class="ant-btn-icon ant-float-btn-icon"
+    class="g-btn-icon g-float-btn-icon"
   >
     <span
       aria-label="file-text"
-      class="anticon anticon-file-text"
+      class="gicon gicon-file-text"
       role="img"
     >
       <svg

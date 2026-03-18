@@ -50,14 +50,14 @@ describe('TreeSelect', () => {
         </TreeSelect>,
       );
 
-      expect(container.querySelector('.ant-select-tree-treenode .bamboo')).toBeTruthy();
+      expect(container.querySelector('.g-select-tree-treenode .bamboo')).toBeTruthy();
     });
   });
 
   it('should support notFoundContent', () => {
     const content = 'notFoundContent';
     const { container } = render(<TreeSelect treeIcon open notFoundContent={content} />);
-    expect(container.querySelector('.ant-select-empty')?.innerHTML).toBe(content);
+    expect(container.querySelector('.g-select-empty')?.innerHTML).toBe(content);
   });
 
   it('legacy popupClassName', () => {
@@ -106,7 +106,7 @@ describe('TreeSelect', () => {
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: TreeSelect] `dropdownStyle` is deprecated. Please use `styles.popup.root` instead.',
     );
-    expect(container.querySelector('.ant-select-dropdown')).toBeTruthy();
+    expect(container.querySelector('.g-select-dropdown')).toBeTruthy();
 
     errSpy.mockRestore();
   });
@@ -138,7 +138,7 @@ describe('TreeSelect', () => {
       'Warning: [antd: TreeSelect] `onDropdownVisibleChange` is deprecated. Please use `onOpenChange` instead.',
     );
 
-    fireEvent.mouseDown(container.querySelector('.ant-select')!);
+    fireEvent.mouseDown(container.querySelector('.g-select')!);
     expect(onDropdownVisibleChange).toHaveBeenCalled();
 
     errSpy.mockRestore();
@@ -152,7 +152,7 @@ describe('TreeSelect', () => {
       />,
     );
     expect(
-      container.querySelector('.ant-select-tree-treenode-leaf-last')?.getAttribute('aria-label'),
+      container.querySelector('.g-select-tree-treenode-leaf-last')?.getAttribute('aria-label'),
     ).toBe('label');
   });
 
@@ -164,7 +164,7 @@ describe('TreeSelect', () => {
     expect(errSpy).toHaveBeenCalledWith(
       'Warning: [antd: TreeSelect] `showArrow` is deprecated which will be removed in next major version. It will be a default behavior, you can hide it by setting `suffixIcon` to null.',
     );
-    expect(container.querySelector('.ant-select-show-arrow')).toBeTruthy();
+    expect(container.querySelector('.g-select-show-arrow')).toBeTruthy();
 
     errSpy.mockRestore();
   });
@@ -206,11 +206,11 @@ describe('TreeSelect', () => {
       />,
     );
 
-    const selectRoot = container.querySelector('.ant-tree-select');
-    const prefix = container.querySelector('.ant-select-prefix');
-    const content = container.querySelector('.ant-select-content');
-    const suffix = container.querySelector('.ant-select-suffix');
-    const input = container.querySelector('.ant-select-input');
+    const selectRoot = container.querySelector('.g-tree-select');
+    const prefix = container.querySelector('.g-select-prefix');
+    const content = container.querySelector('.g-select-content');
+    const suffix = container.querySelector('.g-select-suffix');
+    const input = container.querySelector('.g-select-input');
 
     expect(selectRoot).toHaveClass(customClassNames.root);
     expect(prefix).toHaveClass(customClassNames.prefix);
@@ -247,7 +247,7 @@ describe('TreeSelect', () => {
       />,
     );
 
-    const placeholder = container.querySelector('.ant-select-placeholder');
+    const placeholder = container.querySelector('.g-select-placeholder');
 
     expect(placeholder).toHaveClass(customClassNames.placeholder);
     expect(placeholder).toHaveStyle(customStyles.placeholder);
@@ -308,11 +308,11 @@ describe('TreeSelect', () => {
       />,
     );
 
-    const selectedItem = container.querySelector('.ant-select-selection-item');
-    const itemContent = container.querySelector('.ant-select-selection-item-content');
-    const itemRemove = container.querySelector('.ant-select-selection-item-remove');
-    const popup = container.querySelector('.ant-tree-select-dropdown');
-    const itemTitle = container.querySelector('.ant-select-tree-title');
+    const selectedItem = container.querySelector('.g-select-selection-item');
+    const itemContent = container.querySelector('.g-select-selection-item-content');
+    const itemRemove = container.querySelector('.g-select-selection-item-remove');
+    const popup = container.querySelector('.g-tree-select-dropdown');
+    const itemTitle = container.querySelector('.g-select-tree-title');
 
     expect(selectedItem).toHaveClass(customClassNames.item);
     expect(itemContent).toHaveClass(customClassNames.itemContent);
@@ -358,7 +358,7 @@ describe('TreeSelect', () => {
       </Space.Compact>,
     );
     const compactButton = container.querySelector('.test-button');
-    const popupElement = document.querySelector('.ant-select-dropdown');
+    const popupElement = document.querySelector('.g-select-dropdown');
     // selector should have compact
     expect(compactButton).toBeInTheDocument();
     expect(compactButton!.className.includes('compact')).toBeTruthy();

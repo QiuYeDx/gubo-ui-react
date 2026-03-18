@@ -3,23 +3,23 @@
 exports[`TextArea allowClear classNames and styles should work 1`] = `
 <div>
   <textarea
-    class="ant-input custom-textarea ant-input-outlined css-var-root ant-input-css-var custom-class custom-root"
+    class="g-input custom-textarea g-input-outlined css-var-root g-input-css-var custom-class custom-root"
     style="color: red; background: red;"
   />
   <span
-    class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-show-count ant-input-show-count ant-input-outlined css-var-root ant-input-css-var custom-class custom-root"
+    class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-show-count g-input-show-count g-input-outlined css-var-root g-input-css-var custom-class custom-root"
     data-count="0"
     style="color: red; background: red;"
   >
     <textarea
-      class="ant-input custom-textarea"
+      class="g-input custom-textarea"
       style="color: red;"
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <span
-        class="ant-input-data-count custom-count"
+        class="g-input-data-count custom-count"
         style="color: blue;"
       >
         0
@@ -31,24 +31,24 @@ exports[`TextArea allowClear classNames and styles should work 1`] = `
 
 exports[`TextArea allowClear should change type when click 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-root g-input-css-var"
 >
   <textarea
-    class="ant-input"
+    class="g-input"
   >
     111
   </textarea>
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon"
+      class="g-input-clear-icon"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -73,22 +73,22 @@ exports[`TextArea allowClear should change type when click 1`] = `
 
 exports[`TextArea allowClear should change type when click 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-affix-wrapper-focused ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-affix-wrapper-focused g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-root g-input-css-var"
 >
   <textarea
-    class="ant-input"
+    class="g-input"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -113,22 +113,22 @@ exports[`TextArea allowClear should change type when click 2`] = `
 
 exports[`TextArea allowClear should not show icon if defaultValue is undefined, null or empty string 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-root g-input-css-var"
 >
   <textarea
-    class="ant-input"
+    class="g-input"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -153,22 +153,22 @@ exports[`TextArea allowClear should not show icon if defaultValue is undefined, 
 
 exports[`TextArea allowClear should not show icon if defaultValue is undefined, null or empty string 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-root g-input-css-var"
 >
   <textarea
-    class="ant-input"
+    class="g-input"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -193,22 +193,22 @@ exports[`TextArea allowClear should not show icon if defaultValue is undefined, 
 
 exports[`TextArea allowClear should not show icon if defaultValue is undefined, null or empty string 3`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-root g-input-css-var"
 >
   <textarea
-    class="ant-input"
+    class="g-input"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -233,22 +233,22 @@ exports[`TextArea allowClear should not show icon if defaultValue is undefined, 
 
 exports[`TextArea allowClear should not show icon if value is undefined, null or empty string 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-root g-input-css-var"
 >
   <textarea
-    class="ant-input"
+    class="g-input"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -273,22 +273,22 @@ exports[`TextArea allowClear should not show icon if value is undefined, null or
 
 exports[`TextArea allowClear should not show icon if value is undefined, null or empty string 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-root g-input-css-var"
 >
   <textarea
-    class="ant-input"
+    class="g-input"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -313,22 +313,22 @@ exports[`TextArea allowClear should not show icon if value is undefined, null or
 
 exports[`TextArea allowClear should not show icon if value is undefined, null or empty string 3`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-textarea-affix-wrapper ant-input-textarea-allow-clear ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-textarea-affix-wrapper g-input-textarea-allow-clear g-input-outlined css-var-root g-input-css-var"
 >
   <textarea
-    class="ant-input"
+    class="g-input"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -353,20 +353,20 @@ exports[`TextArea allowClear should not show icon if value is undefined, null or
 
 exports[`TextArea maxLength should support maxLength 1`] = `
 <textarea
-  class="ant-input ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input g-input-outlined css-var-root g-input-css-var"
   maxlength="10"
 />
 `;
 
 exports[`TextArea should support disabled 1`] = `
 <textarea
-  class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-disabled"
+  class="g-input g-input-outlined css-var-root g-input-css-var g-input-disabled"
   disabled=""
 />
 `;
 
 exports[`TextArea should support size 1`] = `
 <textarea
-  class="ant-input ant-input-lg ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input g-input-lg g-input-outlined css-var-root g-input-css-var"
 />
 `;

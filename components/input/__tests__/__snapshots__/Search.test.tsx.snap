@@ -2,23 +2,23 @@
 
 exports[`Input.Search rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-space-compact ant-space-compact-rtl ant-input-search css-var-root ant-input-search-rtl"
+  class="g-space-compact g-space-compact-rtl g-input-search css-var-root g-input-search-rtl"
 >
   <input
-    class="ant-input ant-input-rtl ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item ant-input-compact-item-rtl"
+    class="g-input g-input-rtl g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item g-input-compact-item-rtl"
     type="search"
     value=""
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-rtl ant-btn-compact-item ant-btn-compact-last-item ant-btn-compact-item-rtl ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-rtl g-btn-compact-item g-btn-compact-last-item g-btn-compact-item-rtl g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
     >
       <span
         aria-label="search"
-        class="anticon anticon-search"
+        class="gicon gicon-search"
         role="img"
       >
         <svg
@@ -42,18 +42,18 @@ exports[`Input.Search rtl render component should be rendered correctly in RTL d
 
 exports[`Input.Search should support ReactNode suffix without error 1`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root"
+  class="g-space-compact g-input-search css-var-root"
 >
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
   >
     <input
-      class="ant-input"
+      class="g-input"
       type="search"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       <div>
         ok
@@ -61,15 +61,15 @@ exports[`Input.Search should support ReactNode suffix without error 1`] = `
     </span>
   </span>
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
     >
       <span
         aria-label="search"
-        class="anticon anticon-search"
+        class="gicon gicon-search"
         role="img"
       >
         <svg
@@ -93,23 +93,23 @@ exports[`Input.Search should support ReactNode suffix without error 1`] = `
 
 exports[`Input.Search should support addonAfter 1`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root"
+  class="g-space-compact g-input-search css-var-root"
 >
   <input
-    class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
     type="search"
     value=""
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
     >
       <span
         aria-label="search"
-        class="anticon anticon-search"
+        class="gicon gicon-search"
         role="img"
       >
         <svg
@@ -136,23 +136,23 @@ exports[`Input.Search should support addonAfter 1`] = `
 
 exports[`Input.Search should support addonAfter 2`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root ant-input-search-with-button"
+  class="g-space-compact g-input-search css-var-root g-input-search-with-button"
 >
   <input
-    class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
     type="search"
     value=""
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
     >
       <span
         aria-label="search"
-        class="anticon anticon-search"
+        class="gicon gicon-search"
         role="img"
       >
         <svg
@@ -179,32 +179,32 @@ exports[`Input.Search should support addonAfter 2`] = `
 
 exports[`Input.Search should support addonAfter and suffix for loading 1`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root"
+  class="g-space-compact g-input-search css-var-root"
 >
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
   >
     <input
-      class="ant-input"
+      class="g-input"
       type="search"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       suffix
     </span>
   </span>
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-loading ant-btn-compact-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-loading g-btn-compact-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -229,32 +229,32 @@ exports[`Input.Search should support addonAfter and suffix for loading 1`] = `
 
 exports[`Input.Search should support addonAfter and suffix for loading 2`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root ant-input-search-with-button"
+  class="g-space-compact g-input-search css-var-root g-input-search-with-button"
 >
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
   >
     <input
-      class="ant-input"
+      class="g-input"
       type="search"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     >
       suffix
     </span>
   </span>
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-loading ant-btn-compact-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-loading g-btn-compact-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -279,15 +279,15 @@ exports[`Input.Search should support addonAfter and suffix for loading 2`] = `
 
 exports[`Input.Search should support custom Button 1`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root ant-input-search-with-button"
+  class="g-space-compact g-input-search css-var-root g-input-search-with-button"
 >
   <input
-    class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
     type="search"
     value=""
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
     type="button"
   >
     <span>
@@ -299,10 +299,10 @@ exports[`Input.Search should support custom Button 1`] = `
 
 exports[`Input.Search should support custom button 1`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root ant-input-search-with-button"
+  class="g-space-compact g-input-search css-var-root g-input-search-with-button"
 >
   <input
-    class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
     type="search"
     value=""
   />
@@ -316,23 +316,23 @@ exports[`Input.Search should support custom button 1`] = `
 
 exports[`Input.Search should support invalid addonAfter 1`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root ant-input-search-with-button"
+  class="g-space-compact g-input-search css-var-root g-input-search-with-button"
 >
   <input
-    class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
     type="search"
     value=""
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
     >
       <span
         aria-label="search"
-        class="anticon anticon-search"
+        class="gicon gicon-search"
         role="img"
       >
         <svg
@@ -356,30 +356,30 @@ exports[`Input.Search should support invalid addonAfter 1`] = `
 
 exports[`Input.Search should support invalid suffix 1`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root"
+  class="g-space-compact g-input-search css-var-root"
 >
   <span
-    class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
   >
     <input
-      class="ant-input"
+      class="g-input"
       type="search"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="g-input-suffix"
     />
   </span>
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
     >
       <span
         aria-label="search"
-        class="anticon anticon-search"
+        class="gicon gicon-search"
         role="img"
       >
         <svg
@@ -403,23 +403,23 @@ exports[`Input.Search should support invalid suffix 1`] = `
 
 exports[`Input.Search should support loading 1`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root"
+  class="g-space-compact g-input-search css-var-root"
 >
   <input
-    class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
     type="search"
     value=""
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-loading ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-loading g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg
@@ -443,23 +443,23 @@ exports[`Input.Search should support loading 1`] = `
 
 exports[`Input.Search should support loading 2`] = `
 <div
-  class="ant-space-compact ant-input-search css-var-root ant-input-search-with-button"
+  class="g-space-compact g-input-search css-var-root g-input-search-with-button"
 >
   <input
-    class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-compact-item ant-input-compact-first-item"
+    class="g-input g-input-outlined css-var-root g-input-css-var g-input-compact-item g-input-compact-first-item"
     type="search"
     value=""
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-primary ant-btn-variant-solid ant-btn-loading ant-btn-compact-item ant-btn-compact-last-item ant-input-search-btn"
+    class="g-btn css-var-root g-btn-default g-btn-color-primary g-btn-varig-solid g-btn-loading g-btn-compact-item g-btn-compact-last-item g-input-search-btn"
     type="button"
   >
     <span
-      class="ant-btn-icon ant-btn-loading-icon"
+      class="g-btn-icon g-btn-loading-icon"
     >
       <span
         aria-label="loading"
-        class="anticon anticon-loading anticon-spin"
+        class="gicon gicon-loading gicon-spin"
         role="img"
       >
         <svg

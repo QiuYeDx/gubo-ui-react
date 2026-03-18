@@ -69,7 +69,7 @@ const Responsive: React.FC = () => {
             border-inline-end: 0;
           }
 
-          .ant-row-rtl {
+          .g-row-rtl {
             margin-inline-end: 0;
             margin-inline-start: 0;
             padding-inline-end: ${token.padding}px;
@@ -89,15 +89,15 @@ const Responsive: React.FC = () => {
           .prev-next-nav {
             width: calc(100% - 32px);
             margin-inline-start: ${token.margin}px;
-            .ant-row-rtl & {
+            .g-row-rtl & {
               margin-inline-end: ${token.margin}px;
               margin-inline-start: 64px;
             }
           }
 
           .drawer {
-            .ant-menu-inline .ant-menu-item::after,
-            .ant-menu-vertical .ant-menu-item::after {
+            .g-menu-inline .g-menu-item::after,
+            .g-menu-vertical .g-menu-item::after {
               inset-inline-end: auto;
               inset-inline-start: 0;
             }
@@ -178,7 +178,7 @@ const Responsive: React.FC = () => {
                 min-width: 100%;
                 margin-top: ${token.marginXL}px;
 
-                .ant-divider {
+                .g-divider {
                   display: none;
                 }
 
@@ -197,7 +197,7 @@ const Responsive: React.FC = () => {
           .page1 {
             min-height: 1300px;
 
-            .ant-row {
+            .g-row {
               margin: 24px auto 64px;
               > div {
                 margin-bottom: 48px;
@@ -292,7 +292,7 @@ const Responsive: React.FC = () => {
             background-image: url('https://gw.alipayobjects.com/zos/rmsportal/qICoJIqqQRMeRGhPHBBS.svg');
             background-repeat: no-repeat;
             background-size: cover;
-            .ant-row {
+            .g-row {
               margin: 0 ${token.marginXS}px;
             }
 

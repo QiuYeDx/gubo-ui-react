@@ -2,13 +2,13 @@
 
 exports[`AutoComplete rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-select ant-select-rtl ant-select-outlined ant-select-auto-complete css-var-root ant-select-css-var ant-select-single ant-select-show-search"
+  class="g-select g-select-rtl g-select-outlined g-select-auto-complete css-var-root g-select-css-var g-select-single g-select-show-search"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility: visible;"
     />
     <input
@@ -16,7 +16,7 @@ exports[`AutoComplete rtl render component should be rendered correctly in RTL d
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       role="combobox"
       type="text"

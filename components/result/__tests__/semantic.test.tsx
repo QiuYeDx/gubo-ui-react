@@ -36,12 +36,12 @@ describe('Result.Semantic', () => {
       </Result>,
     );
 
-    const resultElement = container.querySelector<HTMLElement>('.ant-result');
-    const resultTitleElement = container.querySelector<HTMLElement>('.ant-result-title');
-    const resultSubTitleElement = container.querySelector<HTMLElement>('.ant-result-subtitle');
-    const resultBodyElement = container.querySelector<HTMLElement>('.ant-result-body');
-    const resultExtraElement = container.querySelector<HTMLElement>('.ant-result-extra');
-    const resultIconElement = container.querySelector<HTMLElement>('.ant-result-icon');
+    const resultElement = container.querySelector<HTMLElement>('.g-result');
+    const resultTitleElement = container.querySelector<HTMLElement>('.g-result-title');
+    const resultSubTitleElement = container.querySelector<HTMLElement>('.g-result-subtitle');
+    const resultBodyElement = container.querySelector<HTMLElement>('.g-result-body');
+    const resultExtraElement = container.querySelector<HTMLElement>('.g-result-extra');
+    const resultIconElement = container.querySelector<HTMLElement>('.g-result-icon');
 
     // check classNames
     expect(resultElement).toHaveClass('custom-root');
@@ -79,7 +79,7 @@ describe('Result.Semantic', () => {
       <Result status="success" title="Success" classNames={classNamesFn} styles={stylesFn} />,
     );
 
-    const resultElement = container.querySelector<HTMLElement>('.ant-result');
+    const resultElement = container.querySelector<HTMLElement>('.g-result');
     expect(resultElement).toHaveClass('success-result');
     expect(resultElement).toHaveStyle({ backgroundColor: 'rgb(0, 128, 0)' });
 

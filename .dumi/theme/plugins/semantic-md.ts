@@ -416,8 +416,8 @@ function getComponentHTMLSnapshot(semanticFile: string, cwd: string): string | n
       // 遇到布局容器时停止，避免包含 SemanticPreview 的外层容器
       if (
         !parent ||
-        parent.classList.contains('ant-row') ||
-        parent.classList.contains('ant-col') ||
+        parent.classList.contains('g-row') ||
+        parent.classList.contains('g-col') ||
         parent.classList.contains('acss-') ||
         parent === document.body ||
         parent === document.documentElement

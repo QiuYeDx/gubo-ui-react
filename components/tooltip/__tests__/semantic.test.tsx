@@ -22,8 +22,8 @@ describe('Tooltip.Semantic', () => {
       </Tooltip>,
     );
 
-    const tooltipElement = container.querySelector('.ant-tooltip');
-    const tooltipInner = container.querySelector('.ant-tooltip-container');
+    const tooltipElement = container.querySelector('.g-tooltip');
+    const tooltipInner = container.querySelector('.g-tooltip-container');
 
     expect(tooltipElement).toHaveClass(classNames.root!);
     expect(tooltipInner).toHaveClass(classNames.container!);
@@ -59,8 +59,8 @@ describe('Tooltip.Semantic', () => {
       </Tooltip>,
     );
 
-    const tooltipElement = container.querySelector('.ant-tooltip');
-    const tooltipContainer = container.querySelector('.ant-tooltip-container');
+    const tooltipElement = container.querySelector('.g-tooltip');
+    const tooltipContainer = container.querySelector('.g-tooltip-container');
 
     expect(tooltipElement).toHaveClass('blue-tooltip');
     expect(tooltipContainer).toHaveStyle('font-size: 16px');

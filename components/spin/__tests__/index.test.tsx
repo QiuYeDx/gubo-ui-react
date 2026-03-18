@@ -26,7 +26,7 @@ describe('Spin', () => {
       </Spin>,
     );
     // After refactoring, the root element is the spin element itself
-    expect(container.querySelector<HTMLElement>('.ant-spin')).toHaveStyle({ padding: '20px' });
+    expect(container.querySelector<HTMLElement>('.g-spin')).toHaveStyle({ padding: '20px' });
   });
 
   it('should not apply nested styles when full screen', () => {
@@ -35,7 +35,7 @@ describe('Spin', () => {
         <div>content</div>
       </Spin>,
     );
-    expect(container.querySelector<HTMLElement>('ant-spin-nested-loading')).toBeNull();
+    expect(container.querySelector<HTMLElement>('g-spin-nested-loading')).toBeNull();
   });
 
   it("should render custom indicator when it's set", () => {
@@ -47,10 +47,10 @@ describe('Spin', () => {
   it('should be controlled by spinning', async () => {
     jest.useFakeTimers();
     const { container, rerender } = render(<Spin spinning={false} />);
-    expect(container.querySelector('.ant-spin-spinning')).toBeFalsy();
+    expect(container.querySelector('.g-spin-spinning')).toBeFalsy();
     rerender(<Spin spinning />);
     await waitFakeTimer();
-    expect(container.querySelector('.ant-spin-spinning')).toBeTruthy();
+    expect(container.querySelector('.g-spin-spinning')).toBeTruthy();
     jest.clearAllTimers();
     jest.useRealTimers();
   });
@@ -69,12 +69,12 @@ describe('Spin', () => {
 
   it('should render 0', () => {
     const { container } = render(<Spin>{0}</Spin>);
-    expect(container.querySelector('.ant-spin-container')?.textContent).toBe('0');
+    expect(container.querySelector('.g-spin-container')?.textContent).toBe('0');
   });
 
   it('right style when fullscreen', () => {
     const { container } = render(<Spin fullscreen spinning />);
-    const element = container.querySelector<HTMLDivElement>('.ant-spin-fullscreen');
+    const element = container.querySelector<HTMLDivElement>('.g-spin-fullscreen');
     expect(element).not.toHaveStyle({ pointerEvents: 'none' });
   });
 
@@ -207,7 +207,7 @@ describe('Spin', () => {
         </Spin>,
       );
 
-      expect(container.querySelector('.ant-spin-description')?.textContent).toBe('Loading...');
+      expect(container.querySelector('.g-spin-description')?.textContent).toBe('Loading...');
     });
 
     it('should warning when using wrapperClassName', () => {

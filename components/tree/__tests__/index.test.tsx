@@ -190,7 +190,7 @@ describe('Tree', () => {
 
     it('hide icon', () => {
       const { container } = render(<Tree treeData={dragTreeData} draggable={{ icon: false }} />);
-      expect(container.querySelector('.anticon-holder')).toBeFalsy();
+      expect(container.querySelector('.gicon-holder')).toBeFalsy();
     });
 
     it('customize icon', () => {
@@ -223,7 +223,7 @@ describe('Tree', () => {
           </TreeNode>
         </Tree>,
       );
-      container.querySelectorAll('.ant-tree-switcher').forEach((el) => {
+      container.querySelectorAll('.g-tree-switcher').forEach((el) => {
         expect(el.children.length).toBe(0);
       });
     });
@@ -236,7 +236,7 @@ describe('Tree', () => {
           </TreeNode>
         </Tree>,
       );
-      container.querySelectorAll('.ant-tree-switcher').forEach((el) => {
+      container.querySelectorAll('.g-tree-switcher').forEach((el) => {
         expect(el.children.length).toBe(0);
       });
     });
@@ -282,10 +282,10 @@ describe('Tree', () => {
         classNames={testClassNames}
       />,
     );
-    const root = container.querySelector('.ant-tree');
-    const title = container.querySelector('.ant-tree-title');
+    const root = container.querySelector('.g-tree');
+    const title = container.querySelector('.g-tree-title');
     const item = container.querySelector(`.${testClassNames.item}`);
-    const icon = container.querySelector('.ant-tree-iconEle');
+    const icon = container.querySelector('.g-tree-iconEle');
 
     expect(root).toHaveStyle(testStyles.root);
     expect(root).toHaveClass(testClassNames.root);
@@ -309,7 +309,7 @@ describe('Tree', () => {
         </Form>,
       );
 
-      expect(container.querySelector('.ant-tree.ant-tree-disabled')).toBeTruthy();
+      expect(container.querySelector('.g-tree.g-tree-disabled')).toBeTruthy();
     });
 
     it('set Tree enabled when ConfigProvider componentDisabled is false', () => {
@@ -334,9 +334,9 @@ describe('Tree', () => {
         </Form>,
       );
 
-      const trees = container.querySelectorAll('.ant-tree');
-      expect(trees[0]).not.toHaveClass('ant-tree-disabled');
-      expect(trees[1]).toHaveClass('ant-tree-disabled');
+      const trees = container.querySelectorAll('.g-tree');
+      expect(trees[0]).not.toHaveClass('g-tree-disabled');
+      expect(trees[1]).toHaveClass('g-tree-disabled');
     });
   });
 });

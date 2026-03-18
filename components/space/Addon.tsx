@@ -40,7 +40,7 @@ const SpaceAddon = React.forwardRef<HTMLDivElement, SpaceCompactCellProps>((prop
     hashId,
     compactItemClassnames,
     cssVarCls,
-    `${prefixCls}-variant-${variant}`,
+    `${prefixCls}-varig-${variant}`,
     statusCls,
     {
       [`${prefixCls}-${compactSize}`]: compactSize,

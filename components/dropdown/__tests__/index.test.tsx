@@ -185,7 +185,7 @@ describe('Dropdown', () => {
     });
 
     // Close
-    fireEvent.click(container.querySelector('.ant-dropdown-menu-item')!);
+    fireEvent.click(container.querySelector('.g-dropdown-menu-item')!);
 
     // Force Motion move on
     for (let i = 0; i < 10; i += 1) {
@@ -195,9 +195,9 @@ describe('Dropdown', () => {
     }
 
     // Motion End
-    fireEvent.animationEnd(container.querySelector('.ant-slide-up-leave-active')!);
+    fireEvent.animationEnd(container.querySelector('.g-slide-up-leave-active')!);
 
-    expect(container.querySelector('.ant-dropdown-hidden')).toBeTruthy();
+    expect(container.querySelector('.g-dropdown-hidden')).toBeTruthy();
 
     jest.useRealTimers();
   });
@@ -305,7 +305,7 @@ describe('Dropdown', () => {
     });
 
     // Selecting item
-    fireEvent.click(container.querySelector('.ant-dropdown-menu-item')!);
+    fireEvent.click(container.querySelector('.g-dropdown-menu-item')!);
 
     // Force Motion move on
     for (let i = 0; i < 10; i += 1) {
@@ -313,7 +313,7 @@ describe('Dropdown', () => {
         jest.runAllTimers();
       });
     }
-    expect(container.querySelector('.ant-dropdown-hidden')).toBeFalsy();
+    expect(container.querySelector('.g-dropdown-hidden')).toBeFalsy();
     jest.useRealTimers();
   });
 
@@ -364,9 +364,9 @@ describe('Dropdown', () => {
     );
 
     expect(
-      container.querySelector('.ant-dropdown-menu-title-content-with-extra'),
+      container.querySelector('.g-dropdown-menu-title-content-with-extra'),
     ).toBeInTheDocument();
-    expect(container.querySelector('.ant-dropdown-menu-item-extra')?.textContent).toBe(text);
+    expect(container.querySelector('.g-dropdown-menu-item-extra')?.textContent).toBe(text);
   });
 
   it('should show correct arrow direction in rtl mode', () => {
@@ -395,10 +395,8 @@ describe('Dropdown', () => {
       </ConfigProvider>,
     );
     expect(
-      container.querySelector(
-        '.ant-dropdown-menu-submenu-arrow .ant-dropdown-menu-submenu-arrow-icon',
-      ),
-    ).toHaveClass('anticon-left');
+      container.querySelector('.g-dropdown-menu-submenu-arrow .g-dropdown-menu-submenu-arrow-icon'),
+    ).toHaveClass('gicon-left');
   });
 
   it('closure item click', () => {
@@ -504,11 +502,11 @@ describe('Dropdown', () => {
       </Dropdown>,
     );
 
-    const root = container.querySelector('.ant-dropdown');
-    const item = container.querySelector('.ant-dropdown-menu-item');
-    const itemIcon = container.querySelector('.ant-dropdown-menu-item-icon');
-    const itemContent = container.querySelector('.ant-dropdown-menu-title-content');
-    const itemTitle = container.querySelector('.ant-dropdown-menu-item-group-title');
+    const root = container.querySelector('.g-dropdown');
+    const item = container.querySelector('.g-dropdown-menu-item');
+    const itemIcon = container.querySelector('.g-dropdown-menu-item-icon');
+    const itemContent = container.querySelector('.g-dropdown-menu-title-content');
+    const itemTitle = container.querySelector('.g-dropdown-menu-item-group-title');
 
     expect(root).toHaveClass('test-root-topCenter');
     expect(item).toHaveClass('test-item');

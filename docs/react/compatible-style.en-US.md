@@ -41,8 +41,8 @@ export default () => (
 It will turn `:where` to class selector:
 
 ```diff
---  :where(.css-bAMboO).ant-btn {
-++  .css-bAMboO.ant-btn {
+--  :where(.css-bAMboO).g-btn {
+++  .css-bAMboO.g-btn {
       color: #fff;
     }
 ```
@@ -86,7 +86,7 @@ export default () => (
 When toggled, styles will downgrade CSS logical properties:
 
 ```diff
-.ant-modal-root {
+.g-modal-root {
 -- inset: 0;
 ++ top: 0;
 ++ right: 0;
@@ -122,7 +122,7 @@ antd styles will be encapsulated in `@layer` to lower the priority:
 
 ```diff
 ++  @layer antd {
-      :where(.css-bAMboO).ant-btn {
+      :where(.css-bAMboO).g-btn {
         color: #fff;
       }
 ++  }

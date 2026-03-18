@@ -44,11 +44,11 @@ describe('Menu', () => {
   ) => {
     const { container } = instance;
 
-    expect(container.querySelectorAll('ul.ant-menu-sub')).toHaveLength(0);
+    expect(container.querySelectorAll('ul.g-menu-sub')).toHaveLength(0);
     const animationClassNames = {
-      horizontal: 'ant-slide-up-leave',
-      inline: 'ant-motion-collapse-leave',
-      vertical: 'ant-zoom-big-leave',
+      horizontal: 'g-slide-up-leave',
+      inline: 'g-motion-collapse-leave',
+      vertical: 'g-zoom-big-leave',
     };
 
     const mode = defaultTestProps.mode || 'horizontal';
@@ -62,12 +62,12 @@ describe('Menu', () => {
 
     const getSubMenu = () =>
       container.querySelector<HTMLElement>(
-        mode === 'inline' ? 'ul.ant-menu-sub.ant-menu-inline' : 'div.ant-menu-submenu-popup',
+        mode === 'inline' ? 'ul.g-menu-sub.g-menu-inline' : 'div.g-menu-submenu-popup',
       );
 
     if (getSubMenu()) {
       expect(getSubMenu()).not.toHaveClass(
-        new RegExp(`(${['ant-menu-hidden', animationClassNames[mode]].join('|')})`),
+        new RegExp(`(${['g-menu-hidden', animationClassNames[mode]].join('|')})`),
       );
     }
 
@@ -80,7 +80,7 @@ describe('Menu', () => {
 
     if (getSubMenu()) {
       expect(getSubMenu()).toHaveClass(
-        new RegExp(`(${['ant-menu-hidden', animationClassNames[mode]].join('|')})`),
+        new RegExp(`(${['g-menu-hidden', animationClassNames[mode]].join('|')})`),
       );
     }
   };
@@ -151,7 +151,7 @@ describe('Menu', () => {
         <Menu.Item key="2">menu2</Menu.Item>
       </Menu>,
     );
-    expect(container.querySelectorAll('li.ant-menu-submenu-selected').length).toBe(1);
+    expect(container.querySelectorAll('li.g-menu-submenu-selected').length).toBe(1);
   });
 
   it('forceSubMenuRender', () => {
@@ -191,7 +191,7 @@ describe('Menu', () => {
     );
 
     expect(
-      container.querySelector('.ant-menu-submenu-open')?.querySelector('.ant-menu-submenu-title')
+      container.querySelector('.g-menu-submenu-open')?.querySelector('.g-menu-submenu-title')
         ?.textContent,
     ).toEqual('submenu1');
   });
@@ -208,7 +208,7 @@ describe('Menu', () => {
     );
 
     expect(
-      container.querySelector('.ant-menu-submenu-open')?.querySelector('.ant-menu-submenu-title')
+      container.querySelector('.g-menu-submenu-open')?.querySelector('.g-menu-submenu-title')
         ?.textContent,
     ).toEqual('submenu1');
   });
@@ -223,7 +223,7 @@ describe('Menu', () => {
         <Menu.Item key="2">menu2</Menu.Item>
       </Menu>,
     );
-    expect(container.querySelector('.ant-menu-sub')).toBeFalsy();
+    expect(container.querySelector('.g-menu-sub')).toBeFalsy();
   });
 
   it('should accept openKeys in mode horizontal', () => {
@@ -237,8 +237,8 @@ describe('Menu', () => {
       </Menu>,
     );
     triggerAllTimer();
-    expect(container.querySelector('div.ant-menu-submenu-popup')).not.toHaveClass(
-      'ant-menu-submenu-hidden',
+    expect(container.querySelector('div.g-menu-submenu-popup')).not.toHaveClass(
+      'g-menu-submenu-hidden',
     );
   });
 
@@ -252,7 +252,7 @@ describe('Menu', () => {
         <Menu.Item key="2">menu2</Menu.Item>
       </Menu>,
     );
-    expect(container.querySelector('ul.ant-menu-sub')).not.toHaveClass('ant-menu-hidden');
+    expect(container.querySelector('ul.g-menu-sub')).not.toHaveClass('g-menu-hidden');
   });
 
   it('should accept openKeys in mode vertical', () => {
@@ -266,8 +266,8 @@ describe('Menu', () => {
       </Menu>,
     );
     triggerAllTimer();
-    expect(container.querySelector('div.ant-menu-submenu-popup')).not.toHaveClass(
-      'ant-menu-submenu-hidden',
+    expect(container.querySelector('div.g-menu-submenu-popup')).not.toHaveClass(
+      'g-menu-submenu-hidden',
     );
   });
 
@@ -355,8 +355,8 @@ describe('Menu', () => {
           jest.runAllTimers();
         });
 
-        expect(container.querySelector('ul.ant-menu-root')).toHaveClass('ant-menu-dark');
-        expect(container.querySelector('div.ant-menu-submenu-popup')).toHaveClass('ant-menu-light');
+        expect(container.querySelector('ul.g-menu-root')).toHaveClass('g-menu-dark');
+        expect(container.querySelector('div.g-menu-submenu-popup')).toHaveClass('g-menu-light');
       });
     });
   });
@@ -392,13 +392,13 @@ describe('Menu', () => {
     );
 
     const { container, rerender } = render(<Demo />);
-    expect(container.querySelector('ul.ant-menu-sub')).not.toHaveClass('ant-menu-hidden');
+    expect(container.querySelector('ul.g-menu-sub')).not.toHaveClass('g-menu-hidden');
 
     rerender(<Demo mode="vertical" />);
-    expect(container.querySelector('ul.ant-menu-sub')).not.toHaveClass('ant-menu-hidden');
+    expect(container.querySelector('ul.g-menu-sub')).not.toHaveClass('g-menu-hidden');
 
     rerender(<Demo mode="inline" />);
-    expect(container.querySelector('ul.ant-menu-sub')).not.toHaveClass('ant-menu-hidden');
+    expect(container.querySelector('ul.g-menu-sub')).not.toHaveClass('g-menu-hidden');
   });
 
   it('should always follow openKeys when inlineCollapsed is switched', () => {
@@ -415,9 +415,7 @@ describe('Menu', () => {
     );
     const { container, rerender } = render(<Demo />);
 
-    expect(container.querySelector('li.ant-menu-submenu-inline')).toHaveClass(
-      'ant-menu-submenu-open',
-    );
+    expect(container.querySelector('li.g-menu-submenu-inline')).toHaveClass('g-menu-submenu-open');
     // inlineCollapsed
     rerender(<Demo inlineCollapsed />);
 
@@ -425,8 +423,8 @@ describe('Menu', () => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelector('ul.ant-menu-root')).toHaveClass('ant-menu-vertical');
-    expect(container.querySelector('.ant-menu-submenu-popup')).toBeFalsy();
+    expect(container.querySelector('ul.g-menu-root')).toHaveClass('g-menu-vertical');
+    expect(container.querySelector('.g-menu-submenu-popup')).toBeFalsy();
 
     // !inlineCollapsed
     rerender(<Demo inlineCollapsed={false} />);
@@ -435,10 +433,8 @@ describe('Menu', () => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelector('ul.ant-menu-sub')).toHaveClass('ant-menu-inline');
-    expect(container.querySelector('li.ant-menu-submenu-inline')).toHaveClass(
-      'ant-menu-submenu-open',
-    );
+    expect(container.querySelector('ul.g-menu-sub')).toHaveClass('g-menu-inline');
+    expect(container.querySelector('li.g-menu-submenu-inline')).toHaveClass('g-menu-submenu-open');
   });
 
   it('inlineCollapsed should works well when specify a not existed default openKeys', () => {
@@ -455,7 +451,7 @@ describe('Menu', () => {
     );
     const { container, rerender } = render(<Demo />);
 
-    expect(container.querySelectorAll('.ant-menu-sub')).toHaveLength(0);
+    expect(container.querySelectorAll('.g-menu-sub')).toHaveLength(0);
 
     rerender(<Demo inlineCollapsed />);
     act(() => {
@@ -468,13 +464,13 @@ describe('Menu', () => {
       jest.runAllTimers();
     });
 
-    fireEvent.mouseEnter(container.querySelector('.ant-menu-submenu-title')!);
+    fireEvent.mouseEnter(container.querySelector('.g-menu-submenu-title')!);
     triggerAllTimer();
 
-    expect(container.querySelector('.ant-menu-submenu')).toHaveClass('ant-menu-submenu-vertical');
-    expect(container.querySelector('.ant-menu-submenu')).toHaveClass('ant-menu-submenu-open');
-    expect(container.querySelector('ul.ant-menu-sub')).toHaveClass('ant-menu-vertical');
-    expect(container.querySelector('ul.ant-menu-sub')).not.toHaveClass('ant-menu-hidden');
+    expect(container.querySelector('.g-menu-submenu')).toHaveClass('g-menu-submenu-vertical');
+    expect(container.querySelector('.g-menu-submenu')).toHaveClass('g-menu-submenu-open');
+    expect(container.querySelector('ul.g-menu-sub')).toHaveClass('g-menu-vertical');
+    expect(container.querySelector('ul.g-menu-sub')).not.toHaveClass('g-menu-hidden');
   });
 
   it('inlineCollapsed Menu.Item Tooltip can be removed', () => {
@@ -503,19 +499,19 @@ describe('Menu', () => {
         </Menu.Item>
       </Menu>,
     );
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[0]);
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[1]);
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[2]);
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[3]);
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[4]);
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[5]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[0]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[1]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[2]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[3]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[4]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[5]);
 
     triggerAllTimer();
     // when title is null or '' and false, tooltip will not render.
-    expect(container.querySelectorAll('.ant-tooltip-container').length).toBe(3);
-    expect(container.querySelectorAll('.ant-tooltip-container')[0].textContent).toBe('item');
-    expect(container.querySelectorAll('.ant-tooltip-container')[1].textContent).toBe('title');
-    expect(container.querySelectorAll('.ant-tooltip-container')[2].textContent).toBe('item');
+    expect(container.querySelectorAll('.g-tooltip-container').length).toBe(3);
+    expect(container.querySelectorAll('.g-tooltip-container')[0].textContent).toBe('item');
+    expect(container.querySelectorAll('.g-tooltip-container')[1].textContent).toBe('title');
+    expect(container.querySelectorAll('.g-tooltip-container')[2].textContent).toBe('item');
   });
 
   it('inlineCollapsed Menu.Item Tooltip can be disabled by prop', () => {
@@ -531,10 +527,10 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[0]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[0]);
     triggerAllTimer();
 
-    expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+    expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
   });
 
   it('inlineCollapsed Menu.Item Tooltip should support custom props', () => {
@@ -552,14 +548,14 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[0]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[0]);
     triggerAllTimer();
 
-    const tooltipNode = container.querySelector('.ant-tooltip');
-    expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe('Custom Title');
-    expect(tooltipNode).toHaveClass('ant-tooltip-placement-left');
+    const tooltipNode = container.querySelector('.g-tooltip');
+    expect(container.querySelector('.g-tooltip-container')?.textContent).toBe('Custom Title');
+    expect(tooltipNode).toHaveClass('g-tooltip-placement-left');
     expect(tooltipNode).toHaveClass('custom-root');
-    expect(tooltipNode).toHaveClass('ant-menu-inline-collapsed-tooltip');
+    expect(tooltipNode).toHaveClass('g-menu-inline-collapsed-tooltip');
   });
 
   it('inlineCollapsed Menu.Item Tooltip should support classNames function', () => {
@@ -576,13 +572,13 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[0]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[0]);
     triggerAllTimer();
 
     expect(classNamesFn).toHaveBeenCalled();
-    const tooltipNode = container.querySelector('.ant-tooltip');
+    const tooltipNode = container.querySelector('.g-tooltip');
     expect(tooltipNode).toHaveClass('fn-root');
-    expect(tooltipNode).toHaveClass('ant-menu-inline-collapsed-tooltip');
+    expect(tooltipNode).toHaveClass('g-menu-inline-collapsed-tooltip');
   });
 
   it('Menu.Item should not render Tooltip when inlineCollapsed is false even with tooltip prop', () => {
@@ -597,12 +593,12 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    fireEvent.mouseEnter(container.querySelectorAll('li.ant-menu-item')[0]);
+    fireEvent.mouseEnter(container.querySelectorAll('li.g-menu-item')[0]);
     act(() => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+    expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
   });
 
   describe('open submenu when click submenu title', () => {
@@ -611,7 +607,7 @@ describe('Menu', () => {
       index: number,
       event: MouseEvent,
     ): void => {
-      fireEvent[event](instance.container.querySelectorAll('.ant-menu-submenu-title')[index]);
+      fireEvent[event](instance.container.querySelectorAll('.g-menu-submenu-title')[index]);
       triggerAllTimer();
     };
 
@@ -656,7 +652,7 @@ describe('Menu', () => {
         </Menu>,
       );
 
-      fireEvent.click(container.querySelector('.ant-menu-submenu-title')!);
+      fireEvent.click(container.querySelector('.g-menu-submenu-title')!);
 
       triggerAllTimer();
 
@@ -766,9 +762,9 @@ describe('Menu', () => {
         </Menu.Item>
       </Menu>,
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-menu-item')!);
+    fireEvent.mouseEnter(container.querySelector('.g-menu-item')!);
     triggerAllTimer();
-    expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe('bamboo lucky');
+    expect(container.querySelector('.g-tooltip-container')?.textContent).toBe('bamboo lucky');
   });
 
   it('render correctly when using with Layout.Sider', () => {
@@ -796,16 +792,16 @@ describe('Menu', () => {
 
     const { container } = render(<Demo />);
 
-    expect(container.querySelector('ul.ant-menu-root')).toHaveClass('ant-menu-inline');
+    expect(container.querySelector('ul.g-menu-root')).toHaveClass('g-menu-inline');
 
-    fireEvent.click(container.querySelector('.ant-menu-submenu-title')!);
-    fireEvent.click(container.querySelector('.ant-layout-sider-trigger')!);
+    fireEvent.click(container.querySelector('.g-menu-submenu-title')!);
+    fireEvent.click(container.querySelector('.g-layout-sider-trigger')!);
     triggerAllTimer();
-    expect(container.querySelector('ul.ant-menu-root')).toHaveClass('ant-menu-inline-collapsed');
+    expect(container.querySelector('ul.g-menu-root')).toHaveClass('g-menu-inline-collapsed');
 
-    fireEvent.mouseEnter(container.querySelector('ul.ant-menu-root')!);
-    expect(container.querySelector('ul.ant-menu-root')).not.toHaveClass('ant-menu-inline');
-    expect(container.querySelector('ul.ant-menu-root')).toHaveClass('ant-menu-vertical');
+    fireEvent.mouseEnter(container.querySelector('ul.g-menu-root')!);
+    expect(container.querySelector('ul.g-menu-root')).not.toHaveClass('g-menu-inline');
+    expect(container.querySelector('ul.g-menu-root')).toHaveClass('g-menu-vertical');
   });
 
   it('onMouseEnter should work', () => {
@@ -816,7 +812,7 @@ describe('Menu', () => {
         <Menu.Item key="test2">Navigation Two</Menu.Item>
       </Menu>,
     );
-    fireEvent.mouseEnter(container.querySelector('ul.ant-menu-root')!);
+    fireEvent.mouseEnter(container.querySelector('ul.g-menu-root')!);
     expect(onMouseEnter).toHaveBeenCalled();
   });
 
@@ -837,12 +833,12 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    fireEvent.mouseEnter(container.querySelector('li.ant-menu-item')!);
+    fireEvent.mouseEnter(container.querySelector('li.g-menu-item')!);
     act(() => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+    expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
   });
 
   it('MenuItem should render icon and icon should be the first child when icon exists', () => {
@@ -853,7 +849,7 @@ describe('Menu', () => {
         </Menu.Item>
       </Menu>,
     );
-    expect(container.querySelector('.ant-menu-item .anticon')).toHaveClass('anticon-mail');
+    expect(container.querySelector('.g-menu-item .gicon')).toHaveClass('gicon-mail');
   });
 
   it('should controlled collapse work', () => {
@@ -887,12 +883,12 @@ describe('Menu', () => {
         </Menu.Item>
       </Menu>,
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-menu-item')!);
+    fireEvent.mouseEnter(container.querySelector('.g-menu-item')!);
     act(() => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+    expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
 
     jest.useRealTimers();
   });
@@ -957,19 +953,19 @@ describe('Menu', () => {
     };
 
     const { container, rerender } = render(<Demo />);
-    expect(container.querySelector('li.ant-menu-item-selected')?.textContent).toBe('Option 1');
-    fireEvent.click(container.querySelectorAll('li.ant-menu-item')[1]);
-    expect(container.querySelector('li.ant-menu-item-selected')?.textContent).toBe('Option 2');
+    expect(container.querySelector('li.g-menu-item-selected')?.textContent).toBe('Option 1');
+    fireEvent.click(container.querySelectorAll('li.g-menu-item')[1]);
+    expect(container.querySelector('li.g-menu-item-selected')?.textContent).toBe('Option 2');
 
     rerender(<Demo inlineCollapsed />);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('li.ant-menu-item-selected')?.textContent).toBe('O');
+    expect(container.querySelector('li.g-menu-item-selected')?.textContent).toBe('O');
 
     rerender(<Demo inlineCollapsed={false} />);
 
-    expect(container.querySelector('li.ant-menu-item-selected')?.textContent).toBe('Option 2');
+    expect(container.querySelector('li.g-menu-item-selected')?.textContent).toBe('Option 2');
     jest.useRealTimers();
   });
 
@@ -1025,10 +1021,10 @@ describe('Menu', () => {
         <Menu.Item>Bamboo</Menu.Item>
       </Menu>,
     );
-    expect(container.querySelectorAll('.ant-menu-inline-collapsed-noicon')[0]?.textContent).toEqual(
+    expect(container.querySelectorAll('.g-menu-inline-collapsed-noicon')[0]?.textContent).toEqual(
       'L',
     );
-    expect(container.querySelectorAll('.ant-menu-inline-collapsed-noicon')[1]?.textContent).toEqual(
+    expect(container.querySelectorAll('.g-menu-inline-collapsed-noicon')[1]?.textContent).toEqual(
       'B',
     );
   });
@@ -1050,8 +1046,8 @@ describe('Menu', () => {
       </Menu>,
     );
 
-    expect(container.querySelectorAll('li.ant-menu-item-divider').length).toBe(2);
-    expect(container.querySelectorAll('li.ant-menu-item-divider-dashed').length).toBe(1);
+    expect(container.querySelectorAll('li.g-menu-item-divider').length).toBe(2);
+    expect(container.querySelectorAll('li.g-menu-item-divider-dashed').length).toBe(1);
   });
 
   it('should support ref', async () => {
@@ -1195,7 +1191,7 @@ describe('Menu', () => {
         />
       </TriggerMockContext.Provider>,
     );
-    expect(container.querySelector('.ant-menu.ant-menu-light.custom-popover')).toBeTruthy();
+    expect(container.querySelector('.g-menu.g-menu-light.custom-popover')).toBeTruthy();
   });
 
   it('hide expand icon when pass null or false into expandIcon', () => {
@@ -1218,37 +1214,37 @@ describe('Menu', () => {
       />
     );
     const { container, rerender } = render(<App />);
-    expect(container.querySelector('.ant-menu-submenu-arrow')).toBeTruthy();
+    expect(container.querySelector('.g-menu-submenu-arrow')).toBeTruthy();
 
     rerender(<App expand={null} />);
 
-    expect(container.querySelector('.ant-menu-submenu-arrow')).toBeFalsy();
+    expect(container.querySelector('.g-menu-submenu-arrow')).toBeFalsy();
 
     rerender(<App expand={false} />);
 
-    expect(container.querySelector('.ant-menu-submenu-arrow')).toBeFalsy();
+    expect(container.querySelector('.g-menu-submenu-arrow')).toBeFalsy();
 
     rerender(
       <OverrideContext.Provider value={{ expandIcon: null }}>
         <App />
       </OverrideContext.Provider>,
     );
-    expect(container.querySelector('.ant-menu-submenu-arrow')).toBeFalsy();
+    expect(container.querySelector('.g-menu-submenu-arrow')).toBeFalsy();
 
     rerender(
       <OverrideContext.Provider value={{ expandIcon: false }}>
         <App />
       </OverrideContext.Provider>,
     );
-    expect(container.querySelector('.ant-menu-submenu-arrow')).toBeFalsy();
+    expect(container.querySelector('.g-menu-submenu-arrow')).toBeFalsy();
   });
 
   it('menu item with extra prop', () => {
     const text = '⌘P';
     const { container } = render(<Menu items={[{ label: 'profile', key: '1', extra: text }]} />);
 
-    expect(container.querySelector('.ant-menu-title-content-with-extra')).toBeInTheDocument();
-    expect(container.querySelector('.ant-menu-item-extra')?.textContent).toBe(text);
+    expect(container.querySelector('.g-menu-title-content-with-extra')).toBeInTheDocument();
+    expect(container.querySelector('.g-menu-item-extra')?.textContent).toBe(text);
   });
 
   it('should prevent click events when disabled MenuItem with link', () => {
@@ -1270,7 +1266,7 @@ describe('Menu', () => {
       />,
     );
     const link = container.querySelector('a')!;
-    expect(container.querySelector('.ant-menu-item')).toHaveClass('ant-menu-item-disabled');
+    expect(container.querySelector('.g-menu-item')).toHaveClass('g-menu-item-disabled');
     expect(link).toHaveStyle({ pointerEvents: 'none', cursor: 'not-allowed' });
   });
   it('test classNames for popup', () => {

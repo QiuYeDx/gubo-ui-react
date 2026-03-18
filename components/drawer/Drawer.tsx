@@ -175,7 +175,7 @@ const Drawer: React.FC<DrawerProps> & {
   });
 
   // ============================ Refs ============================
-  // Select `ant-drawer-content` by `panelRef`
+  // Select `g-drawer-content` by `panelRef`
   const innerPanelRef = usePanelRef();
   const mergedPanelRef = composeRef(panelRef, innerPanelRef) as React.Ref<HTMLDivElement>;
 

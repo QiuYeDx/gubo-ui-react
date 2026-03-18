@@ -36,16 +36,16 @@ describe('Steps.Semantic', () => {
     };
 
     const classNamesTargets: Required<StepsSemanticClassNames> = {
-      root: 'ant-steps',
-      item: 'ant-steps-item',
-      itemWrapper: 'ant-steps-item-wrapper',
-      itemIcon: 'ant-steps-item-icon',
-      itemSection: 'ant-steps-item-section',
-      itemHeader: 'ant-steps-item-header',
-      itemTitle: 'ant-steps-item-title',
-      itemSubtitle: 'ant-steps-item-subtitle',
-      itemContent: 'ant-steps-item-content',
-      itemRail: 'ant-steps-item-rail',
+      root: 'g-steps',
+      item: 'g-steps-item',
+      itemWrapper: 'g-steps-item-wrapper',
+      itemIcon: 'g-steps-item-icon',
+      itemSection: 'g-steps-item-section',
+      itemHeader: 'g-steps-item-header',
+      itemTitle: 'g-steps-item-title',
+      itemSubtitle: 'g-steps-item-subtitle',
+      itemContent: 'g-steps-item-content',
+      itemRail: 'g-steps-item-rail',
     };
 
     const styles: Required<StepsSemanticStyles> = {
@@ -100,7 +100,7 @@ describe('Steps.Semantic', () => {
 
     const rootElement = container.querySelector<HTMLElement>('.custom-navigation-root');
     expect(rootElement).toBeTruthy();
-    expect(rootElement).toHaveClass('ant-steps');
+    expect(rootElement).toHaveClass('g-steps');
     expect(rootElement).toHaveStyle({ backgroundColor: 'rgb(255, 0, 0)' });
   });
 });

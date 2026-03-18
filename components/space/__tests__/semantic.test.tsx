@@ -57,7 +57,7 @@ describe('Space.Semantic', () => {
       </Space>,
     );
 
-    const spaceElement = container.querySelector('.ant-space');
+    const spaceElement = container.querySelector('.g-space');
     expect(spaceElement).toHaveStyle('background-color: rgb(255, 0, 0)');
     expect(spaceElement).toHaveStyle('padding: 8px');
   });
@@ -79,7 +79,7 @@ describe('Space.Semantic', () => {
 
     expect(stylesFn).toHaveBeenCalled();
     expect(stylesFn.mock.calls[0][0].props.size).toBe('large');
-    const spaceElement = container.querySelector('.ant-space');
+    const spaceElement = container.querySelector('.g-space');
     expect(spaceElement).toHaveStyle('background-color: rgb(0, 0, 255)');
   });
 });

@@ -105,11 +105,11 @@ antd 5.0 的主题能力其实由 4.x 的进化而来，同样拥有一套主题
 这说起来有些抽象，我们来用代码解释一下想要的效果。同样是上面举出的嵌套主题的场景，我们最终希望得到的 CSS 文件应该包含这些：
 
 ```css
-:where(.css-hash1).ant-btn {
+:where(.css-hash1).g-btn {
   background-color: var(--color-primary);
 }
 
-:where(.css-hash2).ant-btn {
+:where(.css-hash2).g-btn {
   background-color: var(--color-primary);
 }
 

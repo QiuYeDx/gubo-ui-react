@@ -2,29 +2,29 @@
 
 exports[`Breadcrumb filter React.Fragment 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Location
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       :
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href=""
       >
         Application Center
@@ -32,7 +32,7 @@ exports[`Breadcrumb filter React.Fragment 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
@@ -42,7 +42,7 @@ exports[`Breadcrumb filter React.Fragment 1`] = `
 
 exports[`Breadcrumb rtl render component should be rendered correctly in RTL direction 1`] = `
 <nav
-  class="ant-breadcrumb ant-breadcrumb-rtl css-var-root"
+  class="g-breadcrumb g-breadcrumb-rtl css-var-root"
 >
   <ol />
 </nav>
@@ -50,7 +50,7 @@ exports[`Breadcrumb rtl render component should be rendered correctly in RTL dir
 
 exports[`Breadcrumb should accept undefined items 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol />
 </nav>
@@ -58,14 +58,14 @@ exports[`Breadcrumb should accept undefined items 1`] = `
 
 exports[`Breadcrumb should allow Breadcrumb.Item is null or undefined 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Home
       </span>
@@ -76,29 +76,29 @@ exports[`Breadcrumb should allow Breadcrumb.Item is null or undefined 1`] = `
 
 exports[`Breadcrumb should not display Breadcrumb Item when its children is falsy 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         xxx
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         yyy
       </span>
@@ -109,14 +109,14 @@ exports[`Breadcrumb should not display Breadcrumb Item when its children is fals
 
 exports[`Breadcrumb should render a menu 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href="#/index"
       >
         home
@@ -124,25 +124,25 @@ exports[`Breadcrumb should render a menu 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-dropdown-trigger ant-breadcrumb-overlay-link"
+        class="g-dropdown-trigger g-breadcrumb-overlay-link"
       >
         <a
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
           href="#/index/first"
         >
           first
         </a>
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -163,15 +163,15 @@ exports[`Breadcrumb should render a menu 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href="#/index/first/second"
       >
         second
@@ -179,15 +179,15 @@ exports[`Breadcrumb should render a menu 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href="#/index/first/second/third"
       />
     </li>
@@ -197,14 +197,14 @@ exports[`Breadcrumb should render a menu 1`] = `
 
 exports[`Breadcrumb should render correct 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <a
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         href="#/"
       >
         <span>
@@ -214,15 +214,15 @@ exports[`Breadcrumb should render correct 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         yyy
       </span>
@@ -233,46 +233,46 @@ exports[`Breadcrumb should render correct 1`] = `
 
 exports[`Breadcrumb should support Breadcrumb.Item default separator 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Location
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <span>
       <li
-        class="ant-breadcrumb-item"
+        class="g-breadcrumb-item"
       >
         <span
-          class="ant-breadcrumb-link"
+          class="g-breadcrumb-link"
         >
           Mock Node
         </span>
       </li>
       <li
         aria-hidden="true"
-        class="ant-breadcrumb-separator"
+        class="g-breadcrumb-separator"
       >
         /
       </li>
     </span>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         Application Center
       </span>
@@ -283,51 +283,51 @@ exports[`Breadcrumb should support Breadcrumb.Item default separator 1`] = `
 
 exports[`Breadcrumb should support React.Fragment and falsy children 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         yyy
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         yyy
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         yyy
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
@@ -338,15 +338,15 @@ exports[`Breadcrumb should support React.Fragment and falsy children 1`] = `
 
 exports[`Breadcrumb should support custom attribute 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
   data-custom="custom"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
         data-custom="custom-item"
       >
         xxx
@@ -354,15 +354,15 @@ exports[`Breadcrumb should support custom attribute 1`] = `
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         yyy
       </span>
@@ -373,29 +373,29 @@ exports[`Breadcrumb should support custom attribute 1`] = `
 
 exports[`Breadcrumb should support string \`0\` and number \`0\` 1`] = `
 <nav
-  class="ant-breadcrumb css-var-root"
+  class="g-breadcrumb css-var-root"
 >
   <ol>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         0
       </span>
     </li>
     <li
       aria-hidden="true"
-      class="ant-breadcrumb-separator"
+      class="g-breadcrumb-separator"
     >
       /
     </li>
     <li
-      class="ant-breadcrumb-item"
+      class="g-breadcrumb-item"
     >
       <span
-        class="ant-breadcrumb-link"
+        class="g-breadcrumb-link"
       >
         0
       </span>

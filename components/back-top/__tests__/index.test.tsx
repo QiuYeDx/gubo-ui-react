@@ -25,7 +25,7 @@ describe('BackTop', () => {
     window.scrollTo(0, 400);
     await waitFakeTimer();
     expect(document.documentElement.scrollTop).toBe(400);
-    fireEvent.click(container.querySelector<HTMLDivElement>('.ant-back-top')!);
+    fireEvent.click(container.querySelector<HTMLDivElement>('.g-back-top')!);
     await waitFakeTimer();
     expect(document.documentElement.scrollTop).toBe(0);
     scrollToSpy.mockRestore();
@@ -34,14 +34,14 @@ describe('BackTop', () => {
   it('support onClick', () => {
     const onClick = jest.fn();
     const { container } = render(<BackTop onClick={onClick} visibilityHeight={0} />);
-    fireEvent.click(container.querySelector<HTMLDivElement>('.ant-back-top')!);
+    fireEvent.click(container.querySelector<HTMLDivElement>('.g-back-top')!);
     expect(onClick).toHaveBeenCalled();
   });
 
   it('invalid target', () => {
     const onClick = jest.fn();
     const { container } = render(<BackTop onClick={onClick} target={undefined} />);
-    fireEvent.click(container.querySelector<HTMLDivElement>('.ant-back-top')!);
+    fireEvent.click(container.querySelector<HTMLDivElement>('.g-back-top')!);
     expect(onClick).toHaveBeenCalled();
   });
   it('should console Error', () => {

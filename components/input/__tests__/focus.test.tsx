@@ -62,9 +62,9 @@ describe('Input.Focus', () => {
   it('disabled should reset focus', () => {
     const { rerender, container } = render(<Input allowClear />);
     fireEvent.focus(container.querySelector('input')!);
-    expect(container.querySelector('.ant-input-affix-wrapper-focused')).toBeTruthy();
+    expect(container.querySelector('.g-input-affix-wrapper-focused')).toBeTruthy();
 
     rerender(<Input allowClear disabled />);
-    expect(container.querySelector('.ant-input-affix-wrapper-focused')).toBeFalsy();
+    expect(container.querySelector('.g-input-affix-wrapper-focused')).toBeFalsy();
   });
 });

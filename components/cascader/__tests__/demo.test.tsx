@@ -7,6 +7,6 @@ demoTest('cascader', {
 });
 
 rootPropsTest('cascader', (Cascader, props) => <Cascader {...props} />, {
-  findRootElements: () => document.querySelectorAll('.ant-cascader, .ant-cascader-dropdown'),
+  findRootElements: () => document.querySelectorAll('.g-cascader, .g-cascader-dropdown'),
   expectCount: 2,
 });

@@ -5,28 +5,28 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
   class="acss-1ucck97"
 >
   <div
-    class="ant-row css-var-test-id"
+    class="g-row css-var-test-id"
   >
     <div
-      class="ant-col ant-col-16 acss-my3sst css-var-test-id"
+      class="g-col g-col-16 acss-my3sst css-var-test-id"
     >
       <form
         autocomplete="off"
-        class="ant-form ant-form-horizontal css-var-test-id ant-form-css-var semantic-mark-root"
+        class="g-form g-form-horizontal css-var-test-id g-form-css-var semantic-mark-root"
         id="basic"
         style="max-width: 600px;"
       >
         <div
-          class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+          class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
         >
           <div
-            class="ant-row ant-form-item-row css-var-test-id"
+            class="g-row g-form-item-row css-var-test-id"
           >
             <div
-              class="ant-col ant-col-8 ant-form-item-label css-var-test-id"
+              class="g-col g-col-8 g-form-item-label css-var-test-id"
             >
               <label
-                class="semantic-mark-label ant-form-item-required"
+                class="semantic-mark-label g-form-item-required"
                 for="basic_username"
                 title="Username"
               >
@@ -34,17 +34,17 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
               </label>
             </div>
             <div
-              class="ant-col ant-col-16 ant-form-item-control css-var-test-id"
+              class="g-col g-col-16 g-form-item-control css-var-test-id"
             >
               <div
-                class="ant-form-item-control-input"
+                class="g-form-item-control-input"
               >
                 <div
-                  class="ant-form-item-control-input-content semantic-mark-content"
+                  class="g-form-item-control-input-content semantic-mark-content"
                 >
                   <input
                     aria-required="true"
-                    class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+                    class="g-input g-input-outlined css-var-test-id g-input-css-var"
                     id="basic_username"
                     type="text"
                     value=""
@@ -55,16 +55,16 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-horizontal"
+          class="g-form-item css-var-test-id g-form-css-var g-form-item-horizontal"
         >
           <div
-            class="ant-row ant-form-item-row css-var-test-id"
+            class="g-row g-form-item-row css-var-test-id"
           >
             <div
-              class="ant-col ant-col-8 ant-form-item-label css-var-test-id"
+              class="g-col g-col-8 g-form-item-label css-var-test-id"
             >
               <label
-                class="semantic-mark-label ant-form-item-required"
+                class="semantic-mark-label g-form-item-required"
                 for="basic_password"
                 title="Password"
               >
@@ -72,30 +72,30 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
               </label>
             </div>
             <div
-              class="ant-col ant-col-16 ant-form-item-control css-var-test-id"
+              class="g-col g-col-16 g-form-item-control css-var-test-id"
             >
               <div
-                class="ant-form-item-control-input"
+                class="g-form-item-control-input"
               >
                 <div
-                  class="ant-form-item-control-input-content semantic-mark-content"
+                  class="g-form-item-control-input-content semantic-mark-content"
                 >
                   <span
-                    class="ant-input-affix-wrapper ant-input-outlined ant-input-password css-var-test-id ant-input-css-var"
+                    class="g-input-affix-wrapper g-input-outlined g-input-password css-var-test-id g-input-css-var"
                   >
                     <input
                       aria-required="true"
-                      class="ant-input"
+                      class="g-input"
                       id="basic_password"
                       type="password"
                       value=""
                     />
                     <span
-                      class="ant-input-suffix"
+                      class="g-input-suffix"
                     >
                       <span
                         aria-label="eye-invisible"
-                        class="anticon anticon-eye-invisible ant-input-password-icon"
+                        class="gicon gicon-eye-invisible g-input-password-icon"
                         role="img"
                         tabindex="-1"
                       >
@@ -126,7 +126,7 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
       </form>
     </div>
     <div
-      class="ant-col ant-col-8 css-var-test-id"
+      class="g-col g-col-8 css-var-test-id"
     >
       <ul
         class="acss-1ry21g5"
@@ -135,40 +135,40 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   root
                 </h5>
                 <span
-                  class="ant-tag ant-tag-filled ant-tag-blue css-var-test-id"
+                  class="g-tag g-tag-filled g-tag-blue css-var-test-id"
                 >
                   6.0.0
                 </span>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -189,15 +189,15 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -222,7 +222,7 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素，包含表单项的底边距、垂直对齐、过渡动画、隐藏状态、错误警告状态等表单项容器的基础样式
@@ -233,40 +233,40 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   label
                 </h5>
                 <span
-                  class="ant-tag ant-tag-filled ant-tag-blue css-var-test-id"
+                  class="g-tag g-tag-filled g-tag-blue css-var-test-id"
                 >
                   6.0.0
                 </span>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -287,15 +287,15 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -320,7 +320,7 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               标签元素，包含 flex 布局、溢出隐藏、文本不换行、文本对齐、垂直对齐，以及标签的颜色、字体大小、高度、必填标记等标签显示样式
@@ -331,40 +331,40 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   content
                 </h5>
                 <span
-                  class="ant-tag ant-tag-filled ant-tag-blue css-var-test-id"
+                  class="g-tag g-tag-filled g-tag-blue css-var-test-id"
                 >
                   6.0.0
                 </span>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -385,15 +385,15 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -418,7 +418,7 @@ exports[`renders components/form/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               内容元素，包含表单内容区域的布局、样式和控件容器的相关样式

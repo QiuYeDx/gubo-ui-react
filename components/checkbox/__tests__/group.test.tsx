@@ -18,13 +18,13 @@ describe('CheckboxGroup', () => {
     const { container } = render(
       <Checkbox.Group options={['Apple', 'Pear', 'Orange']} onChange={onChange} />,
     );
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[0]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[0]);
     expect(onChange).toHaveBeenCalledWith(['Apple']);
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[1]);
     expect(onChange).toHaveBeenCalledWith(['Apple', 'Pear']);
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[2]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[2]);
     expect(onChange).toHaveBeenCalledWith(['Apple', 'Pear', 'Orange']);
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[1]);
     expect(onChange).toHaveBeenCalledWith(['Apple', 'Orange']);
   });
 
@@ -39,9 +39,9 @@ describe('CheckboxGroup', () => {
     const { container } = render(
       <Checkbox.Group options={options} onChange={onChangeGroup} disabled />,
     );
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[0]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[0]);
     expect(onChangeGroup).not.toHaveBeenCalled();
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[1]);
     expect(onChangeGroup).not.toHaveBeenCalled();
   });
 
@@ -54,9 +54,9 @@ describe('CheckboxGroup', () => {
     ];
 
     const { container } = render(<Checkbox.Group options={options} onChange={onChangeGroup} />);
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[0]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[0]);
     expect(onChangeGroup).toHaveBeenCalledWith(['Apple']);
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[1]);
     expect(onChangeGroup).toHaveBeenCalledWith(['Apple']);
   });
 
@@ -87,9 +87,9 @@ describe('CheckboxGroup', () => {
     ];
     const renderCheckbox = (props: CheckboxGroupProps) => <Checkbox.Group {...props} />;
     const { container, rerender } = render(renderCheckbox({ options }));
-    expect(container.querySelectorAll('.ant-checkbox-checked').length).toBe(0);
+    expect(container.querySelectorAll('.g-checkbox-checked').length).toBe(0);
     rerender(renderCheckbox({ options, value: 'Apple' as any }));
-    expect(container.querySelectorAll('.ant-checkbox-checked').length).toBe(1);
+    expect(container.querySelectorAll('.g-checkbox-checked').length).toBe(1);
   });
 
   // https://github.com/ant-design/ant-design/issues/12642
@@ -100,7 +100,7 @@ describe('CheckboxGroup', () => {
         <Checkbox value="my" onChange={onChange} />
       </Checkbox.Group>,
     );
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[0]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[0]);
     expect(onChange).toHaveBeenCalled();
     expect(onChange.mock.calls[0][0].target.value).toEqual('my');
   });
@@ -120,7 +120,7 @@ describe('CheckboxGroup', () => {
         <Checkbox key={2} value={2} />
       </Checkbox.Group>,
     );
-    fireEvent.click(container.querySelector('.ant-checkbox-input')!);
+    fireEvent.click(container.querySelector('.g-checkbox-input')!);
 
     expect(onChange).toHaveBeenCalledWith([2]);
   });
@@ -139,7 +139,7 @@ describe('CheckboxGroup', () => {
       </Checkbox.Group>,
     );
 
-    expect(container.querySelector('.ant-checkbox-input')).toHaveAttribute('checked');
+    expect(container.querySelector('.g-checkbox-input')).toHaveAttribute('checked');
   });
 
   // https://github.com/ant-design/ant-design/issues/17297
@@ -153,13 +153,13 @@ describe('CheckboxGroup', () => {
         <Checkbox key={4} value={4} />
       </Checkbox.Group>,
     );
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[0]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[0]);
     expect(onChange).toHaveBeenCalledWith([1]);
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[1]);
     expect(onChange).toHaveBeenCalledWith([1, 2]);
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[0]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[0]);
     expect(onChange).toHaveBeenCalledWith([2]);
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[0]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[0]);
     expect(onChange).toHaveBeenCalledWith([1, 2]);
   });
 
@@ -185,12 +185,12 @@ describe('CheckboxGroup', () => {
     );
 
     fireEvent.click(
-      container.querySelector('.ant-collapse-item')?.querySelector('.ant-collapse-header')!,
+      container.querySelector('.g-collapse-item')?.querySelector('.g-collapse-header')!,
     );
-    fireEvent.click(container.querySelector('.ant-checkbox-input')!);
-    expect(container.querySelectorAll('.ant-checkbox-checked').length).toBe(1);
-    fireEvent.click(container.querySelector('.ant-checkbox-input')!);
-    expect(container.querySelectorAll('.ant-checkbox-checked').length).toBe(0);
+    fireEvent.click(container.querySelector('.g-checkbox-input')!);
+    expect(container.querySelectorAll('.g-checkbox-checked').length).toBe(1);
+    fireEvent.click(container.querySelector('.g-checkbox-input')!);
+    expect(container.querySelectorAll('.g-checkbox-checked').length).toBe(0);
   });
 
   it('skipGroup', () => {
@@ -201,7 +201,7 @@ describe('CheckboxGroup', () => {
         <Checkbox value={2} skipGroup />
       </Checkbox.Group>,
     );
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[1]);
     expect(onChange).not.toHaveBeenCalled();
   });
 
@@ -216,7 +216,7 @@ describe('CheckboxGroup', () => {
         />
       </Checkbox.Group>,
     );
-    fireEvent.click(container.querySelectorAll('.ant-checkbox-input')[1]);
+    fireEvent.click(container.querySelectorAll('.g-checkbox-input')[1]);
     expect(onChange).not.toHaveBeenCalled();
   });
 
@@ -233,7 +233,7 @@ describe('CheckboxGroup', () => {
       <Checkbox.Group options={[1, 'Pear', 'Orange']} onChange={onChange} />,
     );
 
-    fireEvent.click(container.querySelector('.ant-checkbox-input')!);
+    fireEvent.click(container.querySelector('.g-checkbox-input')!);
     expect(onChange).toHaveBeenCalledWith([1]);
   });
 
@@ -260,12 +260,12 @@ describe('CheckboxGroup', () => {
     };
 
     const { container } = render(<Demo />);
-    fireEvent.click(container.querySelector('.ant-checkbox-input')!);
+    fireEvent.click(container.querySelector('.g-checkbox-input')!);
     expect(onChange).toHaveBeenCalledWith([]);
-    fireEvent.click(container.querySelector('.ant-checkbox-input')!);
+    fireEvent.click(container.querySelector('.g-checkbox-input')!);
     expect(onChange).toHaveBeenCalledWith(['length1']);
-    fireEvent.change(container.querySelector('.ant-input')!, { target: { value: '' } });
-    fireEvent.click(container.querySelector('.ant-checkbox-input')!);
+    fireEvent.change(container.querySelector('.g-input')!, { target: { value: '' } });
+    fireEvent.click(container.querySelector('.g-checkbox-input')!);
     expect(onChange).toHaveBeenCalledWith(['A']);
   });
 

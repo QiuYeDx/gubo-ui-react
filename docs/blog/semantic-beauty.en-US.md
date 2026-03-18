@@ -61,11 +61,11 @@ Using the theme Design Token design introduced in Ant Design v5:
 Apart from these two methods, you might also have written less recommended CSS overrides:
 
 ```css
-.wrapper-class .ant-table {
+.wrapper-class .g-table {
   border-radius: 4px;
   overflow: hidden;
 }
-.wrapper-class .ant-table .ant-table-thead {
+.wrapper-class .g-table .g-table-thead {
   background-color: #f9fafc;
   color: #8b97b6;
 }

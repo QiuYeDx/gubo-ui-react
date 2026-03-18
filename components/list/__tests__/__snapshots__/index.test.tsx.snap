@@ -2,24 +2,24 @@
 
 exports[`List rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-list ant-list-split ant-list-rtl css-var-root"
+  class="g-list g-list-split g-list-rtl css-var-root"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin ant-spin-rtl css-var-root"
+    class="g-spin g-spin-rtl css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-list-empty-text"
+        class="g-list-empty-text"
       >
         <div
-          class="css-var-root ant-empty ant-empty-normal ant-empty-rtl"
+          class="css-var-root g-empty g-empty-normal g-empty-rtl"
         >
           <div
-            class="ant-empty-image"
+            class="g-empty-image"
           >
             <svg
               height="41"
@@ -58,7 +58,7 @@ exports[`List rtl render component should be rendered correctly in RTL direction
             </svg>
           </div>
           <div
-            class="ant-empty-description"
+            class="g-empty-description"
           >
             No data
           </div>
@@ -71,6 +71,6 @@ exports[`List rtl render component should be rendered correctly in RTL direction
 
 exports[`List rtl render component should be rendered correctly in RTL direction 2`] = `
 <li
-  class="ant-list-item"
+  class="g-list-item"
 />
 `;

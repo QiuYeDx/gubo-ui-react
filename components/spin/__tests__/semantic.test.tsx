@@ -23,9 +23,9 @@ describe('Spin.Semantic', () => {
     const section = container.querySelector(`.${classNames.section}`)!;
     const indicator = container.querySelector(`.${classNames.indicator}`)!;
 
-    expect(root).toHaveClass('ant-spin');
+    expect(root).toHaveClass('g-spin');
     expect(root).toHaveStyle(styles.root);
-    expect(section).toHaveClass('ant-spin-section');
+    expect(section).toHaveClass('g-spin-section');
     expect(section).toHaveStyle(styles.section);
     expect(indicator).toHaveStyle(styles.indicator);
   });
@@ -58,14 +58,14 @@ describe('Spin.Semantic', () => {
     const containerEl = container.querySelector(`.${classNames.container}`)!;
     const description = container.querySelector(`.${classNames.description}`)!;
 
-    expect(root).toHaveClass('ant-spin');
+    expect(root).toHaveClass('g-spin');
     expect(root).toHaveStyle(styles.root);
-    expect(section).toHaveClass('ant-spin-section');
+    expect(section).toHaveClass('g-spin-section');
     expect(section).toHaveStyle(styles.section);
     expect(indicator).toHaveStyle(styles.indicator);
-    expect(containerEl).toHaveClass('ant-spin-container');
+    expect(containerEl).toHaveClass('g-spin-container');
     expect(containerEl).toHaveStyle(styles.container);
-    expect(description).toHaveClass('ant-spin-description');
+    expect(description).toHaveClass('g-spin-description');
     expect(description).toHaveStyle(styles.description);
   });
 
@@ -92,13 +92,13 @@ describe('Spin.Semantic', () => {
     const indicator = container.querySelector(`.${classNames.indicator}`)!;
     const description = container.querySelector(`.${classNames.description}`)!;
 
-    expect(root).toHaveClass('ant-spin');
-    expect(root).toHaveClass('ant-spin-fullscreen');
+    expect(root).toHaveClass('g-spin');
+    expect(root).toHaveClass('g-spin-fullscreen');
     expect(root).toHaveStyle(styles.root);
-    expect(section).toHaveClass('ant-spin-section');
+    expect(section).toHaveClass('g-spin-section');
     expect(section).toHaveStyle(styles.section);
     expect(indicator).toHaveStyle(styles.indicator);
-    expect(description).toHaveClass('ant-spin-description');
+    expect(description).toHaveClass('g-spin-description');
     expect(description).toHaveStyle(styles.description);
   });
 
@@ -126,7 +126,7 @@ describe('Spin.Semantic', () => {
     );
     expect(container.querySelector('.fn-root')).toBeTruthy();
     expect(container.querySelector('.fn-section')).toBeTruthy();
-    expect(container.querySelector('.ant-spin-dot')).toHaveStyle({ color: 'rgb(255, 0, 0)' });
+    expect(container.querySelector('.g-spin-dot')).toHaveStyle({ color: 'rgb(255, 0, 0)' });
 
     rerender(
       <Spin
@@ -140,7 +140,7 @@ describe('Spin.Semantic', () => {
     expect(container.querySelector('.fn-root-full')).toBeTruthy();
     expect(container.querySelector('.fn-section-full')).toBeTruthy();
     expect(container.querySelector('.fn-desc-full')).toBeTruthy();
-    expect(container.querySelector('.ant-spin-dot')).toHaveStyle({ color: 'rgb(255, 0, 0)' });
+    expect(container.querySelector('.g-spin-dot')).toHaveStyle({ color: 'rgb(255, 0, 0)' });
   });
 
   it('deprecated mask and tip still work for backward compatibility', () => {
@@ -159,14 +159,14 @@ describe('Spin.Semantic', () => {
       <Spin spinning fullscreen classNames={classNames} styles={styles} tip="Loading" />,
     );
 
-    const root = container.querySelector('.ant-spin')!;
+    const root = container.querySelector('.g-spin')!;
     const indicator = container.querySelector(`.${classNames.indicator}`)!;
 
     expect(root).toHaveClass('custom-mask');
     expect(root).toHaveStyle(styles.mask);
-    expect(root).toHaveClass('ant-spin-fullscreen');
-    expect(container.querySelector('.ant-spin-description')).toHaveClass('custom-tip');
-    expect(container.querySelector('.ant-spin-description')).toHaveStyle(styles.tip);
+    expect(root).toHaveClass('g-spin-fullscreen');
+    expect(container.querySelector('.g-spin-description')).toHaveClass('custom-tip');
+    expect(container.querySelector('.g-spin-description')).toHaveStyle(styles.tip);
     expect(indicator).toHaveStyle(styles.indicator);
   });
 });

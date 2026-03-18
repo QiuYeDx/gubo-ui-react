@@ -53,16 +53,14 @@ describe('Descriptions.Semantic', () => {
       />,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-descriptions');
-    const headerElement = container.querySelector<HTMLElement>('.ant-descriptions-header');
-    const titleElement = container.querySelector<HTMLElement>('.ant-descriptions-title');
-    const extraElement = container.querySelector<HTMLElement>('.ant-descriptions-extra');
-    const labelElement = container.querySelector<HTMLElement>('.ant-descriptions-item-label');
-    const contentElement = container.querySelector<HTMLElement>('.ant-descriptions-item-content');
-    const labelElements = container.querySelectorAll<HTMLElement>('.ant-descriptions-item-label');
-    const contentElements = container.querySelectorAll<HTMLElement>(
-      '.ant-descriptions-item-content',
-    );
+    const rootElement = container.querySelector<HTMLElement>('.g-descriptions');
+    const headerElement = container.querySelector<HTMLElement>('.g-descriptions-header');
+    const titleElement = container.querySelector<HTMLElement>('.g-descriptions-title');
+    const extraElement = container.querySelector<HTMLElement>('.g-descriptions-extra');
+    const labelElement = container.querySelector<HTMLElement>('.g-descriptions-item-label');
+    const contentElement = container.querySelector<HTMLElement>('.g-descriptions-item-content');
+    const labelElements = container.querySelectorAll<HTMLElement>('.g-descriptions-item-label');
+    const contentElements = container.querySelectorAll<HTMLElement>('.g-descriptions-item-content');
 
     // check classNames
     expect(rootElement).toHaveClass('custom-root');
@@ -107,9 +105,9 @@ describe('Descriptions.Semantic', () => {
 
     const classNames: DescriptionsProps['classNames'] = (info) => {
       if (info.props.bordered) {
-        return { root: 'test-ant-root', label: 'test-ant-label', title: 'test-ant-title' };
+        return { root: 'test-g-root', label: 'test-g-label', title: 'test-g-title' };
       } else {
-        return { extra: 'test-ant-extra', content: 'test-ant-content' };
+        return { extra: 'test-g-extra', content: 'test-g-content' };
       }
     };
     const styles: DescriptionsProps['styles'] = (info) => {
@@ -130,10 +128,10 @@ describe('Descriptions.Semantic', () => {
       />,
     );
 
-    expect(container.querySelector('.ant-descriptions')).toHaveClass('test-ant-root');
-    expect(container.querySelector('.ant-descriptions-title')).toHaveClass('test-ant-title');
-    expect(container.querySelector('.ant-descriptions-item-label')).toHaveClass('test-ant-label');
-    expect(container.querySelector('.ant-descriptions-item-content')).toHaveStyle({
+    expect(container.querySelector('.g-descriptions')).toHaveClass('test-g-root');
+    expect(container.querySelector('.g-descriptions-title')).toHaveClass('test-g-title');
+    expect(container.querySelector('.g-descriptions-item-label')).toHaveClass('test-g-label');
+    expect(container.querySelector('.g-descriptions-item-content')).toHaveStyle({
       background: 'red',
     });
 
@@ -147,11 +145,9 @@ describe('Descriptions.Semantic', () => {
       />,
     );
 
-    expect(container.querySelector('.ant-descriptions-extra')).toHaveClass('test-ant-extra');
-    expect(container.querySelector('.ant-descriptions-item-content')).toHaveClass(
-      'test-ant-content',
-    );
-    expect(container.querySelector('.ant-descriptions-item-content')).toHaveStyle({
+    expect(container.querySelector('.g-descriptions-extra')).toHaveClass('test-g-extra');
+    expect(container.querySelector('.g-descriptions-item-content')).toHaveClass('test-g-content');
+    expect(container.querySelector('.g-descriptions-item-content')).toHaveStyle({
       background: 'blue',
     });
   });

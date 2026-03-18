@@ -14,7 +14,7 @@ describe('Table.IE', () => {
     const tblRef = React.createRef<TableRef>();
     const { container } = render(<Table ref={tblRef} />);
 
-    const wrapDom = container.querySelector('.ant-table-wrapper')!;
+    const wrapDom = container.querySelector('.g-table-wrapper')!;
 
     expect(tblRef.current).toBe(wrapDom);
     expect(tblRef.current?.nativeElement).toBe(wrapDom);

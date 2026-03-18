@@ -118,37 +118,33 @@ describe('Typography', () => {
           );
 
           if (icon) {
-            expect(container.querySelector('.anticon-smile')).toBeTruthy();
+            expect(container.querySelector('.gicon-smile')).toBeTruthy();
           } else {
-            expect(container.querySelector('.anticon-copy')).toBeTruthy();
+            expect(container.querySelector('.gicon-copy')).toBeTruthy();
           }
 
           // Mouse enter to show tooltip
-          fireEvent.mouseEnter(container.querySelector('.ant-typography-copy')!);
+          fireEvent.mouseEnter(container.querySelector('.g-typography-copy')!);
           act(() => {
             jest.advanceTimersByTime(10000);
           });
 
           if (tooltips === undefined || tooltips === true) {
-            expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe('Copy');
+            expect(container.querySelector('.g-tooltip-container')?.textContent).toBe('Copy');
           } else if (tooltips === false) {
-            expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+            expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
           } else if (tooltips[0] === '' && tooltips[1] === '') {
-            expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+            expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
           } else if (tooltips[0] === '' && tooltips[1]) {
-            expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+            expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
           } else if (tooltips[1] === '' && tooltips[0]) {
-            expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe(
-              tooltips[0],
-            );
+            expect(container.querySelector('.g-tooltip-container')?.textContent).toBe(tooltips[0]);
           } else {
-            expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe(
-              tooltips[0],
-            );
+            expect(container.querySelector('.g-tooltip-container')?.textContent).toBe(tooltips[0]);
           }
 
           // Click to copy
-          fireEvent.click(container.querySelector('.ant-typography-copy')!);
+          fireEvent.click(container.querySelector('.g-typography-copy')!);
           await waitFakeTimer(1);
 
           expect((copy as any).mock.lastCall[0]).toEqual(target);
@@ -156,38 +152,32 @@ describe('Typography', () => {
 
           expect(onCopy).toHaveBeenCalled();
 
-          let copiedIcon = '.anticon-check';
+          let copiedIcon = '.gicon-check';
           if (icon && (icon as string).length > 1) {
-            copiedIcon = '.anticon-like';
+            copiedIcon = '.gicon-like';
           } else {
-            copiedIcon = '.anticon-check';
+            copiedIcon = '.gicon-check';
           }
 
           expect(container.querySelector(copiedIcon)).toBeTruthy();
 
           // Timeout will makes copy tooltip back to origin
-          fireEvent.mouseEnter(container.querySelector('.ant-typography-copy')!);
+          fireEvent.mouseEnter(container.querySelector('.g-typography-copy')!);
           await waitFakeTimer(15, 10);
 
           if (tooltips === undefined || tooltips === true) {
-            expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe('Copied');
+            expect(container.querySelector('.g-tooltip-container')?.textContent).toBe('Copied');
           } else if (tooltips === false) {
-            expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+            expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
           } else if (tooltips[0] === '' && tooltips[1] === '') {
-            expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+            expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
           } else if (tooltips[0] === '' && tooltips[1]) {
-            expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe(
-              tooltips[1],
-            );
+            expect(container.querySelector('.g-tooltip-container')?.textContent).toBe(tooltips[1]);
           } else if (tooltips[1] === '' && tooltips[0]) {
             // Tooltip will be hidden in this case, with content memoized
-            expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe(
-              tooltips[0],
-            );
+            expect(container.querySelector('.g-tooltip-container')?.textContent).toBe(tooltips[0]);
           } else {
-            expect(container.querySelector('.ant-tooltip-container')?.textContent).toBe(
-              tooltips[1],
-            );
+            expect(container.querySelector('.g-tooltip-container')?.textContent).toBe(tooltips[1]);
           }
 
           // Will set back when 3 seconds pass
@@ -276,35 +266,35 @@ describe('Typography', () => {
 
           if (triggerType === undefined || triggerType.includes('icon')) {
             if (icon) {
-              expect(wrapper.querySelectorAll('.anticon-highlight').length).toBeGreaterThan(0);
+              expect(wrapper.querySelectorAll('.gicon-highlight').length).toBeGreaterThan(0);
             } else {
-              expect(wrapper.querySelectorAll('.anticon-edit').length).toBeGreaterThan(0);
+              expect(wrapper.querySelectorAll('.gicon-edit').length).toBeGreaterThan(0);
             }
 
             if (triggerType === undefined || !triggerType.includes('text')) {
               fireEvent.click(wrapper.firstChild!);
               expect(onStart).not.toHaveBeenCalled();
             }
-            fireEvent.mouseEnter(wrapper.querySelectorAll('.ant-typography-edit')[0]);
+            fireEvent.mouseEnter(wrapper.querySelectorAll('.g-typography-edit')[0]);
             act(() => {
               jest.runAllTimers();
             });
 
             if (tooltip === undefined || tooltip === true) {
               await waitFor(() => {
-                expect(wrapper.querySelector('.ant-tooltip-container')?.textContent).toBe('Edit');
+                expect(wrapper.querySelector('.g-tooltip-container')?.textContent).toBe('Edit');
               });
             } else if (tooltip === false) {
               await waitFor(() => {
-                expect(wrapper.querySelectorAll('.ant-tooltip-container').length).toBe(0);
+                expect(wrapper.querySelectorAll('.g-tooltip-container').length).toBe(0);
               });
             } else {
               await waitFor(() => {
-                expect(wrapper.querySelector('.ant-tooltip-container')?.textContent).toBe(tooltip);
+                expect(wrapper.querySelector('.g-tooltip-container')?.textContent).toBe(tooltip);
               });
             }
 
-            fireEvent.click(wrapper.querySelectorAll('.ant-typography-edit')[0]);
+            fireEvent.click(wrapper.querySelectorAll('.g-typography-edit')[0]);
 
             expect(onStart).toHaveBeenCalled();
             if (triggerType?.includes('text')) {
@@ -316,8 +306,8 @@ describe('Typography', () => {
 
           if (triggerType?.includes('text')) {
             if (!triggerType?.includes('icon')) {
-              expect(wrapper.querySelectorAll('.anticon-highlight').length).toBe(0);
-              expect(wrapper.querySelectorAll('.anticon-edit').length).toBe(0);
+              expect(wrapper.querySelectorAll('.gicon-highlight').length).toBe(0);
+              expect(wrapper.querySelectorAll('.gicon-edit').length).toBe(0);
             }
             fireEvent.click(wrapper.firstChild!);
             expect(onStart).toHaveBeenCalled();
@@ -332,16 +322,16 @@ describe('Typography', () => {
 
           if (enterIcon === undefined) {
             expect(
-              wrapper.querySelectorAll('span.ant-typography-edit-content-confirm')[0].className,
-            ).toContain('anticon-enter');
+              wrapper.querySelectorAll('span.g-typography-edit-content-confirm')[0].className,
+            ).toContain('gicon-enter');
           } else if (enterIcon === null) {
-            expect(
-              wrapper.querySelectorAll('span.ant-typography-edit-content-confirm').length,
-            ).toBe(0);
+            expect(wrapper.querySelectorAll('span.g-typography-edit-content-confirm').length).toBe(
+              0,
+            );
           } else {
             expect(
-              wrapper.querySelectorAll('span.ant-typography-edit-content-confirm')[0],
-            ).not.toHaveClass('anticon-enter');
+              wrapper.querySelectorAll('span.g-typography-edit-content-confirm')[0],
+            ).not.toHaveClass('gicon-enter');
           }
 
           if (submitFunc) {
@@ -401,7 +391,7 @@ describe('Typography', () => {
       it('should trigger onEnd when type Enter', () => {
         const onEnd = jest.fn();
         const { container: wrapper } = render(<Paragraph editable={{ onEnd }}>Bamboo</Paragraph>);
-        fireEvent.click(wrapper.querySelectorAll('.ant-typography-edit')[0]);
+        fireEvent.click(wrapper.querySelectorAll('.g-typography-edit')[0]);
         fireEvent.keyDown(wrapper.querySelector('textarea')!, { keyCode: KeyCode.ENTER });
         fireEvent.keyUp(wrapper.querySelector('textarea')!, { keyCode: KeyCode.ENTER });
         expect(onEnd).toHaveBeenCalledTimes(1);
@@ -410,7 +400,7 @@ describe('Typography', () => {
       it('should trigger onStart when type Start', () => {
         const onStart = jest.fn();
         const { container: wrapper } = render(<Paragraph editable={{ onStart }}>Bamboo</Paragraph>);
-        fireEvent.click(wrapper.querySelectorAll('.ant-typography-edit')[0]);
+        fireEvent.click(wrapper.querySelectorAll('.g-typography-edit')[0]);
         fireEvent.keyDown(wrapper.querySelector('textarea')!, { keyCode: KeyCode.A });
         fireEvent.keyUp(wrapper.querySelector('textarea')!, { keyCode: KeyCode.A });
         expect(onStart).toHaveBeenCalledTimes(1);
@@ -421,7 +411,7 @@ describe('Typography', () => {
         const { container: wrapper } = render(
           <Paragraph editable={{ onCancel }}>Bamboo</Paragraph>,
         );
-        fireEvent.click(wrapper.querySelectorAll('.ant-typography-edit')[0]);
+        fireEvent.click(wrapper.querySelectorAll('.g-typography-edit')[0]);
         fireEvent.keyDown(wrapper.querySelector('textarea')!, { keyCode: KeyCode.ESC });
         fireEvent.keyUp(wrapper.querySelector('textarea')!, { keyCode: KeyCode.ESC });
         expect(onCancel).toHaveBeenCalledTimes(1);
@@ -430,7 +420,7 @@ describe('Typography', () => {
       it('should only trigger focus on the first time', () => {
         let triggerTimes = 0;
         const { container: wrapper } = render(<Paragraph editable>Bamboo</Paragraph>);
-        const editIcon = wrapper.querySelectorAll('.ant-typography-edit')[0];
+        const editIcon = wrapper.querySelectorAll('.g-typography-edit')[0];
 
         editIcon.addEventListener('focus', () => {
           triggerTimes += 1;
@@ -450,7 +440,7 @@ describe('Typography', () => {
 
     it('should focus at the end of textarea', () => {
       const { container: wrapper } = render(<Paragraph editable>content</Paragraph>);
-      fireEvent.click(wrapper.querySelectorAll('.ant-typography-edit')[0]);
+      fireEvent.click(wrapper.querySelectorAll('.g-typography-edit')[0]);
       const textareaNode = wrapper.querySelector('textarea');
       expect(textareaNode?.selectionStart).toBe(7);
       expect(textareaNode?.selectionEnd).toBe(7);
@@ -489,13 +479,13 @@ describe('Typography', () => {
         test
       </Paragraph>,
     );
-    const copyButton = wrapper.querySelector('.ant-typography-copy') as HTMLButtonElement;
+    const copyButton = wrapper.querySelector('.g-typography-copy') as HTMLButtonElement;
     expect(copyButton).toBeTruthy();
     // https://github.com/testing-library/user-event/issues/179#issuecomment-1125146667
     copyButton.focus();
     userEvent.keyboard('{enter}');
     await waitFor(() => expect(onCopy).toHaveBeenCalledTimes(1));
-    const editButton = wrapper.querySelector('.ant-typography-edit') as HTMLButtonElement;
+    const editButton = wrapper.querySelector('.g-typography-edit') as HTMLButtonElement;
     expect(editButton).toBeTruthy();
     editButton.focus();
     userEvent.keyboard('{enter}');

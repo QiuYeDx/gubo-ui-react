@@ -126,13 +126,13 @@ describe('ConfigProvider.Popup', () => {
       );
 
       fireEvent.contextMenu(getByRole(container, 'button', { name: 'popover' }));
-      expect(baseElement.querySelector('.ant-popover')).toBeTruthy();
+      expect(baseElement.querySelector('.g-popover')).toBeTruthy();
 
       fireEvent.contextMenu(getByRole(container, 'button', { name: 'popconfirm' }));
-      expect(baseElement.querySelector('.ant-popconfirm')).toBeTruthy();
+      expect(baseElement.querySelector('.g-popconfirm')).toBeTruthy();
 
       fireEvent.contextMenu(getByRole(container, 'button', { name: 'tooltip' }));
-      expect(baseElement.querySelector('.ant-tooltip')).toBeTruthy();
+      expect(baseElement.querySelector('.g-tooltip')).toBeTruthy();
     });
   });
 });

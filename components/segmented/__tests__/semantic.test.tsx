@@ -50,9 +50,9 @@ describe('Segmented.Semantic', () => {
       <Segmented options={options} value="growth" classNames={fnClassNames} styles={fnStyles} />,
     );
 
-    const root = container.querySelector('.ant-segmented');
-    let items = Array.from(container.querySelectorAll('.ant-segmented-item'));
-    let labels = Array.from(container.querySelectorAll('.ant-segmented-item-label'));
+    const root = container.querySelector('.g-segmented');
+    let items = Array.from(container.querySelectorAll('.g-segmented-item'));
+    let labels = Array.from(container.querySelectorAll('.g-segmented-item-label'));
 
     expect(root).toHaveClass('test-segmented-root-first');
     items.forEach((item) => {
@@ -64,7 +64,7 @@ describe('Segmented.Semantic', () => {
       expect(label).toHaveStyle('font-weight: 600');
     });
     expect(root).toHaveStyle('background-color: rgb(246, 255, 237)');
-    let icon = container.querySelector('.ant-segmented-item-icon');
+    let icon = container.querySelector('.g-segmented-item-icon');
     expect(icon).toHaveClass('test-segmented-icon');
     expect(icon).toHaveStyle('color: rgb(82, 196, 26)');
 
@@ -92,9 +92,9 @@ describe('Segmented.Semantic', () => {
     );
 
     expect(root).toHaveClass('test-segmented-root-object');
-    items = Array.from(container.querySelectorAll('.ant-segmented-item'));
-    labels = Array.from(container.querySelectorAll('.ant-segmented-item-label'));
-    icon = container.querySelector('.ant-segmented-item-icon');
+    items = Array.from(container.querySelectorAll('.g-segmented-item'));
+    labels = Array.from(container.querySelectorAll('.g-segmented-item-label'));
+    icon = container.querySelector('.g-segmented-item-icon');
 
     items.forEach((item) => {
       expect(item).toHaveClass('test-segmented-item-object');
@@ -132,10 +132,10 @@ describe('Segmented.Semantic', () => {
       />,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-segmented');
-    const iconElement = container.querySelector<HTMLElement>('.ant-segmented-item-icon');
-    const itemElement = container.querySelector<HTMLElement>('.ant-segmented-item');
-    const labelElement = container.querySelector<HTMLElement>('.ant-segmented-item-label');
+    const rootElement = container.querySelector<HTMLElement>('.g-segmented');
+    const iconElement = container.querySelector<HTMLElement>('.g-segmented-item-icon');
+    const itemElement = container.querySelector<HTMLElement>('.g-segmented-item');
+    const labelElement = container.querySelector<HTMLElement>('.g-segmented-item-label');
 
     // check classNames
     expect(rootElement).toHaveClass('custom-root');

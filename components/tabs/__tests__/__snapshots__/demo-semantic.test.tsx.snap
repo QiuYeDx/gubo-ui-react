@@ -5,36 +5,36 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
   class="acss-1ucck97"
 >
   <div
-    class="ant-row css-var-test-id"
+    class="g-row css-var-test-id"
   >
     <div
-      class="ant-col ant-col-16 acss-my3sst css-var-test-id"
+      class="g-col g-col-16 acss-my3sst css-var-test-id"
     >
       <div
-        class="ant-tabs ant-tabs-top semantic-mark-root css-var-test-id ant-tabs-css-var"
+        class="g-tabs g-tabs-top semantic-mark-root css-var-test-id g-tabs-css-var"
         style="height: 220px; width: 100%;"
       >
         <div
           aria-orientation="horizontal"
-          class="ant-tabs-nav semantic-mark-header"
+          class="g-tabs-nav semantic-mark-header"
           role="tablist"
         >
           <div
-            class="ant-tabs-nav-wrap"
+            class="g-tabs-nav-wrap"
           >
             <div
-              class="ant-tabs-nav-list"
+              class="g-tabs-nav-list"
               style="transform: translate(0px, 0px);"
             >
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="0"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-0"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-0"
                   role="tab"
                   tabindex="-1"
@@ -43,14 +43,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item ant-tabs-tab-active"
+                class="g-tabs-tab semantic-mark-item g-tabs-tab-active"
                 data-node-key="1"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-1"
                   aria-disabled="false"
                   aria-selected="true"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-1"
                   role="tab"
                   tabindex="0"
@@ -59,14 +59,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="2"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-2"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-2"
                   role="tab"
                   tabindex="-1"
@@ -75,14 +75,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="3"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-3"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-3"
                   role="tab"
                   tabindex="-1"
@@ -91,14 +91,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="4"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-4"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-4"
                   role="tab"
                   tabindex="-1"
@@ -107,14 +107,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="5"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-5"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-5"
                   role="tab"
                   tabindex="-1"
@@ -123,14 +123,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="6"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-6"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-6"
                   role="tab"
                   tabindex="-1"
@@ -139,14 +139,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="7"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-7"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-7"
                   role="tab"
                   tabindex="-1"
@@ -155,14 +155,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="8"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-8"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-8"
                   role="tab"
                   tabindex="-1"
@@ -171,14 +171,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="9"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-9"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-9"
                   role="tab"
                   tabindex="-1"
@@ -187,14 +187,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="10"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-10"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-10"
                   role="tab"
                   tabindex="-1"
@@ -203,14 +203,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="11"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-11"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-11"
                   role="tab"
                   tabindex="-1"
@@ -219,14 +219,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="12"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-12"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-12"
                   role="tab"
                   tabindex="-1"
@@ -235,14 +235,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="13"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-13"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-13"
                   role="tab"
                   tabindex="-1"
@@ -251,14 +251,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="14"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-14"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-14"
                   role="tab"
                   tabindex="-1"
@@ -267,14 +267,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="15"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-15"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-15"
                   role="tab"
                   tabindex="-1"
@@ -283,14 +283,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="16"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-16"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-16"
                   role="tab"
                   tabindex="-1"
@@ -299,14 +299,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="17"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-17"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-17"
                   role="tab"
                   tabindex="-1"
@@ -315,14 +315,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="18"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-18"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-18"
                   role="tab"
                   tabindex="-1"
@@ -331,14 +331,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="19"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-19"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-19"
                   role="tab"
                   tabindex="-1"
@@ -347,14 +347,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="20"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-20"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-20"
                   role="tab"
                   tabindex="-1"
@@ -363,14 +363,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="21"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-21"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-21"
                   role="tab"
                   tabindex="-1"
@@ -379,14 +379,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="22"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-22"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-22"
                   role="tab"
                   tabindex="-1"
@@ -395,14 +395,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="23"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-23"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-23"
                   role="tab"
                   tabindex="-1"
@@ -411,14 +411,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="24"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-24"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-24"
                   role="tab"
                   tabindex="-1"
@@ -427,14 +427,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="25"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-25"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-25"
                   role="tab"
                   tabindex="-1"
@@ -443,14 +443,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="26"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-26"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-26"
                   role="tab"
                   tabindex="-1"
@@ -459,14 +459,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="27"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-27"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-27"
                   role="tab"
                   tabindex="-1"
@@ -475,14 +475,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item ant-tabs-tab-disabled"
+                class="g-tabs-tab semantic-mark-item g-tabs-tab-disabled"
                 data-node-key="28"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-28"
                   aria-disabled="true"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-28"
                   role="tab"
                 >
@@ -490,14 +490,14 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-tab semantic-mark-item"
+                class="g-tabs-tab semantic-mark-item"
                 data-node-key="29"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-29"
                   aria-disabled="false"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-29"
                   role="tab"
                   tabindex="-1"
@@ -506,25 +506,25 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar semantic-mark-indicator ant-tabs-ink-bar-animated"
+                class="g-tabs-ink-bar semantic-mark-indicator g-tabs-ink-bar-animated"
               />
             </div>
           </div>
           <div
-            class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+            class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
           >
             <button
               aria-controls="rc-tabs-test-more-popup"
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="ant-tabs-nav-more"
+              class="g-tabs-nav-more"
               id="rc-tabs-test-more"
               style="visibility: hidden; order: 1;"
               type="button"
             >
               <span
                 aria-label="ellipsis"
-                class="anticon anticon-ellipsis"
+                class="gicon gicon-ellipsis"
                 role="img"
               >
                 <svg
@@ -545,15 +545,15 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-content-holder"
+          class="g-tabs-content-holder"
         >
           <div
-            class="ant-tabs-content ant-tabs-content-top"
+            class="g-tabs-content g-tabs-content-top"
           >
             <div
               aria-hidden="false"
               aria-labelledby="rc-tabs-test-tab-1"
-              class="ant-tabs-tabpane ant-tabs-tabpane-active semantic-mark-content"
+              class="g-tabs-tabpane g-tabs-tabpane-active semantic-mark-content"
               id="rc-tabs-test-panel-1"
               role="tabpanel"
               tabindex="0"
@@ -565,7 +565,7 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-col ant-col-8 css-var-test-id"
+      class="g-col g-col-8 css-var-test-id"
     >
       <ul
         class="acss-1ry21g5"
@@ -574,35 +574,35 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   root
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -623,15 +623,15 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -656,7 +656,7 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素，包含标签页容器的基础样式、布局和方向控制
@@ -667,35 +667,35 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   header
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -716,15 +716,15 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -749,7 +749,7 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素，包含标签页容器的基础样式、布局和方向控制
@@ -760,35 +760,35 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   item
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -809,15 +809,15 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -842,7 +842,7 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               Item 元素，包含相对定位、内边距、颜色、文本省略、圆角、过渡动画等标签项的样式和交互效果
@@ -853,35 +853,35 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   indicator
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -902,15 +902,15 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -935,7 +935,7 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               指示器元素，包含指示条的颜色、位置、尺寸、过渡动画等活跃状态指示样式
@@ -946,35 +946,35 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   content
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -995,15 +995,15 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1028,7 +1028,7 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               内容元素，包含标签页内容面板的布局、内边距等内容展示样式
@@ -1039,35 +1039,35 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   popup.root
                 </h5>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -1088,15 +1088,15 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -1121,7 +1121,7 @@ exports[`renders components/tabs/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               弹出菜单元素，包含下拉菜单的绝对定位、层级、显示控制、最大高度、滚动等样式

@@ -19,15 +19,15 @@ describe('Timeline.Semantic', () => {
     };
 
     const classNamesTargets: StepsSemanticClassNames = {
-      root: 'ant-steps',
-      item: 'ant-steps-item',
-      itemWrapper: 'ant-steps-item-wrapper',
-      itemIcon: 'ant-steps-item-icon',
-      itemSection: 'ant-steps-item-section',
-      itemHeader: 'ant-steps-item-header',
-      itemTitle: 'ant-steps-item-title',
-      itemContent: 'ant-steps-item-content',
-      itemRail: 'ant-steps-item-rail',
+      root: 'g-steps',
+      item: 'g-steps-item',
+      itemWrapper: 'g-steps-item-wrapper',
+      itemIcon: 'g-steps-item-icon',
+      itemSection: 'g-steps-item-section',
+      itemHeader: 'g-steps-item-header',
+      itemTitle: 'g-steps-item-title',
+      itemContent: 'g-steps-item-content',
+      itemRail: 'g-steps-item-rail',
     };
 
     const styles: StepsSemanticStyles = {
@@ -114,12 +114,12 @@ describe('Timeline.Semantic', () => {
       />,
     );
 
-    const timelineElement = container.querySelector('.ant-timeline');
-    const itemElements = container.querySelectorAll('.ant-timeline-item');
-    const iconElements = container.querySelectorAll('.ant-timeline-item-icon');
-    const titleElements = container.querySelectorAll('.ant-timeline-item-title');
-    const contentElements = container.querySelectorAll('.ant-timeline-item-content');
-    const railElements = container.querySelectorAll('.ant-timeline-item-rail');
+    const timelineElement = container.querySelector('.g-timeline');
+    const itemElements = container.querySelectorAll('.g-timeline-item');
+    const iconElements = container.querySelectorAll('.g-timeline-item-icon');
+    const titleElements = container.querySelectorAll('.g-timeline-item-title');
+    const contentElements = container.querySelectorAll('.g-timeline-item-content');
+    const railElements = container.querySelectorAll('.g-timeline-item-rail');
 
     expect(timelineElement).toHaveClass('filled-timeline');
     expect(timelineElement).toHaveAttribute('style');

@@ -32,6 +32,6 @@ rootPropsTest(
     </Dropdown>
   ),
   {
-    findRootElements: () => document.querySelector('.ant-dropdown')!,
+    findRootElements: () => document.querySelector('.g-dropdown')!,
   },
 );

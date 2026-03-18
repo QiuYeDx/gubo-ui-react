@@ -3,22 +3,22 @@
 exports[`renders components/pagination/demo/align.tsx correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination ant-pagination-start css-var-test-id"
+    class="g-pagination g-pagination-start css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -38,7 +38,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -49,7 +49,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -60,7 +60,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -71,7 +71,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -82,7 +82,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -94,18 +94,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -127,22 +127,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination ant-pagination-center css-var-test-id"
+    class="g-pagination g-pagination-center css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -162,7 +162,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -173,7 +173,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -184,7 +184,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -195,7 +195,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -206,7 +206,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -218,18 +218,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -251,22 +251,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination ant-pagination-end css-var-test-id"
+    class="g-pagination g-pagination-end css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -286,7 +286,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -297,7 +297,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -308,7 +308,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -319,7 +319,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -330,7 +330,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -342,18 +342,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -378,27 +378,27 @@ Array [
 
 exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
 <ul
-  class="ant-pagination css-var-test-id"
+  class="g-pagination css-var-test-id"
 >
   <li
-    class="ant-pagination-total-text"
+    class="g-pagination-total-text"
   >
     Total 85 items
   </li>
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="g-pagination-prev g-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg
@@ -418,7 +418,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -429,7 +429,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="g-pagination-item g-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -440,7 +440,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="g-pagination-item g-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -451,7 +451,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="g-pagination-item g-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -462,7 +462,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+    class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
     tabindex="0"
     title="5"
   >
@@ -473,19 +473,19 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
     tabindex="0"
     title="Next 5 Pages"
   >
     <a
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
     >
       <div
-        class="ant-pagination-item-container"
+        class="g-pagination-item-container"
       >
         <span
           aria-label="double-right"
-          class="anticon anticon-double-right ant-pagination-item-link-icon"
+          class="gicon gicon-double-right g-pagination-item-link-icon"
           role="img"
         >
           <svg
@@ -503,7 +503,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-pagination-item-ellipsis"
+          class="g-pagination-item-ellipsis"
         >
           •••
         </span>
@@ -511,7 +511,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-9"
+    class="g-pagination-item g-pagination-item-9"
     tabindex="0"
     title="9"
   >
@@ -523,18 +523,18 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="g-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -554,13 +554,13 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="g-pagination-options"
   >
     <div
-      class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="10 / page"
       >
         10 / page
@@ -570,7 +570,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
           aria-haspopup="listbox"
           aria-label="Page Size"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -578,11 +578,11 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -602,7 +602,7 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-pagination-options-quick-jumper"
+      class="g-pagination-options-quick-jumper"
     >
       Go to
       <input
@@ -618,22 +618,22 @@ exports[`renders components/pagination/demo/all.tsx correctly 1`] = `
 
 exports[`renders components/pagination/demo/basic.tsx correctly 1`] = `
 <ul
-  class="ant-pagination css-var-test-id"
+  class="g-pagination css-var-test-id"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="g-pagination-prev g-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg
@@ -653,7 +653,7 @@ exports[`renders components/pagination/demo/basic.tsx correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -664,7 +664,7 @@ exports[`renders components/pagination/demo/basic.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="g-pagination-item g-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -675,7 +675,7 @@ exports[`renders components/pagination/demo/basic.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="g-pagination-item g-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -686,7 +686,7 @@ exports[`renders components/pagination/demo/basic.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="g-pagination-item g-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -697,7 +697,7 @@ exports[`renders components/pagination/demo/basic.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="g-pagination-item g-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -709,18 +709,18 @@ exports[`renders components/pagination/demo/basic.tsx correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="g-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -745,22 +745,22 @@ exports[`renders components/pagination/demo/basic.tsx correctly 1`] = `
 exports[`renders components/pagination/demo/changer.tsx correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination css-var-test-id"
+    class="g-pagination css-var-test-id"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -780,7 +780,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -791,7 +791,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -802,7 +802,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-3 g-pagination-item-active"
       tabindex="0"
       title="3"
     >
@@ -813,7 +813,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -824,7 +824,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -835,19 +835,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -865,7 +865,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -873,7 +873,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -885,18 +885,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -916,13 +916,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -932,7 +932,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -940,11 +940,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -967,22 +967,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination css-var-test-id ant-pagination-disabled"
+    class="g-pagination css-var-test-id g-pagination-disabled"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -1002,7 +1002,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -1013,7 +1013,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -1024,7 +1024,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-3 g-pagination-item-active"
       tabindex="0"
       title="3"
     >
@@ -1035,7 +1035,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -1046,7 +1046,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -1057,19 +1057,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -1087,7 +1087,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -1095,7 +1095,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -1107,18 +1107,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -1138,13 +1138,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -1154,7 +1154,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -1163,11 +1163,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1194,16 +1194,16 @@ Array [
 exports[`renders components/pagination/demo/component-token.tsx correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination css-var-test-id"
+    class="g-pagination css-var-test-id"
   >
     <li
-      class="ant-pagination-total-text"
+      class="g-pagination-total-text"
     >
       Total 500 items
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
@@ -1212,7 +1212,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -1223,7 +1223,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -1234,7 +1234,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-3 g-pagination-item-active"
       tabindex="0"
       title="3"
     >
@@ -1245,7 +1245,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -1256,7 +1256,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -1267,19 +1267,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -1297,7 +1297,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -1305,7 +1305,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -1317,7 +1317,7 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
@@ -1326,13 +1326,13 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -1342,7 +1342,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -1350,11 +1350,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1374,7 +1374,7 @@ Array [
         </div>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="g-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -1388,22 +1388,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination css-var-test-id ant-pagination-disabled"
+    class="g-pagination css-var-test-id g-pagination-disabled"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -1423,7 +1423,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -1434,7 +1434,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -1445,7 +1445,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-3 g-pagination-item-active"
       tabindex="0"
       title="3"
     >
@@ -1456,7 +1456,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -1467,7 +1467,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -1478,19 +1478,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -1508,7 +1508,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -1516,7 +1516,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -1528,18 +1528,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -1559,13 +1559,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -1575,7 +1575,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -1584,11 +1584,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -1614,22 +1614,22 @@ Array [
 
 exports[`renders components/pagination/demo/controlled.tsx correctly 1`] = `
 <ul
-  class="ant-pagination css-var-test-id"
+  class="g-pagination css-var-test-id"
 >
   <li
     aria-disabled="false"
-    class="ant-pagination-prev"
+    class="g-pagination-prev"
     tabindex="0"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg
@@ -1649,7 +1649,7 @@ exports[`renders components/pagination/demo/controlled.tsx correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1"
+    class="g-pagination-item g-pagination-item-1"
     tabindex="0"
     title="1"
   >
@@ -1660,7 +1660,7 @@ exports[`renders components/pagination/demo/controlled.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="g-pagination-item g-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -1671,7 +1671,7 @@ exports[`renders components/pagination/demo/controlled.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-3 g-pagination-item-active"
     tabindex="0"
     title="3"
   >
@@ -1682,7 +1682,7 @@ exports[`renders components/pagination/demo/controlled.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="g-pagination-item g-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -1693,7 +1693,7 @@ exports[`renders components/pagination/demo/controlled.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="g-pagination-item g-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -1705,18 +1705,18 @@ exports[`renders components/pagination/demo/controlled.tsx correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="g-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -1740,11 +1740,11 @@ exports[`renders components/pagination/demo/controlled.tsx correctly 1`] = `
 
 exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
 <ul
-  class="ant-pagination css-var-test-id"
+  class="g-pagination css-var-test-id"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="g-pagination-prev g-pagination-disabled"
     title="Previous Page"
   >
     <a
@@ -1754,7 +1754,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -1765,7 +1765,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="g-pagination-item g-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -1776,7 +1776,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="g-pagination-item g-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -1787,7 +1787,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="g-pagination-item g-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -1798,7 +1798,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+    class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
     tabindex="0"
     title="5"
   >
@@ -1809,19 +1809,19 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
     tabindex="0"
     title="Next 5 Pages"
   >
     <a
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
     >
       <div
-        class="ant-pagination-item-container"
+        class="g-pagination-item-container"
       >
         <span
           aria-label="double-right"
-          class="anticon anticon-double-right ant-pagination-item-link-icon"
+          class="gicon gicon-double-right g-pagination-item-link-icon"
           role="img"
         >
           <svg
@@ -1839,7 +1839,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-pagination-item-ellipsis"
+          class="g-pagination-item-ellipsis"
         >
           •••
         </span>
@@ -1847,7 +1847,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-50"
+    class="g-pagination-item g-pagination-item-50"
     tabindex="0"
     title="50"
   >
@@ -1859,7 +1859,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="g-pagination-next"
     tabindex="0"
     title="Next Page"
   >
@@ -1868,13 +1868,13 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-options"
+    class="g-pagination-options"
   >
     <div
-      class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="10 / page"
       >
         10 / page
@@ -1884,7 +1884,7 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
           aria-haspopup="listbox"
           aria-label="Page Size"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -1892,11 +1892,11 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1922,22 +1922,22 @@ exports[`renders components/pagination/demo/itemRender.tsx correctly 1`] = `
 exports[`renders components/pagination/demo/jump.tsx correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination css-var-test-id"
+    class="g-pagination css-var-test-id"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -1957,7 +1957,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -1968,7 +1968,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-2 g-pagination-item-active"
       tabindex="0"
       title="2"
     >
@@ -1979,7 +1979,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -1990,7 +1990,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2001,7 +2001,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -2012,19 +2012,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -2042,7 +2042,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -2050,7 +2050,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -2062,18 +2062,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -2093,13 +2093,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -2109,7 +2109,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -2117,11 +2117,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2141,7 +2141,7 @@ Array [
         </div>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="g-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -2155,22 +2155,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination css-var-test-id ant-pagination-disabled"
+    class="g-pagination css-var-test-id g-pagination-disabled"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -2190,7 +2190,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -2201,7 +2201,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-2 g-pagination-item-active"
       tabindex="0"
       title="2"
     >
@@ -2212,7 +2212,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -2223,7 +2223,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2234,7 +2234,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -2245,19 +2245,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -2275,7 +2275,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -2283,7 +2283,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -2295,18 +2295,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -2326,13 +2326,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -2342,7 +2342,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -2351,11 +2351,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2375,7 +2375,7 @@ Array [
         </div>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="g-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -2393,41 +2393,41 @@ Array [
 
 exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       Small
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>
   <ul
-    class="ant-pagination ant-pagination-small ant-pagination-mini css-var-test-id"
+    class="g-pagination g-pagination-small g-pagination-mini css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -2447,7 +2447,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -2458,7 +2458,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -2469,7 +2469,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -2480,7 +2480,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2491,7 +2491,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -2503,18 +2503,18 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -2535,22 +2535,22 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-pagination ant-pagination-small ant-pagination-mini css-var-test-id"
+    class="g-pagination g-pagination-small g-pagination-mini css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -2570,7 +2570,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -2581,7 +2581,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -2592,7 +2592,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -2603,7 +2603,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2614,7 +2614,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -2626,18 +2626,18 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -2657,13 +2657,13 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-sm ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-sm g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -2673,7 +2673,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -2681,11 +2681,11 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2705,7 +2705,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="g-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -2718,27 +2718,27 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-pagination ant-pagination-small ant-pagination-mini css-var-test-id"
+    class="g-pagination g-pagination-small g-pagination-mini css-var-test-id"
   >
     <li
-      class="ant-pagination-total-text"
+      class="g-pagination-total-text"
     >
       Total 50 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -2758,7 +2758,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -2769,7 +2769,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -2780,7 +2780,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -2791,7 +2791,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2802,7 +2802,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -2814,18 +2814,18 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -2846,27 +2846,27 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-pagination ant-pagination-small ant-pagination-mini css-var-test-id ant-pagination-disabled"
+    class="g-pagination g-pagination-small g-pagination-mini css-var-test-id g-pagination-disabled"
   >
     <li
-      class="ant-pagination-total-text"
+      class="g-pagination-total-text"
     >
       Total 50 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -2886,7 +2886,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -2897,7 +2897,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -2908,7 +2908,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -2919,7 +2919,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -2930,7 +2930,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -2942,18 +2942,18 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -2973,13 +2973,13 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-sm ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled ant-select-show-search"
+        class="g-select g-select-sm g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -2989,7 +2989,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -2998,11 +2998,11 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3022,7 +3022,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="g-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -3036,38 +3036,38 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
   </ul>
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       Large
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>
   <ul
-    class="ant-pagination ant-pagination-large css-var-test-id"
+    class="g-pagination g-pagination-large css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -3087,7 +3087,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -3098,7 +3098,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -3109,7 +3109,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -3120,7 +3120,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -3131,7 +3131,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -3143,18 +3143,18 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -3175,22 +3175,22 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-pagination ant-pagination-large css-var-test-id"
+    class="g-pagination g-pagination-large css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -3210,7 +3210,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -3221,7 +3221,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -3232,7 +3232,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -3243,7 +3243,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -3254,7 +3254,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -3266,18 +3266,18 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -3297,13 +3297,13 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-lg ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-lg g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -3313,7 +3313,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -3321,11 +3321,11 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3345,7 +3345,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="g-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -3358,27 +3358,27 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-pagination ant-pagination-large css-var-test-id"
+    class="g-pagination g-pagination-large css-var-test-id"
   >
     <li
-      class="ant-pagination-total-text"
+      class="g-pagination-total-text"
     >
       Total 50 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -3398,7 +3398,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -3409,7 +3409,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -3420,7 +3420,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -3431,7 +3431,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -3442,7 +3442,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -3454,18 +3454,18 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -3486,27 +3486,27 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-pagination ant-pagination-large css-var-test-id ant-pagination-disabled"
+    class="g-pagination g-pagination-large css-var-test-id g-pagination-disabled"
   >
     <li
-      class="ant-pagination-total-text"
+      class="g-pagination-total-text"
     >
       Total 50 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -3526,7 +3526,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -3537,7 +3537,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -3548,7 +3548,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -3559,7 +3559,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -3570,7 +3570,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -3582,18 +3582,18 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -3613,13 +3613,13 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-lg ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled ant-select-show-search"
+        class="g-select g-select-lg g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -3629,7 +3629,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -3638,11 +3638,11 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -3662,7 +3662,7 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-pagination-options-quick-jumper"
+        class="g-pagination-options-quick-jumper"
       >
         Go to
         <input
@@ -3680,22 +3680,22 @@ exports[`renders components/pagination/demo/mini.tsx correctly 1`] = `
 
 exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
 <ul
-  class="ant-pagination css-var-test-id"
+  class="g-pagination css-var-test-id"
 >
   <li
     aria-disabled="false"
-    class="ant-pagination-prev"
+    class="g-pagination-prev"
     tabindex="0"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg
@@ -3715,7 +3715,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1"
+    class="g-pagination-item g-pagination-item-1"
     tabindex="0"
     title="1"
   >
@@ -3726,19 +3726,19 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-jump-prev ant-pagination-jump-prev-custom-icon"
+    class="g-pagination-jump-prev g-pagination-jump-prev-custom-icon"
     tabindex="0"
     title="Previous 5 Pages"
   >
     <a
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
     >
       <div
-        class="ant-pagination-item-container"
+        class="g-pagination-item-container"
       >
         <span
           aria-label="double-left"
-          class="anticon anticon-double-left ant-pagination-item-link-icon"
+          class="gicon gicon-double-left g-pagination-item-link-icon"
           role="img"
         >
           <svg
@@ -3756,7 +3756,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-pagination-item-ellipsis"
+          class="g-pagination-item-ellipsis"
         >
           •••
         </span>
@@ -3764,7 +3764,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4 ant-pagination-item-after-jump-prev"
+    class="g-pagination-item g-pagination-item-4 g-pagination-item-after-jump-prev"
     tabindex="0"
     title="4"
   >
@@ -3775,7 +3775,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="g-pagination-item g-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -3786,7 +3786,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-6 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-6 g-pagination-item-active"
     tabindex="0"
     title="6"
   >
@@ -3797,7 +3797,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-7"
+    class="g-pagination-item g-pagination-item-7"
     tabindex="0"
     title="7"
   >
@@ -3808,7 +3808,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-8 ant-pagination-item-before-jump-next"
+    class="g-pagination-item g-pagination-item-8 g-pagination-item-before-jump-next"
     tabindex="0"
     title="8"
   >
@@ -3819,19 +3819,19 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
     tabindex="0"
     title="Next 5 Pages"
   >
     <a
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
     >
       <div
-        class="ant-pagination-item-container"
+        class="g-pagination-item-container"
       >
         <span
           aria-label="double-right"
-          class="anticon anticon-double-right ant-pagination-item-link-icon"
+          class="gicon gicon-double-right g-pagination-item-link-icon"
           role="img"
         >
           <svg
@@ -3849,7 +3849,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
           </svg>
         </span>
         <span
-          class="ant-pagination-item-ellipsis"
+          class="g-pagination-item-ellipsis"
         >
           •••
         </span>
@@ -3857,7 +3857,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-50"
+    class="g-pagination-item g-pagination-item-50"
     tabindex="0"
     title="50"
   >
@@ -3869,18 +3869,18 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="g-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -3900,13 +3900,13 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="g-pagination-options"
   >
     <div
-      class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="10 / page"
       >
         10 / page
@@ -3916,7 +3916,7 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
           aria-haspopup="listbox"
           aria-label="Page Size"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -3924,11 +3924,11 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3954,22 +3954,22 @@ exports[`renders components/pagination/demo/more.tsx correctly 1`] = `
 exports[`renders components/pagination/demo/simple.tsx correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination css-var-test-id ant-pagination-simple"
+    class="g-pagination css-var-test-id g-pagination-simple"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -3989,7 +3989,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-simple-pager"
+      class="g-pagination-simple-pager"
       title="2/5"
     >
       <input
@@ -3999,7 +3999,7 @@ Array [
         value="2"
       />
       <span
-        class="ant-pagination-slash"
+        class="g-pagination-slash"
       >
         /
       </span>
@@ -4007,18 +4007,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -4040,22 +4040,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination css-var-test-id ant-pagination-simple"
+    class="g-pagination css-var-test-id g-pagination-simple"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -4075,12 +4075,12 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-simple-pager"
+      class="g-pagination-simple-pager"
       title="2/5"
     >
       2
       <span
-        class="ant-pagination-slash"
+        class="g-pagination-slash"
       >
         /
       </span>
@@ -4088,18 +4088,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -4121,22 +4121,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination css-var-test-id ant-pagination-simple ant-pagination-disabled"
+    class="g-pagination css-var-test-id g-pagination-simple g-pagination-disabled"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -4156,7 +4156,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-simple-pager"
+      class="g-pagination-simple-pager"
       title="2/5"
     >
       <input
@@ -4167,7 +4167,7 @@ Array [
         value="2"
       />
       <span
-        class="ant-pagination-slash"
+        class="g-pagination-slash"
       >
         /
       </span>
@@ -4175,18 +4175,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -4211,26 +4211,26 @@ Array [
 
 exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <ul
-    class="ant-pagination acss-8de2dl css-var-test-id"
+    class="g-pagination acss-8de2dl css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       style="border-radius:999px"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -4250,7 +4250,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       style="border-radius:999px"
       tabindex="0"
       title="1"
@@ -4262,7 +4262,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       style="border-radius:999px"
       tabindex="0"
       title="2"
@@ -4274,7 +4274,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       style="border-radius:999px"
       tabindex="0"
       title="3"
@@ -4286,7 +4286,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       style="border-radius:999px"
       tabindex="0"
       title="4"
@@ -4298,7 +4298,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       style="border-radius:999px"
       tabindex="0"
       title="5"
@@ -4310,19 +4310,19 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -4340,7 +4340,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -4348,7 +4348,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       style="border-radius:999px"
       tabindex="0"
       title="50"
@@ -4361,19 +4361,19 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       style="border-radius:999px"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -4393,13 +4393,13 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -4409,7 +4409,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -4417,11 +4417,11 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4443,23 +4443,23 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
     </li>
   </ul>
   <ul
-    class="ant-pagination ant-pagination-small ant-pagination-mini acss-8de2dl css-var-test-id"
+    class="g-pagination g-pagination-small g-pagination-mini acss-8de2dl css-var-test-id"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       style="background-color:rgba(200, 200, 200, 0.3);margin-inline-end:4px"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -4479,7 +4479,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       style="background-color:rgba(200, 200, 200, 0.3);margin-inline-end:4px"
       tabindex="0"
       title="1"
@@ -4491,7 +4491,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       style="background-color:rgba(200, 200, 200, 0.3);margin-inline-end:4px"
       tabindex="0"
       title="2"
@@ -4503,7 +4503,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       style="background-color:rgba(200, 200, 200, 0.3);margin-inline-end:4px"
       tabindex="0"
       title="3"
@@ -4515,7 +4515,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       style="background-color:rgba(200, 200, 200, 0.3);margin-inline-end:4px"
       tabindex="0"
       title="4"
@@ -4527,7 +4527,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       style="background-color:rgba(200, 200, 200, 0.3);margin-inline-end:4px"
       tabindex="0"
       title="5"
@@ -4539,19 +4539,19 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -4569,7 +4569,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -4577,7 +4577,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       style="background-color:rgba(200, 200, 200, 0.3);margin-inline-end:4px"
       tabindex="0"
       title="50"
@@ -4590,19 +4590,19 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       style="background-color:rgba(200, 200, 200, 0.3);margin-inline-end:4px"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -4622,13 +4622,13 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-sm ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-sm g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -4638,7 +4638,7 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -4646,11 +4646,11 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4677,27 +4677,27 @@ exports[`renders components/pagination/demo/style-class.tsx correctly 1`] = `
 exports[`renders components/pagination/demo/total.tsx correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination css-var-test-id"
+    class="g-pagination css-var-test-id"
   >
     <li
-      class="ant-pagination-total-text"
+      class="g-pagination-total-text"
     >
       Total 85 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -4717,7 +4717,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -4728,7 +4728,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -4739,7 +4739,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -4750,7 +4750,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -4761,7 +4761,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -4773,18 +4773,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -4804,13 +4804,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="20 / page"
         >
           20 / page
@@ -4820,7 +4820,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -4828,11 +4828,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4855,27 +4855,27 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination css-var-test-id"
+    class="g-pagination css-var-test-id"
   >
     <li
-      class="ant-pagination-total-text"
+      class="g-pagination-total-text"
     >
       1-20 of 85 items
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-prev ant-pagination-disabled"
+      class="g-pagination-prev g-pagination-disabled"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -4895,7 +4895,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -4906,7 +4906,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -4917,7 +4917,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="g-pagination-item g-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -4928,7 +4928,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -4939,7 +4939,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="g-pagination-item g-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -4951,18 +4951,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -4982,13 +4982,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="20 / page"
         >
           20 / page
@@ -4998,7 +4998,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -5006,11 +5006,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -5037,22 +5037,22 @@ Array [
 exports[`renders components/pagination/demo/wireframe.tsx correctly 1`] = `
 Array [
   <ul
-    class="ant-pagination ant-pagination-bordered css-var-test-id"
+    class="g-pagination g-pagination-bordered css-var-test-id"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -5072,7 +5072,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -5083,7 +5083,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -5094,7 +5094,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-3 g-pagination-item-active"
       tabindex="0"
       title="3"
     >
@@ -5105,7 +5105,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -5116,7 +5116,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -5127,19 +5127,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -5157,7 +5157,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -5165,7 +5165,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -5177,18 +5177,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -5208,13 +5208,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -5224,7 +5224,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -5232,11 +5232,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -5259,22 +5259,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination ant-pagination-bordered css-var-test-id ant-pagination-disabled"
+    class="g-pagination g-pagination-bordered css-var-test-id g-pagination-disabled"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -5294,7 +5294,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -5305,7 +5305,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="g-pagination-item g-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -5316,7 +5316,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-3 g-pagination-item-active"
       tabindex="0"
       title="3"
     >
@@ -5327,7 +5327,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="g-pagination-item g-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -5338,7 +5338,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+      class="g-pagination-item g-pagination-item-5 g-pagination-item-before-jump-next"
       tabindex="0"
       title="5"
     >
@@ -5349,19 +5349,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+      class="g-pagination-jump-next g-pagination-jump-next-custom-icon"
       tabindex="0"
       title="Next 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="gicon gicon-double-right g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -5379,7 +5379,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -5387,7 +5387,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50"
+      class="g-pagination-item g-pagination-item-50"
       tabindex="0"
       title="50"
     >
@@ -5399,18 +5399,18 @@ Array [
     </li>
     <li
       aria-disabled="false"
-      class="ant-pagination-next"
+      class="g-pagination-next"
       tabindex="0"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -5430,13 +5430,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled ant-select-show-search"
+        class="g-select g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -5446,7 +5446,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -5455,11 +5455,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -5482,22 +5482,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination ant-pagination-small ant-pagination-mini ant-pagination-bordered css-var-test-id"
+    class="g-pagination g-pagination-small g-pagination-mini g-pagination-bordered css-var-test-id"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -5517,7 +5517,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -5528,19 +5528,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-prev ant-pagination-jump-prev-custom-icon"
+      class="g-pagination-jump-prev g-pagination-jump-prev-custom-icon"
       tabindex="0"
       title="Previous 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-left"
-            class="anticon anticon-double-left ant-pagination-item-link-icon"
+            class="gicon gicon-double-left g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -5558,7 +5558,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -5566,7 +5566,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-46 ant-pagination-item-after-jump-prev"
+      class="g-pagination-item g-pagination-item-46 g-pagination-item-after-jump-prev"
       tabindex="0"
       title="46"
     >
@@ -5577,7 +5577,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-47"
+      class="g-pagination-item g-pagination-item-47"
       tabindex="0"
       title="47"
     >
@@ -5588,7 +5588,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-48"
+      class="g-pagination-item g-pagination-item-48"
       tabindex="0"
       title="48"
     >
@@ -5599,7 +5599,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-49"
+      class="g-pagination-item g-pagination-item-49"
       tabindex="0"
       title="49"
     >
@@ -5610,7 +5610,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-50 g-pagination-item-active"
       tabindex="0"
       title="50"
     >
@@ -5622,18 +5622,18 @@ Array [
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-next ant-pagination-disabled"
+      class="g-pagination-next g-pagination-disabled"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -5653,13 +5653,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-sm ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-sm g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -5669,7 +5669,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -5677,11 +5677,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -5704,22 +5704,22 @@ Array [
   </ul>,
   <br />,
   <ul
-    class="ant-pagination ant-pagination-small ant-pagination-mini ant-pagination-bordered css-var-test-id ant-pagination-disabled"
+    class="g-pagination g-pagination-small g-pagination-mini g-pagination-bordered css-var-test-id g-pagination-disabled"
   >
     <li
       aria-disabled="false"
-      class="ant-pagination-prev"
+      class="g-pagination-prev"
       tabindex="0"
       title="Previous Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="left"
-          class="anticon anticon-left"
+          class="gicon gicon-left"
           role="img"
         >
           <svg
@@ -5739,7 +5739,7 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1"
+      class="g-pagination-item g-pagination-item-1"
       tabindex="0"
       title="1"
     >
@@ -5750,19 +5750,19 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-jump-prev ant-pagination-jump-prev-custom-icon"
+      class="g-pagination-jump-prev g-pagination-jump-prev-custom-icon"
       tabindex="0"
       title="Previous 5 Pages"
     >
       <a
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
       >
         <div
-          class="ant-pagination-item-container"
+          class="g-pagination-item-container"
         >
           <span
             aria-label="double-left"
-            class="anticon anticon-double-left ant-pagination-item-link-icon"
+            class="gicon gicon-double-left g-pagination-item-link-icon"
             role="img"
           >
             <svg
@@ -5780,7 +5780,7 @@ Array [
             </svg>
           </span>
           <span
-            class="ant-pagination-item-ellipsis"
+            class="g-pagination-item-ellipsis"
           >
             •••
           </span>
@@ -5788,7 +5788,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-46 ant-pagination-item-after-jump-prev"
+      class="g-pagination-item g-pagination-item-46 g-pagination-item-after-jump-prev"
       tabindex="0"
       title="46"
     >
@@ -5799,7 +5799,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-47"
+      class="g-pagination-item g-pagination-item-47"
       tabindex="0"
       title="47"
     >
@@ -5810,7 +5810,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-48"
+      class="g-pagination-item g-pagination-item-48"
       tabindex="0"
       title="48"
     >
@@ -5821,7 +5821,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-49"
+      class="g-pagination-item g-pagination-item-49"
       tabindex="0"
       title="49"
     >
@@ -5832,7 +5832,7 @@ Array [
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-50 ant-pagination-item-active"
+      class="g-pagination-item g-pagination-item-50 g-pagination-item-active"
       tabindex="0"
       title="50"
     >
@@ -5844,18 +5844,18 @@ Array [
     </li>
     <li
       aria-disabled="true"
-      class="ant-pagination-next ant-pagination-disabled"
+      class="g-pagination-next g-pagination-disabled"
       title="Next Page"
     >
       <button
-        class="ant-pagination-item-link"
+        class="g-pagination-item-link"
         disabled=""
         tabindex="-1"
         type="button"
       >
         <span
           aria-label="right"
-          class="anticon anticon-right"
+          class="gicon gicon-right"
           role="img"
         >
           <svg
@@ -5875,13 +5875,13 @@ Array [
       </button>
     </li>
     <li
-      class="ant-pagination-options"
+      class="g-pagination-options"
     >
       <div
-        class="ant-select ant-select-sm ant-select-outlined ant-pagination-options-size-changer css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled ant-select-show-search"
+        class="g-select g-select-sm g-select-outlined g-pagination-options-size-changer css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled g-select-show-search"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="10 / page"
         >
           10 / page
@@ -5891,7 +5891,7 @@ Array [
             aria-haspopup="listbox"
             aria-label="Page Size"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -5900,11 +5900,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg

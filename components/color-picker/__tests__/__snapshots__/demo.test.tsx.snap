@@ -2,13 +2,13 @@
 
 exports[`renders components/color-picker/demo/allowClear.tsx correctly 1`] = `
 <div
-  class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+  class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
 >
   <div
-    class="ant-color-picker-color-block"
+    class="g-color-picker-color-block"
   >
     <div
-      class="ant-color-picker-color-block-inner"
+      class="g-color-picker-color-block-inner"
       style="background:rgb(22,119,255)"
     />
   </div>
@@ -17,13 +17,13 @@ exports[`renders components/color-picker/demo/allowClear.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/base.tsx correctly 1`] = `
 <div
-  class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+  class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
 >
   <div
-    class="ant-color-picker-color-block"
+    class="g-color-picker-color-block"
   >
     <div
-      class="ant-color-picker-color-block-inner"
+      class="g-color-picker-color-block-inner"
       style="background:rgb(22,119,255)"
     />
   </div>
@@ -32,35 +32,35 @@ exports[`renders components/color-picker/demo/base.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/controlled.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+      class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
     >
       <div
-        class="ant-color-picker-color-block"
+        class="g-color-picker-color-block"
       >
         <div
-          class="ant-color-picker-color-block-inner"
+          class="g-color-picker-color-block-inner"
           style="background:rgb(22,119,255)"
         />
       </div>
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+      class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
     >
       <div
-        class="ant-color-picker-color-block"
+        class="g-color-picker-color-block"
       >
         <div
-          class="ant-color-picker-color-block-inner"
+          class="g-color-picker-color-block-inner"
           style="background:rgb(22,119,255)"
         />
       </div>
@@ -71,18 +71,18 @@ exports[`renders components/color-picker/demo/controlled.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/disabled.tsx correctly 1`] = `
 <div
-  class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var ant-color-picker-trigger-disabled"
+  class="g-color-picker-trigger css-var-test-id g-color-picker-css-var g-color-picker-trigger-disabled"
 >
   <div
-    class="ant-color-picker-color-block"
+    class="g-color-picker-color-block"
   >
     <div
-      class="ant-color-picker-color-block-inner"
+      class="g-color-picker-color-block-inner"
       style="background:rgb(22,119,255)"
     />
   </div>
   <div
-    class="ant-color-picker-trigger-text"
+    class="g-color-picker-trigger-text"
   >
     #1677FF
   </div>
@@ -91,13 +91,13 @@ exports[`renders components/color-picker/demo/disabled.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/disabled-alpha.tsx correctly 1`] = `
 <div
-  class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+  class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
 >
   <div
-    class="ant-color-picker-color-block"
+    class="g-color-picker-color-block"
   >
     <div
-      class="ant-color-picker-color-block-inner"
+      class="g-color-picker-color-block-inner"
       style="background:rgb(22,119,255)"
     />
   </div>
@@ -106,33 +106,33 @@ exports[`renders components/color-picker/demo/disabled-alpha.tsx correctly 1`] =
 
 exports[`renders components/color-picker/demo/format.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-medium ant-space-gap-col-medium css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-medium g-space-gap-col-medium css-var-test-id"
   style="display:flex"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
         </div>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span>
           HEX: 
@@ -143,29 +143,29 @@ exports[`renders components/color-picker/demo/format.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(23,120,255)"
             />
           </div>
         </div>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span>
           HSB: 
@@ -176,29 +176,29 @@ exports[`renders components/color-picker/demo/format.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
         </div>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span>
           RGB: 
@@ -213,27 +213,27 @@ exports[`renders components/color-picker/demo/format.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/line-gradient.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+      class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
     >
       <div
-        class="ant-color-picker-color-block"
+        class="g-color-picker-color-block"
       >
         <div
-          class="ant-color-picker-color-block-inner"
+          class="g-color-picker-color-block-inner"
           style="background:linear-gradient(90deg, rgb(16,142,233) 0%, rgb(135,208,104) 100%)"
         />
       </div>
       <div
-        class="ant-color-picker-trigger-text"
+        class="g-color-picker-trigger-text"
       >
         <span
-          class="ant-color-picker-trigger-text-cell"
+          class="g-color-picker-trigger-text-cell"
         >
           rgb(16,142,233)
           <!-- -->
@@ -243,7 +243,7 @@ exports[`renders components/color-picker/demo/line-gradient.tsx correctly 1`] = 
           %
         </span>
         <span
-          class="ant-color-picker-trigger-text-cell"
+          class="g-color-picker-trigger-text-cell"
         >
           rgb(135,208,104)
           <!-- -->
@@ -256,24 +256,24 @@ exports[`renders components/color-picker/demo/line-gradient.tsx correctly 1`] = 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+      class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
     >
       <div
-        class="ant-color-picker-color-block"
+        class="g-color-picker-color-block"
       >
         <div
-          class="ant-color-picker-color-block-inner"
+          class="g-color-picker-color-block-inner"
           style="background:linear-gradient(90deg, rgb(16,142,233) 0%, rgb(135,208,104) 100%)"
         />
       </div>
       <div
-        class="ant-color-picker-trigger-text"
+        class="g-color-picker-trigger-text"
       >
         <span
-          class="ant-color-picker-trigger-text-cell"
+          class="g-color-picker-trigger-text-cell"
         >
           rgb(16,142,233)
           <!-- -->
@@ -283,7 +283,7 @@ exports[`renders components/color-picker/demo/line-gradient.tsx correctly 1`] = 
           %
         </span>
         <span
-          class="ant-color-picker-trigger-text-cell"
+          class="g-color-picker-trigger-text-cell"
         >
           rgb(135,208,104)
           <!-- -->
@@ -300,32 +300,32 @@ exports[`renders components/color-picker/demo/line-gradient.tsx correctly 1`] = 
 
 exports[`renders components/color-picker/demo/panel-render.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span>
           Add title:
         </span>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
@@ -334,29 +334,29 @@ exports[`renders components/color-picker/demo/panel-render.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span>
           Horizontal layout:
         </span>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
@@ -369,13 +369,13 @@ exports[`renders components/color-picker/demo/panel-render.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/presets.tsx correctly 1`] = `
 <div
-  class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+  class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
 >
   <div
-    class="ant-color-picker-color-block"
+    class="g-color-picker-color-block"
   >
     <div
-      class="ant-color-picker-color-block-inner"
+      class="g-color-picker-color-block-inner"
       style="background:rgb(22,119,255)"
     />
   </div>
@@ -390,14 +390,14 @@ exports[`renders components/color-picker/demo/pure-panel.tsx correctly 1`] = `
     style="padding-bottom:0;position:relative;min-width:0"
   >
     <div
-      class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+      class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
       style="margin:0"
     >
       <div
-        class="ant-color-picker-color-block"
+        class="g-color-picker-color-block"
       >
         <div
-          class="ant-color-picker-color-block-inner"
+          class="g-color-picker-color-block-inner"
           style="background:rgb(22,119,255)"
         />
       </div>
@@ -408,57 +408,57 @@ exports[`renders components/color-picker/demo/pure-panel.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/size.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger ant-color-picker-sm css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger g-color-picker-sm css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
         </div>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
         </div>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger ant-color-picker-lg css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger g-color-picker-lg css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
@@ -467,69 +467,69 @@ exports[`renders components/color-picker/demo/size.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger ant-color-picker-sm css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger g-color-picker-sm css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
           <div
-            class="ant-color-picker-trigger-text"
+            class="g-color-picker-trigger-text"
           >
             #1677FF
           </div>
         </div>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
           <div
-            class="ant-color-picker-trigger-text"
+            class="g-color-picker-trigger-text"
           >
             #1677FF
           </div>
         </div>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-color-picker-trigger ant-color-picker-lg css-var-test-id ant-color-picker-css-var"
+          class="g-color-picker-trigger g-color-picker-lg css-var-test-id g-color-picker-css-var"
         >
           <div
-            class="ant-color-picker-color-block"
+            class="g-color-picker-color-block"
           >
             <div
-              class="ant-color-picker-color-block-inner"
+              class="g-color-picker-color-block-inner"
               style="background:rgb(22,119,255)"
             />
           </div>
           <div
-            class="ant-color-picker-trigger-text"
+            class="g-color-picker-trigger-text"
           >
             #1677FF
           </div>
@@ -542,23 +542,23 @@ exports[`renders components/color-picker/demo/size.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center css-var-test-id"
   style="flex-wrap:wrap;column-gap:8px;row-gap:16px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-gap-small"
     >
       <div
-        class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var acss-pbemrr"
+        class="g-color-picker-trigger css-var-test-id g-color-picker-css-var acss-pbemrr"
       >
         <div
-          class="ant-color-picker-color-block"
+          class="g-color-picker-color-block"
         >
           <div
-            class="ant-color-picker-color-block-inner"
+            class="g-color-picker-color-block-inner"
             style="background:rgb(22,119,255)"
           />
         </div>
@@ -566,19 +566,19 @@ exports[`renders components/color-picker/demo/style-class.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-gap-small"
+      class="g-flex css-var-test-id g-flex-gap-small"
     >
       <div
-        class="ant-color-picker-trigger ant-color-picker-lg css-var-test-id ant-color-picker-css-var acss-pbemrr"
+        class="g-color-picker-trigger g-color-picker-lg css-var-test-id g-color-picker-css-var acss-pbemrr"
       >
         <div
-          class="ant-color-picker-color-block"
+          class="g-color-picker-color-block"
         >
           <div
-            class="ant-color-picker-color-block-inner"
+            class="g-color-picker-color-block-inner"
             style="background:rgb(114,46,209)"
           />
         </div>
@@ -590,45 +590,45 @@ exports[`renders components/color-picker/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/text-render.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+      class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
     >
       <div
-        class="ant-color-picker-color-block"
+        class="g-color-picker-color-block"
       >
         <div
-          class="ant-color-picker-color-block-inner"
+          class="g-color-picker-color-block-inner"
           style="background:rgb(22,119,255)"
         />
       </div>
       <div
-        class="ant-color-picker-trigger-text"
+        class="g-color-picker-trigger-text"
       >
         #1677FF
       </div>
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+      class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
     >
       <div
-        class="ant-color-picker-color-block"
+        class="g-color-picker-color-block"
       >
         <div
-          class="ant-color-picker-color-block-inner"
+          class="g-color-picker-color-block-inner"
           style="background:rgb(22,119,255)"
         />
       </div>
       <div
-        class="ant-color-picker-trigger-text"
+        class="g-color-picker-trigger-text"
       >
         <span>
           Custom Text (
@@ -641,25 +641,25 @@ exports[`renders components/color-picker/demo/text-render.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+      class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
     >
       <div
-        class="ant-color-picker-color-block"
+        class="g-color-picker-color-block"
       >
         <div
-          class="ant-color-picker-color-block-inner"
+          class="g-color-picker-color-block-inner"
           style="background:rgb(22,119,255)"
         />
       </div>
       <div
-        class="ant-color-picker-trigger-text"
+        class="g-color-picker-trigger-text"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
           style="color:rgba(0, 0, 0, 0.25)"
         >
@@ -685,7 +685,7 @@ exports[`renders components/color-picker/demo/text-render.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/trigger.tsx correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   style="background-color:#1677ff"
   type="button"
 >
@@ -697,13 +697,13 @@ exports[`renders components/color-picker/demo/trigger.tsx correctly 1`] = `
 
 exports[`renders components/color-picker/demo/trigger-event.tsx correctly 1`] = `
 <div
-  class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+  class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
 >
   <div
-    class="ant-color-picker-color-block"
+    class="g-color-picker-color-block"
   >
     <div
-      class="ant-color-picker-color-block-inner"
+      class="g-color-picker-color-block-inner"
       style="background:rgb(22,119,255)"
     />
   </div>

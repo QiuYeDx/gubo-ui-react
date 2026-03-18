@@ -10,27 +10,27 @@ exports[`Tour Primary 1`] = `
       Cover
     </button>
     <div
-      class="ant-tour css-var-root ant-tour-primary ant-tour-placement-bottom"
+      class="g-tour css-var-root g-tour-primary g-tour-placement-bottom"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; z-index: 1001;"
     >
       <div
-        class="ant-tour-arrow"
+        class="g-tour-arrow"
         style="position: absolute; top: 0px; left: 0px;"
       />
       <div
-        class="ant-tour-panel"
+        class="g-tour-panel"
       >
         <div
-          class="ant-tour-section"
+          class="g-tour-section"
         >
           <button
             aria-label="Close"
-            class="ant-tour-close"
+            class="g-tour-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close ant-tour-close-icon"
+              class="gicon gicon-close g-tour-close-icon"
               role="img"
             >
               <svg
@@ -50,27 +50,27 @@ exports[`Tour Primary 1`] = `
             </span>
           </button>
           <div
-            class="ant-tour-header"
+            class="g-tour-header"
           >
             <div
-              class="ant-tour-title"
+              class="g-tour-title"
             >
               primary title
             </div>
           </div>
           <div
-            class="ant-tour-description"
+            class="g-tour-description"
           >
             primary description.
           </div>
           <div
-            class="ant-tour-footer"
+            class="g-tour-footer"
           >
             <div
-              class="ant-tour-actions"
+              class="g-tour-actions"
             >
               <button
-                class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-tour-next-btn"
+                class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-tour-next-btn"
                 type="button"
               >
                 <span>
@@ -85,7 +85,7 @@ exports[`Tour Primary 1`] = `
   </div>
   <div>
     <div
-      class="ant-tour-mask css-var-root"
+      class="g-tour-mask css-var-root"
       style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 1001; pointer-events: none;"
     >
       <svg
@@ -93,7 +93,7 @@ exports[`Tour Primary 1`] = `
       >
         <defs>
           <mask
-            id="ant-tour-mask-test-id"
+            id="g-tour-mask-test-id"
           >
             <rect
               fill="white"
@@ -103,7 +103,7 @@ exports[`Tour Primary 1`] = `
               y="0"
             />
             <rect
-              class="ant-tour-placeholder-animated"
+              class="g-tour-placeholder-animated"
               fill="black"
               height="12"
               rx="2"
@@ -116,7 +116,7 @@ exports[`Tour Primary 1`] = `
         <rect
           fill="rgba(0,0,0,0.5)"
           height="100%"
-          mask="url(#ant-tour-mask-test-id)"
+          mask="url(#g-tour-mask-test-id)"
           width="100%"
           x="0"
           y="0"
@@ -158,7 +158,7 @@ exports[`Tour Primary 1`] = `
   </div>
   <div>
     <div
-      class="css-var-root ant-tour-target-placeholder"
+      class="css-var-root g-tour-target-placeholder"
       style="left: -6px; top: -6px; width: 12px; height: 12px; position: fixed; pointer-events: none;"
     />
   </div>
@@ -220,23 +220,23 @@ exports[`Tour controlled current 1`] = `
       </button>
     </div>
     <div
-      class="ant-tour css-var-root ant-tour-primary"
+      class="g-tour css-var-root g-tour-primary"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; z-index: 1001;"
     >
       <div
-        class="ant-tour-panel"
+        class="g-tour-panel"
       >
         <div
-          class="ant-tour-section"
+          class="g-tour-section"
         >
           <button
             aria-label="Close"
-            class="ant-tour-close"
+            class="g-tour-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close ant-tour-close-icon"
+              class="gicon gicon-close g-tour-close-icon"
               role="img"
             >
               <svg
@@ -256,37 +256,37 @@ exports[`Tour controlled current 1`] = `
             </span>
           </button>
           <div
-            class="ant-tour-header"
+            class="g-tour-header"
           >
             <div
-              class="ant-tour-title"
+              class="g-tour-title"
             >
               Primary title
             </div>
           </div>
           <div
-            class="ant-tour-description"
+            class="g-tour-description"
           >
             Primary description.
           </div>
           <div
-            class="ant-tour-footer"
+            class="g-tour-footer"
           >
             <div
-              class="ant-tour-indicators"
+              class="g-tour-indicators"
             >
               <span
-                class="ant-tour-indicator"
+                class="g-tour-indicator"
               />
               <span
-                class="ant-tour-indicator-active ant-tour-indicator"
+                class="g-tour-indicator-active g-tour-indicator"
               />
             </div>
             <div
-              class="ant-tour-actions"
+              class="g-tour-actions"
             >
               <button
-                class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-btn-background-ghost ant-tour-prev-btn"
+                class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-btn-background-ghost g-tour-prev-btn"
                 type="button"
               >
                 <span>
@@ -294,7 +294,7 @@ exports[`Tour controlled current 1`] = `
                 </span>
               </button>
               <button
-                class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-tour-next-btn"
+                class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-tour-next-btn"
                 type="button"
               >
                 <span>
@@ -309,7 +309,7 @@ exports[`Tour controlled current 1`] = `
   </div>
   <div>
     <div
-      class="ant-tour-mask css-var-root"
+      class="g-tour-mask css-var-root"
       style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 1001; pointer-events: auto;"
     >
       <svg
@@ -317,7 +317,7 @@ exports[`Tour controlled current 1`] = `
       >
         <defs>
           <mask
-            id="ant-tour-mask-test-id"
+            id="g-tour-mask-test-id"
           >
             <rect
               fill="white"
@@ -331,7 +331,7 @@ exports[`Tour controlled current 1`] = `
         <rect
           fill="rgba(0,0,0,0.5)"
           height="100%"
-          mask="url(#ant-tour-mask-test-id)"
+          mask="url(#g-tour-mask-test-id)"
           width="100%"
           x="0"
           y="0"
@@ -341,7 +341,7 @@ exports[`Tour controlled current 1`] = `
   </div>
   <div>
     <div
-      class="css-var-root ant-tour-target-placeholder"
+      class="css-var-root g-tour-target-placeholder"
       style="left: 50%; top: 50%; width: 1px; height: 1px; position: fixed; pointer-events: none;"
     />
   </div>
@@ -350,23 +350,23 @@ exports[`Tour controlled current 1`] = `
 
 exports[`Tour custom step pre btn & next btn className & style 1`] = `
 <div
-  class="ant-tour css-var-root"
+  class="g-tour css-var-root"
   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; z-index: 1001;"
 >
   <div
-    class="ant-tour-panel"
+    class="g-tour-panel"
   >
     <div
-      class="ant-tour-section"
+      class="g-tour-section"
     >
       <button
         aria-label="Close"
-        class="ant-tour-close"
+        class="g-tour-close"
         type="button"
       >
         <span
           aria-label="close"
-          class="anticon anticon-close ant-tour-close-icon"
+          class="gicon gicon-close g-tour-close-icon"
           role="img"
         >
           <svg
@@ -386,37 +386,37 @@ exports[`Tour custom step pre btn & next btn className & style 1`] = `
         </span>
       </button>
       <div
-        class="ant-tour-header"
+        class="g-tour-header"
       >
         <div
-          class="ant-tour-title"
+          class="g-tour-title"
         >
           Show in Center
         </div>
       </div>
       <div
-        class="ant-tour-description"
+        class="g-tour-description"
       >
         Here is the content of Tour.
       </div>
       <div
-        class="ant-tour-footer"
+        class="g-tour-footer"
       >
         <div
-          class="ant-tour-indicators"
+          class="g-tour-indicators"
         >
           <span
-            class="ant-tour-indicator-active ant-tour-indicator"
+            class="g-tour-indicator-active g-tour-indicator"
           />
           <span
-            class="ant-tour-indicator"
+            class="g-tour-indicator"
           />
         </div>
         <div
-          class="ant-tour-actions"
+          class="g-tour-actions"
         >
           <button
-            class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-tour-next-btn customClassName"
+            class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-tour-next-btn customClassName"
             style="background-color: rgb(69, 69, 255);"
             type="button"
           >
@@ -442,27 +442,27 @@ exports[`Tour should support gap.offset 1`] = `
       Show
     </button>
     <div
-      class="ant-tour css-var-root ant-tour-placement-bottom"
+      class="g-tour css-var-root g-tour-placement-bottom"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; z-index: 1001;"
     >
       <div
-        class="ant-tour-arrow"
+        class="g-tour-arrow"
         style="position: absolute; top: 0px; left: 0px;"
       />
       <div
-        class="ant-tour-panel"
+        class="g-tour-panel"
       >
         <div
-          class="ant-tour-section"
+          class="g-tour-section"
         >
           <button
             aria-label="Close"
-            class="ant-tour-close"
+            class="g-tour-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close ant-tour-close-icon"
+              class="gicon gicon-close g-tour-close-icon"
               role="img"
             >
               <svg
@@ -482,27 +482,27 @@ exports[`Tour should support gap.offset 1`] = `
             </span>
           </button>
           <div
-            class="ant-tour-header"
+            class="g-tour-header"
           >
             <div
-              class="ant-tour-title"
+              class="g-tour-title"
             >
               Show in Center
             </div>
           </div>
           <div
-            class="ant-tour-description"
+            class="g-tour-description"
           >
             Here is the content of Tour.
           </div>
           <div
-            class="ant-tour-footer"
+            class="g-tour-footer"
           >
             <div
-              class="ant-tour-actions"
+              class="g-tour-actions"
             >
               <button
-                class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-tour-next-btn"
+                class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-tour-next-btn"
                 type="button"
               >
                 <span>
@@ -517,7 +517,7 @@ exports[`Tour should support gap.offset 1`] = `
   </div>
   <div>
     <div
-      class="ant-tour-mask css-var-root"
+      class="g-tour-mask css-var-root"
       style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 1001; pointer-events: none;"
     >
       <svg
@@ -525,7 +525,7 @@ exports[`Tour should support gap.offset 1`] = `
       >
         <defs>
           <mask
-            id="ant-tour-mask-test-id"
+            id="g-tour-mask-test-id"
           >
             <rect
               fill="white"
@@ -535,7 +535,7 @@ exports[`Tour should support gap.offset 1`] = `
               y="0"
             />
             <rect
-              class="ant-tour-placeholder-animated"
+              class="g-tour-placeholder-animated"
               fill="black"
               height="200"
               rx="2"
@@ -548,7 +548,7 @@ exports[`Tour should support gap.offset 1`] = `
         <rect
           fill="rgba(0,0,0,0.5)"
           height="100%"
-          mask="url(#ant-tour-mask-test-id)"
+          mask="url(#g-tour-mask-test-id)"
           width="100%"
           x="0"
           y="0"
@@ -590,7 +590,7 @@ exports[`Tour should support gap.offset 1`] = `
   </div>
   <div>
     <div
-      class="css-var-root ant-tour-target-placeholder"
+      class="css-var-root g-tour-target-placeholder"
       style="left: 90px; top: 190px; width: 250px; height: 200px; position: fixed; pointer-events: none;"
     />
   </div>
@@ -607,27 +607,27 @@ exports[`Tour single 1`] = `
       Cover
     </button>
     <div
-      class="ant-tour css-var-root ant-tour-placement-bottom"
+      class="g-tour css-var-root g-tour-placement-bottom"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; z-index: 1001;"
     >
       <div
-        class="ant-tour-arrow"
+        class="g-tour-arrow"
         style="position: absolute; top: 0px; left: 0px;"
       />
       <div
-        class="ant-tour-panel"
+        class="g-tour-panel"
       >
         <div
-          class="ant-tour-section"
+          class="g-tour-section"
         >
           <button
             aria-label="Close"
-            class="ant-tour-close"
+            class="g-tour-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close ant-tour-close-icon"
+              class="gicon gicon-close g-tour-close-icon"
               role="img"
             >
               <svg
@@ -647,27 +647,27 @@ exports[`Tour single 1`] = `
             </span>
           </button>
           <div
-            class="ant-tour-header"
+            class="g-tour-header"
           >
             <div
-              class="ant-tour-title"
+              class="g-tour-title"
             >
               cover title
             </div>
           </div>
           <div
-            class="ant-tour-description"
+            class="g-tour-description"
           >
             cover description.
           </div>
           <div
-            class="ant-tour-footer"
+            class="g-tour-footer"
           >
             <div
-              class="ant-tour-actions"
+              class="g-tour-actions"
             >
               <button
-                class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm ant-tour-next-btn"
+                class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm g-tour-next-btn"
                 type="button"
               >
                 <span>
@@ -682,7 +682,7 @@ exports[`Tour single 1`] = `
   </div>
   <div>
     <div
-      class="ant-tour-mask css-var-root"
+      class="g-tour-mask css-var-root"
       style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 1001; pointer-events: none;"
     >
       <svg
@@ -690,7 +690,7 @@ exports[`Tour single 1`] = `
       >
         <defs>
           <mask
-            id="ant-tour-mask-test-id"
+            id="g-tour-mask-test-id"
           >
             <rect
               fill="white"
@@ -700,7 +700,7 @@ exports[`Tour single 1`] = `
               y="0"
             />
             <rect
-              class="ant-tour-placeholder-animated"
+              class="g-tour-placeholder-animated"
               fill="black"
               height="12"
               rx="2"
@@ -713,7 +713,7 @@ exports[`Tour single 1`] = `
         <rect
           fill="rgba(0,0,0,0.5)"
           height="100%"
-          mask="url(#ant-tour-mask-test-id)"
+          mask="url(#g-tour-mask-test-id)"
           width="100%"
           x="0"
           y="0"
@@ -755,7 +755,7 @@ exports[`Tour single 1`] = `
   </div>
   <div>
     <div
-      class="css-var-root ant-tour-target-placeholder"
+      class="css-var-root g-tour-target-placeholder"
       style="left: -6px; top: -6px; width: 12px; height: 12px; position: fixed; pointer-events: none;"
     />
   </div>
@@ -772,27 +772,27 @@ exports[`Tour step support Primary 1`] = `
       Cover
     </button>
     <div
-      class="ant-tour css-var-root ant-tour-primary ant-tour-placement-bottom"
+      class="g-tour css-var-root g-tour-primary g-tour-placement-bottom"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; z-index: 1001;"
     >
       <div
-        class="ant-tour-arrow"
+        class="g-tour-arrow"
         style="position: absolute; top: 0px; left: 0px;"
       />
       <div
-        class="ant-tour-panel"
+        class="g-tour-panel"
       >
         <div
-          class="ant-tour-section"
+          class="g-tour-section"
         >
           <button
             aria-label="Close"
-            class="ant-tour-close"
+            class="g-tour-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close ant-tour-close-icon"
+              class="gicon gicon-close g-tour-close-icon"
               role="img"
             >
               <svg
@@ -812,37 +812,37 @@ exports[`Tour step support Primary 1`] = `
             </span>
           </button>
           <div
-            class="ant-tour-header"
+            class="g-tour-header"
           >
             <div
-              class="ant-tour-title"
+              class="g-tour-title"
             >
               primary title
             </div>
           </div>
           <div
-            class="ant-tour-description"
+            class="g-tour-description"
           >
             primary description.
           </div>
           <div
-            class="ant-tour-footer"
+            class="g-tour-footer"
           >
             <div
-              class="ant-tour-indicators"
+              class="g-tour-indicators"
             >
               <span
-                class="ant-tour-indicator"
+                class="g-tour-indicator"
               />
               <span
-                class="ant-tour-indicator-active ant-tour-indicator"
+                class="g-tour-indicator-active g-tour-indicator"
               />
             </div>
             <div
-              class="ant-tour-actions"
+              class="g-tour-actions"
             >
               <button
-                class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-btn-background-ghost ant-tour-prev-btn"
+                class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-btn-background-ghost g-tour-prev-btn"
                 type="button"
               >
                 <span>
@@ -850,7 +850,7 @@ exports[`Tour step support Primary 1`] = `
                 </span>
               </button>
               <button
-                class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-sm ant-tour-next-btn"
+                class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-sm g-tour-next-btn"
                 type="button"
               >
                 <span>
@@ -865,7 +865,7 @@ exports[`Tour step support Primary 1`] = `
   </div>
   <div>
     <div
-      class="ant-tour-mask css-var-root"
+      class="g-tour-mask css-var-root"
       style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 1001; pointer-events: none;"
     >
       <svg
@@ -873,7 +873,7 @@ exports[`Tour step support Primary 1`] = `
       >
         <defs>
           <mask
-            id="ant-tour-mask-test-id"
+            id="g-tour-mask-test-id"
           >
             <rect
               fill="white"
@@ -883,7 +883,7 @@ exports[`Tour step support Primary 1`] = `
               y="0"
             />
             <rect
-              class="ant-tour-placeholder-animated"
+              class="g-tour-placeholder-animated"
               fill="black"
               height="12"
               rx="2"
@@ -896,7 +896,7 @@ exports[`Tour step support Primary 1`] = `
         <rect
           fill="rgba(0,0,0,0.5)"
           height="100%"
-          mask="url(#ant-tour-mask-test-id)"
+          mask="url(#g-tour-mask-test-id)"
           width="100%"
           x="0"
           y="0"
@@ -938,7 +938,7 @@ exports[`Tour step support Primary 1`] = `
   </div>
   <div>
     <div
-      class="css-var-root ant-tour-target-placeholder"
+      class="css-var-root g-tour-target-placeholder"
       style="left: -6px; top: -6px; width: 12px; height: 12px; position: fixed; pointer-events: none;"
     />
   </div>

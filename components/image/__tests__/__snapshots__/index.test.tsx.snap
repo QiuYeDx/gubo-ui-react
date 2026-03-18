@@ -4,40 +4,40 @@ exports[`Image Default Group preview props 1`] = `
 <body>
   <div>
     <div
-      class="ant-image css-var-root ant-image-css-var"
+      class="g-image css-var-root g-image-css-var"
     >
       <img
         alt="test image"
-        class="ant-image-img"
+        class="g-image-img"
         src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
       />
       <div
-        class="ant-image-cover ant-image-cover-center"
+        class="g-image-cover g-image-cover-center"
       />
     </div>
   </div>
   <div>
     <div
-      class="ant-image-preview css-var-root ant-image-css-var ant-image-preview-fade-appear ant-image-preview-fade-appear-start ant-image-preview-fade"
+      class="g-image-preview css-var-root g-image-css-var g-image-preview-fade-appear g-image-preview-fade-appear-start g-image-preview-fade"
     >
       <div
-        class="ant-image-preview-mask"
+        class="g-image-preview-mask"
       />
       <div
-        class="ant-image-preview-body"
+        class="g-image-preview-body"
       >
         <img
-          class="ant-image-preview-img"
+          class="g-image-preview-img"
           src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           style="transform: translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotate(0deg);"
         />
       </div>
       <button
-        class="ant-image-preview-close"
+        class="g-image-preview-close"
       >
         <span
           aria-label="close"
-          class="anticon anticon-close"
+          class="gicon gicon-close"
           role="img"
         >
           <svg
@@ -57,24 +57,24 @@ exports[`Image Default Group preview props 1`] = `
         </span>
       </button>
       <div
-        class="ant-image-preview-footer"
+        class="g-image-preview-footer"
       >
         <div
-          class="ant-image-preview-progress"
+          class="g-image-preview-progress"
         >
           <bdi>
             1 / 1
           </bdi>
         </div>
         <div
-          class="ant-image-preview-actions"
+          class="g-image-preview-actions"
         >
           <div
-            class="ant-image-preview-actions-action ant-image-preview-actions-action-flipY"
+            class="g-image-preview-actions-action g-image-preview-actions-action-flipY"
           >
             <span
               aria-label="swap"
-              class="anticon anticon-swap"
+              class="gicon gicon-swap"
               role="img"
             >
               <svg
@@ -94,11 +94,11 @@ exports[`Image Default Group preview props 1`] = `
             </span>
           </div>
           <div
-            class="ant-image-preview-actions-action ant-image-preview-actions-action-flipX"
+            class="g-image-preview-actions-action g-image-preview-actions-action-flipX"
           >
             <span
               aria-label="swap"
-              class="anticon anticon-swap"
+              class="gicon gicon-swap"
               role="img"
             >
               <svg
@@ -117,11 +117,11 @@ exports[`Image Default Group preview props 1`] = `
             </span>
           </div>
           <div
-            class="ant-image-preview-actions-action ant-image-preview-actions-action-rotateLeft"
+            class="g-image-preview-actions-action g-image-preview-actions-action-rotateLeft"
           >
             <span
               aria-label="rotate-left"
-              class="anticon anticon-rotate-left"
+              class="gicon gicon-rotate-left"
               role="img"
             >
               <svg
@@ -146,11 +146,11 @@ exports[`Image Default Group preview props 1`] = `
             </span>
           </div>
           <div
-            class="ant-image-preview-actions-action ant-image-preview-actions-action-rotateRight"
+            class="g-image-preview-actions-action g-image-preview-actions-action-rotateRight"
           >
             <span
               aria-label="rotate-right"
-              class="anticon anticon-rotate-right"
+              class="gicon gicon-rotate-right"
               role="img"
             >
               <svg
@@ -175,11 +175,11 @@ exports[`Image Default Group preview props 1`] = `
             </span>
           </div>
           <div
-            class="ant-image-preview-actions-action ant-image-preview-actions-action-zoomOut ant-image-preview-actions-action-disabled"
+            class="g-image-preview-actions-action g-image-preview-actions-action-zoomOut g-image-preview-actions-action-disabled"
           >
             <span
               aria-label="zoom-out"
-              class="anticon anticon-zoom-out"
+              class="gicon gicon-zoom-out"
               role="img"
             >
               <svg
@@ -198,11 +198,11 @@ exports[`Image Default Group preview props 1`] = `
             </span>
           </div>
           <div
-            class="ant-image-preview-actions-action ant-image-preview-actions-action-zoomIn"
+            class="g-image-preview-actions-action g-image-preview-actions-action-zoomIn"
           >
             <span
               aria-label="zoom-in"
-              class="anticon anticon-zoom-in"
+              class="gicon gicon-zoom-in"
               role="img"
             >
               <svg
@@ -229,13 +229,13 @@ exports[`Image Default Group preview props 1`] = `
 
 exports[`Image rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-image css-var-root ant-image-css-var"
+  class="g-image css-var-root g-image-css-var"
 >
   <img
-    class="ant-image-img"
+    class="g-image-img"
   />
   <div
-    class="ant-image-cover ant-image-cover-center"
+    class="g-image-cover g-image-cover-center"
   />
 </div>
 `;

@@ -47,11 +47,11 @@ describe('Input.Semantic', () => {
       />,
     );
 
-    const root = container.querySelector('.ant-input-affix-wrapper');
-    const input = container.querySelector('.ant-input');
-    const prefix = container.querySelector('.ant-input-prefix');
-    const suffix = container.querySelector('.ant-input-suffix');
-    const count = container.querySelector('.ant-input-show-count-suffix');
+    const root = container.querySelector('.g-input-affix-wrapper');
+    const input = container.querySelector('.g-input');
+    const prefix = container.querySelector('.g-input-prefix');
+    const suffix = container.querySelector('.g-input-suffix');
+    const count = container.querySelector('.g-input-show-count-suffix');
 
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);
@@ -70,9 +70,9 @@ describe('Input.Semantic', () => {
       <Input.TextArea classNames={testClassNames} styles={testStyles} showCount />,
     );
 
-    const root = container.querySelector('.ant-input-textarea-affix-wrapper');
+    const root = container.querySelector('.g-input-textarea-affix-wrapper');
     const textarea = container.querySelector('textarea');
-    const count = container.querySelector('.ant-input-data-count');
+    const count = container.querySelector('.g-input-data-count');
 
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);
@@ -95,14 +95,14 @@ describe('Input.Semantic', () => {
       />,
     );
 
-    const root = container.querySelector('.ant-input-search');
-    const input = container.querySelector('.ant-input');
-    const prefix = container.querySelector('.ant-input-prefix');
-    const suffix = container.querySelector('.ant-input-suffix');
-    const button = container.querySelector('.ant-btn');
-    const buttonIcon = container.querySelector('.ant-btn-icon');
+    const root = container.querySelector('.g-input-search');
+    const input = container.querySelector('.g-input');
+    const prefix = container.querySelector('.g-input-prefix');
+    const suffix = container.querySelector('.g-input-suffix');
+    const button = container.querySelector('.g-btn');
+    const buttonIcon = container.querySelector('.g-btn-icon');
     const buttonContent = getByText('button text');
-    const count = container.querySelector('.ant-input-show-count-suffix');
+    const count = container.querySelector('.g-input-show-count-suffix');
 
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);
@@ -132,11 +132,11 @@ describe('Input.Semantic', () => {
         suffix="suffix"
       />,
     );
-    const root = container.querySelector('.ant-input-affix-wrapper');
-    const input = container.querySelector('.ant-input');
-    const prefix = container.querySelector('.ant-input-prefix');
-    const suffix = container.querySelector('.ant-input-suffix');
-    const count = container.querySelector('.ant-input-show-count-suffix');
+    const root = container.querySelector('.g-input-affix-wrapper');
+    const input = container.querySelector('.g-input');
+    const prefix = container.querySelector('.g-input-prefix');
+    const suffix = container.querySelector('.g-input-suffix');
+    const count = container.querySelector('.g-input-show-count-suffix');
 
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);
@@ -154,9 +154,9 @@ describe('Input.Semantic', () => {
     const { container } = render(
       <Input.OTP separator="-" classNames={testClassNames} styles={testStyles} />,
     );
-    const root = container.querySelector('.ant-otp');
-    const input = container.querySelector('.ant-input');
-    const separator = container.querySelector('.ant-otp-separator');
+    const root = container.querySelector('.g-otp');
+    const input = container.querySelector('.g-input');
+    const separator = container.querySelector('.g-otp-separator');
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);
     expect(input).toHaveClass(testClassNames.input);
@@ -182,11 +182,11 @@ describe('Input.Semantic', () => {
     const { rerender, container } = render(
       <Input size="large" classNames={classNames} styles={styles} />,
     );
-    expect(container.querySelector('.ant-input')).toHaveClass('input-enabled');
-    expect(container.querySelector('.ant-input')).toHaveStyle({ background: 'red' });
+    expect(container.querySelector('.g-input')).toHaveClass('input-enabled');
+    expect(container.querySelector('.g-input')).toHaveStyle({ background: 'red' });
 
     rerender(<Input disabled classNames={classNames} styles={styles} />);
-    expect(container.querySelector('.ant-input')).toHaveClass('input-disabled');
-    expect(container.querySelector('.ant-input')).toHaveStyle({ background: 'blue' });
+    expect(container.querySelector('.g-input')).toHaveClass('input-disabled');
+    expect(container.querySelector('.g-input')).toHaveStyle({ background: 'blue' });
   });
 });

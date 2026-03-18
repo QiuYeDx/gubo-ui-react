@@ -5,19 +5,19 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
   class="acss-1ucck97"
 >
   <div
-    class="ant-row css-var-test-id"
+    class="g-row css-var-test-id"
   >
     <div
-      class="ant-col ant-col-16 acss-my3sst css-var-test-id"
+      class="g-col g-col-16 acss-my3sst css-var-test-id"
     >
       <span
-        class="ant-upload-wrapper css-var-test-id semantic-mark-root"
+        class="g-upload-wrapper css-var-test-id semantic-mark-root"
       >
         <div
-          class="ant-upload ant-upload-select semantic-mark-trigger"
+          class="g-upload g-upload-select semantic-mark-trigger"
         >
           <span
-            class="ant-upload"
+            class="g-upload"
           >
             <input
               accept=""
@@ -26,15 +26,15 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
               type="file"
             />
             <button
-              class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
               type="button"
             >
               <span
-                class="ant-btn-icon"
+                class="g-btn-icon"
               >
                 <span
                   aria-label="upload"
-                  class="anticon anticon-upload"
+                  class="gicon gicon-upload"
                   role="img"
                 >
                   <svg
@@ -59,20 +59,20 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-upload-list ant-upload-list-text semantic-mark-list"
+          class="g-upload-list g-upload-list-text semantic-mark-list"
         >
           <div
-            class="ant-upload-list-item-container"
+            class="g-upload-list-item-container"
           >
             <div
-              class="ant-upload-list-item ant-upload-list-item-uploading semantic-mark-item"
+              class="g-upload-list-item g-upload-list-item-uploading semantic-mark-item"
             >
               <div
-                class="ant-upload-icon"
+                class="g-upload-icon"
               >
                 <span
                   aria-label="loading"
-                  class="anticon anticon-loading anticon-spin"
+                  class="gicon gicon-loading gicon-spin"
                   role="img"
                 >
                   <svg
@@ -91,7 +91,7 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 </span>
               </div>
               <a
-                class="ant-upload-list-item-name"
+                class="g-upload-list-item-name"
                 href="http://www.baidu.com/xxx.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -100,19 +100,19 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 xxx.png
               </a>
               <span
-                class="ant-upload-list-item-actions"
+                class="g-upload-list-item-actions"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
                   title="Remove file"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="delete"
-                      class="anticon anticon-delete"
+                      class="gicon gicon-delete"
                       role="img"
                       tabindex="-1"
                     >
@@ -136,17 +136,17 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-upload-list-item-container"
+            class="g-upload-list-item-container"
           >
             <div
-              class="ant-upload-list-item ant-upload-list-item-done semantic-mark-item"
+              class="g-upload-list-item g-upload-list-item-done semantic-mark-item"
             >
               <div
-                class="ant-upload-icon"
+                class="g-upload-icon"
               >
                 <span
                   aria-label="paper-clip"
-                  class="anticon anticon-paper-clip"
+                  class="gicon gicon-paper-clip"
                   role="img"
                 >
                   <svg
@@ -165,7 +165,7 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 </span>
               </div>
               <a
-                class="ant-upload-list-item-name"
+                class="g-upload-list-item-name"
                 href="http://www.baidu.com/yyy.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -174,19 +174,19 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 yyy.png
               </a>
               <span
-                class="ant-upload-list-item-actions"
+                class="g-upload-list-item-actions"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
                   title="Remove file"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="delete"
-                      class="anticon anticon-delete"
+                      class="gicon gicon-delete"
                       role="img"
                       tabindex="-1"
                     >
@@ -210,17 +210,17 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-upload-list-item-container"
+            class="g-upload-list-item-container"
           >
             <div
-              class="ant-upload-list-item ant-upload-list-item-error semantic-mark-item"
+              class="g-upload-list-item g-upload-list-item-error semantic-mark-item"
             >
               <div
-                class="ant-upload-icon"
+                class="g-upload-icon"
               >
                 <span
                   aria-label="paper-clip"
-                  class="anticon anticon-paper-clip"
+                  class="gicon gicon-paper-clip"
                   role="img"
                 >
                   <svg
@@ -239,7 +239,7 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 </span>
               </div>
               <a
-                class="ant-upload-list-item-name"
+                class="g-upload-list-item-name"
                 href="http://www.baidu.com/zzz.png"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -248,19 +248,19 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 zzz.png
               </a>
               <span
-                class="ant-upload-list-item-actions"
+                class="g-upload-list-item-actions"
               >
                 <button
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only ant-upload-list-item-action"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only g-upload-list-item-action"
                   title="Remove file"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="delete"
-                      class="anticon anticon-delete"
+                      class="gicon gicon-delete"
                       role="img"
                       tabindex="-1"
                     >
@@ -287,7 +287,7 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-col ant-col-8 css-var-test-id"
+      class="g-col g-col-8 css-var-test-id"
     >
       <ul
         class="acss-1ry21g5"
@@ -296,40 +296,40 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   root
                 </h5>
                 <span
-                  class="ant-tag ant-tag-filled ant-tag-blue css-var-test-id"
+                  class="g-tag g-tag-filled g-tag-blue css-var-test-id"
                 >
                   6.0.0
                 </span>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -350,15 +350,15 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -383,7 +383,7 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               根元素容器，包含布局样式、禁用状态文字颜色、用户选择控制、鼠标样式等基础样式
@@ -394,40 +394,40 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   list
                 </h5>
                 <span
-                  class="ant-tag ant-tag-filled ant-tag-blue css-var-test-id"
+                  class="g-tag g-tag-filled g-tag-blue css-var-test-id"
                 >
                   6.0.0
                 </span>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -448,15 +448,15 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -481,7 +481,7 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               文件列表容器，包含布局排列、过渡动画、间距控制等样式
@@ -492,40 +492,40 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   item
                 </h5>
                 <span
-                  class="ant-tag ant-tag-filled ant-tag-blue css-var-test-id"
+                  class="g-tag g-tag-filled g-tag-blue css-var-test-id"
                 >
                   6.0.0
                 </span>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -546,15 +546,15 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -579,7 +579,7 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               文件项元素，包含内边距、背景色、边框样式、悬停效果、状态颜色、过渡动画等样式
@@ -590,40 +590,40 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
           class="acss-1ehfz5v"
         >
           <div
-            class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+            class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
           >
             <div
-              class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between ant-flex-gap-small"
+              class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between g-flex-gap-small"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <h5
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                   style="margin: 0px;"
                 >
                   trigger
                 </h5>
                 <span
-                  class="ant-tag ant-tag-filled ant-tag-blue css-var-test-id"
+                  class="g-tag g-tag-filled g-tag-blue css-var-test-id"
                 >
                   6.3.0
                 </span>
               </div>
               <div
-                class="ant-flex css-var-test-id ant-flex-align-center ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-align-center g-flex-gap-small"
               >
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="pushpin"
-                      class="anticon anticon-pushpin"
+                      class="gicon gicon-pushpin"
                       role="img"
                     >
                       <svg
@@ -644,15 +644,15 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
                 </button>
                 <button
                   aria-hidden="true"
-                  class="ant-btn css-var-test-id ant-btn-text ant-btn-color-default ant-btn-variant-text ant-btn-sm ant-btn-icon-only"
+                  class="g-btn css-var-test-id g-btn-text g-btn-color-default g-btn-varig-text g-btn-sm g-btn-icon-only"
                   type="button"
                 >
                   <span
-                    class="ant-btn-icon"
+                    class="g-btn-icon"
                   >
                     <span
                       aria-label="info-circle"
-                      class="anticon anticon-info-circle"
+                      class="gicon gicon-info-circle"
                       role="img"
                     >
                       <svg
@@ -677,7 +677,7 @@ exports[`renders components/upload/demo/_semantic.tsx correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-typography css-var-test-id"
+              class="g-typography css-var-test-id"
               style="margin: 0px; font-size: 12px;"
             >
               上传按钮容器，包含按钮样式、禁用状态、隐藏控制等样式

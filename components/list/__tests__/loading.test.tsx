@@ -10,7 +10,7 @@ describe('List', () => {
     const { container: wrapper } = render(
       <List loading={loading} dataSource={[]} renderItem={() => <List.Item />} />,
     );
-    expect(wrapper.querySelectorAll('.ant-list-empty-text')).toHaveLength(0);
+    expect(wrapper.querySelectorAll('.g-list-empty-text')).toHaveLength(0);
   });
 
   it('renders object loading', () => {
@@ -20,7 +20,7 @@ describe('List', () => {
     const { container: wrapper } = render(
       <List loading={loading} dataSource={[1]} renderItem={() => <List.Item />} />,
     );
-    expect(wrapper.querySelectorAll('.ant-spin-spinning')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-spin-spinning')).toHaveLength(1);
   });
 
   it('renders object loading with indicator', () => {
@@ -33,6 +33,6 @@ describe('List', () => {
     const { container: wrapper } = render(
       <List loading={loading} dataSource={[1]} renderItem={() => <List.Item />} />,
     );
-    expect(wrapper.querySelectorAll('.anticon-loading')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.gicon-loading')).toHaveLength(1);
   });
 });

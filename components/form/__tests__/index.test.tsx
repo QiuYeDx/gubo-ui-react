@@ -111,12 +111,12 @@ describe('Form', () => {
       await changeValue(0, 'test');
       await changeValue(0, '');
       // should show error with correct message and show correct styles
-      expect(container.querySelector('.ant-form-item-explain')).not.toHaveAttribute('role');
-      expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent(
+      expect(container.querySelector('.g-form-item-explain')).not.toHaveAttribute('role');
+      expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent(
         "'test' is required",
       );
-      expect(container.querySelector('.ant-input-status-error')).toBeTruthy();
-      expect(container.querySelector('.ant-form-item-has-error')).toBeTruthy();
+      expect(container.querySelector('.g-input-status-error')).toBeTruthy();
+      expect(container.querySelector('.g-form-item-has-error')).toBeTruthy();
 
       expect(onChange).toHaveBeenCalled();
     });
@@ -172,15 +172,15 @@ describe('Form', () => {
 
       await changeValue(0, '1');
       await waitFakeTimer(2000, 2000);
-      expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent('aaa');
+      expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent('aaa');
 
       await changeValue(0, '2');
       await waitFakeTimer(2000, 2000);
-      expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent('ccc');
+      expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent('ccc');
 
       await changeValue(0, '1');
       await waitFakeTimer(2000, 2000);
-      expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent('aaa');
+      expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent('aaa');
     });
 
     // https://github.com/ant-design/ant-design/issues/41620
@@ -210,14 +210,14 @@ describe('Form', () => {
       fireEvent.click(getByRole('button'));
 
       await waitFakeTimer();
-      expect(container.querySelectorAll('.ant-form-item-explain-error')).toHaveLength(1);
+      expect(container.querySelectorAll('.g-form-item-explain-error')).toHaveLength(1);
 
       // When noStyle=true but help is not false, help will be displayed
       rerender(<App help="help" />);
       await waitFakeTimer();
       fireEvent.click(getByRole('button'));
       await waitFakeTimer();
-      expect(container.querySelectorAll('.ant-form-item-explain-error')).toHaveLength(3);
+      expect(container.querySelectorAll('.g-form-item-explain-error')).toHaveLength(3);
     });
   });
 
@@ -281,7 +281,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(container.querySelector('input')?.getAttribute('aria-describedby')).toBe('test_help');
-    expect(container.querySelector('.ant-form-item-explain')?.id).toBe('test_help');
+    expect(container.querySelector('.g-form-item-explain')?.id).toBe('test_help');
   });
 
   it('input element should not have the prop aria-describedby pointing to the help id when there is a help message and name is not defined', () => {
@@ -293,7 +293,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(container.querySelector('input')?.getAttribute('aria-describedby')).toBeFalsy();
-    expect(container.querySelector('.ant-form-item-explain')?.id).toBeFalsy();
+    expect(container.querySelector('.g-form-item-explain')?.id).toBeFalsy();
   });
 
   it('input element should have the prop aria-describedby concatenated with the form name pointing to the help id when there is a help message', () => {
@@ -307,7 +307,7 @@ describe('Form', () => {
     expect(container.querySelector('input')?.getAttribute('aria-describedby')).toBe(
       'form_test_help',
     );
-    expect(container.querySelector('.ant-form-item-explain')?.id).toBe('form_test_help');
+    expect(container.querySelector('.g-form-item-explain')?.id).toBe('form_test_help');
   });
 
   it('input element should have the prop aria-describedby pointing to the help id when there are errors', async () => {
@@ -322,7 +322,7 @@ describe('Form', () => {
     await changeValue(0, 'Invalid number');
 
     expect(container.querySelector('input')?.getAttribute('aria-describedby')).toBe('test_help');
-    expect(container.querySelector('.ant-form-item-explain')?.id).toBe('test_help');
+    expect(container.querySelector('.g-form-item-explain')?.id).toBe('test_help');
   });
 
   it('input element should have the prop aria-invalid when there are errors', async () => {
@@ -369,7 +369,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(container.querySelector('input')?.getAttribute('aria-describedby')).toBe('test_extra');
-    expect(container.querySelector('.ant-form-item-extra')?.id).toBe('test_extra');
+    expect(container.querySelector('.g-form-item-extra')?.id).toBe('test_extra');
   });
 
   it('input element should not have the prop aria-describedby pointing to the extra id when there is a extra message and name is not defined', () => {
@@ -381,7 +381,7 @@ describe('Form', () => {
       </Form>,
     );
     expect(container.querySelector('input')?.getAttribute('aria-describedby')).toBeFalsy();
-    expect(container.querySelector('.ant-form-item-extra')?.id).toBeFalsy();
+    expect(container.querySelector('.g-form-item-extra')?.id).toBeFalsy();
   });
 
   it('input element should have the prop aria-describedby pointing to the help and extra id when there is a help and extra message', () => {
@@ -742,7 +742,7 @@ describe('Form', () => {
     );
 
     // should not show alert by default
-    expect(container.querySelector('.ant-form-item-explain')).toBeFalsy();
+    expect(container.querySelector('.g-form-item-explain')).toBeFalsy();
 
     // click to change the light field value to true
     fireEvent.click(container.querySelector('input')!);
@@ -753,7 +753,7 @@ describe('Form', () => {
     await changeValue(1, '');
 
     // should show alert says that the field is required
-    expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent(
+    expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent(
       "'bamboo' is required",
     );
   });
@@ -770,8 +770,8 @@ describe('Form', () => {
 
       await waitFakeTimer();
 
-      expect(container.querySelector('.ant-form-item-explain')).toHaveTextContent('good');
-      expect(container.querySelector('.ant-form-item-with-help')).toBeTruthy();
+      expect(container.querySelector('.g-form-item-explain')).toHaveTextContent('good');
+      expect(container.querySelector('.g-form-item-with-help')).toBeTruthy();
     });
 
     it('empty string', async () => {
@@ -785,8 +785,8 @@ describe('Form', () => {
 
       await waitFakeTimer();
 
-      expect(container.querySelector('.ant-form-item-explain')).toHaveTextContent('');
-      expect(container.querySelector('.ant-form-item-with-help')).toBeTruthy();
+      expect(container.querySelector('.g-form-item-explain')).toHaveTextContent('');
+      expect(container.querySelector('.g-form-item-with-help')).toBeTruthy();
     });
   });
 
@@ -817,12 +817,12 @@ describe('Form', () => {
     for (let i = 0; i < 3; i += 1) {
       await changeValue(0, 'bamboo');
       await changeValue(0, '');
-      expect(container.querySelector('.ant-form-item-explain')?.textContent).toEqual(
+      expect(container.querySelector('.g-form-item-explain')?.textContent).toEqual(
         "'name' is required",
       );
 
       await changeValue(0, 'p');
-      expect(container.querySelector('.ant-form-item-explain')?.textContent).toEqual('not a p');
+      expect(container.querySelector('.g-form-item-explain')?.textContent).toEqual('not a p');
     }
   });
 
@@ -844,13 +844,13 @@ describe('Form', () => {
 
     // should show initial text
     await waitFakeTimer();
-    expect(container.querySelector('.ant-form-item-explain')).toHaveTextContent('');
+    expect(container.querySelector('.g-form-item-explain')).toHaveTextContent('');
 
     fireEvent.click(container.querySelector('button')!);
 
     // should show bamboo alert without opacity and hide first alert with opacity: 0
     await waitFakeTimer();
-    expect(container.querySelector('.ant-form-item-explain')).toHaveTextContent('bamboo');
+    expect(container.querySelector('.g-form-item-explain')).toHaveTextContent('bamboo');
   });
 
   it('warning when use `dependencies` but `name` is empty & children is not a render props', () => {
@@ -924,7 +924,7 @@ describe('Form', () => {
         <input />
       </Form.Item>,
     );
-    expect(container.querySelectorAll('.ant-form-item-explain').length).toBeTruthy();
+    expect(container.querySelectorAll('.g-form-item-explain').length).toBeTruthy();
   });
 
   it('Form.Item with `help` should display error style when validate failed', async () => {
@@ -943,8 +943,8 @@ describe('Form', () => {
     );
 
     await changeValue(0, '');
-    expect(container.querySelector('.ant-form-item')).toHaveClass('ant-form-item-has-error');
-    expect(container.querySelector('.ant-form-item-explain')!.textContent).toEqual('help');
+    expect(container.querySelector('.g-form-item')).toHaveClass('g-form-item-has-error');
+    expect(container.querySelector('.g-form-item-explain')!.textContent).toEqual('help');
   });
 
   it('clear validation message when', async () => {
@@ -957,13 +957,13 @@ describe('Form', () => {
     );
 
     await changeValue(0, '1');
-    expect(container.querySelectorAll('.ant-form-item-explain').length).toBeFalsy();
+    expect(container.querySelectorAll('.g-form-item-explain').length).toBeFalsy();
 
     await changeValue(0, '');
-    expect(container.querySelectorAll('.ant-form-item-explain').length).toBeTruthy();
+    expect(container.querySelectorAll('.g-form-item-explain').length).toBeTruthy();
 
     await changeValue(0, '123');
-    expect(container.querySelectorAll('.ant-form-item-explain').length).toBeFalsy();
+    expect(container.querySelectorAll('.g-form-item-explain').length).toBeFalsy();
   });
 
   // https://github.com/ant-design/ant-design/issues/21167
@@ -974,8 +974,8 @@ describe('Form', () => {
       </Form.Item>,
     );
 
-    // expect(screen.getByTitle('test')).toHaveClass('ant-form-item-required');
-    expect(container.querySelector('.ant-form-item-required')).toBeTruthy();
+    // expect(screen.getByTitle('test')).toHaveClass('g-form-item-required');
+    expect(container.querySelector('.g-form-item-required')).toBeTruthy();
   });
 
   it('0 is a validate Field', () => {
@@ -1061,7 +1061,7 @@ describe('Form', () => {
     fireEvent.submit(container.querySelector('form')!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent(
+    expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent(
       'Bamboo is good!',
     );
   });
@@ -1083,9 +1083,7 @@ describe('Form', () => {
     fireEvent.submit(container.querySelector('form')!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent(
-      '请输入Bamboo',
-    );
+    expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent('请输入Bamboo');
   });
 
   it('`name` support template when label is not provided', async () => {
@@ -1101,7 +1099,7 @@ describe('Form', () => {
     fireEvent.submit(container.querySelector('form')!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent(
+    expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent(
       'Bamboo is good!',
     );
   });
@@ -1119,7 +1117,7 @@ describe('Form', () => {
     fireEvent.submit(container.querySelector('form')!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent(
+    expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent(
       'Bamboo is good!',
     );
   });
@@ -1140,8 +1138,8 @@ describe('Form', () => {
     fireEvent.submit(container.querySelector('form')!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-form-item-explain')).not.toHaveAttribute('role');
-    expect(container.querySelector('.ant-form-item-explain-error')).toHaveTextContent(
+    expect(container.querySelector('.g-form-item-explain')).not.toHaveAttribute('role');
+    expect(container.querySelector('.g-form-item-explain-error')).toHaveTextContent(
       'name is good!',
     );
   });
@@ -1232,12 +1230,12 @@ describe('Form', () => {
     const { container, rerender } = render(<Demo showA />);
 
     await waitFakeTimer();
-    expect(container.querySelector('.ant-form-item-explain')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-explain')).toBeTruthy();
 
     rerender(<Demo showA={false} />);
 
     await waitFakeTimer();
-    expect(container.querySelector('.ant-form-item-explain')).toBeFalsy();
+    expect(container.querySelector('.g-form-item-explain')).toBeFalsy();
   });
 
   it('no warning of initialValue & getValueProps & preserve', () => {
@@ -1274,13 +1272,13 @@ describe('Form', () => {
 
     // type a invalidate value, not trigger validation
     await changeValue(0, '7777');
-    expect(container.querySelector('.ant-form-item-explain')).toBeFalsy();
+    expect(container.querySelector('.g-form-item-explain')).toBeFalsy();
 
     // tab(onBlur) the input field, trigger and see the alert
     fireEvent.blur(container.querySelector('input')!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-form-item-explain')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-explain')).toBeTruthy();
   });
 
   describe('Form item hidden', () => {
@@ -1389,7 +1387,7 @@ describe('Form', () => {
         </Form.Item>
       </Form>,
     );
-    expect(container.querySelector('.ant-segmented')).not.toHaveClass('ant-segmented-disabled');
+    expect(container.querySelector('.g-segmented')).not.toHaveClass('g-segmented-disabled');
   });
 
   it('form.item should support layout', () => {
@@ -1433,14 +1431,14 @@ describe('Form', () => {
     );
     const { container } = render(<App />);
 
-    const items = container.querySelectorAll('.ant-form-item');
-    const oneItems = items[0].querySelector('.ant-row')?.querySelectorAll('.ant-col');
-    expect(oneItems?.[0]).toHaveClass('ant-col-4');
+    const items = container.querySelectorAll('.g-form-item');
+    const oneItems = items[0].querySelector('.g-row')?.querySelectorAll('.g-col');
+    expect(oneItems?.[0]).toHaveClass('g-col-4');
     expect(oneItems?.[0].className.includes('offset')).toBeFalsy();
-    expect(oneItems?.[1]).toHaveClass('ant-col-14');
+    expect(oneItems?.[1]).toHaveClass('g-col-14');
     expect(oneItems?.[1].className.includes('offset')).toBeFalsy();
-    const twoItem = items[1].querySelector('.ant-row')?.querySelector('.ant-col');
-    expect(twoItem).toHaveClass('ant-col-14 ant-col-offset-4');
+    const twoItem = items[1].querySelector('.g-row')?.querySelector('.g-col');
+    expect(twoItem).toHaveClass('g-col-14 g-col-offset-4');
 
     // more size
     const list = responsiveArrayReversed;
@@ -1456,14 +1454,14 @@ describe('Form', () => {
         </Form>,
       );
 
-      const items = container.querySelectorAll('.ant-form-item');
-      const oneItems = items[0].querySelector('.ant-row')?.querySelectorAll('.ant-col');
-      expect(oneItems?.[0]).toHaveClass(`ant-col-${size}-4`);
+      const items = container.querySelectorAll('.g-form-item');
+      const oneItems = items[0].querySelector('.g-row')?.querySelectorAll('.g-col');
+      expect(oneItems?.[0]).toHaveClass(`g-col-${size}-4`);
       expect(oneItems?.[0].className.includes('offset')).toBeFalsy();
-      expect(oneItems?.[1]).toHaveClass('ant-col-14');
+      expect(oneItems?.[1]).toHaveClass('g-col-14');
       expect(oneItems?.[1].className.includes('offset')).toBeFalsy();
-      const twoItem = items[1].querySelector('.ant-row')?.querySelector('.ant-col');
-      expect(twoItem).toHaveClass(`ant-col-14 ant-col-${size}-offset-4`);
+      const twoItem = items[1].querySelector('.g-row')?.querySelector('.g-col');
+      expect(twoItem).toHaveClass(`g-col-14 g-col-${size}-offset-4`);
     });
   });
 
@@ -1481,14 +1479,14 @@ describe('Form', () => {
     );
     const { container } = render(<App />);
 
-    const items = container.querySelectorAll('.ant-form-item');
-    const oneItems = items[0].querySelector('.ant-row')?.querySelectorAll('.ant-col');
-    expect(oneItems?.[0]).toHaveClass('ant-col-24');
+    const items = container.querySelectorAll('.g-form-item');
+    const oneItems = items[0].querySelector('.g-row')?.querySelectorAll('.g-col');
+    expect(oneItems?.[0]).toHaveClass('g-col-24');
     expect(oneItems?.[0].className.includes('offset')).toBeFalsy();
-    expect(oneItems?.[1]).toHaveClass('ant-col-24');
+    expect(oneItems?.[1]).toHaveClass('g-col-24');
     expect(oneItems?.[1].className.includes('offset')).toBeFalsy();
-    const twoItem = items[1].querySelector('.ant-row')?.querySelector('.ant-col');
-    expect(twoItem).toHaveClass('ant-col-24');
+    const twoItem = items[1].querySelector('.g-row')?.querySelector('.g-col');
+    expect(twoItem).toHaveClass('g-col-24');
     expect(twoItem?.className.includes('offset')).toBeFalsy();
 
     // more size
@@ -1505,14 +1503,14 @@ describe('Form', () => {
         </Form>,
       );
 
-      const items = container.querySelectorAll('.ant-form-item');
-      const oneItems = items[0].querySelector('.ant-row')?.querySelectorAll('.ant-col');
-      expect(oneItems?.[0]).toHaveClass(`ant-col-${size}-24`);
+      const items = container.querySelectorAll('.g-form-item');
+      const oneItems = items[0].querySelector('.g-row')?.querySelectorAll('.g-col');
+      expect(oneItems?.[0]).toHaveClass(`g-col-${size}-24`);
       expect(oneItems?.[0].className.includes('offset')).toBeFalsy();
-      expect(oneItems?.[1]).toHaveClass('ant-col-24');
+      expect(oneItems?.[1]).toHaveClass('g-col-24');
       expect(oneItems?.[1].className.includes('offset')).toBeFalsy();
-      const twoItem = items[1].querySelector('.ant-row')?.querySelector('.ant-col');
-      expect(twoItem).toHaveClass(`ant-col-24`);
+      const twoItem = items[1].querySelector('.g-row')?.querySelector('.g-col');
+      expect(twoItem).toHaveClass(`g-col-24`);
       expect(twoItem?.className.includes('offset')).toBeFalsy();
     });
   });
@@ -1610,10 +1608,10 @@ describe('Form', () => {
         </Form>,
       );
 
-      fireEvent.mouseEnter(container.querySelector('.anticon-question-circle')!);
+      fireEvent.mouseEnter(container.querySelector('.gicon-question-circle')!);
       await waitFakeTimer();
 
-      expect(container.querySelector('.ant-tooltip-container')).toHaveTextContent('Bamboo');
+      expect(container.querySelector('.g-tooltip-container')).toHaveTextContent('Bamboo');
     });
 
     it('TooltipProps', async () => {
@@ -1625,11 +1623,11 @@ describe('Form', () => {
         </Form>,
       );
 
-      fireEvent.mouseEnter(container.querySelector('.anticon-question-circle')!);
-      fireEvent.click(container.querySelector('.anticon-question-circle')!);
+      fireEvent.mouseEnter(container.querySelector('.gicon-question-circle')!);
+      fireEvent.click(container.querySelector('.gicon-question-circle')!);
       await waitFakeTimer();
 
-      expect(container.querySelector('.ant-tooltip-container')).toHaveTextContent('Bamboo');
+      expect(container.querySelector('.g-tooltip-container')).toHaveTextContent('Bamboo');
     });
 
     it('ConfigProvider', async () => {
@@ -1647,7 +1645,7 @@ describe('Form', () => {
       fireEvent.click(container.querySelector('.foobar')!);
       await waitFakeTimer();
 
-      expect(container.querySelector('.ant-tooltip-container')).toHaveTextContent('Bamboo');
+      expect(container.querySelector('.g-tooltip-container')).toHaveTextContent('Bamboo');
     });
   });
 
@@ -1670,8 +1668,8 @@ describe('Form', () => {
     await changeValue(0, 'test');
     await changeValue(0, '');
 
-    expect(container.querySelector('.ant-form-item-with-help')).toBeTruthy();
-    expect(container.querySelector('.ant-form-item-has-warning')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-with-help')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-has-warning')).toBeTruthy();
   });
 
   it('not warning when remove on validate', async () => {
@@ -1719,7 +1717,7 @@ describe('Form', () => {
         </Form>,
       );
 
-      expect(screen.getByText('姓名')).not.toHaveClass('ant-form-item-no-colon');
+      expect(screen.getByText('姓名')).not.toHaveClass('g-form-item-no-colon');
     });
 
     it('set Form.Item colon false', () => {
@@ -1731,7 +1729,7 @@ describe('Form', () => {
         </Form>,
       );
 
-      expect(screen.getByText('姓名')).toHaveClass('ant-form-item-no-colon');
+      expect(screen.getByText('姓名')).toHaveClass('g-form-item-no-colon');
     });
 
     it('set Form colon false', () => {
@@ -1743,7 +1741,7 @@ describe('Form', () => {
         </Form>,
       );
 
-      expect(screen.getByText('姓名')).toHaveClass('ant-form-item-no-colon');
+      expect(screen.getByText('姓名')).toHaveClass('g-form-item-no-colon');
     });
   });
 
@@ -1815,32 +1813,30 @@ describe('Form', () => {
 
       await waitFakeTimer();
 
-      expect(container.querySelector('.custom-select')).toHaveClass('ant-select-status-error');
-      expect(container.querySelector('.custom-select')).not.toHaveClass('ant-select-in-form-item');
+      expect(container.querySelector('.custom-select')).toHaveClass('g-select-status-error');
+      expect(container.querySelector('.custom-select')).not.toHaveClass('g-select-in-form-item');
 
-      expect(container.querySelector('.custom-select-b')).toHaveClass('ant-select-status-error');
-      expect(container.querySelector('.custom-select-b')).toHaveClass('ant-select-in-form-item');
+      expect(container.querySelector('.custom-select-b')).toHaveClass('g-select-status-error');
+      expect(container.querySelector('.custom-select-b')).toHaveClass('g-select-in-form-item');
       expect(
         container
           .querySelector('.custom-select-b')
-          ?.querySelector('.ant-form-item-feedback-icon-error'),
+          ?.querySelector('.g-form-item-feedback-icon-error'),
       ).toBeTruthy();
 
-      expect(container.querySelector('.custom-select-c')).toHaveClass('ant-select-status-warning');
-      expect(container.querySelector('.custom-select-c')).toHaveClass('ant-select-in-form-item');
+      expect(container.querySelector('.custom-select-c')).toHaveClass('g-select-status-warning');
+      expect(container.querySelector('.custom-select-c')).toHaveClass('g-select-in-form-item');
       expect(
         container
           .querySelector('.custom-select-c')
-          ?.querySelector('.ant-form-item-feedback-icon-warning'),
+          ?.querySelector('.g-form-item-feedback-icon-warning'),
       ).toBeFalsy();
 
-      expect(container.querySelector('.custom-select-d')).toHaveClass('ant-select-status-warning');
-      expect(container.querySelector('.custom-select-d')).toHaveClass('ant-select-in-form-item');
+      expect(container.querySelector('.custom-select-d')).toHaveClass('g-select-status-warning');
+      expect(container.querySelector('.custom-select-d')).toHaveClass('g-select-in-form-item');
 
-      expect(container.querySelector('.custom-select-e')).not.toHaveClass(
-        'ant-select-status-error',
-      );
-      expect(container.querySelector('.custom-select-e')).toHaveClass('ant-select-in-form-item');
+      expect(container.querySelector('.custom-select-e')).not.toHaveClass('g-select-status-error');
+      expect(container.querySelector('.custom-select-e')).toHaveClass('g-select-in-form-item');
     });
 
     it('parent pass status', async () => {
@@ -1861,12 +1857,12 @@ describe('Form', () => {
       await changeValue(0, 'Once');
       await changeValue(0, '');
 
-      expect(container.querySelector('.ant-form-item-explain-error')?.textContent).toEqual(
+      expect(container.querySelector('.g-form-item-explain-error')?.textContent).toEqual(
         "'first' is required",
       );
 
-      expect(container.querySelectorAll('input')[0]).toHaveClass('ant-input-status-error');
-      expect(container.querySelectorAll('input')[1]).not.toHaveClass('ant-input-status-error');
+      expect(container.querySelectorAll('input')[0]).toHaveClass('g-input-status-error');
+      expect(container.querySelectorAll('input')[1]).not.toHaveClass('g-input-status-error');
     });
   });
 
@@ -1897,9 +1893,7 @@ describe('Form', () => {
     expect(container.querySelector('.drawer-select')).not.toHaveClass('status-error');
 
     // https://github.com/ant-design/ant-design/issues/56615
-    expect(container.querySelector('.custom-popup-input')).not.toHaveClass(
-      'ant-input-status-error',
-    );
+    expect(container.querySelector('.custom-popup-input')).not.toHaveClass('g-input-status-error');
   });
 
   // eslint-disable-next-line jest/no-disabled-tests
@@ -1914,7 +1908,7 @@ describe('Form', () => {
       </Modal>,
     );
 
-    expect(document.querySelector('.ant-form-item-margin-offset')).toBeTruthy();
+    expect(document.querySelector('.g-form-item-margin-offset')).toBeTruthy();
   });
 
   it('Form.Item.useStatus should work', async () => {
@@ -2038,7 +2032,7 @@ describe('Form', () => {
 
     computeSpy.mockRestore();
 
-    expect(container.querySelector('.ant-form-item-margin-offset')).toHaveStyle({
+    expect(container.querySelector('.g-form-item-margin-offset')).toHaveStyle({
       marginBottom: -24,
     });
   });
@@ -2166,14 +2160,14 @@ describe('Form', () => {
     };
     const { container, rerender } = render(<App />);
 
-    expect(container.querySelectorAll('.ant-form-item-has-feedback').length).toBe(0);
-    expect(container.querySelectorAll('.ant-form-item-has-success').length).toBe(0);
+    expect(container.querySelectorAll('.g-form-item-has-feedback').length).toBe(0);
+    expect(container.querySelectorAll('.g-form-item-has-success').length).toBe(0);
 
     rerender(<App trigger />);
     await waitFakeTimer();
 
-    expect(container.querySelectorAll('.ant-form-item-has-feedback').length).toBe(1);
-    expect(container.querySelectorAll('.ant-form-item-has-success').length).toBe(1);
+    expect(container.querySelectorAll('.g-form-item-has-feedback').length).toBe(1);
+    expect(container.querySelectorAll('.g-form-item-has-success').length).toBe(1);
   });
 
   it('feedback should automatically derive the correct state', async () => {
@@ -2217,10 +2211,10 @@ describe('Form', () => {
 
     await waitFakeTimer(50);
 
-    expect(container.querySelector('.ant-form-item-has-success')).toBeTruthy();
-    expect(container.querySelector('.ant-form-item-is-validating')).toBeTruthy();
-    expect(container.querySelector('.ant-form-item-has-warning')).toBeTruthy();
-    expect(container.querySelector('.ant-form-item-has-error')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-has-success')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-is-validating')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-has-warning')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-has-error')).toBeTruthy();
   });
 
   it('custom feedback icons should display when pass hasFeedback prop', async () => {
@@ -2276,12 +2270,12 @@ describe('Form', () => {
     };
     const { container, rerender } = render(<App />);
 
-    expect(container.querySelectorAll('.ant-form-item-has-feedback').length).toBe(0);
+    expect(container.querySelectorAll('.g-form-item-has-feedback').length).toBe(0);
 
     rerender(<App trigger />);
     await waitFakeTimer();
 
-    expect(container.querySelectorAll('.ant-form-item-has-feedback').length).toBe(2);
+    expect(container.querySelectorAll('.g-form-item-has-feedback').length).toBe(2);
     expect(container.querySelectorAll('#custom-error-icon, #custom-error-icon2').length).toBe(2);
   });
 
@@ -2296,7 +2290,7 @@ describe('Form', () => {
       </Form>,
     );
 
-    expect(container.querySelector('.ant-form-item-required')).toBeTruthy();
+    expect(container.querySelector('.g-form-item-required')).toBeTruthy();
   });
 
   it('validate status should be change in order', async () => {
@@ -2374,8 +2368,8 @@ describe('Form', () => {
         </Form>,
       );
 
-      expect(container.querySelectorAll('.ant-form-item-required')).toHaveLength(2);
-      expect(container.querySelectorAll('.ant-form-item-required-mark-optional')).toHaveLength(2);
+      expect(container.querySelectorAll('.g-form-item-required')).toHaveLength(2);
+      expect(container.querySelectorAll('.g-form-item-required-mark-optional')).toHaveLength(2);
     });
 
     it('customize logic', () => {
@@ -2390,10 +2384,10 @@ describe('Form', () => {
         </Form>,
       );
 
-      expect(container.querySelectorAll('.ant-form-item-label')[0].textContent).toEqual(
+      expect(container.querySelectorAll('.g-form-item-label')[0].textContent).toEqual(
         'Required: true',
       );
-      expect(container.querySelectorAll('.ant-form-item-label')[1].textContent).toEqual(
+      expect(container.querySelectorAll('.g-form-item-label')[1].textContent).toEqual(
         'Optional: false',
       );
     });
@@ -2443,7 +2437,7 @@ describe('Form', () => {
       </Form>,
     );
 
-    const footerBts = document.querySelectorAll('.ant-modal-footer > button');
+    const footerBts = document.querySelectorAll('.g-modal-footer > button');
     expect(footerBts).toBeTruthy();
 
     footerBts.forEach((bt) => {
@@ -2467,18 +2461,18 @@ describe('Form', () => {
 
     const input = container.querySelector('input')!;
 
-    expect(container.querySelector('.ant-input-number-suffix')).toBeTruthy();
+    expect(container.querySelector('.g-input-number-suffix')).toBeTruthy();
 
     fireEvent.focus(input);
 
-    expect(container.querySelector('.ant-input-number-focused')).toBeTruthy();
+    expect(container.querySelector('.g-input-number-focused')).toBeTruthy();
 
     fireEvent.change(input, {
       target: { value: '1' },
     });
 
-    expect(container.querySelector('.ant-input-number-suffix')).toBeTruthy();
-    expect(container.querySelector('.ant-input-number-focused')).toBeTruthy();
+    expect(container.querySelector('.g-input-number-suffix')).toBeTruthy();
+    expect(container.querySelector('.g-input-number-focused')).toBeTruthy();
   });
 
   // https://github.com/ant-design/ant-design/issues/20803#issuecomment-601626759
@@ -2572,11 +2566,9 @@ describe('Form', () => {
     );
 
     function expectErrors(errors: string[]) {
-      expect(container.querySelectorAll('.ant-form-item-explain-error')).toHaveLength(
-        errors.length,
-      );
+      expect(container.querySelectorAll('.g-form-item-explain-error')).toHaveLength(errors.length);
       errors.forEach((error, index) => {
-        expect(container.querySelectorAll('.ant-form-item-explain-error')[index]).toHaveTextContent(
+        expect(container.querySelectorAll('.g-form-item-explain-error')[index]).toHaveTextContent(
           error,
         );
       });
@@ -2619,7 +2611,7 @@ describe('Form', () => {
 
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-input.ant-input-status-error')).toBeFalsy();
+    expect(container.querySelector('.g-input.g-input-status-error')).toBeFalsy();
 
     // Child validation
     await subFormRef.current?.validateFields().catch(() => {
@@ -2628,6 +2620,6 @@ describe('Form', () => {
 
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-input.ant-input-status-error')).toBeTruthy();
+    expect(container.querySelector('.g-input.g-input-status-error')).toBeTruthy();
   });
 });

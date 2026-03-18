@@ -12,15 +12,15 @@ const classNames = createStaticStyles(({ css }) => ({
 const classNamesFn = createStaticStyles(({ css, cssVar }) => ({
   root: css`
     width: 100px;
-    &:hover .ant-slider-handle:after {
+    &:hover .g-slider-handle:after {
       box-shadow: 0 0 0 ${cssVar.lineWidthBold} #722ed1;
     }
   `,
   handle: css`
-    &.ant-slider-handle:hover::after,
-    &.ant-slider-handle:active::after,
-    &.ant-slider-handle:focus::after,
-    &.ant-slider-handle::after {
+    &.g-slider-handle:hover::after,
+    &.g-slider-handle:active::after,
+    &.g-slider-handle:focus::after,
+    &.g-slider-handle::after {
       box-shadow: 0 0 0 ${cssVar.lineWidthBold} #722ed1;
     }
   `,

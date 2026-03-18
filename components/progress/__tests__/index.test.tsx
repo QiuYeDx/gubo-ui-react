@@ -22,13 +22,13 @@ describe('Progress', () => {
     const { container: wrapper, rerender } = render(
       <Progress percent={100} success={{ percent: 50 }} />,
     );
-    expect(wrapper.querySelectorAll('.ant-progress-status-success')).toHaveLength(0);
+    expect(wrapper.querySelectorAll('.g-progress-status-success')).toHaveLength(0);
 
     rerender(<Progress percent={50} success={{ percent: 100 }} />);
-    expect(wrapper.querySelectorAll('.ant-progress-status-success')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-progress-status-success')).toHaveLength(1);
 
     rerender(<Progress percent={100} success={{ percent: 0 }} />);
-    expect(wrapper.querySelectorAll('.ant-progress-status-success')).toHaveLength(0);
+    expect(wrapper.querySelectorAll('.g-progress-status-success')).toHaveLength(0);
   });
 
   it('render out-of-range progress', () => {
@@ -157,13 +157,13 @@ describe('Progress', () => {
 
   it('should show success status when percent is 100', () => {
     const { container: wrapper } = render(<Progress percent={100} />);
-    expect(wrapper.querySelectorAll('.ant-progress-status-success')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-progress-status-success')).toHaveLength(1);
   });
 
   // https://github.com/ant-design/ant-design/issues/15950
   it('should show success status when percent is 100 and status is undefined', () => {
     const { container: wrapper } = render(<Progress percent={100} status={undefined} />);
-    expect(wrapper.querySelectorAll('.ant-progress-status-success')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-progress-status-success')).toHaveLength(1);
   });
 
   // https://github.com/ant-design/ant-design/pull/15951#discussion_r273062969
@@ -172,7 +172,7 @@ describe('Progress', () => {
     const { container: wrapper } = render(
       <Progress percent={100} status={'invalid' as ProgressProps['status']} />,
     );
-    expect(wrapper.querySelectorAll('.ant-progress-status-success')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-progress-status-success')).toHaveLength(1);
     errorSpy.mockRestore();
   });
 
@@ -183,16 +183,16 @@ describe('Progress', () => {
 
   it('steps should be changeable', () => {
     const { container: wrapper, rerender } = render(<Progress steps={5} percent={60} />);
-    expect(wrapper.querySelectorAll('.ant-progress-steps-item-active').length).toBe(3);
+    expect(wrapper.querySelectorAll('.g-progress-steps-item-active').length).toBe(3);
     rerender(<Progress steps={5} percent={40} />);
-    expect(wrapper.querySelectorAll('.ant-progress-steps-item-active').length).toBe(2);
+    expect(wrapper.querySelectorAll('.g-progress-steps-item-active').length).toBe(2);
   });
 
   it('steps should be changeable when has strokeColor', () => {
     const { container, rerender } = render(
       <Progress steps={5} percent={60} strokeColor="#1677ff" />,
     );
-    const eles = container.querySelectorAll<HTMLDivElement>('.ant-progress-steps-item');
+    const eles = container.querySelectorAll<HTMLDivElement>('.g-progress-steps-item');
     expect(eles[0]).toHaveStyle({ backgroundColor: 'rgb(22, 119, 255)' });
     rerender(<Progress steps={5} percent={40} strokeColor="#1677ff" />);
     expect(eles[2]).toHaveStyle({ backgroundColor: '' });
@@ -201,18 +201,18 @@ describe('Progress', () => {
 
   it('steps should support trailColor', () => {
     const { container } = render(<Progress steps={5} percent={20} trailColor="#1890ee" />);
-    expect(container.querySelectorAll<HTMLDivElement>('.ant-progress-steps-item')[1]).toHaveStyle({
+    expect(container.querySelectorAll<HTMLDivElement>('.g-progress-steps-item')[1]).toHaveStyle({
       backgroundColor: 'rgb(24, 144, 238)',
     });
   });
 
   it('should display correct step', () => {
     const { container: wrapper, rerender } = render(<Progress steps={9} percent={22.22} />);
-    expect(wrapper.querySelectorAll('.ant-progress-steps-item-active').length).toBe(2);
+    expect(wrapper.querySelectorAll('.g-progress-steps-item-active').length).toBe(2);
     rerender(<Progress steps={9} percent={33.33} />);
-    expect(wrapper.querySelectorAll('.ant-progress-steps-item-active').length).toBe(3);
+    expect(wrapper.querySelectorAll('.g-progress-steps-item-active').length).toBe(3);
     rerender(<Progress steps={9} percent={44.44} />);
-    expect(wrapper.querySelectorAll('.ant-progress-steps-item-active').length).toBe(4);
+    expect(wrapper.querySelectorAll('.g-progress-steps-item-active').length).toBe(4);
   });
 
   it('steps should have default percent 0', () => {
@@ -319,49 +319,49 @@ describe('Progress', () => {
     );
 
     const { container, rerender } = render(<App size={30} />);
-    expect(container.querySelector('.ant-progress-steps .ant-progress-steps-item')).toHaveStyle({
+    expect(container.querySelector('.g-progress-steps .g-progress-steps-item')).toHaveStyle({
       width: '30px',
       height: '30px',
     });
-    expect(container.querySelectorAll('.ant-progress-circle .ant-progress-body')[0]).toHaveStyle({
+    expect(container.querySelectorAll('.g-progress-circle .g-progress-body')[0]).toHaveStyle({
       width: '30px',
       height: '30px',
     });
-    expect(container.querySelectorAll('.ant-progress-circle .ant-progress-body')[1]).toHaveStyle({
+    expect(container.querySelectorAll('.g-progress-circle .g-progress-body')[1]).toHaveStyle({
       width: '30px',
       height: '30px',
     });
 
     rerender(<App size={[60, 20]} />);
 
-    expect(container.querySelector('.ant-progress-line .ant-progress-body')).toHaveStyle({
+    expect(container.querySelector('.g-progress-line .g-progress-body')).toHaveStyle({
       width: '60px',
     });
-    expect(container.querySelector('.ant-progress-line .ant-progress-rail')).toHaveStyle({
+    expect(container.querySelector('.g-progress-line .g-progress-rail')).toHaveStyle({
       height: '20px',
     });
-    expect(container.querySelector('.ant-progress-steps .ant-progress-steps-item')).toHaveStyle({
+    expect(container.querySelector('.g-progress-steps .g-progress-steps-item')).toHaveStyle({
       width: '60px',
       height: '20px',
     });
-    expect(container.querySelectorAll('.ant-progress-circle .ant-progress-body')[0]).toHaveStyle({
+    expect(container.querySelectorAll('.g-progress-circle .g-progress-body')[0]).toHaveStyle({
       width: '60px',
       height: '60px',
     });
-    expect(container.querySelectorAll('.ant-progress-circle .ant-progress-body')[1]).toHaveStyle({
+    expect(container.querySelectorAll('.g-progress-circle .g-progress-body')[1]).toHaveStyle({
       width: '60px',
       height: '60px',
     });
 
     rerender(<App size={{ width: 60, height: 20 }} />);
 
-    expect(container.querySelector('.ant-progress-line .ant-progress-body')).toHaveStyle({
+    expect(container.querySelector('.g-progress-line .g-progress-body')).toHaveStyle({
       width: '60px',
     });
-    expect(container.querySelector('.ant-progress-line .ant-progress-rail')).toHaveStyle({
+    expect(container.querySelector('.g-progress-line .g-progress-rail')).toHaveStyle({
       height: '20px',
     });
-    expect(container.querySelector('.ant-progress-steps .ant-progress-steps-item')).toHaveStyle({
+    expect(container.querySelector('.g-progress-steps .g-progress-steps-item')).toHaveStyle({
       width: '60px',
       height: '20px',
     });
@@ -423,7 +423,7 @@ describe('Progress', () => {
       />,
     );
     expect(
-      container.querySelector('.ant-progress-line-align-center.ant-progress-line-position-inner'),
+      container.querySelector('.g-progress-line-align-center.g-progress-line-position-inner'),
     ).toBeTruthy();
 
     rerender(
@@ -433,10 +433,10 @@ describe('Progress', () => {
         size={[400, 20]}
       />,
     );
-    expect(container.querySelector('.ant-progress-indicator-inner')).toBeTruthy();
+    expect(container.querySelector('.g-progress-indicator-inner')).toBeTruthy();
 
     rerender(<Progress percent={100} percentPosition={{ align: 'center', type: 'outer' }} />);
-    expect(container.querySelector('.ant-progress-body-layout-bottom')).toBeTruthy();
+    expect(container.querySelector('.g-progress-body-layout-bottom')).toBeTruthy();
   });
 
   it('render inner info position', () => {

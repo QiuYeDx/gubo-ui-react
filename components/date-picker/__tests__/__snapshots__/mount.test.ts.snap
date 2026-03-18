@@ -2,10 +2,10 @@
 
 exports[`mount rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-picker ant-picker-rtl ant-picker-outlined css-var-root ant-picker-css-var"
+  class="g-picker g-picker-rtl g-picker-outlined css-var-root g-picker-css-var"
 >
   <div
-    class="ant-picker-input"
+    class="g-picker-input"
   >
     <input
       aria-invalid="false"
@@ -15,11 +15,11 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -43,10 +43,10 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
 
 exports[`mount rtl render component should be rendered correctly in RTL direction 2`] = `
 <div
-  class="ant-picker ant-picker-rtl ant-picker-outlined css-var-root ant-picker-css-var"
+  class="g-picker g-picker-rtl g-picker-outlined css-var-root g-picker-css-var"
 >
   <div
-    class="ant-picker-input"
+    class="g-picker-input"
   >
     <input
       aria-invalid="false"
@@ -56,11 +56,11 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -84,10 +84,10 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
 
 exports[`mount rtl render component should be rendered correctly in RTL direction 3`] = `
 <div
-  class="ant-picker ant-picker-rtl ant-picker-outlined css-var-root ant-picker-css-var"
+  class="g-picker g-picker-rtl g-picker-outlined css-var-root g-picker-css-var"
 >
   <div
-    class="ant-picker-input"
+    class="g-picker-input"
   >
     <input
       aria-invalid="false"
@@ -97,11 +97,11 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -125,10 +125,10 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
 
 exports[`mount rtl render component should be rendered correctly in RTL direction 4`] = `
 <div
-  class="ant-picker ant-picker-range ant-picker-rtl ant-picker-outlined css-var-root ant-picker-css-var"
+  class="g-picker g-picker-range g-picker-rtl g-picker-outlined css-var-root g-picker-css-var"
 >
   <div
-    class="ant-picker-input ant-picker-input-start"
+    class="g-picker-input g-picker-input-start"
   >
     <input
       aria-invalid="false"
@@ -140,15 +140,15 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
     />
   </div>
   <div
-    class="ant-picker-range-separator"
+    class="g-picker-range-separator"
   >
     <span
       aria-label="to"
-      class="ant-picker-separator"
+      class="g-picker-separator"
     >
       <span
         aria-label="swap-right"
-        class="anticon anticon-swap-right"
+        class="gicon gicon-swap-right"
         role="img"
       >
         <svg
@@ -168,7 +168,7 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
     </span>
   </div>
   <div
-    class="ant-picker-input ant-picker-input-end"
+    class="g-picker-input g-picker-input-end"
   >
     <input
       aria-invalid="false"
@@ -180,15 +180,15 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
     />
   </div>
   <div
-    class="ant-picker-active-bar"
+    class="g-picker-active-bar"
     style="position: absolute; width: 0px;"
   />
   <span
-    class="ant-picker-suffix"
+    class="g-picker-suffix"
   >
     <span
       aria-label="calendar"
-      class="anticon anticon-calendar"
+      class="gicon gicon-calendar"
       role="img"
     >
       <svg

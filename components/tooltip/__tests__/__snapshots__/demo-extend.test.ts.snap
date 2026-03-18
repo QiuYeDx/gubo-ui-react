@@ -5,55 +5,55 @@ Array [
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     style="margin-bottom: 24px;"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Show"
         >
           Show
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Hide"
         >
           Hide
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Center"
         >
           Center
@@ -62,15 +62,15 @@ Array [
     </div>
   </div>,
   <div
-    class="demo ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center ant-flex-vertical"
+    class="demo g-flex css-var-test-id g-flex-align-center g-flex-justify-center g-flex-vertical"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="white-space: nowrap;"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -79,19 +79,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-topLeft"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-topLeft"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -102,7 +102,7 @@ Array [
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -111,19 +111,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -134,7 +134,7 @@ Array [
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -143,19 +143,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-topRight"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-topRight"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -166,15 +166,15 @@ Array [
       </div>
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
       style="width: 432px;"
     >
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-vertical"
       >
         <button
           aria-describedby="test-id"
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           style="width: 80px; margin: 4px;"
           type="button"
         >
@@ -183,19 +183,19 @@ Array [
           </span>
         </button>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-leftTop"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-leftTop"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           >
@@ -206,7 +206,7 @@ Array [
         </div>
         <button
           aria-describedby="test-id"
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           style="width: 80px; margin: 4px;"
           type="button"
         >
@@ -215,19 +215,19 @@ Array [
           </span>
         </button>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-left"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-left"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute; top: 0px; right: 0px;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           >
@@ -238,7 +238,7 @@ Array [
         </div>
         <button
           aria-describedby="test-id"
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           style="width: 80px; margin: 4px;"
           type="button"
         >
@@ -247,19 +247,19 @@ Array [
           </span>
         </button>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-leftBottom"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-leftBottom"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           >
@@ -270,11 +270,11 @@ Array [
         </div>
       </div>
       <div
-        class="ant-flex css-var-test-id ant-flex-align-center ant-flex-vertical"
+        class="g-flex css-var-test-id g-flex-align-center g-flex-vertical"
       >
         <button
           aria-describedby="test-id"
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           style="width: 80px; margin: 4px;"
           type="button"
         >
@@ -283,19 +283,19 @@ Array [
           </span>
         </button>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-rightTop"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-rightTop"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           >
@@ -306,7 +306,7 @@ Array [
         </div>
         <button
           aria-describedby="test-id"
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           style="width: 80px; margin: 4px;"
           type="button"
         >
@@ -315,19 +315,19 @@ Array [
           </span>
         </button>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-right"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-right"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute; top: 0px; left: 0px;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           >
@@ -338,7 +338,7 @@ Array [
         </div>
         <button
           aria-describedby="test-id"
-          class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
           style="width: 80px; margin: 4px;"
           type="button"
         >
@@ -347,19 +347,19 @@ Array [
           </span>
         </button>
         <div
-          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-rightBottom"
+          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-rightBottom"
           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
         >
           <div
-            class="ant-tooltip-arrow"
+            class="g-tooltip-arrow"
             style="position: absolute;"
           >
             <span
-              class="ant-tooltip-arrow-content"
+              class="g-tooltip-arrow-content"
             />
           </div>
           <div
-            class="ant-tooltip-container"
+            class="g-tooltip-container"
             id="test-id"
             role="tooltip"
           >
@@ -371,12 +371,12 @@ Array [
       </div>
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
       style="white-space: nowrap;"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -385,19 +385,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-bottomLeft"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-bottomLeft"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -408,7 +408,7 @@ Array [
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -417,19 +417,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-bottom"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-bottom"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; top: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -440,7 +440,7 @@ Array [
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -449,19 +449,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-bottomRight"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-bottomRight"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -479,14 +479,14 @@ exports[`renders components/tooltip/demo/arrow.tsx extend context correctly 2`] 
 
 exports[`renders components/tooltip/demo/arrow-point-at-center.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -494,19 +494,19 @@ exports[`renders components/tooltip/demo/arrow-point-at-center.tsx extend contex
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-topLeft"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-topLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -515,11 +515,11 @@ exports[`renders components/tooltip/demo/arrow-point-at-center.tsx extend contex
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -527,19 +527,19 @@ exports[`renders components/tooltip/demo/arrow-point-at-center.tsx extend contex
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-topLeft"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-topLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -557,7 +557,7 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
   style="display: flex; flex-direction: column; row-gap: 16px;"
 >
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     With \`getPopupContainer\`
   </h5>
@@ -569,7 +569,7 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -577,19 +577,19 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-left"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-left"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; top: 0px; right: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -598,7 +598,7 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -606,19 +606,19 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-left"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-left"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; top: 0px; right: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -628,7 +628,7 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
     </div>
   </div>
   <h5
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     Without \`getPopupContainer\`
   </h5>
@@ -640,7 +640,7 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -648,19 +648,19 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-left"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-left"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; top: 0px; right: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -669,7 +669,7 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -677,19 +677,19 @@ exports[`renders components/tooltip/demo/auto-adjust-overflow.tsx extend context
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-left"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-left"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; top: 0px; right: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -711,19 +711,19 @@ Array [
     Tooltip will show on mouse enter.
   </span>,
   <div
-    class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+    class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-tooltip-arrow"
+      class="g-tooltip-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-tooltip-arrow-content"
+        class="g-tooltip-arrow-content"
       />
     </div>
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       id="test-id"
       role="tooltip"
     >
@@ -738,31 +738,31 @@ exports[`renders components/tooltip/demo/basic.tsx extend context correctly 2`] 
 exports[`renders components/tooltip/demo/colorful.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       Presets
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>,
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="flex-wrap: wrap;"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -770,19 +770,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-pink ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-pink g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -791,11 +791,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -803,19 +803,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-red ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-red g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -824,11 +824,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -836,19 +836,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-yellow ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-yellow g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -857,11 +857,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -869,19 +869,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-orange ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-orange g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -890,11 +890,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -902,19 +902,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-cyan ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-cyan g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -923,11 +923,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -935,19 +935,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-green ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-green g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -956,11 +956,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -968,19 +968,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-blue ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-blue g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -989,11 +989,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1001,19 +1001,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-purple ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-purple g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1022,11 +1022,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1034,19 +1034,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-geekblue ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-geekblue g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1055,11 +1055,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1067,19 +1067,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-magenta ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-magenta g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1088,11 +1088,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1100,19 +1100,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-volcano ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-volcano g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1121,11 +1121,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1133,19 +1133,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-gold ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-gold g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1154,11 +1154,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1166,19 +1166,19 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-lime ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-lime g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1188,31 +1188,31 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-divider css-var-test-id ant-divider-horizontal ant-divider-with-text ant-divider-with-text-start"
+    class="g-divider css-var-test-id g-divider-horizontal g-divider-with-text g-divider-with-text-start"
     role="separator"
   >
     <div
-      class="ant-divider-rail ant-divider-rail-start"
+      class="g-divider-rail g-divider-rail-start"
     />
     <span
-      class="ant-divider-inner-text"
+      class="g-divider-inner-text"
     >
       Custom
     </span>
     <div
-      class="ant-divider-rail ant-divider-rail-end"
+      class="g-divider-rail g-divider-rail-end"
     />
   </div>,
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="flex-wrap: wrap;"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1220,33 +1220,33 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
-        style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; --ant-tooltip-arrow-background-color: #f50;"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
+        style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; --g-tooltip-arrow-background-color: #f50;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
-          style="background: rgb(255, 85, 0); --ant-tooltip-overlay-color: #FFF;"
+          style="background: rgb(255, 85, 0); --g-tooltip-overlay-color: #FFF;"
         >
           prompt text
         </div>
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1254,33 +1254,33 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
-        style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; --ant-tooltip-arrow-background-color: #2db7f5;"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
+        style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; --g-tooltip-arrow-background-color: #2db7f5;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
-          style="background: rgb(45, 183, 245); --ant-tooltip-overlay-color: #000;"
+          style="background: rgb(45, 183, 245); --g-tooltip-overlay-color: #000;"
         >
           prompt text
         </div>
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1288,33 +1288,33 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
-        style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; --ant-tooltip-arrow-background-color: #87d068;"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
+        style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; --g-tooltip-arrow-background-color: #87d068;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
-          style="background: rgb(135, 208, 104); --ant-tooltip-overlay-color: #000;"
+          style="background: rgb(135, 208, 104); --g-tooltip-overlay-color: #000;"
         >
           prompt text
         </div>
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -1322,22 +1322,22 @@ Array [
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
-        style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; --ant-tooltip-arrow-background-color: #108ee9;"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
+        style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; --g-tooltip-arrow-background-color: #108ee9;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; bottom: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
-          style="background: rgb(16, 142, 233); --ant-tooltip-overlay-color: #FFF;"
+          style="background: rgb(16, 142, 233); --g-tooltip-overlay-color: #FFF;"
         >
           prompt text
         </div>
@@ -1357,19 +1357,19 @@ Array [
     Dom will destroyed when Tooltip close
   </span>,
   <div
-    class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+    class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-tooltip-arrow"
+      class="g-tooltip-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-tooltip-arrow-content"
+        class="g-tooltip-arrow-content"
       />
     </div>
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       id="test-id"
       role="tooltip"
     >
@@ -1385,7 +1385,7 @@ exports[`renders components/tooltip/demo/disabled.tsx extend context correctly 1
 Array [
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -1393,19 +1393,19 @@ Array [
     </span>
   </button>,
   <div
-    class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+    class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-tooltip-arrow"
+      class="g-tooltip-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-tooltip-arrow-content"
+        class="g-tooltip-arrow-content"
       />
     </div>
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       id="test-id"
       role="tooltip"
     />
@@ -1417,14 +1417,14 @@ exports[`renders components/tooltip/demo/disabled.tsx extend context correctly 2
 
 exports[`renders components/tooltip/demo/disabled-children.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       disabled=""
       type="button"
     >
@@ -1433,19 +1433,19 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -1454,30 +1454,30 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <input
       aria-describedby="test-id"
-      class="ant-input ant-input-disabled ant-input-outlined css-var-test-id ant-input-css-var"
+      class="g-input g-input-disabled g-input-outlined css-var-test-id g-input-css-var"
       disabled=""
       placeholder="disabled"
       type="text"
       value=""
     />
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -1486,15 +1486,15 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-without-controls ant-input-number-disabled"
+      class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-without-controls g-input-number-disabled"
     >
       <input
         aria-describedby="test-id"
         autocomplete="off"
-        class="ant-input-number-input"
+        class="g-input-number-input"
         disabled=""
         role="spinbutton"
         step="1"
@@ -1502,19 +1502,19 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
       />
     </div>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -1523,36 +1523,36 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <label
-      class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled css-var-test-id ant-checkbox-css-var"
+      class="g-checkbox-wrapper g-checkbox-wrapper-disabled css-var-test-id g-checkbox-css-var"
     >
       <span
-        class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+        class="g-checkbox g-wave-target g-checkbox-disabled"
       >
         <input
           aria-describedby="test-id"
-          class="ant-checkbox-input"
+          class="g-checkbox-input"
           disabled=""
           type="checkbox"
         />
       </span>
     </label>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -1561,16 +1561,16 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility: visible;"
         />
         <input
@@ -1579,7 +1579,7 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           disabled=""
           id="test-id"
           readonly=""
@@ -1589,11 +1589,11 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1613,20 +1613,20 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
       </div>
     </div>
     <div
-      class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
+      class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-empty g-select-dropdown-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; z-index: 1150;"
     >
       <div>
         <div
-          class="ant-select-item-empty"
+          class="g-select-item-empty"
           id="test-id_list"
           role="listbox"
         >
           <div
-            class="css-var-test-id ant-empty ant-empty-normal ant-empty-small"
+            class="css-var-test-id g-empty g-empty-normal g-empty-small"
           >
             <div
-              class="ant-empty-image"
+              class="g-empty-image"
             >
               <svg
                 height="41"
@@ -1665,7 +1665,7 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
               </svg>
             </div>
             <div
-              class="ant-empty-description"
+              class="g-empty-description"
             >
               No data
             </div>
@@ -1674,19 +1674,19 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
       </div>
     </div>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -1701,15 +1701,15 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
 
 exports[`renders components/tooltip/demo/placement.tsx extend context correctly 1`] = `
 <div
-  class="demo ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center ant-flex-vertical"
+  class="demo g-flex css-var-test-id g-flex-align-center g-flex-justify-center g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
     style="white-space: nowrap;"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -1718,19 +1718,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-topLeft"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-topLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -1741,7 +1741,7 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -1750,19 +1750,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; bottom: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -1773,7 +1773,7 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -1782,19 +1782,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-topRight"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-topRight"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -1805,15 +1805,15 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-space-between"
+    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-space-between"
     style="width: 432px;"
   >
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-vertical"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-vertical"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1822,19 +1822,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-leftTop"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-leftTop"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1845,7 +1845,7 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1854,19 +1854,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-left"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-left"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; top: 0px; right: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1877,7 +1877,7 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1886,19 +1886,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-leftBottom"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-leftBottom"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1909,11 +1909,11 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </div>
     </div>
     <div
-      class="ant-flex css-var-test-id ant-flex-align-center ant-flex-vertical"
+      class="g-flex css-var-test-id g-flex-align-center g-flex-vertical"
     >
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1922,19 +1922,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-rightTop"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-rightTop"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1945,7 +1945,7 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1954,19 +1954,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-right"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-right"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute; top: 0px; left: 0px;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -1977,7 +1977,7 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </div>
       <button
         aria-describedby="test-id"
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         style="width: 80px; margin: 4px;"
         type="button"
       >
@@ -1986,19 +1986,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
         </span>
       </button>
       <div
-        class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-rightBottom"
+        class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-rightBottom"
         style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
       >
         <div
-          class="ant-tooltip-arrow"
+          class="g-tooltip-arrow"
           style="position: absolute;"
         >
           <span
-            class="ant-tooltip-arrow-content"
+            class="g-tooltip-arrow-content"
           />
         </div>
         <div
-          class="ant-tooltip-container"
+          class="g-tooltip-container"
           id="test-id"
           role="tooltip"
         >
@@ -2010,12 +2010,12 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-align-center ant-flex-justify-center"
+    class="g-flex css-var-test-id g-flex-align-center g-flex-justify-center"
     style="white-space: nowrap;"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -2024,19 +2024,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-bottomLeft"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-bottomLeft"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -2047,7 +2047,7 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -2056,19 +2056,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-bottom"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-bottom"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute; top: 0px; left: 0px;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -2079,7 +2079,7 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
     </div>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       style="width: 80px; margin: 4px;"
       type="button"
     >
@@ -2088,19 +2088,19 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
       </span>
     </button>
     <div
-      class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-bottomRight"
+      class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-bottomRight"
       style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
     >
       <div
-        class="ant-tooltip-arrow"
+        class="g-tooltip-arrow"
         style="position: absolute;"
       >
         <span
-          class="ant-tooltip-arrow-content"
+          class="g-tooltip-arrow-content"
         />
       </div>
       <div
-        class="ant-tooltip-container"
+        class="g-tooltip-container"
         id="test-id"
         role="tooltip"
       >
@@ -2118,41 +2118,41 @@ exports[`renders components/tooltip/demo/placement.tsx extend context correctly 
 exports[`renders components/tooltip/demo/render-panel.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-tooltip-css-var css-var-test-id ant-tooltip ant-tooltip-pure ant-tooltip-placement-top ant-tooltip-pink"
+    class="g-tooltip-css-var css-var-test-id g-tooltip g-tooltip-pure g-tooltip-placement-top g-tooltip-pink"
   >
     <div
-      class="ant-tooltip-arrow"
+      class="g-tooltip-arrow"
     />
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       role="tooltip"
     >
       Hello, Pink Pure Panel!
     </div>
   </div>,
   <div
-    class="ant-tooltip-css-var css-var-test-id ant-tooltip ant-tooltip-pure ant-tooltip-placement-top"
-    style="--ant-tooltip-arrow-background-color: #f50;"
+    class="g-tooltip-css-var css-var-test-id g-tooltip g-tooltip-pure g-tooltip-placement-top"
+    style="--g-tooltip-arrow-background-color: #f50;"
   >
     <div
-      class="ant-tooltip-arrow"
+      class="g-tooltip-arrow"
     />
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       role="tooltip"
-      style="background: rgb(255, 85, 0); --ant-tooltip-overlay-color: #FFF;"
+      style="background: rgb(255, 85, 0); --g-tooltip-overlay-color: #FFF;"
     >
       Hello, Customize Color Pure Panel!
     </div>
   </div>,
   <div
-    class="ant-tooltip-css-var css-var-test-id ant-tooltip ant-tooltip-pure ant-tooltip-placement-bottomLeft"
+    class="g-tooltip-css-var css-var-test-id g-tooltip g-tooltip-pure g-tooltip-placement-bottomLeft"
   >
     <div
-      class="ant-tooltip-arrow"
+      class="g-tooltip-arrow"
     />
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       role="tooltip"
       style="width: 200px;"
     >
@@ -2166,14 +2166,14 @@ exports[`renders components/tooltip/demo/render-panel.tsx extend context correct
 
 exports[`renders components/tooltip/demo/smooth-transition.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
 >
   <div
-    class="ant-flex css-var-test-id ant-flex-justify-center ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-justify-center g-flex-gap-small"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -2182,7 +2182,7 @@ exports[`renders components/tooltip/demo/smooth-transition.tsx extend context co
     </button>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -2191,11 +2191,11 @@ exports[`renders components/tooltip/demo/smooth-transition.tsx extend context co
     </button>
   </div>
   <div
-    class="ant-flex css-var-test-id ant-flex-justify-center ant-flex-gap-small"
+    class="g-flex css-var-test-id g-flex-justify-center g-flex-gap-small"
   >
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -2204,7 +2204,7 @@ exports[`renders components/tooltip/demo/smooth-transition.tsx extend context co
     </button>
     <button
       aria-describedby="test-id"
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -2219,11 +2219,11 @@ exports[`renders components/tooltip/demo/smooth-transition.tsx extend context co
 
 exports[`renders components/tooltip/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-gap-medium"
 >
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -2231,11 +2231,11 @@ exports[`renders components/tooltip/demo/style-class.tsx extend context correctl
     </span>
   </button>
   <div
-    class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+    class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-tooltip-container acss-ven0qr"
+      class="g-tooltip-container acss-ven0qr"
       id="test-id"
       role="tooltip"
       style="border-radius: 12px; box-shadow: inset 0 0 8px #ccc;"
@@ -2245,7 +2245,7 @@ exports[`renders components/tooltip/demo/style-class.tsx extend context correctl
   </div>
   <button
     aria-describedby="test-id"
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -2253,11 +2253,11 @@ exports[`renders components/tooltip/demo/style-class.tsx extend context correctl
     </span>
   </button>
   <div
-    class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+    class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-tooltip-container acss-ven0qr"
+      class="g-tooltip-container acss-ven0qr"
       id="test-id"
       role="tooltip"
       style="background-color: rgba(53, 71, 125, 0.8); padding: 12px; color: rgb(255, 255, 255); border-radius: 4px;"
@@ -2278,19 +2278,19 @@ Array [
     This text is inside a component with the necessary events exposed.
   </span>,
   <div
-    class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-tooltip-placement-top"
+    class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-tooltip-placement-top"
     style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
   >
     <div
-      class="ant-tooltip-arrow"
+      class="g-tooltip-arrow"
       style="position: absolute; bottom: 0px; left: 0px;"
     >
       <span
-        class="ant-tooltip-arrow-content"
+        class="g-tooltip-arrow-content"
       />
     </div>
     <div
-      class="ant-tooltip-container"
+      class="g-tooltip-container"
       id="test-id"
       role="tooltip"
     >

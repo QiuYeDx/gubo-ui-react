@@ -32,9 +32,9 @@ describe('Flex', () => {
   ));
   it('Flex', () => {
     const { container, rerender } = render(<Flex justify="center">test</Flex>);
-    expect(container.querySelector('.ant-flex')).toHaveStyle({ justifyContent: 'center' });
+    expect(container.querySelector('.g-flex')).toHaveStyle({ justifyContent: 'center' });
     rerender(<Flex flex="0 1 auto">test</Flex>);
-    expect(container.querySelector('.ant-flex')).toHaveStyle({ flex: '0 1 auto' });
+    expect(container.querySelector('.g-flex')).toHaveStyle({ flex: '0 1 auto' });
   });
 
   describe('Props: gap', () => {
@@ -49,7 +49,7 @@ describe('Flex', () => {
     it('support number', () => {
       const { container } = render(<Flex gap={100} />);
 
-      expect(container.querySelector('.ant-flex')).toHaveStyle({
+      expect(container.querySelector('.g-flex')).toHaveStyle({
         gap: '100px',
       });
     });
@@ -57,7 +57,7 @@ describe('Flex', () => {
     it('support preset size', () => {
       const { container } = render(<Flex gap="small" />);
 
-      expect(container.querySelector('.ant-flex')).toHaveClass('ant-flex-gap-small');
+      expect(container.querySelector('.g-flex')).toHaveClass('g-flex-gap-small');
     });
   });
 
@@ -65,44 +65,40 @@ describe('Flex', () => {
     const testFcRef = React.createRef<HTMLDivElement>();
     const testClsRef = React.createRef<ClassCom>();
     const { container, rerender } = render(<Flex>test</Flex>);
-    expect(container.querySelector<HTMLDivElement>('.ant-flex')?.tagName).toBe('DIV');
+    expect(container.querySelector<HTMLDivElement>('.g-flex')?.tagName).toBe('DIV');
     rerender(<Flex component="span">test</Flex>);
-    expect(container.querySelector<HTMLSpanElement>('.ant-flex')?.tagName).toBe('SPAN');
+    expect(container.querySelector<HTMLSpanElement>('.g-flex')?.tagName).toBe('SPAN');
     rerender(<Flex component={(props) => <FunCom {...props} ref={testFcRef} />}>test</Flex>);
-    expect(container.querySelector<HTMLDivElement>('.ant-flex')?.textContent).toBe('test FC');
+    expect(container.querySelector<HTMLDivElement>('.g-flex')?.textContent).toBe('test FC');
     expect(testFcRef.current).toBeTruthy();
     rerender(<Flex component={(props) => <ClassCom {...props} ref={testClsRef} />}>test</Flex>);
-    expect(container.querySelector<HTMLDivElement>('.ant-flex')?.textContent).toBe('test Class');
+    expect(container.querySelector<HTMLDivElement>('.g-flex')?.textContent).toBe('test Class');
     expect(testClsRef.current).toBeTruthy();
   });
 
   it('when vertical=true should stretch work', () => {
     const { container, rerender } = render(<Flex vertical>test</Flex>);
-    expect(container.querySelector<HTMLDivElement>('.ant-flex')).toHaveClass(
-      'ant-flex-align-stretch',
-    );
+    expect(container.querySelector<HTMLDivElement>('.g-flex')).toHaveClass('g-flex-align-stretch');
     rerender(
       <Flex vertical align="center">
         test
       </Flex>,
     );
-    expect(container.querySelector<HTMLDivElement>('.ant-flex')).toHaveClass(
-      'ant-flex-align-center',
-    );
+    expect(container.querySelector<HTMLDivElement>('.g-flex')).toHaveClass('g-flex-align-center');
   });
 
   it('wrap prop shouled support boolean', () => {
     const { container, rerender } = render(<Flex>test</Flex>);
-    const element = container.querySelector<HTMLDivElement>('.ant-flex');
+    const element = container.querySelector<HTMLDivElement>('.g-flex');
 
     ([true, 'wrap'] as const).forEach((value) => {
       rerender(<Flex wrap={value}>test</Flex>);
-      expect(element).toHaveClass('ant-flex-wrap-wrap');
+      expect(element).toHaveClass('g-flex-wrap-wrap');
     });
 
     ([false, 'nowrap'] as const).forEach((value) => {
       rerender(<Flex wrap={value}>test</Flex>);
-      expect(element).not.toHaveClass('ant-flex-wrap-wrap');
+      expect(element).not.toHaveClass('g-flex-wrap-wrap');
     });
   });
 
@@ -114,12 +110,12 @@ describe('Flex', () => {
           test
         </Flex>,
       );
-      expect(container.querySelector<HTMLDivElement>('.ant-flex-vertical')).toBeNull();
+      expect(container.querySelector<HTMLDivElement>('.g-flex-vertical')).toBeNull();
     });
 
     it('orientation=vertical, result orientation=vertical', () => {
       const { container } = render(<Flex orientation="vertical">test</Flex>);
-      expect(container.querySelector<HTMLDivElement>('.ant-flex-vertical')).not.toBeNull();
+      expect(container.querySelector<HTMLDivElement>('.g-flex-vertical')).not.toBeNull();
     });
   });
 });

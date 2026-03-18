@@ -21,7 +21,7 @@ describe('Badge.Semantic', () => {
       </Badge>,
     );
 
-    const element = container.querySelector<HTMLSpanElement>('.ant-badge');
+    const element = container.querySelector<HTMLSpanElement>('.g-badge');
 
     // classNames
     expect(element).toHaveClass('test-root');
@@ -52,7 +52,7 @@ describe('Badge.Semantic', () => {
       </Badge>,
     );
 
-    const element = container.querySelector<HTMLSpanElement>('.ant-badge');
+    const element = container.querySelector<HTMLSpanElement>('.g-badge');
 
     // function-based classNames
     expect(element).toHaveClass('badge-small');

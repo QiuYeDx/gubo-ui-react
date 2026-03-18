@@ -2,7 +2,7 @@
 
 exports[`Flex rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-flex css-var-root ant-flex-rtl"
+  class="g-flex css-var-root g-flex-rtl"
 >
   <div>
     test1

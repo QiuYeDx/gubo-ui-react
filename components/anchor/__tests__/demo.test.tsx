@@ -21,6 +21,6 @@ rootPropsTest(
     />
   ),
   {
-    findRootElements: () => document.querySelector('.ant-anchor-wrapper')!,
+    findRootElements: () => document.querySelector('.g-anchor-wrapper')!,
   },
 );

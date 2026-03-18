@@ -189,14 +189,14 @@ describe('notification semantic styles and classNames', () => {
 
     fireEvent.click(container.querySelector('button')!);
 
-    const noticeEl = document.querySelector('.ant-notification-notice');
+    const noticeEl = document.querySelector('.g-notification-notice');
     expect(noticeEl).toBeTruthy();
     expect(noticeEl).toHaveClass('config-root-class');
     expect(noticeEl).toHaveStyle({
       backgroundColor: 'rgb(128 0 128)',
     });
 
-    const titleEl = noticeEl?.querySelector('.ant-notification-notice-title');
+    const titleEl = noticeEl?.querySelector('.g-notification-notice-title');
     expect(titleEl).toBeTruthy();
     expect(titleEl).toHaveClass('config-title-class');
     expect(titleEl).toHaveStyle({
@@ -249,7 +249,7 @@ describe('notification semantic styles and classNames', () => {
 
     fireEvent.click(container.querySelector('button')!);
 
-    const notificationEl = document.querySelector('.ant-notification-notice');
+    const notificationEl = document.querySelector('.g-notification-notice');
 
     // Verify classNames merge: config + component
     expect(notificationEl).toHaveClass('config-level');
@@ -261,7 +261,7 @@ describe('notification semantic styles and classNames', () => {
       color: 'rgb(0, 0, 255)', // component level
     });
 
-    const titleEl = document.querySelector('.ant-notification-notice-title');
+    const titleEl = document.querySelector('.g-notification-notice-title');
     expect(titleEl).toHaveClass('config-title');
     expect(titleEl).toHaveClass('component-title');
     expect(titleEl).toHaveStyle({
@@ -299,9 +299,9 @@ describe('notification semantic styles and classNames', () => {
     fireEvent.click(container.querySelector('button')!);
 
     // Should render without errors and apply default styles
-    const notificationEl = document.querySelector('.ant-notification-notice');
+    const notificationEl = document.querySelector('.g-notification-notice');
     expect(notificationEl).toBeTruthy();
-    expect(notificationEl).toHaveClass('ant-notification-notice');
+    expect(notificationEl).toHaveClass('g-notification-notice');
   });
 
   it('should merge multiple style sources correctly', () => {
@@ -352,9 +352,9 @@ describe('notification semantic styles and classNames', () => {
 
     fireEvent.click(container.querySelector('button')!);
 
-    const notificationEl = document.querySelector('.ant-notification-notice');
-    const titleEl = document.querySelector('.ant-notification-notice-title');
-    const descriptionEl = document.querySelector('.ant-notification-notice-description');
+    const notificationEl = document.querySelector('.g-notification-notice');
+    const titleEl = document.querySelector('.g-notification-notice-title');
+    const descriptionEl = document.querySelector('.g-notification-notice-description');
 
     // Root should have merged styles
     expect(notificationEl).toHaveClass('config-root');

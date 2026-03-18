@@ -15,17 +15,17 @@ You can customize the toolbar and add a button for downloading the original imag
   border-radius: 100px;
 }
 
-.toolbar-wrapper .anticon {
+.toolbar-wrapper .gicon {
   padding: 12px;
   cursor: pointer;
 }
 
-.toolbar-wrapper .anticon[disabled] {
+.toolbar-wrapper .gicon[disabled] {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.toolbar-wrapper .anticon:hover {
+.toolbar-wrapper .gicon:hover {
   opacity: 0.3;
 }
 ```

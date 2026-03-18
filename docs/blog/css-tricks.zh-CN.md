@@ -18,22 +18,22 @@ Ant Design v6 的开发过程中，由于不需要再考虑 IE 的兼容问题�
 
 ```css
 /* Sample code. Not used in real world. */
-.ant-btn-solid.ant-btn-red {
+.g-btn-solid.g-btn-red {
   color: #fff;
   background: red;
 }
 
-.ant-btn-solid.ant-btn-blue {
+.g-btn-solid.g-btn-blue {
   color: #fff;
   background: blue;
 }
 
-.ant-btn-outlined.ant-btn-red {
+.g-btn-outlined.g-btn-red {
   color: #fff;
   border: 1px solid red;
 }
 
-.ant-btn-outlined.ant-btn-blue {
+.g-btn-outlined.g-btn-blue {
   color: #fff;
   border: 1px solid blue;
 }
@@ -46,7 +46,7 @@ Ant Design v6 的开发过程中，由于不需要再考虑 IE 的兼容问题�
 ```css
 /* Sample code. Not used in real world. */
 /* Template Part */
-.ant-btn {
+.g-btn {
   color: var(--ant-btn-color);
   background: var(--ant-btn-background);
   border-color: var(--ant-btn-border-color);
@@ -54,22 +54,22 @@ Ant Design v6 的开发过程中，由于不需要再考虑 IE 的兼容问题�
   border-style: solid;
 }
 
-.ant-btn-solid {
+.g-btn-solid {
   --ant-btn-color: #fff;
   --ant-btn-background: var(--ant-color-solid);
 }
 
-.ant-btn-outlined {
+.g-btn-outlined {
   --ant-btn-color: var(--ant-color-solid);
   --ant-btn-border-color: var(--ant-color-solid);
 }
 
 /* CSS Variables. The more color you have, the more size to save. */
-.ant-btn-red {
+.g-btn-red {
   --ant-color-solid: red;
 }
 
-.ant-btn-blue {
+.g-btn-blue {
   --ant-color-solid: blue;
 }
 
@@ -81,29 +81,29 @@ Ant Design v6 的开发过程中，由于不需要再考虑 IE 的兼容问题�
 在 CSS 变量下，用户侧的样式覆盖也变得更简单了。过去开发者覆盖一个样式需要对各个状态进行覆盖，同时还需要考虑优先级覆盖的情况：
 
 ```css
-.ant-btn-solid.my-btn:not(:disabled) {
+.g-btn-solid.my-btn:not(:disabled) {
   background: #f00;
 }
 
-.ant-btn-solid.my-btn:not(:disabled):hover {
+.g-btn-solid.my-btn:not(:disabled):hover {
   background: #e00;
 }
 
-.ant-btn-solid.my-btn:not(:disabled):active {
+.g-btn-solid.my-btn:not(:disabled):active {
   background: #d00;
 }
 
-.ant-btn-outlined.my-btn:not(:disabled) {
+.g-btn-outlined.my-btn:not(:disabled) {
   color: #f00;
   border-color: #f00;
 }
 
-.ant-btn-outlined.my-btn:not(:disabled):hover {
+.g-btn-outlined.my-btn:not(:disabled):hover {
   color: #e00;
   border-color: #e00;
 }
 
-.ant-btn-outlined.my-btn:not(:disabled):active {
+.g-btn-outlined.my-btn:not(:disabled):active {
   color: #d00;
   border-color: #d00;
 }
@@ -112,7 +112,7 @@ Ant Design v6 的开发过程中，由于不需要再考虑 IE 的兼容问题�
 而覆盖 CSS 变量则简单很多：
 
 ```css
-.ant-btn-outlined.my-btn {
+.g-btn-outlined.my-btn {
   --ant-color-solid: #f00;
   --ant-color-solid-hover: #e00;
   --ant-color-solid-active: #d00;
@@ -171,14 +171,14 @@ const Sample = () => {
 ```css
 /* Theme 1 */
 :where(.css-BamBoo) {
-  .ant-btn {
+  .g-btn {
     color: red;
   }
 }
 
 /* Theme 2 */
 :where(.css-LIghT) {
-  .ant-btn {
+  .g-btn {
     color: blue;
   }
 }

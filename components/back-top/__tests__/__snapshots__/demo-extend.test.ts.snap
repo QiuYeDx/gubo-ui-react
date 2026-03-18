@@ -3,17 +3,17 @@
 exports[`renders components/back-top/demo/basic.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="css-var-test-id ant-back-top"
+    class="css-var-test-id g-back-top"
   >
     <div
-      class="ant-fade-appear ant-fade-appear-start ant-fade ant-back-top-content"
+      class="g-fade-appear g-fade-appear-start g-fade g-back-top-content"
     >
       <div
-        class="ant-back-top-icon"
+        class="g-back-top-icon"
       >
         <span
           aria-label="vertical-align-top"
-          class="anticon anticon-vertical-align-top"
+          class="gicon gicon-vertical-align-top"
           role="img"
         >
           <svg

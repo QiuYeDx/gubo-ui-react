@@ -130,14 +130,12 @@ describe('Typography.Ellipsis', () => {
       </Base>,
     );
 
+    expect(wrapper.querySelectorAll('.g-typography-ellipsis-multiple-line').length).toBeGreaterThan(
+      0,
+    );
     expect(
-      wrapper.querySelectorAll('.ant-typography-ellipsis-multiple-line').length,
-    ).toBeGreaterThan(0);
-    expect(
-      (
-        wrapper.querySelector<HTMLDivElement>('.ant-typography-ellipsis-multiple-line')
-          ?.style as any
-      )?.WebkitLineClamp,
+      (wrapper.querySelector<HTMLDivElement>('.g-typography-ellipsis-multiple-line')?.style as any)
+        ?.WebkitLineClamp,
     ).toEqual('2');
   });
 
@@ -256,7 +254,7 @@ describe('Typography.Ellipsis', () => {
     triggerResize(ref.current!);
     await waitFakeTimer();
 
-    fireEvent.click(container.querySelector('.ant-typography-expand')!);
+    fireEvent.click(container.querySelector('.g-typography-expand')!);
     expect(onExpand).toHaveBeenCalled();
     expect(container.querySelector('p')?.textContent).toEqual(fullStr);
   });
@@ -282,10 +280,10 @@ describe('Typography.Ellipsis', () => {
 
     expect(wrapper.querySelector('p')?.textContent).toEqual(`Bamboo is L...OpenIt`);
 
-    fireEvent.click(wrapper.querySelector('.ant-typography-expand')!);
+    fireEvent.click(wrapper.querySelector('.g-typography-expand')!);
     expect(wrapper.querySelector('p')?.textContent).toEqual(`${fullStr}CloseIt`);
 
-    fireEvent.click(wrapper.querySelector('.ant-typography-collapse')!);
+    fireEvent.click(wrapper.querySelector('.g-typography-collapse')!);
     expect(wrapper.querySelector('p')?.textContent).toEqual(`Bamboo is L...OpenIt`);
   });
 
@@ -301,13 +299,13 @@ describe('Typography.Ellipsis', () => {
     triggerResize(ref.current!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-typography-expand')?.textContent).toEqual('more');
+    expect(container.querySelector('.g-typography-expand')?.textContent).toEqual('more');
   });
 
   describe('native css ellipsis', () => {
     it('can use css ellipsis', () => {
       const { container } = render(<Base ellipsis component="p" />);
-      expect(container.querySelector('.ant-typography-ellipsis-single-line')).toBeTruthy();
+      expect(container.querySelector('.g-typography-ellipsis-single-line')).toBeTruthy();
     });
 
     // https://github.com/ant-design/ant-design/issues/36786
@@ -339,7 +337,7 @@ describe('Typography.Ellipsis', () => {
 
       // Trigger visible should trigger recheck
       let getOffsetParent = false;
-      Object.defineProperty(container.querySelector('.ant-typography'), 'offsetParent', {
+      Object.defineProperty(container.querySelector('.g-typography'), 'offsetParent', {
         get: () => {
           getOffsetParent = true;
           return document.body;
@@ -361,7 +359,7 @@ describe('Typography.Ellipsis', () => {
       const { container } = render(
         <Base ellipsis component="p" style={{ paddingTop: '12px', paddingBottom: '12px' }} />,
       );
-      expect(container.querySelector('.ant-typography-ellipsis-single-line')).toBeTruthy();
+      expect(container.querySelector('.g-typography-ellipsis-single-line')).toBeTruthy();
     });
   });
 
@@ -384,7 +382,7 @@ describe('Typography.Ellipsis', () => {
         getBoundingClientRect() {
           if (
             (this as unknown as HTMLElement).classList.contains(
-              'ant-typography-css-ellipsis-content-measure',
+              'g-typography-css-ellipsis-content-measure',
             )
           ) {
             return {
@@ -432,7 +430,7 @@ describe('Typography.Ellipsis', () => {
       const { container, baseElement } = await getWrapper(true);
       fireEvent.mouseEnter(container.firstChild!);
       await waitFor(() => {
-        expect(baseElement.querySelector('.ant-tooltip-open')).not.toBeNull();
+        expect(baseElement.querySelector('.g-tooltip-open')).not.toBeNull();
       });
     });
 
@@ -440,7 +438,7 @@ describe('Typography.Ellipsis', () => {
       const { container, baseElement } = await getWrapper('Bamboo is Light');
       fireEvent.mouseEnter(container.firstChild!);
       await waitFor(() => {
-        expect(baseElement.querySelector('.ant-tooltip-open')).not.toBeNull();
+        expect(baseElement.querySelector('.g-tooltip-open')).not.toBeNull();
       });
     });
     it('tooltip props', async () => {
@@ -449,7 +447,7 @@ describe('Typography.Ellipsis', () => {
       });
       fireEvent.mouseEnter(container.firstChild!);
       await waitFor(() => {
-        expect(baseElement.querySelector('.ant-tooltip-open')).not.toBeNull();
+        expect(baseElement.querySelector('.g-tooltip-open')).not.toBeNull();
       });
     });
     it('tooltip title true', async () => {
@@ -458,7 +456,7 @@ describe('Typography.Ellipsis', () => {
       });
       fireEvent.mouseEnter(container.firstChild!);
       await waitFor(() => {
-        expect(baseElement.querySelector('.ant-tooltip-open')).not.toBeNull();
+        expect(baseElement.querySelector('.g-tooltip-open')).not.toBeNull();
       });
     });
     it('tooltip element', async () => {
@@ -468,7 +466,7 @@ describe('Typography.Ellipsis', () => {
       fireEvent.mouseEnter(container.firstChild!);
       await waitFor(() => {
         expect(container.querySelector('.tooltip-class-name')).toBeTruthy();
-        expect(baseElement.querySelector('.ant-tooltip-open')).not.toBeNull();
+        expect(baseElement.querySelector('.g-tooltip-open')).not.toBeNull();
       });
     });
 
@@ -485,7 +483,7 @@ describe('Typography.Ellipsis', () => {
 
         await waitFakeTimer();
 
-        expect(baseElement.querySelector('.ant-tooltip-open')).not.toBeNull();
+        expect(baseElement.querySelector('.g-tooltip-open')).not.toBeNull();
       });
 
       // https://github.com/ant-design/ant-design/issues/50414
@@ -500,7 +498,7 @@ describe('Typography.Ellipsis', () => {
 
         await waitFakeTimer();
 
-        expect(baseElement.querySelector('.ant-tooltip-open')).toBeFalsy();
+        expect(baseElement.querySelector('.g-tooltip-open')).toBeFalsy();
       });
     });
   });
@@ -509,14 +507,14 @@ describe('Typography.Ellipsis', () => {
     const { container: titleWrapper } = render(
       <Base component={undefined} title="bamboo" ellipsis={{ expandable: true }} />,
     );
-    expect(titleWrapper.querySelector('.ant-typography')?.getAttribute('aria-label')).toEqual(
+    expect(titleWrapper.querySelector('.g-typography')?.getAttribute('aria-label')).toEqual(
       'bamboo',
     );
 
     const { container: tooltipWrapper } = render(
       <Base component={undefined} ellipsis={{ expandable: true, tooltip: 'little' }} />,
     );
-    expect(tooltipWrapper.querySelector('.ant-typography')?.getAttribute('aria-label')).toEqual(
+    expect(tooltipWrapper.querySelector('.g-typography')?.getAttribute('aria-label')).toEqual(
       'little',
     );
   });
@@ -526,7 +524,7 @@ describe('Typography.Ellipsis', () => {
       getBoundingClientRect() {
         if (
           (this as unknown as HTMLElement).classList.contains(
-            'ant-typography-css-ellipsis-content-measure',
+            'g-typography-css-ellipsis-content-measure',
           )
         ) {
           return {
@@ -557,7 +555,7 @@ describe('Typography.Ellipsis', () => {
 
     fireEvent.mouseEnter(container.firstChild!);
     await waitFor(() => {
-      expect(baseElement.querySelector('.ant-tooltip-open')).not.toBeNull();
+      expect(baseElement.querySelector('.g-tooltip-open')).not.toBeNull();
     });
     mockRectSpy.mockRestore();
   });
@@ -570,7 +568,7 @@ describe('Typography.Ellipsis', () => {
       getBoundingClientRect() {
         if (
           (this as unknown as HTMLElement).classList.contains(
-            'ant-typography-css-ellipsis-content-measure',
+            'g-typography-css-ellipsis-content-measure',
           )
         ) {
           return {
@@ -605,7 +603,7 @@ describe('Typography.Ellipsis', () => {
 
     fireEvent.mouseEnter(ref.current!);
     await waitFakeTimer();
-    expect(document.querySelector('.ant-tooltip')).toBeTruthy();
+    expect(document.querySelector('.g-tooltip')).toBeTruthy();
 
     mockRectSpy.mockRestore();
   });
@@ -624,10 +622,10 @@ describe('Typography.Ellipsis', () => {
     triggerResize(ref.current!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-typography-expand')).toBeTruthy();
+    expect(container.querySelector('.g-typography-expand')).toBeTruthy();
 
     rerender(renderDemo(true));
-    expect(container.querySelector('.ant-typography-collapse')).toBeTruthy();
+    expect(container.querySelector('.g-typography-collapse')).toBeTruthy();
   });
 
   it('no dead loop', () => {
@@ -672,7 +670,7 @@ describe('Typography.Ellipsis', () => {
 
     triggerResize(ref.current!);
     await waitFakeTimer();
-    const expandButton = container.querySelector('.ant-typography-expand');
+    const expandButton = container.querySelector('.g-typography-expand');
     expect(expandButton).toHaveTextContent('Expand');
     const button = container.querySelector('button')!;
 
@@ -681,7 +679,7 @@ describe('Typography.Ellipsis', () => {
     triggerResize(ref.current!);
     await waitFakeTimer();
 
-    const expandButtonCN = container.querySelector('.ant-typography-expand');
+    const expandButtonCN = container.querySelector('.g-typography-expand');
     expect(expandButtonCN).toHaveTextContent('展开');
     expect(expandButtonCN).toBeInTheDocument();
   });
@@ -700,7 +698,7 @@ describe('Typography.Ellipsis', () => {
     triggerResize(ref.current!);
     await waitFakeTimer();
 
-    const copyBtn = container.querySelector('.ant-typography-copy');
+    const copyBtn = container.querySelector('.g-typography-copy');
     const operationsWrapper = copyBtn?.parentElement;
     expect(operationsWrapper).toBeTruthy();
 
@@ -719,7 +717,7 @@ describe('Typography.Ellipsis', () => {
     await waitFakeTimer();
     await waitFor(() => {
       const ellipsisTooltip = baseElement.querySelector('[role="tooltip"]');
-      expect(ellipsisTooltip?.closest('.ant-tooltip')).toHaveClass('ant-tooltip-hidden');
+      expect(ellipsisTooltip?.closest('.g-tooltip')).toHaveClass('g-tooltip-hidden');
     });
 
     fireEvent.mouseLeave(operationsWrapper!);

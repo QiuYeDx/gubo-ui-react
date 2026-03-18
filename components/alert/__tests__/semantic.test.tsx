@@ -29,7 +29,7 @@ describe('Alert.Semantic', () => {
     expect(classNamesFn).toHaveBeenCalled();
     expect(stylesFn).toHaveBeenCalled();
 
-    const rootElement = document.querySelector<HTMLElement>('.ant-alert');
+    const rootElement = document.querySelector<HTMLElement>('.g-alert');
     expect(rootElement).toHaveClass('error-alert');
     expect(rootElement).toHaveStyle({ backgroundColor: 'rgb(255, 247, 230)' });
 
@@ -37,7 +37,7 @@ describe('Alert.Semantic', () => {
       <Alert title="Test Alert" type="success" classNames={classNamesFn} styles={stylesFn} />,
     );
 
-    const updatedRootElement = document.querySelector<HTMLElement>('.ant-alert');
+    const updatedRootElement = document.querySelector<HTMLElement>('.g-alert');
     expect(updatedRootElement).toHaveClass('default-alert');
     expect(updatedRootElement).toHaveStyle({ backgroundColor: 'rgb(246, 255, 237)' });
   });
@@ -71,9 +71,9 @@ describe('Alert.Semantic', () => {
       </ConfigProvider>,
     );
 
-    const rootElement = document.querySelector<HTMLElement>('.ant-alert');
-    const iconElement = document.querySelector<HTMLElement>('.ant-alert-icon');
-    const titleElement = document.querySelector<HTMLElement>('.ant-alert-title');
+    const rootElement = document.querySelector<HTMLElement>('.g-alert');
+    const iconElement = document.querySelector<HTMLElement>('.g-alert-icon');
+    const titleElement = document.querySelector<HTMLElement>('.g-alert-title');
 
     // Check merged classNames
     expect(rootElement).toHaveClass(clsx(contextClassNames.root, componentClassNames.root));

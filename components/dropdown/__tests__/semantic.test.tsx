@@ -59,11 +59,11 @@ describe('Dropdown.Semantic', () => {
         <button type="button">button</button>
       </Dropdown>,
     );
-    const root = container.querySelector('.ant-dropdown');
-    const item = container.querySelector('.ant-dropdown-menu-item');
-    const itemIcon = container.querySelector('.ant-dropdown-menu-item-icon');
-    const itemContent = container.querySelector('.ant-dropdown-menu-title-content');
-    const itemTitle = container.querySelector('.ant-dropdown-menu-item-group-title');
+    const root = container.querySelector('.g-dropdown');
+    const item = container.querySelector('.g-dropdown-menu-item');
+    const itemIcon = container.querySelector('.g-dropdown-menu-item-icon');
+    const itemContent = container.querySelector('.g-dropdown-menu-title-content');
+    const itemTitle = container.querySelector('.g-dropdown-menu-item-group-title');
 
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);

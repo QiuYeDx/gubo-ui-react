@@ -5,7 +5,7 @@ exports[`Modal Both ways should be rendered normally on the page 1`] = `
   class="first-origin"
 >
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -13,7 +13,7 @@ exports[`Modal Both ways should be rendered normally on the page 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -28,7 +28,7 @@ exports[`Modal Both ways should be rendered normally on the page 2`] = `
   class="second-props-origin"
 >
   <button
-    class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -36,7 +36,7 @@ exports[`Modal Both ways should be rendered normally on the page 2`] = `
     </span>
   </button>
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
     type="button"
   >
     <span>
@@ -50,36 +50,36 @@ exports[`Modal render correctly 1`] = `
 <div>
   <div>
     <div
-      class="ant-modal-root css-var-root ant-modal-css-var"
+      class="g-modal-root css-var-root g-modal-css-var"
     >
       <div
-        class="ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade"
+        class="g-modal-mask g-fade-appear g-fade-appear-start g-fade"
       />
       <div
-        class="ant-modal-wrap"
+        class="g-modal-wrap"
       >
         <div
           aria-modal="true"
-          class="ant-modal ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+          class="g-modal g-zoom-appear g-zoom-appear-prepare g-zoom"
           role="dialog"
           style="width: 520px;"
           tabindex="-1"
         >
           <div
-            class="ant-modal-container"
+            class="g-modal-container"
           >
             <button
               aria-label="Close"
-              class="ant-modal-close"
+              class="g-modal-close"
               type="button"
             >
               <span
                 aria-label="Close"
-                class="ant-modal-close-x"
+                class="g-modal-close-x"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close ant-modal-close-icon"
+                  class="gicon gicon-close g-modal-close-icon"
                   role="img"
                 >
                   <svg
@@ -100,15 +100,15 @@ exports[`Modal render correctly 1`] = `
               </span>
             </button>
             <div
-              class="ant-modal-body"
+              class="g-modal-body"
             >
               Here is content of Modal
             </div>
             <div
-              class="ant-modal-footer"
+              class="g-modal-footer"
             >
               <button
-                class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
                 type="button"
               >
                 <span>
@@ -116,7 +116,7 @@ exports[`Modal render correctly 1`] = `
                 </span>
               </button>
               <button
-                class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+                class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid"
                 type="button"
               >
                 <span>
@@ -136,36 +136,36 @@ exports[`Modal render without footer 1`] = `
 <div>
   <div>
     <div
-      class="ant-modal-root css-var-root ant-modal-css-var"
+      class="g-modal-root css-var-root g-modal-css-var"
     >
       <div
-        class="ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade"
+        class="g-modal-mask g-fade-appear g-fade-appear-start g-fade"
       />
       <div
-        class="ant-modal-wrap"
+        class="g-modal-wrap"
       >
         <div
           aria-modal="true"
-          class="ant-modal ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+          class="g-modal g-zoom-appear g-zoom-appear-prepare g-zoom"
           role="dialog"
           style="width: 520px;"
           tabindex="-1"
         >
           <div
-            class="ant-modal-container"
+            class="g-modal-container"
           >
             <button
               aria-label="Close"
-              class="ant-modal-close"
+              class="g-modal-close"
               type="button"
             >
               <span
                 aria-label="Close"
-                class="ant-modal-close-x"
+                class="g-modal-close-x"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close ant-modal-close-icon"
+                  class="gicon gicon-close g-modal-close-icon"
                   role="img"
                 >
                   <svg
@@ -186,7 +186,7 @@ exports[`Modal render without footer 1`] = `
               </span>
             </button>
             <div
-              class="ant-modal-body"
+              class="g-modal-body"
             >
               Here is content of Modal
             </div>
@@ -202,32 +202,32 @@ exports[`Modal rtl render component should be rendered correctly in RTL directio
 
 exports[`Modal support closeIcon 1`] = `
 <div
-  class="ant-modal-root css-var-root ant-modal-css-var"
+  class="g-modal-root css-var-root g-modal-css-var"
 >
   <div
-    class="ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade"
+    class="g-modal-mask g-fade-appear g-fade-appear-start g-fade"
   />
   <div
-    class="ant-modal-wrap"
+    class="g-modal-wrap"
   >
     <div
       aria-modal="true"
-      class="ant-modal ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+      class="g-modal g-zoom-appear g-zoom-appear-prepare g-zoom"
       role="dialog"
       style="width: 520px;"
       tabindex="-1"
     >
       <div
-        class="ant-modal-container"
+        class="g-modal-container"
       >
         <button
           aria-label="Close"
-          class="ant-modal-close"
+          class="g-modal-close"
           type="button"
         >
           <span
             aria-label="Close"
-            class="ant-modal-close-x"
+            class="g-modal-close-x"
           >
             <a>
               closeIcon
@@ -235,13 +235,13 @@ exports[`Modal support closeIcon 1`] = `
           </span>
         </button>
         <div
-          class="ant-modal-body"
+          class="g-modal-body"
         />
         <div
-          class="ant-modal-footer"
+          class="g-modal-footer"
         >
           <button
-            class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+            class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
             type="button"
           >
             <span>
@@ -249,7 +249,7 @@ exports[`Modal support closeIcon 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+            class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid"
             type="button"
           >
             <span>

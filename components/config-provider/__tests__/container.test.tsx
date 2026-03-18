@@ -25,7 +25,7 @@ describe('ConfigProvider.GetPopupContainer', () => {
         <Slider />
       </ConfigProvider>,
     );
-    fireEvent.mouseEnter(wrapper.container.querySelector('.ant-slider-handle')!);
+    fireEvent.mouseEnter(wrapper.container.querySelector('.g-slider-handle')!);
     expect(getPopupContainer).toHaveBeenCalled();
   });
 

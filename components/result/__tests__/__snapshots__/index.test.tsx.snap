@@ -2,14 +2,14 @@
 
 exports[`Result rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-result ant-result-info ant-result-rtl css-var-root"
+  class="g-result g-result-info g-result-rtl css-var-root"
 >
   <div
-    class="ant-result-icon"
+    class="g-result-icon"
   >
     <span
       aria-label="exclamation-circle"
-      class="anticon anticon-exclamation-circle"
+      class="gicon gicon-exclamation-circle"
       role="img"
     >
       <svg
@@ -28,7 +28,7 @@ exports[`Result rtl render component should be rendered correctly in RTL directi
     </span>
   </div>
   <div
-    class="ant-result-title"
+    class="g-result-title"
   />
 </div>
 `;

@@ -3,13 +3,13 @@
 exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is false 1`] = `
 <div>
   <div
-    class="ant-select ant-select-outlined css-var-root ant-select-css-var ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-select-outlined css-var-root g-select-css-var g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -20,7 +20,7 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -29,11 +29,11 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -53,13 +53,13 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-root ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-tree-select g-select-outlined css-var-root g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -69,7 +69,7 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -78,11 +78,11 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -102,13 +102,13 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
     </div>
   </div>
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-root ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-root g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -118,7 +118,7 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -127,11 +127,11 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -156,13 +156,13 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
 exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
 <div>
   <div
-    class="ant-select ant-select-outlined css-var-root ant-select-css-var ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-select-outlined css-var-root g-select-css-var g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -173,7 +173,7 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -182,11 +182,11 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -206,13 +206,13 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-root ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-tree-select g-select-outlined css-var-root g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -222,7 +222,7 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -231,11 +231,11 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -255,13 +255,13 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-root ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-root g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -271,7 +271,7 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -280,11 +280,11 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -309,13 +309,13 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
 exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 1`] = `
 <div>
   <div
-    class="ant-select ant-select-outlined css-var-root ant-select-css-var ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-select-outlined css-var-root g-select-css-var g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -326,7 +326,7 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -335,11 +335,11 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -359,13 +359,13 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
     </div>
   </div>
   <div
-    class="ant-select ant-tree-select ant-select-outlined css-var-root ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-tree-select g-select-outlined css-var-root g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -375,7 +375,7 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -384,11 +384,11 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -408,13 +408,13 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
     </div>
   </div>
   <div
-    class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-root ant-select-single ant-select-show-arrow ant-select-open"
+    class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-root g-select-single g-select-show-arrow g-select-open"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility: visible;"
       />
       <input
@@ -424,7 +424,7 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
         aria-haspopup="listbox"
         aria-owns="test-id_list"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -433,11 +433,11 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg

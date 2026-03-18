@@ -14,10 +14,10 @@ const App: React.FC = () => {
       return info.originNode;
     }
     if (typeof current === 'number' || typeof current === 'string') {
-      return <div className="ant-picker-cell-inner">{current}</div>;
+      return <div className="g-picker-cell-inner">{current}</div>;
     }
     return (
-      <div className="ant-picker-cell-inner" style={current.date() === 1 ? style : {}}>
+      <div className="g-picker-cell-inner" style={current.date() === 1 ? style : {}}>
         {current.date()}
       </div>
     );

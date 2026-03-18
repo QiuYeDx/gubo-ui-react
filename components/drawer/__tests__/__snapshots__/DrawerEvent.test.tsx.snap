@@ -2,35 +2,35 @@
 
 exports[`Drawer render correctly 1`] = `
 <div
-  class="ant-drawer ant-drawer-right css-var-root ant-drawer-inline"
+  class="g-drawer g-drawer-right css-var-root g-drawer-inline"
   tabindex="-1"
 >
   <div
-    class="ant-drawer-mask ant-drawer-mask-motion-leave ant-drawer-mask-motion-leave-start ant-drawer-mask-motion"
+    class="g-drawer-mask g-drawer-mask-motion-leave g-drawer-mask-motion-leave-start g-drawer-mask-motion"
   />
   <div
-    class="ant-drawer-content-wrapper ant-drawer-panel-motion-right-leave ant-drawer-panel-motion-right-leave-start ant-drawer-panel-motion-right"
+    class="g-drawer-content-wrapper g-drawer-panel-motion-right-leave g-drawer-panel-motion-right-leave-start g-drawer-panel-motion-right"
     style="width: 378px;"
   >
     <div
       aria-modal="true"
-      class="ant-drawer-section"
+      class="g-drawer-section"
       role="dialog"
     >
       <div
-        class="ant-drawer-header ant-drawer-header-close-only"
+        class="g-drawer-header g-drawer-header-close-only"
       >
         <div
-          class="ant-drawer-header-title"
+          class="g-drawer-header-title"
         >
           <button
             aria-label="Close"
-            class="ant-drawer-close"
+            class="g-drawer-close"
             type="button"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -52,7 +52,7 @@ exports[`Drawer render correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-drawer-body"
+        class="g-drawer-body"
       >
         Here is content of Drawer
       </div>

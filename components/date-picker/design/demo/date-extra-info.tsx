@@ -12,7 +12,7 @@ const { _InternalPanelDoNotUseOrYouWillBeFired: PureDatePicker } = DatePicker;
 const useStyle = createStyles(({ token }) => ({
   weekendCell: css`
     color: #ff4d4f40;
-    .ant-picker-cell-in-view & {
+    .g-picker-cell-in-view & {
       color: #ff4d4f;
     }
   `,
@@ -21,9 +21,9 @@ const useStyle = createStyles(({ token }) => ({
     height: 40px !important;
   `,
   detailedPicker: css`
-    .ant-picker-date-panel {
+    .g-picker-date-panel {
       width: auto;
-      .ant-picker-content {
+      .g-picker-content {
         width: auto;
       }
     }
@@ -33,28 +33,28 @@ const useStyle = createStyles(({ token }) => ({
     line-height: 12px;
     transform: scale(${10 / 12});
     color: ${token.colorTextQuaternary};
-    .ant-picker-cell-in-view & {
+    .g-picker-cell-in-view & {
       color: ${token.colorTextSecondary};
     }
-    .ant-picker-cell-selected & {
+    .g-picker-cell-selected & {
       color: #fff;
     }
   `,
   add: css`
     color: #ff4d4f80;
-    .ant-picker-cell-in-view & {
+    .g-picker-cell-in-view & {
       color: #ff4d4f;
     }
-    .ant-picker-cell-selected & {
+    .g-picker-cell-selected & {
       color: #fff;
     }
   `,
   minus: css`
     color: #52c41a80;
-    .ant-picker-cell-in-view & {
+    .g-picker-cell-in-view & {
       color: #52c41a;
     }
-    .ant-picker-cell-selected & {
+    .g-picker-cell-selected & {
       color: #fff;
     }
   `,
@@ -84,7 +84,7 @@ const Demo: FC = () => {
   const [locale] = useLocale(locales);
   const dateRender = (current: Dayjs) => (
     <div
-      className={clsx('ant-picker-cell-inner', {
+      className={clsx('g-picker-cell-inner', {
         [styles.weekendCell]: [6, 0].includes(current.day()),
       })}
     >
@@ -93,7 +93,7 @@ const Demo: FC = () => {
   );
 
   const saleDateRender = (current: Dayjs) => (
-    <div className={clsx('ant-picker-cell-inner', styles.detailedCell)}>
+    <div className={clsx('g-picker-cell-inner', styles.detailedCell)}>
       {current.date()}
       <div className={styles.extraInfo}>{getSales(current)}</div>
     </div>
@@ -102,7 +102,7 @@ const Demo: FC = () => {
   const dataDateRender = (current: Dayjs) => {
     const data = getData(current);
     return (
-      <div className={clsx('ant-picker-cell-inner', styles.detailedCell)}>
+      <div className={clsx('g-picker-cell-inner', styles.detailedCell)}>
         {current.date()}
         <div className={clsx(styles.extraInfo, data > 0 ? styles.add : styles.minus)}>
           {data.toFixed(2)}%

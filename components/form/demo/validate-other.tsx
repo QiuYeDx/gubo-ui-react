@@ -48,7 +48,7 @@ const App: React.FC = () => (
     style={{ maxWidth: 600 }}
   >
     <Form.Item label="Plain Text">
-      <span className="ant-form-text">China</span>
+      <span className="g-form-text">China</span>
     </Form.Item>
     <Form.Item
       name="select"
@@ -85,7 +85,7 @@ const App: React.FC = () => (
       <Form.Item name="input-number" noStyle>
         <InputNumber min={1} max={10} />
       </Form.Item>
-      <span className="ant-form-text" style={{ marginInlineStart: 8 }}>
+      <span className="g-form-text" style={{ marginInlineStart: 8 }}>
         machines
       </span>
     </Form.Item>
@@ -182,11 +182,11 @@ const App: React.FC = () => (
     <Form.Item label="Dragger">
       <Form.Item name="dragger" valuePropName="fileList" getValueFromEvent={normFile} noStyle>
         <Upload.Dragger name="files" action="/upload.do">
-          <p className="ant-upload-drag-icon">
+          <p className="g-upload-drag-icon">
             <InboxOutlined />
           </p>
-          <p className="ant-upload-text">Click or drag file to this area to upload</p>
-          <p className="ant-upload-hint">Support for a single or bulk upload.</p>
+          <p className="g-upload-text">Click or drag file to this area to upload</p>
+          <p className="g-upload-hint">Support for a single or bulk upload.</p>
         </Upload.Dragger>
       </Form.Item>
     </Form.Item>

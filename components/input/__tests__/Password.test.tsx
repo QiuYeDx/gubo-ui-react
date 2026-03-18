@@ -26,7 +26,7 @@ describe('Input.Password', () => {
 
   it('should support size', () => {
     const { asFragment, container } = render(<Password size="large" />);
-    expect(container.querySelector('.ant-input-affix-wrapper-lg')).toBeTruthy();
+    expect(container.querySelector('.g-input-affix-wrapper-lg')).toBeTruthy();
     expect(asFragment().firstChild).toMatchSnapshot();
   });
 
@@ -35,25 +35,25 @@ describe('Input.Password', () => {
     fireEvent.change(container.querySelector('input')!, { target: { value: '111' } });
     expect(asFragment().firstChild).toMatchSnapshot();
 
-    fireEvent.click(container.querySelector('.ant-input-password-icon')!);
+    fireEvent.click(container.querySelector('.g-input-password-icon')!);
     expect(asFragment().firstChild).toMatchSnapshot();
 
-    fireEvent.click(container.querySelector('.ant-input-password-icon')!);
+    fireEvent.click(container.querySelector('.g-input-password-icon')!);
     expect(asFragment().firstChild).toMatchSnapshot();
   });
 
   it('visibilityToggle should work', () => {
     const { container, rerender } = render(<Input.Password visibilityToggle={false} />);
-    expect(container.querySelectorAll('.anticon-eye').length).toBe(0);
+    expect(container.querySelectorAll('.gicon-eye').length).toBe(0);
     rerender(<Input.Password visibilityToggle />);
-    expect(container.querySelectorAll('.anticon-eye-invisible').length).toBe(1);
+    expect(container.querySelectorAll('.gicon-eye-invisible').length).toBe(1);
   });
 
   it('should not toggle visibility when disabled prop is true', () => {
     const { container } = render(<Input.Password disabled />);
-    expect(container.querySelectorAll('.anticon-eye-invisible').length).toBe(1);
-    fireEvent.click(container.querySelector('.anticon-eye-invisible')!);
-    expect(container.querySelectorAll('.anticon-eye').length).toBe(0);
+    expect(container.querySelectorAll('.gicon-eye-invisible').length).toBe(1);
+    fireEvent.click(container.querySelector('.gicon-eye-invisible')!);
+    expect(container.querySelectorAll('.gicon-eye').length).toBe(0);
   });
 
   it('should keep focus state', () => {
@@ -63,9 +63,9 @@ describe('Input.Password', () => {
     expect(document.activeElement).toBe(container.querySelector('input'));
     (document?.activeElement as any)?.setSelectionRange(2, 2);
     expect((document?.activeElement as any)?.selectionStart).toBe(2);
-    fireEvent.mouseDown(container.querySelector('.ant-input-password-icon')!);
-    fireEvent.mouseUp(container.querySelector('.ant-input-password-icon')!);
-    fireEvent.click(container.querySelector('.ant-input-password-icon')!);
+    fireEvent.mouseDown(container.querySelector('.g-input-password-icon')!);
+    fireEvent.mouseUp(container.querySelector('.g-input-password-icon')!);
+    fireEvent.click(container.querySelector('.g-input-password-icon')!);
     expect(document.activeElement).toBe(container.querySelector('input'));
     expect((document?.activeElement as any).selectionStart).toBe(2);
     unmount();
@@ -123,10 +123,10 @@ describe('Input.Password', () => {
     fireEvent.change(container.querySelector('input')!, { target: { value: 'value' } });
     await waitFakeTimer();
     expect(container.querySelector('input')?.getAttribute('value')).toBeFalsy();
-    fireEvent.click(container.querySelector('.ant-input-password-icon')!);
+    fireEvent.click(container.querySelector('.g-input-password-icon')!);
     await waitFakeTimer();
     expect(container.querySelector('input')?.getAttribute('value')).toBeTruthy();
-    fireEvent.click(container.querySelector('.ant-input-password-icon')!);
+    fireEvent.click(container.querySelector('.g-input-password-icon')!);
     await waitFakeTimer();
     expect(container.querySelector('input')?.getAttribute('value')).toBeFalsy();
     jest.clearAllTimers();
@@ -135,9 +135,9 @@ describe('Input.Password', () => {
 
   it('should control password visible', () => {
     const { container, rerender } = render(<Input.Password visibilityToggle={{ visible: true }} />);
-    expect(container.querySelectorAll('.anticon-eye').length).toBe(1);
+    expect(container.querySelectorAll('.gicon-eye').length).toBe(1);
     rerender(<Input.Password visibilityToggle={{ visible: false }} />);
-    expect(container.querySelectorAll('.anticon-eye-invisible').length).toBe(1);
+    expect(container.querySelectorAll('.gicon-eye-invisible').length).toBe(1);
   });
 
   it('should call onPasswordVisibleChange when visible is changed', () => {
@@ -145,19 +145,19 @@ describe('Input.Password', () => {
     const { container, rerender } = render(
       <Input.Password visibilityToggle={{ onVisibleChange: handlePasswordVisibleChange }} />,
     );
-    fireEvent.click(container.querySelector('.ant-input-password-icon')!);
+    fireEvent.click(container.querySelector('.g-input-password-icon')!);
     expect(handlePasswordVisibleChange).toHaveBeenCalledTimes(1);
     rerender(
       <Input.Password visibilityToggle={{ onVisibleChange: handlePasswordVisibleChange }} />,
     );
     expect(handlePasswordVisibleChange).toHaveBeenCalledTimes(1);
-    fireEvent.click(container.querySelector('.ant-input-password-icon')!);
+    fireEvent.click(container.querySelector('.g-input-password-icon')!);
     expect(handlePasswordVisibleChange).toHaveBeenCalledTimes(2);
   });
 
   it('should support suffix', () => {
     const { container } = render(<Input.Password suffix={<LockOutlined />} />);
-    expect(container.querySelector('.anticon')).toBeTruthy();
+    expect(container.querySelector('.gicon')).toBeTruthy();
   });
 
   it('should support custom icon by suffix', () => {

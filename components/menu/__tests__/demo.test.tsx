@@ -31,6 +31,6 @@ rootPropsTest(
   ),
   {
     findRootElements: (container) =>
-      container.querySelectorAll('.ant-menu-root, .ant-menu-submenu-popup'),
+      container.querySelectorAll('.g-menu-root, .g-menu-submenu-popup'),
   },
 );

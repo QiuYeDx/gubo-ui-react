@@ -2,10 +2,10 @@
 
 exports[`renders components/date-picker/demo/allow-empty.tsx correctly 1`] = `
 <div
-  class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+  class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
 >
   <div
-    class="ant-picker-input ant-picker-input-start"
+    class="g-picker-input g-picker-input-start"
   >
     <input
       aria-invalid="false"
@@ -17,15 +17,15 @@ exports[`renders components/date-picker/demo/allow-empty.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-picker-range-separator"
+    class="g-picker-range-separator"
   >
     <span
       aria-label="to"
-      class="ant-picker-separator"
+      class="g-picker-separator"
     >
       <span
         aria-label="swap-right"
-        class="anticon anticon-swap-right"
+        class="gicon gicon-swap-right"
         role="img"
       >
         <svg
@@ -45,7 +45,7 @@ exports[`renders components/date-picker/demo/allow-empty.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-picker-input ant-picker-input-end"
+    class="g-picker-input g-picker-input-end"
   >
     <input
       aria-invalid="false"
@@ -57,15 +57,15 @@ exports[`renders components/date-picker/demo/allow-empty.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-picker-active-bar"
+    class="g-picker-active-bar"
     style="position:absolute;width:0"
   />
   <span
-    class="ant-picker-suffix"
+    class="g-picker-suffix"
   >
     <span
       aria-label="calendar"
-      class="anticon anticon-calendar"
+      class="gicon gicon-calendar"
       role="img"
     >
       <svg
@@ -88,16 +88,16 @@ exports[`renders components/date-picker/demo/allow-empty.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -107,11 +107,11 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -133,13 +133,13 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -149,11 +149,11 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -175,13 +175,13 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -191,11 +191,11 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -217,13 +217,13 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -233,11 +233,11 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -259,13 +259,13 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -275,11 +275,11 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -305,25 +305,25 @@ exports[`renders components/date-picker/demo/basic.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <h4
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       By locale props
     </h4>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -333,11 +333,11 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
           value="2567-01-01"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -356,12 +356,12 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -384,13 +384,13 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -400,11 +400,11 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
           value="2567-01-01 00:00:00"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -423,12 +423,12 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -451,28 +451,28 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <h4
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       By ConfigProvider
     </h4>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+      class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+          class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
         >
           <div
-            class="ant-picker-input"
+            class="g-picker-input"
           >
             <input
               aria-invalid="false"
@@ -482,11 +482,11 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
               value="2567-01-01"
             />
             <span
-              class="ant-picker-suffix"
+              class="g-picker-suffix"
             >
               <span
                 aria-label="calendar"
-                class="anticon anticon-calendar"
+                class="gicon gicon-calendar"
                 role="img"
               >
                 <svg
@@ -505,12 +505,12 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
               </span>
             </span>
             <span
-              class="ant-picker-clear"
+              class="g-picker-clear"
               role="button"
             >
               <span
                 aria-label="close-circle"
-                class="anticon anticon-close-circle"
+                class="gicon gicon-close-circle"
                 role="img"
               >
                 <svg
@@ -533,13 +533,13 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <div
-          class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+          class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
         >
           <div
-            class="ant-picker-input"
+            class="g-picker-input"
           >
             <input
               aria-invalid="false"
@@ -549,11 +549,11 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
               value="2567-01-01 00:00:00"
             />
             <span
-              class="ant-picker-suffix"
+              class="g-picker-suffix"
             >
               <span
                 aria-label="calendar"
-                class="anticon anticon-calendar"
+                class="gicon gicon-calendar"
                 role="img"
               >
                 <svg
@@ -572,12 +572,12 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
               </span>
             </span>
             <span
-              class="ant-picker-clear"
+              class="g-picker-clear"
               role="button"
             >
               <span
                 aria-label="close-circle"
-                class="anticon anticon-close-circle"
+                class="gicon gicon-close-circle"
                 role="img"
               >
                 <svg
@@ -606,17 +606,17 @@ exports[`renders components/date-picker/demo/buddhist-era.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/cell-render.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -626,11 +626,11 @@ exports[`renders components/date-picker/demo/cell-render.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -652,13 +652,13 @@ exports[`renders components/date-picker/demo/cell-render.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -670,15 +670,15 @@ exports[`renders components/date-picker/demo/cell-render.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -698,7 +698,7 @@ exports[`renders components/date-picker/demo/cell-render.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -710,15 +710,15 @@ exports[`renders components/date-picker/demo/cell-render.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -743,16 +743,16 @@ exports[`renders components/date-picker/demo/cell-render.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/components.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -762,11 +762,11 @@ exports[`renders components/date-picker/demo/components.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -792,10 +792,10 @@ exports[`renders components/date-picker/demo/components.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/date-range.tsx correctly 1`] = `
 <div
-  class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+  class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
 >
   <div
-    class="ant-picker-input"
+    class="g-picker-input"
   >
     <input
       aria-invalid="false"
@@ -805,11 +805,11 @@ exports[`renders components/date-picker/demo/date-range.tsx correctly 1`] = `
       value="2019-09-03"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -828,12 +828,12 @@ exports[`renders components/date-picker/demo/date-range.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="g-picker-clear"
       role="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -858,17 +858,17 @@ exports[`renders components/date-picker/demo/date-range.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-disabled ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-disabled g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -879,11 +879,11 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
           value="2015-06-06"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -905,13 +905,13 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-disabled ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-disabled g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -922,11 +922,11 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
           value="2015-06"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -948,13 +948,13 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-disabled ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-disabled g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -967,15 +967,15 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -995,7 +995,7 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -1008,15 +1008,15 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -1037,13 +1037,13 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -1055,15 +1055,15 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -1083,7 +1083,7 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -1096,15 +1096,15 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -1123,12 +1123,12 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-picker-clear"
+        class="g-picker-clear"
         role="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1150,13 +1150,13 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -1166,11 +1166,11 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
           value="2019-09-03"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1189,12 +1189,12 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -1221,17 +1221,17 @@ exports[`renders components/date-picker/demo/disabled.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -1241,11 +1241,11 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1267,13 +1267,13 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -1283,11 +1283,11 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1309,13 +1309,13 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -1327,15 +1327,15 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -1355,7 +1355,7 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -1367,15 +1367,15 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -1396,13 +1396,13 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -1414,15 +1414,15 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -1442,7 +1442,7 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -1454,15 +1454,15 @@ exports[`renders components/date-picker/demo/disabled-date.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -1496,21 +1496,21 @@ exports[`renders components/date-picker/demo/external-panel.tsx correctly 1`] = 
       DatePicker
     </div>
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small ant-dropdown-trigger css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small g-dropdown-trigger css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span>
           2016-11-22
         </span>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1537,21 +1537,21 @@ exports[`renders components/date-picker/demo/external-panel.tsx correctly 1`] = 
       RangePicker
     </div>
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small ant-dropdown-trigger css-var-test-id"
+      class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small g-dropdown-trigger css-var-test-id"
     >
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span>
           2016-11-22 ~ 2016-11-23
         </span>
       </div>
       <div
-        class="ant-space-item"
+        class="g-space-item"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1576,17 +1576,17 @@ exports[`renders components/date-picker/demo/external-panel.tsx correctly 1`] = 
 
 exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -1596,11 +1596,11 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1622,13 +1622,13 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -1638,11 +1638,11 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1664,13 +1664,13 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -1682,15 +1682,15 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -1710,7 +1710,7 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -1722,15 +1722,15 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -1751,13 +1751,13 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -1769,15 +1769,15 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -1797,7 +1797,7 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -1809,15 +1809,15 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -1838,13 +1838,13 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -1854,11 +1854,11 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1884,17 +1884,17 @@ exports[`renders components/date-picker/demo/extra-footer.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-disabled ant-picker-filled css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-disabled g-picker-filled css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -1905,11 +1905,11 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
           value="2015-06-06"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1931,13 +1931,13 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-disabled ant-picker-filled css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-disabled g-picker-filled css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -1948,11 +1948,11 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
           value="2015-06"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -1974,13 +1974,13 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-disabled ant-picker-filled css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-disabled g-picker-filled css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -1993,15 +1993,15 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -2021,7 +2021,7 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -2034,15 +2034,15 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -2063,13 +2063,13 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-filled css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-filled css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -2081,15 +2081,15 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -2109,7 +2109,7 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -2122,15 +2122,15 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -2149,12 +2149,12 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-picker-clear"
+        class="g-picker-clear"
         role="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -2176,14 +2176,14 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-filled ant-picker-status-error css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-filled g-picker-status-error css-var-test-id g-picker-css-var"
       style="width:100%"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2193,11 +2193,11 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
           value="2023-12-25"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2216,12 +2216,12 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2244,14 +2244,14 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-filled ant-picker-status-warning css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-filled g-picker-status-warning css-var-test-id g-picker-css-var"
       style="width:100%"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2261,11 +2261,11 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2287,14 +2287,14 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-filled ant-picker-status-error css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-filled g-picker-status-error css-var-test-id g-picker-css-var"
       style="width:100%"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -2306,15 +2306,15 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -2334,7 +2334,7 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -2346,15 +2346,15 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -2375,14 +2375,14 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-filled ant-picker-status-warning css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-filled g-picker-status-warning css-var-test-id g-picker-css-var"
       style="width:100%"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -2394,15 +2394,15 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -2422,7 +2422,7 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -2434,15 +2434,15 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -2467,17 +2467,17 @@ exports[`renders components/date-picker/demo/filled-debug.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2487,11 +2487,11 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           value="2015/01/01"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2510,12 +2510,12 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2538,13 +2538,13 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2554,11 +2554,11 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           value="01/01/2015"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2577,12 +2577,12 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2605,13 +2605,13 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2621,11 +2621,11 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           value="2015/01"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2644,12 +2644,12 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2672,13 +2672,13 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2689,11 +2689,11 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           value="11/20 ~ 11/26"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2712,12 +2712,12 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2740,13 +2740,13 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -2758,15 +2758,15 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -2786,7 +2786,7 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -2798,15 +2798,15 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -2825,12 +2825,12 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-picker-clear"
+        class="g-picker-clear"
         role="button"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -2852,13 +2852,13 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2869,11 +2869,11 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           value="custom format: 2015/01/01"
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2892,12 +2892,12 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-picker-clear"
+          class="g-picker-clear"
           role="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2924,16 +2924,16 @@ exports[`renders components/date-picker/demo/format.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/mask.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2943,11 +2943,11 @@ exports[`renders components/date-picker/demo/mask.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -2969,13 +2969,13 @@ exports[`renders components/date-picker/demo/mask.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -2985,11 +2985,11 @@ exports[`renders components/date-picker/demo/mask.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -3015,17 +3015,17 @@ exports[`renders components/date-picker/demo/mask.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/mode.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -3035,11 +3035,11 @@ exports[`renders components/date-picker/demo/mode.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -3061,13 +3061,13 @@ exports[`renders components/date-picker/demo/mode.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -3079,15 +3079,15 @@ exports[`renders components/date-picker/demo/mode.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -3107,7 +3107,7 @@ exports[`renders components/date-picker/demo/mode.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -3119,15 +3119,15 @@ exports[`renders components/date-picker/demo/mode.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -3152,28 +3152,28 @@ exports[`renders components/date-picker/demo/mode.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
 >
   <div
-    class="ant-picker ant-picker-multiple ant-picker-small ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-multiple g-picker-small g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-selector"
+      class="g-picker-selector"
     >
       <div
-        class="ant-picker-selection-overflow"
+        class="g-picker-selection-overflow"
       >
         <div
           aria-hidden="true"
-          class="ant-picker-selection-overflow-item ant-picker-selection-overflow-item-rest"
+          class="g-picker-selection-overflow-item g-picker-selection-overflow-item-rest"
           style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="+ 2 ..."
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               + 2 ...
             </span>
@@ -3182,16 +3182,16 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-picker-multiple-input"
+      class="g-picker-multiple-input"
       readonly=""
       value="2000-01-01,2000-01-03,2000-01-05"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -3210,12 +3210,12 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="g-picker-clear"
       role="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -3236,25 +3236,25 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-picker ant-picker-multiple ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-multiple g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-selector"
+      class="g-picker-selector"
     >
       <div
-        class="ant-picker-selection-overflow"
+        class="g-picker-selection-overflow"
       >
         <div
           aria-hidden="true"
-          class="ant-picker-selection-overflow-item ant-picker-selection-overflow-item-rest"
+          class="g-picker-selection-overflow-item g-picker-selection-overflow-item-rest"
           style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="+ 2 ..."
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               + 2 ...
             </span>
@@ -3263,16 +3263,16 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-picker-multiple-input"
+      class="g-picker-multiple-input"
       readonly=""
       value="2000-01-01,2000-01-03,2000-01-05"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -3291,12 +3291,12 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="g-picker-clear"
       role="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -3317,25 +3317,25 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-picker ant-picker-multiple ant-picker-large ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-multiple g-picker-large g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-selector"
+      class="g-picker-selector"
     >
       <div
-        class="ant-picker-selection-overflow"
+        class="g-picker-selection-overflow"
       >
         <div
           aria-hidden="true"
-          class="ant-picker-selection-overflow-item ant-picker-selection-overflow-item-rest"
+          class="g-picker-selection-overflow-item g-picker-selection-overflow-item-rest"
           style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="+ 2 ..."
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               + 2 ...
             </span>
@@ -3344,16 +3344,16 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-picker-multiple-input"
+      class="g-picker-multiple-input"
       readonly=""
       value="2000-01-01,2000-01-03,2000-01-05"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -3372,12 +3372,12 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="g-picker-clear"
       role="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -3402,34 +3402,34 @@ exports[`renders components/date-picker/demo/multiple.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
 >
   <div
-    class="ant-picker ant-picker-multiple ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-multiple g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-selector"
+      class="g-picker-selector"
     >
       <div
-        class="ant-picker-selection-overflow"
+        class="g-picker-selection-overflow"
       />
       <span
-        class="ant-picker-selection-placeholder"
+        class="g-picker-selection-placeholder"
       >
         Bamboo
       </span>
     </div>
     <input
-      class="ant-picker-multiple-input"
+      class="g-picker-multiple-input"
       readonly=""
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -3449,33 +3449,33 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
     </span>
   </div>
   <div
-    class="ant-picker ant-picker-multiple ant-picker-small ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-multiple g-picker-small g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-selector"
+      class="g-picker-selector"
     >
       <div
-        class="ant-picker-selection-overflow"
+        class="g-picker-selection-overflow"
       >
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-01"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-01
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3497,24 +3497,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-02"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-02
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3536,24 +3536,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-03"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-03
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3575,24 +3575,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-04"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-04
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3614,24 +3614,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-05"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-05
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3653,24 +3653,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-06"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-06
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3692,24 +3692,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-07"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-07
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3731,24 +3731,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-08"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-08
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3770,24 +3770,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-09"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-09
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3809,24 +3809,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-10"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-10
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3850,16 +3850,16 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
       </div>
     </div>
     <input
-      class="ant-picker-multiple-input"
+      class="g-picker-multiple-input"
       readonly=""
       value="2000-01-01,2000-01-02,2000-01-03,2000-01-04,2000-01-05,2000-01-06,2000-01-07,2000-01-08,2000-01-09,2000-01-10"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -3878,12 +3878,12 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="g-picker-clear"
       role="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -3904,33 +3904,33 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
     </span>
   </div>
   <div
-    class="ant-picker ant-picker-multiple ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-multiple g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-selector"
+      class="g-picker-selector"
     >
       <div
-        class="ant-picker-selection-overflow"
+        class="g-picker-selection-overflow"
       >
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-01"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-01
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3952,24 +3952,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-02"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-02
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3991,24 +3991,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-03"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-03
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4030,24 +4030,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-04"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-04
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4069,24 +4069,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-05"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-05
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4108,24 +4108,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-06"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-06
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4147,24 +4147,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-07"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-07
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4186,24 +4186,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-08"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-08
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4225,24 +4225,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-09"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-09
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4264,24 +4264,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-10"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-10
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4305,16 +4305,16 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
       </div>
     </div>
     <input
-      class="ant-picker-multiple-input"
+      class="g-picker-multiple-input"
       readonly=""
       value="2000-01-01,2000-01-02,2000-01-03,2000-01-04,2000-01-05,2000-01-06,2000-01-07,2000-01-08,2000-01-09,2000-01-10"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -4333,12 +4333,12 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="g-picker-clear"
       role="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -4359,33 +4359,33 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
     </span>
   </div>
   <div
-    class="ant-picker ant-picker-multiple ant-picker-large ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-multiple g-picker-large g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-selector"
+      class="g-picker-selector"
     >
       <div
-        class="ant-picker-selection-overflow"
+        class="g-picker-selection-overflow"
       >
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-01"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-01
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4407,24 +4407,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-02"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-02
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4446,24 +4446,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-03"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-03
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4485,24 +4485,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-04"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-04
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4524,24 +4524,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-05"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-05
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4563,24 +4563,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-06"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-06
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4602,24 +4602,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-07"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-07
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4641,24 +4641,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-08"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-08
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4680,24 +4680,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-09"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-09
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4719,24 +4719,24 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
           </span>
         </div>
         <div
-          class="ant-picker-selection-overflow-item"
+          class="g-picker-selection-overflow-item"
           style="opacity:1"
         >
           <span
-            class="ant-picker-selection-item"
+            class="g-picker-selection-item"
             title="2000-01-10"
           >
             <span
-              class="ant-picker-selection-item-content"
+              class="g-picker-selection-item-content"
             >
               2000-01-10
             </span>
             <span
-              class="ant-picker-selection-item-remove"
+              class="g-picker-selection-item-remove"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -4760,16 +4760,16 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
       </div>
     </div>
     <input
-      class="ant-picker-multiple-input"
+      class="g-picker-multiple-input"
       readonly=""
       value="2000-01-01,2000-01-02,2000-01-03,2000-01-04,2000-01-05,2000-01-06,2000-01-07,2000-01-08,2000-01-09,2000-01-10"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -4788,12 +4788,12 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
       </span>
     </span>
     <span
-      class="ant-picker-clear"
+      class="g-picker-clear"
       role="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -4818,10 +4818,10 @@ exports[`renders components/date-picker/demo/multiple-debug.tsx correctly 1`] = 
 
 exports[`renders components/date-picker/demo/needConfirm.tsx correctly 1`] = `
 <div
-  class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+  class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
 >
   <div
-    class="ant-picker-input"
+    class="g-picker-input"
   >
     <input
       aria-invalid="false"
@@ -4831,11 +4831,11 @@ exports[`renders components/date-picker/demo/needConfirm.tsx correctly 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -4860,82 +4860,82 @@ exports[`renders components/date-picker/demo/needConfirm.tsx correctly 1`] = `
 exports[`renders components/date-picker/demo/placement.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topRight
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomRight
       </span>
@@ -4944,10 +4944,10 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-input"
+      class="g-picker-input"
     >
       <input
         aria-invalid="false"
@@ -4957,11 +4957,11 @@ Array [
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -4984,10 +4984,10 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
   >
     <div
-      class="ant-picker-input ant-picker-input-start"
+      class="g-picker-input g-picker-input-start"
     >
       <input
         aria-invalid="false"
@@ -4999,15 +4999,15 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-range-separator"
+      class="g-picker-range-separator"
     >
       <span
         aria-label="to"
-        class="ant-picker-separator"
+        class="g-picker-separator"
       >
         <span
           aria-label="swap-right"
-          class="anticon anticon-swap-right"
+          class="gicon gicon-swap-right"
           role="img"
         >
           <svg
@@ -5027,7 +5027,7 @@ Array [
       </span>
     </div>
     <div
-      class="ant-picker-input ant-picker-input-end"
+      class="g-picker-input g-picker-input-end"
     >
       <input
         aria-invalid="false"
@@ -5039,15 +5039,15 @@ Array [
       />
     </div>
     <div
-      class="ant-picker-active-bar"
+      class="g-picker-active-bar"
       style="position:absolute;width:0"
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg
@@ -5071,17 +5071,17 @@ Array [
 
 exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -5091,11 +5091,11 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -5117,13 +5117,13 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5135,15 +5135,15 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5163,7 +5163,7 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5175,15 +5175,15 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5204,13 +5204,13 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5222,15 +5222,15 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5250,7 +5250,7 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5262,15 +5262,15 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5295,17 +5295,17 @@ exports[`renders components/date-picker/demo/preset-ranges.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5317,15 +5317,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5345,7 +5345,7 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5357,15 +5357,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5386,13 +5386,13 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5404,15 +5404,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5432,7 +5432,7 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5444,15 +5444,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5473,13 +5473,13 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5491,15 +5491,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5519,7 +5519,7 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5531,15 +5531,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5560,13 +5560,13 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5578,15 +5578,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5606,7 +5606,7 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5618,15 +5618,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5647,13 +5647,13 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5665,15 +5665,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5693,7 +5693,7 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5705,15 +5705,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5734,13 +5734,13 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5753,15 +5753,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5781,7 +5781,7 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5794,15 +5794,15 @@ exports[`renders components/date-picker/demo/range-picker.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5830,11 +5830,11 @@ exports[`renders components/date-picker/demo/render-panel.tsx correctly 1`] = `
   style="padding-bottom:0;position:relative;min-width:0"
 >
   <div
-    class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+    class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     style="margin:0"
   >
     <div
-      class="ant-picker-input"
+      class="g-picker-input"
     >
       <input
         aria-invalid="false"
@@ -5844,11 +5844,11 @@ exports[`renders components/date-picker/demo/render-panel.tsx correctly 1`] = `
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5873,25 +5873,25 @@ exports[`renders components/date-picker/demo/render-panel.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <h5
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       7 days range
     </h5>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5903,15 +5903,15 @@ exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] =
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -5931,7 +5931,7 @@ exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] =
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -5943,15 +5943,15 @@ exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] =
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -5972,22 +5972,22 @@ exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] =
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <h5
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       6 months range
     </h5>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -5999,15 +5999,15 @@ exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] =
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -6027,7 +6027,7 @@ exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] =
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -6039,15 +6039,15 @@ exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] =
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -6072,70 +6072,70 @@ exports[`renders components/date-picker/demo/select-in-range.tsx correctly 1`] =
 
 exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+      class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
       role="radiogroup"
     >
       <label
-        class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button"
+          class="g-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="large"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Large
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="g-radio-button g-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="medium"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Medium
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+        class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
       >
         <span
-          class="ant-radio-button"
+          class="g-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="g-radio-button-input"
             name="test-id"
             type="radio"
             value="small"
           />
         </span>
         <span
-          class="ant-radio-button-label"
+          class="g-radio-button-label"
         >
           Small
         </span>
@@ -6143,13 +6143,13 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6159,11 +6159,11 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -6185,13 +6185,13 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6201,11 +6201,11 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -6227,13 +6227,13 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -6245,15 +6245,15 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -6273,7 +6273,7 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -6285,15 +6285,15 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -6314,13 +6314,13 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6330,11 +6330,11 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -6360,16 +6360,16 @@ exports[`renders components/date-picker/demo/size.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/start-end.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6379,11 +6379,11 @@ exports[`renders components/date-picker/demo/start-end.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -6405,13 +6405,13 @@ exports[`renders components/date-picker/demo/start-end.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6421,11 +6421,11 @@ exports[`renders components/date-picker/demo/start-end.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -6451,18 +6451,18 @@ exports[`renders components/date-picker/demo/start-end.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined ant-picker-status-error css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined g-picker-status-error css-var-test-id g-picker-css-var"
       style="width:100%"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6472,11 +6472,11 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -6498,14 +6498,14 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined ant-picker-status-warning css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined g-picker-status-warning css-var-test-id g-picker-css-var"
       style="width:100%"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6515,11 +6515,11 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -6541,14 +6541,14 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined ant-picker-status-error css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined g-picker-status-error css-var-test-id g-picker-css-var"
       style="width:100%"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -6560,15 +6560,15 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -6588,7 +6588,7 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -6600,15 +6600,15 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -6629,14 +6629,14 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined ant-picker-status-warning css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined g-picker-status-warning css-var-test-id g-picker-css-var"
       style="width:100%"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -6648,15 +6648,15 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -6676,7 +6676,7 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -6688,15 +6688,15 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -6721,13 +6721,13 @@ exports[`renders components/date-picker/demo/status.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var acss-1miw7ij"
+    class="g-picker g-picker-outlined css-var-test-id g-picker-css-var acss-1miw7ij"
   >
     <div
-      class="ant-picker-input"
+      class="g-picker-input"
     >
       <input
         aria-invalid="false"
@@ -6738,12 +6738,12 @@ exports[`renders components/date-picker/demo/style-class.tsx correctly 1`] = `
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
         style="opacity:0.85"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -6764,11 +6764,11 @@ exports[`renders components/date-picker/demo/style-class.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-picker ant-picker-large ant-picker-outlined css-var-test-id ant-picker-css-var acss-1miw7ij"
+    class="g-picker g-picker-large g-picker-outlined css-var-test-id g-picker-css-var acss-1miw7ij"
     style="border-color:#722ed1"
   >
     <div
-      class="ant-picker-input"
+      class="g-picker-input"
     >
       <input
         aria-invalid="false"
@@ -6778,11 +6778,11 @@ exports[`renders components/date-picker/demo/style-class.tsx correctly 1`] = `
         value=""
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -6807,17 +6807,17 @@ exports[`renders components/date-picker/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6827,11 +6827,11 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="smile"
-            class="anticon anticon-smile"
+            class="gicon gicon-smile"
             role="img"
           >
             <svg
@@ -6853,13 +6853,13 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6869,11 +6869,11 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="smile"
-            class="anticon anticon-smile"
+            class="gicon gicon-smile"
             role="img"
           >
             <svg
@@ -6895,13 +6895,13 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -6913,15 +6913,15 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -6941,7 +6941,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -6953,15 +6953,15 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="smile"
-          class="anticon anticon-smile"
+          class="gicon gicon-smile"
           role="img"
         >
           <svg
@@ -6982,13 +6982,13 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -6998,11 +6998,11 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="smile"
-            class="anticon anticon-smile"
+            class="gicon gicon-smile"
             role="img"
           >
             <svg
@@ -7024,13 +7024,13 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7040,7 +7040,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           ab
         </span>
@@ -7048,13 +7048,13 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7064,7 +7064,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           ab
         </span>
@@ -7072,13 +7072,13 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -7090,15 +7090,15 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -7118,7 +7118,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -7130,24 +7130,24 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         ab
       </span>
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7157,7 +7157,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           ab
         </span>
@@ -7165,17 +7165,17 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-prefix"
+        class="g-picker-prefix"
       >
         <span
           aria-label="smile"
-          class="anticon anticon-smile"
+          class="gicon gicon-smile"
           role="img"
         >
           <svg
@@ -7194,7 +7194,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7204,11 +7204,11 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -7230,18 +7230,18 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-prefix"
+        class="g-picker-prefix"
       >
         Event Period
       </div>
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7251,11 +7251,11 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -7277,17 +7277,17 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-prefix"
+        class="g-picker-prefix"
       >
         <span
           aria-label="smile"
-          class="anticon anticon-smile"
+          class="gicon gicon-smile"
           role="img"
         >
           <svg
@@ -7306,7 +7306,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -7318,15 +7318,15 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -7346,7 +7346,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -7358,15 +7358,15 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -7387,18 +7387,18 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-prefix"
+        class="g-picker-prefix"
       >
         Event Period
       </div>
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -7410,15 +7410,15 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -7438,7 +7438,7 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -7450,15 +7450,15 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -7483,16 +7483,16 @@ exports[`renders components/date-picker/demo/suffix.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7502,11 +7502,11 @@ exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] 
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -7528,13 +7528,13 @@ exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7547,13 +7547,13 @@ exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7563,11 +7563,11 @@ exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] 
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -7589,13 +7589,13 @@ exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7608,13 +7608,13 @@ exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] 
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7624,7 +7624,7 @@ exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] 
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           123
         </span>
@@ -7636,16 +7636,16 @@ exports[`renders components/date-picker/demo/suffixIcon-debug.tsx correctly 1`] 
 
 exports[`renders components/date-picker/demo/switchable.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Time"
       >
         Time
@@ -7655,7 +7655,7 @@ exports[`renders components/date-picker/demo/switchable.tsx correctly 1`] = `
           aria-haspopup="listbox"
           aria-label="Picker Type"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -7664,11 +7664,11 @@ exports[`renders components/date-picker/demo/switchable.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -7689,13 +7689,13 @@ exports[`renders components/date-picker/demo/switchable.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7705,11 +7705,11 @@ exports[`renders components/date-picker/demo/switchable.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="clock-circle"
-            class="anticon anticon-clock-circle"
+            class="gicon gicon-clock-circle"
             role="img"
           >
             <svg
@@ -7738,17 +7738,17 @@ exports[`renders components/date-picker/demo/switchable.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/time.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap:12px;row-gap:12px"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7758,11 +7758,11 @@ exports[`renders components/date-picker/demo/time.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -7784,13 +7784,13 @@ exports[`renders components/date-picker/demo/time.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -7802,15 +7802,15 @@ exports[`renders components/date-picker/demo/time.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -7830,7 +7830,7 @@ exports[`renders components/date-picker/demo/time.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -7842,15 +7842,15 @@ exports[`renders components/date-picker/demo/time.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -7875,18 +7875,18 @@ exports[`renders components/date-picker/demo/time.tsx correctly 1`] = `
 
 exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap:12px"
 >
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-picker ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -7896,11 +7896,11 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -7921,10 +7921,10 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-picker ant-picker-range ant-picker-outlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-outlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -7936,15 +7936,15 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -7964,7 +7964,7 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -7976,15 +7976,15 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -8005,14 +8005,14 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-picker ant-picker-filled css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-filled css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -8022,11 +8022,11 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -8047,10 +8047,10 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-picker ant-picker-range ant-picker-filled css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-filled css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -8062,15 +8062,15 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -8090,7 +8090,7 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -8102,15 +8102,15 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -8131,14 +8131,14 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-picker ant-picker-borderless css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-borderless css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -8148,11 +8148,11 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -8173,10 +8173,10 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-picker ant-picker-range ant-picker-borderless css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-borderless css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -8188,15 +8188,15 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -8216,7 +8216,7 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -8228,15 +8228,15 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg
@@ -8257,14 +8257,14 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-picker ant-picker-underlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-underlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input"
+        class="g-picker-input"
       >
         <input
           aria-invalid="false"
@@ -8274,11 +8274,11 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
           value=""
         />
         <span
-          class="ant-picker-suffix"
+          class="g-picker-suffix"
         >
           <span
             aria-label="calendar"
-            class="anticon anticon-calendar"
+            class="gicon gicon-calendar"
             role="img"
           >
             <svg
@@ -8299,10 +8299,10 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-picker ant-picker-range ant-picker-underlined css-var-test-id ant-picker-css-var"
+      class="g-picker g-picker-range g-picker-underlined css-var-test-id g-picker-css-var"
     >
       <div
-        class="ant-picker-input ant-picker-input-start"
+        class="g-picker-input g-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -8314,15 +8314,15 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-range-separator"
+        class="g-picker-range-separator"
       >
         <span
           aria-label="to"
-          class="ant-picker-separator"
+          class="g-picker-separator"
         >
           <span
             aria-label="swap-right"
-            class="anticon anticon-swap-right"
+            class="gicon gicon-swap-right"
             role="img"
           >
             <svg
@@ -8342,7 +8342,7 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-picker-input ant-picker-input-end"
+        class="g-picker-input g-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -8354,15 +8354,15 @@ exports[`renders components/date-picker/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-picker-active-bar"
+        class="g-picker-active-bar"
         style="position:absolute;width:0"
       />
       <span
-        class="ant-picker-suffix"
+        class="g-picker-suffix"
       >
         <span
           aria-label="calendar"
-          class="anticon anticon-calendar"
+          class="gicon gicon-calendar"
           role="img"
         >
           <svg

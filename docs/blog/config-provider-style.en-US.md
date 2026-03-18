@@ -41,7 +41,7 @@ And then we can go to add our style:
 }
 ```
 
-This is actually strange. Since we can modify the style through `className`, why do we need ConfigProvider? We can just override the `.ant-btn` style.
+This is actually strange. Since we can modify the style through `className`, why do we need ConfigProvider? We can just override the `.g-btn` style.
 
 If your project is maintained by only one person, this is a good idea. But if your project is a large project, then you will find that this approach will cause style conflicts. Especially in the case of multi-person collaboration, modifying styles at will will result in unexpected results, and other people have to use more complex selectors to override your styles. ConfigProvider can solve this problem well. It can isolate styles inside ConfigProvider and will not affect other components.
 
@@ -52,7 +52,7 @@ Above example looks easy to implement, but in real scenarios you will find that 
 ```less
 .my-button {
   // OPS. It's `abc-btn-icon` now.
-  .ant-btn-icon {
+  .g-btn-icon {
     background: red;
   }
 }

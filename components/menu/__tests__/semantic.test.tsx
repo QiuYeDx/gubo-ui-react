@@ -65,10 +65,10 @@ describe('Menu.Semantic', () => {
         styles={testStyles}
       />,
     );
-    const root = container.querySelector('.ant-menu');
-    const item = container.querySelectorAll('.ant-menu-item')[0];
-    const itemIcon = container.querySelector('.ant-menu-item-icon');
-    const itemContent = container.querySelector('.ant-menu-title-content');
+    const root = container.querySelector('.g-menu');
+    const item = container.querySelectorAll('.g-menu-item')[0];
+    const itemIcon = container.querySelector('.g-menu-item-icon');
+    const itemContent = container.querySelector('.g-menu-title-content');
 
     expect(root).toHaveClass(testClassNames.root);
     expect(root).toHaveStyle(testStyles.root);
@@ -122,14 +122,14 @@ describe('Menu.Semantic', () => {
     const { container, rerender } = render(
       <Menu mode="inline" items={items} classNames={classNamesFn} styles={stylesFn} />,
     );
-    const root = container.querySelector('.ant-menu');
+    const root = container.querySelector('.g-menu');
     expect(root).toHaveClass('fn-root-grouped');
     expect(root).toHaveStyle({ backgroundColor: 'rgb(240, 249, 255)' });
 
     rerender(<Menu mode="inline" items={[]} classNames={classNamesFn} styles={stylesFn} />);
 
-    expect(container.querySelector('.ant-menu')).toHaveClass('fn-root-plain');
-    expect(container.querySelector('.ant-menu')).toHaveStyle({
+    expect(container.querySelector('.g-menu')).toHaveClass('fn-root-plain');
+    expect(container.querySelector('.g-menu')).toHaveStyle({
       backgroundColor: 'rgb(255, 255, 255)',
     });
   });
@@ -161,7 +161,7 @@ describe('Menu.Semantic', () => {
     };
 
     menuItems.forEach((item) => {
-      const labelNode = item.querySelector('.ant-menu-title-content');
+      const labelNode = item.querySelector('.g-menu-title-content');
       const label = labelNode?.textContent?.trim();
 
       if (label && expected[label]) {

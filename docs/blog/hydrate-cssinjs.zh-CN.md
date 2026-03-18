@@ -47,18 +47,18 @@ author: zombieJ
 ```tsx
 // e.g. Real world path is much more complex
 {
-  "bAMbOo|Button": ["LItTlE", ":where(.bAMbOo).ant-btn { color: red }"],
-  "bAMbOo|Spin": ["liGHt", ":where(.bAMbOo).ant-spin { color: blue }"]
+  "bAMbOo|Button": ["LItTlE", ":where(.bAMbOo).g-btn { color: red }"],
+  "bAMbOo|Spin": ["liGHt", ":where(.bAMbOo).g-spin { color: blue }"]
 }
 ```
 
 提取：
 
 ```css
-:where(.bAMbOo).ant-btn {
+:where(.bAMbOo).g-btn {
   color: red;
 }
-:where(.bAMbOo).ant-spin {
+:where(.bAMbOo).g-spin {
   color: blue;
 }
 ```

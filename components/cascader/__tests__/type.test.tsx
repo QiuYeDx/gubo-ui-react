@@ -50,7 +50,7 @@ describe('Cascader.typescript', () => {
   it('suffixIcon', () => {
     const { container } = render(<Cascader suffixIcon={<span />} />);
     expect(
-      container.querySelector('.ant-select-arrow')?.querySelector('span')?.className,
+      container.querySelector('.g-select-arrow')?.querySelector('span')?.className,
     ).toBeFalsy();
   });
 

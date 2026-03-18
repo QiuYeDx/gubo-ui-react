@@ -164,7 +164,7 @@ describe('Radio Group', () => {
         }}
       />,
     );
-    expect(radioGroupRef.current).toBe(container.querySelector('.ant-radio-group'));
+    expect(radioGroupRef.current).toBe(container.querySelector('.g-radio-group'));
   });
 
   it('should support data-* or aria-* props', () => {
@@ -206,7 +206,7 @@ describe('Radio Group', () => {
           <Button value="bamboo">Bamboo</Button>
         </Radio.Group>,
       );
-      expect(container.querySelectorAll('.ant-radio-button-wrapper-checked').length).toBe(1);
+      expect(container.querySelectorAll('.g-radio-button-wrapper-checked').length).toBe(1);
     });
 
     [undefined, null].forEach((newValue) => {
@@ -216,13 +216,13 @@ describe('Radio Group', () => {
             <Button value="bamboo">Bamboo</Button>
           </Radio.Group>,
         );
-        expect(container.querySelectorAll('.ant-radio-button-wrapper-checked').length).toBe(1);
+        expect(container.querySelectorAll('.g-radio-button-wrapper-checked').length).toBe(1);
         rerender(
           <Radio.Group value={newValue}>
             <Button value="bamboo">Bamboo</Button>
           </Radio.Group>,
         );
-        expect(container.querySelectorAll('.ant-radio-button-wrapper-checked').length).toBe(0);
+        expect(container.querySelectorAll('.g-radio-button-wrapper-checked').length).toBe(0);
       });
     });
   });

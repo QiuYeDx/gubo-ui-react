@@ -23,7 +23,7 @@ rootPropsTest(
     expectCount: 3,
     findRootElements: () =>
       Array.from(
-        document.body.querySelectorAll('.ant-tour, .ant-tour-target-placeholder, .ant-tour-mask'),
+        document.body.querySelectorAll('.g-tour, .g-tour-target-placeholder, .g-tour-mask'),
       ),
   },
 );

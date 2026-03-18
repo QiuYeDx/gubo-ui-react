@@ -118,8 +118,8 @@ describe('DropdownButton', () => {
         open
       />,
     );
-    expect(container.querySelector<HTMLElement>('.ant-dropdown')).toHaveClass('test-className');
-    expect(container.querySelector<HTMLElement>('.ant-dropdown')).toHaveStyle({ padding: '20px' });
+    expect(container.querySelector<HTMLElement>('.g-dropdown')).toHaveClass('test-className');
+    expect(container.querySelector<HTMLElement>('.g-dropdown')).toHaveStyle({ padding: '20px' });
   });
 
   it('should support loading', () => {
@@ -131,7 +131,7 @@ describe('DropdownButton', () => {
     ];
     const { container } = render(<DropdownButton menu={{ items }} loading />);
 
-    expect(container.querySelector('.ant-dropdown-button .ant-btn-loading')).toHaveClass('ant-btn');
+    expect(container.querySelector('.g-dropdown-button .g-btn-loading')).toHaveClass('g-btn');
   });
 
   it('deprecated warning', async () => {
@@ -159,7 +159,7 @@ describe('DropdownButton', () => {
     ];
     const { container } = render(<DropdownButton open autoFocus menu={{ items }} />);
     await waitFakeTimer();
-    expect(container.querySelector('.ant-dropdown-menu-item-active')).toBeTruthy();
+    expect(container.querySelector('.g-dropdown-menu-item-active')).toBeTruthy();
   });
 
   it('legacy destroyPopupOnHide with Dropdown.Button', () => {

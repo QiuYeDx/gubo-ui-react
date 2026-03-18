@@ -23,7 +23,7 @@ import SplitBar from '../SplitBar';
 type PanelProps = GetProps<typeof Splitter.Panel>;
 
 const resizeSplitter = async () => {
-  triggerResize(document.body.querySelector<HTMLElement>('.ant-splitter')!);
+  triggerResize(document.body.querySelector<HTMLElement>('.g-splitter')!);
   await waitFakeTimer();
 };
 
@@ -72,9 +72,9 @@ describe('Splitter', () => {
 
   it('should correct render', () => {
     const { container } = render(<SplitterDemo />);
-    expect(container.querySelector('.ant-splitter')).toBeTruthy();
-    expect(container.querySelectorAll('.ant-splitter-panel')).toHaveLength(2);
-    expect(container.querySelector('.ant-splitter-bar')).toBeTruthy();
+    expect(container.querySelector('.g-splitter')).toBeTruthy();
+    expect(container.querySelectorAll('.g-splitter-panel')).toHaveLength(2);
+    expect(container.querySelector('.g-splitter-bar')).toBeTruthy();
   });
 
   it('should correct render panel size', async () => {
@@ -82,7 +82,7 @@ describe('Splitter', () => {
 
     await resizeSplitter();
 
-    const panels = container.querySelectorAll('.ant-splitter-panel');
+    const panels = container.querySelectorAll('.g-splitter-panel');
 
     expect(panels?.[0]).toHaveStyle('flex-basis: 20px');
     expect(panels?.[1]).toHaveStyle('flex-basis: 45px');
@@ -95,7 +95,7 @@ describe('Splitter', () => {
       const { container } = render(
         <SplitterDemo items={[{}, {}]} onDraggerDoubleClick={onDraggerDoubleClick} />,
       );
-      const dragger = container.querySelector('.ant-splitter-bar-dragger')!;
+      const dragger = container.querySelector('.g-splitter-bar-dragger')!;
 
       fireEvent.doubleClick(dragger);
 
@@ -114,7 +114,7 @@ describe('Splitter', () => {
       const { container } = render(
         <SplitterDemo items={[{}, {}]} onDraggerDoubleClick={onDraggerDoubleClick} />,
       );
-      const dragger = container.querySelector('.ant-splitter-bar-dragger')!;
+      const dragger = container.querySelector('.g-splitter-bar-dragger')!;
 
       fireEvent.mouseDown(dragger);
       fireEvent.mouseUp(dragger);
@@ -137,7 +137,7 @@ describe('Splitter', () => {
         <SplitterDemo items={[{}, {}, {}]} onDraggerDoubleClick={onDraggerDoubleClick} />,
       );
 
-      const draggers = container.querySelectorAll('.ant-splitter-bar-dragger');
+      const draggers = container.querySelectorAll('.g-splitter-bar-dragger');
       const secondDragger = draggers[1];
 
       fireEvent.doubleClick(secondDragger);
@@ -170,7 +170,7 @@ describe('Splitter', () => {
       );
 
       const innerWrapper = getByTestId('inner-wrapper');
-      const innerDragger = innerWrapper.querySelector('.ant-splitter-bar-dragger')!;
+      const innerDragger = innerWrapper.querySelector('.g-splitter-bar-dragger')!;
 
       fireEvent.doubleClick(innerDragger);
       act(() => {
@@ -189,8 +189,8 @@ describe('Splitter', () => {
         <SplitBar
           index={0}
           active={false}
-          prefixCls="ant-splitter"
-          rootPrefixCls="ant"
+          prefixCls="g-splitter"
+          rootPrefixCls="g"
           resizable
           vertical={false}
           startCollapsible
@@ -208,7 +208,7 @@ describe('Splitter', () => {
         />,
       );
 
-      const dragger = container.querySelector('.ant-splitter-bar-dragger')!;
+      const dragger = container.querySelector('.g-splitter-bar-dragger')!;
 
       fireEvent.mouseDown(dragger);
 
@@ -228,22 +228,22 @@ describe('Splitter', () => {
 
   it('The layout should work fine', () => {
     const { container, rerender } = render(<SplitterDemo />);
-    expect(container.querySelector('.ant-splitter-horizontal')).toBeTruthy();
+    expect(container.querySelector('.g-splitter-horizontal')).toBeTruthy();
 
     rerender(<SplitterDemo items={[{}, {}, {}]} orientation="vertical" />);
-    expect(container.querySelector('.ant-splitter-vertical')).toBeTruthy();
+    expect(container.querySelector('.g-splitter-vertical')).toBeTruthy();
   });
 
   it('The resizable should work fine', () => {
     const { container, rerender } = render(
       <SplitterDemo items={[{ size: 20 }, { resizable: false }, {}]} />,
     );
-    expect(container.querySelectorAll('.ant-splitter-bar-dragger')).toHaveLength(2);
-    expect(container.querySelectorAll('.ant-splitter-bar-dragger-disabled')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-splitter-bar-dragger')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-splitter-bar-dragger-disabled')).toHaveLength(2);
 
     rerender(<SplitterDemo items={[{ size: 20 }, {}, { resizable: false }]} />);
-    expect(container.querySelectorAll('.ant-splitter-bar-dragger')).toHaveLength(2);
-    expect(container.querySelectorAll('.ant-splitter-bar-dragger-disabled')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-splitter-bar-dragger')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-splitter-bar-dragger-disabled')).toHaveLength(1);
   });
 
   it('Splitter.Panel is syntactic sugar', () => {
@@ -270,7 +270,7 @@ describe('Splitter', () => {
 
       // mask should exist
       if (container) {
-        expect(container.querySelector('.ant-splitter-mask')).toBeTruthy();
+        expect(container.querySelector('.g-splitter-mask')).toBeTruthy();
       }
 
       // Up
@@ -307,18 +307,18 @@ describe('Splitter', () => {
       await resizeSplitter();
 
       // Right
-      mockDrag(container.querySelector('.ant-splitter-bar-dragger')!, 40, container);
+      mockDrag(container.querySelector('.g-splitter-bar-dragger')!, 40, container);
       expect(onResize).toHaveBeenCalledWith([90, 10]);
       expect(onResizeEnd).toHaveBeenCalledTimes(1);
       expect(onResizeEnd).toHaveBeenCalledWith([90, 10]);
 
       // Left
-      mockDrag(container.querySelector('.ant-splitter-bar-dragger')!, -200);
+      mockDrag(container.querySelector('.g-splitter-bar-dragger')!, -200);
       expect(onResize).toHaveBeenCalledWith([0, 100]);
       expect(onResizeEnd).toHaveBeenCalledWith([0, 100]);
 
       // mask should hide
-      expect(container.querySelector('.ant-splitter-mask')).toBeFalsy();
+      expect(container.querySelector('.g-splitter-mask')).toBeFalsy();
     });
 
     it('The touchMove should work fine', async () => {
@@ -332,13 +332,13 @@ describe('Splitter', () => {
       await resizeSplitter();
 
       // Right
-      mockTouchDrag(container.querySelector('.ant-splitter-bar-dragger')!, 40);
+      mockTouchDrag(container.querySelector('.g-splitter-bar-dragger')!, 40);
       expect(onResize).toHaveBeenCalledWith([90, 10]);
       expect(onResizeEnd).toHaveBeenCalledTimes(1);
       expect(onResizeEnd).toHaveBeenCalledWith([90, 10]);
 
       // Left
-      mockTouchDrag(container.querySelector('.ant-splitter-bar-dragger')!, -200);
+      mockTouchDrag(container.querySelector('.g-splitter-bar-dragger')!, -200);
       expect(onResize).toHaveBeenCalledWith([0, 100]);
       expect(onResizeEnd).toHaveBeenCalledWith([0, 100]);
     });
@@ -353,7 +353,7 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      mockDrag(container.querySelector('.ant-splitter-bar-dragger')!, -100);
+      mockDrag(container.querySelector('.g-splitter-bar-dragger')!, -100);
       expect(onResize).toHaveBeenCalledWith([10, 90]);
       expect(onResizeEnd).toHaveBeenCalledWith([10, 90]);
     });
@@ -368,7 +368,7 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      mockDrag(container.querySelector('.ant-splitter-bar-dragger')!, 100);
+      mockDrag(container.querySelector('.g-splitter-bar-dragger')!, 100);
 
       expect(onResize).toHaveBeenCalledWith([90, 10]);
       expect(onResizeEnd).toHaveBeenCalledWith([90, 10]);
@@ -391,11 +391,11 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      mockDrag(container.querySelector('.ant-splitter-bar-dragger')!, -100);
+      mockDrag(container.querySelector('.g-splitter-bar-dragger')!, -100);
       expect(onResize).toHaveBeenCalledWith([20, 80]);
       expect(onResizeEnd).toHaveBeenCalledWith([20, 80]);
 
-      mockDrag(container.querySelector('.ant-splitter-bar-dragger')!, 100);
+      mockDrag(container.querySelector('.g-splitter-bar-dragger')!, 100);
       expect(onResize).toHaveBeenCalledWith([80, 20]);
       expect(onResizeEnd).toHaveBeenCalledWith([80, 20]);
     });
@@ -412,7 +412,7 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      mockDrag(container.querySelector('.ant-splitter-bar-dragger')!, -40);
+      mockDrag(container.querySelector('.g-splitter-bar-dragger')!, -40);
       expect(onResize).toHaveBeenCalledWith([90, 10]);
       expect(onResizeEnd).toHaveBeenCalledWith([90, 10]);
     });
@@ -431,7 +431,7 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      mockDrag(container.querySelectorAll<HTMLDivElement>('.ant-splitter-bar-dragger')[1], -100);
+      mockDrag(container.querySelectorAll<HTMLDivElement>('.g-splitter-bar-dragger')[1], -100);
       expect(onResize).toHaveBeenCalledWith([0, 50, 50]);
       expect(onResizeEnd).toHaveBeenCalledWith([0, 50, 50]);
     });
@@ -450,7 +450,7 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      mockDrag(container.querySelectorAll<HTMLDivElement>('.ant-splitter-bar-dragger')[1], -100);
+      mockDrag(container.querySelectorAll<HTMLDivElement>('.g-splitter-bar-dragger')[1], -100);
       expect(onResize).toHaveBeenCalledWith([50, 0, 50]);
       expect(onResizeEnd).toHaveBeenCalledWith([50, 0, 50]);
     });
@@ -464,8 +464,8 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      mockDrag(container.querySelectorAll<HTMLDivElement>('.ant-splitter-bar-dragger')[1], -100);
-      triggerResize(container.querySelector('.ant-splitter')!);
+      mockDrag(container.querySelectorAll<HTMLDivElement>('.g-splitter-bar-dragger')[1], -100);
+      triggerResize(container.querySelector('.g-splitter')!);
       await act(async () => {
         await waitFakeTimer();
       });
@@ -489,9 +489,9 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-icon')).toHaveLength(2);
-      expect(container.querySelector('.ant-splitter-bar-collapse-start')).toBeTruthy();
-      expect(container.querySelector('.ant-splitter-bar-collapse-end')).toBeTruthy();
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-icon')).toHaveLength(2);
+      expect(container.querySelector('.g-splitter-bar-collapse-start')).toBeTruthy();
+      expect(container.querySelector('.g-splitter-bar-collapse-end')).toBeTruthy();
 
       // support collapsible is object
       rerender(
@@ -509,8 +509,8 @@ describe('Splitter', () => {
         />,
       );
 
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-start')).toHaveLength(2);
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-end')).toHaveLength(1);
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-start')).toHaveLength(2);
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-end')).toHaveLength(1);
     });
 
     it('collapsible - true', async () => {
@@ -533,7 +533,7 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-start')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-start')!);
       expect(onResize).toHaveBeenCalledWith([0, 100]);
       expect(onResizeEnd).toHaveBeenCalledWith([0, 100]);
     });
@@ -561,10 +561,10 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      expect(container.querySelector('.ant-splitter-bar-collapse-start')).toBeFalsy();
-      expect(container.querySelector('.ant-splitter-bar-collapse-end')).toBeTruthy();
+      expect(container.querySelector('.g-splitter-bar-collapse-start')).toBeFalsy();
+      expect(container.querySelector('.g-splitter-bar-collapse-end')).toBeTruthy();
 
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-end')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-end')!);
       expect(onResize).toHaveBeenCalledWith([60, 0, 40]);
       expect(onResizeEnd).toHaveBeenCalledWith([60, 0, 40]);
     });
@@ -592,10 +592,10 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      expect(container.querySelector('.ant-splitter-bar-collapse-start')).toBeTruthy();
-      expect(container.querySelector('.ant-splitter-bar-collapse-end')).toBeFalsy();
+      expect(container.querySelector('.g-splitter-bar-collapse-start')).toBeTruthy();
+      expect(container.querySelector('.g-splitter-bar-collapse-end')).toBeFalsy();
 
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-start')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-start')!);
       expect(onResize).toHaveBeenCalledWith([40, 0, 60]);
       expect(onResizeEnd).toHaveBeenCalledWith([40, 0, 60]);
     });
@@ -618,7 +618,7 @@ describe('Splitter', () => {
       );
       await resizeSplitter();
       expect(
-        container.querySelectorAll('.ant-splitter-bar-collapse-bar-always-visible'),
+        container.querySelectorAll('.g-splitter-bar-collapse-bar-always-visible'),
       ).toHaveLength(2);
 
       rerender(
@@ -638,7 +638,7 @@ describe('Splitter', () => {
       );
       await resizeSplitter();
       expect(
-        container.querySelectorAll('.ant-splitter-bar-collapse-bar-always-visible'),
+        container.querySelectorAll('.g-splitter-bar-collapse-bar-always-visible'),
       ).toHaveLength(1);
 
       rerender(
@@ -671,26 +671,26 @@ describe('Splitter', () => {
       await resizeSplitter();
 
       expect(
-        container.querySelectorAll('.ant-splitter-bar-collapse-bar-always-visible'),
+        container.querySelectorAll('.g-splitter-bar-collapse-bar-always-visible'),
       ).toHaveLength(4);
-      fireEvent.click(container.querySelectorAll('.ant-splitter-bar-collapse-start')[0]);
+      fireEvent.click(container.querySelectorAll('.g-splitter-bar-collapse-start')[0]);
       expect(
-        container.querySelectorAll('.ant-splitter-bar-collapse-bar-always-visible'),
+        container.querySelectorAll('.g-splitter-bar-collapse-bar-always-visible'),
       ).toHaveLength(3);
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-bar-end')).toHaveLength(2);
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-bar-start')).toHaveLength(1);
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-end')).toHaveLength(2);
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-start')).toHaveLength(1);
 
-      fireEvent.click(container.querySelectorAll('.ant-splitter-bar-collapse-end')[0]);
-      fireEvent.click(container.querySelectorAll('.ant-splitter-bar-collapse-end')[0]);
+      fireEvent.click(container.querySelectorAll('.g-splitter-bar-collapse-end')[0]);
+      fireEvent.click(container.querySelectorAll('.g-splitter-bar-collapse-end')[0]);
       expect(
-        container.querySelectorAll('.ant-splitter-bar-collapse-bar-always-visible'),
+        container.querySelectorAll('.g-splitter-bar-collapse-bar-always-visible'),
       ).toHaveLength(2);
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-bar-start')).toHaveLength(1);
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-bar-end')).toHaveLength(1);
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-start')).toHaveLength(1);
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-end')).toHaveLength(1);
 
-      fireEvent.click(container.querySelectorAll('.ant-splitter-bar-collapse-end')[0]);
+      fireEvent.click(container.querySelectorAll('.g-splitter-bar-collapse-end')[0]);
       expect(
-        container.querySelectorAll('.ant-splitter-bar-collapse-bar-always-visible'),
+        container.querySelectorAll('.g-splitter-bar-collapse-bar-always-visible'),
       ).toHaveLength(4);
     });
 
@@ -716,9 +716,9 @@ describe('Splitter', () => {
         />,
       );
       await resizeSplitter();
-      expect(
-        container.querySelectorAll('.ant-splitter-bar-collapse-bar-always-hidden'),
-      ).toHaveLength(2);
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-always-hidden')).toHaveLength(
+        2,
+      );
 
       rerender(
         <SplitterDemo
@@ -750,9 +750,9 @@ describe('Splitter', () => {
       );
 
       await resizeSplitter();
-      expect(
-        container.querySelectorAll('.ant-splitter-bar-collapse-bar-always-hidden'),
-      ).toHaveLength(2);
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-always-hidden')).toHaveLength(
+        2,
+      );
     });
 
     it('collapsible - showCollapsibleIcon:auto', async () => {
@@ -769,9 +769,7 @@ describe('Splitter', () => {
         />,
       );
       await resizeSplitter();
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-bar-hover-only')).toHaveLength(
-        2,
-      );
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-hover-only')).toHaveLength(2);
 
       rerender(
         <SplitterDemo
@@ -787,9 +785,7 @@ describe('Splitter', () => {
         />,
       );
       await resizeSplitter();
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-bar-hover-only')).toHaveLength(
-        1,
-      );
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-hover-only')).toHaveLength(1);
 
       rerender(
         <SplitterDemo
@@ -807,9 +803,7 @@ describe('Splitter', () => {
         />,
       );
       await resizeSplitter();
-      expect(container.querySelectorAll('.ant-splitter-bar-collapse-bar-hover-only')).toHaveLength(
-        2,
-      );
+      expect(container.querySelectorAll('.g-splitter-bar-collapse-bar-hover-only')).toHaveLength(2);
     });
 
     it('both collapsible', async () => {
@@ -842,10 +836,10 @@ describe('Splitter', () => {
         expect(onResizeEnd).toHaveBeenCalledWith(size);
       }
 
-      expectClick(container.querySelector('.ant-splitter-bar-collapse-start')!, [0, 100]);
-      expectClick(container.querySelector('.ant-splitter-bar-collapse-end')!, [50, 50]);
-      expectClick(container.querySelector('.ant-splitter-bar-collapse-end')!, [100, 0]);
-      expectClick(container.querySelector('.ant-splitter-bar-collapse-start')!, [50, 50]);
+      expectClick(container.querySelector('.g-splitter-bar-collapse-start')!, [0, 100]);
+      expectClick(container.querySelector('.g-splitter-bar-collapse-end')!, [50, 50]);
+      expectClick(container.querySelector('.g-splitter-bar-collapse-end')!, [100, 0]);
+      expectClick(container.querySelector('.g-splitter-bar-collapse-start')!, [50, 50]);
     });
 
     it('collapsible with cache', async () => {
@@ -873,26 +867,26 @@ describe('Splitter', () => {
       await resizeSplitter();
 
       // Collapse left
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-start')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-start')!);
       expect(onResize).toHaveBeenCalledWith([0, 100]);
       expect(onResizeEnd).toHaveBeenCalledWith([0, 100]);
-      expect(container.querySelector('.ant-splitter-bar-dragger-disabled')).toBeTruthy();
+      expect(container.querySelector('.g-splitter-bar-dragger-disabled')).toBeTruthy();
 
       // Collapse back
       onResize.mockReset();
       onResizeEnd.mockReset();
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-end')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-end')!);
       expect(onResize).toHaveBeenCalledWith([20, 80]);
       expect(onResizeEnd).toHaveBeenCalledWith([20, 80]);
-      expect(container.querySelector('.ant-splitter-bar-dragger-disabled')).toBeFalsy();
+      expect(container.querySelector('.g-splitter-bar-dragger-disabled')).toBeFalsy();
 
       // Collapse right
       onResize.mockReset();
       onResizeEnd.mockReset();
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-end')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-end')!);
       expect(onResize).toHaveBeenCalledWith([100, 0]);
       expect(onResizeEnd).toHaveBeenCalledWith([100, 0]);
-      expect(container.querySelector('.ant-splitter-bar-dragger-disabled')).toBeTruthy();
+      expect(container.querySelector('.g-splitter-bar-dragger-disabled')).toBeTruthy();
     });
 
     it('collapsible with fallback', async () => {
@@ -921,21 +915,21 @@ describe('Splitter', () => {
       await resizeSplitter();
 
       // Collapse left
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-start')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-start')!);
       expect(onResize).toHaveBeenCalledWith([0, 500]);
       expect(onResizeEnd).toHaveBeenCalledWith([0, 500]);
 
       // Collapse back
       onResize.mockReset();
       onResizeEnd.mockReset();
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-end')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-end')!);
       expect(onResize).toHaveBeenCalledWith([100, 400]);
       expect(onResizeEnd).toHaveBeenCalledWith([100, 400]);
 
       // Collapse right
       onResize.mockReset();
       onResizeEnd.mockReset();
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-end')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-end')!);
       expect(onResize).toHaveBeenCalledWith([500, 0]);
       expect(onResizeEnd).toHaveBeenCalledWith([500, 0]);
     });
@@ -966,21 +960,21 @@ describe('Splitter', () => {
       await resizeSplitter();
 
       // Collapse left
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-start')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-start')!);
       expect(onResize).toHaveBeenCalledWith([0, 440]);
       expect(onResizeEnd).toHaveBeenCalledWith([0, 440]);
 
       // Collapse back
       onResize.mockReset();
       onResizeEnd.mockReset();
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-end')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-end')!);
       expect(onResize).toHaveBeenCalledWith([150, 290]);
       expect(onResizeEnd).toHaveBeenCalledWith([150, 290]);
 
       // Collapse right
       onResize.mockReset();
       onResizeEnd.mockReset();
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-end')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-end')!);
       expect(onResize).toHaveBeenCalledWith([440, 0]);
       expect(onResizeEnd).toHaveBeenCalledWith([440, 0]);
     });
@@ -996,11 +990,11 @@ describe('Splitter', () => {
 
       await resizeSplitter();
 
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-start')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-start')!);
       expect(onCollapse).toHaveBeenCalledTimes(1);
       expect(onCollapse).toHaveBeenCalledWith([true, false], [0, 100]);
 
-      fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-end')!);
+      fireEvent.click(container.querySelector('.g-splitter-bar-collapse-end')!);
       expect(onCollapse).toHaveBeenCalledTimes(2);
       expect(onCollapse).toHaveBeenCalledWith([false, false], [50, 50]);
     });
@@ -1022,13 +1016,13 @@ describe('Splitter', () => {
       />,
     );
 
-    triggerResize(container.querySelector('.ant-splitter')!);
+    triggerResize(container.querySelector('.g-splitter')!);
 
     await act(async () => {
       await waitFakeTimer();
     });
 
-    fireEvent.click(container.querySelector('.ant-splitter-bar-collapse-start')!);
+    fireEvent.click(container.querySelector('.g-splitter-bar-collapse-start')!);
     expect(onResize).toHaveBeenCalledWith([0, 200]);
   });
 
@@ -1038,10 +1032,10 @@ describe('Splitter', () => {
       const { container } = render(
         <SplitterDemo draggerIcon={<ColumnWidthOutlined className="customize-dragger-icon" />} />,
       );
-      const draggerEle = container.querySelector('.ant-splitter-bar-dragger')!;
+      const draggerEle = container.querySelector('.g-splitter-bar-dragger')!;
 
-      expect(draggerEle).toHaveClass('ant-splitter-bar-dragger-customize');
-      expect(draggerEle.querySelector('.ant-splitter-bar-dragger-icon')).toBeTruthy();
+      expect(draggerEle).toHaveClass('g-splitter-bar-dragger-customize');
+      expect(draggerEle.querySelector('.g-splitter-bar-dragger-icon')).toBeTruthy();
       expect(draggerEle.querySelector('.customize-dragger-icon')).toBeTruthy();
     });
 
@@ -1057,11 +1051,11 @@ describe('Splitter', () => {
       );
 
       await resizeSplitter();
-      const startEle = container.querySelector('.ant-splitter-bar-collapse-bar-start')!;
-      const endEle = container.querySelector('.ant-splitter-bar-collapse-bar-end')!;
+      const startEle = container.querySelector('.g-splitter-bar-collapse-bar-start')!;
+      const endEle = container.querySelector('.g-splitter-bar-collapse-bar-end')!;
 
-      expect(startEle).toHaveClass('ant-splitter-bar-collapse-bar-customize');
-      expect(endEle).toHaveClass('ant-splitter-bar-collapse-bar-customize');
+      expect(startEle).toHaveClass('g-splitter-bar-collapse-bar-customize');
+      expect(endEle).toHaveClass('g-splitter-bar-collapse-bar-customize');
 
       expect(startEle.querySelector('.customize-icon-start')).toBeTruthy();
       expect(endEle.querySelector('.customize-icon-end')).toBeTruthy();
@@ -1086,15 +1080,15 @@ describe('Splitter', () => {
         <SplitterDemo styles={customStyles} classNames={customClassNames} />,
       );
 
-      const root = container.querySelector('.ant-splitter');
+      const root = container.querySelector('.g-splitter');
       expect(root).toHaveStyle(customStyles.root);
       expect(root).toHaveClass(customClassNames.root);
 
-      const panel = container.querySelector('.ant-splitter-panel');
+      const panel = container.querySelector('.g-splitter-panel');
       expect(panel).toHaveStyle(customStyles.panel);
       expect(panel).toHaveClass(customClassNames.panel);
 
-      const dragger = container.querySelector('.ant-splitter-bar-dragger');
+      const dragger = container.querySelector('.g-splitter-bar-dragger');
       expect(dragger).toHaveStyle(customStyles.dragger);
       expect(dragger).toHaveClass(customClassNames.dragger.default);
       expect(dragger).not.toHaveClass(customClassNames.dragger.active);
@@ -1130,7 +1124,7 @@ describe('Splitter', () => {
           {...(params[2] && { layout: params[2] })}
         />,
       );
-      expect(container.querySelector<HTMLSpanElement>(`.ant-splitter-${expected}`)).toBeTruthy();
+      expect(container.querySelector<HTMLSpanElement>(`.g-splitter-${expected}`)).toBeTruthy();
       if (params[2]) {
         expect(errSpy).toHaveBeenCalledWith(
           'Warning: [antd: Splitter] `layout` is deprecated. Please use `orientation` instead.',

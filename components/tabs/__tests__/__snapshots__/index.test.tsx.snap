@@ -2,21 +2,21 @@
 
 exports[`Tabs renderTabBar custom-tab-bar 1`] = `
 <div
-  class="ant-tabs ant-tabs-top css-var-root ant-tabs-css-var"
+  class="g-tabs g-tabs-top css-var-root g-tabs-css-var"
 >
   <div>
     custom-tab-bar
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-1"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-1"
         role="tabpanel"
         tabindex="0"
@@ -30,28 +30,28 @@ exports[`Tabs renderTabBar custom-tab-bar 1`] = `
 
 exports[`Tabs rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-rtl css-var-root ant-tabs-css-var"
+  class="g-tabs g-tabs-top g-tabs-rtl css-var-root g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform: translate(0px, 0px);"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="xx"
         >
           <div
             aria-controls="rc-tabs-test-panel-xx"
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             id="rc-tabs-test-tab-xx"
             role="tab"
             tabindex="0"
@@ -60,25 +60,25 @@ exports[`Tabs rtl render component should be rendered correctly in RTL direction
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="rc-tabs-test-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="rc-tabs-test-more"
         style="visibility: hidden; order: 1;"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -99,15 +99,15 @@ exports[`Tabs rtl render component should be rendered correctly in RTL direction
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-xx"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-xx"
         role="tabpanel"
         tabindex="-1"
@@ -119,81 +119,81 @@ exports[`Tabs rtl render component should be rendered correctly in RTL direction
 
 exports[`Tabs tabBarGutter should work 1`] = `
 <div
-  class="ant-tabs ant-tabs-top css-var-root ant-tabs-css-var"
+  class="g-tabs g-tabs-top css-var-root g-tabs-css-var"
 >
   <div
     aria-orientation="horizontal"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform: translate(0px, 0px);"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="null"
         >
           <div
             aria-controls="rc-tabs-test-panel-null"
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             id="rc-tabs-test-tab-null"
             role="tab"
             tabindex="0"
           />
         </div>
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
-          data-node-key="null"
-          style="margin-inline-start: 0;"
-        >
-          <div
-            aria-controls="rc-tabs-test-panel-null"
-            aria-selected="true"
-            class="ant-tabs-tab-btn"
-            id="rc-tabs-test-tab-null"
-            role="tab"
-            tabindex="0"
-          />
-        </div>
-        <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="null"
           style="margin-inline-start: 0;"
         >
           <div
             aria-controls="rc-tabs-test-panel-null"
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             id="rc-tabs-test-tab-null"
             role="tab"
             tabindex="0"
           />
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-tab g-tabs-tab-active"
+          data-node-key="null"
+          style="margin-inline-start: 0;"
+        >
+          <div
+            aria-controls="rc-tabs-test-panel-null"
+            aria-selected="true"
+            class="g-tabs-tab-btn"
+            id="rc-tabs-test-tab-null"
+            role="tab"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="rc-tabs-test-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="rc-tabs-test-more"
         style="margin-inline-start: 0; visibility: hidden; order: 1;"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -214,15 +214,15 @@ exports[`Tabs tabBarGutter should work 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-top"
+      class="g-tabs-content g-tabs-content-top"
     >
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-null"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-null"
         role="tabpanel"
         tabindex="-1"
@@ -230,7 +230,7 @@ exports[`Tabs tabBarGutter should work 1`] = `
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-null"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-null"
         role="tabpanel"
         tabindex="-1"
@@ -238,7 +238,7 @@ exports[`Tabs tabBarGutter should work 1`] = `
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-null"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-null"
         role="tabpanel"
         tabindex="-1"
@@ -250,81 +250,81 @@ exports[`Tabs tabBarGutter should work 1`] = `
 
 exports[`Tabs tabBarGutter should work 2`] = `
 <div
-  class="ant-tabs ant-tabs-left css-var-root ant-tabs-css-var"
+  class="g-tabs g-tabs-left css-var-root g-tabs-css-var"
 >
   <div
     aria-orientation="vertical"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform: translate(0px, 0px);"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="null"
         >
           <div
             aria-controls="rc-tabs-test-panel-null"
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             id="rc-tabs-test-tab-null"
             role="tab"
             tabindex="0"
           />
         </div>
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
-          data-node-key="null"
-          style="margin-top: 0px;"
-        >
-          <div
-            aria-controls="rc-tabs-test-panel-null"
-            aria-selected="true"
-            class="ant-tabs-tab-btn"
-            id="rc-tabs-test-tab-null"
-            role="tab"
-            tabindex="0"
-          />
-        </div>
-        <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="null"
           style="margin-top: 0px;"
         >
           <div
             aria-controls="rc-tabs-test-panel-null"
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             id="rc-tabs-test-tab-null"
             role="tab"
             tabindex="0"
           />
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-tab g-tabs-tab-active"
+          data-node-key="null"
+          style="margin-top: 0px;"
+        >
+          <div
+            aria-controls="rc-tabs-test-panel-null"
+            aria-selected="true"
+            class="g-tabs-tab-btn"
+            id="rc-tabs-test-tab-null"
+            role="tab"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="rc-tabs-test-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="rc-tabs-test-more"
         style="margin-inline-start: 0; visibility: hidden; order: 1;"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -345,15 +345,15 @@ exports[`Tabs tabBarGutter should work 2`] = `
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-left"
+      class="g-tabs-content g-tabs-content-left"
     >
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-null"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-null"
         role="tabpanel"
         tabindex="-1"
@@ -361,7 +361,7 @@ exports[`Tabs tabBarGutter should work 2`] = `
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-null"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-null"
         role="tabpanel"
         tabindex="-1"
@@ -369,7 +369,7 @@ exports[`Tabs tabBarGutter should work 2`] = `
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-null"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-null"
         role="tabpanel"
         tabindex="-1"
@@ -381,28 +381,28 @@ exports[`Tabs tabBarGutter should work 2`] = `
 
 exports[`Tabs tabPosition remove card 1`] = `
 <div
-  class="ant-tabs ant-tabs-left css-var-root ant-tabs-css-var"
+  class="g-tabs g-tabs-left css-var-root g-tabs-css-var"
 >
   <div
     aria-orientation="vertical"
-    class="ant-tabs-nav"
+    class="g-tabs-nav"
     role="tablist"
   >
     <div
-      class="ant-tabs-nav-wrap"
+      class="g-tabs-nav-wrap"
     >
       <div
-        class="ant-tabs-nav-list"
+        class="g-tabs-nav-list"
         style="transform: translate(0px, 0px);"
       >
         <div
-          class="ant-tabs-tab ant-tabs-tab-active"
+          class="g-tabs-tab g-tabs-tab-active"
           data-node-key="1"
         >
           <div
             aria-controls="rc-tabs-test-panel-1"
             aria-selected="true"
-            class="ant-tabs-tab-btn"
+            class="g-tabs-tab-btn"
             id="rc-tabs-test-tab-1"
             role="tab"
             tabindex="0"
@@ -411,25 +411,25 @@ exports[`Tabs tabPosition remove card 1`] = `
           </div>
         </div>
         <div
-          class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+          class="g-tabs-ink-bar g-tabs-ink-bar-animated"
         />
       </div>
     </div>
     <div
-      class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+      class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
     >
       <button
         aria-controls="rc-tabs-test-more-popup"
         aria-expanded="false"
         aria-haspopup="listbox"
-        class="ant-tabs-nav-more"
+        class="g-tabs-nav-more"
         id="rc-tabs-test-more"
         style="visibility: hidden; order: 1;"
         type="button"
       >
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -449,21 +449,21 @@ exports[`Tabs tabPosition remove card 1`] = `
       </button>
     </div>
     <div
-      class="ant-tabs-extra-content"
+      class="g-tabs-extra-content"
     >
       xxx
     </div>
   </div>
   <div
-    class="ant-tabs-content-holder"
+    class="g-tabs-content-holder"
   >
     <div
-      class="ant-tabs-content ant-tabs-content-left"
+      class="g-tabs-content g-tabs-content-left"
     >
       <div
         aria-hidden="false"
         aria-labelledby="rc-tabs-test-tab-1"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="g-tabs-tabpane g-tabs-tabpane-active"
         id="rc-tabs-test-panel-1"
         role="tabpanel"
         tabindex="0"

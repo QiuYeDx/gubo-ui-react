@@ -8,6 +8,6 @@ demoTest('time-picker', {
 });
 
 rootPropsTest('time-picker', (TimePicker, props) => <TimePicker {...props} value={dayjs()} />, {
-  findRootElements: () => document.querySelectorAll('.ant-picker, .ant-picker-dropdown'),
+  findRootElements: () => document.querySelectorAll('.g-picker, .g-picker-dropdown'),
   expectCount: 2,
 });

@@ -2,21 +2,21 @@
 
 exports[`FloatButtonGroup should correct render 1`] = `
 <div
-  class="ant-float-btn-group css-var-root ant-float-btn-css-var ant-float-btn-group-individual"
+  class="g-float-btn-group css-var-root g-float-btn-css-var g-float-btn-group-individual"
 >
   <div
-    class="ant-float-btn-group-list ant-flex css-var-root ant-flex-align-stretch ant-flex-vertical"
+    class="g-float-btn-group-list g-flex css-var-root g-flex-align-stretch g-flex-vertical"
   >
     <button
-      class="ant-btn css-var-root ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg css-var-root ant-float-btn-css-var ant-float-btn ant-float-btn-default ant-float-btn-circle ant-float-btn-individual ant-float-btn-icon-only"
+      class="g-btn css-var-root g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg css-var-root g-float-btn-css-var g-float-btn g-float-btn-default g-float-btn-circle g-float-btn-individual g-float-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-float-btn-icon"
+        class="g-btn-icon g-float-btn-icon"
       >
         <span
           aria-label="file-text"
-          class="anticon anticon-file-text"
+          class="gicon gicon-file-text"
           role="img"
         >
           <svg
@@ -36,15 +36,15 @@ exports[`FloatButtonGroup should correct render 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg css-var-root ant-float-btn-css-var ant-float-btn ant-float-btn-default ant-float-btn-circle ant-float-btn-individual ant-float-btn-icon-only"
+      class="g-btn css-var-root g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg css-var-root g-float-btn-css-var g-float-btn g-float-btn-default g-float-btn-circle g-float-btn-individual g-float-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-float-btn-icon"
+        class="g-btn-icon g-float-btn-icon"
       >
         <span
           aria-label="file-text"
-          class="anticon anticon-file-text"
+          class="gicon gicon-file-text"
           role="img"
         >
           <svg
@@ -64,15 +64,15 @@ exports[`FloatButtonGroup should correct render 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-lg css-var-root ant-float-btn-css-var ant-float-btn ant-float-btn-default ant-float-btn-circle ant-float-btn-individual ant-float-btn-icon-only"
+      class="g-btn css-var-root g-btn-circle g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-lg css-var-root g-float-btn-css-var g-float-btn g-float-btn-default g-float-btn-circle g-float-btn-individual g-float-btn-icon-only"
       type="button"
     >
       <span
-        class="ant-btn-icon ant-float-btn-icon"
+        class="g-btn-icon g-float-btn-icon"
       >
         <span
           aria-label="file-text"
-          class="anticon anticon-file-text"
+          class="gicon gicon-file-text"
           role="img"
         >
           <svg

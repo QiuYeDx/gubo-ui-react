@@ -39,14 +39,14 @@ describe('Tag', () => {
   it('should be closable', () => {
     const onClose = jest.fn();
     const { container } = render(<Tag closable onClose={onClose} />);
-    expect(container.querySelectorAll('.anticon-close').length).toBe(1);
-    expect(container.querySelectorAll('.ant-tag:not(.ant-tag-hidden)').length).toBe(1);
-    fireEvent.click(container.querySelectorAll('.anticon-close')[0]);
+    expect(container.querySelectorAll('.gicon-close').length).toBe(1);
+    expect(container.querySelectorAll('.g-tag:not(.g-tag-hidden)').length).toBe(1);
+    fireEvent.click(container.querySelectorAll('.gicon-close')[0]);
     expect(onClose).toHaveBeenCalled();
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelectorAll('.ant-tag:not(.ant-tag-hidden)').length).toBe(0);
+    expect(container.querySelectorAll('.g-tag:not(.g-tag-hidden)').length).toBe(0);
   });
 
   it('should not be closed when prevent default', () => {
@@ -54,13 +54,13 @@ describe('Tag', () => {
       e.preventDefault();
     };
     const { container } = render(<Tag closable onClose={onClose} />);
-    expect(container.querySelectorAll('.anticon-close').length).toBe(1);
-    expect(container.querySelectorAll('.ant-tag:not(.ant-tag-hidden)').length).toBe(1);
-    fireEvent.click(container.querySelectorAll('.anticon-close')[0]);
+    expect(container.querySelectorAll('.gicon-close').length).toBe(1);
+    expect(container.querySelectorAll('.g-tag:not(.g-tag-hidden)').length).toBe(1);
+    fireEvent.click(container.querySelectorAll('.gicon-close')[0]);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelectorAll('.ant-tag:not(.ant-tag-hidden)').length).toBe(1);
+    expect(container.querySelectorAll('.g-tag:not(.g-tag-hidden)').length).toBe(1);
   });
 
   it('show close button by closeIcon', () => {
@@ -81,19 +81,19 @@ describe('Tag', () => {
       </>,
     );
 
-    expect(container.querySelectorAll('.ant-tag-close-icon').length).toBe(6);
+    expect(container.querySelectorAll('.g-tag-close-icon').length).toBe(6);
     ['tag1', 'tag2', 'tag3', 'tag4', 'tag9', 'tag10'].forEach((tag) => {
-      expect(container.querySelector(`.${tag} .ant-tag-close-icon`)).toBeTruthy();
+      expect(container.querySelector(`.${tag} .g-tag-close-icon`)).toBeTruthy();
     });
     ['tag5', 'tag6', 'tag7', 'tag8', 'tag11', 'tag12'].forEach((tag) => {
-      expect(container.querySelector(`.${tag} .ant-tag-close-icon`)).toBeFalsy();
+      expect(container.querySelector(`.${tag} .g-tag-close-icon`)).toBeFalsy();
     });
   });
 
   it('should trigger onClick on Tag', () => {
     const onClick = jest.fn();
     const { container } = render(<Tag onClick={onClick} />);
-    const tagElement = container.querySelector<HTMLSpanElement>('.ant-tag')!;
+    const tagElement = container.querySelector<HTMLSpanElement>('.g-tag')!;
     fireEvent.click(tagElement);
     expect(onClick).toHaveBeenCalled();
   });
@@ -101,7 +101,7 @@ describe('Tag', () => {
   it('should trigger onClick on Tag.CheckableTag', () => {
     const onClick = jest.fn();
     const { container } = render(<Tag.CheckableTag checked={false} onClick={onClick} />);
-    const tagElement = container.querySelector<HTMLSpanElement>('.ant-tag')!;
+    const tagElement = container.querySelector<HTMLSpanElement>('.g-tag')!;
     fireEvent.click(tagElement);
     expect(onClick).toHaveBeenCalled();
   });
@@ -111,28 +111,28 @@ describe('Tag', () => {
     const onClose = jest.fn();
     const onClick = jest.fn();
     const { container } = render(<Tag closable onClose={onClose} onClick={onClick} />);
-    fireEvent.click(container.querySelectorAll('.anticon-close')[0]);
+    fireEvent.click(container.querySelectorAll('.gicon-close')[0]);
     expect(onClose).toHaveBeenCalled();
     expect(onClick).not.toHaveBeenCalled();
   });
 
   it('should only render icon when no children', () => {
     const { container } = render(<Tag icon={<CheckCircleOutlined />} />);
-    expect(container.querySelector('.ant-tag ')?.childElementCount).toBe(1);
+    expect(container.querySelector('.g-tag ')?.childElementCount).toBe(1);
   });
 
   describe('disabled', () => {
     it('should not trigger onClick when disabled', () => {
       const onClick = jest.fn();
       const { container } = render(<Tag disabled onClick={onClick} />);
-      fireEvent.click(container.querySelector('.ant-tag')!);
+      fireEvent.click(container.querySelector('.g-tag')!);
       expect(onClick).not.toHaveBeenCalled();
     });
 
     it('should not trigger onClose when disabled', () => {
       const onClose = jest.fn();
       const { container } = render(<Tag disabled closable onClose={onClose} />);
-      fireEvent.click(container.querySelector('.ant-tag-close-icon')!);
+      fireEvent.click(container.querySelector('.g-tag-close-icon')!);
       expect(onClose).not.toHaveBeenCalled();
     });
 
@@ -151,7 +151,7 @@ describe('Tag', () => {
 
     it('should render correctly when disabled', () => {
       const { container } = render(<Tag disabled>Disabled Tag</Tag>);
-      expect(container.querySelector('.ant-tag-disabled')).toBeTruthy();
+      expect(container.querySelector('.g-tag-disabled')).toBeTruthy();
     });
 
     it('should not trigger onClose and onClick when click closeIcon and disabled', () => {
@@ -167,7 +167,7 @@ describe('Tag', () => {
         />,
       );
 
-      fireEvent.click(container.querySelector('.ant-tag-close-icon')!);
+      fireEvent.click(container.querySelector('.g-tag-close-icon')!);
       expect(onClose).not.toHaveBeenCalled();
       expect(onClick).not.toHaveBeenCalled();
     });
@@ -177,7 +177,7 @@ describe('Tag', () => {
     it('support onChange', () => {
       const onChange = jest.fn();
       const { container } = render(<Tag.CheckableTag checked={false} onChange={onChange} />);
-      fireEvent.click(container.querySelectorAll('.ant-tag')[0]);
+      fireEvent.click(container.querySelectorAll('.g-tag')[0]);
       expect(onChange).toHaveBeenCalledWith(true);
     });
 
@@ -189,7 +189,7 @@ describe('Tag', () => {
         </Tag.CheckableTag>,
       );
       const refElement = ref.current;
-      const queryTarget = container.querySelector('.ant-tag');
+      const queryTarget = container.querySelector('.g-tag');
       expect(refElement instanceof HTMLSpanElement).toBe(true);
       expect(refElement?.textContent).toBe('Tag Text');
       expect(queryTarget?.textContent).toBe('Tag Text');
@@ -198,7 +198,7 @@ describe('Tag', () => {
 
     it('should render icon', () => {
       const { container } = render(<Tag.CheckableTag icon={<LinkedinOutlined />} checked />);
-      expect(container.querySelector('.anticon')).toBeInTheDocument();
+      expect(container.querySelector('.gicon')).toBeInTheDocument();
     });
 
     it('should render custom icon', () => {
@@ -210,7 +210,7 @@ describe('Tag', () => {
 
     it('not render icon', () => {
       const { container } = render(<Tag.CheckableTag checked />);
-      expect(container.querySelector('.anticon')).not.toBeInTheDocument();
+      expect(container.querySelector('.gicon')).not.toBeInTheDocument();
     });
 
     it('should not trigger onChange when disabled', () => {
@@ -220,7 +220,7 @@ describe('Tag', () => {
           Checkable
         </Tag.CheckableTag>,
       );
-      fireEvent.click(container.querySelector('.ant-tag')!);
+      fireEvent.click(container.querySelector('.g-tag')!);
       expect(onChange).not.toHaveBeenCalled();
     });
 
@@ -230,7 +230,7 @@ describe('Tag', () => {
           Checkable
         </Tag.CheckableTag>,
       );
-      expect(container.querySelector('.ant-tag-checkable-disabled')).toBeTruthy();
+      expect(container.querySelector('.g-tag-checkable-disabled')).toBeTruthy();
 
       // Test checked state
       rerender(
@@ -238,8 +238,8 @@ describe('Tag', () => {
           Checkable
         </Tag.CheckableTag>,
       );
-      expect(container.querySelector('.ant-tag-checkable-checked')).toBeTruthy();
-      expect(container.querySelector('.ant-tag-checkable-disabled')).toBeTruthy();
+      expect(container.querySelector('.g-tag-checkable-checked')).toBeTruthy();
+      expect(container.querySelector('.g-tag-checkable-disabled')).toBeTruthy();
     });
 
     it('should handle context disabled state', () => {
@@ -252,23 +252,23 @@ describe('Tag', () => {
         </ConfigProvider>
       );
       const { container } = render(<Demo />);
-      expect(container.querySelector('.ant-tag-checkable-disabled')).toBeTruthy();
-      fireEvent.click(container.querySelector('.ant-tag')!);
+      expect(container.querySelector('.g-tag-checkable-disabled')).toBeTruthy();
+      fireEvent.click(container.querySelector('.g-tag')!);
       expect(onChange).not.toHaveBeenCalled();
     });
   });
   it('should onClick is undefined', async () => {
     const { container } = render(<Tag onClick={undefined} />);
-    fireEvent.click(container.querySelectorAll('.ant-tag')[0]);
+    fireEvent.click(container.querySelectorAll('.g-tag')[0]);
     waitRaf();
-    expect(document.querySelector('.ant-wave')).toBeFalsy();
+    expect(document.querySelector('.g-wave')).toBeFalsy();
   });
   it('should support aria-* in closable', () => {
     const { container } = render(<Tag closable={{ closeIcon: 'X', 'aria-label': 'CloseBtn' }} />);
-    expect(container.querySelector('.ant-tag-close-icon')?.getAttribute('aria-label')).toEqual(
+    expect(container.querySelector('.g-tag-close-icon')?.getAttribute('aria-label')).toEqual(
       'CloseBtn',
     );
-    expect(container.querySelector('.ant-tag-close-icon')?.textContent).toEqual('X');
+    expect(container.querySelector('.g-tag-close-icon')?.textContent).toEqual('X');
   });
   it('should apply classNames and styles correctly', () => {
     const customClassNames = {
@@ -288,7 +288,7 @@ describe('Tag', () => {
       </Tag>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-tag');
+    const rootElement = container.querySelector<HTMLElement>('.g-tag');
 
     expect(rootElement).toHaveClass('custom-root');
     expect(rootElement).toHaveStyle({ backgroundColor: 'rgb(0, 255, 0)' });
@@ -312,14 +312,14 @@ describe('Tag', () => {
         tag
       </Tag>,
     );
-    const tagElement = container.querySelector('.ant-tag-solid');
+    const tagElement = container.querySelector('.g-tag-solid');
     expect(tagElement).not.toBeNull();
   });
 
   it('legacy color inverse', () => {
     const { container } = render(<Tag color="green-inverse">tag</Tag>);
 
-    expect(container.querySelector('.ant-tag-green')).toHaveClass('ant-tag-solid');
+    expect(container.querySelector('.g-tag-green')).toHaveClass('g-tag-solid');
   });
 
   describe('CheckableTagGroup', () => {
@@ -329,15 +329,15 @@ describe('Tag', () => {
       const { container } = render(
         <Tag.CheckableTagGroup defaultValue="foo" options={['foo', 'bar']} onChange={onChange} />,
       );
-      const checked = container.querySelector('.ant-tag-checkable-checked');
+      const checked = container.querySelector('.g-tag-checkable-checked');
       expect(checked).not.toBeNull();
 
       // Click
-      fireEvent.click(container.querySelectorAll('.ant-tag-checkable')[1]);
+      fireEvent.click(container.querySelectorAll('.g-tag-checkable')[1]);
       expect(onChange).toHaveBeenCalledWith('bar');
 
       // Click again
-      fireEvent.click(container.querySelectorAll('.ant-tag-checkable')[1]);
+      fireEvent.click(container.querySelectorAll('.g-tag-checkable')[1]);
       expect(onChange).toHaveBeenCalledWith(null);
     });
 
@@ -355,22 +355,22 @@ describe('Tag', () => {
           onChange={onChange}
         />,
       );
-      const checked = container.querySelector('.ant-tag-checkable-checked');
+      const checked = container.querySelector('.g-tag-checkable-checked');
       expect(checked).not.toBeNull();
 
       // Click
-      fireEvent.click(container.querySelectorAll('.ant-tag-checkable')[1]);
+      fireEvent.click(container.querySelectorAll('.g-tag-checkable')[1]);
       expect(onChange).toHaveBeenCalledWith(['foo']);
 
       // Click again
-      fireEvent.click(container.querySelectorAll('.ant-tag-checkable')[1]);
+      fireEvent.click(container.querySelectorAll('.g-tag-checkable')[1]);
       expect(onChange).toHaveBeenCalledWith(['foo', 'bar']);
     });
 
     it('id', () => {
       const { container } = render(<Tag.CheckableTagGroup id="test-id" />);
 
-      expect(container.querySelector('.ant-tag-checkable-group')?.id).toBe('test-id');
+      expect(container.querySelector('.g-tag-checkable-group')?.id).toBe('test-id');
     });
   });
 
@@ -391,12 +391,12 @@ describe('Tag', () => {
       </StyleProvider>,
     );
 
-    expect(document.head.innerHTML).toContain('--ant-tag-solid-text-color:#000;');
+    expect(document.head.innerHTML).toContain('--g-tag-solid-text-color:#000;');
   });
 
   it('legacy bordered={false}', () => {
     const { container } = render(<Tag bordered={false}>Tag</Tag>);
-    expect(container.querySelector('.ant-tag-filled')).toBeTruthy();
+    expect(container.querySelector('.g-tag-filled')).toBeTruthy();
   });
 
   it('should not override aria-label in custom closeIcon', () => {
@@ -443,7 +443,7 @@ describe('Tag', () => {
       </Tag>,
     );
 
-    const tagElement = container.querySelector('.ant-tag');
+    const tagElement = container.querySelector('.g-tag');
     const iconElement = container.querySelector('.custom-tag-icon');
     const contentElement = container.querySelector('.custom-tag-content');
 

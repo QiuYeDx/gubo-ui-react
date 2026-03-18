@@ -26,7 +26,7 @@ describe('Empty.Semantic', () => {
     );
 
     expect(container.querySelector('.empty-with-desc')).toBeTruthy();
-    expect(container.querySelector('.ant-empty')).toHaveStyle({ background: 'red' });
+    expect(container.querySelector('.g-empty')).toHaveStyle({ background: 'red' });
 
     rerender(
       <Empty classNames={classNames} styles={styles}>
@@ -34,7 +34,7 @@ describe('Empty.Semantic', () => {
       </Empty>,
     );
     expect(container.querySelector('.empty-no-desc')).toBeTruthy();
-    expect(container.querySelector('.ant-empty')).toHaveStyle({ background: 'blue' });
+    expect(container.querySelector('.g-empty')).toHaveStyle({ background: 'blue' });
   });
 
   it('should apply object classNames and styles', () => {

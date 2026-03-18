@@ -44,15 +44,15 @@ describe('Splitter.Semantic', () => {
       }),
     });
 
-    const splitterElement = container.querySelector('.ant-splitter');
+    const splitterElement = container.querySelector('.g-splitter');
     expect(splitterElement).toHaveClass('custom-root-horizontal');
 
-    const panelElements = container.querySelectorAll('.ant-splitter-panel');
+    const panelElements = container.querySelectorAll('.g-splitter-panel');
     panelElements.forEach((panel) => {
       expect(panel).toHaveClass('custom-panel');
     });
 
-    const draggerElement = container.querySelector('.ant-splitter-bar-dragger');
+    const draggerElement = container.querySelector('.g-splitter-bar-dragger');
     expect(draggerElement).toHaveClass('custom-dragger');
   });
 
@@ -76,15 +76,15 @@ describe('Splitter.Semantic', () => {
       props: expect.objectContaining({ orientation: 'vertical' }),
     });
 
-    const splitterElement = container.querySelector<HTMLElement>('.ant-splitter');
+    const splitterElement = container.querySelector<HTMLElement>('.g-splitter');
     expect(splitterElement).toHaveStyle({ backgroundColor: 'rgba(0, 0, 255, 0.5)' });
 
-    const panelElements = container.querySelectorAll<HTMLElement>('.ant-splitter-panel');
+    const panelElements = container.querySelectorAll<HTMLElement>('.g-splitter-panel');
     panelElements.forEach((panel) => {
       expect(panel).toHaveStyle({ padding: '10px' });
     });
 
-    const draggerElement = container.querySelector<HTMLElement>('.ant-splitter-bar-dragger');
+    const draggerElement = container.querySelector<HTMLElement>('.g-splitter-bar-dragger');
     expect(draggerElement).toHaveStyle({ width: '8px' });
   });
 
@@ -108,11 +108,11 @@ describe('Splitter.Semantic', () => {
     expect(classNamesFn).toHaveBeenCalled();
     expect(stylesFn).toHaveBeenCalled();
 
-    const splitterElement = container.querySelector<HTMLElement>('.ant-splitter');
+    const splitterElement = container.querySelector<HTMLElement>('.g-splitter');
     expect(splitterElement).toHaveClass('fn-root');
     expect(splitterElement).toHaveStyle({ color: 'rgb(255, 0, 0)' });
 
-    const panelElements = container.querySelectorAll<HTMLElement>('.ant-splitter-panel');
+    const panelElements = container.querySelectorAll<HTMLElement>('.g-splitter-panel');
 
     panelElements.forEach((panel) => {
       expect(panel).toHaveClass('fn-panel');
@@ -134,7 +134,7 @@ describe('Splitter.Semantic', () => {
 
     expect(classNamesFn).toHaveBeenCalled();
 
-    const draggerElement = container.querySelector('.ant-splitter-bar-dragger');
+    const draggerElement = container.querySelector('.g-splitter-bar-dragger');
     expect(draggerElement).toHaveClass('custom-dragger-default');
   });
 });

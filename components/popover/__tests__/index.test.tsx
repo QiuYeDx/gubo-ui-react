@@ -33,7 +33,7 @@ describe('Popover', () => {
         <span>show me your code</span>
       </Popover>,
     );
-    expect(container.querySelector('.ant-popover')).toBeTruthy();
+    expect(container.querySelector('.g-popover')).toBeTruthy();
   });
 
   it('shows content for render functions', () => {
@@ -46,7 +46,7 @@ describe('Popover', () => {
       </Popover>,
     );
     fireEvent.click(container.querySelector('span')!);
-    const popup = document.querySelector('.ant-popover')!;
+    const popup = document.querySelector('.g-popover')!;
     expect(popup).not.toBe(null);
     expect(popup.innerHTML).toContain('some-title');
     expect(popup.innerHTML).toContain('some-content');
@@ -61,7 +61,7 @@ describe('Popover', () => {
     );
     fireEvent.click(container.querySelector('span')!);
 
-    const popup = document.querySelector('.ant-popover');
+    const popup = document.querySelector('.g-popover');
     expect(popup).toBe(null);
   });
 
@@ -73,7 +73,7 @@ describe('Popover', () => {
     );
     fireEvent.click(container.querySelector('span')!);
 
-    const popup = document.querySelector('.ant-popover');
+    const popup = document.querySelector('.g-popover');
     expect(popup).toBe(null);
   });
 
@@ -132,7 +132,7 @@ describe('Popover', () => {
         </Popover>,
       );
       fireEvent.click(container.querySelector<HTMLSpanElement>('span')!);
-      const popup = document.querySelector('.ant-popover');
+      const popup = document.querySelector('.g-popover');
       expect(popup).toBe(null);
     });
   });
@@ -157,7 +157,7 @@ describe('Popover', () => {
       );
     };
     const { container } = render(<TooltipTestComponent />);
-    const getTooltipArrow = () => container.querySelector('.ant-popover-arrow');
+    const getTooltipArrow = () => container.querySelector('.g-popover-arrow');
     const configbtn = container.querySelector('.configArrow');
 
     expect(getTooltipArrow()).not.toBeNull();
@@ -186,7 +186,7 @@ describe('Popover', () => {
 
     const { container } = render(<TooltipTestComponent />);
 
-    const getTooltipArrow = () => container.querySelector('.ant-popover-arrow');
+    const getTooltipArrow = () => container.querySelector('.g-popover-arrow');
 
     const toggleArrowBtn = container.querySelector('.toggleArrow');
 

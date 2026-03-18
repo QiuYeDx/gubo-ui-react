@@ -2,37 +2,37 @@
 
 exports[`Card correct pass tabList props 1`] = `
 <div
-  class="ant-card ant-card-bordered ant-card-contain-tabs css-var-root"
+  class="g-card g-card-bordered g-card-contain-tabs css-var-root"
 >
   <div
-    class="ant-card-head"
+    class="g-card-head"
   >
     <div
-      class="ant-card-head-wrapper"
+      class="g-card-head-wrapper"
     />
     <div
-      class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-large ant-tabs-card ant-tabs-editable-card ant-card-head-tabs css-var-root ant-tabs-css-var"
+      class="g-tabs g-tabs-top g-tabs-editable g-tabs-large g-tabs-card g-tabs-editable-card g-card-head-tabs css-var-root g-tabs-css-var"
     >
       <div
         aria-orientation="horizontal"
-        class="ant-tabs-nav"
+        class="g-tabs-nav"
         role="tablist"
       >
         <div
-          class="ant-tabs-nav-wrap"
+          class="g-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-list"
+            class="g-tabs-nav-list"
             style="transform: translate(0px, 0px);"
           >
             <div
-              class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+              class="g-tabs-tab g-tabs-tab-with-remove g-tabs-tab-active"
               data-node-key="basic"
             >
               <div
                 aria-controls="rc-tabs-test-panel-basic"
                 aria-selected="true"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 id="rc-tabs-test-tab-basic"
                 role="tab"
                 tabindex="0"
@@ -41,13 +41,13 @@ exports[`Card correct pass tabList props 1`] = `
               </div>
               <button
                 aria-label="remove"
-                class="ant-tabs-tab-remove"
+                class="g-tabs-tab-remove"
                 tabindex="0"
                 type="button"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -68,13 +68,13 @@ exports[`Card correct pass tabList props 1`] = `
               </button>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-with-remove"
+              class="g-tabs-tab g-tabs-tab-with-remove"
               data-node-key="deprecated"
             >
               <div
                 aria-controls="rc-tabs-test-panel-deprecated"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 id="rc-tabs-test-tab-deprecated"
                 role="tab"
                 tabindex="-1"
@@ -83,13 +83,13 @@ exports[`Card correct pass tabList props 1`] = `
               </div>
               <button
                 aria-label="remove"
-                class="ant-tabs-tab-remove"
+                class="g-tabs-tab-remove"
                 tabindex="-1"
                 type="button"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -110,14 +110,14 @@ exports[`Card correct pass tabList props 1`] = `
               </button>
             </div>
             <div
-              class="ant-tabs-tab ant-tabs-tab-disabled"
+              class="g-tabs-tab g-tabs-tab-disabled"
               data-node-key="disabled"
             >
               <div
                 aria-controls="rc-tabs-test-panel-disabled"
                 aria-disabled="true"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 id="rc-tabs-test-tab-disabled"
                 role="tab"
               >
@@ -125,13 +125,13 @@ exports[`Card correct pass tabList props 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-tab"
+              class="g-tabs-tab"
               data-node-key="notClosable"
             >
               <div
                 aria-controls="rc-tabs-test-panel-notClosable"
                 aria-selected="false"
-                class="ant-tabs-tab-btn"
+                class="g-tabs-tab-btn"
                 id="rc-tabs-test-tab-notClosable"
                 role="tab"
                 tabindex="-1"
@@ -141,12 +141,12 @@ exports[`Card correct pass tabList props 1`] = `
             </div>
             <button
               aria-label="Add tab"
-              class="ant-tabs-nav-add"
+              class="g-tabs-nav-add"
               type="button"
             >
               <span
                 aria-label="plus"
-                class="anticon anticon-plus"
+                class="gicon gicon-plus"
                 role="img"
               >
                 <svg
@@ -168,25 +168,25 @@ exports[`Card correct pass tabList props 1`] = `
               </span>
             </button>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="g-tabs-ink-bar g-tabs-ink-bar-animated"
             />
           </div>
         </div>
         <div
-          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+          class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
         >
           <button
             aria-controls="rc-tabs-test-more-popup"
             aria-expanded="false"
             aria-haspopup="listbox"
-            class="ant-tabs-nav-more"
+            class="g-tabs-nav-more"
             id="rc-tabs-test-more"
             style="visibility: hidden; order: 1;"
             type="button"
           >
             <span
               aria-label="ellipsis"
-              class="anticon anticon-ellipsis"
+              class="gicon gicon-ellipsis"
               role="img"
             >
               <svg
@@ -206,12 +206,12 @@ exports[`Card correct pass tabList props 1`] = `
           </button>
           <button
             aria-label="Add tab"
-            class="ant-tabs-nav-add"
+            class="g-tabs-nav-add"
             type="button"
           >
             <span
               aria-label="plus"
-              class="anticon anticon-plus"
+              class="gicon gicon-plus"
               role="img"
             >
               <svg
@@ -235,15 +235,15 @@ exports[`Card correct pass tabList props 1`] = `
         </div>
       </div>
       <div
-        class="ant-tabs-content-holder"
+        class="g-tabs-content-holder"
       >
         <div
-          class="ant-tabs-content ant-tabs-content-top"
+          class="g-tabs-content g-tabs-content-top"
         >
           <div
             aria-hidden="false"
             aria-labelledby="rc-tabs-test-tab-basic"
-            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            class="g-tabs-tabpane g-tabs-tabpane-active"
             id="rc-tabs-test-panel-basic"
             role="tabpanel"
             tabindex="-1"
@@ -253,37 +253,37 @@ exports[`Card correct pass tabList props 1`] = `
     </div>
   </div>
   <div
-    class="ant-card-body"
+    class="g-card-body"
   />
 </div>
 `;
 
 exports[`Card rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-card ant-card-bordered ant-card-rtl css-var-root"
+  class="g-card g-card-bordered g-card-rtl css-var-root"
 >
   <div
-    class="ant-card-body"
+    class="g-card-body"
   />
 </div>
 `;
 
 exports[`Card should still have padding when card which set padding to 0 is loading 1`] = `
 <div
-  class="ant-card ant-card-loading ant-card-bordered css-var-root"
+  class="g-card g-card-loading g-card-bordered css-var-root"
 >
   <div
-    class="ant-card-body"
+    class="g-card-body"
     style="padding: 0px;"
   >
     <div
-      class="ant-skeleton ant-skeleton-active css-var-root"
+      class="g-skeleton g-skeleton-active css-var-root"
     >
       <div
-        class="ant-skeleton-section"
+        class="g-skeleton-section"
       >
         <ul
-          class="ant-skeleton-paragraph"
+          class="g-skeleton-paragraph"
         >
           <li />
           <li />
@@ -301,23 +301,23 @@ exports[`Card should still have padding when card which set padding to 0 is load
 exports[`Card should support left and right properties for tabBarExtraContent props 1`] = `
 <div>
   <div
-    class="ant-card ant-card-bordered css-var-root"
+    class="g-card g-card-bordered css-var-root"
   >
     <div
-      class="ant-card-head"
+      class="g-card-head"
     >
       <div
-        class="ant-card-head-wrapper"
+        class="g-card-head-wrapper"
       >
         <div
-          class="ant-card-head-title"
+          class="g-card-head-title"
         >
           Card title
         </div>
       </div>
     </div>
     <div
-      class="ant-card-body"
+      class="g-card-body"
     >
       <p>
         Card content
@@ -329,25 +329,25 @@ exports[`Card should support left and right properties for tabBarExtraContent pr
 
 exports[`Card title should be vertically aligned 1`] = `
 <div
-  class="ant-card ant-card-bordered css-var-root"
+  class="g-card g-card-bordered css-var-root"
   style="width: 300px;"
 >
   <div
-    class="ant-card-head"
+    class="g-card-head"
   >
     <div
-      class="ant-card-head-wrapper"
+      class="g-card-head-wrapper"
     >
       <div
-        class="ant-card-head-title"
+        class="g-card-head-title"
       >
         Card title
       </div>
       <div
-        class="ant-card-extra"
+        class="g-card-extra"
       >
         <button
-          class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+          class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
           type="button"
         >
           <span>
@@ -358,7 +358,7 @@ exports[`Card title should be vertically aligned 1`] = `
     </div>
   </div>
   <div
-    class="ant-card-body"
+    class="g-card-body"
   >
     <p>
       Card content

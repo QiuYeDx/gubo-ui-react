@@ -36,7 +36,7 @@ describe('Carousel', () => {
         <div />
       </Carousel>,
     );
-    expect(container.querySelector('.ant-carousel')?.getAttribute('id')).toBe('my-carousel');
+    expect(container.querySelector('.g-carousel')?.getAttribute('id')).toBe('my-carousel');
   });
 
   it('should has prev, next and go function', async () => {
@@ -202,7 +202,7 @@ describe('Carousel', () => {
           <div>3</div>
         </Carousel>,
       );
-      const ele = container.querySelector<HTMLElement>('.ant-carousel')!;
+      const ele = container.querySelector<HTMLElement>('.g-carousel')!;
       expect(getComputedStyle(ele).getPropertyValue('--dot-duration')).toBeFalsy();
     });
 
@@ -214,7 +214,7 @@ describe('Carousel', () => {
           <div>3</div>
         </Carousel>,
       );
-      const ele = container.querySelector<HTMLElement>('.ant-carousel')!;
+      const ele = container.querySelector<HTMLElement>('.g-carousel')!;
       expect(getComputedStyle(ele).getPropertyValue('--dot-duration')).toBe('3000ms');
     });
 
@@ -226,7 +226,7 @@ describe('Carousel', () => {
           <div>3</div>
         </Carousel>,
       );
-      const ele = container.querySelector<HTMLElement>('.ant-carousel')!;
+      const ele = container.querySelector<HTMLElement>('.g-carousel')!;
       expect(getComputedStyle(ele).getPropertyValue('--dot-duration')).toBe('5000ms');
     });
   });
@@ -296,7 +296,7 @@ describe('Carousel', () => {
         expectedVertical,
       }) => {
         const { container } = render(<Demo dotPlacement={placement} />);
-        const carousel = container.querySelector('.ant-carousel-vertical');
+        const carousel = container.querySelector('.g-carousel-vertical');
 
         if (expectedVertical) {
           expect(carousel).toBeTruthy();
@@ -318,7 +318,7 @@ describe('Carousel', () => {
         </ConfigProvider>,
       );
 
-      expect(container.querySelector('.ant-carousel-rtl')).toBeTruthy();
+      expect(container.querySelector('.g-carousel-rtl')).toBeTruthy();
 
       const prevArrow = container.querySelector<HTMLDivElement>('.slick-prev');
       const nextArrow = container.querySelector<HTMLDivElement>('.slick-next');

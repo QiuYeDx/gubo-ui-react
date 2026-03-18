@@ -40,13 +40,13 @@ describe('Slider', () => {
   it('should show tooltip when hovering slider handler', async () => {
     const { container } = render(<Slider defaultValue={30} />);
 
-    fireEvent.mouseEnter(container.querySelector('.ant-slider-handle')!);
+    fireEvent.mouseEnter(container.querySelector('.g-slider-handle')!);
     await waitFakeTimer();
-    expect(document.querySelector('.ant-tooltip')).toMatchSnapshot();
+    expect(document.querySelector('.g-tooltip')).toMatchSnapshot();
 
-    fireEvent.mouseLeave(container.querySelector('.ant-slider-handle')!);
+    fireEvent.mouseLeave(container.querySelector('.g-slider-handle')!);
     await waitFakeTimer();
-    expect(document.querySelector('.ant-tooltip')).toMatchSnapshot();
+    expect(document.querySelector('.g-tooltip')).toMatchSnapshot();
   });
 
   it('should show correct placement tooltip when set tooltipPlacement', () => {
@@ -54,7 +54,7 @@ describe('Slider', () => {
       <Slider vertical defaultValue={30} tooltip={{ placement: 'left' }} />,
     );
 
-    fireEvent.mouseEnter(container.querySelector('.ant-slider-handle')!);
+    fireEvent.mouseEnter(container.querySelector('.g-slider-handle')!);
     expect(tooltipProps().placement).toEqual('left');
   });
 
@@ -63,30 +63,30 @@ describe('Slider', () => {
       <Slider vertical defaultValue={30} tooltip={{ autoAdjustOverflow: false }} />,
     );
 
-    fireEvent.mouseEnter(container.querySelector('.ant-slider-handle')!);
+    fireEvent.mouseEnter(container.querySelector('.g-slider-handle')!);
     expect(tooltipProps().autoAdjustOverflow).toBe(false);
   });
 
   it('when tooltip.open is true, tooltip should show always, or should never show', () => {
     const { container: container1 } = render(<Slider defaultValue={30} tooltip={{ open: true }} />);
     expect(
-      container1.querySelector('.ant-tooltip-container')!.className.includes('ant-tooltip-hidden'),
+      container1.querySelector('.g-tooltip-container')!.className.includes('g-tooltip-hidden'),
     ).toBeFalsy();
 
-    fireEvent.mouseEnter(container1.querySelector('.ant-slider-handle')!);
+    fireEvent.mouseEnter(container1.querySelector('.g-slider-handle')!);
     expect(
-      container1.querySelector('.ant-tooltip-container')!.className.includes('ant-tooltip-hidden'),
+      container1.querySelector('.g-tooltip-container')!.className.includes('g-tooltip-hidden'),
     ).toBeFalsy();
 
-    fireEvent.click(container1.querySelector('.ant-slider-handle')!);
+    fireEvent.click(container1.querySelector('.g-slider-handle')!);
     expect(
-      container1.querySelector('.ant-tooltip-container')!.className.includes('ant-tooltip-hidden'),
+      container1.querySelector('.g-tooltip-container')!.className.includes('g-tooltip-hidden'),
     ).toBeFalsy();
 
     const { container: container2 } = render(
       <Slider defaultValue={30} tooltip={{ open: false }} />,
     );
-    expect(container2.querySelector('.ant-tooltip-container')!).toBeNull();
+    expect(container2.querySelector('.g-tooltip-container')!).toBeNull();
   });
 
   it('when step is null, thumb can only be slid to the specific mark', () => {
@@ -105,7 +105,7 @@ describe('Slider', () => {
         tooltip={{ open: true }}
       />,
     );
-    expect(container.querySelector('.ant-slider-handle')!.getAttribute('aria-valuenow')).toBe('48');
+    expect(container.querySelector('.g-slider-handle')!.getAttribute('aria-valuenow')).toBe('48');
   });
 
   it('when step is not null, thumb can be slid to the multiples of step', () => {
@@ -118,7 +118,7 @@ describe('Slider', () => {
     const { container } = render(
       <Slider marks={marks} defaultValue={49} step={1} tooltip={{ open: true }} />,
     );
-    expect(container.querySelector('.ant-slider-handle')!.getAttribute('aria-valuenow')).toBe('49');
+    expect(container.querySelector('.g-slider-handle')!.getAttribute('aria-valuenow')).toBe('49');
   });
 
   it('when step is undefined, thumb can be slid to the multiples of step', () => {
@@ -131,7 +131,7 @@ describe('Slider', () => {
     const { container } = render(
       <Slider marks={marks} defaultValue={49} step={undefined} tooltip={{ open: true }} />,
     );
-    expect(container.querySelector('.ant-slider-handle')!.getAttribute('aria-valuenow')).toBe('49');
+    expect(container.querySelector('.g-slider-handle')!.getAttribute('aria-valuenow')).toBe('49');
   });
 
   it('should render in RTL direction', () => {
@@ -191,11 +191,11 @@ describe('Slider', () => {
       />,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-slider');
-    const trackElement = container.querySelector<HTMLElement>('.ant-slider-track');
-    const tracksElement = container.querySelector<HTMLElement>('.ant-slider-tracks');
-    const railElement = container.querySelector<HTMLElement>('.ant-slider-rail');
-    const handleElement = container.querySelector<HTMLElement>('.ant-slider-handle');
+    const rootElement = container.querySelector<HTMLElement>('.g-slider');
+    const trackElement = container.querySelector<HTMLElement>('.g-slider-track');
+    const tracksElement = container.querySelector<HTMLElement>('.g-slider-tracks');
+    const railElement = container.querySelector<HTMLElement>('.g-slider-rail');
+    const handleElement = container.querySelector<HTMLElement>('.g-slider-handle');
 
     // check classNames
     expect(rootElement).toHaveClass('custom-root');
@@ -216,12 +216,12 @@ describe('Slider', () => {
   describe('orientation attribute', () => {
     it('vertical=true orientation=horizontal, result orientation=horizontal', () => {
       const { container } = render(<Slider vertical orientation="horizontal" step={20} />);
-      expect(container.querySelector<HTMLDivElement>('.ant-slider-horizontal')).not.toBeNull();
+      expect(container.querySelector<HTMLDivElement>('.g-slider-horizontal')).not.toBeNull();
     });
 
     it('orientation=vertical vertical=undefined, result orientation=vertical', () => {
       const { container } = render(<Slider orientation="vertical" step={20} />);
-      expect(container.querySelector<HTMLDivElement>('.ant-slider-vertical')).not.toBeNull();
+      expect(container.querySelector<HTMLDivElement>('.g-slider-vertical')).not.toBeNull();
     });
   });
 });

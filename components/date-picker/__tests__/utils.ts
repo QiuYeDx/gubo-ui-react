@@ -29,5 +29,5 @@ export function selectCell(wrapper: ReturnType<typeof render>, text: string | nu
 }
 
 export function getClearButton() {
-  return document.querySelector('.ant-picker-clear');
+  return document.querySelector('.g-picker-clear');
 }

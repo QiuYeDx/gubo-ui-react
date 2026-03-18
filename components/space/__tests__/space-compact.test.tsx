@@ -47,7 +47,7 @@ describe('Space.Compact', () => {
         <Button type="primary">Submit</Button>
       </Space.Compact>,
     );
-    expect(container.querySelector('.ant-space-compact')).toHaveClass('ant-space-compact-block');
+    expect(container.querySelector('.g-space-compact')).toHaveClass('g-space-compact-block');
   });
 
   it('compact-item className', () => {
@@ -58,62 +58,60 @@ describe('Space.Compact', () => {
         <Button className="test-button">Submit</Button>
       </Space.Compact>,
     );
-    expect(container.querySelector('.test-input')).toHaveClass('ant-input-compact-first-item');
-    expect(container.querySelector('.test-input-search')).toHaveClass('ant-space-compact');
-    expect(container.querySelector('.test-input-search input')).toHaveClass(
-      'ant-input-compact-item',
-    );
-    expect(container.querySelector('.test-button')).toHaveClass('ant-btn-compact-last-item');
+    expect(container.querySelector('.test-input')).toHaveClass('g-input-compact-first-item');
+    expect(container.querySelector('.test-input-search')).toHaveClass('g-space-compact');
+    expect(container.querySelector('.test-input-search input')).toHaveClass('g-input-compact-item');
+    expect(container.querySelector('.test-button')).toHaveClass('g-btn-compact-last-item');
   });
 
   [
     {
       name: 'Button',
       component: Button,
-      targetCls: 'ant-btn',
-      expectClsPrefix: 'ant-btn',
+      targetCls: 'g-btn',
+      expectClsPrefix: 'g-btn',
     },
     {
       name: 'AutoComplete',
       component: AutoComplete,
-      targetCls: 'ant-select',
-      expectClsPrefix: 'ant-select',
+      targetCls: 'g-select',
+      expectClsPrefix: 'g-select',
     },
     {
       name: 'Cascader',
       component: Cascader,
-      targetCls: 'ant-cascader',
-      expectClsPrefix: 'ant-select',
+      targetCls: 'g-cascader',
+      expectClsPrefix: 'g-select',
     },
     {
       name: 'DatePicker',
       component: DatePicker,
-      targetCls: 'ant-picker',
-      expectClsPrefix: 'ant-picker',
+      targetCls: 'g-picker',
+      expectClsPrefix: 'g-picker',
     },
     {
       name: 'Input',
       component: Input,
-      targetCls: 'ant-input',
-      expectClsPrefix: 'ant-input',
+      targetCls: 'g-input',
+      expectClsPrefix: 'g-input',
     },
     {
       name: 'Select',
       component: Select,
-      targetCls: 'ant-select',
-      expectClsPrefix: 'ant-select',
+      targetCls: 'g-select',
+      expectClsPrefix: 'g-select',
     },
     {
       name: 'TimePicker',
       component: TimePicker,
-      targetCls: 'ant-picker',
-      expectClsPrefix: 'ant-picker',
+      targetCls: 'g-picker',
+      expectClsPrefix: 'g-picker',
     },
     {
       name: 'TreeSelect',
       component: TreeSelect,
-      targetCls: 'ant-select',
-      expectClsPrefix: 'ant-select',
+      targetCls: 'g-select',
+      expectClsPrefix: 'g-select',
     },
   ].forEach(({ component, name, targetCls, expectClsPrefix }) => {
     it(`compact-item for ${name}`, () => {
@@ -135,8 +133,8 @@ describe('Space.Compact', () => {
         <Input.Search />
       </Space.Compact>,
     );
-    expect(container.querySelector('.ant-input-search')).toBeTruthy();
-    expect(container.querySelector(`.ant-input-search`)).toHaveClass('ant-space-compact');
+    expect(container.querySelector('.g-input-search')).toBeTruthy();
+    expect(container.querySelector(`.g-input-search`)).toHaveClass('g-space-compact');
   });
 
   it('size', () => {
@@ -146,8 +144,8 @@ describe('Space.Compact', () => {
         <Button type="primary">Submit</Button>
       </Space.Compact>,
     );
-    expect(container.querySelector('.ant-input')).toHaveClass('ant-input-sm');
-    expect(container.querySelector('.ant-btn')).toHaveClass('ant-btn-sm');
+    expect(container.querySelector('.g-input')).toHaveClass('g-input-sm');
+    expect(container.querySelector('.g-btn')).toHaveClass('g-btn-sm');
   });
 
   it('component size has a higher priority than Compact', () => {
@@ -164,15 +162,15 @@ describe('Space.Compact', () => {
         <Input.Search size="small" />
       </Space.Compact>,
     );
-    expect(container.querySelector('.ant-input')).toHaveClass('ant-input-sm');
-    expect(container.querySelector('.ant-select')).toHaveClass('ant-select-sm');
-    expect(container.querySelector('.ant-btn')).toHaveClass('ant-btn-sm');
-    expect(container.querySelector('.ant-input-number')).toHaveClass('ant-input-number-sm');
-    expect(container.querySelector('.ant-picker')).toHaveClass('ant-picker-small');
-    expect(container.querySelector('.ant-picker-range')).toHaveClass('ant-picker-small');
-    expect(container.querySelector('.ant-cascader')).toHaveClass('ant-select-sm');
-    expect(container.querySelector('.ant-tree-select')).toHaveClass('ant-select-sm');
-    expect(container.querySelector('.ant-input-search')).toHaveClass('ant-input-search-small');
+    expect(container.querySelector('.g-input')).toHaveClass('g-input-sm');
+    expect(container.querySelector('.g-select')).toHaveClass('g-select-sm');
+    expect(container.querySelector('.g-btn')).toHaveClass('g-btn-sm');
+    expect(container.querySelector('.g-input-number')).toHaveClass('g-input-number-sm');
+    expect(container.querySelector('.g-picker')).toHaveClass('g-picker-small');
+    expect(container.querySelector('.g-picker-range')).toHaveClass('g-picker-small');
+    expect(container.querySelector('.g-cascader')).toHaveClass('g-select-sm');
+    expect(container.querySelector('.g-tree-select')).toHaveClass('g-select-sm');
+    expect(container.querySelector('.g-input-search')).toHaveClass('g-input-search-small');
   });
 
   it('direction=vertical', () => {
@@ -189,16 +187,14 @@ describe('Space.Compact', () => {
       'Warning: [antd: Space.Compact] `direction` is deprecated. Please use `orientation` instead.',
     );
     warnSpy.mockRestore();
-    expect(container.querySelector('.ant-space-compact')).toHaveClass('ant-space-compact-vertical');
-    expect(container.querySelector('.ant-btn')).toHaveClass('ant-btn-compact-vertical-item');
+    expect(container.querySelector('.g-space-compact')).toHaveClass('g-space-compact-vertical');
+    expect(container.querySelector('.g-btn')).toHaveClass('g-btn-compact-vertical-item');
 
-    expect(container.querySelectorAll('.ant-btn')[0]).toHaveClass(
-      'ant-btn-compact-vertical-first-item',
+    expect(container.querySelectorAll('.g-btn')[0]).toHaveClass(
+      'g-btn-compact-vertical-first-item',
     );
 
-    expect(container.querySelectorAll('.ant-btn')[3]).toHaveClass(
-      'ant-btn-compact-vertical-last-item',
-    );
+    expect(container.querySelectorAll('.g-btn')[3]).toHaveClass('g-btn-compact-vertical-last-item');
   });
 
   it('context for Modal', () => {
@@ -212,14 +208,14 @@ describe('Space.Compact', () => {
     );
     expect(
       document.body
-        .querySelectorAll<HTMLElement>('.ant-modal')[0]
-        .querySelector<HTMLElement>('.ant-btn'),
-    ).not.toHaveClass('ant-btn-compact-item');
+        .querySelectorAll<HTMLElement>('.g-modal')[0]
+        .querySelector<HTMLElement>('.g-btn'),
+    ).not.toHaveClass('g-btn-compact-item');
     expect(
       document.body
-        .querySelectorAll<HTMLElement>('.ant-modal')[0]
-        .querySelector<HTMLElement>('.ant-input'),
-    ).not.toHaveClass('ant-input-compact-item');
+        .querySelectorAll<HTMLElement>('.g-modal')[0]
+        .querySelector<HTMLElement>('.g-input'),
+    ).not.toHaveClass('g-input-compact-item');
   });
 
   it('context for Dropdown', () => {
@@ -230,9 +226,7 @@ describe('Space.Compact', () => {
         </Dropdown.Button>
       </Space.Compact>,
     );
-    expect(document.body.querySelector('.ant-dropdown .ant-btn')).not.toHaveClass(
-      'ant-btn-compact-item',
-    );
+    expect(document.body.querySelector('.g-dropdown .g-btn')).not.toHaveClass('g-btn-compact-item');
   });
 
   it('context for Drawer', () => {
@@ -243,9 +237,7 @@ describe('Space.Compact', () => {
         </Drawer>
       </Space.Compact>,
     );
-    expect(document.body.querySelector('.ant-drawer .ant-btn')).not.toHaveClass(
-      'ant-btn-compact-item',
-    );
+    expect(document.body.querySelector('.g-drawer .g-btn')).not.toHaveClass('g-btn-compact-item');
   });
 
   it('context for Tooltip', () => {
@@ -267,11 +259,11 @@ describe('Space.Compact', () => {
         </Tooltip>
       </Space.Compact>,
     );
-    expect(document.body.querySelector('.ant-tooltip .ant-input')).not.toHaveClass(
-      'ant-input-compact-item',
+    expect(document.body.querySelector('.g-tooltip .g-input')).not.toHaveClass(
+      'g-input-compact-item',
     );
-    expect(document.body.querySelector('.ant-tooltip .ant-picker')).not.toHaveClass(
-      'ant-picker-compact-item',
+    expect(document.body.querySelector('.g-tooltip .g-picker')).not.toHaveClass(
+      'g-picker-compact-item',
     );
   });
 
@@ -292,11 +284,11 @@ describe('Space.Compact', () => {
         </Tooltip>
       </Space.Compact>,
     );
-    expect(document.body.querySelector('.ant-tooltip .ant-input')).not.toHaveClass(
-      'ant-input-compact-item',
+    expect(document.body.querySelector('.g-tooltip .g-input')).not.toHaveClass(
+      'g-input-compact-item',
     );
-    expect(document.body.querySelector('.ant-tooltip .ant-picker')).not.toHaveClass(
-      'ant-picker-compact-item',
+    expect(document.body.querySelector('.g-tooltip .g-picker')).not.toHaveClass(
+      'g-picker-compact-item',
     );
   });
 
@@ -310,7 +302,7 @@ describe('Space.Compact', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelectorAll('.ant-select-lg')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-select-lg')).toHaveLength(1);
   });
 
   it('The size property of Space.Compact should have an higher priority over the componentSize property of ConfigProvider', () => {
@@ -322,6 +314,6 @@ describe('Space.Compact', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelectorAll('.ant-select-sm')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-select-sm')).toHaveLength(1);
   });
 });

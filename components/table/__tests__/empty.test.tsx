@@ -81,10 +81,10 @@ describe('Table', () => {
         <Table dataSource={[]} columns={columnsFixed} pagination={false} scroll={{ x: 1 }} />,
       );
 
-      triggerResize(container.querySelector('.ant-table')!);
+      triggerResize(container.querySelector('.g-table')!);
 
       await waitFakeTimer();
-      expect(container.querySelector('.ant-empty')).toBeTruthy();
+      expect(container.querySelector('.g-empty')).toBeTruthy();
 
       expect(asFragment().firstChild).toMatchSnapshot();
     });
@@ -95,7 +95,7 @@ describe('Table', () => {
       <Table dataSource={[]} columns={columns} pagination={false} locale={{ emptyText: null }} />,
     );
 
-    expect(container.querySelector('.ant-table-placeholder>.ant-table-cell')?.hasChildNodes()).toBe(
+    expect(container.querySelector('.g-table-placeholder>.g-table-cell')?.hasChildNodes()).toBe(
       false,
     );
 
@@ -122,8 +122,8 @@ describe('Table', () => {
   // https://github.com/ant-design/ant-design/issues/54601#issuecomment-3158091383
   it('should not render empty when loading', () => {
     const { asFragment } = render(<Table columns={columns} loading />);
-    expect(asFragment().querySelector('.ant-spin-spinning')).toBeTruthy();
-    expect(asFragment().querySelectorAll('*[class^="ant-empty"]').length).toBeFalsy();
+    expect(asFragment().querySelector('.g-spin-spinning')).toBeTruthy();
+    expect(asFragment().querySelectorAll('*[class^="g-empty"]').length).toBeFalsy();
     expect(asFragment().firstChild).toMatchSnapshot();
   });
 });

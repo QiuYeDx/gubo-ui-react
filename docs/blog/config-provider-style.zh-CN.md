@@ -41,7 +41,7 @@ Design Token 提供了非常强大的拓展能力，但是同样它也有限制�
 }
 ```
 
-你会发现，这其实奇怪。既然我们可以通过 `className` 来修改样式，那么为什么还需要 ConfigProvider 呢？我们覆盖 `.ant-btn` 样式不就行了。
+你会发现，这其实奇怪。既然我们可以通过 `className` 来修改样式，那么为什么还需要 ConfigProvider 呢？我们覆盖 `.g-btn` 样式不就行了。
 
 如果你的项目只由你一个人来维护，这是个不错的主意。但是如果你的项目是一个大型项目，那么你就会发现这样的做法会导致样式冲突。尤其在多人协作的情况下，随意修改样式会出现非预期的结果，而其他人为了覆盖你的样式不得不使用更加复杂的选择器。而 ConfigProvider 则可以很好的解决这个问题，它可以将样式隔离在 ConfigProvider 内部，不会影响到其他组件。
 
@@ -52,7 +52,7 @@ Design Token 提供了非常强大的拓展能力，但是同样它也有限制�
 ```less
 .my-button {
   // OPS. It's `abc-btn-icon` now.
-  .ant-btn-icon {
+  .g-btn-icon {
     background: red;
   }
 }

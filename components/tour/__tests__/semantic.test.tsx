@@ -71,16 +71,16 @@ describe('Tour.Semantic', () => {
 
     render(<Demo />);
 
-    const maskElement = document.querySelector<HTMLElement>('.ant-tour-mask');
-    const sectionElement = document.querySelector<HTMLElement>('.ant-tour-section');
-    const titleElement = document.querySelector<HTMLElement>('.ant-tour-title');
-    const headerElement = document.querySelector<HTMLElement>('.ant-tour-header');
-    const footerElement = document.querySelector<HTMLElement>('.ant-tour-footer');
-    const descriptionElement = document.querySelector<HTMLElement>('.ant-tour-description');
-    const coverElement = document.querySelector<HTMLElement>('.ant-tour-cover');
-    const indicatorElement = document.querySelector<HTMLElement>('.ant-tour-indicator');
-    const indicatorsElement = document.querySelector<HTMLElement>('.ant-tour-indicators');
-    const rootElement = document.querySelector<HTMLElement>('.ant-tour-mask');
+    const maskElement = document.querySelector<HTMLElement>('.g-tour-mask');
+    const sectionElement = document.querySelector<HTMLElement>('.g-tour-section');
+    const titleElement = document.querySelector<HTMLElement>('.g-tour-title');
+    const headerElement = document.querySelector<HTMLElement>('.g-tour-header');
+    const footerElement = document.querySelector<HTMLElement>('.g-tour-footer');
+    const descriptionElement = document.querySelector<HTMLElement>('.g-tour-description');
+    const coverElement = document.querySelector<HTMLElement>('.g-tour-cover');
+    const indicatorElement = document.querySelector<HTMLElement>('.g-tour-indicator');
+    const indicatorsElement = document.querySelector<HTMLElement>('.g-tour-indicators');
+    const rootElement = document.querySelector<HTMLElement>('.g-tour-mask');
 
     // className assertions
     expect(maskElement).toHaveClass('primary-mask-fn');

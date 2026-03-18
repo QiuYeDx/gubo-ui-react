@@ -188,7 +188,7 @@ describe('TextArea', () => {
       const { container } = render(<TextArea maxLength={5} showCount value="12345" />);
       expect(container.querySelector('textarea')?.value).toBe('12345');
       expect(
-        container.querySelector('.ant-input-textarea-show-count')?.getAttribute('data-count'),
+        container.querySelector('.g-input-textarea-show-count')?.getAttribute('data-count'),
       ).toBe('5 / 5');
     });
 
@@ -196,7 +196,7 @@ describe('TextArea', () => {
       const { container } = render(<TextArea maxLength={5} showCount value="12345678" />);
       expect(container.querySelector('textarea')?.value).toBe('12345678');
       expect(
-        container.querySelector('.ant-input-textarea-show-count')?.getAttribute('data-count'),
+        container.querySelector('.g-input-textarea-show-count')?.getAttribute('data-count'),
       ).toBe('8 / 5');
     });
 
@@ -210,8 +210,8 @@ describe('TextArea', () => {
       expect(container.querySelector('span')).toHaveStyle({ textAlign: 'center' });
 
       // Inner
-      expect(container.querySelector('.ant-input')).not.toHaveClass('bamboo');
-      expect(container.querySelector('.ant-input')).not.toHaveStyle({ textAlign: 'center' });
+      expect(container.querySelector('.g-input')).not.toHaveClass('bamboo');
+      expect(container.querySelector('.g-input')).not.toHaveStyle({ textAlign: 'center' });
     });
 
     it('count formatter', () => {
@@ -226,14 +226,14 @@ describe('TextArea', () => {
       );
       expect(container.querySelector('textarea')?.value).toBe('12345');
       expect(
-        container.querySelector('.ant-input-textarea-show-count')?.getAttribute('data-count'),
+        container.querySelector('.g-input-textarea-show-count')?.getAttribute('data-count'),
       ).toBe('12345, 5, 5');
     });
   });
 
   it('should support size', async () => {
     const { asFragment, container } = render(<TextArea size="large" />);
-    expect(container.querySelector('textarea')).toHaveClass('ant-input-lg');
+    expect(container.querySelector('textarea')).toHaveClass('g-input-lg');
     expect(asFragment().firstChild).toMatchSnapshot();
   });
 
@@ -282,9 +282,9 @@ describe('TextArea', () => {
       />,
     );
 
-    const wrapper = container.querySelector('.ant-input-textarea-affix-wrapper');
+    const wrapper = container.querySelector('.g-input-textarea-affix-wrapper');
     const textarea = container.querySelector('textarea');
-    const count = container.querySelector('.ant-input-data-count');
+    const count = container.querySelector('.g-input-data-count');
 
     expect(wrapper).toHaveClass('dynamic-root');
     expect(textarea).toHaveClass('enabled-item');
@@ -320,7 +320,7 @@ describe('TextArea allowClear', () => {
     fireEvent.change(container.querySelector('textarea')!, { target: { value: '111' } });
     expect(container.querySelector('textarea')?.value).toEqual('111');
     expect(asFragment().firstChild).toMatchSnapshot();
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(asFragment().firstChild).toMatchSnapshot();
     expect(container.querySelector('textarea')?.value).toEqual('');
   });
@@ -333,7 +333,7 @@ describe('TextArea allowClear', () => {
     );
     wrappers.forEach(({ asFragment, container }) => {
       expect(container.querySelector('textarea')?.value).toEqual('');
-      expect(container.querySelector('.ant-input-clear-icon-hidden')).toBeTruthy();
+      expect(container.querySelector('.g-input-clear-icon-hidden')).toBeTruthy();
       expect(asFragment().firstChild).toMatchSnapshot();
     });
   });
@@ -349,7 +349,7 @@ describe('TextArea allowClear', () => {
     );
     wrappers.forEach(({ asFragment, container }) => {
       expect(container.querySelector('textarea')?.value).toEqual('');
-      expect(container.querySelector('.ant-input-clear-icon-hidden')).toBeTruthy();
+      expect(container.querySelector('.g-input-clear-icon-hidden')).toBeTruthy();
       expect(asFragment().firstChild).toMatchSnapshot();
     });
   });
@@ -362,7 +362,7 @@ describe('TextArea allowClear', () => {
       argumentEventObjectValue = e.target.value;
     };
     const { container } = render(<TextArea allowClear defaultValue="111" onChange={onChange} />);
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(argumentEventObjectType).toBe('click');
     expect(argumentEventObjectValue).toBe('');
     expect(container.querySelector('textarea')?.value).toBe('');
@@ -376,7 +376,7 @@ describe('TextArea allowClear', () => {
       argumentEventObjectValue = e.target.value;
     };
     const { container } = render(<TextArea allowClear value="111" onChange={onChange} />);
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(argumentEventObjectType).toBe('click');
     expect(argumentEventObjectValue).toBe('');
     expect(container.querySelector('textarea')?.value).toBe('111');
@@ -386,14 +386,14 @@ describe('TextArea allowClear', () => {
     const { container, unmount } = render(<TextArea allowClear defaultValue="111" />, {
       container: document.body,
     });
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(document.activeElement).toBe(container.querySelector('textarea'));
     unmount();
   });
 
   it('should not support allowClear when it is disabled', () => {
     const { container } = render(<TextArea allowClear defaultValue="111" disabled />);
-    expect(container.querySelector('.ant-input-clear-icon-hidden')).toBeTruthy();
+    expect(container.querySelector('.g-input-clear-icon-hidden')).toBeTruthy();
   });
 
   it('not block input when `value` is undefined', () => {
@@ -435,7 +435,7 @@ describe('TextArea allowClear', () => {
     isNativeElement();
 
     // Reset
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     isNativeElement();
   });
 
@@ -459,7 +459,7 @@ describe('TextArea allowClear', () => {
     fireEvent.change(container.querySelector('textarea')!, { target: { value: '111' } });
     expect(container.querySelector('textarea')?.value).toEqual('111');
 
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(container.querySelector('textarea')?.value).toEqual('');
 
     unmount();
@@ -475,11 +475,11 @@ describe('TextArea allowClear', () => {
       },
     );
     container.querySelector('textarea')?.focus();
-    fireEvent.mouseDown(container.querySelector('.ant-input-clear-icon')!);
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
-    fireEvent.mouseUp(container.querySelector('.ant-input-clear-icon')!);
-    fireEvent.focus(container.querySelector('.ant-input-clear-icon')!);
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.mouseDown(container.querySelector('.g-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
+    fireEvent.mouseUp(container.querySelector('.g-input-clear-icon')!);
+    fireEvent.focus(container.querySelector('.g-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(onBlur).not.toHaveBeenCalled();
     unmount();
   });
@@ -488,7 +488,7 @@ describe('TextArea allowClear', () => {
     const { container, unmount } = render(<TextArea allowClear defaultValue="111" />, {
       container: document.body,
     });
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(document.activeElement).toBe(container.querySelector('textarea'));
     unmount();
   });
@@ -518,10 +518,10 @@ describe('TextArea allowClear', () => {
 
     const { container } = render(<Demo />);
     fireEvent.change(container.querySelector('textarea')!, { target: { value: 'test' } });
-    expect(container.querySelector('.ant-input-clear-icon')).not.toHaveClass(
-      'ant-input-clear-icon-hidden',
+    expect(container.querySelector('.g-input-clear-icon')).not.toHaveClass(
+      'g-input-clear-icon-hidden',
     );
-    fireEvent.click(container.querySelector('.ant-input-clear-icon')!);
+    fireEvent.click(container.querySelector('.g-input-clear-icon')!);
     expect(handleFocus).toHaveBeenCalledTimes(1);
 
     textareaSpy.mockRestore();
@@ -529,7 +529,7 @@ describe('TextArea allowClear', () => {
 
   it('should support custom clearIcon', () => {
     const { container } = render(<TextArea allowClear={{ clearIcon: 'clear' }} />);
-    expect(container.querySelector('.ant-input-clear-icon')?.textContent).toBe('clear');
+    expect(container.querySelector('.g-input-clear-icon')?.textContent).toBe('clear');
   });
 
   it('classNames and styles should work', () => {
@@ -584,7 +584,7 @@ describe('TextArea allowClear', () => {
   it('legacy bordered should work', () => {
     const errSpy = jest.spyOn(console, 'error');
     const { container } = render(<TextArea bordered={false} />);
-    expect(container.querySelector('textarea')).toHaveClass('ant-input-borderless');
+    expect(container.querySelector('textarea')).toHaveClass('g-input-borderless');
     expect(errSpy).toHaveBeenCalledWith(expect.stringContaining('`bordered` is deprecated'));
     errSpy.mockRestore();
   });
@@ -597,13 +597,13 @@ describe('TextArea allowClear', () => {
     triggerResize(container.querySelector('textarea')!);
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-input-textarea-affix-wrapper')).toHaveClass(
-      'ant-input-textarea-affix-wrapper-resize-dirty',
+    expect(container.querySelector('.g-input-textarea-affix-wrapper')).toHaveClass(
+      'g-input-textarea-affix-wrapper-resize-dirty',
     );
-    expect(container.querySelector('.ant-input-mouse-active')).toBeTruthy();
+    expect(container.querySelector('.g-input-mouse-active')).toBeTruthy();
 
     fireEvent.mouseUp(container.querySelector('textarea')!);
-    expect(container.querySelector('.ant-input-mouse-active')).toBeFalsy();
+    expect(container.querySelector('.g-input-mouse-active')).toBeFalsy();
   });
 
   describe('ref.nativeElement should be the root div', () => {

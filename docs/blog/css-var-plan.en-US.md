@@ -103,11 +103,11 @@ For theme switching, the emphasis is on "switching". What we expect is to achiev
 It might sound a bit abstract, so let's use code to explain the desired outcome. Taking the example of nested themes mentioned earlier, here's what we want the generated CSS file to include:
 
 ```css
-:where(.css-hash1).ant-btn {
+:where(.css-hash1).g-btn {
   background-color: var(--color-primary);
 }
 
-:where(.css-hash2).ant-btn {
+:where(.css-hash2).g-btn {
   background-color: var(--color-primary);
 }
 

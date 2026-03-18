@@ -67,7 +67,7 @@ describe('Notification.placement', () => {
       });
       await awaitPromise();
 
-      expect(document.querySelector('.ant-notification-topLeft')).toHaveStyle({
+      expect(document.querySelector('.g-notification-topLeft')).toHaveStyle({
         top: '50px',
         left: '0px',
         bottom: 'auto',
@@ -80,7 +80,7 @@ describe('Notification.placement', () => {
         bottom: 50,
       });
 
-      expect(document.querySelector('.ant-notification-topRight')).toHaveStyle({
+      expect(document.querySelector('.g-notification-topRight')).toHaveStyle({
         top: '100px',
         right: '0px',
         bottom: 'auto',
@@ -93,7 +93,7 @@ describe('Notification.placement', () => {
         bottom: 100,
       });
 
-      expect(document.querySelector('.ant-notification-bottomRight')).toHaveStyle({
+      expect(document.querySelector('.g-notification-bottomRight')).toHaveStyle({
         top: 'auto',
         right: '0px',
         bottom: '100px',
@@ -106,7 +106,7 @@ describe('Notification.placement', () => {
         bottom: 50,
       });
 
-      expect(document.querySelector('.ant-notification-bottomLeft')).toHaveStyle({
+      expect(document.querySelector('.g-notification-bottomLeft')).toHaveStyle({
         top: 'auto',
         left: '0px',
         bottom: '50px',
@@ -120,7 +120,7 @@ describe('Notification.placement', () => {
       });
       await awaitPromise();
 
-      expect(document.querySelector('.ant-notification-top')).toHaveStyle({
+      expect(document.querySelector('.g-notification-top')).toHaveStyle({
         top: '50px',
         left: '50%',
         bottom: 'auto',
@@ -134,7 +134,7 @@ describe('Notification.placement', () => {
       });
       await awaitPromise();
 
-      expect(document.querySelector('.ant-notification-bottom')).toHaveStyle({
+      expect(document.querySelector('.g-notification-bottom')).toHaveStyle({
         top: 'auto',
         left: '50%',
         bottom: '60px',
@@ -157,23 +157,23 @@ describe('Notification.placement', () => {
       });
       await awaitPromise();
 
-      expect($container.querySelector('.ant-notification')).toBeTruthy();
+      expect($container.querySelector('.g-notification')).toBeTruthy();
       notification.destroy();
 
       // Leave motion
       act(() => {
         jest.runAllTimers();
       });
-      document.querySelectorAll('.ant-notification-notice-wrapper').forEach((ele) => {
+      document.querySelectorAll('.g-notification-notice-wrapper').forEach((ele) => {
         fireEvent.animationEnd(ele);
       });
-      expect($container.querySelector('.ant-notification')).toBeFalsy();
+      expect($container.querySelector('.g-notification')).toBeFalsy();
 
       // Upcoming notifications are mounted in $container
       act(() => {
         open();
       });
-      expect($container.querySelector('.ant-notification')).toBeTruthy();
+      expect($container.querySelector('.g-notification')).toBeTruthy();
     });
   });
 });

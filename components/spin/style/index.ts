@@ -33,11 +33,11 @@ interface SpinToken extends FullToken<'Spin'> {
   spinDotDefault: string;
 }
 
-const antSpinMove = new Keyframes('antSpinMove', {
+const gSpinMove = new Keyframes('gSpinMove', {
   to: { opacity: 1 },
 });
 
-const antRotate = new Keyframes('antRotate', {
+const gRotate = new Keyframes('gRotate', {
   to: { transform: 'rotate(405deg)' },
 });
 
@@ -193,7 +193,7 @@ const genIndicatorStyle: GenerateStyle<SpinToken, CSSObject> = (token) => {
 
         '&-spin': {
           transform: 'rotate(45deg)',
-          animationName: antRotate,
+          animationName: gRotate,
           animationDuration: '1.2s',
           animationIterationCount: 'infinite',
           animationTimingFunction: 'linear',
@@ -210,7 +210,7 @@ const genIndicatorStyle: GenerateStyle<SpinToken, CSSObject> = (token) => {
           transform: 'scale(0.75)',
           transformOrigin: '50% 50%',
           opacity: 0.3,
-          animationName: antSpinMove,
+          animationName: gSpinMove,
           animationDuration: '1s',
           animationIterationCount: 'infinite',
           animationTimingFunction: 'linear',

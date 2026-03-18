@@ -45,7 +45,7 @@ const styles = createStaticStyles(({ cssVar, css }) => ({
   componentsOverviewSearch: css`
     padding: 0;
     box-shadow: none !important;
-    .anticon-search {
+    .gicon-search {
       color: ${cssVar.colorTextDisabled};
     }
   `,

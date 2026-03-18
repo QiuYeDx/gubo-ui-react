@@ -2,11 +2,11 @@
 
 exports[`WeekPicker should support style prop 1`] = `
 <div
-  class="ant-picker ant-picker-outlined css-var-root ant-picker-css-var"
+  class="g-picker g-picker-outlined css-var-root g-picker-css-var"
   style="width: 400px;"
 >
   <div
-    class="ant-picker-input"
+    class="g-picker-input"
   >
     <input
       aria-invalid="false"
@@ -16,11 +16,11 @@ exports[`WeekPicker should support style prop 1`] = `
       value=""
     />
     <span
-      class="ant-picker-suffix"
+      class="g-picker-suffix"
     >
       <span
         aria-label="calendar"
-        class="anticon anticon-calendar"
+        class="gicon gicon-calendar"
         role="img"
       >
         <svg

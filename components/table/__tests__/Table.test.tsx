@@ -73,13 +73,13 @@ describe('Table', () => {
   it('loading with Spin', async () => {
     jest.useFakeTimers();
     const { container, rerender } = render(<Table loading={{ spinning: false, delay: 500 }} />);
-    expect(container.querySelector('.ant-spin-section')).toBeFalsy();
-    expect(container.querySelector('.ant-table-placeholder')?.textContent).not.toEqual('');
+    expect(container.querySelector('.g-spin-section')).toBeFalsy();
+    expect(container.querySelector('.g-table-placeholder')?.textContent).not.toEqual('');
     rerender(<Table loading={{ spinning: true, delay: 500 }} />);
-    expect(container.querySelector('.ant-spin-section')).toBeFalsy();
+    expect(container.querySelector('.g-spin-section')).toBeFalsy();
     await waitFakeTimer();
     rerender(<Table loading />);
-    expect(container.querySelector('.ant-spin-section')).toBeTruthy();
+    expect(container.querySelector('.g-spin-section')).toBeTruthy();
     jest.clearAllTimers();
     jest.useRealTimers();
   });
@@ -92,7 +92,7 @@ describe('Table', () => {
     rerender(
       <Table loading={{ tip: 'loading...', loading: true } as TableProps<any>['loading']} />,
     );
-    expect(container.querySelectorAll('.ant-spin')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-spin')).toHaveLength(1);
     jest.clearAllTimers();
     jest.useRealTimers();
   });
@@ -166,7 +166,7 @@ describe('Table', () => {
         dataSource={[]}
       />,
     );
-    fireEvent.touchMove(container.querySelector('.ant-table')!);
+    fireEvent.touchMove(container.querySelector('.g-table')!);
     expect(touchmove).not.toHaveBeenCalled();
   });
 
@@ -187,7 +187,7 @@ describe('Table', () => {
     ];
     const { container } = render(<Table columns={columns} dataSource={data} />);
     container.querySelectorAll('td').forEach((td) => {
-      expect(td.className.includes('ant-table-cell-ellipsis')).toBe(true);
+      expect(td.className.includes('g-table-cell-ellipsis')).toBe(true);
     });
   });
 
@@ -208,10 +208,10 @@ describe('Table', () => {
     ];
 
     const { container } = render(<Table columns={columns} dataSource={data} />);
-    container.querySelectorAll<HTMLTableCellElement>('.ant-table-thead th').forEach((td) => {
+    container.querySelectorAll<HTMLTableCellElement>('.g-table-thead th').forEach((td) => {
       expect((td.attributes as any).title).toBeTruthy();
     });
-    container.querySelectorAll('.ant-table-tbody td').forEach((td) => {
+    container.querySelectorAll('.g-table-tbody td').forEach((td) => {
       expect((td.attributes as any).title).toBeFalsy();
     });
   });
@@ -226,7 +226,7 @@ describe('Table', () => {
     ];
     const { container } = render(<Table columns={columns} dataSource={data} />);
     container
-      .querySelectorAll<HTMLTableCellElement>('.ant-table-thead th.ant-table-cell')
+      .querySelectorAll<HTMLTableCellElement>('.g-table-thead th.g-table-cell')
       .forEach((td) => {
         expect((td.attributes as any).title).toBeTruthy();
       });
@@ -274,7 +274,7 @@ describe('Table', () => {
         />
       </ConfigProvider>,
     );
-    expect(container.querySelector<HTMLTableRowElement>('.ant-table-row')?.dataset.rowKey).toBe(
+    expect(container.querySelector<HTMLTableRowElement>('.g-table-row')?.dataset.rowKey).toBe(
       '666',
     );
   });
@@ -294,7 +294,7 @@ describe('Table', () => {
         />
       </ConfigProvider>,
     );
-    expect(container.querySelector<HTMLTableRowElement>('.ant-table-row')?.dataset.rowKey).toBe(
+    expect(container.querySelector<HTMLTableRowElement>('.g-table-row')?.dataset.rowKey).toBe(
       'Foobar',
     );
   });
@@ -387,7 +387,7 @@ describe('Table', () => {
   it('support aria-* and data-*', async () => {
     const { container } = render(<Table aria-label="label" data-number="123" />);
     expect(container.querySelector('table')?.getAttribute('aria-label')).toBe('label');
-    expect(container.querySelector('.ant-table')?.getAttribute('data-number')).toBe('123');
+    expect(container.querySelector('.g-table')?.getAttribute('data-number')).toBe('123');
   });
 
   it('support wireframe', () => {
@@ -427,18 +427,18 @@ describe('Table', () => {
 
     const { container } = render(<Demo />);
 
-    fireEvent.click(container.querySelector('.ant-table-filter-trigger')!);
+    fireEvent.click(container.querySelector('.g-table-filter-trigger')!);
     await waitFakeTimer();
-    expect(container.querySelector('.ant-dropdown')).toBeTruthy();
+    expect(container.querySelector('.g-dropdown')).toBeTruthy();
   });
 
   it('support reference', () => {
     const tblRef = React.createRef<TableRef>();
     const { container } = render(<Table ref={tblRef} />);
 
-    const wrapDom = container.querySelector('.ant-table-wrapper')!;
+    const wrapDom = container.querySelector('.g-table-wrapper')!;
 
-    expect(tblRef.current).toHaveClass('ant-table-wrapper');
+    expect(tblRef.current).toHaveClass('g-table-wrapper');
     expect(tblRef.current?.nativeElement).toBe(wrapDom);
     expect(typeof tblRef.current?.scrollTo === 'function').toBeTruthy();
   });
@@ -461,8 +461,8 @@ describe('Table', () => {
     ];
     const { container } = render(<Table columns={columns} />);
 
-    expect(container.querySelectorAll('.ant-table-thead th')[1].innerHTML).toEqual('title3');
-    expect(container.querySelectorAll('.ant-table-thead th')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-table-thead th')[1].innerHTML).toEqual('title3');
+    expect(container.querySelectorAll('.g-table-thead th')).toHaveLength(2);
   });
 
   it('support hidden columns in Group table head', () => {
@@ -494,17 +494,17 @@ describe('Table', () => {
     const { container } = render(<Table columns={columns} />);
 
     expect(
-      container.querySelectorAll('.ant-table-thead tr')[0].querySelectorAll('th')[1].innerHTML,
+      container.querySelectorAll('.g-table-thead tr')[0].querySelectorAll('th')[1].innerHTML,
     ).toEqual('title3');
+    expect(container.querySelectorAll('.g-table-thead tr')[0].querySelectorAll('th')).toHaveLength(
+      2,
+    );
     expect(
-      container.querySelectorAll('.ant-table-thead tr')[0].querySelectorAll('th'),
-    ).toHaveLength(2);
-    expect(
-      container.querySelectorAll('.ant-table-thead tr')[1].querySelectorAll('th')[0].innerHTML,
+      container.querySelectorAll('.g-table-thead tr')[1].querySelectorAll('th')[0].innerHTML,
     ).toEqual('title3-2');
-    expect(
-      container.querySelectorAll('.ant-table-thead tr')[1].querySelectorAll('th'),
-    ).toHaveLength(1);
+    expect(container.querySelectorAll('.g-table-thead tr')[1].querySelectorAll('th')).toHaveLength(
+      1,
+    );
   });
 
   it('support disable row hover', () => {
@@ -525,10 +525,10 @@ describe('Table', () => {
         rowHoverable={false}
       />,
     );
-    const cell = container.querySelector('.ant-table-row .ant-table-cell')!;
+    const cell = container.querySelector('.g-table-row .g-table-cell')!;
 
     fireEvent.mouseEnter(cell);
-    expect(container.querySelectorAll('.ant-table-cell-row-hover')).toHaveLength(0);
+    expect(container.querySelectorAll('.g-table-cell-row-hover')).toHaveLength(0);
   });
 
   it('rowSelection should support align', () => {
@@ -540,7 +540,7 @@ describe('Table', () => {
       />,
     );
 
-    expect(wrapper.container.querySelector('.ant-table-selection-column')).toHaveStyle({
+    expect(wrapper.container.querySelector('.g-table-selection-column')).toHaveStyle({
       textAlign: 'right',
     });
   });

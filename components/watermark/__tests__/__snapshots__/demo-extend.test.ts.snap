@@ -18,27 +18,27 @@ exports[`renders components/watermark/demo/basic.tsx extend context correctly 2`
 
 exports[`renders components/watermark/demo/custom.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-gap-medium"
 >
   <div
     class=""
     style="position: relative; overflow: hidden;"
   >
     <article
-      class="ant-typography css-var-test-id"
+      class="g-typography css-var-test-id"
     >
       <div
-        class="ant-typography css-var-test-id"
+        class="g-typography css-var-test-id"
       >
         The light-speed iteration of the digital world makes products more complex. However, human consciousness and attention resources are limited. Facing this design contradiction, the pursuit of natural interaction will be the consistent direction of Ant Design.
       </div>
       <div
-        class="ant-typography css-var-test-id"
+        class="g-typography css-var-test-id"
       >
         Natural user cognition: According to cognitive psychology, about 80% of external information is obtained through visual channels. The most important visual elements in the interface design, including layout, colors, illustrations, icons, etc., should fully absorb the laws of nature, thereby reducing the user's cognitive cost and bringing authentic and smooth feelings. In some scenarios, opportunely adding other sensory channels such as hearing, touch can create a richer and more natural product experience.
       </div>
       <div
-        class="ant-typography css-var-test-id"
+        class="g-typography css-var-test-id"
       >
         Natural user behavior: In the interaction with the system, the designer should fully understand the relationship between users, system roles, and task objectives, and also contextually organize system functions and services. At the same time, a series of methods such as behavior analysis, artificial intelligence and sensors could be applied to assist users to make effective decisions and reduce extra operations of users, to save users' mental and physical resources and make human-computer interaction more natural.
       </div>
@@ -54,17 +54,17 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
     />
   </div>
   <form
-    class="ant-form ant-form-vertical css-var-test-id ant-form-css-var"
+    class="g-form g-form-vertical css-var-test-id g-form-css-var"
     style="width: 280px; flex-shrink: 0; border-inline-start: 1px solid #eee; padding-inline-start: 16px;"
   >
     <div
-      class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+      class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
     >
       <div
-        class="ant-row ant-form-item-row css-var-test-id"
+        class="g-row g-form-item-row css-var-test-id"
       >
         <div
-          class="ant-col ant-form-item-label css-var-test-id"
+          class="g-col g-form-item-label css-var-test-id"
         >
           <label
             class=""
@@ -75,16 +75,16 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
           </label>
         </div>
         <div
-          class="ant-col ant-form-item-control css-var-test-id"
+          class="g-col g-form-item-control css-var-test-id"
         >
           <div
-            class="ant-form-item-control-input"
+            class="g-form-item-control-input"
           >
             <div
-              class="ant-form-item-control-input-content"
+              class="g-form-item-control-input-content"
             >
               <input
-                class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+                class="g-input g-input-outlined css-var-test-id g-input-css-var"
                 id="content"
                 placeholder="请输入"
                 type="text"
@@ -96,13 +96,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+      class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
     >
       <div
-        class="ant-row ant-form-item-row css-var-test-id"
+        class="g-row g-form-item-row css-var-test-id"
       >
         <div
-          class="ant-col ant-form-item-label css-var-test-id"
+          class="g-col g-form-item-label css-var-test-id"
         >
           <label
             class=""
@@ -113,93 +113,93 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
           </label>
         </div>
         <div
-          class="ant-col ant-form-item-control css-var-test-id"
+          class="g-col g-form-item-control css-var-test-id"
         >
           <div
-            class="ant-form-item-control-input"
+            class="g-form-item-control-input"
           >
             <div
-              class="ant-form-item-control-input-content"
+              class="g-form-item-control-input-content"
             >
               <div
                 aria-describedby="test-id"
-                class="ant-color-picker-trigger css-var-test-id ant-color-picker-css-var"
+                class="g-color-picker-trigger css-var-test-id g-color-picker-css-var"
                 id="color"
               >
                 <div
-                  class="ant-color-picker-color-block"
+                  class="g-color-picker-color-block"
                 >
                   <div
-                    class="ant-color-picker-color-block-inner"
+                    class="g-color-picker-color-block-inner"
                     style="background: rgba(0, 0, 0, 0.15);"
                   />
                 </div>
               </div>
               <div
-                class="ant-popover ant-zoom-big-appear ant-zoom-big-appear-prepare ant-zoom-big ant-popover-css-var css-var-test-id css-var-test-id ant-color-picker css-var-test-id ant-color-picker-css-var ant-popover-placement-bottomLeft"
+                class="g-popover g-zoom-big-appear g-zoom-big-appear-prepare g-zoom-big g-popover-css-var css-var-test-id css-var-test-id g-color-picker css-var-test-id g-color-picker-css-var g-popover-placement-bottomLeft"
                 style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
               >
                 <div
-                  class="ant-popover-arrow"
+                  class="g-popover-arrow"
                   style="position: absolute;"
                 >
                   <span
-                    class="ant-popover-arrow-content"
+                    class="g-popover-arrow-content"
                   />
                 </div>
                 <div
-                  class="ant-popover-container"
+                  class="g-popover-container"
                   id="test-id"
                   role="tooltip"
                 >
                   <div
-                    class="ant-popover-content"
+                    class="g-popover-content"
                   >
                     <div
-                      class="ant-color-picker-inner"
+                      class="g-color-picker-inner"
                     >
                       <div
-                        class="ant-color-picker-inner-content"
+                        class="g-color-picker-inner-content"
                       >
                         <div
-                          class="ant-color-picker-panel"
+                          class="g-color-picker-panel"
                         >
                           <div
-                            class="ant-color-picker-select"
+                            class="g-color-picker-select"
                           >
                             <div
-                              class="ant-color-picker-palette"
+                              class="g-color-picker-palette"
                               style="position: relative;"
                             >
                               <div
                                 style="position: absolute; left: 0%; top: 100%; z-index: 1; transform: translate(-50%, -50%);"
                               >
                                 <div
-                                  class="ant-color-picker-handler"
+                                  class="g-color-picker-handler"
                                   style="background-color: rgba(0, 0, 0, 0.15);"
                                 />
                               </div>
                               <div
-                                class="ant-color-picker-saturation"
+                                class="g-color-picker-saturation"
                                 style="background-color: rgb(255, 0, 0); background-image: linear-gradient(0deg, #000, transparent), linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0));"
                               />
                             </div>
                           </div>
                           <div
-                            class="ant-color-picker-slider-container"
+                            class="g-color-picker-slider-container"
                           >
                             <div
-                              class="ant-color-picker-slider-group"
+                              class="g-color-picker-slider-group"
                             >
                               <div
-                                class="ant-slider ant-color-picker-slider css-var-test-id ant-slider-horizontal"
+                                class="g-slider g-color-picker-slider css-var-test-id g-slider-horizontal"
                               >
                                 <div
-                                  class="ant-slider-rail ant-color-picker-slider-rail"
+                                  class="g-slider-rail g-color-picker-slider-rail"
                                   style="background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 255, 0) 17%, rgb(0, 255, 0) 33%, rgb(0, 255, 255) 50%, rgb(0, 0, 255) 67%, rgb(255, 0, 255) 83%, rgb(255, 0, 0) 100%);"
                                 />
                                 <div
-                                  class="ant-slider-step"
+                                  class="g-slider-step"
                                 />
                                 <div
                                   aria-disabled="false"
@@ -207,21 +207,21 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                                   aria-valuemax="359"
                                   aria-valuemin="0"
                                   aria-valuenow="0"
-                                  class="ant-slider-handle ant-slider-handle-1 ant-color-picker-slider-handle"
+                                  class="g-slider-handle g-slider-handle-1 g-color-picker-slider-handle"
                                   role="slider"
                                   style="left: 0%; transform: translateX(-50%); background: rgb(255, 0, 0);"
                                   tabindex="0"
                                 />
                               </div>
                               <div
-                                class="ant-slider ant-color-picker-slider css-var-test-id ant-slider-horizontal"
+                                class="g-slider g-color-picker-slider css-var-test-id g-slider-horizontal"
                               >
                                 <div
-                                  class="ant-slider-rail ant-color-picker-slider-rail"
+                                  class="g-slider-rail g-color-picker-slider-rail"
                                   style="background: linear-gradient(90deg, rgba(255, 0, 4, 0) 0%, rgb(0,0,0) 100%);"
                                 />
                                 <div
-                                  class="ant-slider-step"
+                                  class="g-slider-step"
                                 />
                                 <div
                                   aria-disabled="false"
@@ -229,7 +229,7 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                                   aria-valuemax="100"
                                   aria-valuemin="0"
                                   aria-valuenow="15"
-                                  class="ant-slider-handle ant-slider-handle-1 ant-color-picker-slider-handle"
+                                  class="g-slider-handle g-slider-handle-1 g-color-picker-slider-handle"
                                   role="slider"
                                   style="left: 15%; transform: translateX(-50%); background: rgba(0, 0, 0, 0.15);"
                                   tabindex="0"
@@ -237,23 +237,23 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               </div>
                             </div>
                             <div
-                              class="ant-color-picker-color-block"
+                              class="g-color-picker-color-block"
                             >
                               <div
-                                class="ant-color-picker-color-block-inner"
+                                class="g-color-picker-color-block-inner"
                                 style="background: rgba(0, 0, 0, 0.15);"
                               />
                             </div>
                           </div>
                         </div>
                         <div
-                          class="ant-color-picker-input-container"
+                          class="g-color-picker-input-container"
                         >
                           <div
-                            class="ant-select ant-select-sm ant-select-borderless ant-color-picker-format-select css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+                            class="g-select g-select-sm g-select-borderless g-color-picker-format-select css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
                           >
                             <div
-                              class="ant-select-content ant-select-content-has-value"
+                              class="g-select-content g-select-content-has-value"
                               title="HEX"
                             >
                               HEX
@@ -262,7 +262,7 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                                 aria-expanded="false"
                                 aria-haspopup="listbox"
                                 autocomplete="off"
-                                class="ant-select-input"
+                                class="g-select-input"
                                 id="test-id"
                                 readonly=""
                                 role="combobox"
@@ -271,11 +271,11 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               />
                             </div>
                             <div
-                              class="ant-select-suffix"
+                              class="g-select-suffix"
                             >
                               <span
                                 aria-label="down"
-                                class="anticon anticon-down"
+                                class="gicon gicon-down"
                                 role="img"
                               >
                                 <svg
@@ -295,7 +295,7 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                             </div>
                           </div>
                           <div
-                            class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-select-css-var ant-select-dropdown-placement-bottomRight"
+                            class="g-select-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-select-css-var g-select-dropdown-placement-bottomRight"
                             style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box; z-index: 1150; width: 68px;"
                           >
                             <div>
@@ -336,51 +336,51 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                                     >
                                       <div
                                         aria-disabled="false"
-                                        class="ant-select-item ant-select-item-option ant-select-item-option-active ant-select-item-option-selected"
+                                        class="g-select-item g-select-item-option g-select-item-option-active g-select-item-option-selected"
                                         title="HEX"
                                       >
                                         <div
-                                          class="ant-select-item-option-content"
+                                          class="g-select-item-option-content"
                                         >
                                           HEX
                                         </div>
                                         <span
                                           aria-hidden="true"
-                                          class="ant-select-item-option-state"
+                                          class="g-select-item-option-state"
                                           style="user-select: none;"
                                           unselectable="on"
                                         />
                                       </div>
                                       <div
                                         aria-disabled="false"
-                                        class="ant-select-item ant-select-item-option"
+                                        class="g-select-item g-select-item-option"
                                         title="HSB"
                                       >
                                         <div
-                                          class="ant-select-item-option-content"
+                                          class="g-select-item-option-content"
                                         >
                                           HSB
                                         </div>
                                         <span
                                           aria-hidden="true"
-                                          class="ant-select-item-option-state"
+                                          class="g-select-item-option-state"
                                           style="user-select: none;"
                                           unselectable="on"
                                         />
                                       </div>
                                       <div
                                         aria-disabled="false"
-                                        class="ant-select-item ant-select-item-option"
+                                        class="g-select-item g-select-item-option"
                                         title="RGB"
                                       >
                                         <div
-                                          class="ant-select-item-option-content"
+                                          class="g-select-item-option-content"
                                         >
                                           RGB
                                         </div>
                                         <span
                                           aria-hidden="true"
-                                          class="ant-select-item-option-state"
+                                          class="g-select-item-option-state"
                                           style="user-select: none;"
                                           unselectable="on"
                                         />
@@ -392,49 +392,49 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                             </div>
                           </div>
                           <div
-                            class="ant-color-picker-input"
+                            class="g-color-picker-input"
                           >
                             <span
-                              class="ant-input-affix-wrapper ant-input-affix-wrapper-sm ant-input-outlined ant-color-picker-hex-input css-var-test-id ant-input-css-var"
+                              class="g-input-affix-wrapper g-input-affix-wrapper-sm g-input-outlined g-color-picker-hex-input css-var-test-id g-input-css-var"
                             >
                               <span
-                                class="ant-input-prefix"
+                                class="g-input-prefix"
                               >
                                 #
                               </span>
                               <input
-                                class="ant-input ant-input-sm"
+                                class="g-input g-input-sm"
                                 type="text"
                                 value="000000"
                               />
                             </span>
                           </div>
                           <div
-                            class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-color-picker-steppers ant-color-picker-alpha-input ant-input-number-outlined ant-input-number-sm"
+                            class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-color-picker-steppers g-color-picker-alpha-input g-input-number-outlined g-input-number-sm"
                           >
                             <input
                               aria-valuemax="100"
                               aria-valuemin="0"
                               aria-valuenow="15"
                               autocomplete="off"
-                              class="ant-input-number-input"
+                              class="g-input-number-input"
                               role="spinbutton"
                               step="1"
                               value="15%"
                             />
                             <div
-                              class="ant-input-number-actions"
+                              class="g-input-number-actions"
                             >
                               <span
                                 aria-disabled="false"
                                 aria-label="Increase Value"
-                                class="ant-input-number-action ant-input-number-action-up"
+                                class="g-input-number-action g-input-number-action-up"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="up"
-                                  class="anticon anticon-up"
+                                  class="gicon gicon-up"
                                   role="img"
                                 >
                                   <svg
@@ -455,13 +455,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               <span
                                 aria-disabled="false"
                                 aria-label="Decrease Value"
-                                class="ant-input-number-action ant-input-number-action-down"
+                                class="g-input-number-action g-input-number-action-down"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="down"
-                                  class="anticon anticon-down"
+                                  class="gicon gicon-down"
                                   role="img"
                                 >
                                   <svg
@@ -493,13 +493,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+      class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
     >
       <div
-        class="ant-row ant-form-item-row css-var-test-id"
+        class="g-row g-form-item-row css-var-test-id"
       >
         <div
-          class="ant-col ant-form-item-label css-var-test-id"
+          class="g-col g-form-item-label css-var-test-id"
         >
           <label
             class=""
@@ -510,27 +510,27 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
           </label>
         </div>
         <div
-          class="ant-col ant-form-item-control css-var-test-id"
+          class="g-col g-form-item-control css-var-test-id"
         >
           <div
-            class="ant-form-item-control-input"
+            class="g-form-item-control-input"
           >
             <div
-              class="ant-form-item-control-input-content"
+              class="g-form-item-control-input-content"
             >
               <div
-                class="ant-slider css-var-test-id ant-slider-horizontal"
+                class="g-slider css-var-test-id g-slider-horizontal"
                 id="fontSize"
               >
                 <div
-                  class="ant-slider-rail"
+                  class="g-slider-rail"
                 />
                 <div
-                  class="ant-slider-track"
+                  class="g-slider-track"
                   style="left: 0%; width: 15.151515151515152%;"
                 />
                 <div
-                  class="ant-slider-step"
+                  class="g-slider-step"
                 />
                 <div
                   aria-describedby="test-id"
@@ -539,25 +539,25 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                   aria-valuemax="100"
                   aria-valuemin="1"
                   aria-valuenow="16"
-                  class="ant-slider-handle"
+                  class="g-slider-handle"
                   role="slider"
                   style="left: 15.151515151515152%; transform: translateX(-50%);"
                   tabindex="0"
                 />
                 <div
-                  class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-slider-tooltip ant-tooltip-placement-top"
+                  class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-slider-tooltip g-tooltip-placement-top"
                   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
                 >
                   <div
-                    class="ant-tooltip-arrow"
+                    class="g-tooltip-arrow"
                     style="position: absolute; bottom: 0px; left: 0px;"
                   >
                     <span
-                      class="ant-tooltip-arrow-content"
+                      class="g-tooltip-arrow-content"
                     />
                   </div>
                   <div
-                    class="ant-tooltip-container"
+                    class="g-tooltip-container"
                     id="test-id"
                     role="tooltip"
                   >
@@ -571,13 +571,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+      class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
     >
       <div
-        class="ant-row ant-form-item-row css-var-test-id"
+        class="g-row g-form-item-row css-var-test-id"
       >
         <div
-          class="ant-col ant-form-item-label css-var-test-id"
+          class="g-col g-form-item-label css-var-test-id"
         >
           <label
             class=""
@@ -588,27 +588,27 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
           </label>
         </div>
         <div
-          class="ant-col ant-form-item-control css-var-test-id"
+          class="g-col g-form-item-control css-var-test-id"
         >
           <div
-            class="ant-form-item-control-input"
+            class="g-form-item-control-input"
           >
             <div
-              class="ant-form-item-control-input-content"
+              class="g-form-item-control-input-content"
             >
               <div
-                class="ant-slider css-var-test-id ant-slider-horizontal"
+                class="g-slider css-var-test-id g-slider-horizontal"
                 id="zIndex"
               >
                 <div
-                  class="ant-slider-rail"
+                  class="g-slider-rail"
                 />
                 <div
-                  class="ant-slider-track"
+                  class="g-slider-track"
                   style="left: 0%; width: 11%;"
                 />
                 <div
-                  class="ant-slider-step"
+                  class="g-slider-step"
                 />
                 <div
                   aria-describedby="test-id"
@@ -617,25 +617,25 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                   aria-valuemax="100"
                   aria-valuemin="0"
                   aria-valuenow="11"
-                  class="ant-slider-handle"
+                  class="g-slider-handle"
                   role="slider"
                   style="left: 11%; transform: translateX(-50%);"
                   tabindex="0"
                 />
                 <div
-                  class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-slider-tooltip ant-tooltip-placement-top"
+                  class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-slider-tooltip g-tooltip-placement-top"
                   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
                 >
                   <div
-                    class="ant-tooltip-arrow"
+                    class="g-tooltip-arrow"
                     style="position: absolute; bottom: 0px; left: 0px;"
                   >
                     <span
-                      class="ant-tooltip-arrow-content"
+                      class="g-tooltip-arrow-content"
                     />
                   </div>
                   <div
-                    class="ant-tooltip-container"
+                    class="g-tooltip-container"
                     id="test-id"
                     role="tooltip"
                   >
@@ -649,13 +649,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+      class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
     >
       <div
-        class="ant-row ant-form-item-row css-var-test-id"
+        class="g-row g-form-item-row css-var-test-id"
       >
         <div
-          class="ant-col ant-form-item-label css-var-test-id"
+          class="g-col g-form-item-label css-var-test-id"
         >
           <label
             class=""
@@ -666,27 +666,27 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
           </label>
         </div>
         <div
-          class="ant-col ant-form-item-control css-var-test-id"
+          class="g-col g-form-item-control css-var-test-id"
         >
           <div
-            class="ant-form-item-control-input"
+            class="g-form-item-control-input"
           >
             <div
-              class="ant-form-item-control-input-content"
+              class="g-form-item-control-input-content"
             >
               <div
-                class="ant-slider css-var-test-id ant-slider-horizontal"
+                class="g-slider css-var-test-id g-slider-horizontal"
                 id="rotate"
               >
                 <div
-                  class="ant-slider-rail"
+                  class="g-slider-rail"
                 />
                 <div
-                  class="ant-slider-track"
+                  class="g-slider-track"
                   style="left: 0%; width: 43.888888888888886%;"
                 />
                 <div
-                  class="ant-slider-step"
+                  class="g-slider-step"
                 />
                 <div
                   aria-describedby="test-id"
@@ -695,25 +695,25 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                   aria-valuemax="180"
                   aria-valuemin="-180"
                   aria-valuenow="-22"
-                  class="ant-slider-handle"
+                  class="g-slider-handle"
                   role="slider"
                   style="left: 43.888888888888886%; transform: translateX(-50%);"
                   tabindex="0"
                 />
                 <div
-                  class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-test-id ant-slider-tooltip ant-tooltip-placement-top"
+                  class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-test-id g-slider-tooltip g-tooltip-placement-top"
                   style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
                 >
                   <div
-                    class="ant-tooltip-arrow"
+                    class="g-tooltip-arrow"
                     style="position: absolute; bottom: 0px; left: 0px;"
                   >
                     <span
-                      class="ant-tooltip-arrow-content"
+                      class="g-tooltip-arrow-content"
                     />
                   </div>
                   <div
-                    class="ant-tooltip-container"
+                    class="g-tooltip-container"
                     id="test-id"
                     role="tooltip"
                   >
@@ -727,14 +727,14 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+      class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
       style="margin-bottom: 0px;"
     >
       <div
-        class="ant-row ant-form-item-row css-var-test-id"
+        class="g-row g-form-item-row css-var-test-id"
       >
         <div
-          class="ant-col ant-form-item-label css-var-test-id"
+          class="g-col g-form-item-label css-var-test-id"
         >
           <label
             class=""
@@ -744,40 +744,40 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
           </label>
         </div>
         <div
-          class="ant-col ant-form-item-control css-var-test-id"
+          class="g-col g-form-item-control css-var-test-id"
         >
           <div
-            class="ant-form-item-control-input"
+            class="g-form-item-control-input"
           >
             <div
-              class="ant-form-item-control-input-content"
+              class="g-form-item-control-input-content"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-gap-small"
               >
                 <div
-                  class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+                  class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
                 >
                   <div
-                    class="ant-row ant-form-item-row css-var-test-id"
+                    class="g-row g-form-item-row css-var-test-id"
                   >
                     <div
-                      class="ant-col ant-form-item-control css-var-test-id"
+                      class="g-col g-form-item-control css-var-test-id"
                     >
                       <div
-                        class="ant-form-item-control-input"
+                        class="g-form-item-control-input"
                       >
                         <div
-                          class="ant-form-item-control-input-content"
+                          class="g-form-item-control-input-content"
                         >
                           <div
-                            class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-in-form-item"
+                            class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-in-form-item"
                             style="width: 100%;"
                           >
                             <input
                               aria-valuenow="100"
                               autocomplete="off"
-                              class="ant-input-number-input"
+                              class="g-input-number-input"
                               id="gap_0"
                               placeholder="gapX"
                               role="spinbutton"
@@ -785,18 +785,18 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               value="100"
                             />
                             <div
-                              class="ant-input-number-actions"
+                              class="g-input-number-actions"
                             >
                               <span
                                 aria-disabled="false"
                                 aria-label="Increase Value"
-                                class="ant-input-number-action ant-input-number-action-up"
+                                class="g-input-number-action g-input-number-action-up"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="up"
-                                  class="anticon anticon-up"
+                                  class="gicon gicon-up"
                                   role="img"
                                 >
                                   <svg
@@ -817,13 +817,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               <span
                                 aria-disabled="false"
                                 aria-label="Decrease Value"
-                                class="ant-input-number-action ant-input-number-action-down"
+                                class="g-input-number-action g-input-number-action-down"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="down"
-                                  class="anticon anticon-down"
+                                  class="gicon gicon-down"
                                   role="img"
                                 >
                                   <svg
@@ -849,28 +849,28 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                   </div>
                 </div>
                 <div
-                  class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+                  class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
                 >
                   <div
-                    class="ant-row ant-form-item-row css-var-test-id"
+                    class="g-row g-form-item-row css-var-test-id"
                   >
                     <div
-                      class="ant-col ant-form-item-control css-var-test-id"
+                      class="g-col g-form-item-control css-var-test-id"
                     >
                       <div
-                        class="ant-form-item-control-input"
+                        class="g-form-item-control-input"
                       >
                         <div
-                          class="ant-form-item-control-input-content"
+                          class="g-form-item-control-input-content"
                         >
                           <div
-                            class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-in-form-item"
+                            class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-in-form-item"
                             style="width: 100%;"
                           >
                             <input
                               aria-valuenow="100"
                               autocomplete="off"
-                              class="ant-input-number-input"
+                              class="g-input-number-input"
                               id="gap_1"
                               placeholder="gapY"
                               role="spinbutton"
@@ -878,18 +878,18 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               value="100"
                             />
                             <div
-                              class="ant-input-number-actions"
+                              class="g-input-number-actions"
                             >
                               <span
                                 aria-disabled="false"
                                 aria-label="Increase Value"
-                                class="ant-input-number-action ant-input-number-action-up"
+                                class="g-input-number-action g-input-number-action-up"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="up"
-                                  class="anticon anticon-up"
+                                  class="gicon gicon-up"
                                   role="img"
                                 >
                                   <svg
@@ -910,13 +910,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               <span
                                 aria-disabled="false"
                                 aria-label="Decrease Value"
-                                class="ant-input-number-action ant-input-number-action-down"
+                                class="g-input-number-action g-input-number-action-down"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="down"
-                                  class="anticon anticon-down"
+                                  class="gicon gicon-down"
                                   role="img"
                                 >
                                   <svg
@@ -948,14 +948,14 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+      class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
       style="margin-bottom: 0px;"
     >
       <div
-        class="ant-row ant-form-item-row css-var-test-id"
+        class="g-row g-form-item-row css-var-test-id"
       >
         <div
-          class="ant-col ant-form-item-label css-var-test-id"
+          class="g-col g-form-item-label css-var-test-id"
         >
           <label
             class=""
@@ -965,39 +965,39 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
           </label>
         </div>
         <div
-          class="ant-col ant-form-item-control css-var-test-id"
+          class="g-col g-form-item-control css-var-test-id"
         >
           <div
-            class="ant-form-item-control-input"
+            class="g-form-item-control-input"
           >
             <div
-              class="ant-form-item-control-input-content"
+              class="g-form-item-control-input-content"
             >
               <div
-                class="ant-flex css-var-test-id ant-flex-gap-small"
+                class="g-flex css-var-test-id g-flex-gap-small"
               >
                 <div
-                  class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+                  class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
                 >
                   <div
-                    class="ant-row ant-form-item-row css-var-test-id"
+                    class="g-row g-form-item-row css-var-test-id"
                   >
                     <div
-                      class="ant-col ant-form-item-control css-var-test-id"
+                      class="g-col g-form-item-control css-var-test-id"
                     >
                       <div
-                        class="ant-form-item-control-input"
+                        class="g-form-item-control-input"
                       >
                         <div
-                          class="ant-form-item-control-input-content"
+                          class="g-form-item-control-input-content"
                         >
                           <div
-                            class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-in-form-item"
+                            class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-in-form-item"
                             style="width: 100%;"
                           >
                             <input
                               autocomplete="off"
-                              class="ant-input-number-input"
+                              class="g-input-number-input"
                               id="offset_0"
                               placeholder="offsetLeft"
                               role="spinbutton"
@@ -1005,18 +1005,18 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               value=""
                             />
                             <div
-                              class="ant-input-number-actions"
+                              class="g-input-number-actions"
                             >
                               <span
                                 aria-disabled="false"
                                 aria-label="Increase Value"
-                                class="ant-input-number-action ant-input-number-action-up"
+                                class="g-input-number-action g-input-number-action-up"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="up"
-                                  class="anticon anticon-up"
+                                  class="gicon gicon-up"
                                   role="img"
                                 >
                                   <svg
@@ -1037,13 +1037,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               <span
                                 aria-disabled="false"
                                 aria-label="Decrease Value"
-                                class="ant-input-number-action ant-input-number-action-down"
+                                class="g-input-number-action g-input-number-action-down"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="down"
-                                  class="anticon anticon-down"
+                                  class="gicon gicon-down"
                                   role="img"
                                 >
                                   <svg
@@ -1069,27 +1069,27 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                   </div>
                 </div>
                 <div
-                  class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+                  class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
                 >
                   <div
-                    class="ant-row ant-form-item-row css-var-test-id"
+                    class="g-row g-form-item-row css-var-test-id"
                   >
                     <div
-                      class="ant-col ant-form-item-control css-var-test-id"
+                      class="g-col g-form-item-control css-var-test-id"
                     >
                       <div
-                        class="ant-form-item-control-input"
+                        class="g-form-item-control-input"
                       >
                         <div
-                          class="ant-form-item-control-input-content"
+                          class="g-form-item-control-input-content"
                         >
                           <div
-                            class="ant-input-number ant-input-number-mode-input css-var-test-id ant-input-number-css-var ant-input-number-outlined ant-input-number-in-form-item"
+                            class="g-input-number g-input-number-mode-input css-var-test-id g-input-number-css-var g-input-number-outlined g-input-number-in-form-item"
                             style="width: 100%;"
                           >
                             <input
                               autocomplete="off"
-                              class="ant-input-number-input"
+                              class="g-input-number-input"
                               id="offset_1"
                               placeholder="offsetTop"
                               role="spinbutton"
@@ -1097,18 +1097,18 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               value=""
                             />
                             <div
-                              class="ant-input-number-actions"
+                              class="g-input-number-actions"
                             >
                               <span
                                 aria-disabled="false"
                                 aria-label="Increase Value"
-                                class="ant-input-number-action ant-input-number-action-up"
+                                class="g-input-number-action g-input-number-action-up"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="up"
-                                  class="anticon anticon-up"
+                                  class="gicon gicon-up"
                                   role="img"
                                 >
                                   <svg
@@ -1129,13 +1129,13 @@ exports[`renders components/watermark/demo/custom.tsx extend context correctly 1
                               <span
                                 aria-disabled="false"
                                 aria-label="Decrease Value"
-                                class="ant-input-number-action ant-input-number-action-down"
+                                class="g-input-number-action g-input-number-action-down"
                                 role="button"
                                 unselectable="on"
                               >
                                 <span
                                   aria-label="down"
-                                  class="anticon anticon-down"
+                                  class="gicon gicon-down"
                                   role="img"
                                 >
                                   <svg
@@ -1204,10 +1204,10 @@ exports[`renders components/watermark/demo/multi-line.tsx extend context correct
 exports[`renders components/watermark/demo/portal.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-flex css-var-test-id ant-flex-gap-medium"
+    class="g-flex css-var-test-id g-flex-gap-medium"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1215,7 +1215,7 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -1223,7 +1223,7 @@ Array [
       </span>
     </button>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>

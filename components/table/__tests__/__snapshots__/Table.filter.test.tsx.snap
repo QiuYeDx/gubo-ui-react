@@ -2,7 +2,7 @@
 
 exports[`Table.filter clearFilters should support params 1`] = `
 <div
-  class="ant-dropdown-custom-view"
+  class="g-dropdown-custom-view"
   id="customFilter"
 >
   <button
@@ -58,7 +58,7 @@ exports[`Table.filter clearFilters should support params 1`] = `
 
 exports[`Table.filter override custom filter correctly 1`] = `
 <div
-  class="ant-dropdown-custom-view"
+  class="g-dropdown-custom-view"
   id="customFilter"
 >
   <span
@@ -86,7 +86,7 @@ exports[`Table.filter override custom filter correctly 1`] = `
 
 exports[`Table.filter renders custom content correctly 1`] = `
 <div
-  class="ant-table-filter-dropdown"
+  class="g-table-filter-dropdown"
 >
   <div
     class="custom-filter-dropdown"
@@ -98,46 +98,46 @@ exports[`Table.filter renders custom content correctly 1`] = `
 
 exports[`Table.filter renders custom filter icon as ReactNode 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table css-var-root ant-table-css-var"
+        class="g-table css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     <div
-                      class="ant-table-filter-column"
+                      class="g-table-filter-column"
                     >
                       <span
-                        class="ant-table-column-title"
+                        class="g-table-column-title"
                       >
                         Name
                       </span>
                       <span
-                        class="ant-dropdown-trigger ant-table-filter-trigger"
+                        class="g-dropdown-trigger g-table-filter-trigger"
                         role="button"
                         tabindex="-1"
                       >
@@ -150,44 +150,44 @@ exports[`Table.filter renders custom filter icon as ReactNode 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Jerry
                   </td>
@@ -204,46 +204,46 @@ exports[`Table.filter renders custom filter icon as ReactNode 1`] = `
 
 exports[`Table.filter renders custom filter icon as string correctly 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table css-var-root ant-table-css-var"
+        class="g-table css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     <div
-                      class="ant-table-filter-column"
+                      class="g-table-filter-column"
                     >
                       <span
-                        class="ant-table-column-title"
+                        class="g-table-column-title"
                       >
                         Name
                       </span>
                       <span
-                        class="ant-dropdown-trigger ant-table-filter-trigger"
+                        class="g-dropdown-trigger g-table-filter-trigger"
                         role="button"
                         tabindex="-1"
                       >
@@ -254,44 +254,44 @@ exports[`Table.filter renders custom filter icon as string correctly 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Jerry
                   </td>
@@ -316,69 +316,69 @@ exports[`Table.filter renders custom filter icon correctly 1`] = `
 
 exports[`Table.filter renders custom filter icon with right Tooltip title 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table css-var-root ant-table-css-var"
+        class="g-table css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     <div
-                      class="ant-table-filter-column"
+                      class="g-table-filter-column"
                     >
                       <span
-                        class="ant-table-column-title"
+                        class="g-table-column-title"
                       >
                         Name
                       </span>
                       <span
-                        class="ant-dropdown-trigger ant-table-filter-trigger"
+                        class="g-dropdown-trigger g-table-filter-trigger"
                         role="button"
                         tabindex="-1"
                       >
                         <span
                           aria-describedby="test-id"
-                          class="ant-tooltip-open"
+                          class="g-tooltip-open"
                         >
                           Tooltip
                         </span>
                         <div
-                          class="ant-tooltip ant-zoom-big-fast-appear ant-zoom-big-fast-appear-prepare ant-zoom-big-fast ant-tooltip-css-var css-var-root ant-tooltip-placement-top"
+                          class="g-tooltip g-zoom-big-fast-appear g-zoom-big-fast-appear-prepare g-zoom-big-fast g-tooltip-css-var css-var-root g-tooltip-placement-top"
                           style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
                         >
                           <div
-                            class="ant-tooltip-arrow"
+                            class="g-tooltip-arrow"
                             style="position: absolute; bottom: 0px; left: 0px;"
                           >
                             <span
-                              class="ant-tooltip-arrow-content"
+                              class="g-tooltip-arrow-content"
                             />
                           </div>
                           <div
-                            class="ant-tooltip-container"
+                            class="g-tooltip-container"
                             id="test-id"
                             role="tooltip"
                           >
@@ -391,44 +391,44 @@ exports[`Table.filter renders custom filter icon with right Tooltip title 1`] = 
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Jerry
                   </td>
@@ -445,52 +445,52 @@ exports[`Table.filter renders custom filter icon with right Tooltip title 1`] = 
 
 exports[`Table.filter renders filter correctly 1`] = `
 <div
-  class="css-var-root ant-table-css-var ant-table-wrapper"
+  class="css-var-root g-table-css-var g-table-wrapper"
 >
   <div
     aria-busy="false"
     aria-live="polite"
-    class="ant-spin css-var-root"
+    class="g-spin css-var-root"
   >
     <div
-      class="ant-spin-container"
+      class="g-spin-container"
     >
       <div
-        class="ant-table css-var-root ant-table-css-var"
+        class="g-table css-var-root g-table-css-var"
       >
         <div
-          class="ant-table-container"
+          class="g-table-container"
         >
           <div
-            class="ant-table-content"
+            class="g-table-content"
           >
             <table
               style="table-layout: auto;"
             >
               <thead
-                class="ant-table-thead"
+                class="g-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-cell"
+                    class="g-table-cell"
                     scope="col"
                   >
                     <div
-                      class="ant-table-filter-column"
+                      class="g-table-filter-column"
                     >
                       <span
-                        class="ant-table-column-title"
+                        class="g-table-column-title"
                       >
                         Name
                       </span>
                       <span
-                        class="ant-dropdown-trigger ant-table-filter-trigger"
+                        class="g-dropdown-trigger g-table-filter-trigger"
                         role="button"
                         tabindex="-1"
                       >
                         <span
                           aria-label="filter"
-                          class="anticon anticon-filter"
+                          class="gicon gicon-filter"
                           role="img"
                         >
                           <svg
@@ -513,44 +513,44 @@ exports[`Table.filter renders filter correctly 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="g-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="g-table-row g-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-cell"
+                    class="g-table-cell"
                   >
                     Jerry
                   </td>
@@ -567,31 +567,31 @@ exports[`Table.filter renders filter correctly 1`] = `
 
 exports[`Table.filter renders menu correctly 1`] = `
 <div
-  class="ant-table-filter-dropdown"
+  class="g-table-filter-dropdown"
 >
   <ul
-    class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light css-var-root ant-dropdown-css-var css-var-root ant-dropdown-menu-css-var"
+    class="g-dropdown-menu g-dropdown-menu-root g-dropdown-menu-vertical g-dropdown-menu-light css-var-root g-dropdown-css-var css-var-root g-dropdown-menu-css-var"
     data-menu-list="true"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-dropdown-menu-item"
+      class="g-dropdown-menu-item"
       data-menu-id="rc-menu-uuid-boy"
       role="menuitem"
       tabindex="-1"
     >
       <span
-        class="ant-dropdown-menu-title-content"
+        class="g-dropdown-menu-title-content"
       >
         <label
-          class="ant-checkbox-wrapper css-var-root ant-checkbox-css-var"
+          class="g-checkbox-wrapper css-var-root g-checkbox-css-var"
         >
           <span
-            class="ant-checkbox ant-wave-target"
+            class="g-checkbox g-wave-target"
           >
             <input
-              class="ant-checkbox-input"
+              class="g-checkbox-input"
               type="checkbox"
             />
           </span>
@@ -602,22 +602,22 @@ exports[`Table.filter renders menu correctly 1`] = `
       </span>
     </li>
     <li
-      class="ant-dropdown-menu-item"
+      class="g-dropdown-menu-item"
       data-menu-id="rc-menu-uuid-girl"
       role="menuitem"
       tabindex="-1"
     >
       <span
-        class="ant-dropdown-menu-title-content"
+        class="g-dropdown-menu-title-content"
       >
         <label
-          class="ant-checkbox-wrapper css-var-root ant-checkbox-css-var"
+          class="g-checkbox-wrapper css-var-root g-checkbox-css-var"
         >
           <span
-            class="ant-checkbox ant-wave-target"
+            class="g-checkbox g-wave-target"
           >
             <input
-              class="ant-checkbox-input"
+              class="g-checkbox-input"
               type="checkbox"
             />
           </span>
@@ -628,29 +628,29 @@ exports[`Table.filter renders menu correctly 1`] = `
       </span>
     </li>
     <li
-      class="ant-dropdown-menu-submenu ant-dropdown-menu-submenu-vertical"
+      class="g-dropdown-menu-submenu g-dropdown-menu-submenu-vertical"
       role="none"
     >
       <div
         aria-controls="rc-menu-uuid-title-popup"
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-dropdown-menu-submenu-title"
+        class="g-dropdown-menu-submenu-title"
         data-menu-id="rc-menu-uuid-title"
         role="menuitem"
         tabindex="-1"
       >
         <span
-          class="ant-dropdown-menu-title-content"
+          class="g-dropdown-menu-title-content"
         >
           Title
         </span>
         <span
-          class="ant-dropdown-menu-submenu-expand-icon ant-dropdown-menu-submenu-arrow"
+          class="g-dropdown-menu-submenu-expand-icon g-dropdown-menu-submenu-arrow"
         >
           <span
             aria-label="right"
-            class="anticon anticon-right ant-dropdown-menu-submenu-arrow-icon"
+            class="gicon gicon-right g-dropdown-menu-submenu-arrow-icon"
             role="img"
           >
             <svg
@@ -676,10 +676,10 @@ exports[`Table.filter renders menu correctly 1`] = `
     style="display: none;"
   />
   <div
-    class="ant-table-filter-dropdown-btns"
+    class="g-table-filter-dropdown-btns"
   >
     <button
-      class="ant-btn css-var-root ant-btn-link ant-btn-color-link ant-btn-variant-link ant-btn-sm"
+      class="g-btn css-var-root g-btn-link g-btn-color-link g-btn-varig-link g-btn-sm"
       disabled=""
       type="button"
     >
@@ -688,7 +688,7 @@ exports[`Table.filter renders menu correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>
@@ -701,31 +701,31 @@ exports[`Table.filter renders menu correctly 1`] = `
 
 exports[`Table.filter renders radio filter correctly 1`] = `
 <div
-  class="ant-table-filter-dropdown"
+  class="g-table-filter-dropdown"
 >
   <ul
-    class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light css-var-root ant-dropdown-css-var css-var-root ant-dropdown-menu-css-var"
+    class="g-dropdown-menu g-dropdown-menu-root g-dropdown-menu-vertical g-dropdown-menu-light css-var-root g-dropdown-css-var css-var-root g-dropdown-menu-css-var"
     data-menu-list="true"
     role="menu"
     tabindex="0"
   >
     <li
-      class="ant-dropdown-menu-item"
+      class="g-dropdown-menu-item"
       data-menu-id="rc-menu-uuid-boy"
       role="menuitem"
       tabindex="-1"
     >
       <span
-        class="ant-dropdown-menu-title-content"
+        class="g-dropdown-menu-title-content"
       >
         <label
-          class="ant-radio-wrapper css-var-root ant-radio-css-var"
+          class="g-radio-wrapper css-var-root g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               type="radio"
             />
           </span>
@@ -736,22 +736,22 @@ exports[`Table.filter renders radio filter correctly 1`] = `
       </span>
     </li>
     <li
-      class="ant-dropdown-menu-item"
+      class="g-dropdown-menu-item"
       data-menu-id="rc-menu-uuid-girl"
       role="menuitem"
       tabindex="-1"
     >
       <span
-        class="ant-dropdown-menu-title-content"
+        class="g-dropdown-menu-title-content"
       >
         <label
-          class="ant-radio-wrapper css-var-root ant-radio-css-var"
+          class="g-radio-wrapper css-var-root g-radio-css-var"
         >
           <span
-            class="ant-radio ant-wave-target"
+            class="g-radio g-wave-target"
           >
             <input
-              class="ant-radio-input"
+              class="g-radio-input"
               type="radio"
             />
           </span>
@@ -762,29 +762,29 @@ exports[`Table.filter renders radio filter correctly 1`] = `
       </span>
     </li>
     <li
-      class="ant-dropdown-menu-submenu ant-dropdown-menu-submenu-vertical"
+      class="g-dropdown-menu-submenu g-dropdown-menu-submenu-vertical"
       role="none"
     >
       <div
         aria-controls="rc-menu-uuid-title-popup"
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-dropdown-menu-submenu-title"
+        class="g-dropdown-menu-submenu-title"
         data-menu-id="rc-menu-uuid-title"
         role="menuitem"
         tabindex="-1"
       >
         <span
-          class="ant-dropdown-menu-title-content"
+          class="g-dropdown-menu-title-content"
         >
           Title
         </span>
         <span
-          class="ant-dropdown-menu-submenu-expand-icon ant-dropdown-menu-submenu-arrow"
+          class="g-dropdown-menu-submenu-expand-icon g-dropdown-menu-submenu-arrow"
         >
           <span
             aria-label="right"
-            class="anticon anticon-right ant-dropdown-menu-submenu-arrow-icon"
+            class="gicon gicon-right g-dropdown-menu-submenu-arrow-icon"
             role="img"
           >
             <svg
@@ -810,10 +810,10 @@ exports[`Table.filter renders radio filter correctly 1`] = `
     style="display: none;"
   />
   <div
-    class="ant-table-filter-dropdown-btns"
+    class="g-table-filter-dropdown-btns"
   >
     <button
-      class="ant-btn css-var-root ant-btn-link ant-btn-color-link ant-btn-variant-link ant-btn-sm"
+      class="g-btn css-var-root g-btn-link g-btn-color-link g-btn-varig-link g-btn-sm"
       disabled=""
       type="button"
     >
@@ -822,7 +822,7 @@ exports[`Table.filter renders radio filter correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn css-var-root ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-sm"
+      class="g-btn css-var-root g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-sm"
       type="button"
     >
       <span>

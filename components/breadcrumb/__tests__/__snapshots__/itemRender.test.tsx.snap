@@ -3,11 +3,11 @@
 exports[`Breadcrumb.ItemRender render as expect 1`] = `
 <div>
   <nav
-    class="ant-breadcrumb css-var-root"
+    class="g-breadcrumb css-var-root"
   >
     <ol>
       <li
-        class="ant-breadcrumb-item"
+        class="g-breadcrumb-item"
       >
         <a
           class="my-link"
@@ -18,12 +18,12 @@ exports[`Breadcrumb.ItemRender render as expect 1`] = `
       </li>
       <li
         aria-hidden="true"
-        class="ant-breadcrumb-separator"
+        class="g-breadcrumb-separator"
       >
         /
       </li>
       <li
-        class="ant-breadcrumb-item"
+        class="g-breadcrumb-item"
       >
         <a
           class="my-link"

@@ -19,8 +19,8 @@ describe('QRCode.Semantic', () => {
       <QRCode classNames={customClassNames} styles={customStyles} value="antd" status="loading" />,
     );
 
-    const QRCodeElement = container.querySelector<HTMLElement>('.ant-qrcode');
-    const QRCodeCoverElement = container.querySelector<HTMLElement>('.ant-qrcode-cover');
+    const QRCodeElement = container.querySelector<HTMLElement>('.g-qrcode');
+    const QRCodeCoverElement = container.querySelector<HTMLElement>('.g-qrcode-cover');
 
     // check classNames
     expect(QRCodeElement).toHaveClass('custom-root');
@@ -58,8 +58,8 @@ describe('QRCode.Semantic', () => {
       />,
     );
 
-    const qrcode = container.querySelector('.ant-qrcode');
-    const cover = container.querySelector('.ant-qrcode-cover');
+    const qrcode = container.querySelector('.g-qrcode');
+    const cover = container.querySelector('.g-qrcode-cover');
 
     expect(qrcode).toHaveClass('svg-qrcode');
     expect(cover).toHaveClass('cover-expired');

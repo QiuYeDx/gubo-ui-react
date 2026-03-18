@@ -121,7 +121,7 @@ export default function useToken(): [
   const { csp } = React.useContext(ConfigContext);
 
   const cssVar = {
-    prefix: ctxCssVar?.prefix ?? 'ant',
+    prefix: ctxCssVar?.prefix ?? 'g',
     key: ctxCssVar?.key ?? 'css-var-root',
   };
 

@@ -4,84 +4,84 @@ exports[`renders components/segmented/demo/basic.tsx correctly 1`] = `
 <div
   aria-label="segmented control"
   aria-orientation="horizontal"
-  class="ant-segmented css-var-test-id"
+  class="g-segmented css-var-test-id"
   role="radiogroup"
   tabindex="0"
 >
   <div
-    class="ant-segmented-group"
+    class="g-segmented-group"
   >
     <label
-      class="ant-segmented-item ant-segmented-item-selected"
+      class="g-segmented-item g-segmented-item-selected"
     >
       <input
         checked=""
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Daily"
       >
         Daily
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Weekly"
       >
         Weekly
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Monthly"
       >
         Monthly
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Quarterly"
       >
         Quarterly
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Yearly"
       >
         Yearly
@@ -95,54 +95,54 @@ exports[`renders components/segmented/demo/block.tsx correctly 1`] = `
 <div
   aria-label="segmented control"
   aria-orientation="horizontal"
-  class="ant-segmented ant-segmented-block css-var-test-id"
+  class="g-segmented g-segmented-block css-var-test-id"
   role="radiogroup"
   tabindex="0"
 >
   <div
-    class="ant-segmented-group"
+    class="g-segmented-group"
   >
     <label
-      class="ant-segmented-item ant-segmented-item-selected"
+      class="g-segmented-item g-segmented-item-selected"
     >
       <input
         checked=""
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="123"
       >
         123
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="456"
       >
         456
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="longtext-longtext-longtext-longtext"
       >
         longtext-longtext-longtext-longtext
@@ -157,84 +157,84 @@ Array [
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Daily"
         >
           Daily
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Weekly"
         >
           Weekly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Monthly"
         >
           Monthly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Quarterly"
         >
           Quarterly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Yearly"
         >
           Yearly
@@ -246,84 +246,84 @@ Array [
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Daily"
         >
           Daily
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Weekly"
         >
           Weekly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Monthly"
         >
           Monthly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Quarterly"
         >
           Quarterly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Yearly"
         >
           Yearly
@@ -338,54 +338,54 @@ exports[`renders components/segmented/demo/controlled.tsx correctly 1`] = `
 <div
   aria-label="segmented control"
   aria-orientation="horizontal"
-  class="ant-segmented css-var-test-id"
+  class="g-segmented css-var-test-id"
   role="radiogroup"
   tabindex="0"
 >
   <div
-    class="ant-segmented-group"
+    class="g-segmented-group"
   >
     <label
-      class="ant-segmented-item ant-segmented-item-selected"
+      class="g-segmented-item g-segmented-item-selected"
     >
       <input
         checked=""
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Map"
       >
         Map
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Transit"
       >
         Transit
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Satellite"
       >
         Satellite
@@ -400,54 +400,54 @@ Array [
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="AND"
         >
           AND
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="OR"
         >
           OR
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="NOT"
         >
           NOT
@@ -459,54 +459,54 @@ Array [
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="AND"
         >
           AND
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="OR"
         >
           OR
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="NOT"
         >
           NOT
@@ -519,35 +519,35 @@ Array [
 
 exports[`renders components/segmented/demo/custom.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
 >
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <div
             style="padding:4px"
           >
             <span
-              class="ant-avatar ant-avatar-circle ant-avatar-image css-var-test-id ant-avatar-css-var"
+              class="g-avatar g-avatar-circle g-avatar-image css-var-test-id g-avatar-css-var"
             >
               <img
                 alt="User 1"
@@ -561,25 +561,25 @@ exports[`renders components/segmented/demo/custom.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <div
             style="padding:4px"
           >
             <span
-              class="ant-avatar ant-avatar-circle css-var-test-id ant-avatar-css-var"
+              class="g-avatar g-avatar-circle css-var-test-id g-avatar-css-var"
               style="background-color:#f56a00"
             >
               <span
-                class="ant-avatar-string"
+                class="g-avatar-string"
                 style="opacity:0"
               >
                 K
@@ -592,26 +592,26 @@ exports[`renders components/segmented/demo/custom.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <div
             style="padding:4px"
           >
             <span
-              class="ant-avatar ant-avatar-circle ant-avatar-icon css-var-test-id ant-avatar-css-var"
+              class="g-avatar g-avatar-circle g-avatar-icon css-var-test-id g-avatar-css-var"
               style="background-color:#87d068"
             >
               <span
                 aria-label="user"
-                class="anticon anticon-user"
+                class="gicon gicon-user"
                 role="img"
               >
                 <svg
@@ -640,24 +640,24 @@ exports[`renders components/segmented/demo/custom.tsx correctly 1`] = `
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <div
             style="padding:4px"
@@ -672,15 +672,15 @@ exports[`renders components/segmented/demo/custom.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <div
             style="padding:4px"
@@ -695,15 +695,15 @@ exports[`renders components/segmented/demo/custom.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <div
             style="padding:4px"
@@ -718,15 +718,15 @@ exports[`renders components/segmented/demo/custom.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <div
             style="padding:4px"
@@ -747,61 +747,61 @@ exports[`renders components/segmented/demo/custom.tsx correctly 1`] = `
 
 exports[`renders components/segmented/demo/disabled.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
 >
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented ant-segmented-disabled css-var-test-id"
+    class="g-segmented g-segmented-disabled css-var-test-id"
     role="radiogroup"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected ant-segmented-item-disabled"
+        class="g-segmented-item g-segmented-item-selected g-segmented-item-disabled"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           disabled=""
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Map"
         >
           Map
         </div>
       </label>
       <label
-        class="ant-segmented-item ant-segmented-item-disabled"
+        class="g-segmented-item g-segmented-item-disabled"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           disabled=""
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Transit"
         >
           Transit
         </div>
       </label>
       <label
-        class="ant-segmented-item ant-segmented-item-disabled"
+        class="g-segmented-item g-segmented-item-disabled"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           disabled=""
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Satellite"
         >
           Satellite
@@ -812,86 +812,86 @@ exports[`renders components/segmented/demo/disabled.tsx correctly 1`] = `
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Daily"
         >
           Daily
         </div>
       </label>
       <label
-        class="ant-segmented-item ant-segmented-item-disabled"
+        class="g-segmented-item g-segmented-item-disabled"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           disabled=""
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Weekly"
         >
           Weekly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Monthly"
         >
           Monthly
         </div>
       </label>
       <label
-        class="ant-segmented-item ant-segmented-item-disabled"
+        class="g-segmented-item g-segmented-item-disabled"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           disabled=""
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Quarterly"
         >
           Quarterly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Yearly"
         >
           Yearly
@@ -904,59 +904,59 @@ exports[`renders components/segmented/demo/disabled.tsx correctly 1`] = `
 
 exports[`renders components/segmented/demo/dynamic.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
 >
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Daily"
         >
           Daily
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Weekly"
         >
           Weekly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Monthly"
         >
           Monthly
@@ -965,7 +965,7 @@ exports[`renders components/segmented/demo/dynamic.tsx correctly 1`] = `
     </div>
   </div>
   <button
-    class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+    class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
     type="button"
   >
     <span>
@@ -979,31 +979,31 @@ exports[`renders components/segmented/demo/icon-only.tsx correctly 1`] = `
 <div
   aria-label="segmented control"
   aria-orientation="horizontal"
-  class="ant-segmented css-var-test-id"
+  class="g-segmented css-var-test-id"
   role="radiogroup"
   tabindex="0"
 >
   <div
-    class="ant-segmented-group"
+    class="g-segmented-group"
   >
     <label
-      class="ant-segmented-item ant-segmented-item-selected"
+      class="g-segmented-item g-segmented-item-selected"
     >
       <input
         checked=""
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
       >
         <span
-          class="ant-segmented-item-icon"
+          class="g-segmented-item-icon"
         >
           <span
             aria-label="bars"
-            class="anticon anticon-bars"
+            class="gicon gicon-bars"
             role="img"
           >
             <svg
@@ -1024,22 +1024,22 @@ exports[`renders components/segmented/demo/icon-only.tsx correctly 1`] = `
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
       >
         <span
-          class="ant-segmented-item-icon"
+          class="g-segmented-item-icon"
         >
           <span
             aria-label="appstore"
-            class="anticon anticon-appstore"
+            class="gicon gicon-appstore"
             role="img"
           >
             <svg
@@ -1065,59 +1065,59 @@ exports[`renders components/segmented/demo/icon-only.tsx correctly 1`] = `
 
 exports[`renders components/segmented/demo/shape.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
 >
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="small"
         >
           small
         </div>
       </label>
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="medium"
         >
           medium
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="large"
         >
           large
@@ -1128,31 +1128,31 @@ exports[`renders components/segmented/demo/shape.tsx correctly 1`] = `
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented ant-segmented-shape-round css-var-test-id"
+    class="g-segmented g-segmented-shape-round css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <span
-            class="ant-segmented-item-icon"
+            class="g-segmented-item-icon"
           >
             <span
               aria-label="sun"
-              class="anticon anticon-sun"
+              class="gicon gicon-sun"
               role="img"
             >
               <svg
@@ -1174,22 +1174,22 @@ exports[`renders components/segmented/demo/shape.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <span
-            class="ant-segmented-item-icon"
+            class="g-segmented-item-icon"
           >
             <span
               aria-label="moon"
-              class="anticon anticon-moon"
+              class="gicon gicon-moon"
               role="img"
             >
               <svg
@@ -1217,89 +1217,89 @@ exports[`renders components/segmented/demo/shape.tsx correctly 1`] = `
 
 exports[`renders components/segmented/demo/size.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-flex-start ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-flex-start g-flex-gap-small g-flex-vertical"
 >
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented ant-segmented-lg css-var-test-id"
+    class="g-segmented g-segmented-lg css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Daily"
         >
           Daily
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Weekly"
         >
           Weekly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Monthly"
         >
           Monthly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Quarterly"
         >
           Quarterly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Yearly"
         >
           Yearly
@@ -1310,84 +1310,84 @@ exports[`renders components/segmented/demo/size.tsx correctly 1`] = `
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented css-var-test-id"
+    class="g-segmented css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Daily"
         >
           Daily
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Weekly"
         >
           Weekly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Monthly"
         >
           Monthly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Quarterly"
         >
           Quarterly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Yearly"
         >
           Yearly
@@ -1398,84 +1398,84 @@ exports[`renders components/segmented/demo/size.tsx correctly 1`] = `
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented ant-segmented-sm css-var-test-id"
+    class="g-segmented g-segmented-sm css-var-test-id"
     role="radiogroup"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Daily"
         >
           Daily
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Weekly"
         >
           Weekly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Monthly"
         >
           Monthly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Quarterly"
         >
           Quarterly
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
           title="Yearly"
         >
           Yearly
@@ -1488,61 +1488,61 @@ exports[`renders components/segmented/demo/size.tsx correctly 1`] = `
 
 exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-small g-flex-vertical"
 >
   <div>
     <div
       aria-label="segmented control"
       aria-orientation="horizontal"
-      class="ant-segmented ant-segmented-lg css-var-test-id"
+      class="g-segmented g-segmented-lg css-var-test-id"
       role="radiogroup"
       style="margin-inline-end:6px"
       tabindex="0"
     >
       <div
-        class="ant-segmented-group"
+        class="g-segmented-group"
       >
         <label
-          class="ant-segmented-item ant-segmented-item-selected"
+          class="g-segmented-item g-segmented-item-selected"
         >
           <input
             checked=""
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Daily"
           >
             Daily
           </div>
         </label>
         <label
-          class="ant-segmented-item"
+          class="g-segmented-item"
         >
           <input
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Weekly"
           >
             Weekly
           </div>
         </label>
         <label
-          class="ant-segmented-item"
+          class="g-segmented-item"
         >
           <input
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Monthly"
           >
             Monthly
@@ -1551,7 +1551,7 @@ exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
       </div>
     </div>
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid g-btn-lg"
       type="button"
     >
       <span>
@@ -1563,55 +1563,55 @@ exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
     <div
       aria-label="segmented control"
       aria-orientation="horizontal"
-      class="ant-segmented css-var-test-id"
+      class="g-segmented css-var-test-id"
       role="radiogroup"
       style="margin-inline-end:6px"
       tabindex="0"
     >
       <div
-        class="ant-segmented-group"
+        class="g-segmented-group"
       >
         <label
-          class="ant-segmented-item ant-segmented-item-selected"
+          class="g-segmented-item g-segmented-item-selected"
         >
           <input
             checked=""
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Daily"
           >
             Daily
           </div>
         </label>
         <label
-          class="ant-segmented-item"
+          class="g-segmented-item"
         >
           <input
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Weekly"
           >
             Weekly
           </div>
         </label>
         <label
-          class="ant-segmented-item"
+          class="g-segmented-item"
         >
           <input
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Monthly"
           >
             Monthly
@@ -1620,7 +1620,7 @@ exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+      class="g-input g-input-outlined css-var-test-id g-input-css-var"
       placeholder="default size"
       style="width:150px"
       type="text"
@@ -1631,55 +1631,55 @@ exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
     <div
       aria-label="segmented control"
       aria-orientation="horizontal"
-      class="ant-segmented ant-segmented-sm css-var-test-id"
+      class="g-segmented g-segmented-sm css-var-test-id"
       role="radiogroup"
       style="margin-inline-end:6px"
       tabindex="0"
     >
       <div
-        class="ant-segmented-group"
+        class="g-segmented-group"
       >
         <label
-          class="ant-segmented-item ant-segmented-item-selected"
+          class="g-segmented-item g-segmented-item-selected"
         >
           <input
             checked=""
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Daily"
           >
             Daily
           </div>
         </label>
         <label
-          class="ant-segmented-item"
+          class="g-segmented-item"
         >
           <input
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Weekly"
           >
             Weekly
           </div>
         </label>
         <label
-          class="ant-segmented-item"
+          class="g-segmented-item"
         >
           <input
-            class="ant-segmented-item-input"
+            class="g-segmented-item-input"
             name="test-id"
             type="radio"
           />
           <div
-            class="ant-segmented-item-label"
+            class="g-segmented-item-label"
             title="Monthly"
           >
             Monthly
@@ -1688,11 +1688,11 @@ exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-sm ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-sm g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:150px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -1702,7 +1702,7 @@ exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
           aria-haspopup="listbox"
           aria-label="select"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1711,11 +1711,11 @@ exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1740,37 +1740,37 @@ exports[`renders components/segmented/demo/size-consistent.tsx correctly 1`] = `
 
 exports[`renders components/segmented/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
     aria-label="segmented control"
     aria-orientation="horizontal"
-    class="ant-segmented acss-1oxwpj8 css-var-test-id"
+    class="g-segmented acss-1oxwpj8 css-var-test-id"
     role="radiogroup"
     style="padding:4px;width:260px"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <span
-            class="ant-segmented-item-icon"
+            class="g-segmented-item-icon"
           >
             <span
               aria-label="rocket"
-              class="anticon anticon-rocket"
+              class="gicon gicon-rocket"
               role="img"
             >
               <svg
@@ -1794,22 +1794,22 @@ exports[`renders components/segmented/demo/style-class.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <span
-            class="ant-segmented-item-icon"
+            class="g-segmented-item-icon"
           >
             <span
               aria-label="thunderbolt"
-              class="anticon anticon-thunderbolt"
+              class="gicon gicon-thunderbolt"
               role="img"
             >
               <svg
@@ -1833,22 +1833,22 @@ exports[`renders components/segmented/demo/style-class.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <span
-            class="ant-segmented-item-icon"
+            class="g-segmented-item-icon"
           >
             <span
               aria-label="cloud"
-              class="anticon anticon-cloud"
+              class="gicon gicon-cloud"
               role="img"
             >
               <svg
@@ -1876,34 +1876,34 @@ exports[`renders components/segmented/demo/style-class.tsx correctly 1`] = `
   <div
     aria-label="segmented control"
     aria-orientation="vertical"
-    class="ant-segmented ant-segmented-vertical acss-1oxwpj8 ant-segmented-vertical css-var-test-id"
+    class="g-segmented g-segmented-vertical acss-1oxwpj8 g-segmented-vertical css-var-test-id"
     role="radiogroup"
     style="border:1px solid #77BEF0;padding:4px;width:100px"
     tabindex="0"
   >
     <div
-      class="ant-segmented-group"
+      class="g-segmented-group"
     >
       <label
-        class="ant-segmented-item ant-segmented-item-selected"
+        class="g-segmented-item g-segmented-item-selected"
         style="text-align:start"
       >
         <input
           checked=""
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <span
-            class="ant-segmented-item-icon"
+            class="g-segmented-item-icon"
             style="color:#77BEF0"
           >
             <span
               aria-label="rocket"
-              class="anticon anticon-rocket"
+              class="gicon gicon-rocket"
               role="img"
             >
               <svg
@@ -1927,24 +1927,24 @@ exports[`renders components/segmented/demo/style-class.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
         style="text-align:start"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <span
-            class="ant-segmented-item-icon"
+            class="g-segmented-item-icon"
             style="color:#77BEF0"
           >
             <span
               aria-label="thunderbolt"
-              class="anticon anticon-thunderbolt"
+              class="gicon gicon-thunderbolt"
               role="img"
             >
               <svg
@@ -1968,24 +1968,24 @@ exports[`renders components/segmented/demo/style-class.tsx correctly 1`] = `
         </div>
       </label>
       <label
-        class="ant-segmented-item"
+        class="g-segmented-item"
         style="text-align:start"
       >
         <input
-          class="ant-segmented-item-input"
+          class="g-segmented-item-input"
           name="test-id"
           type="radio"
         />
         <div
-          class="ant-segmented-item-label"
+          class="g-segmented-item-label"
         >
           <span
-            class="ant-segmented-item-icon"
+            class="g-segmented-item-icon"
             style="color:#77BEF0"
           >
             <span
               aria-label="cloud"
-              class="anticon anticon-cloud"
+              class="gicon gicon-cloud"
               role="img"
             >
               <svg
@@ -2017,31 +2017,31 @@ exports[`renders components/segmented/demo/vertical.tsx correctly 1`] = `
 <div
   aria-label="segmented control"
   aria-orientation="vertical"
-  class="ant-segmented ant-segmented-vertical ant-segmented-vertical css-var-test-id"
+  class="g-segmented g-segmented-vertical g-segmented-vertical css-var-test-id"
   role="radiogroup"
   tabindex="0"
 >
   <div
-    class="ant-segmented-group"
+    class="g-segmented-group"
   >
     <label
-      class="ant-segmented-item ant-segmented-item-selected"
+      class="g-segmented-item g-segmented-item-selected"
     >
       <input
         checked=""
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
       >
         <span
-          class="ant-segmented-item-icon"
+          class="g-segmented-item-icon"
         >
           <span
             aria-label="bars"
-            class="anticon anticon-bars"
+            class="gicon gicon-bars"
             role="img"
           >
             <svg
@@ -2062,22 +2062,22 @@ exports[`renders components/segmented/demo/vertical.tsx correctly 1`] = `
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
       >
         <span
-          class="ant-segmented-item-icon"
+          class="g-segmented-item-icon"
         >
           <span
             aria-label="appstore"
-            class="anticon anticon-appstore"
+            class="gicon gicon-appstore"
             role="img"
           >
             <svg
@@ -2105,31 +2105,31 @@ exports[`renders components/segmented/demo/with-icon.tsx correctly 1`] = `
 <div
   aria-label="segmented control"
   aria-orientation="horizontal"
-  class="ant-segmented css-var-test-id"
+  class="g-segmented css-var-test-id"
   role="radiogroup"
   tabindex="0"
 >
   <div
-    class="ant-segmented-group"
+    class="g-segmented-group"
   >
     <label
-      class="ant-segmented-item ant-segmented-item-selected"
+      class="g-segmented-item g-segmented-item-selected"
     >
       <input
         checked=""
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
       >
         <span
-          class="ant-segmented-item-icon"
+          class="g-segmented-item-icon"
         >
           <span
             aria-label="bars"
-            class="anticon anticon-bars"
+            class="gicon gicon-bars"
             role="img"
           >
             <svg
@@ -2153,22 +2153,22 @@ exports[`renders components/segmented/demo/with-icon.tsx correctly 1`] = `
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="test-id"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
       >
         <span
-          class="ant-segmented-item-icon"
+          class="g-segmented-item-icon"
         >
           <span
             aria-label="appstore"
-            class="anticon anticon-appstore"
+            class="gicon gicon-appstore"
             role="img"
           >
             <svg
@@ -2199,84 +2199,84 @@ exports[`renders components/segmented/demo/with-name.tsx correctly 1`] = `
 <div
   aria-label="segmented control"
   aria-orientation="horizontal"
-  class="ant-segmented css-var-test-id"
+  class="g-segmented css-var-test-id"
   role="radiogroup"
   tabindex="0"
 >
   <div
-    class="ant-segmented-group"
+    class="g-segmented-group"
   >
     <label
-      class="ant-segmented-item ant-segmented-item-selected"
+      class="g-segmented-item g-segmented-item-selected"
     >
       <input
         checked=""
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="group"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Daily"
       >
         Daily
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="group"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Weekly"
       >
         Weekly
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="group"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Monthly"
       >
         Monthly
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="group"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Quarterly"
       >
         Quarterly
       </div>
     </label>
     <label
-      class="ant-segmented-item"
+      class="g-segmented-item"
     >
       <input
-        class="ant-segmented-item-input"
+        class="g-segmented-item-input"
         name="group"
         type="radio"
       />
       <div
-        class="ant-segmented-item-label"
+        class="g-segmented-item-label"
         title="Yearly"
       >
         Yearly

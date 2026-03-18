@@ -77,21 +77,21 @@ describe('notification', () => {
       key: '2',
     });
 
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(2);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(2);
 
     // Close 1
     notification.destroy('1');
 
     await triggerMotionEnd();
 
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(1);
 
     // Close 2
     notification.destroy('2');
 
     await triggerMotionEnd();
 
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(0);
   });
 
   it('should be able to destroy globally', async () => {
@@ -106,15 +106,15 @@ describe('notification', () => {
       duration: 0,
     });
 
-    expect(document.querySelectorAll('.ant-notification')).toHaveLength(1);
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(2);
+    expect(document.querySelectorAll('.g-notification')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(2);
 
     notification.destroy();
 
     await triggerMotionEnd();
 
-    expect(document.querySelectorAll('.ant-notification')).toHaveLength(0);
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-notification')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(0);
   });
 
   it('should be able to destroy after config', () => {
@@ -135,7 +135,7 @@ describe('notification', () => {
     });
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-notification-rtl')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-notification-rtl')).toHaveLength(1);
   });
 
   it('should be able to global config rootPrefixCls', async () => {
@@ -144,7 +144,7 @@ describe('notification', () => {
     notification.success({ title: 'Notification Title', duration: 0 });
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(0);
     expect(document.querySelectorAll('.prefix-test-notification-notice')).toHaveLength(1);
     expect(document.querySelectorAll('.bamboo-check-circle')).toHaveLength(1);
 
@@ -162,7 +162,7 @@ describe('notification', () => {
     });
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(0);
     expect(document.querySelectorAll('.prefix-test-notice')).toHaveLength(1);
 
     notification.config({
@@ -171,7 +171,7 @@ describe('notification', () => {
   });
 
   it('should be able to open with icon', async () => {
-    const iconPrefix = '.ant-notification-notice-icon';
+    const iconPrefix = '.g-notification-notice-icon';
 
     const list = ['success', 'info', 'warning', 'error'] as const;
 
@@ -203,7 +203,7 @@ describe('notification', () => {
     await awaitPromise();
 
     list.forEach((type) => {
-      expect(document.querySelectorAll(`.ant-notification-notice-${type}`)).toHaveLength(1);
+      expect(document.querySelectorAll(`.g-notification-notice-${type}`)).toHaveLength(1);
     });
   });
 
@@ -217,9 +217,9 @@ describe('notification', () => {
     });
     await awaitPromise();
 
-    expect(document.querySelectorAll('.ant-notification')).toHaveLength(1);
+    expect(document.querySelectorAll('.g-notification')).toHaveLength(1);
 
-    fireEvent.click(document.querySelector('.ant-notification-notice')!);
+    fireEvent.click(document.querySelector('.g-notification-notice')!);
     expect(onClick).toHaveBeenCalled();
   });
 
@@ -311,7 +311,7 @@ describe('notification', () => {
     });
 
     await awaitPromise();
-    const closeBtn = document.body.querySelector('.ant-notification-notice-close');
+    const closeBtn = document.body.querySelector('.g-notification-notice-close');
     fireEvent.click(closeBtn!);
 
     expect(handleClose).toHaveBeenCalledTimes(1);
@@ -345,7 +345,7 @@ describe('notification', () => {
     });
     await awaitPromise();
 
-    expect(document.querySelector('.ant-notification')).toBeTruthy();
+    expect(document.querySelector('.g-notification')).toBeTruthy();
   });
 
   it('support icon', async () => {
@@ -356,7 +356,7 @@ describe('notification', () => {
     });
     await awaitPromise();
 
-    expect(document.querySelector('.anticon-user')).toBeTruthy();
+    expect(document.querySelector('.gicon-user')).toBeTruthy();
   });
 
   it('support props', () => {
@@ -413,10 +413,10 @@ describe('notification', () => {
       });
     });
     await awaitPromise();
-    expect(document.querySelectorAll('.normal .ant-notification-notice-close').length).toBe(1);
+    expect(document.querySelectorAll('.normal .g-notification-notice-close').length).toBe(1);
     expect(document.querySelectorAll('.custom .custom-close-icon').length).toBe(1);
-    expect(document.querySelectorAll('.with-null .ant-notification-notice-close').length).toBe(0);
-    expect(document.querySelectorAll('.with-false .ant-notification-notice-close').length).toBe(0);
+    expect(document.querySelectorAll('.with-null .g-notification-notice-close').length).toBe(0);
+    expect(document.querySelectorAll('.with-false .g-notification-notice-close').length).toBe(0);
   });
 
   it('style.width could be override', async () => {
@@ -509,7 +509,7 @@ describe('notification', () => {
         message: 'Notification message',
       });
     });
-    expect(document.querySelectorAll('.ant-notification-description').length).toBe(0);
+    expect(document.querySelectorAll('.g-notification-description').length).toBe(0);
   });
   describe('When closeIcon is null, there is no close button', () => {
     it('Notification method', async () => {
@@ -520,15 +520,15 @@ describe('notification', () => {
         });
       });
       await awaitPromise();
-      expect(document.querySelector('.ant-notification')).toBeTruthy();
-      expect(document.querySelector('.ant-notification-notice-close')).toBeFalsy();
+      expect(document.querySelector('.g-notification')).toBeTruthy();
+      expect(document.querySelector('.g-notification-notice-close')).toBeFalsy();
     });
 
     it('PurePanel', () => {
       const Holder = notification._InternalPanelDoNotUseOrYouWillBeFired;
       render(<Holder closeIcon={null} title="Notification title" />);
-      expect(document.querySelector('.ant-notification-notice-pure-panel')).toBeTruthy();
-      expect(document.querySelector('.ant-notification-notice-close')).toBeFalsy();
+      expect(document.querySelector('.g-notification-notice-pure-panel')).toBeTruthy();
+      expect(document.querySelector('.g-notification-notice-close')).toBeFalsy();
     });
   });
 });

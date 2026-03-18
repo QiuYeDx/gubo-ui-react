@@ -25,17 +25,17 @@ describe('Drawer', () => {
       jest.runAllTimers();
     });
 
-    const mask = document.querySelector('.ant-drawer-mask');
+    const mask = document.querySelector('.g-drawer-mask');
     if (mask) {
       fireEvent.animationEnd(mask);
     }
 
-    const panel = document.querySelector('.ant-drawer-section');
+    const panel = document.querySelector('.g-drawer-section');
     if (panel) {
       fireEvent.animationEnd(panel);
     }
 
-    const contentWrapper = document.querySelector('.ant-drawer-content-wrapper');
+    const contentWrapper = document.querySelector('.g-drawer-content-wrapper');
     if (contentWrapper) {
       fireEvent.animationEnd(contentWrapper);
     }
@@ -47,11 +47,11 @@ describe('Drawer', () => {
 
   it('render correctly', () => {
     const { container, asFragment, rerender } = render(<DrawerTest />);
-    expect(container.querySelector('.ant-drawer-body')).toBeTruthy();
+    expect(container.querySelector('.g-drawer-body')).toBeTruthy();
 
     rerender(<DrawerTest open={false} />);
 
-    expect(container.querySelector('.ant-drawer-body')?.textContent).toEqual(
+    expect(container.querySelector('.g-drawer-body')?.textContent).toEqual(
       'Here is content of Drawer',
     );
 
@@ -62,7 +62,7 @@ describe('Drawer', () => {
     const onClose = jest.fn();
     const { container } = render(<DrawerTest onClose={onClose} />);
 
-    fireEvent.click(container.querySelector('.ant-drawer-mask')!);
+    fireEvent.click(container.querySelector('.g-drawer-mask')!);
     expect(onClose).toHaveBeenCalled();
   });
 
@@ -70,7 +70,7 @@ describe('Drawer', () => {
     const onClose = jest.fn();
     const { container } = render(<DrawerTest onClose={onClose} />);
 
-    fireEvent.click(container.querySelector('.ant-drawer-close')!);
+    fireEvent.click(container.querySelector('.g-drawer-close')!);
     expect(onClose).toHaveBeenCalled();
   });
 
@@ -78,7 +78,7 @@ describe('Drawer', () => {
     const onClose = jest.fn();
     const { container } = render(<DrawerTest onClose={onClose} maskClosable={false} />);
 
-    fireEvent.click(container.querySelector('.ant-drawer-mask')!);
+    fireEvent.click(container.querySelector('.g-drawer-mask')!);
     expect(onClose).not.toHaveBeenCalled();
   });
 
@@ -86,7 +86,7 @@ describe('Drawer', () => {
     const onClose = jest.fn();
     const { container } = render(<DrawerTest onClose={onClose} mask={{ closable: false }} />);
 
-    fireEvent.click(container.querySelector('.ant-drawer-mask')!);
+    fireEvent.click(container.querySelector('.g-drawer-mask')!);
     expect(onClose).not.toHaveBeenCalled();
   });
 
@@ -97,7 +97,7 @@ describe('Drawer', () => {
         <DrawerTest onClose={onClose} />
       </ConfigProvider>,
     );
-    fireEvent.click(container.querySelector('.ant-drawer-mask')!);
+    fireEvent.click(container.querySelector('.g-drawer-mask')!);
     expect(onClose).not.toHaveBeenCalled();
   });
 
@@ -108,7 +108,7 @@ describe('Drawer', () => {
         <DrawerTest onClose={onClose} maskClosable={false} />
       </ConfigProvider>,
     );
-    fireEvent.click(container.querySelector('.ant-drawer-mask')!);
+    fireEvent.click(container.querySelector('.g-drawer-mask')!);
     expect(onClose).not.toHaveBeenCalled();
   });
 
@@ -119,53 +119,53 @@ describe('Drawer', () => {
         <DrawerTest onClose={onClose} maskClosable />
       </ConfigProvider>,
     );
-    fireEvent.click(container.querySelector('.ant-drawer-mask')!);
+    fireEvent.click(container.querySelector('.g-drawer-mask')!);
     expect(onClose).toHaveBeenCalled();
   });
 
   it('dom should be removed after close when destroyOnHidden is true', () => {
     const { container, rerender } = render(<DrawerTest destroyOnHidden />);
-    expect(container.querySelector('.ant-drawer')).toBeTruthy();
+    expect(container.querySelector('.g-drawer')).toBeTruthy();
 
     rerender(<DrawerTest destroyOnHidden open={false} />);
     act(() => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelector('.ant-drawer')).toBeFalsy();
+    expect(container.querySelector('.g-drawer')).toBeFalsy();
   });
 
   it('dom should be existed after close when destroyOnHidden is false', () => {
     const { container, rerender } = render(<DrawerTest />);
-    expect(container.querySelector('.ant-drawer')).toBeTruthy();
+    expect(container.querySelector('.g-drawer')).toBeTruthy();
 
     rerender(<DrawerTest open={false} />);
     act(() => {
       jest.runAllTimers();
     });
-    fireEvent.animationEnd(container.querySelector('.ant-drawer-section')!);
+    fireEvent.animationEnd(container.querySelector('.g-drawer-section')!);
 
-    expect(container.querySelector('.ant-drawer')).toBeTruthy();
+    expect(container.querySelector('.g-drawer')).toBeTruthy();
   });
 
   it('dom should be existed after close twice when getContainer is false', () => {
     const { container, rerender } = render(<DrawerTest open getContainer={false} />);
-    expect(container.querySelector('.ant-drawer-section')).toBeTruthy();
+    expect(container.querySelector('.g-drawer-section')).toBeTruthy();
 
     // Hide
     rerender(<DrawerTest open={false} getContainer={false} />);
     triggerMotion();
-    expect(container.querySelector('.ant-drawer-content-wrapper-hidden')).toBeTruthy();
+    expect(container.querySelector('.g-drawer-content-wrapper-hidden')).toBeTruthy();
 
     // Show
     rerender(<DrawerTest open getContainer={false} />);
-    expect(container.querySelector('.ant-drawer-content-wrapper')).toBeTruthy();
-    expect(container.querySelector('.ant-drawer-content-wrapper-hidden')).toBeFalsy();
+    expect(container.querySelector('.g-drawer-content-wrapper')).toBeTruthy();
+    expect(container.querySelector('.g-drawer-content-wrapper-hidden')).toBeFalsy();
 
     // Hide
     rerender(<DrawerTest open={false} getContainer={false} />);
     triggerMotion();
-    expect(container.querySelector('.ant-drawer-content-wrapper-hidden')).toBeTruthy();
+    expect(container.querySelector('.g-drawer-content-wrapper-hidden')).toBeTruthy();
   });
 
   it('test afterOpenChange', async () => {

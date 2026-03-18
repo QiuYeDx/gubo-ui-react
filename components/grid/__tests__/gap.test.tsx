@@ -25,7 +25,7 @@ describe('Grid.Gap', () => {
         <Col />
       </Row>,
     );
-    expect(container.querySelector<HTMLElement>('.ant-row')).toHaveStyle({
+    expect(container.querySelector<HTMLElement>('.g-row')).toHaveStyle({
       marginInline: '-8px',
       rowGap: '8px',
     });

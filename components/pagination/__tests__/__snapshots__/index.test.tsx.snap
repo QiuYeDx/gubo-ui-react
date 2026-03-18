@@ -2,22 +2,22 @@
 
 exports[`Pagination ConfigProvider should be rendered correctly in RTL 1`] = `
 <ul
-  class="ant-pagination ant-pagination-rtl css-var-root"
+  class="g-pagination g-pagination-rtl css-var-root"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="g-pagination-prev g-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -37,7 +37,7 @@ exports[`Pagination ConfigProvider should be rendered correctly in RTL 1`] = `
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -48,7 +48,7 @@ exports[`Pagination ConfigProvider should be rendered correctly in RTL 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="g-pagination-item g-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -59,7 +59,7 @@ exports[`Pagination ConfigProvider should be rendered correctly in RTL 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="g-pagination-item g-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -70,7 +70,7 @@ exports[`Pagination ConfigProvider should be rendered correctly in RTL 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="g-pagination-item g-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -81,7 +81,7 @@ exports[`Pagination ConfigProvider should be rendered correctly in RTL 1`] = `
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="g-pagination-item g-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -93,18 +93,18 @@ exports[`Pagination ConfigProvider should be rendered correctly in RTL 1`] = `
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="g-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg
@@ -128,22 +128,22 @@ exports[`Pagination ConfigProvider should be rendered correctly in RTL 1`] = `
 
 exports[`Pagination ConfigProvider should be rendered correctly when componentSize is large 1`] = `
 <ul
-  class="ant-pagination ant-pagination-large css-var-root"
+  class="g-pagination g-pagination-large css-var-root"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="g-pagination-prev g-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg
@@ -163,7 +163,7 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    class="g-pagination-item g-pagination-item-1 g-pagination-item-active"
     tabindex="0"
     title="1"
   >
@@ -174,7 +174,7 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-2"
+    class="g-pagination-item g-pagination-item-2"
     tabindex="0"
     title="2"
   >
@@ -185,7 +185,7 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-3"
+    class="g-pagination-item g-pagination-item-3"
     tabindex="0"
     title="3"
   >
@@ -196,7 +196,7 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-4"
+    class="g-pagination-item g-pagination-item-4"
     tabindex="0"
     title="4"
   >
@@ -207,7 +207,7 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
     </a>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-5"
+    class="g-pagination-item g-pagination-item-5"
     tabindex="0"
     title="5"
   >
@@ -219,18 +219,18 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
   </li>
   <li
     aria-disabled="false"
-    class="ant-pagination-next"
+    class="g-pagination-next"
     tabindex="0"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -250,13 +250,13 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
     </button>
   </li>
   <li
-    class="ant-pagination-options"
+    class="g-pagination-options"
   >
     <div
-      class="ant-select ant-select-lg ant-select-outlined ant-pagination-options-size-changer css-var-root ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-lg g-select-outlined g-pagination-options-size-changer css-var-root g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="10 / page"
       >
         10 / page
@@ -266,7 +266,7 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
           aria-haspopup="listbox"
           aria-label="Page Size"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -274,11 +274,11 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -303,22 +303,22 @@ exports[`Pagination ConfigProvider should be rendered correctly when componentSi
 
 exports[`Pagination rtl render component should be rendered correctly in RTL direction 1`] = `
 <ul
-  class="ant-pagination ant-pagination-rtl css-var-root"
+  class="g-pagination g-pagination-rtl css-var-root"
 >
   <li
     aria-disabled="true"
-    class="ant-pagination-prev ant-pagination-disabled"
+    class="g-pagination-prev g-pagination-disabled"
     title="Previous Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="right"
-        class="anticon anticon-right"
+        class="gicon gicon-right"
         role="img"
       >
         <svg
@@ -338,7 +338,7 @@ exports[`Pagination rtl render component should be rendered correctly in RTL dir
     </button>
   </li>
   <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-disabled"
+    class="g-pagination-item g-pagination-item-1 g-pagination-item-disabled"
     tabindex="0"
     title="1"
   >
@@ -350,18 +350,18 @@ exports[`Pagination rtl render component should be rendered correctly in RTL dir
   </li>
   <li
     aria-disabled="true"
-    class="ant-pagination-next ant-pagination-disabled"
+    class="g-pagination-next g-pagination-disabled"
     title="Next Page"
   >
     <button
-      class="ant-pagination-item-link"
+      class="g-pagination-item-link"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="left"
-        class="anticon anticon-left"
+        class="gicon gicon-left"
         role="img"
       >
         <svg

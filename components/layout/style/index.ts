@@ -100,7 +100,7 @@ export interface LayoutToken extends FullToken<'Layout'> {}
 const genLayoutStyle: GenerateStyle<LayoutToken, CSSObject> = (token) => {
   const {
     antCls, // .ant
-    componentCls, // .ant-layout
+    componentCls, // .g-layout
     colorText,
     footerBg,
     headerHeight,

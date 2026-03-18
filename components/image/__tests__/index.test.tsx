@@ -17,8 +17,8 @@ describe('Image', () => {
   it('Image preview props set false', () => {
     const { container } = render(<Image alt={alt} src={src} preview={false} />);
 
-    fireEvent.click(container.querySelector('.ant-image')!);
-    expect(container.querySelector('.ant-image-preview-root')).toBe(null);
+    fireEvent.click(container.querySelector('.g-image')!);
+    expect(container.querySelector('.g-image-preview-root')).toBe(null);
   });
   it('Group preview props set false', () => {
     const { container } = render(
@@ -27,14 +27,14 @@ describe('Image', () => {
       </Image.PreviewGroup>,
     );
 
-    fireEvent.click(container.querySelector('.ant-image')!);
+    fireEvent.click(container.querySelector('.g-image')!);
 
-    expect(container.querySelector('.ant-image-preview-root')).toBe(null);
+    expect(container.querySelector('.g-image-preview-root')).toBe(null);
   });
 
   it('Default preview props', () => {
     render(<Image alt={alt} src={src} preview={{ open: true }} />);
-    expect(document.querySelector('.ant-image-preview')).toHaveClass('ant-image-preview-fade');
+    expect(document.querySelector('.g-image-preview')).toHaveClass('g-image-preview-fade');
   });
 
   it('Default Group preview props', () => {
@@ -44,7 +44,7 @@ describe('Image', () => {
       </Image.PreviewGroup>,
     );
     expect(baseElement).toMatchSnapshot();
-    expect(document.querySelector('.ant-image-preview')).toHaveClass('ant-image-preview-fade');
+    expect(document.querySelector('.g-image-preview')).toHaveClass('g-image-preview-fade');
   });
 
   it('Customize preview props', () => {
@@ -56,8 +56,8 @@ describe('Image', () => {
       />,
     );
 
-    expect(document.querySelector('.ant-image-preview')).not.toBe(null);
-    expect(document.querySelector('.ant-image-preview')).toHaveClass('abc');
+    expect(document.querySelector('.g-image-preview')).not.toBe(null);
+    expect(document.querySelector('.g-image-preview')).toHaveClass('abc');
   });
 
   it('Customize Group preview props', () => {
@@ -66,7 +66,7 @@ describe('Image', () => {
         <Image alt={alt} src={src} />
       </Image.PreviewGroup>,
     );
-    expect(document.querySelector('.ant-image-preview')).toHaveClass('abc');
+    expect(document.querySelector('.g-image-preview')).toHaveClass('abc');
   });
 
   it('ConfigProvider getPopupContainer', () => {
@@ -80,7 +80,7 @@ describe('Image', () => {
         </ConfigProvider>
       </>,
     );
-    fireEvent.click(container.querySelector('.ant-image')!);
+    fireEvent.click(container.querySelector('.g-image')!);
     expect(baseElement.querySelector('.container')?.children.length).not.toBe(0);
   });
 
@@ -192,13 +192,13 @@ describe('Image', () => {
     };
     const { container } = render(<App />);
 
-    const cover = container.querySelector('.ant-image-cover');
-    expect(cover).toHaveClass('ant-image-cover-center');
+    const cover = container.querySelector('.g-image-cover');
+    expect(cover).toHaveClass('g-image-cover-center');
 
     fireEvent.click(container.querySelector('#top')!);
-    expect(cover).toHaveClass('ant-image-cover-top');
+    expect(cover).toHaveClass('g-image-cover-top');
     fireEvent.click(container.querySelector('#bottom')!);
-    expect(cover).toHaveClass('ant-image-cover-bottom');
+    expect(cover).toHaveClass('g-image-cover-bottom');
   });
 
   describe('Image mask blur className', () => {
@@ -251,19 +251,19 @@ describe('Image', () => {
         testCases,
       )(`${index === 0 ? 'Image:' : 'Image.PreviewGroup'} imageMask = %s configMask = %s ,mask blur = %s`, (imageMask, configMask, expectedBlurClass, openMask) => {
         render(demo(imageMask as MaskType, configMask));
-        fireEvent.click(document.querySelector('.ant-image')!);
+        fireEvent.click(document.querySelector('.g-image')!);
 
-        const maskElement = document.querySelector('.ant-image-preview-mask');
+        const maskElement = document.querySelector('.g-image-preview-mask');
         expect(maskElement).toBeInTheDocument();
         if (!openMask) {
-          const hiddenMask = document.querySelector('.ant-image-preview-mask-hidden');
+          const hiddenMask = document.querySelector('.g-image-preview-mask-hidden');
           expect(hiddenMask).toBeTruthy();
           return;
         }
         if (expectedBlurClass) {
-          expect(maskElement).toHaveClass('ant-image-preview-mask-blur');
+          expect(maskElement).toHaveClass('g-image-preview-mask-blur');
         } else {
-          expect(maskElement).not.toHaveClass('ant-image-preview-mask-blur');
+          expect(maskElement).not.toHaveClass('g-image-preview-mask-blur');
         }
       });
     });

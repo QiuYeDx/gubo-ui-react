@@ -3,17 +3,17 @@
 exports[`renders components/message/demo/component-token.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-message-notice ant-message-notice-pure-panel css-var-test-id ant-message-css-var"
+    class="g-message-notice g-message-notice-pure-panel css-var-test-id g-message-css-var"
   >
     <div
-      class="ant-message-notice-content"
+      class="g-message-notice-content"
     >
       <div
-        class="ant-message-custom-content ant-message-error"
+        class="g-message-custom-content g-message-error"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -38,17 +38,17 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-message-notice ant-message-notice-pure-panel css-var-test-id ant-message-css-var"
+    class="g-message-notice g-message-notice-pure-panel css-var-test-id g-message-css-var"
   >
     <div
-      class="ant-message-notice-content"
+      class="g-message-notice-content"
     >
       <div
-        class="ant-message-custom-content ant-message-error"
+        class="g-message-custom-content g-message-error"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -79,7 +79,7 @@ exports[`renders components/message/demo/component-token.tsx extend context corr
 
 exports[`renders components/message/demo/custom-style.tsx extend context correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -92,7 +92,7 @@ exports[`renders components/message/demo/custom-style.tsx extend context correct
 
 exports[`renders components/message/demo/duration.tsx extend context correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -105,7 +105,7 @@ exports[`renders components/message/demo/duration.tsx extend context correctly 2
 
 exports[`renders components/message/demo/hooks.tsx extend context correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -118,7 +118,7 @@ exports[`renders components/message/demo/hooks.tsx extend context correctly 2`] 
 
 exports[`renders components/message/demo/info.tsx extend context correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>
@@ -131,7 +131,7 @@ exports[`renders components/message/demo/info.tsx extend context correctly 2`] =
 
 exports[`renders components/message/demo/loading.tsx extend context correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -144,13 +144,13 @@ exports[`renders components/message/demo/loading.tsx extend context correctly 2`
 
 exports[`renders components/message/demo/other.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -159,10 +159,10 @@ exports[`renders components/message/demo/other.tsx extend context correctly 1`] 
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -171,10 +171,10 @@ exports[`renders components/message/demo/other.tsx extend context correctly 1`] 
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -189,17 +189,17 @@ exports[`renders components/message/demo/other.tsx extend context correctly 2`] 
 
 exports[`renders components/message/demo/render-panel.tsx extend context correctly 1`] = `
 <div
-  class="ant-message-notice ant-message-notice-pure-panel css-var-test-id ant-message-css-var"
+  class="g-message-notice g-message-notice-pure-panel css-var-test-id g-message-css-var"
 >
   <div
-    class="ant-message-notice-content"
+    class="g-message-notice-content"
   >
     <div
-      class="ant-message-custom-content ant-message-error"
+      class="g-message-custom-content g-message-error"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -229,13 +229,13 @@ exports[`renders components/message/demo/render-panel.tsx extend context correct
 
 exports[`renders components/message/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
       type="button"
     >
       <span>
@@ -244,10 +244,10 @@ exports[`renders components/message/demo/style-class.tsx extend context correctl
     </button>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <button
-      class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
       type="button"
     >
       <span>
@@ -262,7 +262,7 @@ exports[`renders components/message/demo/style-class.tsx extend context correctl
 
 exports[`renders components/message/demo/thenable.tsx extend context correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+  class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
   type="button"
 >
   <span>
@@ -275,7 +275,7 @@ exports[`renders components/message/demo/thenable.tsx extend context correctly 2
 
 exports[`renders components/message/demo/update.tsx extend context correctly 1`] = `
 <button
-  class="ant-btn css-var-test-id ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+  class="g-btn css-var-test-id g-btn-primary g-btn-color-primary g-btn-varig-solid"
   type="button"
 >
   <span>

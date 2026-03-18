@@ -6,7 +6,7 @@ import uniqueId from 'lodash/uniqueId';
 
 const classNames = createStaticStyles(({ css }) => ({
   'custom-feedback-icons': css`
-    .ant-form-item-feedback-icon {
+    .g-form-item-feedback-icon {
       pointer-events: all;
     }
   `,

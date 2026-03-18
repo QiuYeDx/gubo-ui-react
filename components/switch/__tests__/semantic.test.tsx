@@ -77,11 +77,11 @@ describe('Switch style-class demo', () => {
 
     const { container } = render(<TestComponent />);
 
-    const switchElement = container.querySelector('.ant-switch');
+    const switchElement = container.querySelector('.g-switch');
     expect(switchElement).toBeTruthy();
 
     // Content classNames may not be applied in current rc-switch version
-    const contentElement = container.querySelector('.ant-switch-inner');
+    const contentElement = container.querySelector('.g-switch-inner');
     expect(contentElement).toBeTruthy();
   });
 
@@ -93,33 +93,33 @@ describe('Switch style-class demo', () => {
 
     const { container } = render(<TestComponent />);
 
-    const switchElement = container.querySelector('.ant-switch');
+    const switchElement = container.querySelector('.g-switch');
     expect(switchElement).toBeTruthy();
 
     // Content classNames may not be applied in current rc-switch version
-    const contentElement = container.querySelector('.ant-switch-inner');
+    const contentElement = container.querySelector('.g-switch-inner');
     expect(contentElement).toBeTruthy();
   });
 
   it('should render styles object correctly', () => {
     const { container } = render(<Switch styles={stylesObject} />);
 
-    const switchElement = container.querySelector('.ant-switch');
+    const switchElement = container.querySelector('.g-switch');
     expect(switchElement).toHaveStyle({ background: 'red' });
 
-    const handleElement = container.querySelector('.ant-switch-handle');
+    const handleElement = container.querySelector('.g-switch-handle');
     expect(handleElement).toHaveStyle({ width: '20px' });
   });
 
   it('should render the complete demo structure', () => {
     const { container } = render(<App />);
 
-    const switches = container.querySelectorAll('.ant-switch');
+    const switches = container.querySelectorAll('.g-switch');
     expect(switches).toHaveLength(2);
 
     // Check first switch with classNames function and small size
     expect(switches[0]).toBeTruthy();
-    const firstSwitchContent = switches[0].querySelector('.ant-switch-inner');
+    const firstSwitchContent = switches[0].querySelector('.g-switch-inner');
     expect(firstSwitchContent).toBeInTheDocument();
 
     // Check second switch with styles object

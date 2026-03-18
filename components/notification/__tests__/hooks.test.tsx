@@ -89,7 +89,7 @@ describe('notification.hooks', () => {
     const { container } = render(<Demo />);
     fireEvent.click(container.querySelector('button')!);
     expect(document.querySelectorAll('.my-test-notification-notice')).toHaveLength(1);
-    expect(document.querySelectorAll('.anticon-check-circle')).toHaveLength(1);
+    expect(document.querySelectorAll('.gicon-check-circle')).toHaveLength(1);
     expect(document.querySelector('.hook-test-result')!.textContent).toEqual('bamboo');
   });
 
@@ -172,7 +172,7 @@ describe('notification.hooks', () => {
     render(<Demo />);
 
     const styleText = extractStyle(cache, true);
-    expect(styleText).not.toContain('.ant-notification');
+    expect(styleText).not.toContain('.g-notification');
   });
 
   it('disable stack', () => {
@@ -191,7 +191,7 @@ describe('notification.hooks', () => {
 
     render(<Demo />);
 
-    expect(document.querySelector('.ant-notification-stack')).toBeFalsy();
+    expect(document.querySelector('.g-notification-stack')).toBeFalsy();
   });
 
   it('support duration', () => {
@@ -219,8 +219,8 @@ describe('notification.hooks', () => {
     fireEvent.click(container.querySelector('a')!);
 
     function getNoticeCount() {
-      return Array.from(document.querySelectorAll('.ant-notification-notice-wrapper')).filter(
-        (node) => !node.classList.contains('ant-notification-fade-leave'),
+      return Array.from(document.querySelectorAll('.g-notification-notice-wrapper')).filter(
+        (node) => !node.classList.contains('g-notification-fade-leave'),
       ).length;
     }
 
@@ -266,9 +266,9 @@ describe('notification.hooks', () => {
     // We use origin testing lib here since StrictMode will render multiple times
     testLibRender(<Demo />);
 
-    expect(document.querySelectorAll('.normal .ant-notification-notice-close').length).toBe(1);
+    expect(document.querySelectorAll('.normal .g-notification-notice-close').length).toBe(1);
     expect(document.querySelectorAll('.custom .custom-close-icon').length).toBe(1);
-    expect(document.querySelectorAll('.with-null .ant-notification-notice-close').length).toBe(0);
-    expect(document.querySelectorAll('.with-false .ant-notification-notice-close').length).toBe(0);
+    expect(document.querySelectorAll('.with-null .g-notification-notice-close').length).toBe(0);
+    expect(document.querySelectorAll('.with-false .g-notification-notice-close').length).toBe(0);
   });
 });

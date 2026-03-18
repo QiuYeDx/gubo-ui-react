@@ -56,12 +56,12 @@ describe('Calendar', () => {
 
   function openSelect(wrapper: HTMLElement, className: string) {
     let target = wrapper.querySelector(className)!;
-    target = target.querySelector('.ant-select') || target;
+    target = target.querySelector('.g-select') || target;
     fireEvent.mouseDown(target);
   }
 
   function findSelectItem(wrapper: HTMLElement) {
-    return wrapper.querySelectorAll('.ant-select-item-option')!;
+    return wrapper.querySelectorAll('.g-select-item-option')!;
   }
 
   function clickSelectItem(wrapper: HTMLElement, index = 0) {
@@ -86,7 +86,7 @@ describe('Calendar', () => {
     const onChange = jest.fn();
     const { container } = render(<Calendar onSelect={onSelect} onChange={onChange} />);
 
-    fireEvent.click(container.querySelector('.ant-picker-cell')!);
+    fireEvent.click(container.querySelector('.g-picker-cell')!);
     expect(onSelect).toHaveBeenCalledWith(expect.anything(), { source: 'date' });
 
     const value = onSelect.mock.calls[0][0];
@@ -117,7 +117,7 @@ describe('Calendar', () => {
     fireEvent.click(container.querySelector('[title="2018-02-20"]')!);
     const elem = container
       .querySelector('[title="2018-02-20"]')!
-      .className.includes('ant-picker-cell-disabled');
+      .className.includes('g-picker-cell-disabled');
     expect(elem).toBe(true);
     expect(onSelect.mock.calls.length).toBe(0);
   });
@@ -134,13 +134,13 @@ describe('Calendar', () => {
       />,
     );
     expect(
-      container.querySelector('[title="2018-01"]')?.className.includes('ant-picker-cell-disabled'),
+      container.querySelector('[title="2018-01"]')?.className.includes('g-picker-cell-disabled'),
     ).toBe(true);
     expect(
-      container.querySelector('[title="2018-02"]')?.className.includes('ant-picker-cell-disabled'),
+      container.querySelector('[title="2018-02"]')?.className.includes('g-picker-cell-disabled'),
     ).toBe(false);
     expect(
-      container.querySelector('[title="2018-06"]')?.className.includes('ant-picker-cell-disabled'),
+      container.querySelector('[title="2018-06"]')?.className.includes('g-picker-cell-disabled'),
     ).toBe(true);
     fireEvent.click(container.querySelector('[title="2018-01"]')!);
     fireEvent.click(container.querySelector('[title="2018-03"]')!);
@@ -150,11 +150,11 @@ describe('Calendar', () => {
   it('months other than in valid range should not be shown in header', () => {
     const validRange: [Dayjs.Dayjs, Dayjs.Dayjs] = [Dayjs('2017-02-02'), Dayjs('2018-05-18')];
     const { container } = render(<Calendar validRange={validRange} />);
-    openSelect(container, '.ant-picker-calendar-year-select');
+    openSelect(container, '.g-picker-calendar-year-select');
     clickSelectItem(container);
-    openSelect(container, '.ant-picker-calendar-month-select');
+    openSelect(container, '.g-picker-calendar-month-select');
     // 2 years and 11 months
-    expect(container.querySelectorAll('.ant-select-item-option').length).toBe(13);
+    expect(container.querySelectorAll('.g-select-item-option').length).toBe(13);
   });
 
   it('getDateRange should returns a disabledDate function', () => {
@@ -222,7 +222,7 @@ describe('Calendar', () => {
         <Calendar locale={zhCN} />
       </ConfigProvider>,
     );
-    expect(wrapper.container.querySelector('.ant-picker-content thead')?.textContent).toBe(
+    expect(wrapper.container.querySelector('.g-picker-content thead')?.textContent).toBe(
       '一二三四五六日',
     );
     MockDate.reset();
@@ -234,7 +234,7 @@ describe('Calendar', () => {
       const date = Dayjs('1990-09-03');
       const wrapper = render(<Calendar onPanelChange={onPanelChange} value={date} />);
 
-      fireEvent.click(Array.from(wrapper.container.querySelectorAll('.ant-picker-cell'))[0]!);
+      fireEvent.click(Array.from(wrapper.container.querySelectorAll('.g-picker-cell'))[0]!);
 
       expect(onPanelChange).toHaveBeenCalled();
       expect(onPanelChange.mock.calls[0][0].month()).toEqual(date.month() - 1);
@@ -245,7 +245,7 @@ describe('Calendar', () => {
       const date = Dayjs('1990-09-03');
       const wrapper = render(<Calendar onPanelChange={onPanelChange} value={date} />);
 
-      fireEvent.click(Array.from(wrapper.container.querySelectorAll('.ant-picker-cell'))[10]!);
+      fireEvent.click(Array.from(wrapper.container.querySelectorAll('.g-picker-cell'))[10]!);
 
       expect(onPanelChange).not.toHaveBeenCalled();
     });
@@ -257,11 +257,11 @@ describe('Calendar', () => {
     const wrapper = render(<Calendar onPanelChange={onPanelChange} value={date} />);
 
     expect(ref.calendarHeaderProps?.mode).toBe('month');
-    expect(wrapper.container.querySelectorAll('.ant-picker-date-panel').length).toBe(1);
-    expect(wrapper.container.querySelectorAll('.ant-picker-month-panel').length).toBe(0);
-    fireEvent.click(wrapper.container.querySelector('.ant-radio-button-input[value="year"]')!);
-    expect(wrapper.container.querySelectorAll('.ant-picker-date-panel').length).toBe(0);
-    expect(wrapper.container.querySelectorAll('.ant-picker-month-panel').length).toBe(1);
+    expect(wrapper.container.querySelectorAll('.g-picker-date-panel').length).toBe(1);
+    expect(wrapper.container.querySelectorAll('.g-picker-month-panel').length).toBe(0);
+    fireEvent.click(wrapper.container.querySelector('.g-radio-button-input[value="year"]')!);
+    expect(wrapper.container.querySelectorAll('.g-picker-date-panel').length).toBe(0);
+    expect(wrapper.container.querySelectorAll('.g-picker-month-panel').length).toBe(1);
 
     expect(onPanelChange).toHaveBeenCalled();
     expect(onPanelChange.mock.calls[0][1]).toEqual('year');
@@ -276,7 +276,7 @@ describe('Calendar', () => {
     const wrapper = render(
       // @ts-ignore
       <Header
-        prefixCls="ant-picker-calendar"
+        prefixCls="g-picker-calendar"
         generateConfig={dayjsGenerateConfig}
         onChange={onValueChange}
         value={value}
@@ -284,7 +284,7 @@ describe('Calendar', () => {
         locale={{ year: '年' } as Locale}
       />,
     );
-    openSelect(wrapper.container, '.ant-picker-calendar-year-select');
+    openSelect(wrapper.container, '.g-picker-calendar-year-select');
     clickSelectItem(wrapper.container);
   };
 
@@ -313,7 +313,7 @@ describe('Calendar', () => {
     const onValueChange = jest.fn();
     const { container } = render(
       <Header
-        prefixCls="ant-picker-calendar"
+        prefixCls="g-picker-calendar"
         generateConfig={dayjsGenerateConfig}
         onChange={onValueChange}
         value={value}
@@ -322,8 +322,8 @@ describe('Calendar', () => {
         locale={{ year: '年' }}
       />,
     );
-    openSelect(container, '.ant-picker-calendar-year-select');
-    const elements = Array.from(container.querySelectorAll<HTMLElement>('.ant-select-item-option'));
+    openSelect(container, '.g-picker-calendar-year-select');
+    const elements = Array.from(container.querySelectorAll<HTMLElement>('.g-select-item-option'));
     const lastIndex = elements.length - 1;
     fireEvent.click(elements[lastIndex]);
     expect(onValueChange).toHaveBeenCalledWith(value.year(2019).month(2), 'year');
@@ -336,7 +336,7 @@ describe('Calendar', () => {
     const onValueChange = jest.fn();
     const wrapper = render(
       <Header
-        prefixCls="ant-picker-calendar"
+        prefixCls="g-picker-calendar"
         generateConfig={dayjsGenerateConfig}
         onChange={onValueChange}
         value={value}
@@ -346,7 +346,7 @@ describe('Calendar', () => {
         mode="month"
       />,
     );
-    openSelect(wrapper.container, '.ant-picker-calendar-month-select');
+    openSelect(wrapper.container, '.g-picker-calendar-month-select');
     clickSelectItem(wrapper.container);
     expect(onValueChange).toHaveBeenCalledWith(value.month(10), 'month');
   });
@@ -356,7 +356,7 @@ describe('Calendar', () => {
     const value = Dayjs('2018-12-03');
     const wrapper = render(
       <Header<Dayjs.Dayjs>
-        prefixCls="ant-picker-calendar"
+        prefixCls="g-picker-calendar"
         generateConfig={dayjsGenerateConfig}
         onModeChange={onTypeChange}
         locale={{ year: '年', month: '月', locale: 'zh_CN' } as any}
@@ -365,7 +365,7 @@ describe('Calendar', () => {
         type="date"
       />,
     );
-    fireEvent.click(Array.from(wrapper.container.querySelectorAll(`.ant-radio-button-input`))[1]!);
+    fireEvent.click(Array.from(wrapper.container.querySelectorAll(`.g-radio-button-input`))[1]!);
     expect(onTypeChange).toHaveBeenCalledWith('year');
   });
 
@@ -395,7 +395,7 @@ describe('Calendar', () => {
     const uiWithYear = <Calendar fullscreen={false} headerRender={headerRender} />;
     const wrapperWithYear = render(uiWithYear);
 
-    openSelect(wrapperWithYear.container, '.ant-select');
+    openSelect(wrapperWithYear.container, '.g-select');
     wrapperWithYear.rerender(uiWithYear);
 
     const elements = Array.from(findSelectItem(wrapperWithYear.container));
@@ -433,7 +433,7 @@ describe('Calendar', () => {
     });
     const uiWithMonth = <Calendar fullscreen={false} headerRender={headerRenderWithMonth} />;
     const wrapperWithMonth = render(uiWithMonth);
-    openSelect(wrapperWithMonth.container, '.ant-select');
+    openSelect(wrapperWithMonth.container, '.g-select');
     wrapperWithMonth.rerender(uiWithMonth);
 
     const monthElements = Array.from(findSelectItem(wrapperWithMonth.container));
@@ -455,7 +455,7 @@ describe('Calendar', () => {
     );
 
     const _elements = Array.from(
-      wrapperWithTypeChange.container.querySelectorAll<HTMLElement>('.ant-radio-button-input'),
+      wrapperWithTypeChange.container.querySelectorAll<HTMLElement>('.g-radio-button-input'),
     );
     const _lastIndex = _elements.length - 1;
     fireEvent.click(_elements[_lastIndex]);
@@ -526,7 +526,7 @@ describe('Calendar', () => {
 
     expect(container.querySelector('.bamboo')).toBeTruthy();
 
-    fireEvent.click(Array.from(container.querySelectorAll(`.ant-radio-button-input`))[1]!);
+    fireEvent.click(Array.from(container.querySelectorAll(`.g-radio-button-input`))[1]!);
     expect(container.querySelector('.bar')).toBeTruthy();
     errSpy.mockRestore();
   });
@@ -548,7 +548,7 @@ describe('Calendar', () => {
       'Warning: [antd: Calendar] `monthFullCellRender` is deprecated. Please use `fullCellRender` instead.',
     );
     expect(container.querySelector('.bamboo')).toBeTruthy();
-    fireEvent.click(Array.from(container.querySelectorAll(`.ant-radio-button-input`))[1]!);
+    fireEvent.click(Array.from(container.querySelectorAll(`.g-radio-button-input`))[1]!);
     expect(container.querySelector('.bar')).toBeTruthy();
     errSpy.mockRestore();
   });
@@ -578,11 +578,11 @@ describe('Calendar', () => {
       item: { backgroundColor: 'rgba(255, 81, 0, 0.8)' },
     };
     const { container } = render(<Calendar styles={customStyles} classNames={customClassNames} />);
-    const root = container.querySelector('.ant-picker-calendar');
-    const header = container.querySelector('.ant-picker-calendar-header');
-    const item = container.querySelector('.ant-picker-cell');
-    const body = container.querySelector('.ant-picker-body');
-    const content = container.querySelector('.ant-picker-content');
+    const root = container.querySelector('.g-picker-calendar');
+    const header = container.querySelector('.g-picker-calendar-header');
+    const item = container.querySelector('.g-picker-cell');
+    const body = container.querySelector('.g-picker-body');
+    const content = container.querySelector('.g-picker-content');
     expect(root).toHaveStyle(customStyles.root);
     expect(header).toHaveStyle(customStyles.header);
     expect(body).toHaveStyle(customStyles.body);
@@ -604,11 +604,9 @@ describe('Calendar', () => {
       />,
     );
 
-    expect(container.querySelector('.ant-picker-content thead')).toHaveTextContent(
-      '一二三四五六日',
-    );
+    expect(container.querySelector('.g-picker-content thead')).toHaveTextContent('一二三四五六日');
 
-    expect(container.querySelector('.ant-radio-group .ant-radio-button-label')).toHaveTextContent(
+    expect(container.querySelector('.g-radio-group .g-radio-button-label')).toHaveTextContent(
       'Month',
     );
 

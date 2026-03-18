@@ -24,11 +24,11 @@ describe('InputNumber', () => {
   it('should call onStep when press up or down button', () => {
     const onStep = jest.fn();
     const { container } = render(<InputNumber defaultValue={1} onStep={onStep} />);
-    fireEvent.mouseDown(container.querySelector('.ant-input-number-action-up')!);
+    fireEvent.mouseDown(container.querySelector('.g-input-number-action-up')!);
     expect(onStep).toHaveBeenCalledTimes(1);
     expect(onStep).toHaveBeenLastCalledWith(2, { emitter: 'handler', offset: 1, type: 'up' });
 
-    fireEvent.mouseDown(container.querySelector('.ant-input-number-action-down')!);
+    fireEvent.mouseDown(container.querySelector('.g-input-number-action-down')!);
     expect(onStep).toHaveBeenCalledTimes(2);
     expect(onStep).toHaveBeenLastCalledWith(1, { emitter: 'handler', offset: 1, type: 'down' });
   });
@@ -65,8 +65,8 @@ describe('InputNumber', () => {
         }}
       />,
     );
-    expect(container.querySelector('.ant-input-number-action-up')).toHaveTextContent('foo');
-    expect(container.querySelector('.ant-input-number-action-down')).toHaveTextContent('bar');
+    expect(container.querySelector('.g-input-number-action-up')).toHaveTextContent('foo');
+    expect(container.querySelector('.g-input-number-action-down')).toHaveTextContent('bar');
   });
 
   it('should support className', () => {
@@ -78,12 +78,12 @@ describe('InputNumber', () => {
         }}
       />,
     );
-    expect(container.querySelector('.anticon-arrow-up')?.className.includes('my-class-name')).toBe(
+    expect(container.querySelector('.gicon-arrow-up')?.className.includes('my-class-name')).toBe(
       true,
     );
-    expect(
-      container.querySelector('.anticon-arrow-down')?.className.includes('my-class-name'),
-    ).toBe(true);
+    expect(container.querySelector('.gicon-arrow-down')?.className.includes('my-class-name')).toBe(
+      true,
+    );
   });
 
   it('renders correctly when the controlled mode number is out of range', () => {
@@ -106,9 +106,7 @@ describe('InputNumber', () => {
     const { container } = render(<App />);
     fireEvent.click(container.querySelector('button')!);
     expect(
-      container
-        .querySelector('.ant-input-number')
-        ?.className.includes('ant-input-number-out-of-range'),
+      container.querySelector('.g-input-number')?.className.includes('g-input-number-out-of-range'),
     ).toBe(true);
   });
 
@@ -124,7 +122,7 @@ describe('InputNumber', () => {
       'Warning: [antd: InputNumber] When `type=number` is used together with `changeOnWheel`, changeOnWheel may not work properly. Please delete `type=number` if it is not necessary.',
     );
 
-    expect(container.querySelector('.ant-input-number-borderless')).toBeTruthy();
+    expect(container.querySelector('.g-input-number-borderless')).toBeTruthy();
     errorSpy.mockRestore();
   });
 });

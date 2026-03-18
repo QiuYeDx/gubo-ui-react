@@ -64,7 +64,7 @@ describe('notification.config', () => {
 
       await triggerMotionEnd(false);
 
-      const count = document.querySelectorAll('.ant-notification-notice').length;
+      const count = document.querySelectorAll('.g-notification-notice').length;
       expect(count).toBeLessThanOrEqual(5);
     }
 
@@ -82,8 +82,8 @@ describe('notification.config', () => {
     });
     await triggerMotionEnd(false);
 
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(5);
-    expect(document.querySelectorAll('.ant-notification-notice')[4].textContent).toBe(
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(5);
+    expect(document.querySelectorAll('.g-notification-notice')[4].textContent).toBe(
       'Notification last',
     );
 
@@ -96,7 +96,7 @@ describe('notification.config', () => {
 
     await triggerMotionEnd(false);
 
-    expect(document.querySelectorAll('.ant-notification-notice')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-notification-notice')).toHaveLength(0);
   });
   it('should be able to config holderRender', async () => {
     document.body.innerHTML = '';
@@ -111,8 +111,8 @@ describe('notification.config', () => {
 
     notification.open({ title: 'Notification message' });
     await awaitPromise();
-    expect(document.querySelectorAll('.ant-message')).toHaveLength(0);
-    expect(document.querySelectorAll('.anticon-close')).toHaveLength(0);
+    expect(document.querySelectorAll('.g-message')).toHaveLength(0);
+    expect(document.querySelectorAll('.gicon-close')).toHaveLength(0);
     expect(document.querySelectorAll('.test-notification')).toHaveLength(1);
     expect(document.querySelectorAll('.icon-close')).toHaveLength(1);
     ConfigProvider.config({ holderRender: undefined });
@@ -125,21 +125,21 @@ describe('notification.config', () => {
     });
     notification.open({ title: 'Notification message' });
     await awaitPromise();
-    expect(document.querySelector('.ant-notification-rtl')).toBeTruthy();
+    expect(document.querySelector('.g-notification-rtl')).toBeTruthy();
 
     document.body.innerHTML = '';
     actDestroy();
     notification.config({ rtl: true });
     notification.open({ title: 'Notification message' });
     await awaitPromise();
-    expect(document.querySelector('.ant-notification-rtl')).toBeTruthy();
+    expect(document.querySelector('.g-notification-rtl')).toBeTruthy();
 
     document.body.innerHTML = '';
     actDestroy();
     notification.config({ rtl: false });
     notification.open({ title: 'Notification message' });
     await awaitPromise();
-    expect(document.querySelector('.ant-notification-rtl')).toBeFalsy();
+    expect(document.querySelector('.g-notification-rtl')).toBeFalsy();
 
     notification.config({ rtl: undefined });
     ConfigProvider.config({ holderRender: undefined });
@@ -190,8 +190,8 @@ describe('notification.config', () => {
     await awaitPromise();
 
     const noticeWithoutLeaving = Array.from(
-      document.querySelectorAll<HTMLElement>('.ant-notification-notice-wrapper'),
-    ).filter((ele) => !ele.classList.contains('ant-notification-fade-leave'));
+      document.querySelectorAll<HTMLElement>('.g-notification-notice-wrapper'),
+    ).filter((ele) => !ele.classList.contains('g-notification-fade-leave'));
 
     expect(noticeWithoutLeaving).toHaveLength(1);
 

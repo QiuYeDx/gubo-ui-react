@@ -9,7 +9,7 @@
 Child elements depending on the value of the `start`, `center`, `end`, `space-between`, `space-around` and `space-evenly`, which are defined in its parent node typesetting mode.
 
 ```css
-#grid-demo-flex [class~='ant-row'] {
+#grid-demo-flex [class~='g-row'] {
   background: rgba(128, 128, 128, 0.08);
 }
 ```

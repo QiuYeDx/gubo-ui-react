@@ -247,7 +247,7 @@ describe('Input.OTP', () => {
 
   it('renders separator when separator is a string', () => {
     const { container } = render(<OTP length={4} separator="-" />);
-    const separators = container.querySelectorAll(`.ant-otp-separator`);
+    const separators = container.querySelectorAll(`.g-otp-separator`);
     expect(separators.length).toBe(3);
     separators.forEach((separator) => {
       expect(separator.textContent).toBe('-');
@@ -292,9 +292,9 @@ describe('Input.OTP', () => {
         disabled
       />,
     );
-    const root = container.querySelector('.ant-otp');
-    const input = container.querySelector('.ant-input');
-    const separator = container.querySelector('.ant-otp-separator');
+    const root = container.querySelector('.g-otp');
+    const input = container.querySelector('.g-input');
+    const separator = container.querySelector('.g-otp-separator');
 
     expect(root).toHaveClass('dynamic-root');
     expect(input).toHaveClass('dynamic-input-disabled');

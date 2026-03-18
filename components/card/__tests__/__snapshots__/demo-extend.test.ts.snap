@@ -2,29 +2,29 @@
 
 exports[`renders components/card/demo/basic.tsx extend context correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical css-var-test-id"
+  class="g-space g-space-vertical css-var-test-id"
   style="column-gap: 16px; row-gap: 16px;"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-card ant-card-bordered css-var-test-id"
+      class="g-card g-card-bordered css-var-test-id"
       style="width: 300px;"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Default size card
           </div>
           <div
-            class="ant-card-extra"
+            class="g-card-extra"
           >
             <a
               href="#"
@@ -35,7 +35,7 @@ exports[`renders components/card/demo/basic.tsx extend context correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         <p>
           Card content
@@ -50,25 +50,25 @@ exports[`renders components/card/demo/basic.tsx extend context correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-card ant-card-bordered ant-card-small css-var-test-id"
+      class="g-card g-card-bordered g-card-small css-var-test-id"
       style="width: 300px;"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Small size card
           </div>
           <div
-            class="ant-card-extra"
+            class="g-card-extra"
           >
             <a
               href="#"
@@ -79,7 +79,7 @@ exports[`renders components/card/demo/basic.tsx extend context correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         <p>
           Card content
@@ -100,24 +100,24 @@ exports[`renders components/card/demo/basic.tsx extend context correctly 2`] = `
 
 exports[`renders components/card/demo/border-less.tsx extend context correctly 1`] = `
 <div
-  class="ant-card css-var-test-id"
+  class="g-card css-var-test-id"
   style="width: 300px;"
 >
   <div
-    class="ant-card-head"
+    class="g-card-head"
   >
     <div
-      class="ant-card-head-wrapper"
+      class="g-card-head-wrapper"
     >
       <div
-        class="ant-card-head-title"
+        class="g-card-head-title"
       >
         Card title
       </div>
     </div>
   </div>
   <div
-    class="ant-card-body"
+    class="g-card-body"
   >
     <p>
       Card content
@@ -137,48 +137,48 @@ exports[`renders components/card/demo/border-less.tsx extend context correctly 2
 exports[`renders components/card/demo/component-token.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-card ant-card-bordered ant-card-contain-tabs css-var-test-id"
+    class="g-card g-card-bordered g-card-contain-tabs css-var-test-id"
   >
     <div
-      class="ant-card-head"
+      class="g-card-head"
     >
       <div
-        class="ant-card-head-wrapper"
+        class="g-card-head-wrapper"
       >
         <div
-          class="ant-card-head-title"
+          class="g-card-head-title"
         >
           Card title
         </div>
         <div
-          class="ant-card-extra"
+          class="g-card-extra"
         >
           More
         </div>
       </div>
       <div
-        class="ant-tabs ant-tabs-top ant-tabs-large ant-card-head-tabs css-var-test-id ant-tabs-css-var"
+        class="g-tabs g-tabs-top g-tabs-large g-card-head-tabs css-var-test-id g-tabs-css-var"
       >
         <div
           aria-orientation="horizontal"
-          class="ant-tabs-nav"
+          class="g-tabs-nav"
           role="tablist"
         >
           <div
-            class="ant-tabs-nav-wrap"
+            class="g-tabs-nav-wrap"
           >
             <div
-              class="ant-tabs-nav-list"
+              class="g-tabs-nav-list"
               style="transform: translate(0px, 0px);"
             >
               <div
-                class="ant-tabs-tab ant-tabs-tab-active"
+                class="g-tabs-tab g-tabs-tab-active"
                 data-node-key="tab1"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-tab1"
                   aria-selected="true"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-tab1"
                   role="tab"
                   tabindex="0"
@@ -187,13 +187,13 @@ Array [
                 </div>
               </div>
               <div
-                class="ant-tabs-tab"
+                class="g-tabs-tab"
                 data-node-key="tab2"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-tab2"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-tab2"
                   role="tab"
                   tabindex="-1"
@@ -202,25 +202,25 @@ Array [
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="g-tabs-ink-bar g-tabs-ink-bar-animated"
               />
             </div>
           </div>
           <div
-            class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+            class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
           >
             <button
               aria-controls="rc-tabs-test-more-popup"
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="ant-tabs-nav-more"
+              class="g-tabs-nav-more"
               id="rc-tabs-test-more"
               style="visibility: hidden; order: 1;"
               type="button"
             >
               <span
                 aria-label="ellipsis"
-                class="anticon anticon-ellipsis"
+                class="gicon gicon-ellipsis"
                 role="img"
               >
                 <svg
@@ -239,12 +239,12 @@ Array [
               </span>
             </button>
             <div
-              class="ant-tabs-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-tabs-css-var ant-tabs-dropdown-placement-bottomLeft"
+              class="g-tabs-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-tabs-css-var g-tabs-dropdown-placement-bottomLeft"
               style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
             >
               <ul
                 aria-label="expanded dropdown"
-                class="ant-tabs-dropdown-menu ant-tabs-dropdown-menu-root ant-tabs-dropdown-menu-vertical"
+                class="g-tabs-dropdown-menu g-tabs-dropdown-menu-root g-tabs-dropdown-menu-vertical"
                 data-menu-list="true"
                 id="rc-tabs-test-more-popup"
                 role="listbox"
@@ -258,15 +258,15 @@ Array [
           </div>
         </div>
         <div
-          class="ant-tabs-content-holder"
+          class="g-tabs-content-holder"
         >
           <div
-            class="ant-tabs-content ant-tabs-content-top"
+            class="g-tabs-content g-tabs-content-top"
           >
             <div
               aria-hidden="false"
               aria-labelledby="rc-tabs-test-tab-tab1"
-              class="ant-tabs-tabpane ant-tabs-tabpane-active"
+              class="g-tabs-tabpane g-tabs-tabpane-active"
               id="rc-tabs-test-panel-tab1"
               role="tabpanel"
               tabindex="-1"
@@ -276,7 +276,7 @@ Array [
       </div>
     </div>
     <div
-      class="ant-card-body"
+      class="g-card-body"
     >
       <p>
         Card content
@@ -289,7 +289,7 @@ Array [
       </p>
     </div>
     <ul
-      class="ant-card-actions"
+      class="g-card-actions"
     >
       <li
         style="width: 33.333333333333336%;"
@@ -297,7 +297,7 @@ Array [
         <span>
           <span
             aria-label="setting"
-            class="anticon anticon-setting"
+            class="gicon gicon-setting"
             role="img"
           >
             <svg
@@ -322,7 +322,7 @@ Array [
         <span>
           <span
             aria-label="edit"
-            class="anticon anticon-edit"
+            class="gicon gicon-edit"
             role="img"
           >
             <svg
@@ -347,7 +347,7 @@ Array [
         <span>
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -369,22 +369,22 @@ Array [
     </ul>
   </div>,
   <div
-    class="ant-card ant-card-bordered ant-card-small css-var-test-id"
+    class="g-card g-card-bordered g-card-small css-var-test-id"
     style="width: 300px;"
   >
     <div
-      class="ant-card-head"
+      class="g-card-head"
     >
       <div
-        class="ant-card-head-wrapper"
+        class="g-card-head-wrapper"
       >
         <div
-          class="ant-card-head-title"
+          class="g-card-head-title"
         >
           Small size card
         </div>
         <div
-          class="ant-card-extra"
+          class="g-card-extra"
         >
           <a
             href="#"
@@ -395,7 +395,7 @@ Array [
       </div>
     </div>
     <div
-      class="ant-card-body"
+      class="g-card-body"
     >
       <p>
         Card content
@@ -415,11 +415,11 @@ exports[`renders components/card/demo/component-token.tsx extend context correct
 
 exports[`renders components/card/demo/flexible-content.tsx extend context correctly 1`] = `
 <div
-  class="ant-card ant-card-bordered ant-card-hoverable css-var-test-id"
+  class="g-card g-card-bordered g-card-hoverable css-var-test-id"
   style="width: 240px;"
 >
   <div
-    class="ant-card-cover"
+    class="g-card-cover"
   >
     <img
       alt="example"
@@ -428,21 +428,21 @@ exports[`renders components/card/demo/flexible-content.tsx extend context correc
     />
   </div>
   <div
-    class="ant-card-body"
+    class="g-card-body"
   >
     <div
-      class="ant-card-meta"
+      class="g-card-meta"
     >
       <div
-        class="ant-card-meta-section"
+        class="g-card-meta-section"
       >
         <div
-          class="ant-card-meta-title"
+          class="g-card-meta-title"
         >
           Europe Street beat
         </div>
         <div
-          class="ant-card-meta-description"
+          class="g-card-meta-description"
         >
           www.instagram.com
         </div>
@@ -456,62 +456,62 @@ exports[`renders components/card/demo/flexible-content.tsx extend context correc
 
 exports[`renders components/card/demo/grid-card.tsx extend context correctly 1`] = `
 <div
-  class="ant-card ant-card-bordered ant-card-contain-grid css-var-test-id"
+  class="g-card g-card-bordered g-card-contain-grid css-var-test-id"
 >
   <div
-    class="ant-card-head"
+    class="g-card-head"
   >
     <div
-      class="ant-card-head-wrapper"
+      class="g-card-head-wrapper"
     >
       <div
-        class="ant-card-head-title"
+        class="g-card-head-title"
       >
         Card Title
       </div>
     </div>
   </div>
   <div
-    class="ant-card-body"
+    class="g-card-body"
   >
     <div
-      class="ant-card-grid ant-card-grid-hoverable"
+      class="g-card-grid g-card-grid-hoverable"
       style="width: 25%; text-align: center;"
     >
       Content
     </div>
     <div
-      class="ant-card-grid"
+      class="g-card-grid"
       style="width: 25%; text-align: center;"
     >
       Content
     </div>
     <div
-      class="ant-card-grid ant-card-grid-hoverable"
+      class="g-card-grid g-card-grid-hoverable"
       style="width: 25%; text-align: center;"
     >
       Content
     </div>
     <div
-      class="ant-card-grid ant-card-grid-hoverable"
+      class="g-card-grid g-card-grid-hoverable"
       style="width: 25%; text-align: center;"
     >
       Content
     </div>
     <div
-      class="ant-card-grid ant-card-grid-hoverable"
+      class="g-card-grid g-card-grid-hoverable"
       style="width: 25%; text-align: center;"
     >
       Content
     </div>
     <div
-      class="ant-card-grid ant-card-grid-hoverable"
+      class="g-card-grid g-card-grid-hoverable"
       style="width: 25%; text-align: center;"
     >
       Content
     </div>
     <div
-      class="ant-card-grid ant-card-grid-hoverable"
+      class="g-card-grid g-card-grid-hoverable"
       style="width: 25%; text-align: center;"
     >
       Content
@@ -524,85 +524,85 @@ exports[`renders components/card/demo/grid-card.tsx extend context correctly 2`]
 
 exports[`renders components/card/demo/in-column.tsx extend context correctly 1`] = `
 <div
-  class="ant-row css-var-test-id"
+  class="g-row css-var-test-id"
   style="margin-inline: -8px;"
 >
   <div
-    class="ant-col ant-col-8 css-var-test-id"
+    class="g-col g-col-8 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-card css-var-test-id"
+      class="g-card css-var-test-id"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Card title
           </div>
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         Card content
       </div>
     </div>
   </div>
   <div
-    class="ant-col ant-col-8 css-var-test-id"
+    class="g-col g-col-8 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-card css-var-test-id"
+      class="g-card css-var-test-id"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Card title
           </div>
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         Card content
       </div>
     </div>
   </div>
   <div
-    class="ant-col ant-col-8 css-var-test-id"
+    class="g-col g-col-8 css-var-test-id"
     style="padding-inline: 8px;"
   >
     <div
-      class="ant-card css-var-test-id"
+      class="g-card css-var-test-id"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Card title
           </div>
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         Card content
       </div>
@@ -615,40 +615,40 @@ exports[`renders components/card/demo/in-column.tsx extend context correctly 2`]
 
 exports[`renders components/card/demo/inner.tsx extend context correctly 1`] = `
 <div
-  class="ant-card ant-card-bordered css-var-test-id"
+  class="g-card g-card-bordered css-var-test-id"
 >
   <div
-    class="ant-card-head"
+    class="g-card-head"
   >
     <div
-      class="ant-card-head-wrapper"
+      class="g-card-head-wrapper"
     >
       <div
-        class="ant-card-head-title"
+        class="g-card-head-title"
       >
         Card title
       </div>
     </div>
   </div>
   <div
-    class="ant-card-body"
+    class="g-card-body"
   >
     <div
-      class="ant-card ant-card-bordered ant-card-type-inner css-var-test-id"
+      class="g-card g-card-bordered g-card-type-inner css-var-test-id"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Inner Card title
           </div>
           <div
-            class="ant-card-extra"
+            class="g-card-extra"
           >
             <a
               href="#"
@@ -659,28 +659,28 @@ exports[`renders components/card/demo/inner.tsx extend context correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         Inner Card content
       </div>
     </div>
     <div
-      class="ant-card ant-card-bordered ant-card-type-inner css-var-test-id"
+      class="g-card g-card-bordered g-card-type-inner css-var-test-id"
       style="margin-top: 16px;"
     >
       <div
-        class="ant-card-head"
+        class="g-card-head"
       >
         <div
-          class="ant-card-head-wrapper"
+          class="g-card-head-wrapper"
         >
           <div
-            class="ant-card-head-title"
+            class="g-card-head-title"
           >
             Inner Card title
           </div>
           <div
-            class="ant-card-extra"
+            class="g-card-extra"
           >
             <a
               href="#"
@@ -691,7 +691,7 @@ exports[`renders components/card/demo/inner.tsx extend context correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-card-body"
+        class="g-card-body"
       >
         Inner Card content
       </div>
@@ -704,43 +704,43 @@ exports[`renders components/card/demo/inner.tsx extend context correctly 2`] = `
 
 exports[`renders components/card/demo/loading.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-start ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-start g-flex-gap-medium g-flex-vertical"
 >
   <button
     aria-checked="false"
-    class="ant-switch css-var-test-id"
+    class="g-switch css-var-test-id"
     role="switch"
     type="button"
   >
     <div
-      class="ant-switch-handle"
+      class="g-switch-handle"
     />
     <span
-      class="ant-switch-inner"
+      class="g-switch-inner"
     >
       <span
-        class="ant-switch-inner-checked"
+        class="g-switch-inner-checked"
       />
       <span
-        class="ant-switch-inner-unchecked"
+        class="g-switch-inner-unchecked"
       />
     </span>
   </button>
   <div
-    class="ant-card ant-card-loading ant-card-bordered css-var-test-id"
+    class="g-card g-card-loading g-card-bordered css-var-test-id"
     style="min-width: 300px;"
   >
     <div
-      class="ant-card-body"
+      class="g-card-body"
     >
       <div
-        class="ant-skeleton ant-skeleton-active css-var-test-id"
+        class="g-skeleton g-skeleton-active css-var-test-id"
       >
         <div
-          class="ant-skeleton-section"
+          class="g-skeleton-section"
         >
           <ul
-            class="ant-skeleton-paragraph"
+            class="g-skeleton-paragraph"
           >
             <li />
             <li />
@@ -753,7 +753,7 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
       </div>
     </div>
     <ul
-      class="ant-card-actions"
+      class="g-card-actions"
     >
       <li
         style="width: 33.333333333333336%;"
@@ -761,7 +761,7 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
         <span>
           <span
             aria-label="edit"
-            class="anticon anticon-edit"
+            class="gicon gicon-edit"
             role="img"
           >
             <svg
@@ -786,7 +786,7 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
         <span>
           <span
             aria-label="setting"
-            class="anticon anticon-setting"
+            class="gicon gicon-setting"
             role="img"
           >
             <svg
@@ -811,7 +811,7 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
         <span>
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -833,20 +833,20 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
     </ul>
   </div>
   <div
-    class="ant-card ant-card-loading ant-card-bordered css-var-test-id"
+    class="g-card g-card-loading g-card-bordered css-var-test-id"
     style="min-width: 300px;"
   >
     <div
-      class="ant-card-body"
+      class="g-card-body"
     >
       <div
-        class="ant-skeleton ant-skeleton-active css-var-test-id"
+        class="g-skeleton g-skeleton-active css-var-test-id"
       >
         <div
-          class="ant-skeleton-section"
+          class="g-skeleton-section"
         >
           <ul
-            class="ant-skeleton-paragraph"
+            class="g-skeleton-paragraph"
           >
             <li />
             <li />
@@ -859,7 +859,7 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
       </div>
     </div>
     <ul
-      class="ant-card-actions"
+      class="g-card-actions"
     >
       <li
         style="width: 33.333333333333336%;"
@@ -867,7 +867,7 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
         <span>
           <span
             aria-label="edit"
-            class="anticon anticon-edit"
+            class="gicon gicon-edit"
             role="img"
           >
             <svg
@@ -892,7 +892,7 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
         <span>
           <span
             aria-label="setting"
-            class="anticon anticon-setting"
+            class="gicon gicon-setting"
             role="img"
           >
             <svg
@@ -917,7 +917,7 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 1`] =
         <span>
           <span
             aria-label="ellipsis"
-            class="anticon anticon-ellipsis"
+            class="gicon gicon-ellipsis"
             role="img"
           >
             <svg
@@ -945,11 +945,11 @@ exports[`renders components/card/demo/loading.tsx extend context correctly 2`] =
 
 exports[`renders components/card/demo/meta.tsx extend context correctly 1`] = `
 <div
-  class="ant-card ant-card-bordered css-var-test-id"
+  class="g-card g-card-bordered css-var-test-id"
   style="width: 300px;"
 >
   <div
-    class="ant-card-cover"
+    class="g-card-cover"
   >
     <img
       alt="example"
@@ -958,16 +958,16 @@ exports[`renders components/card/demo/meta.tsx extend context correctly 1`] = `
     />
   </div>
   <div
-    class="ant-card-body"
+    class="g-card-body"
   >
     <div
-      class="ant-card-meta"
+      class="g-card-meta"
     >
       <div
-        class="ant-card-meta-avatar"
+        class="g-card-meta-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-circle ant-avatar-image css-var-test-id ant-avatar-css-var"
+          class="g-avatar g-avatar-circle g-avatar-image css-var-test-id g-avatar-css-var"
         >
           <img
             src="https://api.dicebear.com/7.x/miniavs/svg?seed=8"
@@ -975,15 +975,15 @@ exports[`renders components/card/demo/meta.tsx extend context correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-card-meta-section"
+        class="g-card-meta-section"
       >
         <div
-          class="ant-card-meta-title"
+          class="g-card-meta-title"
         >
           Card title
         </div>
         <div
-          class="ant-card-meta-description"
+          class="g-card-meta-description"
         >
           This is the description
         </div>
@@ -991,7 +991,7 @@ exports[`renders components/card/demo/meta.tsx extend context correctly 1`] = `
     </div>
   </div>
   <ul
-    class="ant-card-actions"
+    class="g-card-actions"
   >
     <li
       style="width: 33.333333333333336%;"
@@ -999,7 +999,7 @@ exports[`renders components/card/demo/meta.tsx extend context correctly 1`] = `
       <span>
         <span
           aria-label="setting"
-          class="anticon anticon-setting"
+          class="gicon gicon-setting"
           role="img"
         >
           <svg
@@ -1024,7 +1024,7 @@ exports[`renders components/card/demo/meta.tsx extend context correctly 1`] = `
       <span>
         <span
           aria-label="edit"
-          class="anticon anticon-edit"
+          class="gicon gicon-edit"
           role="img"
         >
           <svg
@@ -1049,7 +1049,7 @@ exports[`renders components/card/demo/meta.tsx extend context correctly 1`] = `
       <span>
         <span
           aria-label="ellipsis"
-          class="anticon anticon-ellipsis"
+          class="gicon gicon-ellipsis"
           role="img"
         >
           <svg
@@ -1076,11 +1076,11 @@ exports[`renders components/card/demo/meta.tsx extend context correctly 2`] = `[
 
 exports[`renders components/card/demo/simple.tsx extend context correctly 1`] = `
 <div
-  class="ant-card ant-card-bordered css-var-test-id"
+  class="g-card g-card-bordered css-var-test-id"
   style="width: 300px;"
 >
   <div
-    class="ant-card-body"
+    class="g-card-body"
   >
     <p>
       Card content
@@ -1099,29 +1099,29 @@ exports[`renders components/card/demo/simple.tsx extend context correctly 2`] = 
 
 exports[`renders components/card/demo/style-class.tsx extend context correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-gap-medium"
+  class="g-flex css-var-test-id g-flex-gap-medium"
 >
   <div
-    class="ant-card css-var-test-id acss-1ri7sgv"
+    class="g-card css-var-test-id acss-1ri7sgv"
     style="box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-radius: 8px;"
   >
     <div
-      class="ant-card-head acss-xxf1ab"
+      class="g-card-head acss-xxf1ab"
     >
       <div
-        class="ant-card-head-wrapper"
+        class="g-card-head-wrapper"
       >
         <div
-          class="ant-card-head-title"
+          class="g-card-head-title"
           style="font-size: 16px; font-weight: 500;"
         >
           Object Card
         </div>
         <div
-          class="ant-card-extra"
+          class="g-card-extra"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+            class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
             type="button"
           >
             <span>
@@ -1132,16 +1132,16 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-card-body acss-1dacand"
+      class="g-card-body acss-1dacand"
     >
       <div
-        class="ant-card-meta"
+        class="g-card-meta"
       >
         <div
-          class="ant-card-meta-avatar"
+          class="g-card-meta-avatar"
         >
           <span
-            class="ant-avatar ant-avatar-circle ant-avatar-image css-var-test-id ant-avatar-css-var"
+            class="g-avatar g-avatar-circle g-avatar-image css-var-test-id g-avatar-css-var"
           >
             <img
               src="https://api.dicebear.com/7.x/miniavs/svg?seed=1"
@@ -1149,15 +1149,15 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
           </span>
         </div>
         <div
-          class="ant-card-meta-section"
+          class="g-card-meta-section"
         >
           <div
-            class="ant-card-meta-title"
+            class="g-card-meta-title"
           >
             Object Card Meta title
           </div>
           <div
-            class="ant-card-meta-description"
+            class="g-card-meta-description"
           >
             This is the description
           </div>
@@ -1165,7 +1165,7 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
       </div>
     </div>
     <ul
-      class="ant-card-actions"
+      class="g-card-actions"
     >
       <li
         style="width: 33.333333333333336%;"
@@ -1173,7 +1173,7 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
         <span>
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
             style="color: rgb(255, 107, 107);"
           >
@@ -1199,7 +1199,7 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
         <span>
           <span
             aria-label="share-alt"
-            class="anticon anticon-share-alt"
+            class="gicon gicon-share-alt"
             role="img"
             style="color: rgb(78, 205, 196);"
           >
@@ -1225,7 +1225,7 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
         <span>
           <span
             aria-label="edit"
-            class="anticon anticon-edit"
+            class="gicon gicon-edit"
             role="img"
             style="color: rgb(69, 183, 209);"
           >
@@ -1248,27 +1248,27 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
     </ul>
   </div>
   <div
-    class="ant-card ant-card-bordered css-var-test-id acss-1ri7sgv"
+    class="g-card g-card-bordered css-var-test-id acss-1ri7sgv"
     style="border-color: rgb(105, 111, 199); box-shadow: 0 2px 8px #A7AAE1; border-radius: 8px;"
   >
     <div
-      class="ant-card-head acss-xxf1ab"
+      class="g-card-head acss-xxf1ab"
     >
       <div
-        class="ant-card-head-wrapper"
+        class="g-card-head-wrapper"
       >
         <div
-          class="ant-card-head-title"
+          class="g-card-head-title"
           style="font-size: 16px; font-weight: 500; color: rgb(167, 170, 225);"
         >
           Function Card
         </div>
         <div
-          class="ant-card-extra"
+          class="g-card-extra"
           style="color: rgb(105, 111, 199);"
         >
           <button
-            class="ant-btn css-var-test-id ant-btn-link ant-btn-color-link ant-btn-variant-link"
+            class="g-btn css-var-test-id g-btn-link g-btn-color-link g-btn-varig-link"
             style="color: rgb(167, 170, 225);"
             type="button"
           >
@@ -1280,16 +1280,16 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
       </div>
     </div>
     <div
-      class="ant-card-body acss-1dacand"
+      class="g-card-body acss-1dacand"
     >
       <div
-        class="ant-card-meta"
+        class="g-card-meta"
       >
         <div
-          class="ant-card-meta-avatar"
+          class="g-card-meta-avatar"
         >
           <span
-            class="ant-avatar ant-avatar-circle ant-avatar-image css-var-test-id ant-avatar-css-var"
+            class="g-avatar g-avatar-circle g-avatar-image css-var-test-id g-avatar-css-var"
           >
             <img
               src="https://api.dicebear.com/7.x/miniavs/svg?seed=1"
@@ -1297,16 +1297,16 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
           </span>
         </div>
         <div
-          class="ant-card-meta-section"
+          class="g-card-meta-section"
         >
           <div
-            class="ant-card-meta-title"
+            class="g-card-meta-title"
             style="color: rgb(167, 170, 225);"
           >
             Function Card Meta title
           </div>
           <div
-            class="ant-card-meta-description"
+            class="g-card-meta-description"
             style="color: rgb(167, 170, 225);"
           >
             This is the description
@@ -1315,7 +1315,7 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
       </div>
     </div>
     <ul
-      class="ant-card-actions"
+      class="g-card-actions"
     >
       <li
         style="width: 33.333333333333336%;"
@@ -1323,7 +1323,7 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
         <span>
           <span
             aria-label="heart"
-            class="anticon anticon-heart"
+            class="gicon gicon-heart"
             role="img"
             style="color: rgb(255, 107, 107);"
           >
@@ -1349,7 +1349,7 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
         <span>
           <span
             aria-label="share-alt"
-            class="anticon anticon-share-alt"
+            class="gicon gicon-share-alt"
             role="img"
             style="color: rgb(78, 205, 196);"
           >
@@ -1375,7 +1375,7 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 1
         <span>
           <span
             aria-label="edit"
-            class="anticon anticon-edit"
+            class="gicon gicon-edit"
             role="img"
             style="color: rgb(69, 183, 209);"
           >
@@ -1405,22 +1405,22 @@ exports[`renders components/card/demo/style-class.tsx extend context correctly 2
 exports[`renders components/card/demo/tabs.tsx extend context correctly 1`] = `
 Array [
   <div
-    class="ant-card ant-card-bordered ant-card-contain-tabs css-var-test-id"
+    class="g-card g-card-bordered g-card-contain-tabs css-var-test-id"
     style="width: 100%;"
   >
     <div
-      class="ant-card-head"
+      class="g-card-head"
     >
       <div
-        class="ant-card-head-wrapper"
+        class="g-card-head-wrapper"
       >
         <div
-          class="ant-card-head-title"
+          class="g-card-head-title"
         >
           Card title
         </div>
         <div
-          class="ant-card-extra"
+          class="g-card-extra"
         >
           <a
             href="#"
@@ -1430,28 +1430,28 @@ Array [
         </div>
       </div>
       <div
-        class="ant-tabs ant-tabs-top ant-tabs-large ant-card-head-tabs css-var-test-id ant-tabs-css-var"
+        class="g-tabs g-tabs-top g-tabs-large g-card-head-tabs css-var-test-id g-tabs-css-var"
       >
         <div
           aria-orientation="horizontal"
-          class="ant-tabs-nav"
+          class="g-tabs-nav"
           role="tablist"
         >
           <div
-            class="ant-tabs-nav-wrap"
+            class="g-tabs-nav-wrap"
           >
             <div
-              class="ant-tabs-nav-list"
+              class="g-tabs-nav-list"
               style="transform: translate(0px, 0px);"
             >
               <div
-                class="ant-tabs-tab ant-tabs-tab-active"
+                class="g-tabs-tab g-tabs-tab-active"
                 data-node-key="tab1"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-tab1"
                   aria-selected="true"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-tab1"
                   role="tab"
                   tabindex="0"
@@ -1460,13 +1460,13 @@ Array [
                 </div>
               </div>
               <div
-                class="ant-tabs-tab"
+                class="g-tabs-tab"
                 data-node-key="tab2"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-tab2"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-tab2"
                   role="tab"
                   tabindex="-1"
@@ -1475,25 +1475,25 @@ Array [
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="g-tabs-ink-bar g-tabs-ink-bar-animated"
               />
             </div>
           </div>
           <div
-            class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+            class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
           >
             <button
               aria-controls="rc-tabs-test-more-popup"
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="ant-tabs-nav-more"
+              class="g-tabs-nav-more"
               id="rc-tabs-test-more"
               style="visibility: hidden; order: 1;"
               type="button"
             >
               <span
                 aria-label="ellipsis"
-                class="anticon anticon-ellipsis"
+                class="gicon gicon-ellipsis"
                 role="img"
               >
                 <svg
@@ -1512,12 +1512,12 @@ Array [
               </span>
             </button>
             <div
-              class="ant-tabs-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-tabs-css-var ant-tabs-dropdown-placement-bottomLeft"
+              class="g-tabs-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-tabs-css-var g-tabs-dropdown-placement-bottomLeft"
               style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
             >
               <ul
                 aria-label="expanded dropdown"
-                class="ant-tabs-dropdown-menu ant-tabs-dropdown-menu-root ant-tabs-dropdown-menu-vertical"
+                class="g-tabs-dropdown-menu g-tabs-dropdown-menu-root g-tabs-dropdown-menu-vertical"
                 data-menu-list="true"
                 id="rc-tabs-test-more-popup"
                 role="listbox"
@@ -1531,15 +1531,15 @@ Array [
           </div>
         </div>
         <div
-          class="ant-tabs-content-holder"
+          class="g-tabs-content-holder"
         >
           <div
-            class="ant-tabs-content ant-tabs-content-top"
+            class="g-tabs-content g-tabs-content-top"
           >
             <div
               aria-hidden="false"
               aria-labelledby="rc-tabs-test-tab-tab1"
-              class="ant-tabs-tabpane ant-tabs-tabpane-active"
+              class="g-tabs-tabpane g-tabs-tabpane-active"
               id="rc-tabs-test-panel-tab1"
               role="tabpanel"
               tabindex="-1"
@@ -1549,7 +1549,7 @@ Array [
       </div>
     </div>
     <div
-      class="ant-card-body"
+      class="g-card-body"
     >
       <p>
         content1
@@ -1559,38 +1559,38 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-card ant-card-bordered ant-card-contain-tabs css-var-test-id"
+    class="g-card g-card-bordered g-card-contain-tabs css-var-test-id"
     style="width: 100%;"
   >
     <div
-      class="ant-card-head"
+      class="g-card-head"
     >
       <div
-        class="ant-card-head-wrapper"
+        class="g-card-head-wrapper"
       />
       <div
-        class="ant-tabs ant-tabs-top ant-card-head-tabs css-var-test-id ant-tabs-css-var"
+        class="g-tabs g-tabs-top g-card-head-tabs css-var-test-id g-tabs-css-var"
       >
         <div
           aria-orientation="horizontal"
-          class="ant-tabs-nav"
+          class="g-tabs-nav"
           role="tablist"
         >
           <div
-            class="ant-tabs-nav-wrap"
+            class="g-tabs-nav-wrap"
           >
             <div
-              class="ant-tabs-nav-list"
+              class="g-tabs-nav-list"
               style="transform: translate(0px, 0px);"
             >
               <div
-                class="ant-tabs-tab"
+                class="g-tabs-tab"
                 data-node-key="article"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-article"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-article"
                   role="tab"
                   tabindex="-1"
@@ -1599,13 +1599,13 @@ Array [
                 </div>
               </div>
               <div
-                class="ant-tabs-tab ant-tabs-tab-active"
+                class="g-tabs-tab g-tabs-tab-active"
                 data-node-key="app"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-app"
                   aria-selected="true"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-app"
                   role="tab"
                   tabindex="0"
@@ -1614,13 +1614,13 @@ Array [
                 </div>
               </div>
               <div
-                class="ant-tabs-tab"
+                class="g-tabs-tab"
                 data-node-key="project"
               >
                 <div
                   aria-controls="rc-tabs-test-panel-project"
                   aria-selected="false"
-                  class="ant-tabs-tab-btn"
+                  class="g-tabs-tab-btn"
                   id="rc-tabs-test-tab-project"
                   role="tab"
                   tabindex="-1"
@@ -1629,25 +1629,25 @@ Array [
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="g-tabs-ink-bar g-tabs-ink-bar-animated"
               />
             </div>
           </div>
           <div
-            class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+            class="g-tabs-nav-operations g-tabs-nav-operations-hidden"
           >
             <button
               aria-controls="rc-tabs-test-more-popup"
               aria-expanded="false"
               aria-haspopup="listbox"
-              class="ant-tabs-nav-more"
+              class="g-tabs-nav-more"
               id="rc-tabs-test-more"
               style="visibility: hidden; order: 1;"
               type="button"
             >
               <span
                 aria-label="ellipsis"
-                class="anticon anticon-ellipsis"
+                class="gicon gicon-ellipsis"
                 role="img"
               >
                 <svg
@@ -1666,12 +1666,12 @@ Array [
               </span>
             </button>
             <div
-              class="ant-tabs-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up css-var-test-id ant-tabs-css-var ant-tabs-dropdown-placement-bottomLeft"
+              class="g-tabs-dropdown g-slide-up-appear g-slide-up-appear-prepare g-slide-up css-var-test-id g-tabs-css-var g-tabs-dropdown-placement-bottomLeft"
               style="--arrow-x: 0px; --arrow-y: 0px; left: -1000vw; top: -1000vh; right: auto; bottom: auto; box-sizing: border-box;"
             >
               <ul
                 aria-label="expanded dropdown"
-                class="ant-tabs-dropdown-menu ant-tabs-dropdown-menu-root ant-tabs-dropdown-menu-vertical"
+                class="g-tabs-dropdown-menu g-tabs-dropdown-menu-root g-tabs-dropdown-menu-vertical"
                 data-menu-list="true"
                 id="rc-tabs-test-more-popup"
                 role="listbox"
@@ -1684,7 +1684,7 @@ Array [
             </div>
           </div>
           <div
-            class="ant-tabs-extra-content"
+            class="g-tabs-extra-content"
           >
             <a
               href="#"
@@ -1694,15 +1694,15 @@ Array [
           </div>
         </div>
         <div
-          class="ant-tabs-content-holder"
+          class="g-tabs-content-holder"
         >
           <div
-            class="ant-tabs-content ant-tabs-content-top"
+            class="g-tabs-content g-tabs-content-top"
           >
             <div
               aria-hidden="false"
               aria-labelledby="rc-tabs-test-tab-app"
-              class="ant-tabs-tabpane ant-tabs-tabpane-active"
+              class="g-tabs-tabpane g-tabs-tabpane-active"
               id="rc-tabs-test-panel-app"
               role="tabpanel"
               tabindex="-1"
@@ -1712,7 +1712,7 @@ Array [
       </div>
     </div>
     <div
-      class="ant-card-body"
+      class="g-card-body"
     >
       <p>
         app content

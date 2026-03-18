@@ -25,7 +25,7 @@ describe('FloatButtonGroup', () => {
         <FloatButton />
       </FloatButton.Group>,
     );
-    expect(container.querySelectorAll(`.ant-float-btn-${defaultShape}`)).toHaveLength(3);
+    expect(container.querySelectorAll(`.g-float-btn-${defaultShape}`)).toHaveLength(3);
     rerender(
       <FloatButton.Group shape={squareShape}>
         <FloatButton />
@@ -33,7 +33,7 @@ describe('FloatButtonGroup', () => {
         <FloatButton />
       </FloatButton.Group>,
     );
-    expect(container.querySelectorAll(`.ant-float-btn-${squareShape}`)).toHaveLength(3);
+    expect(container.querySelectorAll(`.g-float-btn-${squareShape}`)).toHaveLength(3);
   });
   it('support onOpenChange for click', () => {
     const onOpenChange = jest.fn();
@@ -44,7 +44,7 @@ describe('FloatButtonGroup', () => {
         <FloatButton />
       </FloatButton.Group>,
     );
-    fireEvent.click(container.querySelector('.ant-float-btn')!);
+    fireEvent.click(container.querySelector('.g-float-btn')!);
     expect(onOpenChange).toHaveBeenCalled();
   });
   it('support onOpenChange for hover', () => {
@@ -56,8 +56,8 @@ describe('FloatButtonGroup', () => {
         <FloatButton />
       </FloatButton.Group>,
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-float-btn-group')!);
-    fireEvent.mouseLeave(container.querySelector('.ant-float-btn-group')!);
+    fireEvent.mouseEnter(container.querySelector('.g-float-btn-group')!);
+    fireEvent.mouseLeave(container.querySelector('.g-float-btn-group')!);
     expect(onOpenChange).toHaveBeenCalled();
   });
   it('support click floatButtonGroup not close', () => {
@@ -69,8 +69,8 @@ describe('FloatButtonGroup', () => {
         <FloatButton />
       </FloatButton.Group>,
     );
-    fireEvent.click(container.querySelector('.ant-float-btn')!);
-    fireEvent.click(container.querySelector('.ant-float-btn-group')!);
+    fireEvent.click(container.querySelector('.g-float-btn')!);
+    fireEvent.click(container.querySelector('.g-float-btn-group')!);
     expect(onOpenChange).toHaveBeenCalledTimes(1);
   });
   it('support click out auto close', () => {
@@ -82,7 +82,7 @@ describe('FloatButtonGroup', () => {
         <FloatButton />
       </FloatButton.Group>,
     );
-    fireEvent.click(container.querySelector('.ant-float-btn')!);
+    fireEvent.click(container.querySelector('.g-float-btn')!);
     fireEvent.click(container);
     expect(onOpenChange).toHaveBeenCalledTimes(2);
   });
@@ -98,8 +98,8 @@ describe('FloatButtonGroup', () => {
       </FloatButton.Group>,
     );
     const floatButton = container
-      .querySelector('.ant-float-btn-group')!
-      .querySelector('.ant-float-btn');
+      .querySelector('.g-float-btn-group')!
+      .querySelector('.g-float-btn');
     fireEvent.click(floatButton!);
     expect(onClick).toHaveBeenCalled();
   });
@@ -113,8 +113,8 @@ describe('FloatButtonGroup', () => {
         <FloatButton onClick={onClick2} />
       </FloatButton.Group>,
     );
-    fireEvent.click(container.querySelector('.ant-float-btn')!);
-    fireEvent.click(container.querySelector('.ant-float-btn-group')!);
+    fireEvent.click(container.querySelector('.g-float-btn')!);
+    fireEvent.click(container.querySelector('.g-float-btn-group')!);
     expect(onClick).toHaveBeenCalled();
     expect(onClick2).not.toHaveBeenCalled();
   });
@@ -151,7 +151,7 @@ describe('FloatButtonGroup', () => {
       </FloatButton.Group>,
     );
 
-    expect(container.querySelector('.ant-badge')).toBeTruthy();
+    expect(container.querySelector('.g-badge')).toBeTruthy();
   });
 
   it('FloatButton.Group should support placement', () => {
@@ -161,8 +161,8 @@ describe('FloatButtonGroup', () => {
           <FloatButton />
         </FloatButton.Group>,
       );
-      const element = container.querySelector<HTMLDivElement>('.ant-float-btn-group');
-      expect(element).toHaveClass(`ant-float-btn-group-${placement}`);
+      const element = container.querySelector<HTMLDivElement>('.g-float-btn-group');
+      expect(element).toHaveClass(`g-float-btn-group-${placement}`);
     });
   });
 

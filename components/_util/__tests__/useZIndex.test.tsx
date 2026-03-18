@@ -213,21 +213,21 @@ const getConsumerSelector = (baseSelector: string, consumer: ZIndexConsumer): st
     selector = ['Select', 'Cascader', 'TreeSelect', 'AutoComplete', 'ColorPicker']
       .map((item) =>
         item === 'ColorPicker'
-          ? `${baseSelector}.ant-popover-placement-bottomLeft`
-          : `${baseSelector}.comp-${item}.ant-slide-up`,
+          ? `${baseSelector}.g-popover-placement-bottomLeft`
+          : `${baseSelector}.comp-${item}.g-slide-up`,
       )
       .join(',');
   } else if (consumer === 'DatePicker') {
     selector = ['DatePicker', 'TimePicker']
-      .map((item) => `${baseSelector}.comp-${item}.ant-picker-dropdown`)
+      .map((item) => `${baseSelector}.comp-${item}.g-picker-dropdown`)
       .join(',');
   } else if (['Menu'].includes(consumer)) {
-    selector = `${baseSelector}.ant-menu-submenu-placement-rightTop`;
+    selector = `${baseSelector}.g-menu-submenu-placement-rightTop`;
   } else if (consumer === 'ImagePreview') {
     selector = ['ImagePreview', 'ImagePreviewGroup']
       .map(
         (item) =>
-          `${baseSelector}.comp-${item} .ant-image-preview-wrap, ${baseSelector}.comp-${item}.ant-image-preview-operations-wrapper`,
+          `${baseSelector}.comp-${item} .g-image-preview-wrap, ${baseSelector}.comp-${item}.g-image-preview-operations-wrapper`,
       )
       .join(',');
   }
@@ -308,7 +308,7 @@ describe('Test useZIndex hooks', () => {
               const consumerOffset = isColorPicker
                 ? containerBaseZIndexOffset.Popover
                 : consumerZIndexValue;
-              const operOffset = comp.classList.contains('ant-image-preview-operations-wrapper')
+              const operOffset = comp.classList.contains('g-image-preview-operations-wrapper')
                 ? 1
                 : 0;
               expect(comp).toHaveStyle({
@@ -322,7 +322,7 @@ describe('Test useZIndex hooks', () => {
               const consumerOffset = isColorPicker
                 ? containerBaseZIndexOffset.Popover
                 : consumerZIndexValue;
-              const operOffset = comp.classList.contains('ant-image-preview-operations-wrapper')
+              const operOffset = comp.classList.contains('g-image-preview-operations-wrapper')
                 ? 1
                 : 0;
               expect(comp).toHaveStyle({
@@ -357,11 +357,11 @@ describe('Test useZIndex hooks', () => {
 
     await waitFakeTimer();
 
-    expect(document.querySelector('.ant-modal-wrap')).toHaveStyle({
+    expect(document.querySelector('.g-modal-wrap')).toHaveStyle({
       zIndex: '2000',
     });
 
-    expect(document.querySelector('.ant-select-dropdown')).toHaveStyle({
+    expect(document.querySelector('.g-select-dropdown')).toHaveStyle({
       zIndex: '2050',
     });
 
@@ -399,7 +399,7 @@ describe('Test useZIndex hooks', () => {
         <FloatButton />
       </WrapWithProvider>,
     );
-    const ele = container.querySelector<HTMLElement>('.ant-float-btn');
+    const ele = container.querySelector<HTMLElement>('.g-float-btn');
     expect(ele).toHaveStyle({ zIndex: 1100 + containerBaseZIndexOffset.FloatButton });
     rerender(
       <WrapWithProvider container="FloatButton">

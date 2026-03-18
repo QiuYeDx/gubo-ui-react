@@ -10,7 +10,7 @@ import { defaultPrefixCls } from '../../config-provider';
 import { genCssVar } from '../../theme/util/genStyleUtils';
 
 const resizeMasonry = async () => {
-  triggerResize(document.body.querySelector('.ant-masonry')!);
+  triggerResize(document.body.querySelector('.g-masonry')!);
   await waitFakeTimer();
 };
 
@@ -130,7 +130,7 @@ describe('Masonry', () => {
     const { container } = render(<DemoMasonry columns={3} onLayoutChange={onLayoutChange} />);
     await resizeMasonry();
 
-    expect(container.querySelector('.ant-masonry')).toHaveStyle({
+    expect(container.querySelector('.g-masonry')).toHaveStyle({
       height: '480px',
     });
 
@@ -207,7 +207,7 @@ describe('Masonry', () => {
   describe('gutter', () => {
     const [varName] = genCssVar(defaultPrefixCls, 'masonry');
     const getGutter = () => {
-      const itemElements = document.body.querySelectorAll<HTMLElement>('.ant-masonry-item');
+      const itemElements = document.body.querySelectorAll<HTMLElement>('.g-masonry-item');
       const horizontalGutter = itemElements[0].style
         .getPropertyValue(varName('item-width'))
         .match(/\d+px/)?.[0];

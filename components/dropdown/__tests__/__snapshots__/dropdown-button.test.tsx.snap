@@ -2,22 +2,22 @@
 
 exports[`DropdownButton rtl render component should be rendered correctly in RTL direction 1`] = `
 <div
-  class="ant-space-compact ant-space-compact-rtl ant-space-compact-block ant-dropdown-button"
+  class="g-space-compact g-space-compact-rtl g-space-compact-block g-dropdown-button"
 >
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-rtl ant-btn-compact-item ant-btn-compact-first-item ant-btn-compact-item-rtl"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-rtl g-btn-compact-item g-btn-compact-first-item g-btn-compact-item-rtl"
     type="button"
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-rtl ant-btn-compact-item ant-btn-compact-last-item ant-btn-compact-item-rtl ant-dropdown-trigger ant-dropdown-rtl"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-rtl g-btn-compact-item g-btn-compact-last-item g-btn-compact-item-rtl g-dropdown-trigger g-dropdown-rtl"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
     >
       <span
         aria-label="ellipsis"
-        class="anticon anticon-ellipsis"
+        class="gicon gicon-ellipsis"
         role="img"
       >
         <svg
@@ -41,24 +41,24 @@ exports[`DropdownButton rtl render component should be rendered correctly in RTL
 
 exports[`DropdownButton should support href like Button 1`] = `
 <div
-  class="ant-space-compact ant-space-compact-block ant-dropdown-button"
+  class="g-space-compact g-space-compact-block g-dropdown-button"
 >
   <a
     aria-disabled="false"
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-compact-item g-btn-compact-first-item"
     href="https://ant.design"
     tabindex="0"
   />
   <button
-    class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"
+    class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined g-btn-icon-only g-btn-compact-item g-btn-compact-last-item g-dropdown-trigger"
     type="button"
   >
     <span
-      class="ant-btn-icon"
+      class="g-btn-icon"
     >
       <span
         aria-label="ellipsis"
-        class="anticon anticon-ellipsis"
+        class="gicon gicon-ellipsis"
         role="img"
       >
         <svg

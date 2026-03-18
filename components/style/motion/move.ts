@@ -4,7 +4,7 @@ import { Keyframes } from '@ant-design/cssinjs';
 import type { AliasToken, TokenWithCommonCls } from '../../theme/internal';
 import { initMotion } from './motion';
 
-export const moveDownIn = new Keyframes('antMoveDownIn', {
+export const moveDownIn = new Keyframes('gMoveDownIn', {
   '0%': {
     transform: 'translate3d(0, 100%, 0)',
     transformOrigin: '0 0',
@@ -18,7 +18,7 @@ export const moveDownIn = new Keyframes('antMoveDownIn', {
   },
 });
 
-export const moveDownOut = new Keyframes('antMoveDownOut', {
+export const moveDownOut = new Keyframes('gMoveDownOut', {
   '0%': {
     transform: 'translate3d(0, 0, 0)',
     transformOrigin: '0 0',
@@ -32,7 +32,7 @@ export const moveDownOut = new Keyframes('antMoveDownOut', {
   },
 });
 
-export const moveLeftIn = new Keyframes('antMoveLeftIn', {
+export const moveLeftIn = new Keyframes('gMoveLeftIn', {
   '0%': {
     transform: 'translate3d(-100%, 0, 0)',
     transformOrigin: '0 0',
@@ -46,7 +46,7 @@ export const moveLeftIn = new Keyframes('antMoveLeftIn', {
   },
 });
 
-export const moveLeftOut = new Keyframes('antMoveLeftOut', {
+export const moveLeftOut = new Keyframes('gMoveLeftOut', {
   '0%': {
     transform: 'translate3d(0, 0, 0)',
     transformOrigin: '0 0',
@@ -60,7 +60,7 @@ export const moveLeftOut = new Keyframes('antMoveLeftOut', {
   },
 });
 
-export const moveRightIn = new Keyframes('antMoveRightIn', {
+export const moveRightIn = new Keyframes('gMoveRightIn', {
   '0%': {
     transform: 'translate3d(100%, 0, 0)',
     transformOrigin: '0 0',
@@ -74,7 +74,7 @@ export const moveRightIn = new Keyframes('antMoveRightIn', {
   },
 });
 
-export const moveRightOut = new Keyframes('antMoveRightOut', {
+export const moveRightOut = new Keyframes('gMoveRightOut', {
   '0%': {
     transform: 'translate3d(0, 0, 0)',
     transformOrigin: '0 0',
@@ -88,7 +88,7 @@ export const moveRightOut = new Keyframes('antMoveRightOut', {
   },
 });
 
-export const moveUpIn = new Keyframes('antMoveUpIn', {
+export const moveUpIn = new Keyframes('gMoveUpIn', {
   '0%': {
     transform: 'translate3d(0, -100%, 0)',
     transformOrigin: '0 0',
@@ -102,7 +102,7 @@ export const moveUpIn = new Keyframes('antMoveUpIn', {
   },
 });
 
-export const moveUpOut = new Keyframes('antMoveUpOut', {
+export const moveUpOut = new Keyframes('gMoveUpOut', {
   '0%': {
     transform: 'translate3d(0, 0, 0)',
     transformOrigin: '0 0',

@@ -198,7 +198,7 @@ const Modal: React.FC<ModalProps> = (props) => {
     ? (node: React.ReactNode) => <div className={`${prefixCls}-render`}>{modalRender(node)}</div>
     : undefined;
   // ============================ Refs ============================
-  // Select `ant-modal-container` by `panelRef`
+  // Select `g-modal-container` by `panelRef`
   const panelClassName = `.${prefixCls}-${modalRender ? 'render' : 'container'}`;
   const innerPanelRef = usePanelRef(panelClassName);
   const mergedPanelRef = composeRef(panelRef, innerPanelRef) as React.Ref<HTMLDivElement>;

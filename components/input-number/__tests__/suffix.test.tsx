@@ -6,7 +6,7 @@ import { fireEvent, render } from '../../../tests/utils';
 describe('suffix', () => {
   it('should support suffix prop', () => {
     const { container } = render(<InputNumber suffix={<i>hello</i>} />);
-    expect(container.querySelector('.ant-input-number-suffix')).toBeInTheDocument();
+    expect(container.querySelector('.g-input-number-suffix')).toBeInTheDocument();
   });
 
   it('should trigger focus when suffix is clicked', () => {
@@ -25,6 +25,6 @@ describe('suffix', () => {
     ['readOnly', { readOnly: true }],
   ])('should not show the control buttons when inputNumber is %s', (_, props) => {
     const { container } = render(<InputNumber suffix="RMB" style={{ width: '100%' }} {...props} />);
-    expect(container.querySelector('.ant-input-number-without-controls')).toBeTruthy();
+    expect(container.querySelector('.g-input-number-without-controls')).toBeTruthy();
   });
 });

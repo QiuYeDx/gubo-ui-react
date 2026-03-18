@@ -2,23 +2,23 @@
 
 exports[`renders components/select/demo/automatic-tokenization.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item ant-select-content-item-prefix"
+      class="g-select-content-item g-select-content-item-prefix"
       style="opacity:1"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       />
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -26,7 +26,7 @@ exports[`renders components/select/demo/automatic-tokenization.tsx correctly 1`]
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -35,11 +35,11 @@ exports[`renders components/select/demo/automatic-tokenization.tsx correctly 1`]
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -62,18 +62,18 @@ exports[`renders components/select/demo/automatic-tokenization.tsx correctly 1`]
 
 exports[`renders components/select/demo/basic.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="flex-wrap:wrap"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:120px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -82,7 +82,7 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -91,11 +91,11 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -116,14 +116,14 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled"
       style="width:120px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -132,7 +132,7 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           disabled=""
           id="test-id"
           readonly=""
@@ -142,11 +142,11 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -167,14 +167,14 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-loading"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-loading"
       style="width:120px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -183,7 +183,7 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -192,11 +192,11 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix ant-select-suffix-loading"
+        class="g-select-suffix g-select-suffix-loading"
       >
         <span
           aria-label="loading"
-          class="anticon anticon-loading anticon-spin"
+          class="gicon gicon-loading gicon-spin"
           role="img"
         >
           <svg
@@ -217,14 +217,14 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow"
       style="width:120px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -233,7 +233,7 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -242,11 +242,11 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -265,11 +265,11 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-select-clear"
+        class="g-select-clear"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -296,56 +296,56 @@ exports[`renders components/select/demo/basic.tsx correctly 1`] = `
 exports[`renders components/select/demo/big-data.tsx correctly 1`] = `
 Array [
   <h4
-    class="ant-typography css-var-test-id"
+    class="g-typography css-var-test-id"
   >
     100000
     <!-- -->
      Items
   </h4>,
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
     style="width:100%"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-content-item"
+        class="g-select-content-item"
         style="opacity:1"
       >
         <span
-          class="ant-select-selection-item ant-select-selection-item-disabled"
+          class="g-select-selection-item g-select-selection-item-disabled"
           title="a10"
         >
           <span
-            class="ant-select-selection-item-content"
+            class="g-select-selection-item-content"
           >
             a10
           </span>
         </span>
       </div>
       <div
-        class="ant-select-content-item"
+        class="g-select-content-item"
         style="opacity:1"
       >
         <span
-          class="ant-select-selection-item"
+          class="g-select-selection-item"
           title="c12"
         >
           <span
-            class="ant-select-selection-item-content"
+            class="g-select-selection-item-content"
           >
             c12
           </span>
           <span
             aria-hidden="true"
-            class="ant-select-selection-item-remove"
+            class="g-select-selection-item-remove"
             style="user-select:none;-webkit-user-select:none"
             unselectable="on"
           >
             <span
               aria-label="close"
-              class="anticon anticon-close"
+              class="gicon gicon-close"
               role="img"
             >
               <svg
@@ -367,7 +367,7 @@ Array [
         </span>
       </div>
       <div
-        class="ant-select-content-item ant-select-content-item-suffix"
+        class="g-select-content-item g-select-content-item-suffix"
         style="opacity:1"
       >
         <input
@@ -375,7 +375,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -384,11 +384,11 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -412,18 +412,18 @@ Array [
 
 exports[`renders components/select/demo/coordinate.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="flex-wrap:wrap"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:120px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Zhejiang"
       >
         Zhejiang
@@ -432,7 +432,7 @@ exports[`renders components/select/demo/coordinate.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -441,11 +441,11 @@ exports[`renders components/select/demo/coordinate.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -466,14 +466,14 @@ exports[`renders components/select/demo/coordinate.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:120px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Hangzhou"
       >
         Hangzhou
@@ -482,7 +482,7 @@ exports[`renders components/select/demo/coordinate.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -491,11 +491,11 @@ exports[`renders components/select/demo/coordinate.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -520,14 +520,14 @@ exports[`renders components/select/demo/coordinate.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/custom-dropdown-menu.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
   style="width:300px"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       custom dropdown render
@@ -537,7 +537,7 @@ exports[`renders components/select/demo/custom-dropdown-menu.tsx correctly 1`] =
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -546,11 +546,11 @@ exports[`renders components/select/demo/custom-dropdown-menu.tsx correctly 1`] =
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -573,11 +573,11 @@ exports[`renders components/select/demo/custom-dropdown-menu.tsx correctly 1`] =
 
 exports[`renders components/select/demo/custom-label-render.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
   style="width:100%"
 >
   <div
-    class="ant-select-content ant-select-content-has-value"
+    class="g-select-content g-select-content-has-value"
   >
     <span>
       No option match
@@ -587,7 +587,7 @@ exports[`renders components/select/demo/custom-label-render.tsx correctly 1`] = 
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -596,11 +596,11 @@ exports[`renders components/select/demo/custom-label-render.tsx correctly 1`] = 
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -623,25 +623,25 @@ exports[`renders components/select/demo/custom-label-render.tsx correctly 1`] = 
 
 exports[`renders components/select/demo/custom-tag-render.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item"
+      class="g-select-content-item"
       style="opacity:1"
     >
       <span>
         <span
-          class="ant-tag ant-tag-filled ant-tag-gold css-var-test-id"
+          class="g-tag g-tag-filled g-tag-gold css-var-test-id"
           style="margin-inline-end:4px"
         >
           gold
           <span
             aria-label="Close"
-            class="anticon anticon-close ant-tag-close-icon"
+            class="gicon gicon-close g-tag-close-icon"
             role="img"
             tabindex="-1"
           >
@@ -664,18 +664,18 @@ exports[`renders components/select/demo/custom-tag-render.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-select-content-item"
+      class="g-select-content-item"
       style="opacity:1"
     >
       <span>
         <span
-          class="ant-tag ant-tag-filled ant-tag-cyan css-var-test-id"
+          class="g-tag g-tag-filled g-tag-cyan css-var-test-id"
           style="margin-inline-end:4px"
         >
           cyan
           <span
             aria-label="Close"
-            class="anticon anticon-close ant-tag-close-icon"
+            class="gicon gicon-close g-tag-close-icon"
             role="img"
             tabindex="-1"
           >
@@ -698,7 +698,7 @@ exports[`renders components/select/demo/custom-tag-render.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -706,7 +706,7 @@ exports[`renders components/select/demo/custom-tag-render.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -715,11 +715,11 @@ exports[`renders components/select/demo/custom-tag-render.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -742,34 +742,34 @@ exports[`renders components/select/demo/custom-tag-render.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/debug.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="flex-wrap:wrap;width:500px;position:relative;z-index:1;border:1px solid red;background-color:#fff"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <input
-        class="ant-input ant-input-outlined css-var-test-id ant-input-css-var"
+        class="g-input g-input-outlined css-var-test-id g-input-css-var"
         style="width:100px"
         type="text"
         value="222"
       />
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
         style="width:120px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             233
@@ -779,7 +779,7 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -787,11 +787,11 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -812,37 +812,37 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
         style="width:120px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-content-item"
+            class="g-select-content-item"
             style="opacity:1"
           >
             <span
-              class="ant-select-selection-item"
+              class="g-select-selection-item"
               title="Lucy"
             >
               <span
-                class="ant-select-selection-item-content"
+                class="g-select-selection-item-content"
               >
                 Lucy
               </span>
               <span
                 aria-hidden="true"
-                class="ant-select-selection-item-remove"
+                class="g-select-selection-item-remove"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -864,7 +864,7 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-select-content-item ant-select-content-item-suffix"
+            class="g-select-content-item g-select-content-item-suffix"
             style="opacity:1"
           >
             <input
@@ -872,7 +872,7 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               role="combobox"
               type="search"
@@ -881,11 +881,11 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -906,7 +906,7 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <span
         class="debug-align"
@@ -915,10 +915,10 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -927,14 +927,14 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
         style="width:120px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
           title=" "
         >
           <input
@@ -942,7 +942,7 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -951,11 +951,11 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -980,34 +980,34 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
     style="width:200px"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -1029,7 +1029,7 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -1037,7 +1037,7 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -1046,11 +1046,11 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1071,10 +1071,10 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
       title=""
     >
       <input
@@ -1082,7 +1082,7 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -1091,11 +1091,11 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -1119,14 +1119,14 @@ exports[`renders components/select/demo/debug.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/debug-flip-shift.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
   style="width:120px;margin-top:50vh"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     />
     <input
@@ -1134,7 +1134,7 @@ exports[`renders components/select/demo/debug-flip-shift.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -1143,11 +1143,11 @@ exports[`renders components/select/demo/debug-flip-shift.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1170,19 +1170,19 @@ exports[`renders components/select/demo/debug-flip-shift.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap:12px"
 >
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-select ant-select-filled css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled"
+      class="g-select g-select-filled css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled"
       style="flex:1 1 50%;min-width:0"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -1191,7 +1191,7 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           disabled=""
           id="test-id"
           readonly=""
@@ -1201,11 +1201,11 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1225,29 +1225,29 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-filled css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-disabled ant-select-show-search"
+      class="g-select g-select-filled css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-disabled g-select-show-search"
       style="flex:1 1 50%;min-width:0"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -1255,7 +1255,7 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -1265,11 +1265,11 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1290,15 +1290,15 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-select ant-select-filled ant-select-status-error css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-filled g-select-status-error css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="flex:1 1 50%;min-width:0"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -1307,7 +1307,7 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -1316,11 +1316,11 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1340,34 +1340,34 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-filled ant-select-status-error css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-filled g-select-status-error css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="flex:1 1 50%;min-width:0"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -1389,7 +1389,7 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -1397,7 +1397,7 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -1406,11 +1406,11 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1431,15 +1431,15 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-select ant-select-filled ant-select-status-error css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled"
+      class="g-select g-select-filled g-select-status-error css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled"
       style="flex:1 1 50%;min-width:0"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -1448,7 +1448,7 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           disabled=""
           id="test-id"
           readonly=""
@@ -1458,11 +1458,11 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1482,29 +1482,29 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-filled ant-select-status-error css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-disabled ant-select-show-search"
+      class="g-select g-select-filled g-select-status-error css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-disabled g-select-show-search"
       style="flex:1 1 50%;min-width:0"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -1512,7 +1512,7 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -1522,11 +1522,11 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1551,25 +1551,25 @@ exports[`renders components/select/demo/filled-debug.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/hide-selected.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item ant-select-content-item-prefix"
+      class="g-select-content-item g-select-content-item-prefix"
       style="opacity:1"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Inserted are removed
       </div>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -1577,7 +1577,7 @@ exports[`renders components/select/demo/hide-selected.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -1586,11 +1586,11 @@ exports[`renders components/select/demo/hide-selected.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1613,11 +1613,11 @@ exports[`renders components/select/demo/hide-selected.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/label-in-value.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
   style="width:120px"
 >
   <div
-    class="ant-select-content ant-select-content-has-value"
+    class="g-select-content g-select-content-has-value"
     title="Lucy (101)"
   >
     Lucy (101)
@@ -1626,7 +1626,7 @@ exports[`renders components/select/demo/label-in-value.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -1635,11 +1635,11 @@ exports[`renders components/select/demo/label-in-value.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1662,34 +1662,34 @@ exports[`renders components/select/demo/label-in-value.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/maxCount.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item"
+      class="g-select-content-item"
       style="opacity:1"
     >
       <span
-        class="ant-select-selection-item"
+        class="g-select-selection-item"
         title="Ava Swift"
       >
         <span
-          class="ant-select-selection-item-content"
+          class="g-select-selection-item-content"
         >
           Ava Swift
         </span>
         <span
           aria-hidden="true"
-          class="ant-select-selection-item-remove"
+          class="g-select-selection-item-remove"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close"
+            class="gicon gicon-close"
             role="img"
           >
             <svg
@@ -1711,7 +1711,7 @@ exports[`renders components/select/demo/maxCount.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -1719,7 +1719,7 @@ exports[`renders components/select/demo/maxCount.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -1728,7 +1728,7 @@ exports[`renders components/select/demo/maxCount.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span>
       1
@@ -1739,7 +1739,7 @@ exports[`renders components/select/demo/maxCount.tsx correctly 1`] = `
     </span>
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -1762,41 +1762,41 @@ exports[`renders components/select/demo/maxCount.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-allow-clear g-select-show-arrow g-select-show-search"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="a10"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               a10
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -1818,27 +1818,27 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="c12"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               c12
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -1860,7 +1860,7 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -1868,7 +1868,7 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -1877,11 +1877,11 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -1900,11 +1900,11 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-select-clear"
+        class="g-select-clear"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -1926,47 +1926,47 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-disabled ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-disabled g-select-show-search"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="a10"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               a10
             </span>
           </span>
         </div>
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="c12"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               c12
             </span>
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -1974,7 +1974,7 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -1984,11 +1984,11 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -2013,11 +2013,11 @@ exports[`renders components/select/demo/multiple.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/optgroup.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
   style="width:200px"
 >
   <div
-    class="ant-select-content ant-select-content-has-value"
+    class="g-select-content g-select-content-has-value"
     title="lucy"
   >
     lucy
@@ -2026,7 +2026,7 @@ exports[`renders components/select/demo/optgroup.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       readonly=""
       role="combobox"
@@ -2035,11 +2035,11 @@ exports[`renders components/select/demo/optgroup.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -2063,18 +2063,18 @@ exports[`renders components/select/demo/optgroup.tsx correctly 1`] = `
 exports[`renders components/select/demo/option-label-center.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="flex-wrap:wrap"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow"
         style="width:120px"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="long, long, long piece of text"
         >
           long, long, long piece of text
@@ -2083,7 +2083,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -2092,11 +2092,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2115,11 +2115,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2141,17 +2141,17 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
         style="width:120px;height:60px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Select a option
@@ -2161,7 +2161,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -2170,11 +2170,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2195,14 +2195,14 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow"
         style="width:120px"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
         >
           <div>
             normal
@@ -2212,7 +2212,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -2221,11 +2221,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2244,11 +2244,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2270,24 +2270,24 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-allow-clear g-select-show-arrow g-select-show-search"
         style="width:120px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-content-item"
+            class="g-select-content-item"
             style="opacity:1"
           >
             <span
-              class="ant-select-selection-item"
+              class="g-select-selection-item"
             >
               <span
-                class="ant-select-selection-item-content"
+                class="g-select-selection-item-content"
               >
                 <div>
                   normal
@@ -2295,13 +2295,13 @@ Array [
               </span>
               <span
                 aria-hidden="true"
-                class="ant-select-selection-item-remove"
+                class="g-select-selection-item-remove"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -2323,7 +2323,7 @@ Array [
             </span>
           </div>
           <div
-            class="ant-select-content-item ant-select-content-item-suffix"
+            class="g-select-content-item g-select-content-item-suffix"
             style="opacity:1"
           >
             <input
@@ -2331,7 +2331,7 @@ Array [
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               role="combobox"
               type="search"
@@ -2340,11 +2340,11 @@ Array [
           </div>
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2363,11 +2363,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2389,28 +2389,28 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
         style="width:120px;height:60px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-content-item ant-select-content-item-prefix"
+            class="g-select-content-item g-select-content-item-prefix"
             style="opacity:1"
           >
             <div
-              class="ant-select-placeholder"
+              class="g-select-placeholder"
               style="visibility:visible"
             >
               Select a option
             </div>
           </div>
           <div
-            class="ant-select-content-item ant-select-content-item-suffix"
+            class="g-select-content-item g-select-content-item-suffix"
             style="opacity:1"
           >
             <input
@@ -2418,7 +2418,7 @@ Array [
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               role="combobox"
               type="search"
@@ -2427,11 +2427,11 @@ Array [
           </div>
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2452,17 +2452,17 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-cascader ant-select-outlined ant-select-css-var ant-cascader-css-var css-var-test-id ant-select-single ant-select-show-arrow"
+        class="g-select g-cascader g-select-outlined g-select-css-var g-cascader-css-var css-var-test-id g-select-single g-select-show-arrow"
         style="width:120px;height:60px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Select a option
@@ -2472,7 +2472,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -2481,11 +2481,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2506,17 +2506,17 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-tree-select ant-select-outlined css-var-test-id ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-tree-select g-select-outlined css-var-test-id g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-show-search"
         style="width:120px;height:60px"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Please select
@@ -2526,7 +2526,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -2534,11 +2534,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2559,45 +2559,45 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-allow-clear g-select-show-arrow g-select-show-search"
         style="min-width:200px;height:200px"
       >
         <div
-          class="ant-select-prefix"
+          class="g-select-prefix"
         >
           Hello World
         </div>
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-content-item"
+            class="g-select-content-item"
             style="opacity:1"
           >
             <span
-              class="ant-select-selection-item"
+              class="g-select-selection-item"
             >
               <span
-                class="ant-select-selection-item-content"
+                class="g-select-selection-item-content"
               >
                 <article
-                  class="ant-typography css-var-test-id"
+                  class="g-typography css-var-test-id"
                 >
                   long, long, long piece of text
                 </article>
               </span>
               <span
                 aria-hidden="true"
-                class="ant-select-selection-item-remove"
+                class="g-select-selection-item-remove"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -2619,7 +2619,7 @@ Array [
             </span>
           </div>
           <div
-            class="ant-select-content-item ant-select-content-item-suffix"
+            class="g-select-content-item g-select-content-item-suffix"
             style="opacity:1"
           >
             <input
@@ -2627,7 +2627,7 @@ Array [
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               role="combobox"
               type="search"
@@ -2636,11 +2636,11 @@ Array [
           </div>
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2659,11 +2659,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2685,33 +2685,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
         style="width:200px"
       >
         <div
-          class="ant-select-prefix"
+          class="g-select-prefix"
         >
           城市
         </div>
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-content-item ant-select-content-item-prefix"
+            class="g-select-content-item g-select-content-item-prefix"
             style="opacity:1;order:-1"
           >
             <div
-              class="ant-select-placeholder"
+              class="g-select-placeholder"
               style="visibility:visible"
             >
               请选择
             </div>
           </div>
           <div
-            class="ant-select-content-item ant-select-content-item-suffix"
+            class="g-select-content-item g-select-content-item-suffix"
             style="opacity:1;order:0"
           >
             <input
@@ -2719,7 +2719,7 @@ Array [
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               role="combobox"
               type="search"
@@ -2728,11 +2728,11 @@ Array [
           </div>
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2753,22 +2753,22 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined ant-select-status-error css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined g-select-status-error css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
         style="width:200px"
       >
         <div
-          class="ant-select-prefix"
+          class="g-select-prefix"
         >
           城市
         </div>
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             请选择
@@ -2778,7 +2778,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -2786,11 +2786,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2811,19 +2811,19 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-filled ant-select-status-warning css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-filled g-select-status-warning css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow g-select-show-search"
         style="width:100px"
       >
         <div
-          class="ant-select-prefix"
+          class="g-select-prefix"
         >
           Hi
         </div>
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Bamboo"
         >
           Bamboo
@@ -2832,7 +2832,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -2840,11 +2840,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2863,11 +2863,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2889,19 +2889,19 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-borderless ant-select-status-error css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-borderless g-select-status-error css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow g-select-show-search"
         style="width:100px"
       >
         <div
-          class="ant-select-prefix"
+          class="g-select-prefix"
         >
           Hi
         </div>
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="Bamboo"
         >
           Bamboo
@@ -2910,7 +2910,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -2918,11 +2918,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -2941,11 +2941,11 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-clear"
+          class="g-select-clear"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -2967,21 +2967,21 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <form
-        class="ant-form ant-form-vertical css-var-test-id ant-form-css-var"
+        class="g-form g-form-vertical css-var-test-id g-form-css-var"
         style="width:200px"
       >
         <div
-          class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+          class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
           style="box-shadow:0 0 0 1px red"
         >
           <div
-            class="ant-row ant-form-item-row css-var-test-id"
+            class="g-row g-form-item-row css-var-test-id"
           >
             <div
-              class="ant-col ant-form-item-label css-var-test-id"
+              class="g-col g-form-item-label css-var-test-id"
             >
               <label
                 class=""
@@ -2992,19 +2992,19 @@ Array [
               </label>
             </div>
             <div
-              class="ant-col ant-form-item-control css-var-test-id"
+              class="g-col g-form-item-control css-var-test-id"
             >
               <div
-                class="ant-form-item-control-input"
+                class="g-form-item-control-input"
               >
                 <div
-                  class="ant-form-item-control-input-content"
+                  class="g-form-item-control-input-content"
                 >
                   <div
-                    class="ant-select ant-select-outlined ant-select-in-form-item css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow"
+                    class="g-select g-select-outlined g-select-in-form-item css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow"
                   >
                     <div
-                      class="ant-select-content ant-select-content-has-value"
+                      class="g-select-content g-select-content-has-value"
                       title="Bamboo"
                     >
                       Bamboo
@@ -3013,7 +3013,7 @@ Array [
                         aria-expanded="false"
                         aria-haspopup="listbox"
                         autocomplete="off"
-                        class="ant-select-input"
+                        class="g-select-input"
                         id="bamboo"
                         readonly=""
                         role="combobox"
@@ -3022,11 +3022,11 @@ Array [
                       />
                     </div>
                     <div
-                      class="ant-select-suffix"
+                      class="g-select-suffix"
                     >
                       <span
                         aria-label="down"
-                        class="anticon anticon-down"
+                        class="gicon gicon-down"
                         role="img"
                       >
                         <svg
@@ -3045,11 +3045,11 @@ Array [
                       </span>
                     </div>
                     <div
-                      class="ant-select-clear"
+                      class="g-select-clear"
                     >
                       <span
                         aria-label="close-circle"
-                        class="anticon anticon-close-circle"
+                        class="gicon gicon-close-circle"
                         role="img"
                       >
                         <svg
@@ -3075,14 +3075,14 @@ Array [
           </div>
         </div>
         <div
-          class="ant-form-item css-var-test-id ant-form-css-var ant-form-item-vertical"
+          class="g-form-item css-var-test-id g-form-css-var g-form-item-vertical"
           style="box-shadow:0 0 0 1px red"
         >
           <div
-            class="ant-row ant-form-item-row css-var-test-id"
+            class="g-row g-form-item-row css-var-test-id"
           >
             <div
-              class="ant-col ant-form-item-label css-var-test-id"
+              class="g-col g-form-item-label css-var-test-id"
             >
               <label
                 class=""
@@ -3093,19 +3093,19 @@ Array [
               </label>
             </div>
             <div
-              class="ant-col ant-form-item-control css-var-test-id"
+              class="g-col g-form-item-control css-var-test-id"
             >
               <div
-                class="ant-form-item-control-input"
+                class="g-form-item-control-input"
               >
                 <div
-                  class="ant-form-item-control-input-content"
+                  class="g-form-item-control-input-content"
                 >
                   <div
-                    class="ant-select ant-select-outlined ant-select-in-form-item ant-select-auto-complete css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-search"
+                    class="g-select g-select-outlined g-select-in-form-item g-select-auto-complete css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-search"
                   >
                     <div
-                      class="ant-select-content ant-select-content-has-value ant-select-content-has-search-value"
+                      class="g-select-content g-select-content-has-value g-select-content-has-search-value"
                       title="Bamboo"
                     >
                       Bamboo
@@ -3114,7 +3114,7 @@ Array [
                         aria-expanded="false"
                         aria-haspopup="listbox"
                         autocomplete="off"
-                        class="ant-select-input"
+                        class="g-select-input"
                         id="bamboo"
                         role="combobox"
                         type="text"
@@ -3122,11 +3122,11 @@ Array [
                       />
                     </div>
                     <div
-                      class="ant-select-clear"
+                      class="g-select-clear"
                     >
                       <span
                         aria-label="close-circle"
-                        class="anticon anticon-close-circle"
+                        class="gicon gicon-close-circle"
                         role="img"
                       >
                         <svg
@@ -3155,34 +3155,34 @@ Array [
     </div>
   </div>,
   <div
-    class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+    class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
     style="width:200px"
   >
     <span
-      class="ant-input-affix-wrapper ant-input-outlined css-var-test-id ant-input-css-var"
+      class="g-input-affix-wrapper g-input-outlined css-var-test-id g-input-css-var"
     >
       <span
-        class="ant-input-prefix"
+        class="g-input-prefix"
       >
         Hi
       </span>
       <input
-        class="ant-input"
+        class="g-input"
         placeholder="Input"
         type="text"
         value=""
       />
       <span
-        class="ant-input-suffix"
+        class="g-input-suffix"
       >
         <button
-          class="ant-input-clear-icon ant-input-clear-icon-hidden"
+          class="g-input-clear-icon g-input-clear-icon-hidden"
           tabindex="-1"
           type="button"
         >
           <span
             aria-label="close-circle"
-            class="anticon anticon-close-circle"
+            class="gicon gicon-close-circle"
             role="img"
           >
             <svg
@@ -3204,18 +3204,18 @@ Array [
       </span>
     </span>
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-prefix"
+        class="g-select-prefix"
       >
         Hi
       </div>
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         >
           Single
@@ -3225,7 +3225,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -3233,11 +3233,11 @@ Array [
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3257,15 +3257,15 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-prefix"
+        class="g-select-prefix"
       >
         Hi
       </div>
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Bamboo"
       >
         Bamboo
@@ -3274,7 +3274,7 @@ Array [
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -3282,11 +3282,11 @@ Array [
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3305,11 +3305,11 @@ Array [
         </span>
       </div>
       <div
-        class="ant-select-clear"
+        class="g-select-clear"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -3330,24 +3330,24 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item ant-select-content-item-prefix"
+          class="g-select-content-item g-select-content-item-prefix"
           style="opacity:1"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Multiple
           </div>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -3355,7 +3355,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -3364,11 +3364,11 @@ Array [
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3388,29 +3388,29 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-prefix"
+        class="g-select-prefix"
       >
         Hi
       </div>
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item ant-select-content-item-prefix"
+          class="g-select-content-item g-select-content-item-prefix"
           style="opacity:1"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Multiple
           </div>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -3418,7 +3418,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -3427,11 +3427,11 @@ Array [
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3451,38 +3451,38 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-allow-clear g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-prefix"
+        class="g-select-prefix"
       >
         Hi
       </div>
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Bamboo"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Bamboo
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3504,7 +3504,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -3512,7 +3512,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -3521,11 +3521,11 @@ Array [
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3544,11 +3544,11 @@ Array [
         </span>
       </div>
       <div
-        class="ant-select-clear"
+        class="g-select-clear"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -3569,33 +3569,33 @@ Array [
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-allow-clear g-select-show-arrow g-select-show-search"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Bamboo"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Bamboo
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -3617,7 +3617,7 @@ Array [
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -3625,7 +3625,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -3634,11 +3634,11 @@ Array [
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -3657,11 +3657,11 @@ Array [
         </span>
       </div>
       <div
-        class="ant-select-clear"
+        class="g-select-clear"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -3687,34 +3687,34 @@ Array [
 
 exports[`renders components/select/demo/option-render.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item"
+      class="g-select-content-item"
       style="opacity:1"
     >
       <span
-        class="ant-select-selection-item"
+        class="g-select-selection-item"
         title="Happy"
       >
         <span
-          class="ant-select-selection-item-content"
+          class="g-select-selection-item-content"
         >
           Happy
         </span>
         <span
           aria-hidden="true"
-          class="ant-select-selection-item-remove"
+          class="g-select-selection-item-remove"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <span
             aria-label="close"
-            class="anticon anticon-close"
+            class="gicon gicon-close"
             role="img"
           >
             <svg
@@ -3736,7 +3736,7 @@ exports[`renders components/select/demo/option-render.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -3744,7 +3744,7 @@ exports[`renders components/select/demo/option-render.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -3753,11 +3753,11 @@ exports[`renders components/select/demo/option-render.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -3781,82 +3781,82 @@ exports[`renders components/select/demo/option-render.tsx correctly 1`] = `
 exports[`renders components/select/demo/placement.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="topRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         topRight
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomLeft"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomLeft
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="bottomRight"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         bottomRight
       </span>
@@ -3865,11 +3865,11 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:120px"
   >
     <div
-      class="ant-select-content ant-select-content-has-value"
+      class="g-select-content g-select-content-has-value"
       title="HangZhou #310000"
     >
       HangZhou #310000
@@ -3878,7 +3878,7 @@ Array [
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -3887,11 +3887,11 @@ Array [
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -3918,89 +3918,89 @@ exports[`renders components/select/demo/placement-debug.tsx correctly 1`] = `
   style="height:100%;min-height:500px;display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative"
 >
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="position:absolute;top:0;inset-inline-start:50%;transform:translateX(-50%)"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+        class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
         role="radiogroup"
       >
         <label
-          class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button ant-radio-button-checked"
+            class="g-radio-button g-radio-button-checked"
           >
             <input
               checked=""
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="topLeft"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             TL
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button"
+            class="g-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="topRight"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             TR
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button"
+            class="g-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="bottomLeft"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             BL
           </span>
         </label>
         <label
-          class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+          class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
         >
           <span
-            class="ant-radio-button"
+            class="g-radio-button"
           >
             <input
-              class="ant-radio-button-input"
+              class="g-radio-button-input"
               name="test-id"
               type="radio"
               value="bottomRight"
             />
           </span>
           <span
-            class="ant-radio-button-label"
+            class="g-radio-button-label"
           >
             BR
           </span>
@@ -4008,34 +4008,34 @@ exports[`renders components/select/demo/placement-debug.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
         aria-checked="false"
-        class="ant-switch css-var-test-id"
+        class="g-switch css-var-test-id"
         role="switch"
         type="button"
       >
         <div
-          class="ant-switch-handle"
+          class="g-switch-handle"
         />
         <span
-          class="ant-switch-inner"
+          class="g-switch-inner"
         >
           <span
-            class="ant-switch-inner-checked"
+            class="g-switch-inner-checked"
           />
           <span
-            class="ant-switch-inner-unchecked"
+            class="g-switch-inner-unchecked"
           />
         </span>
       </button>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <button
-        class="ant-btn css-var-test-id ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+        class="g-btn css-var-test-id g-btn-default g-btn-color-default g-btn-varig-outlined"
         type="button"
       >
         <span>
@@ -4045,14 +4045,14 @@ exports[`renders components/select/demo/placement-debug.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
     style="width:120px"
   >
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       />
       <input
@@ -4060,7 +4060,7 @@ exports[`renders components/select/demo/placement-debug.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -4069,11 +4069,11 @@ exports[`renders components/select/demo/placement-debug.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -4097,37 +4097,37 @@ exports[`renders components/select/demo/placement-debug.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
           aria-hidden="true"
-          class="ant-select-content-item ant-select-content-item-rest"
+          class="g-select-content-item g-select-content-item-rest"
           style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="+ 4 ..."
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               + 4 ...
             </span>
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1;order:0"
         >
           <input
@@ -4135,7 +4135,7 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -4144,11 +4144,11 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4169,28 +4169,28 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-disabled ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-disabled g-select-show-search"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item ant-select-content-item-prefix"
+          class="g-select-content-item g-select-content-item-prefix"
           style="opacity:1;order:-1"
         >
           <div
-            class="ant-select-placeholder"
+            class="g-select-placeholder"
             style="visibility:visible"
           >
             Select Item...
           </div>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1;order:0"
         >
           <input
@@ -4198,7 +4198,7 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -4208,11 +4208,11 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4233,25 +4233,25 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
           aria-hidden="true"
-          class="ant-select-content-item ant-select-content-item-rest"
+          class="g-select-content-item g-select-content-item-rest"
           style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               <span>
                 Hover Me
@@ -4260,7 +4260,7 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1;order:0"
         >
           <input
@@ -4268,7 +4268,7 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -4277,11 +4277,11 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -4306,13 +4306,13 @@ exports[`renders components/select/demo/responsive.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/search.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       Select a person
@@ -4322,7 +4322,7 @@ exports[`renders components/select/demo/search.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       role="combobox"
       type="search"
@@ -4330,11 +4330,11 @@ exports[`renders components/select/demo/search.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -4357,14 +4357,14 @@ exports[`renders components/select/demo/search.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/search-box.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-search"
   style="width:200px"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       input search text
@@ -4374,7 +4374,7 @@ exports[`renders components/select/demo/search-box.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       role="combobox"
       type="search"
@@ -4386,13 +4386,13 @@ exports[`renders components/select/demo/search-box.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/search-filter-option.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       Select a person
@@ -4402,7 +4402,7 @@ exports[`renders components/select/demo/search-filter-option.tsx correctly 1`] =
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       role="combobox"
       type="search"
@@ -4410,11 +4410,11 @@ exports[`renders components/select/demo/search-filter-option.tsx correctly 1`] =
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -4437,13 +4437,13 @@ exports[`renders components/select/demo/search-filter-option.tsx correctly 1`] =
 
 exports[`renders components/select/demo/search-multi-field.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       Select an option
@@ -4453,7 +4453,7 @@ exports[`renders components/select/demo/search-multi-field.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       role="combobox"
       type="search"
@@ -4461,11 +4461,11 @@ exports[`renders components/select/demo/search-multi-field.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -4488,14 +4488,14 @@ exports[`renders components/select/demo/search-multi-field.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/search-sort.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-show-search"
   style="width:200px"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-placeholder"
+      class="g-select-placeholder"
       style="visibility:visible"
     >
       Search to Select
@@ -4505,7 +4505,7 @@ exports[`renders components/select/demo/search-sort.tsx correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="listbox"
       autocomplete="off"
-      class="ant-select-input"
+      class="g-select-input"
       id="test-id"
       role="combobox"
       type="search"
@@ -4513,11 +4513,11 @@ exports[`renders components/select/demo/search-sort.tsx correctly 1`] = `
     />
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -4540,25 +4540,25 @@ exports[`renders components/select/demo/search-sort.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/select-users.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item ant-select-content-item-prefix"
+      class="g-select-content-item g-select-content-item-prefix"
       style="opacity:1"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Select users
       </div>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -4566,7 +4566,7 @@ exports[`renders components/select/demo/select-users.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -4575,11 +4575,11 @@ exports[`renders components/select/demo/select-users.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -4603,63 +4603,63 @@ exports[`renders components/select/demo/select-users.tsx correctly 1`] = `
 exports[`renders components/select/demo/size.tsx correctly 1`] = `
 Array [
   <div
-    class="ant-radio-group ant-radio-group-outline css-var-test-id ant-radio-css-var"
+    class="g-radio-group g-radio-group-outline css-var-test-id g-radio-css-var"
     role="radiogroup"
   >
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="large"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Large
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper g-radio-button-wrapper-checked css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="g-radio-button g-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="medium"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Medium
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper css-var-test-id ant-radio-css-var"
+      class="g-radio-button-wrapper css-var-test-id g-radio-css-var"
     >
       <span
-        class="ant-radio-button"
+        class="g-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="g-radio-button-input"
           name="test-id"
           type="radio"
           value="small"
         />
       </span>
       <span
-        class="ant-radio-button-label"
+        class="g-radio-button-label"
       >
         Small
       </span>
@@ -4668,18 +4668,18 @@ Array [
   <br />,
   <br />,
   <div
-    class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+    class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
     style="width:100%"
   >
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
         style="width:200px"
       >
         <div
-          class="ant-select-content ant-select-content-has-value"
+          class="g-select-content g-select-content-has-value"
           title="a1"
         >
           a1
@@ -4688,7 +4688,7 @@ Array [
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             readonly=""
             role="combobox"
@@ -4697,11 +4697,11 @@ Array [
           />
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4722,37 +4722,37 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
         style="width:100%"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-content-item"
+            class="g-select-content-item"
             style="opacity:1"
           >
             <span
-              class="ant-select-selection-item"
+              class="g-select-selection-item"
               title="a10"
             >
               <span
-                class="ant-select-selection-item-content"
+                class="g-select-selection-item-content"
               >
                 a10
               </span>
               <span
                 aria-hidden="true"
-                class="ant-select-selection-item-remove"
+                class="g-select-selection-item-remove"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -4774,27 +4774,27 @@ Array [
             </span>
           </div>
           <div
-            class="ant-select-content-item"
+            class="g-select-content-item"
             style="opacity:1"
           >
             <span
-              class="ant-select-selection-item"
+              class="g-select-selection-item"
               title="c12"
             >
               <span
-                class="ant-select-selection-item-content"
+                class="g-select-selection-item-content"
               >
                 c12
               </span>
               <span
                 aria-hidden="true"
-                class="ant-select-selection-item-remove"
+                class="g-select-selection-item-remove"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -4816,7 +4816,7 @@ Array [
             </span>
           </div>
           <div
-            class="ant-select-content-item ant-select-content-item-suffix"
+            class="g-select-content-item g-select-content-item-suffix"
             style="opacity:1"
           >
             <input
@@ -4824,7 +4824,7 @@ Array [
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               role="combobox"
               type="search"
@@ -4833,11 +4833,11 @@ Array [
           </div>
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4858,37 +4858,37 @@ Array [
       </div>
     </div>
     <div
-      class="ant-space-item"
+      class="g-space-item"
     >
       <div
-        class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+        class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
         style="width:100%"
       >
         <div
-          class="ant-select-content"
+          class="g-select-content"
         >
           <div
-            class="ant-select-content-item"
+            class="g-select-content-item"
             style="opacity:1"
           >
             <span
-              class="ant-select-selection-item"
+              class="g-select-selection-item"
               title="a10"
             >
               <span
-                class="ant-select-selection-item-content"
+                class="g-select-selection-item-content"
               >
                 a10
               </span>
               <span
                 aria-hidden="true"
-                class="ant-select-selection-item-remove"
+                class="g-select-selection-item-remove"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -4910,27 +4910,27 @@ Array [
             </span>
           </div>
           <div
-            class="ant-select-content-item"
+            class="g-select-content-item"
             style="opacity:1"
           >
             <span
-              class="ant-select-selection-item"
+              class="g-select-selection-item"
               title="c12"
             >
               <span
-                class="ant-select-selection-item-content"
+                class="g-select-selection-item-content"
               >
                 c12
               </span>
               <span
                 aria-hidden="true"
-                class="ant-select-selection-item-remove"
+                class="g-select-selection-item-remove"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <span
                   aria-label="close"
-                  class="anticon anticon-close"
+                  class="gicon gicon-close"
                   role="img"
                 >
                   <svg
@@ -4952,7 +4952,7 @@ Array [
             </span>
           </div>
           <div
-            class="ant-select-content-item ant-select-content-item-suffix"
+            class="g-select-content-item g-select-content-item-suffix"
             style="opacity:1"
           >
             <input
@@ -4960,7 +4960,7 @@ Array [
               aria-expanded="false"
               aria-haspopup="listbox"
               autocomplete="off"
-              class="ant-select-input"
+              class="g-select-input"
               id="test-id"
               role="combobox"
               type="search"
@@ -4969,11 +4969,11 @@ Array [
           </div>
         </div>
         <div
-          class="ant-select-suffix"
+          class="g-select-suffix"
         >
           <span
             aria-label="down"
-            class="anticon anticon-down"
+            class="gicon gicon-down"
             role="img"
           >
             <svg
@@ -4999,21 +4999,21 @@ Array [
 
 exports[`renders components/select/demo/status.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-vertical g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="width:100%"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-status-error css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-status-error css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         />
         <input
@@ -5021,7 +5021,7 @@ exports[`renders components/select/demo/status.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -5030,11 +5030,11 @@ exports[`renders components/select/demo/status.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -5055,17 +5055,17 @@ exports[`renders components/select/demo/status.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined ant-select-status-warning css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined g-select-status-warning css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:100%"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         />
         <input
@@ -5073,7 +5073,7 @@ exports[`renders components/select/demo/status.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -5082,11 +5082,11 @@ exports[`renders components/select/demo/status.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -5111,18 +5111,18 @@ exports[`renders components/select/demo/status.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-gap-medium ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-gap-medium g-flex-vertical"
 >
   <div
-    class="ant-select ant-select-outlined acss-xqfhlq css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-outlined acss-xqfhlq css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-prefix"
+      class="g-select-prefix"
       style="color:#1890ff"
     >
       <span
         aria-label="meh"
-        class="anticon anticon-meh"
+        class="gicon gicon-meh"
         role="img"
       >
         <svg
@@ -5141,10 +5141,10 @@ exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Object
@@ -5154,7 +5154,7 @@ exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -5163,12 +5163,12 @@ exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
       style="color:#1890ff"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -5188,15 +5188,15 @@ exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-filled acss-xqfhlq css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+    class="g-select g-select-filled acss-xqfhlq css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
   >
     <div
-      class="ant-select-prefix"
+      class="g-select-prefix"
       style="color:#722ed1"
     >
       <span
         aria-label="meh"
-        class="anticon anticon-meh"
+        class="gicon gicon-meh"
         role="img"
       >
         <svg
@@ -5215,10 +5215,10 @@ exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-select-content"
+      class="g-select-content"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Function
@@ -5228,7 +5228,7 @@ exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         readonly=""
         role="combobox"
@@ -5237,12 +5237,12 @@ exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
       />
     </div>
     <div
-      class="ant-select-suffix"
+      class="g-select-suffix"
       style="color:#722ed1"
     >
       <span
         aria-label="down"
-        class="anticon anticon-down"
+        class="gicon gicon-down"
         role="img"
       >
         <svg
@@ -5266,23 +5266,23 @@ exports[`renders components/select/demo/style-class.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
 <div
-  class="ant-space ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-test-id"
+  class="g-space g-space-horizontal g-space-align-center g-space-gap-row-small g-space-gap-col-small css-var-test-id"
   style="flex-wrap:wrap"
 >
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-allow-clear g-select-show-arrow g-select-show-search"
       style="width:200px"
     >
       <div
-        class="ant-select-prefix"
+        class="g-select-prefix"
       >
         User
       </div>
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -5291,7 +5291,7 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           role="combobox"
           type="search"
@@ -5299,11 +5299,11 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -5322,11 +5322,11 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-select-clear"
+        class="g-select-clear"
       >
         <span
           aria-label="close-circle"
-          class="anticon anticon-close-circle"
+          class="gicon gicon-close-circle"
           role="img"
         >
           <svg
@@ -5348,14 +5348,14 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="width:120px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -5364,7 +5364,7 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -5373,11 +5373,11 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="smile"
-          class="anticon anticon-smile"
+          class="gicon gicon-smile"
           role="img"
         >
           <svg
@@ -5398,14 +5398,14 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow g-select-disabled"
       style="width:120px"
     >
       <div
-        class="ant-select-content ant-select-content-has-value"
+        class="g-select-content g-select-content-has-value"
         title="Lucy"
       >
         Lucy
@@ -5414,7 +5414,7 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           disabled=""
           id="test-id"
           readonly=""
@@ -5424,11 +5424,11 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="meh"
-          class="anticon anticon-meh"
+          class="gicon gicon-meh"
           role="img"
         >
           <svg
@@ -5449,47 +5449,47 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <br />
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="width:200px"
     >
       <div
-        class="ant-select-prefix"
+        class="g-select-prefix"
       >
         User
       </div>
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -5511,7 +5511,7 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -5519,7 +5519,7 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -5528,11 +5528,11 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -5553,37 +5553,37 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="width:120px"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -5605,7 +5605,7 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -5613,7 +5613,7 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -5622,11 +5622,11 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="smile"
-          class="anticon anticon-smile"
+          class="gicon gicon-smile"
           role="img"
         >
           <svg
@@ -5647,32 +5647,32 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-space-item"
+    class="g-space-item"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-disabled ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-disabled g-select-show-search"
       style="width:120px"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -5680,7 +5680,7 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             disabled=""
             id="test-id"
             role="combobox"
@@ -5690,11 +5690,11 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="meh"
-          class="anticon anticon-meh"
+          class="gicon gicon-meh"
           role="img"
         >
           <svg
@@ -5719,25 +5719,25 @@ exports[`renders components/select/demo/suffix.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/tags.tsx correctly 1`] = `
 <div
-  class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+  class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
   style="width:100%"
 >
   <div
-    class="ant-select-content"
+    class="g-select-content"
   >
     <div
-      class="ant-select-content-item ant-select-content-item-prefix"
+      class="g-select-content-item g-select-content-item-prefix"
       style="opacity:1"
     >
       <div
-        class="ant-select-placeholder"
+        class="g-select-placeholder"
         style="visibility:visible"
       >
         Tags Mode
       </div>
     </div>
     <div
-      class="ant-select-content-item ant-select-content-item-suffix"
+      class="g-select-content-item g-select-content-item-suffix"
       style="opacity:1"
     >
       <input
@@ -5745,7 +5745,7 @@ exports[`renders components/select/demo/tags.tsx correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="listbox"
         autocomplete="off"
-        class="ant-select-input"
+        class="g-select-input"
         id="test-id"
         role="combobox"
         type="search"
@@ -5754,11 +5754,11 @@ exports[`renders components/select/demo/tags.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select-suffix"
+    class="g-select-suffix"
   >
     <span
       aria-label="down"
-      class="anticon anticon-down"
+      class="gicon gicon-down"
       role="img"
     >
       <svg
@@ -5781,22 +5781,22 @@ exports[`renders components/select/demo/tags.tsx correctly 1`] = `
 
 exports[`renders components/select/demo/variant.tsx correctly 1`] = `
 <div
-  class="ant-flex css-var-test-id ant-flex-align-stretch ant-flex-vertical"
+  class="g-flex css-var-test-id g-flex-align-stretch g-flex-vertical"
   style="gap:12px"
 >
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="flex:1"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         >
           Outlined
@@ -5806,7 +5806,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -5815,11 +5815,11 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -5839,34 +5839,34 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-outlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-outlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="flex:1"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -5888,7 +5888,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -5896,7 +5896,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -5905,11 +5905,11 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -5930,18 +5930,18 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-select ant-select-filled css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-filled css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="flex:1"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         >
           Filled
@@ -5951,7 +5951,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -5960,11 +5960,11 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -5984,34 +5984,34 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-filled css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-filled css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="flex:1"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -6033,7 +6033,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -6041,7 +6041,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -6050,11 +6050,11 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -6075,18 +6075,18 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-select ant-select-borderless css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-borderless css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="flex:1"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         >
           Borderless
@@ -6096,7 +6096,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -6105,11 +6105,11 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -6129,34 +6129,34 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-borderless css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-borderless css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="flex:1"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -6178,7 +6178,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -6186,7 +6186,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -6195,11 +6195,11 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -6220,18 +6220,18 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-flex css-var-test-id"
+    class="g-flex css-var-test-id"
     style="gap:8px"
   >
     <div
-      class="ant-select ant-select-underlined css-var-test-id ant-select-css-var ant-select-single ant-select-show-arrow"
+      class="g-select g-select-underlined css-var-test-id g-select-css-var g-select-single g-select-show-arrow"
       style="flex:1"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-placeholder"
+          class="g-select-placeholder"
           style="visibility:visible"
         >
           Underlined
@@ -6241,7 +6241,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
           aria-expanded="false"
           aria-haspopup="listbox"
           autocomplete="off"
-          class="ant-select-input"
+          class="g-select-input"
           id="test-id"
           readonly=""
           role="combobox"
@@ -6250,11 +6250,11 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
         />
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg
@@ -6274,34 +6274,34 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-underlined css-var-test-id ant-select-css-var ant-select-multiple ant-select-show-arrow ant-select-show-search"
+      class="g-select g-select-underlined css-var-test-id g-select-css-var g-select-multiple g-select-show-arrow g-select-show-search"
       style="flex:1"
     >
       <div
-        class="ant-select-content"
+        class="g-select-content"
       >
         <div
-          class="ant-select-content-item"
+          class="g-select-content-item"
           style="opacity:1"
         >
           <span
-            class="ant-select-selection-item"
+            class="g-select-selection-item"
             title="Lucy"
           >
             <span
-              class="ant-select-selection-item-content"
+              class="g-select-selection-item-content"
             >
               Lucy
             </span>
             <span
               aria-hidden="true"
-              class="ant-select-selection-item-remove"
+              class="g-select-selection-item-remove"
               style="user-select:none;-webkit-user-select:none"
               unselectable="on"
             >
               <span
                 aria-label="close"
-                class="anticon anticon-close"
+                class="gicon gicon-close"
                 role="img"
               >
                 <svg
@@ -6323,7 +6323,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-select-content-item ant-select-content-item-suffix"
+          class="g-select-content-item g-select-content-item-suffix"
           style="opacity:1"
         >
           <input
@@ -6331,7 +6331,7 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             autocomplete="off"
-            class="ant-select-input"
+            class="g-select-input"
             id="test-id"
             role="combobox"
             type="search"
@@ -6340,11 +6340,11 @@ exports[`renders components/select/demo/variant.tsx correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-select-suffix"
+        class="g-select-suffix"
       >
         <span
           aria-label="down"
-          class="anticon anticon-down"
+          class="gicon gicon-down"
           role="img"
         >
           <svg

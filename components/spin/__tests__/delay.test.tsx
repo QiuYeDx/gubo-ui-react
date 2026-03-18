@@ -13,18 +13,18 @@ jest.mock('throttle-debounce');
 describe('delay spinning', () => {
   it("should render with delay when it's mounted with spinning=true and delay", () => {
     const { container } = render(<Spin spinning delay={500} />);
-    expect(container.querySelector('.ant-spin')).not.toHaveClass('ant-spin-spinning');
+    expect(container.querySelector('.g-spin')).not.toHaveClass('g-spin-spinning');
   });
 
   it('should render when delay is init set', async () => {
     jest.useFakeTimers();
     const { container } = render(<Spin spinning delay={100} />);
 
-    expect(container.querySelector('.ant-spin-spinning')).toBeFalsy();
+    expect(container.querySelector('.g-spin-spinning')).toBeFalsy();
 
     await waitFakeTimer();
 
-    expect(container.querySelector('.ant-spin-spinning')).toBeTruthy();
+    expect(container.querySelector('.g-spin-spinning')).toBeTruthy();
 
     jest.clearAllTimers();
     jest.useRealTimers();
@@ -47,9 +47,9 @@ describe('delay spinning', () => {
     const { container, rerender } = render(<Spin spinning delay={500} />);
 
     await waitFakeTimer();
-    expect(container.querySelector('.ant-spin-spinning')).toBeTruthy();
+    expect(container.querySelector('.g-spin-spinning')).toBeTruthy();
 
     rerender(<Spin spinning={false} delay={500} />);
-    expect(container.querySelector('.ant-spin-spinning')).toBeFalsy();
+    expect(container.querySelector('.g-spin-spinning')).toBeFalsy();
   });
 });

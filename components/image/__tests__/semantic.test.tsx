@@ -52,33 +52,31 @@ describe('Image.Semantic', () => {
       />,
     );
 
-    expect(document.querySelector('.ant-image')).toHaveClass(customClassNames.root);
-    expect(document.querySelector('.ant-image')).toHaveStyle(customStyles.root);
+    expect(document.querySelector('.g-image')).toHaveClass(customClassNames.root);
+    expect(document.querySelector('.g-image')).toHaveStyle(customStyles.root);
 
-    expect(document.querySelector('.ant-image-img')).toHaveClass(customClassNames.image);
-    expect(document.querySelector('.ant-image-img')).toHaveStyle(customStyles.image);
+    expect(document.querySelector('.g-image-img')).toHaveClass(customClassNames.image);
+    expect(document.querySelector('.g-image-img')).toHaveStyle(customStyles.image);
 
-    expect(document.querySelector('.ant-image-cover')).toHaveClass(customClassNames.cover);
-    expect(document.querySelector('.ant-image-cover')).toHaveStyle(customStyles.cover);
+    expect(document.querySelector('.g-image-cover')).toHaveClass(customClassNames.cover);
+    expect(document.querySelector('.g-image-cover')).toHaveStyle(customStyles.cover);
 
-    expect(document.querySelector('.ant-image-preview')).toHaveClass(previewClassNames.root);
-    expect(document.querySelector('.ant-image-preview')).toHaveStyle(previewStyles.root);
+    expect(document.querySelector('.g-image-preview')).toHaveClass(previewClassNames.root);
+    expect(document.querySelector('.g-image-preview')).toHaveStyle(previewStyles.root);
 
-    expect(document.querySelector('.ant-image-preview-mask')).toHaveClass(previewClassNames.mask);
-    expect(document.querySelector('.ant-image-preview-mask')).toHaveStyle(previewStyles.mask);
+    expect(document.querySelector('.g-image-preview-mask')).toHaveClass(previewClassNames.mask);
+    expect(document.querySelector('.g-image-preview-mask')).toHaveStyle(previewStyles.mask);
 
-    expect(document.querySelector('.ant-image-preview-body')).toHaveClass(previewClassNames.body);
-    expect(document.querySelector('.ant-image-preview-body')).toHaveStyle(previewStyles.body);
+    expect(document.querySelector('.g-image-preview-body')).toHaveClass(previewClassNames.body);
+    expect(document.querySelector('.g-image-preview-body')).toHaveStyle(previewStyles.body);
 
-    expect(document.querySelector('.ant-image-preview-footer')).toHaveClass(
-      previewClassNames.footer,
-    );
-    expect(document.querySelector('.ant-image-preview-footer')).toHaveStyle(previewStyles.footer);
+    expect(document.querySelector('.g-image-preview-footer')).toHaveClass(previewClassNames.footer);
+    expect(document.querySelector('.g-image-preview-footer')).toHaveStyle(previewStyles.footer);
 
-    expect(document.querySelector('.ant-image-preview-actions')).toHaveClass(
+    expect(document.querySelector('.g-image-preview-actions')).toHaveClass(
       previewClassNames.actions,
     );
-    expect(document.querySelector('.ant-image-preview-actions')).toHaveStyle(previewStyles.actions);
+    expect(document.querySelector('.g-image-preview-actions')).toHaveStyle(previewStyles.actions);
   });
   it('support classNames and styles as functions', () => {
     render(
@@ -120,27 +118,25 @@ describe('Image.Semantic', () => {
       />,
     );
 
-    expect(document.querySelector('.ant-image')).toHaveClass('image-with-preview');
-    expect(document.querySelector('.ant-image-img')).toHaveClass('dynamic-image');
-    expect(document.querySelector('.ant-image-cover')).toHaveClass('dynamic-cover');
+    expect(document.querySelector('.g-image')).toHaveClass('image-with-preview');
+    expect(document.querySelector('.g-image-img')).toHaveClass('dynamic-image');
+    expect(document.querySelector('.g-image-cover')).toHaveClass('dynamic-cover');
 
-    expect(document.querySelector('.ant-image')).toHaveAttribute('style');
-    const rootStyle = document.querySelector('.ant-image')?.getAttribute('style');
+    expect(document.querySelector('.g-image')).toHaveAttribute('style');
+    const rootStyle = document.querySelector('.g-image')?.getAttribute('style');
     expect(rootStyle).toContain('background-color: lightblue');
     expect(rootStyle).toContain('width: 200px');
 
-    expect(document.querySelector('.ant-image-img')).toHaveAttribute('style');
-    const imageStyle = document.querySelector('.ant-image-img')?.getAttribute('style');
+    expect(document.querySelector('.g-image-img')).toHaveAttribute('style');
+    const imageStyle = document.querySelector('.g-image-img')?.getAttribute('style');
     expect(imageStyle).toContain('border-radius: 8px');
 
     // Test preview popup dynamic classNames and styles
-    expect(document.querySelector('.ant-image-preview')).toHaveClass('dynamic-popup-root');
-    expect(document.querySelector('.ant-image-preview-mask')).toHaveClass('dynamic-popup-mask');
-    expect(document.querySelector('.ant-image-preview-body')).toHaveClass('dynamic-popup-body');
-    expect(document.querySelector('.ant-image-preview-footer')).toHaveClass('dynamic-popup-footer');
-    expect(document.querySelector('.ant-image-preview-actions')).toHaveClass(
-      'dynamic-popup-actions',
-    );
+    expect(document.querySelector('.g-image-preview')).toHaveClass('dynamic-popup-root');
+    expect(document.querySelector('.g-image-preview-mask')).toHaveClass('dynamic-popup-mask');
+    expect(document.querySelector('.g-image-preview-body')).toHaveClass('dynamic-popup-body');
+    expect(document.querySelector('.g-image-preview-footer')).toHaveClass('dynamic-popup-footer');
+    expect(document.querySelector('.g-image-preview-actions')).toHaveClass('dynamic-popup-actions');
   });
 
   it('should render with classNames and styles when passed as functions to PreviewGroup', () => {

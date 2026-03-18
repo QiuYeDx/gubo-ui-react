@@ -32,7 +32,7 @@ describe('Layout', () => {
         <Content>Content</Content>
       </Layout>,
     );
-    expect(container.querySelector('.ant-layout')?.className.includes('ant-layout-has-sider')).toBe(
+    expect(container.querySelector('.g-layout')?.className.includes('g-layout-has-sider')).toBe(
       true,
     );
     unmount();
@@ -58,15 +58,15 @@ describe('Layout', () => {
       );
     };
     const { container } = render(<App />);
-    expect(container.querySelector('.ant-layout')?.className.includes('ant-layout-has-sider')).toBe(
+    expect(container.querySelector('.g-layout')?.className.includes('g-layout-has-sider')).toBe(
       true,
     );
     fireEvent.click(container.querySelectorAll('button')[0]);
-    expect(container.querySelector('.ant-layout')?.className.includes('ant-layout-has-sider')).toBe(
+    expect(container.querySelector('.g-layout')?.className.includes('g-layout-has-sider')).toBe(
       true,
     );
     fireEvent.click(container.querySelectorAll('button')[1]);
-    expect(container.querySelector('.ant-layout')?.className.includes('ant-layout-has-sider')).toBe(
+    expect(container.querySelector('.g-layout')?.className.includes('g-layout-has-sider')).toBe(
       false,
     );
   });
@@ -80,12 +80,12 @@ describe('Layout', () => {
         <Content>Content</Content>
       </Layout>,
     );
-    expect(container.querySelector('.ant-layout')?.className.includes('ant-layout-has-sider')).toBe(
+    expect(container.querySelector('.g-layout')?.className.includes('g-layout-has-sider')).toBe(
       true,
     );
   });
 
-  it('detect ant-layout-sider-has-trigger class in sider when ant-layout-sider-trigger div tag exists', async () => {
+  it('detect g-layout-sider-has-trigger class in sider when g-layout-sider-trigger div tag exists', async () => {
     const { container } = render(
       <Layout>
         <div>
@@ -95,9 +95,7 @@ describe('Layout', () => {
       </Layout>,
     );
     expect(
-      container
-        .querySelector('.ant-layout-sider')
-        ?.className.includes('ant-layout-sider-has-trigger'),
+      container.querySelector('.g-layout-sider')?.className.includes('g-layout-sider-has-trigger'),
     ).toBe(true);
   });
 
@@ -110,14 +108,14 @@ describe('Layout', () => {
         <Content>Content</Content>
       </Layout>,
     );
-    expect(container.querySelector<HTMLElement>('.ant-layout-sider')).toHaveStyle({
+    expect(container.querySelector<HTMLElement>('.g-layout-sider')).toHaveStyle({
       width: '50%',
       flex: '0 0 50%',
     });
   });
 
   describe('zeroWidth', () => {
-    it('detect ant-layout-sider-zero-width class in sider when its width is 0%', async () => {
+    it('detect g-layout-sider-zero-width class in sider when its width is 0%', async () => {
       const { container } = render(
         <Layout>
           <div>
@@ -127,9 +125,7 @@ describe('Layout', () => {
         </Layout>,
       );
       expect(
-        container
-          .querySelector('.ant-layout-sider')
-          ?.className.includes('ant-layout-sider-zero-width'),
+        container.querySelector('.g-layout-sider')?.className.includes('g-layout-sider-zero-width'),
       ).toBe(true);
     });
 
@@ -147,7 +143,7 @@ describe('Layout', () => {
         );
 
         onCollapse.mockReset();
-        fireEvent.click(container.querySelector('.ant-layout-sider-zero-width-trigger')!);
+        fireEvent.click(container.querySelector('.g-layout-sider-zero-width-trigger')!);
         expect(onCollapse).toHaveBeenCalledTimes(1);
       });
 
@@ -172,24 +168,24 @@ describe('Layout', () => {
         };
 
         const { container } = render(<Demo />);
-        expect(container.querySelector('.ant-layout-sider-collapsed')).toBeTruthy();
-        fireEvent.click(container.querySelector('.ant-layout-sider-zero-width-trigger')!);
-        expect(container.querySelector('.ant-layout-sider-collapsed')).toBeFalsy();
+        expect(container.querySelector('.g-layout-sider-collapsed')).toBeTruthy();
+        fireEvent.click(container.querySelector('.g-layout-sider-zero-width-trigger')!);
+        expect(container.querySelector('.g-layout-sider-collapsed')).toBeFalsy();
       });
     });
   });
 
-  it('detect ant-layout-sider-dark as default theme', async () => {
+  it('detect g-layout-sider-dark as default theme', async () => {
     const { container } = render(<Sider>Sider</Sider>);
     expect(
-      container.querySelector('.ant-layout-sider')?.className.includes('ant-layout-sider-dark'),
+      container.querySelector('.g-layout-sider')?.className.includes('g-layout-sider-dark'),
     ).toBe(true);
   });
 
-  it('detect ant-layout-sider-light when set light theme', async () => {
+  it('detect g-layout-sider-light when set light theme', async () => {
     const { container } = render(<Sider theme="light">Sider</Sider>);
     expect(
-      container.querySelector('.ant-layout-sider')?.className.includes('ant-layout-sider-light'),
+      container.querySelector('.g-layout-sider')?.className.includes('g-layout-sider-light'),
     ).toBe(true);
   });
 
@@ -205,13 +201,13 @@ describe('Layout', () => {
     expect(asFragment().firstChild).toMatchSnapshot();
   });
 
-  it('should not add ant-layout-has-sider when `hasSider` is `false`', () => {
+  it('should not add g-layout-has-sider when `hasSider` is `false`', () => {
     const { container } = render(
       <Layout hasSider={false}>
         <Sider>Sider</Sider>
       </Layout>,
     );
-    expect(container.querySelector('.ant-layout')?.className.includes('ant-layout-has-sider')).toBe(
+    expect(container.querySelector('.g-layout')?.className.includes('g-layout-has-sider')).toBe(
       false,
     );
   });
@@ -229,11 +225,11 @@ describe('Layout', () => {
       </Sider>,
     );
 
-    fireEvent.mouseEnter(container.querySelector('.ant-menu-item')!);
+    fireEvent.mouseEnter(container.querySelector('.g-menu-item')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-container')).toBeFalsy();
+    expect(container.querySelector('.g-tooltip-container')).toBeFalsy();
     rerender(
       <Sider collapsible collapsed>
         <Menu mode="inline">
@@ -244,11 +240,11 @@ describe('Layout', () => {
         </Menu>
       </Sider>,
     );
-    fireEvent.mouseEnter(container.querySelector('.ant-menu-item')!);
+    fireEvent.mouseEnter(container.querySelector('.g-menu-item')!);
     act(() => {
       jest.runAllTimers();
     });
-    expect(container.querySelector('.ant-tooltip-container')).toBeTruthy();
+    expect(container.querySelector('.g-tooltip-container')).toBeTruthy();
 
     jest.useRealTimers();
   });
@@ -310,7 +306,7 @@ describe('Sider', () => {
     const { getByRole, queryByRole } = render(<Demo />);
 
     const menu = queryByRole('menu');
-    expect(menu).toHaveClass('ant-menu-inline');
+    expect(menu).toHaveClass('g-menu-inline');
 
     const button = getByRole('button');
     fireEvent.click(button);
@@ -319,11 +315,11 @@ describe('Sider', () => {
       jest.runAllTimers();
     });
 
-    expect(menu).toHaveClass('ant-menu-inline-collapsed');
+    expect(menu).toHaveClass('g-menu-inline-collapsed');
 
     fireEvent.click(button);
 
-    expect(menu).not.toHaveClass('ant-menu-inline-collapsed');
+    expect(menu).not.toHaveClass('g-menu-inline-collapsed');
   });
 
   it('zeroWidthTriggerStyle should work', () => {
@@ -338,7 +334,7 @@ describe('Sider', () => {
       </Sider>,
     );
     expect(
-      container.querySelector<HTMLDivElement>('.ant-layout-sider-zero-width-trigger')?.style
+      container.querySelector<HTMLDivElement>('.g-layout-sider-zero-width-trigger')?.style
         .background,
     ).toEqual('rgb(255, 153, 102)');
   });
@@ -355,7 +351,7 @@ describe('Sider', () => {
       </Sider>,
     );
     expect(
-      container.querySelector('.ant-layout-sider-zero-width-trigger')?.querySelector('.my-trigger'),
+      container.querySelector('.g-layout-sider-zero-width-trigger')?.querySelector('.my-trigger'),
     ).toBeTruthy();
   });
 
@@ -384,6 +380,6 @@ describe('Sider', () => {
       </Layout>,
     );
 
-    expect(htmlContent).toContain('ant-layout-has-sider');
+    expect(htmlContent).toContain('g-layout-has-sider');
   });
 });

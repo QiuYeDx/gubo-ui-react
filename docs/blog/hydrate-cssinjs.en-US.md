@@ -47,18 +47,18 @@ In `@ant-design/cssinjs`, Cache itself contains the style and hash information c
 ```tsx
 // e.g. Real world path is much more complex
 {
-  "bAMbOo|Button": ["LItTlE", ":where(.bAMbOo).ant-btn { color: red }"],
-  "bAMbOo|Spin": ["liGHt", ":where(.bAMbOo).ant-spin { color: blue }"]
+  "bAMbOo|Button": ["LItTlE", ":where(.bAMbOo).g-btn { color: red }"],
+  "bAMbOo|Spin": ["liGHt", ":where(.bAMbOo).g-spin { color: blue }"]
 }
 ```
 
 Get:
 
 ```css
-:where(.bAMbOo).ant-btn {
+:where(.bAMbOo).g-btn {
   color: red;
 }
-:where(.bAMbOo).ant-spin {
+:where(.bAMbOo).g-spin {
   color: blue;
 }
 ```

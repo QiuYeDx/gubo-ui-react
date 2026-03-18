@@ -32,19 +32,19 @@ describe('Modal', () => {
 
   it('support closeIcon', () => {
     render(<Modal closeIcon={<a>closeIcon</a>} open />);
-    expect(document.body.querySelectorAll('.ant-modal-root')[0]).toMatchSnapshot();
+    expect(document.body.querySelectorAll('.g-modal-root')[0]).toMatchSnapshot();
   });
 
   it('support hide close button when setting closeIcon to null or false', () => {
     const { baseElement, rerender } = render(<Modal closeIcon={null} open />);
-    expect(baseElement.querySelector('.ant-modal-close')).toBeFalsy();
+    expect(baseElement.querySelector('.g-modal-close')).toBeFalsy();
     rerender(<Modal closeIcon={false} open />);
-    expect(baseElement.querySelector('.ant-modal-close')).toBeFalsy();
+    expect(baseElement.querySelector('.g-modal-close')).toBeFalsy();
   });
 
   it('support disable close button when setting disable to true', () => {
     const { baseElement } = render(<Modal open closable={{ disabled: true }} />);
-    expect(baseElement.querySelector('.ant-modal-close')).toHaveAttribute('disabled');
+    expect(baseElement.querySelector('.g-modal-close')).toHaveAttribute('disabled');
   });
 
   it('render correctly', () => {
@@ -60,29 +60,29 @@ describe('Modal', () => {
   it('onCancel should be called', () => {
     const onCancel = jest.fn();
     render(<Modal open onCancel={onCancel} />);
-    fireEvent.click(document.body.querySelectorAll('.ant-btn')[0]);
+    fireEvent.click(document.body.querySelectorAll('.g-btn')[0]);
     expect(onCancel).toHaveBeenCalled();
   });
 
   it('onCancel should be called when pressing ESC', () => {
     const onCancel = jest.fn();
     render(<Modal open onCancel={onCancel} />);
-    fireEvent.keyDown(document.querySelector('.ant-modal-wrap')!, { key: 'Escape', keyCode: 27 });
+    fireEvent.keyDown(document.querySelector('.g-modal-wrap')!, { key: 'Escape', keyCode: 27 });
     expect(onCancel).toHaveBeenCalled();
   });
 
   it('onOk should be called', () => {
     const onOk = jest.fn();
     render(<Modal open onOk={onOk} />);
-    const btns = document.body.querySelectorAll('.ant-btn');
+    const btns = document.body.querySelectorAll('.g-btn');
     fireEvent.click(btns[btns.length - 1]);
     expect(onOk).toHaveBeenCalled();
   });
 
   it('danger type', () => {
     render(<Modal okType="danger" okText="123" open />);
-    const btns = document.body.querySelectorAll('.ant-btn');
-    expect(btns[btns.length - 1]).toHaveClass('ant-btn-dangerous');
+    const btns = document.body.querySelectorAll('.g-btn');
+    expect(btns[btns.length - 1]).toHaveClass('g-btn-dangerous');
   });
 
   it('mouse position', () => {
@@ -107,7 +107,7 @@ describe('Modal', () => {
 
     fireEvent(triggerEle, clickEvent);
 
-    expect(container.querySelectorAll<HTMLDivElement>('.ant-modal')[0]).toHaveStyle({
+    expect(container.querySelectorAll<HTMLDivElement>('.g-modal')[0]).toHaveStyle({
       transformOrigin: '100px 100px',
     });
   });
@@ -126,14 +126,14 @@ describe('Modal', () => {
       );
     };
     const { container } = render(<Demo />);
-    expect(container.querySelectorAll<HTMLDivElement>('.ant-modal')[0]).toHaveStyle({
+    expect(container.querySelectorAll<HTMLDivElement>('.g-modal')[0]).toHaveStyle({
       transformOrigin: '100px 100px',
     });
   });
 
   it('should not render footer if null', () => {
     render(<Modal open footer={null} />);
-    expect(document.querySelector('.ant-modal-footer')).toBeFalsy();
+    expect(document.querySelector('.g-modal-footer')).toBeFalsy();
   });
 
   it('should render custom footer', () => {
@@ -194,20 +194,20 @@ describe('Modal', () => {
       <Modal open width={{ xs: '90%', sm: '80%', md: '70%', lg: '60%', xl: '50%', xxl: '40%' }} />,
     );
 
-    const modalEle = document.querySelector<HTMLDivElement>('.ant-modal')!;
+    const modalEle = document.querySelector<HTMLDivElement>('.g-modal')!;
     expect(modalEle).toHaveStyle({
-      '--ant-modal-xs-width': '90%',
-      '--ant-modal-sm-width': '80%',
-      '--ant-modal-md-width': '70%',
-      '--ant-modal-lg-width': '60%',
-      '--ant-modal-xl-width': '50%',
-      '--ant-modal-xxl-width': '40%',
+      '--g-modal-xs-width': '90%',
+      '--g-modal-sm-width': '80%',
+      '--g-modal-md-width': '70%',
+      '--g-modal-lg-width': '60%',
+      '--g-modal-xl-width': '50%',
+      '--g-modal-xxl-width': '40%',
     });
   });
 
   it('should support centered prop', () => {
     render(<Modal open centered />);
-    expect(document.querySelector('.ant-modal-centered')).toBeTruthy();
+    expect(document.querySelector('.g-modal-centered')).toBeTruthy();
   });
 
   it('should support centered global config', () => {
@@ -216,7 +216,7 @@ describe('Modal', () => {
         <Modal open />
       </ConfigProvider>,
     );
-    expect(document.querySelector('.ant-modal-centered')).toBeTruthy();
+    expect(document.querySelector('.g-modal-centered')).toBeTruthy();
   });
 
   it('should prefer centered prop over centered global config', () => {
@@ -225,7 +225,7 @@ describe('Modal', () => {
         <Modal open centered={false} />
       </ConfigProvider>,
     );
-    expect(document.querySelector('.ant-modal-centered')).toBeFalsy();
+    expect(document.querySelector('.g-modal-centered')).toBeFalsy();
   });
 
   it('should support cancelButtonProps global config', () => {
@@ -234,7 +234,7 @@ describe('Modal', () => {
         <Modal open />
       </ConfigProvider>,
     );
-    expect(document.querySelector('.ant-modal-footer .ant-btn-default.ant-btn-sm')).toBeTruthy();
+    expect(document.querySelector('.g-modal-footer .g-btn-default.g-btn-sm')).toBeTruthy();
   });
 
   it('should prefer cancelButtonProps prop over cancelButtonProps global config', () => {
@@ -243,7 +243,7 @@ describe('Modal', () => {
         <Modal open cancelButtonProps={{ size: 'small' }} />
       </ConfigProvider>,
     );
-    expect(document.querySelector('.ant-modal-footer .ant-btn-default.ant-btn-sm')).toBeTruthy();
+    expect(document.querySelector('.g-modal-footer .g-btn-default.g-btn-sm')).toBeTruthy();
   });
 
   it('should support okButtonProps global config', () => {
@@ -252,7 +252,7 @@ describe('Modal', () => {
         <Modal open />
       </ConfigProvider>,
     );
-    expect(document.querySelector('.ant-modal-footer .ant-btn-primary.ant-btn-sm')).toBeTruthy();
+    expect(document.querySelector('.g-modal-footer .g-btn-primary.g-btn-sm')).toBeTruthy();
   });
 
   it('should prefer okButtonProps prop over okButtonProps global config', () => {
@@ -261,7 +261,7 @@ describe('Modal', () => {
         <Modal open okButtonProps={{ size: 'small' }} />
       </ConfigProvider>,
     );
-    expect(document.querySelector('.ant-modal-footer .ant-btn-primary.ant-btn-sm')).toBeTruthy();
+    expect(document.querySelector('.g-modal-footer .g-btn-primary.g-btn-sm')).toBeTruthy();
   });
 
   it('should not close when mask.closable is false from context', () => {
@@ -271,7 +271,7 @@ describe('Modal', () => {
         <Modal open onCancel={onCancel} />
       </ConfigProvider>,
     );
-    const maskElement = document.querySelector('.ant-modal-mask');
+    const maskElement = document.querySelector('.g-modal-mask');
     fireEvent.click(maskElement!);
     expect(onCancel).not.toHaveBeenCalled();
   });
@@ -303,7 +303,7 @@ describe('Modal', () => {
     await act(async () => {
       await waitFakeTimer(500);
     });
-    const modalWrap = document.body.querySelectorAll('.ant-modal-wrap')[0];
+    const modalWrap = document.body.querySelectorAll('.g-modal-wrap')[0];
     fireEvent.mouseDown(modalWrap!);
     fireEvent.click(modalWrap!);
     await act(async () => {
@@ -338,12 +338,12 @@ describe('Modal', () => {
 
     render(<Demo onCancel={onCancel} onOk={onOk} />);
 
-    const okButton = document.body.querySelectorAll('.ant-btn')[1];
+    const okButton = document.body.querySelectorAll('.g-btn')[1];
     fireEvent.click(okButton);
-    expect(okButton).toHaveClass('ant-btn-loading');
+    expect(okButton).toHaveClass('g-btn-loading');
 
-    const closeButton = document.body.querySelectorAll('.ant-modal-close')[0];
-    const modalWrap = document.body.querySelectorAll('.ant-modal-wrap')[0];
+    const closeButton = document.body.querySelectorAll('.g-modal-close')[0];
+    const modalWrap = document.body.querySelectorAll('.g-modal-wrap')[0];
 
     fireEvent.click(closeButton);
     fireEvent.click(modalWrap);
@@ -369,7 +369,7 @@ describe('Modal', () => {
 
   it('closable have aria', () => {
     render(<Modal open closable={{ 'aria-label': 'xxx' }} />);
-    const element = document.body.querySelector('.ant-modal-close');
+    const element = document.body.querySelector('.g-modal-close');
     expect(element).toHaveAttribute('aria-label', 'xxx');
   });
 
@@ -407,7 +407,7 @@ describe('Modal', () => {
     };
     it('closable.onClose and afterClose', async () => {
       render(<ModalTester />);
-      const button = document.body.querySelector('.ant-btn');
+      const button = document.body.querySelector('.g-btn');
       fireEvent.click(button!);
       expect(mockFn.onClose).toHaveBeenCalled();
       expect(mockFn.afterClose).toHaveBeenCalledTimes(1);
@@ -444,7 +444,7 @@ describe('Modal', () => {
         </ConfigProvider>,
       );
 
-      const maskElement = document.querySelector('.ant-modal-mask');
+      const maskElement = document.querySelector('.g-modal-mask');
       if (!openMask) {
         expect(maskElement).toBeNull();
         return;
@@ -452,9 +452,9 @@ describe('Modal', () => {
 
       expect(maskElement).toBeInTheDocument();
       if (expectedBlurClass) {
-        expect(maskElement!.className).toContain('ant-modal-mask-blur');
+        expect(maskElement!.className).toContain('g-modal-mask-blur');
       } else {
-        expect(maskElement!.className).not.toContain('ant-modal-mask-blur');
+        expect(maskElement!.className).not.toContain('g-modal-mask-blur');
       }
     });
   });

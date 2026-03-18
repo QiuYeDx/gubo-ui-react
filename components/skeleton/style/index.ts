@@ -41,7 +41,7 @@ export interface ComponentToken {
   paragraphLiHeight: number;
 }
 
-const skeletonClsLoading = new Keyframes(`ant-skeleton-loading`, {
+const skeletonClsLoading = new Keyframes(`g-skeleton-loading`, {
   '0%': {
     backgroundPosition: '100% 50%',
   },

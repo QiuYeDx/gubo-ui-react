@@ -28,7 +28,7 @@ describe('TimePicker.Legacy', () => {
       'Warning: [antd: TimePicker] `onSelect` is deprecated. Please use `onCalendarChange` instead.',
     );
 
-    fireEvent.click(document.querySelectorAll('.ant-picker-time-panel-cell-inner')[1]);
+    fireEvent.click(document.querySelectorAll('.g-picker-time-panel-cell-inner')[1]);
     expect(onSelect).toHaveBeenCalled();
 
     const passedDate: Dayjs = onSelect.mock.calls[0][0];

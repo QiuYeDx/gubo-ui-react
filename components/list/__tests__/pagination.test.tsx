@@ -34,7 +34,7 @@ describe('List.pagination', () => {
 
   function renderedNames(container: ReturnType<typeof render>['container']) {
     return Array.prototype.map.call(
-      container.querySelectorAll('.ant-list-item'),
+      container.querySelectorAll('.g-list-item'),
       (row: HTMLDivElement) => row.textContent,
     );
   }
@@ -48,24 +48,24 @@ describe('List.pagination', () => {
     const { container: wrapper, rerender } = render(
       createList({ pagination: { pageSize: 3, hideOnSinglePage: true } }),
     );
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(1);
     rerender(createList({ pagination: { pageSize: 3, hideOnSinglePage: false } }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(1);
     rerender(createList({ pagination: { pageSize: 4, hideOnSinglePage: true } }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(0);
     rerender(createList({ pagination: { pageSize: 4, hideOnSinglePage: false } }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(1);
     rerender(createList({ pagination: { pageSize: 5, hideOnSinglePage: true } }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(0);
     rerender(createList({ pagination: { pageSize: 5, hideOnSinglePage: false } }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(1);
   });
 
   it('paginate data', () => {
     const { container: wrapper } = render(createList());
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy']);
 
-    const paginationItems = wrapper.querySelectorAll('.ant-pagination-item');
+    const paginationItems = wrapper.querySelectorAll('.g-pagination-item');
     fireEvent.click(paginationItems[paginationItems.length - 1]);
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
   });
@@ -89,7 +89,7 @@ describe('List.pagination', () => {
       }),
     );
 
-    const paginationItems = wrapper.querySelectorAll('.ant-pagination-item');
+    const paginationItems = wrapper.querySelectorAll('.g-pagination-item');
     fireEvent.click(paginationItems[paginationItems.length - 1]);
 
     expect(handlePaginationChange).toHaveBeenCalledWith(2, 2);
@@ -99,57 +99,55 @@ describe('List.pagination', () => {
   // https://codepen.io/afc163/pen/pWVRJV?editors=001
   it('should display pagination as prop pagination change between true and false', () => {
     const { container: wrapper, rerender } = render(createList());
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(1);
-    expect(wrapper.querySelectorAll('.ant-pagination-item')).toHaveLength(2);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-pagination-item')).toHaveLength(2);
 
     rerender(createList({ pagination: false }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(0);
 
     rerender(createList({ pagination }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(1);
-    expect(wrapper.querySelectorAll('.ant-pagination-item')).toHaveLength(2);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-pagination-item')).toHaveLength(2);
 
-    fireEvent.click(wrapper.querySelector('.ant-pagination-item-2')!);
+    fireEvent.click(wrapper.querySelector('.g-pagination-item-2')!);
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
 
     rerender(createList({ pagination: false }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(0);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(0);
 
     rerender(createList({ pagination: true as ListProps<DataSourceItem>['pagination'] }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(1);
     // Legacy code will make pageSize ping with 10, here we fixed to keep sync by current one
-    expect(wrapper.querySelectorAll('.ant-pagination-item')).toHaveLength(2);
+    expect(wrapper.querySelectorAll('.g-pagination-item')).toHaveLength(2);
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
   });
 
   // https://github.com/ant-design/ant-design/issues/5259
   it('change to correct page when data source changes', () => {
     const { container: wrapper, rerender } = render(createList({ pagination: { pageSize: 1 } }));
-    fireEvent.click(wrapper.querySelector('.ant-pagination-item-3')!);
+    fireEvent.click(wrapper.querySelector('.g-pagination-item-3')!);
     rerender(createList({ dataSource: [data[0]] }));
-    expect(wrapper.querySelector('.ant-pagination-item-1')).toHaveClass(
-      'ant-pagination-item-active',
-    );
+    expect(wrapper.querySelector('.g-pagination-item-1')).toHaveClass('g-pagination-item-active');
   });
 
   it('specify the position of pagination', () => {
     const { container: wrapper, rerender } = render(
       createList({ pagination: { position: 'top' } }),
     );
-    expect(wrapper.querySelector('.ant-list')?.querySelectorAll('.ant-pagination')).toHaveLength(1);
+    expect(wrapper.querySelector('.g-list')?.querySelectorAll('.g-pagination')).toHaveLength(1);
 
     rerender(createList({ pagination: { position: 'bottom' } }));
     expect(
-      wrapper.querySelector('.ant-list')?.lastElementChild?.querySelectorAll('.ant-pagination'),
+      wrapper.querySelector('.g-list')?.lastElementChild?.querySelectorAll('.g-pagination'),
     ).toHaveLength(1);
 
     rerender(createList({ pagination: { position: 'both' } }));
-    expect(wrapper.querySelectorAll('.ant-pagination')).toHaveLength(2);
+    expect(wrapper.querySelectorAll('.g-pagination')).toHaveLength(2);
     expect(
-      wrapper.querySelector('.ant-list')?.firstElementChild?.querySelectorAll('.ant-pagination'),
+      wrapper.querySelector('.g-list')?.firstElementChild?.querySelectorAll('.g-pagination'),
     ).toHaveLength(1);
     expect(
-      wrapper.querySelector('.ant-list')?.lastElementChild?.querySelectorAll('.ant-pagination'),
+      wrapper.querySelector('.g-list')?.lastElementChild?.querySelectorAll('.g-pagination'),
     ).toHaveLength(1);
   });
 
@@ -160,12 +158,12 @@ describe('List.pagination', () => {
         dataSource: Array.from({ length: 100 }, (_, key) => ({ key, name: `name${key}` })),
       }),
     );
-    expect(container.querySelectorAll('.ant-pagination-item')).toHaveLength(6);
+    expect(container.querySelectorAll('.g-pagination-item')).toHaveLength(6);
 
-    fireEvent.mouseDown(container.querySelector('.ant-select')!);
-    fireEvent.click(container.querySelectorAll('.ant-select-item-option')[2]);
+    fireEvent.mouseDown(container.querySelector('.g-select')!);
+    fireEvent.click(container.querySelectorAll('.g-select-item-option')[2]);
 
-    expect(container.querySelectorAll('.ant-pagination-item')).toHaveLength(2);
+    expect(container.querySelectorAll('.g-pagination-item')).toHaveLength(2);
   });
 
   // https://github.com/ant-design/ant-design/issues/24913
@@ -184,8 +182,8 @@ describe('List.pagination', () => {
       }),
     );
 
-    fireEvent.mouseDown(wrapper.querySelector('.ant-select')!);
-    fireEvent.click(wrapper.querySelectorAll('.ant-select-item-option')[1]);
+    fireEvent.mouseDown(wrapper.querySelector('.g-select')!);
+    fireEvent.click(wrapper.querySelectorAll('.g-select-item-option')[1]);
     expect(handlePaginationChange).toHaveBeenCalledWith(1, 10);
   });
 
@@ -201,7 +199,7 @@ describe('List.pagination', () => {
       }),
     );
 
-    expect(wrapper.querySelector('.ant-pagination')).toMatchSnapshot();
+    expect(wrapper.querySelector('.g-pagination')).toMatchSnapshot();
   });
 
   it('should not crash when pagination is null', () => {
@@ -229,6 +227,6 @@ describe('List.pagination', () => {
       }),
     );
 
-    expect(container.querySelector('.ant-pagination')).toMatchSnapshot();
+    expect(container.querySelector('.g-pagination')).toMatchSnapshot();
   });
 });

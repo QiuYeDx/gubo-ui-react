@@ -2,14 +2,14 @@
 
 exports[`Transfer.Search should show cross icon when input value exists 1`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <span
-    class="ant-input-prefix"
+    class="g-input-prefix"
   >
     <span
       aria-label="search"
-      class="anticon anticon-search"
+      class="gicon gicon-search"
       role="img"
     >
       <svg
@@ -28,22 +28,22 @@ exports[`Transfer.Search should show cross icon when input value exists 1`] = `
     </span>
   </span>
   <input
-    class="ant-input"
+    class="g-input"
     placeholder=""
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon ant-input-clear-icon-hidden"
+      class="g-input-clear-icon g-input-clear-icon-hidden"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg
@@ -68,14 +68,14 @@ exports[`Transfer.Search should show cross icon when input value exists 1`] = `
 
 exports[`Transfer.Search should show cross icon when input value exists 2`] = `
 <span
-  class="ant-input-affix-wrapper ant-input-outlined css-var-root ant-input-css-var"
+  class="g-input-affix-wrapper g-input-outlined css-var-root g-input-css-var"
 >
   <span
-    class="ant-input-prefix"
+    class="g-input-prefix"
   >
     <span
       aria-label="search"
-      class="anticon anticon-search"
+      class="gicon gicon-search"
       role="img"
     >
       <svg
@@ -94,22 +94,22 @@ exports[`Transfer.Search should show cross icon when input value exists 2`] = `
     </span>
   </span>
   <input
-    class="ant-input"
+    class="g-input"
     placeholder=""
     type="text"
     value="a"
   />
   <span
-    class="ant-input-suffix"
+    class="g-input-suffix"
   >
     <button
-      class="ant-input-clear-icon"
+      class="g-input-clear-icon"
       tabindex="-1"
       type="button"
     >
       <span
         aria-label="close-circle"
-        class="anticon anticon-close-circle"
+        class="gicon gicon-close-circle"
         role="img"
       >
         <svg

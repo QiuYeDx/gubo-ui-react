@@ -112,7 +112,7 @@ export interface NotificationToken extends FullToken<'Notification'> {
 export const genNoticeStyle: GenerateStyle<NotificationToken, CSSObject> = (token) => {
   const {
     iconCls,
-    componentCls, // .ant-notification
+    componentCls, // .g-notification
     boxShadow,
     fontSizeLG,
     notificationMarginBottom,
@@ -287,7 +287,7 @@ export const genNoticeStyle: GenerateStyle<NotificationToken, CSSObject> = (toke
 
 const genNotificationStyle: GenerateStyle<NotificationToken> = (token) => {
   const {
-    componentCls, // .ant-notification
+    componentCls, // .g-notification
     notificationMarginBottom,
     notificationMarginEdge,
     motionDurationMid,
@@ -296,7 +296,7 @@ const genNotificationStyle: GenerateStyle<NotificationToken> = (token) => {
 
   const noticeCls = `${componentCls}-notice`;
 
-  const fadeOut = new Keyframes('antNotificationFadeOut', {
+  const fadeOut = new Keyframes('gNotificationFadeOut', {
     '0%': {
       maxHeight: token.animationMaxHeight,
       marginBottom: notificationMarginBottom,

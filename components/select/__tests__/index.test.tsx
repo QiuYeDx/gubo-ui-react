@@ -19,7 +19,7 @@ describe('Select', () => {
   rtlTest(Select);
 
   function toggleOpen(container: ReturnType<typeof render>['container']): void {
-    fireEvent.mouseDown(container.querySelector('.ant-select')!);
+    fireEvent.mouseDown(container.querySelector('.g-select')!);
     act(() => {
       jest.runAllTimers();
     });
@@ -36,14 +36,14 @@ describe('Select', () => {
   it('should have default notFoundContent', () => {
     const { container } = render(<Select mode="multiple" />);
     toggleOpen(container);
-    expect(container.querySelectorAll('.ant-select-item-option').length).toBe(0);
-    expect(container.querySelectorAll('.ant-empty').length).toBeTruthy();
+    expect(container.querySelectorAll('.g-select-item-option').length).toBe(0);
+    expect(container.querySelectorAll('.g-empty').length).toBeTruthy();
   });
 
   it('should support set notFoundContent to null', () => {
     const { container } = render(<Select mode="multiple" notFoundContent={null} />);
     toggleOpen(container);
-    expect(container.querySelectorAll('.ant-empty').length).toBe(0);
+    expect(container.querySelectorAll('.g-empty').length).toBe(0);
   });
 
   it('should not have default notFoundContent when mode is combobox', () => {
@@ -51,7 +51,7 @@ describe('Select', () => {
       <Select mode={Select.SECRET_COMBOBOX_MODE_DO_NOT_USE as SelectProps['mode']} />,
     );
     toggleOpen(container);
-    expect(container.querySelector('.ant-empty')).toBeFalsy();
+    expect(container.querySelector('.g-empty')).toBeFalsy();
   });
 
   it('should not have notFoundContent when mode is combobox and notFoundContent is set', () => {
@@ -62,8 +62,8 @@ describe('Select', () => {
       />,
     );
     toggleOpen(container);
-    expect(container.querySelector('.ant-select-item-option')).toBeFalsy();
-    expect(container.querySelector('.ant-select-item-empty')).toHaveTextContent('not at all');
+    expect(container.querySelector('.g-select-item-option')).toBeFalsy();
+    expect(container.querySelector('.g-select-item-empty')).toHaveTextContent('not at all');
   });
 
   it('should be controlled by open prop', () => {
@@ -79,20 +79,20 @@ describe('Select', () => {
       );
     };
     const { container } = render(<TestComponent />);
-    expect(container.querySelector('.ant-select-dropdown')).toBeFalsy();
+    expect(container.querySelector('.g-select-dropdown')).toBeFalsy();
     toggleOpen(container);
-    expect(container.querySelectorAll('.ant-select-dropdown').length).toBe(1);
+    expect(container.querySelectorAll('.g-select-dropdown').length).toBe(1);
     expect(onOpenChange).toHaveBeenLastCalledWith(true);
   });
 
   it('should show search icon when showSearch and open', () => {
     jest.useFakeTimers();
     const { container } = render(<Select options={[{ label: '1', value: '1' }]} showSearch />);
-    expect(container.querySelector('.anticon-down')).toBeTruthy();
-    expect(container.querySelector('.anticon-search')).toBeFalsy();
+    expect(container.querySelector('.gicon-down')).toBeTruthy();
+    expect(container.querySelector('.gicon-search')).toBeFalsy();
     toggleOpen(container);
-    expect(container.querySelector('.anticon-down')).toBeFalsy();
-    expect(container.querySelector('.anticon-search')).toBeTruthy();
+    expect(container.querySelector('.gicon-down')).toBeFalsy();
+    expect(container.querySelector('.gicon-search')).toBeTruthy();
   });
 
   describe('Select Custom Icons', () => {
@@ -125,10 +125,10 @@ describe('Select', () => {
       const { container } = render(
         <Select allowClear options={[{ value: '1', label: '1' }]} value="1" />,
       );
-      const ele = container.querySelector<HTMLElement>('.ant-select-clear');
+      const ele = container.querySelector<HTMLElement>('.g-select-clear');
       if (ele) {
         expect(getComputedStyle(ele).insetInlineEnd).toBe(
-          'calc(var(--ant-padding-sm) - var(--ant-line-width))',
+          'calc(var(--g-padding-sm) - var(--g-line-width))',
         );
       }
     });
@@ -141,10 +141,10 @@ describe('Select', () => {
           </Form.Item>
         </Form>,
       );
-      const ele = container.querySelector<HTMLElement>('.ant-select-clear');
+      const ele = container.querySelector<HTMLElement>('.g-select-clear');
       if (ele) {
         expect(getComputedStyle(ele).insetInlineEnd).toBe(
-          'calc(calc(var(--ant-padding-sm) - var(--ant-line-width)) + var(--ant-font-size) + var(--ant-padding-xs))',
+          'calc(calc(var(--g-padding-sm) - var(--g-line-width)) + var(--g-font-size) + var(--g-padding-xs))',
         );
       }
     });
@@ -157,10 +157,10 @@ describe('Select', () => {
           </Form.Item>
         </Form>,
       );
-      const ele = container.querySelector<HTMLElement>('.ant-select-clear');
+      const ele = container.querySelector<HTMLElement>('.g-select-clear');
       if (ele) {
         expect(getComputedStyle(ele).insetInlineEnd).toBe(
-          'calc(var(--ant-padding-sm) - var(--ant-line-width))',
+          'calc(var(--g-padding-sm) - var(--g-line-width))',
         );
       }
     });
@@ -207,7 +207,7 @@ describe('Select', () => {
       expect(errSpy).toHaveBeenCalledWith(
         'Warning: [antd: Select] `dropdownStyle` is deprecated. Please use `styles.popup.root` instead.',
       );
-      const dropdown = container.querySelector('.ant-select-dropdown');
+      const dropdown = container.querySelector('.g-select-dropdown');
       expect(dropdown?.getAttribute('style')).toMatch(/background:\s*red/);
       errSpy.mockRestore();
     });
@@ -261,7 +261,7 @@ describe('Select', () => {
       expect(errSpy).toHaveBeenCalledWith(
         'Warning: [antd: Select] `showArrow` is deprecated which will be removed in next major version. It will be a default behavior, you can hide it by setting `suffixIcon` to null.',
       );
-      expect(container.querySelector('.ant-select-show-arrow')).toBeTruthy();
+      expect(container.querySelector('.g-select-show-arrow')).toBeTruthy();
 
       errSpy.mockRestore();
     });
@@ -274,7 +274,7 @@ describe('Select', () => {
       expect(errSpy).toHaveBeenCalledWith(
         expect.stringContaining('Warning: [antd: Select] `bordered` is deprecated'),
       );
-      expect(container.querySelector('.ant-select-borderless')).toBeTruthy();
+      expect(container.querySelector('.g-select-borderless')).toBeTruthy();
 
       errSpy.mockRestore();
     });
@@ -316,7 +316,7 @@ describe('Select', () => {
     );
 
     const compactButton = container.querySelector('.test-button');
-    const popupElement = document.querySelector('.ant-select-dropdown');
+    const popupElement = document.querySelector('.g-select-dropdown');
     // selector should have compact
     expect(compactButton).toBeInTheDocument();
     expect(compactButton!.className.includes('compact')).toBeTruthy();

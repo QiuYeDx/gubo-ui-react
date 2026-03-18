@@ -107,15 +107,15 @@ describe('Select.Semantic', () => {
         suffix={<span>Suf</span>}
       />,
     );
-    const root = container.querySelector('.ant-select');
-    const prefix = container.querySelector('.ant-select-prefix');
-    const suffix = container.querySelector('.ant-select-suffix');
+    const root = container.querySelector('.g-select');
+    const prefix = container.querySelector('.g-select-prefix');
+    const suffix = container.querySelector('.g-select-suffix');
     const list = container.querySelector('.rc-virtual-list');
-    const listItem = container.querySelector('.ant-select-item');
-    const popup = container.querySelector('.ant-select-dropdown');
-    const item = container.querySelector('.ant-select-selection-item');
-    const itemContent = container.querySelector('.ant-select-selection-item-content');
-    const itemRemove = container.querySelector('.ant-select-selection-item-remove');
+    const listItem = container.querySelector('.g-select-item');
+    const popup = container.querySelector('.g-select-dropdown');
+    const item = container.querySelector('.g-select-selection-item');
+    const itemContent = container.querySelector('.g-select-selection-item-content');
+    const itemRemove = container.querySelector('.g-select-selection-item-remove');
 
     expect(root).toHaveClass(customClassNames.root);
     expect(prefix).toHaveClass(customClassNames.prefix);
@@ -198,7 +198,7 @@ describe('Select.Semantic', () => {
       />,
     );
 
-    const selectRoot = container.querySelector('.ant-select');
+    const selectRoot = container.querySelector('.g-select');
     expect(selectRoot).toHaveClass('disabled-select');
     expect(selectRoot).toHaveStyle({
       background: '#f5f5f5',

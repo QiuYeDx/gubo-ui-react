@@ -328,20 +328,20 @@ describe('Theme', () => {
     const { container, rerender } = render(<Demo />);
     const inputElement = container.querySelector<HTMLInputElement>('input');
 
-    expect(inputElement).toHaveStyle({ '--ant-input-hover-border-color': '#4096ff' });
+    expect(inputElement).toHaveStyle({ '--g-input-hover-border-color': '#4096ff' });
 
     rerender(<Demo algorithm />);
-    expect(inputElement).toHaveStyle({ '--ant-input-hover-border-color': '#20c77c' });
+    expect(inputElement).toHaveStyle({ '--g-input-hover-border-color': '#20c77c' });
 
     rerender(<Demo algorithm={theme.darkAlgorithm} />);
-    expect(inputElement).toHaveStyle({ '--ant-input-hover-border-color': '#1fb572' });
+    expect(inputElement).toHaveStyle({ '--g-input-hover-border-color': '#1fb572' });
   });
 
   it('get cssVar from useToken', () => {
     const { cssVar } = getHookToken();
-    expect(cssVar.colorLink).toBe('var(--ant-color-link)');
-    expect(cssVar.colorLinkHover).toBe('var(--ant-color-link-hover)');
-    expect(cssVar.colorLinkActive).toBe('var(--ant-color-link-active)');
+    expect(cssVar.colorLink).toBe('var(--g-color-link)');
+    expect(cssVar.colorLinkHover).toBe('var(--g-color-link-hover)');
+    expect(cssVar.colorLinkActive).toBe('var(--g-color-link-active)');
   });
 
   it('should respect empty string cssVar prefix', () => {
@@ -353,14 +353,14 @@ describe('Theme', () => {
       },
     });
 
-    // Default behavior should still use "ant" prefix
-    expect(defaultCssVar.colorLink).toBe('var(--ant-color-link)');
+    // Default behavior should still use "g" prefix
+    expect(defaultCssVar.colorLink).toBe('var(--g-color-link)');
 
     // When cssVar.prefix is an empty string, it should not equal default value
     expect(emptyPrefixCssVar.colorLink).not.toBe(defaultCssVar.colorLink);
 
-    // It should not start with "ant" prefix
-    expect(emptyPrefixCssVar.colorLink.startsWith('var(--ant-')).toBeFalsy();
+    // It should not start with "g" prefix
+    expect(emptyPrefixCssVar.colorLink.startsWith('var(--g-')).toBeFalsy();
 
     // It should still be a valid CSS variable reference and contain "color-link"
     expect(emptyPrefixCssVar.colorLink.startsWith('var(--')).toBeTruthy();

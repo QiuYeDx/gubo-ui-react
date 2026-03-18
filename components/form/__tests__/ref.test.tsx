@@ -93,7 +93,7 @@ describe('Form.Ref', () => {
     const formRef = React.createRef<FormRef>();
     const { container } = render(<Form ref={formRef} />);
 
-    expect(container.querySelector('.ant-form')).toBe(formRef.current?.nativeElement);
+    expect(container.querySelector('.g-form')).toBe(formRef.current?.nativeElement);
   });
 
   // TODO: this is no need to test in React 19

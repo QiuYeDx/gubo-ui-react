@@ -23,7 +23,7 @@ const PreviewImage: React.FC = () => {
             }
           }
 
-          .ant-row-rtl & {
+          .g-row-rtl & {
             float: left;
             margin: 0 64px 70px 0;
           }
@@ -41,7 +41,7 @@ const PreviewImage: React.FC = () => {
         .preview-image-box + .preview-image-box {
           margin-inline-start: ${token.marginLG}px;
 
-          .ant-row-rtl & {
+          .g-row-rtl & {
             margin-inline-end: ${token.marginLG}px;
             margin-inline-start: 0;
           }
@@ -154,7 +154,7 @@ const PreviewImage: React.FC = () => {
             padding: 0;
           }
 
-          .ant-row-rtl & {
+          .g-row-rtl & {
             float: left;
           }
         }

@@ -64,8 +64,8 @@ juejin_url: https://juejin.cn/post/7179115861176188983
 ```diff
 ++  import { fireEvent } from '@testing-library/react';
 
---  wrapper.find('.ant-handle').simulate('click');
-++  fireEvent.click(container.querySelector('.ant-handle'));
+--  wrapper.find('.g-handle').simulate('click');
+++  fireEvent.click(container.querySelector('.g-handle'));
 ```
 
 ### 三、DOM 元素
@@ -90,9 +90,9 @@ juejin_url: https://juejin.cn/post/7179115861176188983
 --  popover.find('span').simulate('click');
 --  expect(popover.find('Trigger PopupInner').props().visible).toBeTruthy();
 
-++  expect(container.querySelector('.ant-popover-inner-content')).toBeFalsy();
+++  expect(container.querySelector('.g-popover-inner-content')).toBeFalsy();
 ++  fireEvent.click(popover.container.querySelector('span'));
-++  expect(container.querySelector('.ant-popover-inner-content')).toBeTruthy();
+++  expect(container.querySelector('.g-popover-inner-content')).toBeTruthy();
 ```
 
 ### 四、兼容性测试

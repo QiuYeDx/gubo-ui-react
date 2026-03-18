@@ -14,11 +14,11 @@ describe('Rate', () => {
   describe('size', () => {
     it('size=small', () => {
       const { container } = render(<Rate count={3} value={1} size="small" />);
-      expect(container.querySelector('.ant-rate-small')).toBeTruthy();
+      expect(container.querySelector('.g-rate-small')).toBeTruthy();
     });
     it('size=large', () => {
       const { container } = render(<Rate count={3} value={1} size="large" />);
-      expect(container.querySelector('.ant-rate-large')).toBeTruthy();
+      expect(container.querySelector('.g-rate-large')).toBeTruthy();
     });
   });
 });

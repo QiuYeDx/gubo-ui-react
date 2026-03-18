@@ -2,25 +2,25 @@
 
 exports[`Form Form item hidden noStyle should not work when hidden 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-root ant-form-css-var"
+  class="g-form g-form-horizontal css-var-root g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-hidden ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-hidden g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-form-item-control css-var-root"
+        class="g-col g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
-              class="ant-input ant-input-outlined css-var-root ant-input-css-var"
+              class="g-input g-input-outlined css-var-root g-input-css-var"
               id="light"
               type="text"
               value=""
@@ -35,25 +35,25 @@ exports[`Form Form item hidden noStyle should not work when hidden 1`] = `
 
 exports[`Form Form item hidden should work 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-root ant-form-css-var"
+  class="g-form g-form-horizontal css-var-root g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-hidden ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-hidden g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-form-item-control css-var-root"
+        class="g-col g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
-              class="ant-input ant-input-outlined css-var-root ant-input-css-var"
+              class="g-input g-input-outlined css-var-root g-input-css-var"
               id="light"
               type="text"
               value=""
@@ -68,25 +68,25 @@ exports[`Form Form item hidden should work 1`] = `
 
 exports[`Form Form.Item should support data-*、aria-* and custom attribute 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-root ant-form-css-var"
+  class="g-form g-form-horizontal css-var-root g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
       aria-hidden="true"
       cccc="bbbb"
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
       data-text="123"
     >
       <div
-        class="ant-col ant-form-item-control css-var-root"
+        class="g-col g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             text
           </div>
@@ -99,16 +99,16 @@ exports[`Form Form.Item should support data-*、aria-* and custom attribute 1`] 
 
 exports[`Form form should support disabled 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-root ant-form-css-var"
+  class="g-form g-form-horizontal css-var-root g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -119,29 +119,29 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <label
-              class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-checkbox-wrapper-in-form-item css-var-root ant-checkbox-css-var"
+              class="g-checkbox-wrapper g-checkbox-wrapper-disabled g-checkbox-wrapper-in-form-item css-var-root g-checkbox-css-var"
             >
               <span
-                class="ant-checkbox ant-wave-target ant-checkbox-disabled"
+                class="g-checkbox g-wave-target g-checkbox-disabled"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="g-checkbox-input"
                   disabled=""
                   id="disabled"
                   type="checkbox"
                 />
               </span>
               <span
-                class="ant-checkbox-label"
+                class="g-checkbox-label"
               >
                 disabled
               </span>
@@ -152,13 +152,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -168,26 +168,26 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-radio-group ant-radio-group-outline css-var-root ant-radio-css-var"
+              class="g-radio-group g-radio-group-outline css-var-root g-radio-css-var"
               role="radiogroup"
             >
               <label
-                class="ant-radio-wrapper ant-radio-wrapper-disabled ant-radio-wrapper-in-form-item css-var-root ant-radio-css-var"
+                class="g-radio-wrapper g-radio-wrapper-disabled g-radio-wrapper-in-form-item css-var-root g-radio-css-var"
               >
                 <span
-                  class="ant-radio ant-wave-target ant-radio-disabled"
+                  class="g-radio g-wave-target g-radio-disabled"
                 >
                   <input
-                    class="ant-radio-input"
+                    class="g-radio-input"
                     disabled=""
                     name="test-id"
                     type="radio"
@@ -195,19 +195,19 @@ exports[`Form form should support disabled 1`] = `
                   />
                 </span>
                 <span
-                  class="ant-radio-label"
+                  class="g-radio-label"
                 >
                   Apple
                 </span>
               </label>
               <label
-                class="ant-radio-wrapper ant-radio-wrapper-disabled ant-radio-wrapper-in-form-item css-var-root ant-radio-css-var"
+                class="g-radio-wrapper g-radio-wrapper-disabled g-radio-wrapper-in-form-item css-var-root g-radio-css-var"
               >
                 <span
-                  class="ant-radio ant-wave-target ant-radio-disabled"
+                  class="g-radio g-wave-target g-radio-disabled"
                 >
                   <input
-                    class="ant-radio-input"
+                    class="g-radio-input"
                     disabled=""
                     name="test-id"
                     type="radio"
@@ -215,7 +215,7 @@ exports[`Form form should support disabled 1`] = `
                   />
                 </span>
                 <span
-                  class="ant-radio-label"
+                  class="g-radio-label"
                 >
                   Pear
                 </span>
@@ -227,13 +227,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -243,16 +243,16 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
-              class="ant-input ant-input-disabled ant-input-outlined css-var-root ant-input-css-var"
+              class="g-input g-input-disabled g-input-outlined css-var-root g-input-css-var"
               disabled=""
               type="text"
               value=""
@@ -263,13 +263,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -279,22 +279,22 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-select ant-select-outlined ant-select-in-form-item css-var-root ant-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled"
+              class="g-select g-select-outlined g-select-in-form-item css-var-root g-select-css-var g-select-single g-select-show-arrow g-select-disabled"
             >
               <div
-                class="ant-select-content"
+                class="g-select-content"
               >
                 <div
-                  class="ant-select-placeholder"
+                  class="g-select-placeholder"
                   style="visibility: visible;"
                 />
                 <input
@@ -302,7 +302,7 @@ exports[`Form form should support disabled 1`] = `
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   autocomplete="off"
-                  class="ant-select-input"
+                  class="g-select-input"
                   disabled=""
                   id="test-id"
                   readonly=""
@@ -312,11 +312,11 @@ exports[`Form form should support disabled 1`] = `
                 />
               </div>
               <div
-                class="ant-select-suffix"
+                class="g-select-suffix"
               >
                 <span
                   aria-label="down"
-                  class="anticon anticon-down"
+                  class="gicon gicon-down"
                   role="img"
                 >
                   <svg
@@ -341,13 +341,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -357,22 +357,22 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-select ant-tree-select ant-select-outlined ant-select-in-form-item css-var-root ant-select-css-var ant-tree-select-css-var ant-select-single ant-select-show-arrow ant-select-disabled"
+              class="g-select g-tree-select g-select-outlined g-select-in-form-item css-var-root g-select-css-var g-tree-select-css-var g-select-single g-select-show-arrow g-select-disabled"
             >
               <div
-                class="ant-select-content"
+                class="g-select-content"
               >
                 <div
-                  class="ant-select-placeholder"
+                  class="g-select-placeholder"
                   style="visibility: visible;"
                 />
                 <input
@@ -380,7 +380,7 @@ exports[`Form form should support disabled 1`] = `
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   autocomplete="off"
-                  class="ant-select-input"
+                  class="g-select-input"
                   disabled=""
                   id="test-id"
                   readonly=""
@@ -390,11 +390,11 @@ exports[`Form form should support disabled 1`] = `
                 />
               </div>
               <div
-                class="ant-select-suffix"
+                class="g-select-suffix"
               >
                 <span
                   aria-label="down"
-                  class="anticon anticon-down"
+                  class="gicon gicon-down"
                   role="img"
                 >
                   <svg
@@ -419,13 +419,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -435,22 +435,22 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-select ant-cascader ant-select-outlined ant-select-in-form-item ant-select-css-var ant-cascader-css-var css-var-root ant-select-single ant-select-show-arrow ant-select-disabled"
+              class="g-select g-cascader g-select-outlined g-select-in-form-item g-select-css-var g-cascader-css-var css-var-root g-select-single g-select-show-arrow g-select-disabled"
             >
               <div
-                class="ant-select-content"
+                class="g-select-content"
               >
                 <div
-                  class="ant-select-placeholder"
+                  class="g-select-placeholder"
                   style="visibility: visible;"
                 />
                 <input
@@ -458,7 +458,7 @@ exports[`Form form should support disabled 1`] = `
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   autocomplete="off"
-                  class="ant-select-input"
+                  class="g-select-input"
                   disabled=""
                   id="test-id"
                   readonly=""
@@ -468,11 +468,11 @@ exports[`Form form should support disabled 1`] = `
                 />
               </div>
               <div
-                class="ant-select-suffix"
+                class="g-select-suffix"
               >
                 <span
                   aria-label="down"
-                  class="anticon anticon-down"
+                  class="gicon gicon-down"
                   role="img"
                 >
                   <svg
@@ -497,13 +497,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -513,19 +513,19 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-picker ant-picker-disabled ant-picker-outlined css-var-root ant-picker-css-var"
+              class="g-picker g-picker-disabled g-picker-outlined css-var-root g-picker-css-var"
             >
               <div
-                class="ant-picker-input"
+                class="g-picker-input"
               >
                 <input
                   aria-invalid="false"
@@ -536,11 +536,11 @@ exports[`Form form should support disabled 1`] = `
                   value=""
                 />
                 <span
-                  class="ant-picker-suffix"
+                  class="g-picker-suffix"
                 >
                   <span
                     aria-label="calendar"
-                    class="anticon anticon-calendar"
+                    class="gicon gicon-calendar"
                     role="img"
                   >
                     <svg
@@ -566,13 +566,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -582,19 +582,19 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-picker ant-picker-range ant-picker-disabled ant-picker-outlined css-var-root ant-picker-css-var"
+              class="g-picker g-picker-range g-picker-disabled g-picker-outlined css-var-root g-picker-css-var"
             >
               <div
-                class="ant-picker-input ant-picker-input-start"
+                class="g-picker-input g-picker-input-start"
               >
                 <input
                   aria-invalid="false"
@@ -607,15 +607,15 @@ exports[`Form form should support disabled 1`] = `
                 />
               </div>
               <div
-                class="ant-picker-range-separator"
+                class="g-picker-range-separator"
               >
                 <span
                   aria-label="to"
-                  class="ant-picker-separator"
+                  class="g-picker-separator"
                 >
                   <span
                     aria-label="swap-right"
-                    class="anticon anticon-swap-right"
+                    class="gicon gicon-swap-right"
                     role="img"
                   >
                     <svg
@@ -635,7 +635,7 @@ exports[`Form form should support disabled 1`] = `
                 </span>
               </div>
               <div
-                class="ant-picker-input ant-picker-input-end"
+                class="g-picker-input g-picker-input-end"
               >
                 <input
                   aria-invalid="false"
@@ -648,15 +648,15 @@ exports[`Form form should support disabled 1`] = `
                 />
               </div>
               <div
-                class="ant-picker-active-bar"
+                class="g-picker-active-bar"
                 style="position: absolute; width: 0px;"
               />
               <span
-                class="ant-picker-suffix"
+                class="g-picker-suffix"
               >
                 <span
                   aria-label="calendar"
-                  class="anticon anticon-calendar"
+                  class="gicon gicon-calendar"
                   role="img"
                 >
                   <svg
@@ -681,13 +681,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -697,20 +697,20 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-input-number ant-input-number-mode-input css-var-root ant-input-number-css-var ant-input-number-outlined ant-input-number-in-form-item ant-input-number-without-controls ant-input-number-disabled"
+              class="g-input-number g-input-number-mode-input css-var-root g-input-number-css-var g-input-number-outlined g-input-number-in-form-item g-input-number-without-controls g-input-number-disabled"
             >
               <input
                 autocomplete="off"
-                class="ant-input-number-input"
+                class="g-input-number-input"
                 disabled=""
                 role="spinbutton"
                 step="1"
@@ -723,13 +723,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -739,16 +739,16 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <textarea
-              class="ant-input ant-input-outlined css-var-root ant-input-css-var ant-input-disabled"
+              class="g-input g-input-outlined css-var-root g-input-css-var g-input-disabled"
               disabled=""
               rows="4"
             />
@@ -758,13 +758,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -774,32 +774,32 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <button
               aria-checked="false"
-              class="ant-switch css-var-root ant-switch-disabled"
+              class="g-switch css-var-root g-switch-disabled"
               disabled=""
               role="switch"
               type="button"
             >
               <div
-                class="ant-switch-handle"
+                class="g-switch-handle"
               />
               <span
-                class="ant-switch-inner"
+                class="g-switch-inner"
               >
                 <span
-                  class="ant-switch-inner-checked"
+                  class="g-switch-inner-checked"
                 />
                 <span
-                  class="ant-switch-inner-unchecked"
+                  class="g-switch-inner-unchecked"
                 />
               </span>
             </button>
@@ -809,13 +809,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -825,22 +825,22 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <span
-              class="ant-upload-wrapper css-var-root"
+              class="g-upload-wrapper css-var-root"
             >
               <div
-                class="ant-upload ant-upload-select ant-upload-disabled ant-upload-hidden"
+                class="g-upload g-upload-select g-upload-disabled g-upload-hidden"
               >
                 <span
-                  class="ant-upload ant-upload-disabled"
+                  class="g-upload g-upload-disabled"
                 >
                   <input
                     accept=""
@@ -852,7 +852,7 @@ exports[`Form form should support disabled 1`] = `
                 </span>
               </div>
               <div
-                class="ant-upload-list ant-upload-list-text"
+                class="g-upload-list g-upload-list-text"
               />
             </span>
           </div>
@@ -861,13 +861,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -877,16 +877,16 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <button
-              class="ant-btn css-var-root ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              class="g-btn css-var-root g-btn-default g-btn-color-default g-btn-varig-outlined"
               disabled=""
               type="button"
             >
@@ -900,13 +900,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -916,26 +916,26 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-slider css-var-root ant-slider-disabled ant-slider-horizontal"
+              class="g-slider css-var-root g-slider-disabled g-slider-horizontal"
             >
               <div
-                class="ant-slider-rail"
+                class="g-slider-rail"
               />
               <div
-                class="ant-slider-track"
+                class="g-slider-track"
                 style="left: 0%; width: 0%;"
               />
               <div
-                class="ant-slider-step"
+                class="g-slider-step"
               />
               <div
                 aria-disabled="true"
@@ -943,7 +943,7 @@ exports[`Form form should support disabled 1`] = `
                 aria-valuemax="100"
                 aria-valuemin="0"
                 aria-valuenow="0"
-                class="ant-slider-handle"
+                class="g-slider-handle"
                 role="slider"
                 style="left: 0%; transform: translateX(-50%);"
               />
@@ -954,13 +954,13 @@ exports[`Form form should support disabled 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -970,19 +970,19 @@ exports[`Form form should support disabled 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <div
-              class="ant-color-picker-trigger css-var-root ant-color-picker-css-var ant-color-picker-trigger-disabled"
+              class="g-color-picker-trigger css-var-root g-color-picker-css-var g-color-picker-trigger-disabled"
             >
               <div
-                class="ant-color-picker-clear"
+                class="g-color-picker-clear"
               />
             </div>
           </div>
@@ -995,16 +995,16 @@ exports[`Form form should support disabled 1`] = `
 
 exports[`Form form.item should support layout 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-root ant-form-css-var"
+  class="g-form g-form-horizontal css-var-root g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-form-item-label css-var-root"
+        class="g-col g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -1015,16 +1015,16 @@ exports[`Form form.item should support layout 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control css-var-root"
+        class="g-col g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
-              class="ant-input ant-input-outlined css-var-root ant-input-css-var"
+              class="g-input g-input-outlined css-var-root g-input-css-var"
               id="name"
               type="text"
               value=""
@@ -1035,13 +1035,13 @@ exports[`Form form.item should support layout 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-col-4 ant-form-item-label css-var-root"
+        class="g-col g-col-4 g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -1052,16 +1052,16 @@ exports[`Form form.item should support layout 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-col-14 ant-form-item-control css-var-root"
+        class="g-col g-col-14 g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
-              class="ant-input ant-input-outlined css-var-root ant-input-css-var"
+              class="g-input g-input-outlined css-var-root g-input-css-var"
               id="horizontal"
               type="text"
               value=""
@@ -1072,13 +1072,13 @@ exports[`Form form.item should support layout 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-vertical"
+    class="g-form-item css-var-root g-form-css-var g-form-item-vertical"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-form-item-label css-var-root"
+        class="g-col g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -1089,16 +1089,16 @@ exports[`Form form.item should support layout 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control css-var-root"
+        class="g-col g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
-              class="ant-input ant-input-outlined css-var-root ant-input-css-var"
+              class="g-input g-input-outlined css-var-root g-input-css-var"
               id="vertical"
               type="text"
               value=""
@@ -1109,13 +1109,13 @@ exports[`Form form.item should support layout 1`] = `
     </div>
   </div>
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-vertical"
+    class="g-form-item css-var-root g-form-css-var g-form-item-vertical"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-form-item-label css-var-root"
+        class="g-col g-form-item-label css-var-root"
       >
         <label
           class=""
@@ -1126,16 +1126,16 @@ exports[`Form form.item should support layout 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control css-var-root"
+        class="g-col g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
-              class="ant-input ant-input-outlined css-var-root ant-input-css-var"
+              class="g-input g-input-outlined css-var-root g-input-css-var"
               id="vertical2"
               type="text"
               value=""
@@ -1150,25 +1150,25 @@ exports[`Form form.item should support layout 1`] = `
 
 exports[`Form rtl render component should be rendered correctly in RTL direction 1`] = `
 <form
-  class="ant-form ant-form-horizontal ant-form-rtl css-var-root ant-form-css-var"
+  class="g-form g-form-horizontal g-form-rtl css-var-root g-form-css-var"
 />
 `;
 
 exports[`Form rtl render component should be rendered correctly in RTL direction 2`] = `
 <div
-  class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+  class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
 >
   <div
-    class="ant-row ant-row-rtl ant-form-item-row css-var-root"
+    class="g-row g-row-rtl g-form-item-row css-var-root"
   >
     <div
-      class="ant-col ant-form-item-control ant-col-rtl css-var-root"
+      class="g-col g-form-item-control g-col-rtl css-var-root"
     >
       <div
-        class="ant-form-item-control-input"
+        class="g-form-item-control-input"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="g-form-item-control-input-content"
         />
       </div>
     </div>

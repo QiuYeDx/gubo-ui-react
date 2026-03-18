@@ -2,25 +2,25 @@
 
 exports[`ConfigProvider.Form form requiredMark set requiredMark optional 1`] = `
 <form
-  class="ant-form ant-form-horizontal css-var-root ant-form-css-var"
+  class="g-form g-form-horizontal css-var-root g-form-css-var"
 >
   <div
-    class="ant-form-item css-var-root ant-form-css-var ant-form-item-horizontal"
+    class="g-form-item css-var-root g-form-css-var g-form-item-horizontal"
   >
     <div
-      class="ant-row ant-form-item-row css-var-root"
+      class="g-row g-form-item-row css-var-root"
     >
       <div
-        class="ant-col ant-form-item-label css-var-root"
+        class="g-col g-form-item-label css-var-root"
       >
         <label
-          class="ant-form-item-required-mark-optional"
+          class="g-form-item-required-mark-optional"
           for="age"
           title="年龄"
         >
           年龄
           <span
-            class="ant-form-item-optional"
+            class="g-form-item-optional"
             title=""
           >
             (optional)
@@ -28,13 +28,13 @@ exports[`ConfigProvider.Form form requiredMark set requiredMark optional 1`] = `
         </label>
       </div>
       <div
-        class="ant-col ant-form-item-control css-var-root"
+        class="g-col g-form-item-control css-var-root"
       >
         <div
-          class="ant-form-item-control-input"
+          class="g-form-item-control-input"
         >
           <div
-            class="ant-form-item-control-input-content"
+            class="g-form-item-control-input-content"
           >
             <input
               id="age"

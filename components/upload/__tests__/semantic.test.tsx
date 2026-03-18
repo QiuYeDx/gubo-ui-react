@@ -70,19 +70,19 @@ describe('Upload.Semantic', () => {
       </Upload>,
     );
 
-    const rootElement = container.querySelector<HTMLElement>('.ant-upload-wrapper');
+    const rootElement = container.querySelector<HTMLElement>('.g-upload-wrapper');
     expect(rootElement).toBeTruthy();
     expect(rootElement).toHaveStyle({ backgroundColor: 'rgb(255, 0, 0)' });
 
-    const listElement = container.querySelector<HTMLElement>('.ant-upload-list');
+    const listElement = container.querySelector<HTMLElement>('.g-upload-list');
     expect(listElement).toBeTruthy();
     expect(listElement).toHaveStyle({ backgroundColor: 'rgb(0, 0, 255)' });
 
-    const itemElement = container.querySelector<HTMLElement>('.ant-upload-list-item');
+    const itemElement = container.querySelector<HTMLElement>('.g-upload-list-item');
     expect(itemElement).toBeTruthy();
     expect(itemElement).toHaveStyle({ backgroundColor: 'rgb(0, 128, 0)' });
 
-    const uploadButtonElement = container.querySelector<HTMLElement>('.ant-upload-select');
+    const uploadButtonElement = container.querySelector<HTMLElement>('.g-upload-select');
     expect(uploadButtonElement).toBeTruthy();
     expect(uploadButtonElement).toHaveStyle({ backgroundColor: 'rgb(255, 255, 0)' });
   });
@@ -105,7 +105,7 @@ describe('Upload.Semantic', () => {
       </Upload>,
     );
 
-    const rootElement = container.querySelector('.ant-upload-wrapper');
+    const rootElement = container.querySelector('.g-upload-wrapper');
     expect(rootElement).toBeTruthy();
     expect(rootElement).toHaveStyle({ backgroundColor: 'rgb(255, 255, 0)' });
   });
@@ -138,7 +138,7 @@ describe('Upload.Semantic', () => {
       </ConfigProvider>,
     );
 
-    const rootElement = container.querySelector('.ant-upload-wrapper');
+    const rootElement = container.querySelector('.g-upload-wrapper');
     expect(rootElement).toHaveClass('context-upload-root', 'component-upload-root');
 
     expect(container.querySelector('.context-upload-list')).toBeTruthy();
@@ -167,15 +167,15 @@ describe('Upload.Semantic', () => {
       </ConfigProvider>,
     );
 
-    const rootElement = container.querySelector('.ant-upload-wrapper');
+    const rootElement = container.querySelector('.g-upload-wrapper');
     expect(rootElement).toBeTruthy();
     expect(rootElement).toHaveStyle({ backgroundColor: 'rgb(255, 0, 0)', borderWidth: '2px' });
 
-    const listElement = container.querySelector('.ant-upload-list');
+    const listElement = container.querySelector('.g-upload-list');
     expect(listElement).toBeTruthy();
     expect(listElement).toHaveStyle({ padding: '10px' });
 
-    const itemElement = container.querySelector('.ant-upload-list-item');
+    const itemElement = container.querySelector('.g-upload-list-item');
     expect(itemElement).toBeTruthy();
     expect(itemElement).toHaveStyle({ color: 'rgb(0, 0, 255)' });
   });

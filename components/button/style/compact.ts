@@ -12,7 +12,7 @@ import { prepareComponentToken, prepareToken } from './token';
 const genButtonCompactStyle: GenerateStyle<ButtonToken> = (token) => {
   const { antCls, componentCls, lineWidth, calc, colorBgContainer } = token;
 
-  const solidSelector = `${componentCls}-variant-solid:not([disabled])`;
+  const solidSelector = `${componentCls}-varig-solid:not([disabled])`;
   const insetOffset = calc(lineWidth).mul(-1).equal();
 
   const [varName, varRef] = genCssVar(antCls, 'btn');

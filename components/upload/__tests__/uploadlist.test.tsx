@@ -107,8 +107,8 @@ describe('Upload List', () => {
       </Upload>,
     );
     fileList.forEach((file, i) => {
-      const linkNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail')[i];
-      const imgNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail img')[i];
+      const linkNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail')[i];
+      const imgNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail img')[i];
       expect(linkNode.getAttribute('href')).toBe(file.url);
       expect(imgNode.getAttribute('src')).toBe(file.thumbUrl);
     });
@@ -132,9 +132,9 @@ describe('Upload List', () => {
       </Upload>,
     );
 
-    const root = container.querySelector('.ant-upload-wrapper');
-    const list = container.querySelector('.ant-upload-list');
-    const item = container.querySelector('.ant-upload-list-item');
+    const root = container.querySelector('.g-upload-wrapper');
+    const list = container.querySelector('.g-upload-list');
+    const item = container.querySelector('.g-upload-list-item');
     expect(root).toHaveClass(customClassNames.root);
     expect(list).toHaveClass(customClassNames.list);
     expect(item).toHaveClass(customClassNames.item);
@@ -166,9 +166,9 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(container.querySelectorAll('.ant-upload-list-item').length).toBe(2);
+    expect(container.querySelectorAll('.g-upload-list-item').length).toBe(2);
     fireEvent.click(
-      container.querySelectorAll('.ant-upload-list-item')[0].querySelector('.anticon-delete')!,
+      container.querySelectorAll('.g-upload-list-item')[0].querySelector('.gicon-delete')!,
     );
 
     // Upload use Promise to wait remove action. Let's wait this also.
@@ -176,13 +176,13 @@ describe('Upload List', () => {
 
     // Progress motion to done
     // React 17 will reach deadline, so we need check if already done
-    if (container.querySelector('.ant-upload-animate-leave-active')) {
-      fireEvent.animationEnd(container.querySelector('.ant-upload-animate-leave-active')!);
+    if (container.querySelector('.g-upload-animate-leave-active')) {
+      fireEvent.animationEnd(container.querySelector('.g-upload-animate-leave-active')!);
     }
 
     await waitFakeTimer();
 
-    expect(container.querySelectorAll('.ant-upload-list-item-container')).toHaveLength(1);
+    expect(container.querySelectorAll('.g-upload-list-item-container')).toHaveLength(1);
 
     unmount();
   });
@@ -251,18 +251,18 @@ describe('Upload List', () => {
         file: expect.objectContaining({ status: 'error' }),
       }),
     );
-    if (wrapper.querySelector('.ant-upload-animate-appear-active')) {
-      fireEvent.animationEnd(wrapper.querySelector('.ant-upload-animate-appear-active')!);
+    if (wrapper.querySelector('.g-upload-animate-appear-active')) {
+      fireEvent.animationEnd(wrapper.querySelector('.g-upload-animate-appear-active')!);
     }
 
     await waitFakeTimer();
     expect(wrapper.firstChild).toMatchSnapshot();
 
     // Error message
-    fireEvent.mouseEnter(wrapper.querySelector('.ant-upload-list-item')!);
+    fireEvent.mouseEnter(wrapper.querySelector('.g-upload-list-item')!);
 
     await waitFakeTimer();
-    expect(baseElement.querySelector('.ant-tooltip')).not.toHaveClass('.ant-tooltip-hidden');
+    expect(baseElement.querySelector('.g-tooltip')).not.toHaveClass('.g-tooltip-hidden');
 
     unmount();
   });
@@ -308,9 +308,9 @@ describe('Upload List', () => {
     );
 
     // Has error item className
-    fireEvent.mouseEnter(wrapper.querySelector('.ant-upload-list-item-error')!);
+    fireEvent.mouseEnter(wrapper.querySelector('.g-upload-list-item-error')!);
 
-    expect(wrapper.querySelectorAll('div.ant-upload-list-item i.anticon-download').length).toBe(0);
+    expect(wrapper.querySelectorAll('div.g-upload-list-item i.gicon-download').length).toBe(0);
 
     unmount();
   });
@@ -328,7 +328,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.querySelectorAll('div.ant-upload-list-item i.anticon-download').length).toBe(0);
+    expect(wrapper.querySelectorAll('div.g-upload-list-item i.gicon-download').length).toBe(0);
 
     unmount();
   });
@@ -344,7 +344,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.querySelectorAll('div.ant-upload-list-item i.anticon-download').length).toBe(0);
+    expect(wrapper.querySelectorAll('div.g-upload-list-item i.gicon-download').length).toBe(0);
 
     unmount();
   });
@@ -356,9 +356,9 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    fireEvent.click(wrapper.querySelectorAll('.anticon-eye')[0]);
+    fireEvent.click(wrapper.querySelectorAll('.gicon-eye')[0]);
     expect(handlePreview).toHaveBeenCalledWith(fileList[0]);
-    fireEvent.click(wrapper.querySelectorAll('.anticon-eye')[1]);
+    fireEvent.click(wrapper.querySelectorAll('.gicon-eye')[1]);
     expect(handlePreview).toHaveBeenCalledWith(fileList[1]);
 
     unmount();
@@ -377,9 +377,9 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    fireEvent.click(wrapper.querySelectorAll('.anticon-delete')[0]);
+    fireEvent.click(wrapper.querySelectorAll('.gicon-delete')[0]);
     expect(handleRemove).toHaveBeenCalledWith(fileList[0]);
-    fireEvent.click(wrapper.querySelectorAll('.anticon-delete')[1]);
+    fireEvent.click(wrapper.querySelectorAll('.gicon-delete')[1]);
     expect(handleRemove).toHaveBeenCalledWith(fileList[1]);
     await waitFakeTimer();
     expect(handleChange).toHaveBeenCalledTimes(2);
@@ -408,7 +408,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    fireEvent.click(wrapper.querySelectorAll('.anticon-download')[0]);
+    fireEvent.click(wrapper.querySelectorAll('.gicon-download')[0]);
     expect(handleDownload).toHaveBeenCalled();
 
     unmount();
@@ -433,7 +433,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    fireEvent.click(wrapper.querySelectorAll('.anticon-download')[0]);
+    fireEvent.click(wrapper.querySelectorAll('.gicon-download')[0]);
 
     unmount();
   });
@@ -631,7 +631,7 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.querySelector('.anticon-delete')).toBeTruthy();
+    expect(wrapper.querySelector('.gicon-delete')).toBeTruthy();
     unmount();
   });
 
@@ -646,7 +646,7 @@ describe('Upload List', () => {
     ];
 
     const check = (wrapper: HTMLElement) => {
-      const actionEls = wrapper.querySelectorAll('.ant-upload-list-item-actions > *');
+      const actionEls = wrapper.querySelectorAll('.g-upload-list-item-actions > *');
       expect(actionEls).toHaveLength(3);
       // preview icon
       expect(actionEls[0]).not.toBeDisabled();
@@ -920,9 +920,7 @@ describe('Upload List', () => {
 
     await waitFakeTimer();
 
-    expect(wrapper.querySelector('.ant-upload-list-item-thumbnail')?.getAttribute('href')).toBe(
-      null,
-    );
+    expect(wrapper.querySelector('.g-upload-list-item-thumbnail')?.getAttribute('href')).toBe(null);
 
     unmount();
   });
@@ -941,7 +939,7 @@ describe('Upload List', () => {
     );
 
     // Not throw
-    const btn = wrapper.querySelector('.ant-btn');
+    const btn = wrapper.querySelector('.g-btn');
     expect(btn?.getAttribute('title')).toBe('Download file');
     fireEvent.click(btn!);
     expect(downloadFunc).toHaveBeenCalled();
@@ -958,7 +956,7 @@ describe('Upload List', () => {
         locale={{ previewFile: '' }}
       />,
     );
-    expect(wrapper.querySelectorAll('.ant-upload-list-item-thumbnail').length).toBe(1);
+    expect(wrapper.querySelectorAll('.g-upload-list-item-thumbnail').length).toBe(1);
     unmount();
   });
 
@@ -977,7 +975,7 @@ describe('Upload List', () => {
         showDownloadIcon
       />,
     );
-    fireEvent.click(wrapper.querySelector('div.ant-upload-list-item .anticon-download')!);
+    fireEvent.click(wrapper.querySelector('div.g-upload-list-item .gicon-download')!);
   });
 
   it('when picture-card is loading, icon should render correctly', () => {
@@ -989,8 +987,8 @@ describe('Upload List', () => {
         locale={{ uploading: 'uploading' }}
       />,
     );
-    expect(wrapper.querySelectorAll('.ant-upload-list-item-thumbnail')?.length).toBe(1);
-    expect(wrapper.querySelector('.ant-upload-list-item-thumbnail')?.textContent).toBe('uploading');
+    expect(wrapper.querySelectorAll('.g-upload-list-item-thumbnail')?.length).toBe(1);
+    expect(wrapper.querySelector('.g-upload-list-item-thumbnail')?.textContent).toBe('uploading');
 
     unmount();
   });
@@ -1010,9 +1008,9 @@ describe('Upload List', () => {
         onPreview={onPreview}
       />,
     );
-    fireEvent.click(wrapper.querySelector('.ant-upload-list-item-thumbnail')!);
+    fireEvent.click(wrapper.querySelector('.g-upload-list-item-thumbnail')!);
     expect(onPreview).toHaveBeenCalled();
-    fireEvent.click(wrapper.querySelector('.ant-upload-list-item-name')!);
+    fireEvent.click(wrapper.querySelector('.g-upload-list-item-name')!);
     expect(onPreview).toHaveBeenCalled();
     rerender(
       <UploadList
@@ -1022,7 +1020,7 @@ describe('Upload List', () => {
         onPreview={onPreview}
       />,
     );
-    fireEvent.click(wrapper.querySelector('.ant-upload-list-item-name')!);
+    fireEvent.click(wrapper.querySelector('.g-upload-list-item-name')!);
     expect(onPreview).toHaveBeenCalled();
 
     unmount();
@@ -1157,7 +1155,7 @@ describe('Upload List', () => {
         await waitFakeTimer();
 
         expect(
-          wrapper.querySelector('.ant-upload-list-item-thumbnail img')?.getAttribute('src'),
+          wrapper.querySelector('.g-upload-list-item-thumbnail img')?.getAttribute('src'),
         ).toBe(mockThumbnail);
 
         unmount();
@@ -1186,7 +1184,7 @@ describe('Upload List', () => {
           <button type="button">button</button>
         </Upload>,
       );
-      const imgNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail img');
       expect(imgNode.length).toBe(2);
       unmount();
     });
@@ -1201,7 +1199,7 @@ describe('Upload List', () => {
           <button type="button">button</button>
         </Upload>,
       );
-      const imgNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail img');
       expect(isImageUrl).toHaveBeenCalled();
       expect(imgNode.length).toBe(3);
       unmount();
@@ -1217,7 +1215,7 @@ describe('Upload List', () => {
           <button type="button">button</button>
         </Upload>,
       );
-      const imgNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail img');
       expect(isImageUrl).toHaveBeenCalled();
       expect(imgNode.length).toBe(0);
       unmount();
@@ -1258,7 +1256,7 @@ describe('Upload List', () => {
           <button type="button">upload</button>
         </Upload>,
       );
-      const imgNode = wrapper.container.querySelectorAll('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.container.querySelectorAll('.g-upload-list-item-thumbnail img');
       expect(imgNode.length).toBe(0);
 
       // Simulate change is a timeout change
@@ -1273,9 +1271,7 @@ describe('Upload List', () => {
 
       // Check for images
       await waitFakeTimer();
-      const afterImgNode = wrapper.container.querySelectorAll(
-        '.ant-upload-list-item-thumbnail img',
-      );
+      const afterImgNode = wrapper.container.querySelectorAll('.g-upload-list-item-thumbnail img');
       expect(afterImgNode.length).toBeTruthy();
 
       wrapper.unmount();
@@ -1311,7 +1307,7 @@ describe('Upload List', () => {
           <button type="button">upload</button>
         </Upload>,
       );
-      const imgNode = wrapper.container.querySelectorAll('.ant-upload-list-item-thumbnail img');
+      const imgNode = wrapper.container.querySelectorAll('.g-upload-list-item-thumbnail img');
       expect(imgNode.length).toBe(0);
       fireEvent.change(wrapper.container.querySelector('input')!, {
         target: { files: [nonImageFile] },
@@ -1319,7 +1315,7 @@ describe('Upload List', () => {
 
       await waitFakeTimer();
       expect(onChange).toHaveBeenCalled();
-      expect(wrapper.container.querySelectorAll('.ant-upload-list-item-thumbnail img').length).toBe(
+      expect(wrapper.container.querySelectorAll('.g-upload-list-item-thumbnail img').length).toBe(
         0,
       );
     });
@@ -1347,7 +1343,7 @@ describe('Upload List', () => {
         </button>
       </Upload>,
     );
-    expect(wrapper.querySelectorAll('.ant-upload-list button.trigger').length).toBeGreaterThan(0);
+    expect(wrapper.querySelectorAll('.g-upload-list button.trigger').length).toBeGreaterThan(0);
     rerender(
       <Upload
         action="http://jsonplaceholder.typicode.com/posts/"
@@ -1365,7 +1361,7 @@ describe('Upload List', () => {
         </button>
       </Upload>,
     );
-    expect(wrapper.querySelectorAll('.ant-upload-list button.trigger').length).toBe(0);
+    expect(wrapper.querySelectorAll('.g-upload-list button.trigger').length).toBe(0);
 
     unmount();
   });
@@ -1476,7 +1472,7 @@ describe('Upload List', () => {
     await waitFakeTimer();
 
     expect(beforeUpload).toHaveBeenCalled();
-    expect(wrapper.querySelectorAll('.ant-upload-list-text-container')).toHaveLength(0);
+    expect(wrapper.querySelectorAll('.g-upload-list-text-container')).toHaveLength(0);
 
     unmount();
   });
@@ -1508,7 +1504,7 @@ describe('Upload List', () => {
       </Upload>,
     );
     list.forEach((_, i) => {
-      const imgNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail img')[i];
+      const imgNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail img')[i];
       expect(imgNode.getAttribute('crossOrigin')).toBe(null);
     });
     unmount();
@@ -1548,7 +1544,7 @@ describe('Upload List', () => {
       </Upload>,
     );
     list.forEach((file, i) => {
-      const imgNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail img')[i];
+      const imgNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail img')[i];
       expect(imgNode.getAttribute('crossOrigin')).not.toBe(undefined);
       expect(imgNode.getAttribute('crossOrigin')).toBe(file.crossOrigin);
     });
@@ -1572,7 +1568,7 @@ describe('Upload List', () => {
       </Upload>,
     );
     list.forEach((_, i) => {
-      const imgNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail img')[i];
+      const imgNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail img')[i];
       expect(imgNode.getAttribute('crossOrigin')).toBe(null);
     });
     unmount();
@@ -1612,7 +1608,7 @@ describe('Upload List', () => {
       </Upload>,
     );
     list.forEach((file, i) => {
-      const imgNode = wrapper.querySelectorAll('.ant-upload-list-item-thumbnail img')[i];
+      const imgNode = wrapper.querySelectorAll('.g-upload-list-item-thumbnail img')[i];
       expect(imgNode.getAttribute('crossOrigin')).not.toBe(undefined);
       expect(imgNode.getAttribute('crossOrigin')).toBe(file.crossOrigin);
     });
@@ -1633,9 +1629,9 @@ describe('Upload List', () => {
       const { container: wrapper, unmount } = render(
         <Upload fileList={list as UploadProps['defaultFileList']} listType="picture-card" />,
       );
-      expect(wrapper.querySelectorAll('.ant-upload-select').length).toBe(1);
-      expect(wrapper.querySelector<HTMLDivElement>('.ant-upload-select')).toHaveClass(
-        'ant-upload-hidden',
+      expect(wrapper.querySelectorAll('.g-upload-select').length).toBe(1);
+      expect(wrapper.querySelector<HTMLDivElement>('.g-upload-select')).toHaveClass(
+        'g-upload-hidden',
       );
       unmount();
     });
@@ -1658,9 +1654,9 @@ describe('Upload List', () => {
           listType="picture-card"
         />,
       );
-      expect(wrapper.querySelectorAll('.ant-upload-select').length).toBe(1);
-      expect(wrapper.querySelector<HTMLDivElement>('.ant-upload-select')).toHaveClass(
-        'ant-upload-hidden',
+      expect(wrapper.querySelectorAll('.g-upload-select').length).toBe(1);
+      expect(wrapper.querySelector<HTMLDivElement>('.g-upload-select')).toHaveClass(
+        'g-upload-hidden',
       );
       unmount();
     });
@@ -1684,7 +1680,7 @@ describe('Upload List', () => {
       />,
     );
 
-    fireEvent.click(container.querySelector('.anticon-delete')!);
+    fireEvent.click(container.querySelector('.gicon-delete')!);
 
     await waitFakeTimer();
 
@@ -1694,7 +1690,7 @@ describe('Upload List', () => {
       }),
     );
 
-    expect(container.querySelector('.ant-upload-list-item-error')).toBeTruthy();
+    expect(container.querySelector('.g-upload-list-item-error')).toBeTruthy();
   });
 
   // https://github.com/ant-design/ant-design/issues/42056
@@ -1718,7 +1714,7 @@ describe('Upload List', () => {
         </Form>,
       );
 
-      const removeButton = container.querySelector('.ant-upload-list-item-actions > button');
+      const removeButton = container.querySelector('.g-upload-list-item-actions > button');
       expect(removeButton).toBeTruthy();
       expect(removeButton).not.toBeDisabled();
     });
@@ -1746,9 +1742,9 @@ describe('Upload List', () => {
         </ConfigProvider>,
       );
 
-      expect(container.querySelector('.ant-upload-list-item-container')).toHaveStyle({
-        width: 'var(--ant-upload-picture-card-size)',
-        height: 'var(--ant-upload-picture-card-size)',
+      expect(container.querySelector('.g-upload-list-item-container')).toHaveStyle({
+        width: 'var(--g-upload-picture-card-size)',
+        height: 'var(--g-upload-picture-card-size)',
       });
     });
   });

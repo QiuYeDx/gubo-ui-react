@@ -59,7 +59,7 @@ const genSelectInputVariableStyle = (token: SelectToken, colors: VariableColors)
   };
 };
 
-/** Generate variant-scoped variable styles and status overrides for a Select input. */
+/** Generate varig-scoped variable styles and status overrides for a Select input. */
 const genSelectInputVariantStyle = (
   token: SelectToken,
   variant: string,

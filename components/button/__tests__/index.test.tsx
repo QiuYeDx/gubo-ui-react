@@ -98,21 +98,21 @@ describe('Button', () => {
         <Text>按钮</Text>
       </Button>,
     );
-    expect(container.querySelector('.ant-btn')).toHaveClass('ant-btn-two-chinese-chars');
+    expect(container.querySelector('.g-btn')).toHaveClass('g-btn-two-chinese-chars');
 
     rerender(
       <Button>
         <Text>大按钮</Text>
       </Button>,
     );
-    expect(container.querySelector('.ant-btn')).not.toHaveClass('ant-btn-two-chinese-chars');
+    expect(container.querySelector('.g-btn')).not.toHaveClass('g-btn-two-chinese-chars');
 
     rerender(
       <Button>
         <Text>按钮</Text>
       </Button>,
     );
-    expect(container.querySelector('.ant-btn')).toHaveClass('ant-btn-two-chinese-chars');
+    expect(container.querySelector('.g-btn')).toHaveClass('g-btn-two-chinese-chars');
   });
 
   // https://github.com/ant-design/ant-design/issues/56591
@@ -166,7 +166,7 @@ describe('Button', () => {
     };
     const wrapper = render(<DefaultButton />);
     fireEvent.click(wrapper.container.firstChild!);
-    expect(wrapper.container.querySelectorAll('.ant-btn-loading').length).toBe(1);
+    expect(wrapper.container.querySelectorAll('.g-btn-loading').length).toBe(1);
   });
 
   it('should change loading state with delay', () => {
@@ -180,7 +180,7 @@ describe('Button', () => {
     };
     const wrapper = render(<DefaultButton />);
     fireEvent.click(wrapper.container.firstChild!);
-    expect(wrapper.container.firstChild).not.toHaveClass('ant-btn-loading');
+    expect(wrapper.container.firstChild).not.toHaveClass('g-btn-loading');
   });
 
   it('should support custom icon className', () => {
@@ -212,7 +212,7 @@ describe('Button', () => {
       jest.runAllTimers();
     });
 
-    expect(container.querySelectorAll('.ant-btn-loading')).toHaveLength(0);
+    expect(container.querySelectorAll('.g-btn-loading')).toHaveLength(0);
 
     jest.useRealTimers();
   });
@@ -266,16 +266,16 @@ describe('Button', () => {
     jest.useFakeTimers();
     const { container, rerender, unmount } = render(<Button>Button</Button>);
     rerender(<Button loading />);
-    expect(container.querySelectorAll('.ant-btn-loading').length).toBe(1);
+    expect(container.querySelectorAll('.g-btn-loading').length).toBe(1);
     rerender(<Button loading={false} />);
-    expect(container.querySelectorAll('.ant-btn-loading').length).toBe(0);
+    expect(container.querySelectorAll('.g-btn-loading').length).toBe(0);
     rerender(<Button loading={{ delay: 50 }} />);
-    expect(container.querySelectorAll('.ant-btn-loading').length).toBe(0);
+    expect(container.querySelectorAll('.g-btn-loading').length).toBe(0);
     await waitFakeTimer();
-    expect(container.querySelectorAll('.ant-btn-loading').length).toBe(1);
+    expect(container.querySelectorAll('.g-btn-loading').length).toBe(1);
     rerender(<Button loading={false} />);
     await waitFakeTimer();
-    expect(container.querySelectorAll('.ant-btn-loading').length).toBe(0);
+    expect(container.querySelectorAll('.g-btn-loading').length).toBe(0);
     expect(unmount).not.toThrow();
     jest.useRealTimers();
   });
@@ -340,13 +340,13 @@ describe('Button', () => {
     expect(onClick).not.toHaveBeenCalled();
   });
 
-  it('should match class .ant-btn-disabled when button is disabled and href is not undefined', () => {
+  it('should match class .g-btn-disabled when button is disabled and href is not undefined', () => {
     const wrapper = render(
       <Button href="https://ant.design" disabled>
         click me
       </Button>,
     );
-    expect(wrapper.container.querySelector('.ant-btn')).toHaveClass('ant-btn-disabled');
+    expect(wrapper.container.querySelector('.g-btn')).toHaveClass('g-btn-disabled');
   });
 
   // https://github.com/ant-design/ant-design/issues/30953
@@ -452,19 +452,19 @@ describe('Button', () => {
     fireEvent.click(container.querySelector('.change-btn')!);
     expect(container.querySelector('.foo')).toHaveTextContent('frozen');
     fireEvent.click(container.querySelector('.change-btn')!);
-    expect(container.querySelectorAll('.ant-btn-loading-icon').length).toBe(0);
+    expect(container.querySelectorAll('.g-btn-loading-icon').length).toBe(0);
   });
 
   // https://github.com/ant-design/ant-design/issues/45273
   it('should display loading when delay is zero', () => {
     const { container } = render(<Button loading={{ delay: 0 }}>Button</Button>);
-    expect(container.querySelectorAll('.ant-btn-loading').length).toBe(1);
+    expect(container.querySelectorAll('.g-btn-loading').length).toBe(1);
   });
 
   // https://github.com/ant-design/ant-design/issues/47605
   it('Compatible with original `type` behavior', async () => {
     const { container } = render(<Button type={'' as any} />);
-    expect(container.querySelector('.ant-btn-default')).toBeTruthy();
+    expect(container.querySelector('.g-btn-default')).toBeTruthy();
   });
 
   it('should support autoInsertSpace', () => {
@@ -483,7 +483,7 @@ describe('Button', () => {
     );
 
     expect(defaultContainer.firstChild).toHaveStyle({
-      '--ant-button-solid-text-color': '#fff',
+      '--g-button-solid-text-color': '#fff',
     });
 
     const { container: darkContainer } = render(
@@ -495,7 +495,7 @@ describe('Button', () => {
     );
 
     expect(darkContainer.firstChild).toHaveStyle({
-      '--ant-button-solid-text-color': '#000',
+      '--g-button-solid-text-color': '#000',
     });
   });
 
@@ -507,8 +507,8 @@ describe('Button', () => {
             {color}
           </Button>,
         );
-        expect(container.firstChild).toHaveClass(`ant-btn-color-${color}`);
-        expect(container.firstChild).toHaveClass(`ant-btn-variant-${variant}`);
+        expect(container.firstChild).toHaveClass(`g-btn-color-${color}`);
+        expect(container.firstChild).toHaveClass(`g-btn-varig-${variant}`);
       });
     });
   });
@@ -553,8 +553,8 @@ describe('Button', () => {
         antd
       </Button>,
     );
-    const root = container.querySelector('.ant-btn');
-    const icon = container.querySelector('.ant-btn-icon');
+    const root = container.querySelector('.g-btn');
+    const icon = container.querySelector('.g-btn-icon');
     const content = getByText('antd');
     expect(root).toHaveClass(customClassNames.root);
     expect(icon).toHaveClass(customClassNames.icon);
@@ -566,7 +566,7 @@ describe('Button', () => {
         antd
       </Button>,
     );
-    const loadingIcon = container.querySelector('.ant-btn-icon');
+    const loadingIcon = container.querySelector('.g-btn-icon');
     expect(loadingIcon).toHaveClass(customClassNames.icon);
     expect(loadingIcon).toHaveStyle(cusomStyles.icon);
   });
@@ -586,10 +586,10 @@ describe('Button', () => {
       </ConfigProvider>,
     );
 
-    const button = container.querySelector('.ant-btn-default')!;
+    const button = container.querySelector('.g-btn-default')!;
     expect(button).toBeDisabled();
     expect(button).toHaveStyle({
-      '--ant-button-default-bg-disabled': 'rgba(0, 0, 0, 0.1)',
+      '--g-button-default-bg-disabled': 'rgba(0, 0, 0, 0.1)',
     });
   });
 
@@ -610,10 +610,10 @@ describe('Button', () => {
       </ConfigProvider>,
     );
 
-    const button = container.querySelector('.ant-btn-dashed')!;
+    const button = container.querySelector('.g-btn-dashed')!;
     expect(button).toBeDisabled();
     expect(button).toHaveStyle({
-      '--ant-button-dashed-bg-disabled': 'rgba(0, 0, 0, 0.2)',
+      '--g-button-dashed-bg-disabled': 'rgba(0, 0, 0, 0.2)',
     });
   });
 
@@ -624,8 +624,8 @@ describe('Button', () => {
       </ConfigProvider>,
     );
 
-    expect(container.firstChild).toHaveClass('ant-btn-variant-dashed');
-    expect(container.firstChild).toHaveClass('ant-btn-color-blue');
+    expect(container.firstChild).toHaveClass('g-btn-varig-dashed');
+    expect(container.firstChild).toHaveClass('g-btn-color-blue');
   });
 
   it('ConfigProvider support button shape', () => {
@@ -634,7 +634,7 @@ describe('Button', () => {
         <Button>Button</Button>
       </ConfigProvider>,
     );
-    expect(container.firstChild).toHaveClass('ant-btn-round');
+    expect(container.firstChild).toHaveClass('g-btn-round');
   });
 
   it('should show the component internal properties', () => {
@@ -646,8 +646,8 @@ describe('Button', () => {
       </ConfigProvider>,
     );
 
-    expect(container.firstChild).toHaveClass('ant-btn-variant-filled');
-    expect(container.firstChild).toHaveClass('ant-btn-color-green');
+    expect(container.firstChild).toHaveClass('g-btn-varig-filled');
+    expect(container.firstChild).toHaveClass('g-btn-color-green');
   });
 
   it('button type win the context', () => {
@@ -659,8 +659,8 @@ describe('Button', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.ant-btn-variant-solid')).toBeTruthy();
-    expect(container.querySelector('.ant-btn-color-dangerous')).toBeTruthy();
+    expect(container.querySelector('.g-btn-varig-solid')).toBeTruthy();
+    expect(container.querySelector('.g-btn-color-dangerous')).toBeTruthy();
   });
 
   it('support ConfigProvider loadingIcon', () => {
@@ -670,7 +670,7 @@ describe('Button', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.ant-btn-icon')).toHaveTextContent('foobar');
+    expect(container.querySelector('.g-btn-icon')).toHaveTextContent('foobar');
   });
 
   it('prefer loading.icon prop over ConfigProvider loadingIcon', () => {
@@ -680,7 +680,7 @@ describe('Button', () => {
       </ConfigProvider>,
     );
 
-    expect(container.querySelector('.ant-btn-icon')).toHaveTextContent('bamboo');
+    expect(container.querySelector('.g-btn-icon')).toHaveTextContent('bamboo');
   });
 
   describe('Button icon placement', () => {
@@ -694,7 +694,7 @@ describe('Button', () => {
     it('should use iconPlacement when provided ,and not log a deprecation with iconPosition', () => {
       const consoleWarnSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
       const { container } = render(<Button iconPlacement="end">Test</Button>);
-      expect(container.querySelector('.ant-btn-icon-end')).toBeTruthy();
+      expect(container.querySelector('.g-btn-icon-end')).toBeTruthy();
       expect(consoleWarnSpy).not.toHaveBeenCalled();
     });
 
@@ -704,13 +704,13 @@ describe('Button', () => {
       expect(consoleWarnSpy).toHaveBeenCalledWith(
         'Warning: [antd: Button] `iconPosition` is deprecated. Please use `iconPlacement` instead.',
       );
-      expect(container.querySelector('.ant-btn-icon-end')).toBeTruthy();
+      expect(container.querySelector('.g-btn-icon-end')).toBeTruthy();
     });
 
     it('should use default "start" when neither prop is provided', () => {
       const { container } = render(<Button>Test</Button>);
-      expect(container.querySelector('.ant-btn-icon-start')).toBeNull();
-      expect(container.querySelector('.ant-btn-icon-end')).toBeNull();
+      expect(container.querySelector('.g-btn-icon-start')).toBeNull();
+      expect(container.querySelector('.g-btn-icon-end')).toBeNull();
     });
 
     it('should prioritize iconPlacement over iconPosition when both are provided', () => {
@@ -719,7 +719,7 @@ describe('Button', () => {
           Test
         </Button>,
       );
-      expect(container.querySelector('.ant-btn-icon-end')).toBeTruthy();
+      expect(container.querySelector('.g-btn-icon-end')).toBeTruthy();
     });
   });
 });

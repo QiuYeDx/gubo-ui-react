@@ -13,14 +13,14 @@ describe('Grid.Server', () => {
       </Row>,
     );
 
-    const rowElement = container.querySelector<HTMLElement>('.ant-row');
+    const rowElement = container.querySelector<HTMLElement>('.g-row');
     expect(rowElement).toHaveStyle({
       marginInline: '-4px',
       marginTop: '',
       marginBottom: '',
     });
 
-    const colElement = container.querySelector<HTMLElement>('.ant-col');
+    const colElement = container.querySelector<HTMLElement>('.g-col');
     expect(colElement).toHaveStyle({
       paddingInline: '4px',
       paddingTop: '',

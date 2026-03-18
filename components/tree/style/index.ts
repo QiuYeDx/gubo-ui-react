@@ -60,7 +60,7 @@ export interface ComponentToken extends TreeSharedToken {
 }
 
 // ============================ Keyframes =============================
-const treeNodeFX = new Keyframes('ant-tree-node-fx-do-not-use', {
+const treeNodeFX = new Keyframes('g-tree-node-fx-do-not-use', {
   '0%': {
     opacity: 0,
   },

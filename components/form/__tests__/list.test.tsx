@@ -12,7 +12,7 @@ describe('Form.List', () => {
   //   index: number,
   //   value: string,
   // ) => {
-  //   fireEvent.change(wrapper.getElementsByClassName('ant-input')?.[index], { target: { value } });
+  //   fireEvent.change(wrapper.getElementsByClassName('g-input')?.[index], { target: { value } });
   //   await sleep();
   // };
 
@@ -78,25 +78,25 @@ describe('Form.List', () => {
       }
 
       await operate('.add');
-      expect(container.querySelectorAll('.ant-input').length).toBe(1);
+      expect(container.querySelectorAll('.g-input').length).toBe(1);
 
       await operate('.add');
-      expect(container.querySelectorAll('.ant-input').length).toBe(2);
+      expect(container.querySelectorAll('.g-input').length).toBe(2);
 
       await operate('.add');
-      expect(container.querySelectorAll('.ant-input').length).toBe(3);
+      expect(container.querySelectorAll('.g-input').length).toBe(3);
 
       await changeValue(2, '');
 
-      expect(container.querySelectorAll('.ant-form-item-explain').length).toBe(1);
+      expect(container.querySelectorAll('.g-form-item-explain').length).toBe(1);
 
       await operate('.remove-0');
-      expect(container.querySelectorAll('.ant-input').length).toBe(2);
-      expect(container.querySelectorAll('.ant-form-item-explain').length).toBe(1);
+      expect(container.querySelectorAll('.g-input').length).toBe(2);
+      expect(container.querySelectorAll('.g-form-item-explain').length).toBe(1);
 
       await operate('.remove-1');
-      expect(container.querySelectorAll('.ant-input').length).toBe(1);
-      expect(container.querySelectorAll('.ant-form-item-explain').length).toBe(0);
+      expect(container.querySelectorAll('.g-input').length).toBe(1);
+      expect(container.querySelectorAll('.g-form-item-explain').length).toBe(0);
     });
   };
 
@@ -204,10 +204,10 @@ describe('Form.List', () => {
     }
 
     await addItem();
-    expect(container.querySelector('.ant-form-item-explain div')?.innerHTML).toEqual('At least 2');
+    expect(container.querySelector('.g-form-item-explain div')?.innerHTML).toEqual('At least 2');
 
     await addItem();
-    expect(container.getElementsByClassName('ant-form-item-explain div')).toHaveLength(0);
+    expect(container.getElementsByClassName('g-form-item-explain div')).toHaveLength(0);
   });
 
   it('should render empty without errors', () => {
